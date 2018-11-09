@@ -1,0 +1,49 @@
+#include </home/nathaniel/.theme/colors>  
+  
+!.... other xresource code goes here  
+
+! clean up urxvt, add keybinds
+URxvt.intensityStyles: false
+URxvt.scrollBar: false 
+
+!URxvt*depth: 32
+Urxvt.font:xft:creep:size=11
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+
+!2bwm settings 
+
+twobwm.border_width: 5
+twobwm.outer_border: 20
+twobwm.focus_color: #ffffff
+twobwm.unfocus_color: #ffffff
+twobwm.fixed_color: bred
+twobwm.unkill_color: #ffffff
+twobwm.outer_border_color: bred
+twobwm.fixed_unkill_color: mag
+twobwm.inverted_colors: false
+twobwm.enable_compton: false
+
+*internalBorder: 20
+! Colors  
+*background:   bg  
+*foreground:   fg  
+*color0:      blk  
+*color8:      bblk  
+*color1:      red  
+*color9:      bred  
+*color2:      grn  
+*color10:     bgrn  
+*color3:      ylw  
+*color11:     bylw  
+*color4:      blu  
+*color12:     bblu  
+*color5:      mag  
+*color13:     bmag  
+*color6:      cyn  
+*color14:     bcyn  
+*color7:      wht  
+*color15:     bwht

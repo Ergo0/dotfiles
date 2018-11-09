@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# DO NOT SHARE YOUR KEY
+key=RVdPq4sc19BlFZCYpxxyMkHPa7Mg5ihL1oVHGxV16dtyUGg6YkkidKrNu8eG2Drt
+# Log URLs
+log=false
+# Log file location (if relevant)
+logfile="$HOME/.pstepw"
+# Copy links to clipboard after upload (requires xclip)
+clipboard=true
+# Send a notification when done
+notify=true
+# Open URL in browser
+browser=true
