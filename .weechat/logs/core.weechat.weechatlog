@@ -1,0 +1,2369 @@
+2018-11-05 23:24:22		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-11-05 23:24:22		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-11-05 23:24:22		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-11-05 23:24:22		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-11-05 23:24:22		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-05 23:24:32		irc: server freenode added
+2018-11-05 23:43:06		irc: server rizon added
+2018-11-06 09:36:45		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 09:37:08	=!=	irc: command "msg" must be executed on connected irc server
+2018-11-06 09:37:21	=!=	irc: currently connecting to server "rizon"!
+2018-11-06 09:38:00		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 09:38:03	=!=	Error with command "/server remove rizon" (help on command: /help server)
+2018-11-06 09:38:10	=!=	Error with command "/server delete  rizon" (help on command: /help server)
+2018-11-06 09:38:25		All servers:
+2018-11-06 09:38:25		   freenode
+2018-11-06 09:38:25		   rizon
+2018-11-06 09:38:28	=!=	Error with command "/server rizon" (help on command: /help server)
+2018-11-06 09:38:34		[irc]  /server  list|listfull [<server>]
+2018-11-06 09:38:34		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2018-11-06 09:38:34		                copy|rename <server> <new_name>
+2018-11-06 09:38:34		                reorder <server> [<server>...]
+2018-11-06 09:38:34		                open <server>|-all [<server>...]
+2018-11-06 09:38:34		                del|keep <server>
+2018-11-06 09:38:34		                deloutq|jump|raw
+2018-11-06 09:38:34		list, add or remove IRC servers
+2018-11-06 09:38:34		    list: list servers (without argument, this list is displayed)
+2018-11-06 09:38:34		listfull: list servers with detailed info for each server
+2018-11-06 09:38:34		     add: add a new server
+2018-11-06 09:38:34		  server: server name, for internal and display use
+2018-11-06 09:38:34		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2018-11-06 09:38:34		   -temp: add a temporary server (not saved)
+2018-11-06 09:38:34		  option: set option for server (for boolean option, value can be omitted)
+2018-11-06 09:38:34		nooption: set boolean option to 'off' (for example: -nossl)
+2018-11-06 09:38:34		    copy: duplicate a server
+2018-11-06 09:38:34		  rename: rename a server
+2018-11-06 09:38:34		 reorder: reorder list of servers
+2018-11-06 09:38:34		    open: open the server buffer without connecting
+2018-11-06 09:38:34		    keep: keep server in config file (for temporary servers only)
+2018-11-06 09:38:34		     del: delete a server
+2018-11-06 09:38:34		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2018-11-06 09:38:34		    jump: jump to server buffer
+2018-11-06 09:38:34		     raw: open buffer with raw IRC data
+2018-11-06 09:38:34		Examples:
+2018-11-06 09:38:34		  /server listfull
+2018-11-06 09:38:34		  /server add freenode chat.freenode.net
+2018-11-06 09:38:34		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2018-11-06 09:38:34		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2018-11-06 09:38:34		  /server copy freenode freenode-test
+2018-11-06 09:38:34		  /server rename freenode-test freenode2
+2018-11-06 09:38:34		  /server reorder freenode2 freenode
+2018-11-06 09:38:34		  /server del freenode
+2018-11-06 09:38:34		  /server deloutq
+2018-11-06 09:38:47		irc: server rizon has been deleted
+2018-11-06 09:39:05		irc: server rizon added
+2018-11-06 09:39:26		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 12:32:30		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 14:04:56		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 14:08:59	=!=	Error: unknown command "/fset" (type /help for help)
+2018-11-06 14:09:02	=!=	Error: unknown command "/fset" (type /help for help)
+2018-11-06 14:09:08	=!=	Error: unknown command "/fset" (type /help for help)
+2018-11-06 14:09:13	=!=	Error: unknown command "/fset" (type /help for help)
+2018-11-06 14:09:18	=!=	Error: unknown command "/fset" (type /help for help)
+2018-11-06 14:09:46		[core]
+2018-11-06 14:09:46		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-11-06 14:09:46		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-11-06 14:09:46		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-11-06 14:09:46		[alias]
+2018-11-06 14:09:46		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-11-06 14:09:46		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-11-06 14:09:46		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-11-06 14:09:46		[buflist]
+2018-11-06 14:09:46		  buflist
+2018-11-06 14:09:46		[charset]
+2018-11-06 14:09:46		  charset
+2018-11-06 14:09:46		[exec]
+2018-11-06 14:09:46		  exec
+2018-11-06 14:09:46		[fifo]
+2018-11-06 14:09:46		  fifo
+2018-11-06 14:09:46		[irc]
+2018-11-06 14:09:46		  admin       dcc         invite      map         op          rehash      service     unban       whois     
+2018-11-06 14:09:46		  allchan     dehalfop    ison        me          oper        remove      servlist    unquiet     whowas    
+2018-11-06 14:09:46		  allpv       deop        join        mode        part        restart     squery      userhost  
+2018-11-06 14:09:46		  allserv     devoice     kick        motd        ping        sajoin      squit       users     
+2018-11-06 14:09:46		  ban         die         kickban     msg         pong        samode      stats       version   
+2018-11-06 14:09:46		  cap         disconnect  kill        names       query       sanick      summon      voice     
+2018-11-06 14:09:46		  connect     halfop      links       nick        quiet       sapart      time        wallchops 
+2018-11-06 14:09:46		  ctcp        ignore      list        notice      quote       saquit      topic       wallops   
+2018-11-06 14:09:46		  cycle       info        lusers      notify      reconnect   server      trace       who       
+2018-11-06 14:09:46		[logger]
+2018-11-06 14:09:46		  logger
+2018-11-06 14:09:46		[relay]
+2018-11-06 14:09:46		  relay
+2018-11-06 14:09:46		[script]
+2018-11-06 14:09:46		  script
+2018-11-06 14:09:46		[perl]
+2018-11-06 14:09:46		  perl
+2018-11-06 14:09:46		[python]
+2018-11-06 14:09:46		  python
+2018-11-06 14:09:46		[trigger]
+2018-11-06 14:09:46		  trigger
+2018-11-06 14:09:46		[xfer]
+2018-11-06 14:09:46		  me  xfer
+2018-11-06 14:10:36		[crypt] (sec.conf)
+2018-11-06 14:10:36		  sec.crypt.cipher = aes256
+2018-11-06 14:10:36		  sec.crypt.hash_algo = sha256
+2018-11-06 14:10:36		  sec.crypt.passphrase_file = ""
+2018-11-06 14:10:36		  sec.crypt.salt = on
+2018-11-06 14:10:36		[startup] (weechat.conf)
+2018-11-06 14:10:36		  weechat.startup.command_after_plugins = ""
+2018-11-06 14:10:36		  weechat.startup.command_before_plugins = ""
+2018-11-06 14:10:36		  weechat.startup.display_logo = on
+2018-11-06 14:10:36		  weechat.startup.display_version = on
+2018-11-06 14:10:36		  weechat.startup.sys_rlimit = ""
+2018-11-06 14:10:36		[look] (weechat.conf)
+2018-11-06 14:10:36		  weechat.look.align_end_of_lines = message
+2018-11-06 14:10:36		  weechat.look.align_multiline_words = on
+2018-11-06 14:10:36		  weechat.look.bar_more_down = "++"
+2018-11-06 14:10:36		  weechat.look.bar_more_left = "<<"
+2018-11-06 14:10:36		  weechat.look.bar_more_right = ">>"
+2018-11-06 14:10:36		  weechat.look.bar_more_up = "--"
+2018-11-06 14:10:36		  weechat.look.bare_display_exit_on_input = on
+2018-11-06 14:10:36		  weechat.look.bare_display_time_format = "%H:%M"
+2018-11-06 14:10:36		  weechat.look.buffer_auto_renumber = on
+2018-11-06 14:10:36		  weechat.look.buffer_notify_default = all
+2018-11-06 14:10:36		  weechat.look.buffer_position = end
+2018-11-06 14:10:36		  weechat.look.buffer_search_case_sensitive = off
+2018-11-06 14:10:36		  weechat.look.buffer_search_force_default = off
+2018-11-06 14:10:36		  weechat.look.buffer_search_regex = off
+2018-11-06 14:10:36		  weechat.look.buffer_search_where = prefix_message
+2018-11-06 14:10:36		  weechat.look.buffer_time_format = "%H:%M:%S"
+2018-11-06 14:10:36		  weechat.look.color_basic_force_bold = off
+2018-11-06 14:10:36		  weechat.look.color_inactive_buffer = on
+2018-11-06 14:10:36		  weechat.look.color_inactive_message = on
+2018-11-06 14:10:36		  weechat.look.color_inactive_prefix = on
+2018-11-06 14:10:36		  weechat.look.color_inactive_prefix_buffer = on
+2018-11-06 14:10:36		  weechat.look.color_inactive_time = off
+2018-11-06 14:10:36		  weechat.look.color_inactive_window = on
+2018-11-06 14:10:36		  weechat.look.color_nick_offline = off
+2018-11-06 14:10:36		  weechat.look.color_pairs_auto_reset = 5
+2018-11-06 14:10:36		  weechat.look.color_real_white = off
+2018-11-06 14:10:36		  weechat.look.command_chars = ""
+2018-11-06 14:10:36		  weechat.look.command_incomplete = off
+2018-11-06 14:10:36		  weechat.look.confirm_quit = off
+2018-11-06 14:10:36		  weechat.look.confirm_upgrade = off
+2018-11-06 14:10:36		  weechat.look.day_change = on
+2018-11-06 14:10:36		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2018-11-06 14:10:36		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2018-11-06 14:10:36		  weechat.look.eat_newline_glitch = off
+2018-11-06 14:10:36		  weechat.look.emphasized_attributes = ""
+2018-11-06 14:10:36		  weechat.look.highlight = ""
+2018-11-06 14:10:36		  weechat.look.highlight_regex = ""
+2018-11-06 14:10:36		  weechat.look.highlight_tags = ""
+2018-11-06 14:10:36		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"
+2018-11-06 14:10:36		  weechat.look.hotlist_buffer_separator = ", "
+2018-11-06 14:10:36		  weechat.look.hotlist_count_max = 2
+2018-11-06 14:10:36		  weechat.look.hotlist_count_min_msg = 2
+2018-11-06 14:10:36		  weechat.look.hotlist_names_count = 3
+2018-11-06 14:10:36		  weechat.look.hotlist_names_length = 0
+2018-11-06 14:10:36		  weechat.look.hotlist_names_level = 12
+2018-11-06 14:10:36		  weechat.look.hotlist_names_merged_buffers = off
+2018-11-06 14:10:36		  weechat.look.hotlist_prefix = "H: "
+2018-11-06 14:10:36		  weechat.look.hotlist_remove = merged
+2018-11-06 14:10:36		  weechat.look.hotlist_short_names = on
+2018-11-06 14:10:36		  weechat.look.hotlist_sort = group_time_asc
+2018-11-06 14:10:36		  weechat.look.hotlist_suffix = ""
+2018-11-06 14:10:36		  weechat.look.hotlist_unique_numbers = on
+2018-11-06 14:10:36		  weechat.look.input_cursor_scroll = 20
+2018-11-06 14:10:36		  weechat.look.input_share = none
+2018-11-06 14:10:36		  weechat.look.input_share_overwrite = off
+2018-11-06 14:10:36		  weechat.look.input_undo_max = 32
+2018-11-06 14:10:36		  weechat.look.item_away_message = on
+2018-11-06 14:10:36		  weechat.look.item_buffer_filter = "*"
+2018-11-06 14:10:36		  weechat.look.item_buffer_zoom = "!"
+2018-11-06 14:10:36		  weechat.look.item_mouse_status = "M"
+2018-11-06 14:10:36		  weechat.look.item_time_format = "%H:%M"
+2018-11-06 14:10:36		  weechat.look.jump_current_to_previous_buffer = on
+2018-11-06 14:10:36		  weechat.look.jump_previous_buffer_when_closing = on
+2018-11-06 14:10:36		  weechat.look.jump_smart_back_to_buffer = on
+2018-11-06 14:10:36		  weechat.look.key_bind_safe = on
+2018-11-06 14:10:36		  weechat.look.key_grab_delay = 800
+2018-11-06 14:10:36		  weechat.look.mouse = off
+2018-11-06 14:10:36		  weechat.look.mouse_timer_delay = 100
+2018-11-06 14:10:36		  weechat.look.nick_color_force = ""
+2018-11-06 14:10:36		  weechat.look.nick_color_hash = djb2
+2018-11-06 14:10:36		  weechat.look.nick_color_stop_chars = "_|["
+2018-11-06 14:10:36		  weechat.look.nick_prefix = ""
+2018-11-06 14:10:36		  weechat.look.nick_suffix = ""
+2018-11-06 14:10:36		  weechat.look.paste_auto_add_newline = on
+2018-11-06 14:10:36		  weechat.look.paste_bracketed = on
+2018-11-06 14:10:36		  weechat.look.paste_bracketed_timer_delay = 10
+2018-11-06 14:10:36		  weechat.look.paste_max_lines = 1
+2018-11-06 14:10:36		  weechat.look.prefix_action = " *"
+2018-11-06 14:10:36		  weechat.look.prefix_align = right
+2018-11-06 14:10:36		  weechat.look.prefix_align_max = 0
+2018-11-06 14:10:36		  weechat.look.prefix_align_min = 0
+2018-11-06 14:10:36		  weechat.look.prefix_align_more = "+"
+2018-11-06 14:10:36		  weechat.look.prefix_align_more_after = on
+2018-11-06 14:10:36		  weechat.look.prefix_buffer_align = right
+2018-11-06 14:10:36		  weechat.look.prefix_buffer_align_max = 0
+2018-11-06 14:10:36		  weechat.look.prefix_buffer_align_more = "+"
+2018-11-06 14:10:36		  weechat.look.prefix_buffer_align_more_after = on
+2018-11-06 14:10:36		  weechat.look.prefix_error = "=!="
+2018-11-06 14:10:36		  weechat.look.prefix_join = "-->"
+2018-11-06 14:10:36		  weechat.look.prefix_network = "--"
+2018-11-06 14:10:36		  weechat.look.prefix_quit = "<--"
+2018-11-06 14:10:36		  weechat.look.prefix_same_nick = ""
+2018-11-06 14:10:36		  weechat.look.prefix_suffix = "|"
+2018-11-06 14:10:36		  weechat.look.quote_nick_prefix = "<"
+2018-11-06 14:10:36		  weechat.look.quote_nick_suffix = ">"
+2018-11-06 14:10:36		  weechat.look.quote_time_format = "%H:%M:%S"
+2018-11-06 14:10:36		  weechat.look.read_marker = line
+2018-11-06 14:10:36		  weechat.look.read_marker_always_show = off
+2018-11-06 14:10:36		  weechat.look.read_marker_string = "- "
+2018-11-06 14:10:36		  weechat.look.save_config_on_exit = on
+2018-11-06 14:10:36		  weechat.look.save_layout_on_exit = none
+2018-11-06 14:10:36		  weechat.look.scroll_amount = 3
+2018-11-06 14:10:36		  weechat.look.scroll_bottom_after_switch = off
+2018-11-06 14:10:36		  weechat.look.scroll_page_percent = 100
+2018-11-06 14:10:36		  weechat.look.search_text_not_found_alert = on
+2018-11-06 14:10:36		  weechat.look.separator_horizontal = "-"
+2018-11-06 14:10:36		  weechat.look.separator_vertical = ""
+2018-11-06 14:10:36		  weechat.look.tab_width = 1
+2018-11-06 14:10:36		  weechat.look.time_format = "%a, %d %b %Y %T"
+2018-11-06 14:10:36		  weechat.look.window_auto_zoom = off
+2018-11-06 14:10:36		  weechat.look.window_separator_horizontal = on
+2018-11-06 14:10:36		  weechat.look.window_separator_vertical = on
+2018-11-06 14:10:36		  weechat.look.window_title = "WeeChat ${info:version}"
+2018-11-06 14:10:36		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2018-11-06 14:10:36		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-11-06 14:10:36		[color] (weechat.conf)
+2018-11-06 14:10:36		  weechat.color.bar_more = lightmagenta
+2018-11-06 14:10:36		  weechat.color.chat = default
+2018-11-06 14:10:36		  weechat.color.chat_bg = default
+2018-11-06 14:10:36		  weechat.color.chat_buffer = white
+2018-11-06 14:10:36		  weechat.color.chat_channel = white
+2018-11-06 14:10:36		  weechat.color.chat_day_change = cyan
+2018-11-06 14:10:36		  weechat.color.chat_delimiters = green
+2018-11-06 14:10:36		  weechat.color.chat_highlight = yellow
+2018-11-06 14:10:36		  weechat.color.chat_highlight_bg = magenta
+2018-11-06 14:10:36		  weechat.color.chat_host = cyan
+2018-11-06 14:10:36		  weechat.color.chat_inactive_buffer = default
+2018-11-06 14:10:36		  weechat.color.chat_inactive_window = default
+2018-11-06 14:10:36		  weechat.color.chat_nick = lightcyan
+2018-11-06 14:10:36		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2018-11-06 14:10:36		  weechat.color.chat_nick_offline = default
+2018-11-06 14:10:36		  weechat.color.chat_nick_offline_highlight = default
+2018-11-06 14:10:36		  weechat.color.chat_nick_offline_highlight_bg = blue
+2018-11-06 14:10:36		  weechat.color.chat_nick_other = cyan
+2018-11-06 14:10:36		  weechat.color.chat_nick_prefix = green
+2018-11-06 14:10:36		  weechat.color.chat_nick_self = white
+2018-11-06 14:10:36		  weechat.color.chat_nick_suffix = green
+2018-11-06 14:10:36		  weechat.color.chat_prefix_action = white
+2018-11-06 14:10:36		  weechat.color.chat_prefix_buffer = brown
+2018-11-06 14:10:36		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2018-11-06 14:10:36		  weechat.color.chat_prefix_error = yellow
+2018-11-06 14:10:36		  weechat.color.chat_prefix_join = lightgreen
+2018-11-06 14:10:36		  weechat.color.chat_prefix_more = lightmagenta
+2018-11-06 14:10:36		  weechat.color.chat_prefix_network = magenta
+2018-11-06 14:10:36		  weechat.color.chat_prefix_quit = lightred
+2018-11-06 14:10:36		  weechat.color.chat_prefix_suffix = green
+2018-11-06 14:10:36		  weechat.color.chat_read_marker = magenta
+2018-11-06 14:10:36		  weechat.color.chat_read_marker_bg = default
+2018-11-06 14:10:36		  weechat.color.chat_server = brown
+2018-11-06 14:10:36		  weechat.color.chat_tags = red
+2018-11-06 14:10:36		  weechat.color.chat_text_found = yellow
+2018-11-06 14:10:36		  weechat.color.chat_text_found_bg = lightmagenta
+2018-11-06 14:10:36		  weechat.color.chat_time = default
+2018-11-06 14:10:36		  weechat.color.chat_time_delimiters = brown
+2018-11-06 14:10:36		  weechat.color.chat_value = cyan
+2018-11-06 14:10:36		  weechat.color.chat_value_null = blue
+2018-11-06 14:10:36		  weechat.color.emphasized = yellow
+2018-11-06 14:10:36		  weechat.color.emphasized_bg = magenta
+2018-11-06 14:10:36		  weechat.color.input_actions = lightgreen
+2018-11-06 14:10:36		  weechat.color.input_text_not_found = red
+2018-11-06 14:10:36		  weechat.color.item_away = yellow
+2018-11-06 14:10:36		  weechat.color.nicklist_away = cyan
+2018-11-06 14:10:36		  weechat.color.nicklist_group = green
+2018-11-06 14:10:36		  weechat.color.separator = blue
+2018-11-06 14:10:36		  weechat.color.status_count_highlight = magenta
+2018-11-06 14:10:36		  weechat.color.status_count_msg = brown
+2018-11-06 14:10:36		  weechat.color.status_count_other = default
+2018-11-06 14:10:36		  weechat.color.status_count_private = green
+2018-11-06 14:10:36		  weechat.color.status_data_highlight = lightmagenta
+2018-11-06 14:10:36		  weechat.color.status_data_msg = yellow
+2018-11-06 14:10:36		  weechat.color.status_data_other = default
+2018-11-06 14:10:36		  weechat.color.status_data_private = lightgreen
+2018-11-06 14:10:36		  weechat.color.status_filter = green
+2018-11-06 14:10:36		  weechat.color.status_more = yellow
+2018-11-06 14:10:36		  weechat.color.status_mouse = green
+2018-11-06 14:10:36		  weechat.color.status_name = white
+2018-11-06 14:10:36		  weechat.color.status_name_ssl = lightgreen
+2018-11-06 14:10:36		  weechat.color.status_nicklist_count = default
+2018-11-06 14:10:36		  weechat.color.status_number = yellow
+2018-11-06 14:10:36		  weechat.color.status_time = default
+2018-11-06 14:10:36		[completion] (weechat.conf)
+2018-11-06 14:10:36		  weechat.completion.base_word_until_cursor = on
+2018-11-06 14:10:36		  weechat.completion.command_inline = on
+2018-11-06 14:10:36		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2018-11-06 14:10:36		  weechat.completion.nick_add_space = on
+2018-11-06 14:10:36		  weechat.completion.nick_case_sensitive = off
+2018-11-06 14:10:36		  weechat.completion.nick_completer = ":"
+2018-11-06 14:10:36		  weechat.completion.nick_first_only = off
+2018-11-06 14:10:36		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2018-11-06 14:10:36		  weechat.completion.partial_completion_alert = on
+2018-11-06 14:10:36		  weechat.completion.partial_completion_command = off
+2018-11-06 14:10:36		  weechat.completion.partial_completion_command_arg = off
+2018-11-06 14:10:36		  weechat.completion.partial_completion_count = on
+2018-11-06 14:10:36		  weechat.completion.partial_completion_other = off
+2018-11-06 14:10:36		[history] (weechat.conf)
+2018-11-06 14:10:36		  weechat.history.display_default = 5
+2018-11-06 14:10:36		  weechat.history.max_buffer_lines_minutes = 0
+2018-11-06 14:10:36		  weechat.history.max_buffer_lines_number = 4096
+2018-11-06 14:10:36		  weechat.history.max_commands = 100
+2018-11-06 14:10:36		  weechat.history.max_visited_buffers = 50
+2018-11-06 14:10:36		[network] (weechat.conf)
+2018-11-06 14:10:36		  weechat.network.connection_timeout = 60
+2018-11-06 14:10:36		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2018-11-06 14:10:36		  weechat.network.gnutls_handshake_timeout = 30
+2018-11-06 14:10:36		  weechat.network.proxy_curl = ""
+2018-11-06 14:10:36		[plugin] (weechat.conf)
+2018-11-06 14:10:36		  weechat.plugin.autoload = "*"
+2018-11-06 14:10:36		  weechat.plugin.debug = off
+2018-11-06 14:10:36		  weechat.plugin.extension = ".so,.dll"
+2018-11-06 14:10:36		  weechat.plugin.path = "%h/plugins"
+2018-11-06 14:10:36		  weechat.plugin.save_config_on_unload = on
+2018-11-06 14:10:36		[bar] (weechat.conf)
+2018-11-06 14:10:36		  weechat.bar.buflist.color_bg = default
+2018-11-06 14:10:36		  weechat.bar.buflist.color_delim = default
+2018-11-06 14:10:36		  weechat.bar.buflist.color_fg = default
+2018-11-06 14:10:36		  weechat.bar.buflist.conditions = ""
+2018-11-06 14:10:36		  weechat.bar.buflist.filling_left_right = vertical
+2018-11-06 14:10:36		  weechat.bar.buflist.filling_top_bottom = columns_vertical
+2018-11-06 14:10:36		  weechat.bar.buflist.hidden = off
+2018-11-06 14:10:36		  weechat.bar.buflist.items = "buflist"  (default: "")
+2018-11-06 14:10:36		  weechat.bar.buflist.position = left
+2018-11-06 14:10:36		  weechat.bar.buflist.priority = 0
+2018-11-06 14:10:36		  weechat.bar.buflist.separator = on
+2018-11-06 14:10:36		  weechat.bar.buflist.size = 0
+2018-11-06 14:10:36		  weechat.bar.buflist.size_max = 0
+2018-11-06 14:10:36		  weechat.bar.buflist.type = root
+2018-11-06 14:10:36		  weechat.bar.input.color_bg = default
+2018-11-06 14:10:36		  weechat.bar.input.color_delim = cyan
+2018-11-06 14:10:36		  weechat.bar.input.color_fg = default
+2018-11-06 14:10:36		  weechat.bar.input.conditions = ""
+2018-11-06 14:10:36		  weechat.bar.input.filling_left_right = vertical
+2018-11-06 14:10:36		  weechat.bar.input.filling_top_bottom = horizontal
+2018-11-06 14:10:36		  weechat.bar.input.hidden = off
+2018-11-06 14:10:36		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2018-11-06 14:10:36		  weechat.bar.input.position = bottom
+2018-11-06 14:10:36		  weechat.bar.input.priority = 1000
+2018-11-06 14:10:36		  weechat.bar.input.separator = off
+2018-11-06 14:10:36		  weechat.bar.input.size = 1
+2018-11-06 14:10:36		  weechat.bar.input.size_max = 0
+2018-11-06 14:10:36		  weechat.bar.input.type = window
+2018-11-06 14:10:36		  weechat.bar.nicklist.color_bg = default
+2018-11-06 14:10:36		  weechat.bar.nicklist.color_delim = cyan
+2018-11-06 14:10:36		  weechat.bar.nicklist.color_fg = default
+2018-11-06 14:10:36		  weechat.bar.nicklist.conditions = "${nicklist}"
+2018-11-06 14:10:36		  weechat.bar.nicklist.filling_left_right = vertical
+2018-11-06 14:10:36		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2018-11-06 14:10:36		  weechat.bar.nicklist.hidden = off
+2018-11-06 14:10:36		  weechat.bar.nicklist.items = "buffer_nicklist"
+2018-11-06 14:10:36		  weechat.bar.nicklist.position = right
+2018-11-06 14:10:36		  weechat.bar.nicklist.priority = 200
+2018-11-06 14:10:36		  weechat.bar.nicklist.separator = on
+2018-11-06 14:10:36		  weechat.bar.nicklist.size = 0
+2018-11-06 14:10:36		  weechat.bar.nicklist.size_max = 0
+2018-11-06 14:10:36		  weechat.bar.nicklist.type = window
+2018-11-06 14:10:36		  weechat.bar.status.color_bg = blue
+2018-11-06 14:10:36		  weechat.bar.status.color_delim = cyan
+2018-11-06 14:10:36		  weechat.bar.status.color_fg = default
+2018-11-06 14:10:36		  weechat.bar.status.conditions = ""
+2018-11-06 14:10:36		  weechat.bar.status.filling_left_right = vertical
+2018-11-06 14:10:36		  weechat.bar.status.filling_top_bottom = horizontal
+2018-11-06 14:10:36		  weechat.bar.status.hidden = off
+2018-11-06 14:10:36		  weechat.bar.status.items = "[time],[buffer_last_number],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+2018-11-06 14:10:36		  weechat.bar.status.position = bottom
+2018-11-06 14:10:36		  weechat.bar.status.priority = 500
+2018-11-06 14:10:36		  weechat.bar.status.separator = off
+2018-11-06 14:10:36		  weechat.bar.status.size = 1
+2018-11-06 14:10:36		  weechat.bar.status.size_max = 0
+2018-11-06 14:10:36		  weechat.bar.status.type = window
+2018-11-06 14:10:36		  weechat.bar.title.color_bg = blue
+2018-11-06 14:10:36		  weechat.bar.title.color_delim = cyan
+2018-11-06 14:10:36		  weechat.bar.title.color_fg = default
+2018-11-06 14:10:36		  weechat.bar.title.conditions = ""
+2018-11-06 14:10:36		  weechat.bar.title.filling_left_right = vertical
+2018-11-06 14:10:36		  weechat.bar.title.filling_top_bottom = horizontal
+2018-11-06 14:10:36		  weechat.bar.title.hidden = off
+2018-11-06 14:10:36		  weechat.bar.title.items = "buffer_title"
+2018-11-06 14:10:36		  weechat.bar.title.position = top
+2018-11-06 14:10:36		  weechat.bar.title.priority = 500
+2018-11-06 14:10:36		  weechat.bar.title.separator = off
+2018-11-06 14:10:36		  weechat.bar.title.size = 1
+2018-11-06 14:10:36		  weechat.bar.title.size_max = 0
+2018-11-06 14:10:36		  weechat.bar.title.type = window
+2018-11-06 14:10:36		[var] (plugins.conf)
+2018-11-06 14:10:36		  plugins.var.perl.check_license = "off"
+2018-11-06 14:10:36		  plugins.var.python.check_license = "off"
+2018-11-06 14:10:36		[default] (charset.conf)
+2018-11-06 14:10:36		  charset.default.decode = "ANSI_X3.4-1968"
+2018-11-06 14:10:36		  charset.default.encode = ""
+2018-11-06 14:10:36		[look] (logger.conf)
+2018-11-06 14:10:36		  logger.look.backlog = 20
+2018-11-06 14:10:36		[color] (logger.conf)
+2018-11-06 14:10:36		  logger.color.backlog_end = default
+2018-11-06 14:10:36		  logger.color.backlog_line = default
+2018-11-06 14:10:36		[file] (logger.conf)
+2018-11-06 14:10:36		  logger.file.auto_log = on
+2018-11-06 14:10:36		  logger.file.flush_delay = 120
+2018-11-06 14:10:36		  logger.file.info_lines = off
+2018-11-06 14:10:36		  logger.file.mask = "$plugin.$name.weechatlog"
+2018-11-06 14:10:36		  logger.file.name_lower_case = on
+2018-11-06 14:10:36		  logger.file.nick_prefix = ""
+2018-11-06 14:10:36		  logger.file.nick_suffix = ""
+2018-11-06 14:10:36		  logger.file.path = "%h/logs/"
+2018-11-06 14:10:36		  logger.file.replacement_char = "_"
+2018-11-06 14:10:36		  logger.file.time_format = "%Y-%m-%d %H:%M:%S"
+2018-11-06 14:10:36		[command] (exec.conf)
+2018-11-06 14:10:36		  exec.command.default_options = ""
+2018-11-06 14:10:36		  exec.command.purge_delay = 0
+2018-11-06 14:10:36		[color] (exec.conf)
+2018-11-06 14:10:36		  exec.color.flag_finished = lightred
+2018-11-06 14:10:36		  exec.color.flag_running = lightgreen
+2018-11-06 14:10:36		[look] (trigger.conf)
+2018-11-06 14:10:36		  trigger.look.enabled = on
+2018-11-06 14:10:36		  trigger.look.monitor_strip_colors = off
+2018-11-06 14:10:36		[color] (trigger.conf)
+2018-11-06 14:10:36		  trigger.color.flag_command = lightgreen
+2018-11-06 14:10:36		  trigger.color.flag_conditions = yellow
+2018-11-06 14:10:36		  trigger.color.flag_post_action = lightblue
+2018-11-06 14:10:36		  trigger.color.flag_regex = lightcyan
+2018-11-06 14:10:36		  trigger.color.flag_return_code = lightmagenta
+2018-11-06 14:10:36		  trigger.color.regex = white
+2018-11-06 14:10:36		  trigger.color.replace = cyan
+2018-11-06 14:10:36		  trigger.color.trigger = green
+2018-11-06 14:10:36		  trigger.color.trigger_disabled = red
+2018-11-06 14:10:36		[trigger] (trigger.conf)
+2018-11-06 14:10:36		  trigger.trigger.beep.arguments = ""
+2018-11-06 14:10:36		  trigger.trigger.beep.command = "/print -beep"
+2018-11-06 14:10:36		  trigger.trigger.beep.conditions = "${tg_displayed} && (${tg_highlight} || ${tg_msg_pv})"
+2018-11-06 14:10:36		  trigger.trigger.beep.enabled = on
+2018-11-06 14:10:36		  trigger.trigger.beep.hook = print
+2018-11-06 14:10:36		  trigger.trigger.beep.post_action = none
+2018-11-06 14:10:36		  trigger.trigger.beep.regex = ""
+2018-11-06 14:10:36		  trigger.trigger.beep.return_code = ok
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.command = ""
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.conditions = ""
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.enabled = on
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.hook = modifier
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.post_action = none
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.regex = "==^((/(msg|m|quote) +nickserv +(id|identify|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)|/oper +[^ ]+ +|/quote +pass +|/set +[^ ]*password[^ ]* +|/secure +(passphrase|decrypt|set +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass.return_code = ok
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.command = ""
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.conditions = ""
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.enabled = on
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.hook = modifier
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.post_action = none
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.regex = "==^(/(msg|m|quote) +nickserv +register +)([^ ]+)(.*)==${re:1}${hide:*,${re:3}}${re:4}"
+2018-11-06 14:10:36		  trigger.trigger.cmd_pass_register.return_code = ok
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.arguments = "5000|irc_message_auth"
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.command = ""
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.conditions = ""
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.enabled = on
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.hook = modifier
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.post_action = none
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.regex = "==^(.*(id|identify|register|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2018-11-06 14:10:36		  trigger.trigger.msg_auth.return_code = ok
+2018-11-06 14:10:36		  trigger.trigger.server_pass.arguments = "5000|input_text_display;5000|history_add"
+2018-11-06 14:10:36		  trigger.trigger.server_pass.command = ""
+2018-11-06 14:10:36		  trigger.trigger.server_pass.conditions = ""
+2018-11-06 14:10:36		  trigger.trigger.server_pass.enabled = on
+2018-11-06 14:10:36		  trigger.trigger.server_pass.hook = modifier
+2018-11-06 14:10:36		  trigger.trigger.server_pass.post_action = none
+2018-11-06 14:10:36		  trigger.trigger.server_pass.regex = "==^(/(server|connect) .*-(sasl_)?password=)([^ ]+)(.*)==${re:1}${hide:*,${re:4}}${re:5}"
+2018-11-06 14:10:36		  trigger.trigger.server_pass.return_code = ok
+2018-11-06 14:10:36		[cmd] (alias.conf)
+2018-11-06 14:10:36		  alias.cmd.AAWAY = "allserv /away"
+2018-11-06 14:10:36		  alias.cmd.AME = "allchan /me"
+2018-11-06 14:10:36		  alias.cmd.AMSG = "allchan /msg *"
+2018-11-06 14:10:36		  alias.cmd.ANICK = "allserv /nick"
+2018-11-06 14:10:36		  alias.cmd.BEEP = "print -beep"
+2018-11-06 14:10:36		  alias.cmd.BYE = "quit"
+2018-11-06 14:10:36		  alias.cmd.C = "buffer clear"
+2018-11-06 14:10:36		  alias.cmd.CHAT = "dcc chat"
+2018-11-06 14:10:36		  alias.cmd.CL = "buffer clear"
+2018-11-06 14:10:36		  alias.cmd.CLOSE = "buffer close"
+2018-11-06 14:10:36		  alias.cmd.EXIT = "quit"
+2018-11-06 14:10:36		  alias.cmd.IG = "ignore"
+2018-11-06 14:10:36		  alias.cmd.J = "join"
+2018-11-06 14:10:36		  alias.cmd.K = "kick"
+2018-11-06 14:10:36		  alias.cmd.KB = "kickban"
+2018-11-06 14:10:36		  alias.cmd.LEAVE = "part"
+2018-11-06 14:10:36		  alias.cmd.M = "msg"
+2018-11-06 14:10:36		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2018-11-06 14:10:36		  alias.cmd.MUB = "unban *"
+2018-11-06 14:10:36		  alias.cmd.N = "names"
+2018-11-06 14:10:36		  alias.cmd.Q = "query"
+2018-11-06 14:10:36		  alias.cmd.REDRAW = "window refresh"
+2018-11-06 14:10:36		  alias.cmd.SAY = "msg *"
+2018-11-06 14:10:36		  alias.cmd.SIGNOFF = "quit"
+2018-11-06 14:10:36		  alias.cmd.T = "topic"
+2018-11-06 14:10:36		  alias.cmd.UB = "unban"
+2018-11-06 14:10:36		  alias.cmd.UMODE = "mode $nick"
+2018-11-06 14:10:36		  alias.cmd.V = "command core version"
+2018-11-06 14:10:36		  alias.cmd.W = "who"
+2018-11-06 14:10:36		  alias.cmd.WC = "window merge"
+2018-11-06 14:10:36		  alias.cmd.WI = "whois"
+2018-11-06 14:10:36		  alias.cmd.WII = "whois $1 $1"
+2018-11-06 14:10:36		  alias.cmd.WW = "whowas"
+2018-11-06 14:10:36		[completion] (alias.conf)
+2018-11-06 14:10:36		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2018-11-06 14:10:36		[look] (buflist.conf)
+2018-11-06 14:10:36		  buflist.look.auto_scroll = 50
+2018-11-06 14:10:36		  buflist.look.display_conditions = "${buffer.hidden}==0"
+2018-11-06 14:10:36		  buflist.look.enabled = on
+2018-11-06 14:10:36		  buflist.look.mouse_jump_visited_buffer = off
+2018-11-06 14:10:36		  buflist.look.mouse_move_buffer = on
+2018-11-06 14:10:36		  buflist.look.mouse_wheel = on
+2018-11-06 14:10:36		  buflist.look.nick_prefix = off
+2018-11-06 14:10:36		  buflist.look.nick_prefix_empty = on
+2018-11-06 14:10:36		  buflist.look.signals_refresh = ""
+2018-11-06 14:10:36		  buflist.look.sort = "number,-active"
+2018-11-06 14:10:36		[format] (buflist.conf)
+2018-11-06 14:10:36		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2018-11-06 14:10:36		  buflist.format.buffer_current = "${color:,blue}${format_buffer}"
+2018-11-06 14:10:36		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2018-11-06 14:10:36		  buflist.format.hotlist_highlight = "${color:magenta}"
+2018-11-06 14:10:36		  buflist.format.hotlist_low = "${color:white}"
+2018-11-06 14:10:36		  buflist.format.hotlist_message = "${color:brown}"
+2018-11-06 14:10:36		  buflist.format.hotlist_none = "${color:default}"
+2018-11-06 14:10:36		  buflist.format.hotlist_private = "${color:green}"
+2018-11-06 14:10:36		  buflist.format.hotlist_separator = "${color:default},"
+2018-11-06 14:10:36		  buflist.format.indent = "  "
+2018-11-06 14:10:36		  buflist.format.lag = " ${color:green}[${color:brown}${lag}${color:green}]"
+2018-11-06 14:10:36		  buflist.format.name = "${name}"
+2018-11-06 14:10:36		  buflist.format.nick_prefix = "${color_nick_prefix}${nick_prefix}"
+2018-11-06 14:10:36		  buflist.format.number = "${color:green}${number}${if:${number_displayed}?.: }"
+2018-11-06 14:10:36		[file] (fifo.conf)
+2018-11-06 14:10:36		  fifo.file.enabled = on
+2018-11-06 14:10:36		  fifo.file.path = "%h/weechat_fifo"
+2018-11-06 14:10:36		[look] (xfer.conf)
+2018-11-06 14:10:36		  xfer.look.auto_open_buffer = on
+2018-11-06 14:10:36		  xfer.look.progress_bar_size = 20
+2018-11-06 14:10:36		  xfer.look.pv_tags = "notify_private"
+2018-11-06 14:10:36		[color] (xfer.conf)
+2018-11-06 14:10:36		  xfer.color.status_aborted = lightred
+2018-11-06 14:10:36		  xfer.color.status_active = lightblue
+2018-11-06 14:10:36		  xfer.color.status_connecting = yellow
+2018-11-06 14:10:36		  xfer.color.status_done = lightgreen
+2018-11-06 14:10:36		  xfer.color.status_failed = lightred
+2018-11-06 14:10:36		  xfer.color.status_waiting = lightcyan
+2018-11-06 14:10:36		  xfer.color.text = default
+2018-11-06 14:10:36		  xfer.color.text_bg = default
+2018-11-06 14:10:36		  xfer.color.text_selected = white
+2018-11-06 14:10:36		[network] (xfer.conf)
+2018-11-06 14:10:36		  xfer.network.blocksize = 65536
+2018-11-06 14:10:36		  xfer.network.fast_send = on
+2018-11-06 14:10:36		  xfer.network.own_ip = ""
+2018-11-06 14:10:36		  xfer.network.port_range = ""
+2018-11-06 14:10:36		  xfer.network.speed_limit = 0
+2018-11-06 14:10:36		  xfer.network.timeout = 300
+2018-11-06 14:10:36		[file] (xfer.conf)
+2018-11-06 14:10:36		  xfer.file.auto_accept_chats = off
+2018-11-06 14:10:36		  xfer.file.auto_accept_files = off
+2018-11-06 14:10:36		  xfer.file.auto_accept_nicks = ""
+2018-11-06 14:10:36		  xfer.file.auto_check_crc32 = off
+2018-11-06 14:10:36		  xfer.file.auto_rename = on
+2018-11-06 14:10:36		  xfer.file.auto_resume = on
+2018-11-06 14:10:36		  xfer.file.convert_spaces = on
+2018-11-06 14:10:36		  xfer.file.download_path = "%h/xfer"
+2018-11-06 14:10:36		  xfer.file.upload_path = "~"
+2018-11-06 14:10:36		  xfer.file.use_nick_in_filename = on
+2018-11-06 14:10:36		[look] (irc.conf)
+2018-11-06 14:10:36		  irc.look.buffer_open_before_autojoin = on
+2018-11-06 14:10:36		  irc.look.buffer_open_before_join = off
+2018-11-06 14:10:36		  irc.look.buffer_switch_autojoin = on
+2018-11-06 14:10:36		  irc.look.buffer_switch_join = on
+2018-11-06 14:10:36		  irc.look.color_nicks_in_names = off
+2018-11-06 14:10:36		  irc.look.color_nicks_in_nicklist = off
+2018-11-06 14:10:36		  irc.look.color_nicks_in_server_messages = on
+2018-11-06 14:10:36		  irc.look.color_pv_nick_like_channel = on
+2018-11-06 14:10:36		  irc.look.ctcp_time_format = "%a, %d %b %Y %T %z"
+2018-11-06 14:10:36		  irc.look.display_away = local
+2018-11-06 14:10:36		  irc.look.display_ctcp_blocked = on
+2018-11-06 14:10:36		  irc.look.display_ctcp_reply = on
+2018-11-06 14:10:36		  irc.look.display_ctcp_unknown = on
+2018-11-06 14:10:36		  irc.look.display_host_join = on
+2018-11-06 14:10:36		  irc.look.display_host_join_local = on
+2018-11-06 14:10:36		  irc.look.display_host_quit = on
+2018-11-06 14:10:36		  irc.look.display_join_message = "329,332,333,366"
+2018-11-06 14:10:36		  irc.look.display_old_topic = on
+2018-11-06 14:10:36		  irc.look.display_pv_away_once = on
+2018-11-06 14:10:36		  irc.look.display_pv_back = on
+2018-11-06 14:10:36		  irc.look.highlight_channel = "$nick"
+2018-11-06 14:10:36		  irc.look.highlight_pv = "$nick"
+2018-11-06 14:10:36		  irc.look.highlight_server = "$nick"
+2018-11-06 14:10:36		  irc.look.highlight_tags_restrict = "irc_privmsg,irc_notice"
+2018-11-06 14:10:36		  irc.look.item_channel_modes_hide_args = "k"
+2018-11-06 14:10:36		  irc.look.item_display_server = buffer_plugin
+2018-11-06 14:10:36		  irc.look.item_nick_modes = on
+2018-11-06 14:10:36		  irc.look.item_nick_prefix = on
+2018-11-06 14:10:36		  irc.look.join_auto_add_chantype = off
+2018-11-06 14:10:36		  irc.look.msgbuffer_fallback = current
+2018-11-06 14:10:36		  irc.look.new_channel_position = none
+2018-11-06 14:10:36		  irc.look.new_pv_position = none
+2018-11-06 14:10:36		  irc.look.nick_completion_smart = speakers
+2018-11-06 14:10:36		  irc.look.nick_mode = prefix
+2018-11-06 14:10:36		  irc.look.nick_mode_empty = off
+2018-11-06 14:10:36		  irc.look.nicks_hide_password = "nickserv"
+2018-11-06 14:10:36		  irc.look.notice_as_pv = auto
+2018-11-06 14:10:36		  irc.look.notice_welcome_redirect = on
+2018-11-06 14:10:36		  irc.look.notice_welcome_tags = ""
+2018-11-06 14:10:36		  irc.look.notify_tags_ison = "notify_message"
+2018-11-06 14:10:36		  irc.look.notify_tags_whois = "notify_message"
+2018-11-06 14:10:36		  irc.look.part_closes_buffer = off
+2018-11-06 14:10:36		  irc.look.pv_buffer = independent
+2018-11-06 14:10:36		  irc.look.pv_tags = "notify_private"
+2018-11-06 14:10:36		  irc.look.raw_messages = 256
+2018-11-06 14:10:36		  irc.look.server_buffer = merge_with_core
+2018-11-06 14:10:36		  irc.look.smart_filter = on
+2018-11-06 14:10:36		  irc.look.smart_filter_delay = 5
+2018-11-06 14:10:36		  irc.look.smart_filter_join = on
+2018-11-06 14:10:36		  irc.look.smart_filter_join_unmask = 30
+2018-11-06 14:10:36		  irc.look.smart_filter_mode = "+"
+2018-11-06 14:10:36		  irc.look.smart_filter_nick = on
+2018-11-06 14:10:36		  irc.look.smart_filter_quit = on
+2018-11-06 14:10:36		  irc.look.temporary_servers = off
+2018-11-06 14:10:36		  irc.look.topic_strip_colors = off
+2018-11-06 14:10:36		[color] (irc.conf)
+2018-11-06 14:10:36		  irc.color.input_nick = lightcyan
+2018-11-06 14:10:36		  irc.color.item_channel_modes = default
+2018-11-06 14:10:36		  irc.color.item_lag_counting = default
+2018-11-06 14:10:36		  irc.color.item_lag_finished = yellow
+2018-11-06 14:10:36		  irc.color.item_nick_modes = default
+2018-11-06 14:10:36		  irc.color.message_join = green
+2018-11-06 14:10:36		  irc.color.message_quit = red
+2018-11-06 14:10:36		  irc.color.mirc_remap = "1,-1:darkgray"
+2018-11-06 14:10:36		  irc.color.nick_prefixes = "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2018-11-06 14:10:36		  irc.color.notice = green
+2018-11-06 14:10:36		  irc.color.reason_quit = default
+2018-11-06 14:10:36		  irc.color.topic_current = default
+2018-11-06 14:10:36		  irc.color.topic_new = white
+2018-11-06 14:10:36		  irc.color.topic_old = default
+2018-11-06 14:10:36		[network] (irc.conf)
+2018-11-06 14:10:36		  irc.network.autoreconnect_delay_growing = 2
+2018-11-06 14:10:36		  irc.network.autoreconnect_delay_max = 600
+2018-11-06 14:10:36		  irc.network.ban_mask_default = "*!$ident@$host"
+2018-11-06 14:10:36		  irc.network.channel_encode = off
+2018-11-06 14:10:36		  irc.network.colors_receive = on
+2018-11-06 14:10:36		  irc.network.colors_send = on
+2018-11-06 14:10:36		  irc.network.lag_check = 60
+2018-11-06 14:10:36		  irc.network.lag_max = 1800
+2018-11-06 14:10:36		  irc.network.lag_min_show = 500
+2018-11-06 14:10:36		  irc.network.lag_reconnect = 300
+2018-11-06 14:10:36		  irc.network.lag_refresh_interval = 1
+2018-11-06 14:10:36		  irc.network.notify_check_ison = 1
+2018-11-06 14:10:36		  irc.network.notify_check_whois = 5
+2018-11-06 14:10:36		  irc.network.sasl_fail_unavailable = on
+2018-11-06 14:10:36		  irc.network.send_unknown_commands = off
+2018-11-06 14:10:36		  irc.network.whois_double_nick = off
+2018-11-06 14:10:36		[server_default] (irc.conf)
+2018-11-06 14:10:36		  irc.server_default.addresses = ""
+2018-11-06 14:10:36		  irc.server_default.anti_flood_prio_high = 2
+2018-11-06 14:10:36		  irc.server_default.anti_flood_prio_low = 2
+2018-11-06 14:10:36		  irc.server_default.autoconnect = off
+2018-11-06 14:10:36		  irc.server_default.autojoin = ""
+2018-11-06 14:10:36		  irc.server_default.autoreconnect = on
+2018-11-06 14:10:36		  irc.server_default.autoreconnect_delay = 10
+2018-11-06 14:10:36		  irc.server_default.autorejoin = off
+2018-11-06 14:10:36		  irc.server_default.autorejoin_delay = 30
+2018-11-06 14:10:36		  irc.server_default.away_check = 0
+2018-11-06 14:10:36		  irc.server_default.away_check_max_nicks = 25
+2018-11-06 14:10:36		  irc.server_default.capabilities = ""
+2018-11-06 14:10:36		  irc.server_default.command = ""
+2018-11-06 14:10:36		  irc.server_default.command_delay = 0
+2018-11-06 14:10:36		  irc.server_default.connection_timeout = 60
+2018-11-06 14:10:36		  irc.server_default.ipv6 = on
+2018-11-06 14:10:36		  irc.server_default.local_hostname = ""
+2018-11-06 14:10:36		  irc.server_default.msg_kick = ""
+2018-11-06 14:10:36		  irc.server_default.msg_part = "WeeChat ${info:version}"
+2018-11-06 14:10:36		  irc.server_default.msg_quit = "WeeChat ${info:version}"
+2018-11-06 14:10:36		  irc.server_default.nicks = "nathaniel,nathaniel1,nathaniel2,nathaniel3,nathaniel4"  (default: "")
+2018-11-06 14:10:36		  irc.server_default.nicks_alternate = on
+2018-11-06 14:10:36		  irc.server_default.notify = ""
+2018-11-06 14:10:36		  irc.server_default.password = ""
+2018-11-06 14:10:36		  irc.server_default.proxy = ""
+2018-11-06 14:10:36		  irc.server_default.realname = ""
+2018-11-06 14:10:36		  irc.server_default.sasl_fail = continue
+2018-11-06 14:10:36		  irc.server_default.sasl_key = ""
+2018-11-06 14:10:36		  irc.server_default.sasl_mechanism = plain
+2018-11-06 14:10:36		  irc.server_default.sasl_password = ""
+2018-11-06 14:10:36		  irc.server_default.sasl_timeout = 15
+2018-11-06 14:10:36		  irc.server_default.sasl_username = ""
+2018-11-06 14:10:36		  irc.server_default.ssl = off
+2018-11-06 14:10:36		  irc.server_default.ssl_cert = ""
+2018-11-06 14:10:36		  irc.server_default.ssl_dhkey_size = 2048
+2018-11-06 14:10:36		  irc.server_default.ssl_fingerprint = ""
+2018-11-06 14:10:36		  irc.server_default.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:10:36		  irc.server_default.ssl_verify = on
+2018-11-06 14:10:36		  irc.server_default.usermode = ""
+2018-11-06 14:10:36		  irc.server_default.username = "nathaniel"  (default: "")
+2018-11-06 14:10:36		[server] (irc.conf)
+2018-11-06 14:10:36		  irc.server.freenode.addresses = "irc.freenode.net"  (default if null: "")
+2018-11-06 14:10:36		  irc.server.freenode.anti_flood_prio_high = null -> 2
+2018-11-06 14:10:36		  irc.server.freenode.anti_flood_prio_low = null -> 2
+2018-11-06 14:10:36		  irc.server.freenode.autoconnect = null -> off
+2018-11-06 14:10:36		  irc.server.freenode.autojoin = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.autoreconnect = null -> on
+2018-11-06 14:10:36		  irc.server.freenode.autoreconnect_delay = null -> 10
+2018-11-06 14:10:36		  irc.server.freenode.autorejoin = null -> off
+2018-11-06 14:10:36		  irc.server.freenode.autorejoin_delay = null -> 30
+2018-11-06 14:10:36		  irc.server.freenode.away_check = null -> 0
+2018-11-06 14:10:36		  irc.server.freenode.away_check_max_nicks = null -> 25
+2018-11-06 14:10:36		  irc.server.freenode.capabilities = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.command = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.command_delay = null -> 0
+2018-11-06 14:10:36		  irc.server.freenode.connection_timeout = null -> 60
+2018-11-06 14:10:36		  irc.server.freenode.ipv6 = null -> on
+2018-11-06 14:10:36		  irc.server.freenode.local_hostname = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.msg_kick = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.msg_part = null -> "WeeChat ${info:version}"
+2018-11-06 14:10:36		  irc.server.freenode.msg_quit = null -> "WeeChat ${info:version}"
+2018-11-06 14:10:36		  irc.server.freenode.nicks = null -> "nathaniel,nathaniel1,nathaniel2,nathaniel3,nathaniel4"
+2018-11-06 14:10:36		  irc.server.freenode.nicks_alternate = null -> on
+2018-11-06 14:10:36		  irc.server.freenode.notify = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.password = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.proxy = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.realname = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.sasl_fail = null -> continue
+2018-11-06 14:10:36		  irc.server.freenode.sasl_key = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.sasl_mechanism = null -> plain
+2018-11-06 14:10:36		  irc.server.freenode.sasl_password = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.sasl_timeout = null -> 15
+2018-11-06 14:10:36		  irc.server.freenode.sasl_username = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.ssl = null -> off
+2018-11-06 14:10:36		  irc.server.freenode.ssl_cert = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.ssl_dhkey_size = null -> 2048
+2018-11-06 14:10:36		  irc.server.freenode.ssl_fingerprint = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:10:36		  irc.server.freenode.ssl_verify = null -> on
+2018-11-06 14:10:36		  irc.server.freenode.usermode = null -> ""
+2018-11-06 14:10:36		  irc.server.freenode.username = null -> "nathaniel"
+2018-11-06 14:10:36		  irc.server.rizon.addresses = "irc.rizon.net"  (default if null: "")
+2018-11-06 14:10:36		  irc.server.rizon.anti_flood_prio_high = null -> 2
+2018-11-06 14:10:36		  irc.server.rizon.anti_flood_prio_low = null -> 2
+2018-11-06 14:10:36		  irc.server.rizon.autoconnect = null -> off
+2018-11-06 14:10:36		  irc.server.rizon.autojoin = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.autoreconnect = null -> on
+2018-11-06 14:10:36		  irc.server.rizon.autoreconnect_delay = null -> 10
+2018-11-06 14:10:36		  irc.server.rizon.autorejoin = null -> off
+2018-11-06 14:10:36		  irc.server.rizon.autorejoin_delay = null -> 30
+2018-11-06 14:10:36		  irc.server.rizon.away_check = null -> 0
+2018-11-06 14:10:36		  irc.server.rizon.away_check_max_nicks = null -> 25
+2018-11-06 14:10:36		  irc.server.rizon.capabilities = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.command = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.command_delay = null -> 0
+2018-11-06 14:10:36		  irc.server.rizon.connection_timeout = null -> 60
+2018-11-06 14:10:36		  irc.server.rizon.ipv6 = null -> on
+2018-11-06 14:10:36		  irc.server.rizon.local_hostname = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.msg_kick = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.msg_part = null -> "WeeChat ${info:version}"
+2018-11-06 14:10:36		  irc.server.rizon.msg_quit = null -> "WeeChat ${info:version}"
+2018-11-06 14:10:36		  irc.server.rizon.nicks = null -> "nathaniel,nathaniel1,nathaniel2,nathaniel3,nathaniel4"
+2018-11-06 14:10:36		  irc.server.rizon.nicks_alternate = null -> on
+2018-11-06 14:10:36		  irc.server.rizon.notify = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.password = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.proxy = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.realname = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.sasl_fail = null -> continue
+2018-11-06 14:10:36		  irc.server.rizon.sasl_key = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.sasl_mechanism = null -> plain
+2018-11-06 14:10:36		  irc.server.rizon.sasl_password = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.sasl_timeout = null -> 15
+2018-11-06 14:10:36		  irc.server.rizon.sasl_username = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.ssl = null -> off
+2018-11-06 14:10:36		  irc.server.rizon.ssl_cert = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.ssl_dhkey_size = null -> 2048
+2018-11-06 14:10:36		  irc.server.rizon.ssl_fingerprint = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:10:36		  irc.server.rizon.ssl_verify = null -> on
+2018-11-06 14:10:36		  irc.server.rizon.usermode = null -> ""
+2018-11-06 14:10:36		  irc.server.rizon.username = null -> "nathaniel"
+2018-11-06 14:10:36		[look] (relay.conf)
+2018-11-06 14:10:36		  relay.look.auto_open_buffer = on
+2018-11-06 14:10:36		  relay.look.raw_messages = 256
+2018-11-06 14:10:36		[color] (relay.conf)
+2018-11-06 14:10:36		  relay.color.client = cyan
+2018-11-06 14:10:36		  relay.color.status_active = lightblue
+2018-11-06 14:10:36		  relay.color.status_auth_failed = lightred
+2018-11-06 14:10:36		  relay.color.status_connecting = yellow
+2018-11-06 14:10:36		  relay.color.status_disconnected = lightred
+2018-11-06 14:10:36		  relay.color.status_waiting_auth = brown
+2018-11-06 14:10:36		  relay.color.text = default
+2018-11-06 14:10:36		  relay.color.text_bg = default
+2018-11-06 14:10:36		  relay.color.text_selected = white
+2018-11-06 14:10:36		[network] (relay.conf)
+2018-11-06 14:10:36		  relay.network.allow_empty_password = off
+2018-11-06 14:10:36		  relay.network.allowed_ips = ""
+2018-11-06 14:10:36		  relay.network.bind_address = ""
+2018-11-06 14:10:36		  relay.network.clients_purge_delay = 0
+2018-11-06 14:10:36		  relay.network.compression_level = 6
+2018-11-06 14:10:36		  relay.network.ipv6 = on
+2018-11-06 14:10:36		  relay.network.max_clients = 5
+2018-11-06 14:10:36		  relay.network.password = ""
+2018-11-06 14:10:36		  relay.network.ssl_cert_key = "%h/ssl/relay.pem"
+2018-11-06 14:10:36		  relay.network.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:10:36		  relay.network.websocket_allowed_origins = ""
+2018-11-06 14:10:36		[irc] (relay.conf)
+2018-11-06 14:10:36		  relay.irc.backlog_max_minutes = 1440
+2018-11-06 14:10:36		  relay.irc.backlog_max_number = 256
+2018-11-06 14:10:36		  relay.irc.backlog_since_last_disconnect = on
+2018-11-06 14:10:36		  relay.irc.backlog_since_last_message = off
+2018-11-06 14:10:36		  relay.irc.backlog_tags = "irc_privmsg"
+2018-11-06 14:10:36		  relay.irc.backlog_time_format = "[%H:%M] "
+2018-11-06 14:10:36		[look] (script.conf)
+2018-11-06 14:10:36		  script.look.columns = "%s %n %V %v %u | %d | %t"
+2018-11-06 14:10:36		  script.look.diff_color = on
+2018-11-06 14:10:36		  script.look.diff_command = "auto"
+2018-11-06 14:10:36		  script.look.display_source = on
+2018-11-06 14:10:36		  script.look.quiet_actions = on
+2018-11-06 14:10:36		  script.look.sort = "p,n"
+2018-11-06 14:10:36		  script.look.translate_description = on
+2018-11-06 14:10:36		  script.look.use_keys = on
+2018-11-06 14:10:36		[color] (script.conf)
+2018-11-06 14:10:36		  script.color.status_autoloaded = cyan
+2018-11-06 14:10:36		  script.color.status_held = white
+2018-11-06 14:10:36		  script.color.status_installed = lightcyan
+2018-11-06 14:10:36		  script.color.status_obsolete = lightmagenta
+2018-11-06 14:10:36		  script.color.status_popular = yellow
+2018-11-06 14:10:36		  script.color.status_running = lightgreen
+2018-11-06 14:10:36		  script.color.status_unknown = lightred
+2018-11-06 14:10:36		  script.color.text = default
+2018-11-06 14:10:36		  script.color.text_bg = default
+2018-11-06 14:10:36		  script.color.text_bg_selected = red
+2018-11-06 14:10:36		  script.color.text_date = default
+2018-11-06 14:10:36		  script.color.text_date_selected = white
+2018-11-06 14:10:36		  script.color.text_delimiters = default
+2018-11-06 14:10:36		  script.color.text_description = default
+2018-11-06 14:10:36		  script.color.text_description_selected = white
+2018-11-06 14:10:36		  script.color.text_extension = default
+2018-11-06 14:10:36		  script.color.text_extension_selected = white
+2018-11-06 14:10:36		  script.color.text_name = cyan
+2018-11-06 14:10:36		  script.color.text_name_selected = lightcyan
+2018-11-06 14:10:36		  script.color.text_selected = white
+2018-11-06 14:10:36		  script.color.text_tags = brown
+2018-11-06 14:10:36		  script.color.text_tags_selected = yellow
+2018-11-06 14:10:36		  script.color.text_version = magenta
+2018-11-06 14:10:36		  script.color.text_version_loaded = default
+2018-11-06 14:10:36		  script.color.text_version_loaded_selected = white
+2018-11-06 14:10:36		  script.color.text_version_selected = lightmagenta
+2018-11-06 14:10:36		[scripts] (script.conf)
+2018-11-06 14:10:36		  script.scripts.autoload = on
+2018-11-06 14:10:36		  script.scripts.cache_expire = 1440
+2018-11-06 14:10:36		  script.scripts.download_timeout = 30
+2018-11-06 14:10:36		  script.scripts.hold = ""
+2018-11-06 14:10:36		  script.scripts.path = "%h/script"
+2018-11-06 14:10:36		  script.scripts.url = "https://weechat.org/files/plugins.xml.gz"
+2018-11-06 14:10:36		718 options
+2018-11-06 14:11:42		[crypt] (sec.conf)
+2018-11-06 14:11:42		  sec.crypt.cipher = aes256
+2018-11-06 14:11:42		  sec.crypt.hash_algo = sha256
+2018-11-06 14:11:42		  sec.crypt.passphrase_file = ""
+2018-11-06 14:11:42		  sec.crypt.salt = on
+2018-11-06 14:11:42		[startup] (weechat.conf)
+2018-11-06 14:11:42		  weechat.startup.command_after_plugins = ""
+2018-11-06 14:11:42		  weechat.startup.command_before_plugins = ""
+2018-11-06 14:11:42		  weechat.startup.display_logo = on
+2018-11-06 14:11:42		  weechat.startup.display_version = on
+2018-11-06 14:11:42		  weechat.startup.sys_rlimit = ""
+2018-11-06 14:11:42		[look] (weechat.conf)
+2018-11-06 14:11:42		  weechat.look.align_end_of_lines = message
+2018-11-06 14:11:42		  weechat.look.align_multiline_words = on
+2018-11-06 14:11:42		  weechat.look.bar_more_down = "++"
+2018-11-06 14:11:42		  weechat.look.bar_more_left = "<<"
+2018-11-06 14:11:42		  weechat.look.bar_more_right = ">>"
+2018-11-06 14:11:42		  weechat.look.bar_more_up = "--"
+2018-11-06 14:11:42		  weechat.look.bare_display_exit_on_input = on
+2018-11-06 14:11:42		  weechat.look.bare_display_time_format = "%H:%M"
+2018-11-06 14:11:42		  weechat.look.buffer_auto_renumber = on
+2018-11-06 14:11:42		  weechat.look.buffer_notify_default = all
+2018-11-06 14:11:42		  weechat.look.buffer_position = end
+2018-11-06 14:11:42		  weechat.look.buffer_search_case_sensitive = off
+2018-11-06 14:11:42		  weechat.look.buffer_search_force_default = off
+2018-11-06 14:11:42		  weechat.look.buffer_search_regex = off
+2018-11-06 14:11:42		  weechat.look.buffer_search_where = prefix_message
+2018-11-06 14:11:42		  weechat.look.buffer_time_format = "%H:%M:%S"
+2018-11-06 14:11:42		  weechat.look.color_basic_force_bold = off
+2018-11-06 14:11:42		  weechat.look.color_inactive_buffer = on
+2018-11-06 14:11:42		  weechat.look.color_inactive_message = on
+2018-11-06 14:11:42		  weechat.look.color_inactive_prefix = on
+2018-11-06 14:11:42		  weechat.look.color_inactive_prefix_buffer = on
+2018-11-06 14:11:42		  weechat.look.color_inactive_time = off
+2018-11-06 14:11:42		  weechat.look.color_inactive_window = on
+2018-11-06 14:11:42		  weechat.look.color_nick_offline = off
+2018-11-06 14:11:42		  weechat.look.color_pairs_auto_reset = 5
+2018-11-06 14:11:42		  weechat.look.color_real_white = off
+2018-11-06 14:11:42		  weechat.look.command_chars = ""
+2018-11-06 14:11:42		  weechat.look.command_incomplete = off
+2018-11-06 14:11:42		  weechat.look.confirm_quit = off
+2018-11-06 14:11:42		  weechat.look.confirm_upgrade = off
+2018-11-06 14:11:42		  weechat.look.day_change = on
+2018-11-06 14:11:42		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2018-11-06 14:11:42		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2018-11-06 14:11:42		  weechat.look.eat_newline_glitch = off
+2018-11-06 14:11:42		  weechat.look.emphasized_attributes = ""
+2018-11-06 14:11:42		  weechat.look.highlight = ""
+2018-11-06 14:11:42		  weechat.look.highlight_regex = ""
+2018-11-06 14:11:42		  weechat.look.highlight_tags = ""
+2018-11-06 14:11:42		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"
+2018-11-06 14:11:42		  weechat.look.hotlist_buffer_separator = ", "
+2018-11-06 14:11:42		  weechat.look.hotlist_count_max = 2
+2018-11-06 14:11:42		  weechat.look.hotlist_count_min_msg = 2
+2018-11-06 14:11:42		  weechat.look.hotlist_names_count = 3
+2018-11-06 14:11:42		  weechat.look.hotlist_names_length = 0
+2018-11-06 14:11:42		  weechat.look.hotlist_names_level = 12
+2018-11-06 14:11:42		  weechat.look.hotlist_names_merged_buffers = off
+2018-11-06 14:11:42		  weechat.look.hotlist_prefix = "H: "
+2018-11-06 14:11:42		  weechat.look.hotlist_remove = merged
+2018-11-06 14:11:42		  weechat.look.hotlist_short_names = on
+2018-11-06 14:11:42		  weechat.look.hotlist_sort = group_time_asc
+2018-11-06 14:11:42		  weechat.look.hotlist_suffix = ""
+2018-11-06 14:11:42		  weechat.look.hotlist_unique_numbers = on
+2018-11-06 14:11:42		  weechat.look.input_cursor_scroll = 20
+2018-11-06 14:11:42		  weechat.look.input_share = none
+2018-11-06 14:11:42		  weechat.look.input_share_overwrite = off
+2018-11-06 14:11:42		  weechat.look.input_undo_max = 32
+2018-11-06 14:11:42		  weechat.look.item_away_message = on
+2018-11-06 14:11:42		  weechat.look.item_buffer_filter = "*"
+2018-11-06 14:11:42		  weechat.look.item_buffer_zoom = "!"
+2018-11-06 14:11:42		  weechat.look.item_mouse_status = "M"
+2018-11-06 14:11:42		  weechat.look.item_time_format = "%H:%M"
+2018-11-06 14:11:42		  weechat.look.jump_current_to_previous_buffer = on
+2018-11-06 14:11:42		  weechat.look.jump_previous_buffer_when_closing = on
+2018-11-06 14:11:42		  weechat.look.jump_smart_back_to_buffer = on
+2018-11-06 14:11:42		  weechat.look.key_bind_safe = on
+2018-11-06 14:11:42		  weechat.look.key_grab_delay = 800
+2018-11-06 14:11:42		  weechat.look.mouse = off
+2018-11-06 14:11:42		  weechat.look.mouse_timer_delay = 100
+2018-11-06 14:11:42		  weechat.look.nick_color_force = ""
+2018-11-06 14:11:42		  weechat.look.nick_color_hash = djb2
+2018-11-06 14:11:42		  weechat.look.nick_color_stop_chars = "_|["
+2018-11-06 14:11:42		  weechat.look.nick_prefix = ""
+2018-11-06 14:11:42		  weechat.look.nick_suffix = ""
+2018-11-06 14:11:42		  weechat.look.paste_auto_add_newline = on
+2018-11-06 14:11:42		  weechat.look.paste_bracketed = on
+2018-11-06 14:11:42		  weechat.look.paste_bracketed_timer_delay = 10
+2018-11-06 14:11:42		  weechat.look.paste_max_lines = 1
+2018-11-06 14:11:42		  weechat.look.prefix_action = " *"
+2018-11-06 14:11:42		  weechat.look.prefix_align = right
+2018-11-06 14:11:42		  weechat.look.prefix_align_max = 0
+2018-11-06 14:11:42		  weechat.look.prefix_align_min = 0
+2018-11-06 14:11:42		  weechat.look.prefix_align_more = "+"
+2018-11-06 14:11:42		  weechat.look.prefix_align_more_after = on
+2018-11-06 14:11:42		  weechat.look.prefix_buffer_align = right
+2018-11-06 14:11:42		  weechat.look.prefix_buffer_align_max = 0
+2018-11-06 14:11:42		  weechat.look.prefix_buffer_align_more = "+"
+2018-11-06 14:11:42		  weechat.look.prefix_buffer_align_more_after = on
+2018-11-06 14:11:42		  weechat.look.prefix_error = "=!="
+2018-11-06 14:11:42		  weechat.look.prefix_join = "-->"
+2018-11-06 14:11:42		  weechat.look.prefix_network = "--"
+2018-11-06 14:11:42		  weechat.look.prefix_quit = "<--"
+2018-11-06 14:11:42		  weechat.look.prefix_same_nick = ""
+2018-11-06 14:11:42		  weechat.look.prefix_suffix = "|"
+2018-11-06 14:11:42		  weechat.look.quote_nick_prefix = "<"
+2018-11-06 14:11:42		  weechat.look.quote_nick_suffix = ">"
+2018-11-06 14:11:42		  weechat.look.quote_time_format = "%H:%M:%S"
+2018-11-06 14:11:42		  weechat.look.read_marker = line
+2018-11-06 14:11:42		  weechat.look.read_marker_always_show = off
+2018-11-06 14:11:42		  weechat.look.read_marker_string = "- "
+2018-11-06 14:11:42		  weechat.look.save_config_on_exit = on
+2018-11-06 14:11:42		  weechat.look.save_layout_on_exit = none
+2018-11-06 14:11:42		  weechat.look.scroll_amount = 3
+2018-11-06 14:11:42		  weechat.look.scroll_bottom_after_switch = off
+2018-11-06 14:11:42		  weechat.look.scroll_page_percent = 100
+2018-11-06 14:11:42		  weechat.look.search_text_not_found_alert = on
+2018-11-06 14:11:42		  weechat.look.separator_horizontal = "-"
+2018-11-06 14:11:42		  weechat.look.separator_vertical = ""
+2018-11-06 14:11:42		  weechat.look.tab_width = 1
+2018-11-06 14:11:42		  weechat.look.time_format = "%a, %d %b %Y %T"
+2018-11-06 14:11:42		  weechat.look.window_auto_zoom = off
+2018-11-06 14:11:42		  weechat.look.window_separator_horizontal = on
+2018-11-06 14:11:42		  weechat.look.window_separator_vertical = on
+2018-11-06 14:11:42		  weechat.look.window_title = "WeeChat ${info:version}"
+2018-11-06 14:11:42		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2018-11-06 14:11:42		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-11-06 14:11:42		[color] (weechat.conf)
+2018-11-06 14:11:42		  weechat.color.bar_more = lightmagenta
+2018-11-06 14:11:42		  weechat.color.chat = default
+2018-11-06 14:11:42		  weechat.color.chat_bg = default
+2018-11-06 14:11:42		  weechat.color.chat_buffer = white
+2018-11-06 14:11:42		  weechat.color.chat_channel = white
+2018-11-06 14:11:42		  weechat.color.chat_day_change = cyan
+2018-11-06 14:11:42		  weechat.color.chat_delimiters = green
+2018-11-06 14:11:42		  weechat.color.chat_highlight = yellow
+2018-11-06 14:11:42		  weechat.color.chat_highlight_bg = magenta
+2018-11-06 14:11:42		  weechat.color.chat_host = cyan
+2018-11-06 14:11:42		  weechat.color.chat_inactive_buffer = default
+2018-11-06 14:11:42		  weechat.color.chat_inactive_window = default
+2018-11-06 14:11:42		  weechat.color.chat_nick = lightcyan
+2018-11-06 14:11:42		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2018-11-06 14:11:42		  weechat.color.chat_nick_offline = default
+2018-11-06 14:11:42		  weechat.color.chat_nick_offline_highlight = default
+2018-11-06 14:11:42		  weechat.color.chat_nick_offline_highlight_bg = blue
+2018-11-06 14:11:42		  weechat.color.chat_nick_other = cyan
+2018-11-06 14:11:42		  weechat.color.chat_nick_prefix = green
+2018-11-06 14:11:42		  weechat.color.chat_nick_self = white
+2018-11-06 14:11:42		  weechat.color.chat_nick_suffix = green
+2018-11-06 14:11:42		  weechat.color.chat_prefix_action = white
+2018-11-06 14:11:42		  weechat.color.chat_prefix_buffer = brown
+2018-11-06 14:11:42		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2018-11-06 14:11:42		  weechat.color.chat_prefix_error = yellow
+2018-11-06 14:11:42		  weechat.color.chat_prefix_join = lightgreen
+2018-11-06 14:11:42		  weechat.color.chat_prefix_more = lightmagenta
+2018-11-06 14:11:42		  weechat.color.chat_prefix_network = magenta
+2018-11-06 14:11:42		  weechat.color.chat_prefix_quit = lightred
+2018-11-06 14:11:42		  weechat.color.chat_prefix_suffix = green
+2018-11-06 14:11:42		  weechat.color.chat_read_marker = magenta
+2018-11-06 14:11:42		  weechat.color.chat_read_marker_bg = default
+2018-11-06 14:11:42		  weechat.color.chat_server = brown
+2018-11-06 14:11:42		  weechat.color.chat_tags = red
+2018-11-06 14:11:42		  weechat.color.chat_text_found = yellow
+2018-11-06 14:11:42		  weechat.color.chat_text_found_bg = lightmagenta
+2018-11-06 14:11:42		  weechat.color.chat_time = default
+2018-11-06 14:11:42		  weechat.color.chat_time_delimiters = brown
+2018-11-06 14:11:42		  weechat.color.chat_value = cyan
+2018-11-06 14:11:42		  weechat.color.chat_value_null = blue
+2018-11-06 14:11:42		  weechat.color.emphasized = yellow
+2018-11-06 14:11:42		  weechat.color.emphasized_bg = magenta
+2018-11-06 14:11:42		  weechat.color.input_actions = lightgreen
+2018-11-06 14:11:42		  weechat.color.input_text_not_found = red
+2018-11-06 14:11:42		  weechat.color.item_away = yellow
+2018-11-06 14:11:42		  weechat.color.nicklist_away = cyan
+2018-11-06 14:11:42		  weechat.color.nicklist_group = green
+2018-11-06 14:11:42		  weechat.color.separator = blue
+2018-11-06 14:11:42		  weechat.color.status_count_highlight = magenta
+2018-11-06 14:11:42		  weechat.color.status_count_msg = brown
+2018-11-06 14:11:42		  weechat.color.status_count_other = default
+2018-11-06 14:11:42		  weechat.color.status_count_private = green
+2018-11-06 14:11:42		  weechat.color.status_data_highlight = lightmagenta
+2018-11-06 14:11:42		  weechat.color.status_data_msg = yellow
+2018-11-06 14:11:42		  weechat.color.status_data_other = default
+2018-11-06 14:11:42		  weechat.color.status_data_private = lightgreen
+2018-11-06 14:11:42		  weechat.color.status_filter = green
+2018-11-06 14:11:42		  weechat.color.status_more = yellow
+2018-11-06 14:11:42		  weechat.color.status_mouse = green
+2018-11-06 14:11:42		  weechat.color.status_name = white
+2018-11-06 14:11:42		  weechat.color.status_name_ssl = lightgreen
+2018-11-06 14:11:42		  weechat.color.status_nicklist_count = default
+2018-11-06 14:11:42		  weechat.color.status_number = yellow
+2018-11-06 14:11:42		  weechat.color.status_time = default
+2018-11-06 14:11:42		[completion] (weechat.conf)
+2018-11-06 14:11:42		  weechat.completion.base_word_until_cursor = on
+2018-11-06 14:11:42		  weechat.completion.command_inline = on
+2018-11-06 14:11:42		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2018-11-06 14:11:42		  weechat.completion.nick_add_space = on
+2018-11-06 14:11:42		  weechat.completion.nick_case_sensitive = off
+2018-11-06 14:11:42		  weechat.completion.nick_completer = ":"
+2018-11-06 14:11:42		  weechat.completion.nick_first_only = off
+2018-11-06 14:11:42		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2018-11-06 14:11:42		  weechat.completion.partial_completion_alert = on
+2018-11-06 14:11:42		  weechat.completion.partial_completion_command = off
+2018-11-06 14:11:42		  weechat.completion.partial_completion_command_arg = off
+2018-11-06 14:11:42		  weechat.completion.partial_completion_count = on
+2018-11-06 14:11:42		  weechat.completion.partial_completion_other = off
+2018-11-06 14:11:42		[history] (weechat.conf)
+2018-11-06 14:11:42		  weechat.history.display_default = 5
+2018-11-06 14:11:42		  weechat.history.max_buffer_lines_minutes = 0
+2018-11-06 14:11:42		  weechat.history.max_buffer_lines_number = 4096
+2018-11-06 14:11:42		  weechat.history.max_commands = 100
+2018-11-06 14:11:42		  weechat.history.max_visited_buffers = 50
+2018-11-06 14:11:42		[network] (weechat.conf)
+2018-11-06 14:11:42		  weechat.network.connection_timeout = 60
+2018-11-06 14:11:42		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2018-11-06 14:11:42		  weechat.network.gnutls_handshake_timeout = 30
+2018-11-06 14:11:42		  weechat.network.proxy_curl = ""
+2018-11-06 14:11:42		[plugin] (weechat.conf)
+2018-11-06 14:11:42		  weechat.plugin.autoload = "*"
+2018-11-06 14:11:42		  weechat.plugin.debug = off
+2018-11-06 14:11:42		  weechat.plugin.extension = ".so,.dll"
+2018-11-06 14:11:42		  weechat.plugin.path = "%h/plugins"
+2018-11-06 14:11:42		  weechat.plugin.save_config_on_unload = on
+2018-11-06 14:11:42		[bar] (weechat.conf)
+2018-11-06 14:11:42		  weechat.bar.buflist.color_bg = default
+2018-11-06 14:11:42		  weechat.bar.buflist.color_delim = default
+2018-11-06 14:11:42		  weechat.bar.buflist.color_fg = default
+2018-11-06 14:11:42		  weechat.bar.buflist.conditions = ""
+2018-11-06 14:11:42		  weechat.bar.buflist.filling_left_right = vertical
+2018-11-06 14:11:42		  weechat.bar.buflist.filling_top_bottom = columns_vertical
+2018-11-06 14:11:42		  weechat.bar.buflist.hidden = off
+2018-11-06 14:11:42		  weechat.bar.buflist.items = "buflist"  (default: "")
+2018-11-06 14:11:42		  weechat.bar.buflist.position = left
+2018-11-06 14:11:42		  weechat.bar.buflist.priority = 0
+2018-11-06 14:11:42		  weechat.bar.buflist.separator = on
+2018-11-06 14:11:42		  weechat.bar.buflist.size = 0
+2018-11-06 14:11:42		  weechat.bar.buflist.size_max = 0
+2018-11-06 14:11:42		  weechat.bar.buflist.type = root
+2018-11-06 14:11:42		  weechat.bar.input.color_bg = default
+2018-11-06 14:11:42		  weechat.bar.input.color_delim = cyan
+2018-11-06 14:11:42		  weechat.bar.input.color_fg = default
+2018-11-06 14:11:42		  weechat.bar.input.conditions = ""
+2018-11-06 14:11:42		  weechat.bar.input.filling_left_right = vertical
+2018-11-06 14:11:42		  weechat.bar.input.filling_top_bottom = horizontal
+2018-11-06 14:11:42		  weechat.bar.input.hidden = off
+2018-11-06 14:11:42		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2018-11-06 14:11:42		  weechat.bar.input.position = bottom
+2018-11-06 14:11:42		  weechat.bar.input.priority = 1000
+2018-11-06 14:11:42		  weechat.bar.input.separator = off
+2018-11-06 14:11:42		  weechat.bar.input.size = 1
+2018-11-06 14:11:42		  weechat.bar.input.size_max = 0
+2018-11-06 14:11:42		  weechat.bar.input.type = window
+2018-11-06 14:11:42		  weechat.bar.nicklist.color_bg = default
+2018-11-06 14:11:42		  weechat.bar.nicklist.color_delim = cyan
+2018-11-06 14:11:42		  weechat.bar.nicklist.color_fg = default
+2018-11-06 14:11:42		  weechat.bar.nicklist.conditions = "${nicklist}"
+2018-11-06 14:11:42		  weechat.bar.nicklist.filling_left_right = vertical
+2018-11-06 14:11:42		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2018-11-06 14:11:42		  weechat.bar.nicklist.hidden = off
+2018-11-06 14:11:42		  weechat.bar.nicklist.items = "buffer_nicklist"
+2018-11-06 14:11:42		  weechat.bar.nicklist.position = right
+2018-11-06 14:11:42		  weechat.bar.nicklist.priority = 200
+2018-11-06 14:11:42		  weechat.bar.nicklist.separator = on
+2018-11-06 14:11:42		  weechat.bar.nicklist.size = 0
+2018-11-06 14:11:42		  weechat.bar.nicklist.size_max = 0
+2018-11-06 14:11:42		  weechat.bar.nicklist.type = window
+2018-11-06 14:11:42		  weechat.bar.status.color_bg = blue
+2018-11-06 14:11:42		  weechat.bar.status.color_delim = cyan
+2018-11-06 14:11:42		  weechat.bar.status.color_fg = default
+2018-11-06 14:11:42		  weechat.bar.status.conditions = ""
+2018-11-06 14:11:42		  weechat.bar.status.filling_left_right = vertical
+2018-11-06 14:11:42		  weechat.bar.status.filling_top_bottom = horizontal
+2018-11-06 14:11:42		  weechat.bar.status.hidden = off
+2018-11-06 14:11:42		  weechat.bar.status.items = "[time],[buffer_last_number],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+2018-11-06 14:11:42		  weechat.bar.status.position = bottom
+2018-11-06 14:11:42		  weechat.bar.status.priority = 500
+2018-11-06 14:11:42		  weechat.bar.status.separator = off
+2018-11-06 14:11:42		  weechat.bar.status.size = 1
+2018-11-06 14:11:42		  weechat.bar.status.size_max = 0
+2018-11-06 14:11:42		  weechat.bar.status.type = window
+2018-11-06 14:11:42		  weechat.bar.title.color_bg = blue
+2018-11-06 14:11:42		  weechat.bar.title.color_delim = cyan
+2018-11-06 14:11:42		  weechat.bar.title.color_fg = default
+2018-11-06 14:11:42		  weechat.bar.title.conditions = ""
+2018-11-06 14:11:42		  weechat.bar.title.filling_left_right = vertical
+2018-11-06 14:11:42		  weechat.bar.title.filling_top_bottom = horizontal
+2018-11-06 14:11:42		  weechat.bar.title.hidden = off
+2018-11-06 14:11:42		  weechat.bar.title.items = "buffer_title"
+2018-11-06 14:11:42		  weechat.bar.title.position = top
+2018-11-06 14:11:42		  weechat.bar.title.priority = 500
+2018-11-06 14:11:42		  weechat.bar.title.separator = off
+2018-11-06 14:11:42		  weechat.bar.title.size = 1
+2018-11-06 14:11:42		  weechat.bar.title.size_max = 0
+2018-11-06 14:11:42		  weechat.bar.title.type = window
+2018-11-06 14:11:42		[var] (plugins.conf)
+2018-11-06 14:11:42		  plugins.var.perl.check_license = "off"
+2018-11-06 14:11:42		  plugins.var.python.check_license = "off"
+2018-11-06 14:11:42		[default] (charset.conf)
+2018-11-06 14:11:42		  charset.default.decode = "ANSI_X3.4-1968"
+2018-11-06 14:11:42		  charset.default.encode = ""
+2018-11-06 14:11:42		[look] (logger.conf)
+2018-11-06 14:11:42		  logger.look.backlog = 20
+2018-11-06 14:11:42		[color] (logger.conf)
+2018-11-06 14:11:42		  logger.color.backlog_end = default
+2018-11-06 14:11:42		  logger.color.backlog_line = default
+2018-11-06 14:11:42		[file] (logger.conf)
+2018-11-06 14:11:42		  logger.file.auto_log = on
+2018-11-06 14:11:42		  logger.file.flush_delay = 120
+2018-11-06 14:11:42		  logger.file.info_lines = off
+2018-11-06 14:11:42		  logger.file.mask = "$plugin.$name.weechatlog"
+2018-11-06 14:11:42		  logger.file.name_lower_case = on
+2018-11-06 14:11:42		  logger.file.nick_prefix = ""
+2018-11-06 14:11:42		  logger.file.nick_suffix = ""
+2018-11-06 14:11:42		  logger.file.path = "%h/logs/"
+2018-11-06 14:11:42		  logger.file.replacement_char = "_"
+2018-11-06 14:11:42		  logger.file.time_format = "%Y-%m-%d %H:%M:%S"
+2018-11-06 14:11:42		[command] (exec.conf)
+2018-11-06 14:11:42		  exec.command.default_options = ""
+2018-11-06 14:11:42		  exec.command.purge_delay = 0
+2018-11-06 14:11:42		[color] (exec.conf)
+2018-11-06 14:11:42		  exec.color.flag_finished = lightred
+2018-11-06 14:11:42		  exec.color.flag_running = lightgreen
+2018-11-06 14:11:42		[look] (trigger.conf)
+2018-11-06 14:11:42		  trigger.look.enabled = on
+2018-11-06 14:11:42		  trigger.look.monitor_strip_colors = off
+2018-11-06 14:11:42		[color] (trigger.conf)
+2018-11-06 14:11:42		  trigger.color.flag_command = lightgreen
+2018-11-06 14:11:42		  trigger.color.flag_conditions = yellow
+2018-11-06 14:11:42		  trigger.color.flag_post_action = lightblue
+2018-11-06 14:11:42		  trigger.color.flag_regex = lightcyan
+2018-11-06 14:11:42		  trigger.color.flag_return_code = lightmagenta
+2018-11-06 14:11:42		  trigger.color.regex = white
+2018-11-06 14:11:42		  trigger.color.replace = cyan
+2018-11-06 14:11:42		  trigger.color.trigger = green
+2018-11-06 14:11:42		  trigger.color.trigger_disabled = red
+2018-11-06 14:11:42		[trigger] (trigger.conf)
+2018-11-06 14:11:42		  trigger.trigger.beep.arguments = ""
+2018-11-06 14:11:42		  trigger.trigger.beep.command = "/print -beep"
+2018-11-06 14:11:42		  trigger.trigger.beep.conditions = "${tg_displayed} && (${tg_highlight} || ${tg_msg_pv})"
+2018-11-06 14:11:42		  trigger.trigger.beep.enabled = on
+2018-11-06 14:11:42		  trigger.trigger.beep.hook = print
+2018-11-06 14:11:42		  trigger.trigger.beep.post_action = none
+2018-11-06 14:11:42		  trigger.trigger.beep.regex = ""
+2018-11-06 14:11:42		  trigger.trigger.beep.return_code = ok
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.command = ""
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.conditions = ""
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.enabled = on
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.hook = modifier
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.post_action = none
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.regex = "==^((/(msg|m|quote) +nickserv +(id|identify|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)|/oper +[^ ]+ +|/quote +pass +|/set +[^ ]*password[^ ]* +|/secure +(passphrase|decrypt|set +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass.return_code = ok
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.command = ""
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.conditions = ""
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.enabled = on
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.hook = modifier
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.post_action = none
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.regex = "==^(/(msg|m|quote) +nickserv +register +)([^ ]+)(.*)==${re:1}${hide:*,${re:3}}${re:4}"
+2018-11-06 14:11:42		  trigger.trigger.cmd_pass_register.return_code = ok
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.arguments = "5000|irc_message_auth"
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.command = ""
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.conditions = ""
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.enabled = on
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.hook = modifier
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.post_action = none
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.regex = "==^(.*(id|identify|register|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2018-11-06 14:11:42		  trigger.trigger.msg_auth.return_code = ok
+2018-11-06 14:11:42		  trigger.trigger.server_pass.arguments = "5000|input_text_display;5000|history_add"
+2018-11-06 14:11:42		  trigger.trigger.server_pass.command = ""
+2018-11-06 14:11:42		  trigger.trigger.server_pass.conditions = ""
+2018-11-06 14:11:42		  trigger.trigger.server_pass.enabled = on
+2018-11-06 14:11:42		  trigger.trigger.server_pass.hook = modifier
+2018-11-06 14:11:42		  trigger.trigger.server_pass.post_action = none
+2018-11-06 14:11:42		  trigger.trigger.server_pass.regex = "==^(/(server|connect) .*-(sasl_)?password=)([^ ]+)(.*)==${re:1}${hide:*,${re:4}}${re:5}"
+2018-11-06 14:11:42		  trigger.trigger.server_pass.return_code = ok
+2018-11-06 14:11:42		[cmd] (alias.conf)
+2018-11-06 14:11:42		  alias.cmd.AAWAY = "allserv /away"
+2018-11-06 14:11:42		  alias.cmd.AME = "allchan /me"
+2018-11-06 14:11:42		  alias.cmd.AMSG = "allchan /msg *"
+2018-11-06 14:11:42		  alias.cmd.ANICK = "allserv /nick"
+2018-11-06 14:11:42		  alias.cmd.BEEP = "print -beep"
+2018-11-06 14:11:42		  alias.cmd.BYE = "quit"
+2018-11-06 14:11:42		  alias.cmd.C = "buffer clear"
+2018-11-06 14:11:42		  alias.cmd.CHAT = "dcc chat"
+2018-11-06 14:11:42		  alias.cmd.CL = "buffer clear"
+2018-11-06 14:11:42		  alias.cmd.CLOSE = "buffer close"
+2018-11-06 14:11:42		  alias.cmd.EXIT = "quit"
+2018-11-06 14:11:42		  alias.cmd.IG = "ignore"
+2018-11-06 14:11:42		  alias.cmd.J = "join"
+2018-11-06 14:11:42		  alias.cmd.K = "kick"
+2018-11-06 14:11:42		  alias.cmd.KB = "kickban"
+2018-11-06 14:11:42		  alias.cmd.LEAVE = "part"
+2018-11-06 14:11:42		  alias.cmd.M = "msg"
+2018-11-06 14:11:42		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2018-11-06 14:11:42		  alias.cmd.MUB = "unban *"
+2018-11-06 14:11:42		  alias.cmd.N = "names"
+2018-11-06 14:11:42		  alias.cmd.Q = "query"
+2018-11-06 14:11:42		  alias.cmd.REDRAW = "window refresh"
+2018-11-06 14:11:42		  alias.cmd.SAY = "msg *"
+2018-11-06 14:11:42		  alias.cmd.SIGNOFF = "quit"
+2018-11-06 14:11:42		  alias.cmd.T = "topic"
+2018-11-06 14:11:42		  alias.cmd.UB = "unban"
+2018-11-06 14:11:42		  alias.cmd.UMODE = "mode $nick"
+2018-11-06 14:11:42		  alias.cmd.V = "command core version"
+2018-11-06 14:11:42		  alias.cmd.W = "who"
+2018-11-06 14:11:42		  alias.cmd.WC = "window merge"
+2018-11-06 14:11:42		  alias.cmd.WI = "whois"
+2018-11-06 14:11:42		  alias.cmd.WII = "whois $1 $1"
+2018-11-06 14:11:42		  alias.cmd.WW = "whowas"
+2018-11-06 14:11:42		[completion] (alias.conf)
+2018-11-06 14:11:42		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2018-11-06 14:11:42		[look] (buflist.conf)
+2018-11-06 14:11:42		  buflist.look.auto_scroll = 50
+2018-11-06 14:11:42		  buflist.look.display_conditions = "${buffer.hidden}==0"
+2018-11-06 14:11:42		  buflist.look.enabled = on
+2018-11-06 14:11:42		  buflist.look.mouse_jump_visited_buffer = off
+2018-11-06 14:11:42		  buflist.look.mouse_move_buffer = on
+2018-11-06 14:11:42		  buflist.look.mouse_wheel = on
+2018-11-06 14:11:42		  buflist.look.nick_prefix = off
+2018-11-06 14:11:42		  buflist.look.nick_prefix_empty = on
+2018-11-06 14:11:42		  buflist.look.signals_refresh = ""
+2018-11-06 14:11:42		  buflist.look.sort = "number,-active"
+2018-11-06 14:11:42		[format] (buflist.conf)
+2018-11-06 14:11:42		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2018-11-06 14:11:42		  buflist.format.buffer_current = "${color:,blue}${format_buffer}"
+2018-11-06 14:11:42		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2018-11-06 14:11:42		  buflist.format.hotlist_highlight = "${color:magenta}"
+2018-11-06 14:11:42		  buflist.format.hotlist_low = "${color:white}"
+2018-11-06 14:11:42		  buflist.format.hotlist_message = "${color:brown}"
+2018-11-06 14:11:42		  buflist.format.hotlist_none = "${color:default}"
+2018-11-06 14:11:42		  buflist.format.hotlist_private = "${color:green}"
+2018-11-06 14:11:42		  buflist.format.hotlist_separator = "${color:default},"
+2018-11-06 14:11:42		  buflist.format.indent = "  "
+2018-11-06 14:11:42		  buflist.format.lag = " ${color:green}[${color:brown}${lag}${color:green}]"
+2018-11-06 14:11:42		  buflist.format.name = "${name}"
+2018-11-06 14:11:42		  buflist.format.nick_prefix = "${color_nick_prefix}${nick_prefix}"
+2018-11-06 14:11:42		  buflist.format.number = "${color:green}${number}${if:${number_displayed}?.: }"
+2018-11-06 14:11:42		[file] (fifo.conf)
+2018-11-06 14:11:42		  fifo.file.enabled = on
+2018-11-06 14:11:42		  fifo.file.path = "%h/weechat_fifo"
+2018-11-06 14:11:42		[look] (xfer.conf)
+2018-11-06 14:11:42		  xfer.look.auto_open_buffer = on
+2018-11-06 14:11:42		  xfer.look.progress_bar_size = 20
+2018-11-06 14:11:42		  xfer.look.pv_tags = "notify_private"
+2018-11-06 14:11:42		[color] (xfer.conf)
+2018-11-06 14:11:42		  xfer.color.status_aborted = lightred
+2018-11-06 14:11:42		  xfer.color.status_active = lightblue
+2018-11-06 14:11:42		  xfer.color.status_connecting = yellow
+2018-11-06 14:11:42		  xfer.color.status_done = lightgreen
+2018-11-06 14:11:42		  xfer.color.status_failed = lightred
+2018-11-06 14:11:42		  xfer.color.status_waiting = lightcyan
+2018-11-06 14:11:42		  xfer.color.text = default
+2018-11-06 14:11:42		  xfer.color.text_bg = default
+2018-11-06 14:11:42		  xfer.color.text_selected = white
+2018-11-06 14:11:42		[network] (xfer.conf)
+2018-11-06 14:11:42		  xfer.network.blocksize = 65536
+2018-11-06 14:11:42		  xfer.network.fast_send = on
+2018-11-06 14:11:42		  xfer.network.own_ip = ""
+2018-11-06 14:11:42		  xfer.network.port_range = ""
+2018-11-06 14:11:42		  xfer.network.speed_limit = 0
+2018-11-06 14:11:42		  xfer.network.timeout = 300
+2018-11-06 14:11:42		[file] (xfer.conf)
+2018-11-06 14:11:42		  xfer.file.auto_accept_chats = off
+2018-11-06 14:11:42		  xfer.file.auto_accept_files = off
+2018-11-06 14:11:42		  xfer.file.auto_accept_nicks = ""
+2018-11-06 14:11:42		  xfer.file.auto_check_crc32 = off
+2018-11-06 14:11:42		  xfer.file.auto_rename = on
+2018-11-06 14:11:42		  xfer.file.auto_resume = on
+2018-11-06 14:11:42		  xfer.file.convert_spaces = on
+2018-11-06 14:11:42		  xfer.file.download_path = "%h/xfer"
+2018-11-06 14:11:42		  xfer.file.upload_path = "~"
+2018-11-06 14:11:42		  xfer.file.use_nick_in_filename = on
+2018-11-06 14:11:42		[look] (irc.conf)
+2018-11-06 14:11:42		  irc.look.buffer_open_before_autojoin = on
+2018-11-06 14:11:42		  irc.look.buffer_open_before_join = off
+2018-11-06 14:11:42		  irc.look.buffer_switch_autojoin = on
+2018-11-06 14:11:42		  irc.look.buffer_switch_join = on
+2018-11-06 14:11:42		  irc.look.color_nicks_in_names = off
+2018-11-06 14:11:42		  irc.look.color_nicks_in_nicklist = off
+2018-11-06 14:11:42		  irc.look.color_nicks_in_server_messages = on
+2018-11-06 14:11:42		  irc.look.color_pv_nick_like_channel = on
+2018-11-06 14:11:42		  irc.look.ctcp_time_format = "%a, %d %b %Y %T %z"
+2018-11-06 14:11:42		  irc.look.display_away = local
+2018-11-06 14:11:42		  irc.look.display_ctcp_blocked = on
+2018-11-06 14:11:42		  irc.look.display_ctcp_reply = on
+2018-11-06 14:11:42		  irc.look.display_ctcp_unknown = on
+2018-11-06 14:11:42		  irc.look.display_host_join = on
+2018-11-06 14:11:42		  irc.look.display_host_join_local = on
+2018-11-06 14:11:42		  irc.look.display_host_quit = on
+2018-11-06 14:11:42		  irc.look.display_join_message = "329,332,333,366"
+2018-11-06 14:11:42		  irc.look.display_old_topic = on
+2018-11-06 14:11:42		  irc.look.display_pv_away_once = on
+2018-11-06 14:11:42		  irc.look.display_pv_back = on
+2018-11-06 14:11:42		  irc.look.highlight_channel = "$nick"
+2018-11-06 14:11:42		  irc.look.highlight_pv = "$nick"
+2018-11-06 14:11:42		  irc.look.highlight_server = "$nick"
+2018-11-06 14:11:42		  irc.look.highlight_tags_restrict = "irc_privmsg,irc_notice"
+2018-11-06 14:11:42		  irc.look.item_channel_modes_hide_args = "k"
+2018-11-06 14:11:42		  irc.look.item_display_server = buffer_plugin
+2018-11-06 14:11:42		  irc.look.item_nick_modes = on
+2018-11-06 14:11:42		  irc.look.item_nick_prefix = on
+2018-11-06 14:11:42		  irc.look.join_auto_add_chantype = off
+2018-11-06 14:11:42		  irc.look.msgbuffer_fallback = current
+2018-11-06 14:11:42		  irc.look.new_channel_position = none
+2018-11-06 14:11:42		  irc.look.new_pv_position = none
+2018-11-06 14:11:42		  irc.look.nick_completion_smart = speakers
+2018-11-06 14:11:42		  irc.look.nick_mode = prefix
+2018-11-06 14:11:42		  irc.look.nick_mode_empty = off
+2018-11-06 14:11:42		  irc.look.nicks_hide_password = "nickserv"
+2018-11-06 14:11:42		  irc.look.notice_as_pv = auto
+2018-11-06 14:11:42		  irc.look.notice_welcome_redirect = on
+2018-11-06 14:11:42		  irc.look.notice_welcome_tags = ""
+2018-11-06 14:11:42		  irc.look.notify_tags_ison = "notify_message"
+2018-11-06 14:11:42		  irc.look.notify_tags_whois = "notify_message"
+2018-11-06 14:11:42		  irc.look.part_closes_buffer = off
+2018-11-06 14:11:42		  irc.look.pv_buffer = independent
+2018-11-06 14:11:42		  irc.look.pv_tags = "notify_private"
+2018-11-06 14:11:42		  irc.look.raw_messages = 256
+2018-11-06 14:11:42		  irc.look.server_buffer = merge_with_core
+2018-11-06 14:11:42		  irc.look.smart_filter = on
+2018-11-06 14:11:42		  irc.look.smart_filter_delay = 5
+2018-11-06 14:11:42		  irc.look.smart_filter_join = on
+2018-11-06 14:11:42		  irc.look.smart_filter_join_unmask = 30
+2018-11-06 14:11:42		  irc.look.smart_filter_mode = "+"
+2018-11-06 14:11:42		  irc.look.smart_filter_nick = on
+2018-11-06 14:11:42		  irc.look.smart_filter_quit = on
+2018-11-06 14:11:42		  irc.look.temporary_servers = off
+2018-11-06 14:11:42		  irc.look.topic_strip_colors = off
+2018-11-06 14:11:42		[color] (irc.conf)
+2018-11-06 14:11:42		  irc.color.input_nick = lightcyan
+2018-11-06 14:11:42		  irc.color.item_channel_modes = default
+2018-11-06 14:11:42		  irc.color.item_lag_counting = default
+2018-11-06 14:11:42		  irc.color.item_lag_finished = yellow
+2018-11-06 14:11:42		  irc.color.item_nick_modes = default
+2018-11-06 14:11:42		  irc.color.message_join = green
+2018-11-06 14:11:42		  irc.color.message_quit = red
+2018-11-06 14:11:42		  irc.color.mirc_remap = "1,-1:darkgray"
+2018-11-06 14:11:42		  irc.color.nick_prefixes = "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2018-11-06 14:11:42		  irc.color.notice = green
+2018-11-06 14:11:42		  irc.color.reason_quit = default
+2018-11-06 14:11:42		  irc.color.topic_current = default
+2018-11-06 14:11:42		  irc.color.topic_new = white
+2018-11-06 14:11:42		  irc.color.topic_old = default
+2018-11-06 14:11:42		[network] (irc.conf)
+2018-11-06 14:11:42		  irc.network.autoreconnect_delay_growing = 2
+2018-11-06 14:11:42		  irc.network.autoreconnect_delay_max = 600
+2018-11-06 14:11:42		  irc.network.ban_mask_default = "*!$ident@$host"
+2018-11-06 14:11:42		  irc.network.channel_encode = off
+2018-11-06 14:11:42		  irc.network.colors_receive = on
+2018-11-06 14:11:42		  irc.network.colors_send = on
+2018-11-06 14:11:42		  irc.network.lag_check = 60
+2018-11-06 14:11:42		  irc.network.lag_max = 1800
+2018-11-06 14:11:42		  irc.network.lag_min_show = 500
+2018-11-06 14:11:42		  irc.network.lag_reconnect = 300
+2018-11-06 14:11:42		  irc.network.lag_refresh_interval = 1
+2018-11-06 14:11:42		  irc.network.notify_check_ison = 1
+2018-11-06 14:11:42		  irc.network.notify_check_whois = 5
+2018-11-06 14:11:42		  irc.network.sasl_fail_unavailable = on
+2018-11-06 14:11:42		  irc.network.send_unknown_commands = off
+2018-11-06 14:11:42		  irc.network.whois_double_nick = off
+2018-11-06 14:11:42		[server_default] (irc.conf)
+2018-11-06 14:11:42		  irc.server_default.addresses = ""
+2018-11-06 14:11:42		  irc.server_default.anti_flood_prio_high = 2
+2018-11-06 14:11:42		  irc.server_default.anti_flood_prio_low = 2
+2018-11-06 14:11:42		  irc.server_default.autoconnect = off
+2018-11-06 14:11:42		  irc.server_default.autojoin = ""
+2018-11-06 14:11:42		  irc.server_default.autoreconnect = on
+2018-11-06 14:11:42		  irc.server_default.autoreconnect_delay = 10
+2018-11-06 14:11:42		  irc.server_default.autorejoin = off
+2018-11-06 14:11:42		  irc.server_default.autorejoin_delay = 30
+2018-11-06 14:11:42		  irc.server_default.away_check = 0
+2018-11-06 14:11:42		  irc.server_default.away_check_max_nicks = 25
+2018-11-06 14:11:42		  irc.server_default.capabilities = ""
+2018-11-06 14:11:42		  irc.server_default.command = ""
+2018-11-06 14:11:42		  irc.server_default.command_delay = 0
+2018-11-06 14:11:42		  irc.server_default.connection_timeout = 60
+2018-11-06 14:11:42		  irc.server_default.ipv6 = on
+2018-11-06 14:11:42		  irc.server_default.local_hostname = ""
+2018-11-06 14:11:42		  irc.server_default.msg_kick = ""
+2018-11-06 14:11:42		  irc.server_default.msg_part = "WeeChat ${info:version}"
+2018-11-06 14:11:42		  irc.server_default.msg_quit = "WeeChat ${info:version}"
+2018-11-06 14:11:42		  irc.server_default.nicks = "nathaniel,nathaniel1,nathaniel2,nathaniel3,nathaniel4"  (default: "")
+2018-11-06 14:11:42		  irc.server_default.nicks_alternate = on
+2018-11-06 14:11:42		  irc.server_default.notify = ""
+2018-11-06 14:11:42		  irc.server_default.password = ""
+2018-11-06 14:11:42		  irc.server_default.proxy = ""
+2018-11-06 14:11:42		  irc.server_default.realname = ""
+2018-11-06 14:11:42		  irc.server_default.sasl_fail = continue
+2018-11-06 14:11:42		  irc.server_default.sasl_key = ""
+2018-11-06 14:11:42		  irc.server_default.sasl_mechanism = plain
+2018-11-06 14:11:42		  irc.server_default.sasl_password = ""
+2018-11-06 14:11:42		  irc.server_default.sasl_timeout = 15
+2018-11-06 14:11:42		  irc.server_default.sasl_username = ""
+2018-11-06 14:11:42		  irc.server_default.ssl = off
+2018-11-06 14:11:42		  irc.server_default.ssl_cert = ""
+2018-11-06 14:11:42		  irc.server_default.ssl_dhkey_size = 2048
+2018-11-06 14:11:42		  irc.server_default.ssl_fingerprint = ""
+2018-11-06 14:11:42		  irc.server_default.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:11:42		  irc.server_default.ssl_verify = on
+2018-11-06 14:11:42		  irc.server_default.usermode = ""
+2018-11-06 14:11:42		  irc.server_default.username = "nathaniel"  (default: "")
+2018-11-06 14:11:42		[server] (irc.conf)
+2018-11-06 14:11:42		  irc.server.freenode.addresses = "irc.freenode.net"  (default if null: "")
+2018-11-06 14:11:42		  irc.server.freenode.anti_flood_prio_high = null -> 2
+2018-11-06 14:11:42		  irc.server.freenode.anti_flood_prio_low = null -> 2
+2018-11-06 14:11:42		  irc.server.freenode.autoconnect = null -> off
+2018-11-06 14:11:42		  irc.server.freenode.autojoin = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.autoreconnect = null -> on
+2018-11-06 14:11:42		  irc.server.freenode.autoreconnect_delay = null -> 10
+2018-11-06 14:11:42		  irc.server.freenode.autorejoin = null -> off
+2018-11-06 14:11:42		  irc.server.freenode.autorejoin_delay = null -> 30
+2018-11-06 14:11:42		  irc.server.freenode.away_check = null -> 0
+2018-11-06 14:11:42		  irc.server.freenode.away_check_max_nicks = null -> 25
+2018-11-06 14:11:42		  irc.server.freenode.capabilities = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.command = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.command_delay = null -> 0
+2018-11-06 14:11:42		  irc.server.freenode.connection_timeout = null -> 60
+2018-11-06 14:11:42		  irc.server.freenode.ipv6 = null -> on
+2018-11-06 14:11:42		  irc.server.freenode.local_hostname = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.msg_kick = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.msg_part = null -> "WeeChat ${info:version}"
+2018-11-06 14:11:42		  irc.server.freenode.msg_quit = null -> "WeeChat ${info:version}"
+2018-11-06 14:11:42		  irc.server.freenode.nicks = null -> "nathaniel,nathaniel1,nathaniel2,nathaniel3,nathaniel4"
+2018-11-06 14:11:42		  irc.server.freenode.nicks_alternate = null -> on
+2018-11-06 14:11:42		  irc.server.freenode.notify = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.password = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.proxy = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.realname = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.sasl_fail = null -> continue
+2018-11-06 14:11:42		  irc.server.freenode.sasl_key = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.sasl_mechanism = null -> plain
+2018-11-06 14:11:42		  irc.server.freenode.sasl_password = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.sasl_timeout = null -> 15
+2018-11-06 14:11:42		  irc.server.freenode.sasl_username = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.ssl = null -> off
+2018-11-06 14:11:42		  irc.server.freenode.ssl_cert = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.ssl_dhkey_size = null -> 2048
+2018-11-06 14:11:42		  irc.server.freenode.ssl_fingerprint = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:11:42		  irc.server.freenode.ssl_verify = null -> on
+2018-11-06 14:11:42		  irc.server.freenode.usermode = null -> ""
+2018-11-06 14:11:42		  irc.server.freenode.username = null -> "nathaniel"
+2018-11-06 14:11:42		  irc.server.rizon.addresses = "irc.rizon.net"  (default if null: "")
+2018-11-06 14:11:42		  irc.server.rizon.anti_flood_prio_high = null -> 2
+2018-11-06 14:11:42		  irc.server.rizon.anti_flood_prio_low = null -> 2
+2018-11-06 14:11:42		  irc.server.rizon.autoconnect = null -> off
+2018-11-06 14:11:42		  irc.server.rizon.autojoin = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.autoreconnect = null -> on
+2018-11-06 14:11:42		  irc.server.rizon.autoreconnect_delay = null -> 10
+2018-11-06 14:11:42		  irc.server.rizon.autorejoin = null -> off
+2018-11-06 14:11:42		  irc.server.rizon.autorejoin_delay = null -> 30
+2018-11-06 14:11:42		  irc.server.rizon.away_check = null -> 0
+2018-11-06 14:11:42		  irc.server.rizon.away_check_max_nicks = null -> 25
+2018-11-06 14:11:42		  irc.server.rizon.capabilities = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.command = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.command_delay = null -> 0
+2018-11-06 14:11:42		  irc.server.rizon.connection_timeout = null -> 60
+2018-11-06 14:11:42		  irc.server.rizon.ipv6 = null -> on
+2018-11-06 14:11:42		  irc.server.rizon.local_hostname = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.msg_kick = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.msg_part = null -> "WeeChat ${info:version}"
+2018-11-06 14:11:42		  irc.server.rizon.msg_quit = null -> "WeeChat ${info:version}"
+2018-11-06 14:11:42		  irc.server.rizon.nicks = null -> "nathaniel,nathaniel1,nathaniel2,nathaniel3,nathaniel4"
+2018-11-06 14:11:42		  irc.server.rizon.nicks_alternate = null -> on
+2018-11-06 14:11:42		  irc.server.rizon.notify = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.password = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.proxy = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.realname = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.sasl_fail = null -> continue
+2018-11-06 14:11:42		  irc.server.rizon.sasl_key = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.sasl_mechanism = null -> plain
+2018-11-06 14:11:42		  irc.server.rizon.sasl_password = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.sasl_timeout = null -> 15
+2018-11-06 14:11:42		  irc.server.rizon.sasl_username = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.ssl = null -> off
+2018-11-06 14:11:42		  irc.server.rizon.ssl_cert = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.ssl_dhkey_size = null -> 2048
+2018-11-06 14:11:42		  irc.server.rizon.ssl_fingerprint = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:11:42		  irc.server.rizon.ssl_verify = null -> on
+2018-11-06 14:11:42		  irc.server.rizon.usermode = null -> ""
+2018-11-06 14:11:42		  irc.server.rizon.username = null -> "nathaniel"
+2018-11-06 14:11:42		[look] (relay.conf)
+2018-11-06 14:11:42		  relay.look.auto_open_buffer = on
+2018-11-06 14:11:42		  relay.look.raw_messages = 256
+2018-11-06 14:11:42		[color] (relay.conf)
+2018-11-06 14:11:42		  relay.color.client = cyan
+2018-11-06 14:11:42		  relay.color.status_active = lightblue
+2018-11-06 14:11:42		  relay.color.status_auth_failed = lightred
+2018-11-06 14:11:42		  relay.color.status_connecting = yellow
+2018-11-06 14:11:42		  relay.color.status_disconnected = lightred
+2018-11-06 14:11:42		  relay.color.status_waiting_auth = brown
+2018-11-06 14:11:42		  relay.color.text = default
+2018-11-06 14:11:42		  relay.color.text_bg = default
+2018-11-06 14:11:42		  relay.color.text_selected = white
+2018-11-06 14:11:42		[network] (relay.conf)
+2018-11-06 14:11:42		  relay.network.allow_empty_password = off
+2018-11-06 14:11:42		  relay.network.allowed_ips = ""
+2018-11-06 14:11:42		  relay.network.bind_address = ""
+2018-11-06 14:11:42		  relay.network.clients_purge_delay = 0
+2018-11-06 14:11:42		  relay.network.compression_level = 6
+2018-11-06 14:11:42		  relay.network.ipv6 = on
+2018-11-06 14:11:42		  relay.network.max_clients = 5
+2018-11-06 14:11:42		  relay.network.password = ""
+2018-11-06 14:11:42		  relay.network.ssl_cert_key = "%h/ssl/relay.pem"
+2018-11-06 14:11:42		  relay.network.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2018-11-06 14:11:42		  relay.network.websocket_allowed_origins = ""
+2018-11-06 14:11:42		[irc] (relay.conf)
+2018-11-06 14:11:42		  relay.irc.backlog_max_minutes = 1440
+2018-11-06 14:11:42		  relay.irc.backlog_max_number = 256
+2018-11-06 14:11:42		  relay.irc.backlog_since_last_disconnect = on
+2018-11-06 14:11:42		  relay.irc.backlog_since_last_message = off
+2018-11-06 14:11:42		  relay.irc.backlog_tags = "irc_privmsg"
+2018-11-06 14:11:42		  relay.irc.backlog_time_format = "[%H:%M] "
+2018-11-06 14:11:42		[look] (script.conf)
+2018-11-06 14:11:42		  script.look.columns = "%s %n %V %v %u | %d | %t"
+2018-11-06 14:11:42		  script.look.diff_color = on
+2018-11-06 14:11:42		  script.look.diff_command = "auto"
+2018-11-06 14:11:42		  script.look.display_source = on
+2018-11-06 14:11:42		  script.look.quiet_actions = on
+2018-11-06 14:11:42		  script.look.sort = "p,n"
+2018-11-06 14:11:42		  script.look.translate_description = on
+2018-11-06 14:11:42		  script.look.use_keys = on
+2018-11-06 14:11:42		[color] (script.conf)
+2018-11-06 14:11:42		  script.color.status_autoloaded = cyan
+2018-11-06 14:11:42		  script.color.status_held = white
+2018-11-06 14:11:42		  script.color.status_installed = lightcyan
+2018-11-06 14:11:42		  script.color.status_obsolete = lightmagenta
+2018-11-06 14:11:42		  script.color.status_popular = yellow
+2018-11-06 14:11:42		  script.color.status_running = lightgreen
+2018-11-06 14:11:42		  script.color.status_unknown = lightred
+2018-11-06 14:11:42		  script.color.text = default
+2018-11-06 14:11:42		  script.color.text_bg = default
+2018-11-06 14:11:42		  script.color.text_bg_selected = red
+2018-11-06 14:11:42		  script.color.text_date = default
+2018-11-06 14:11:42		  script.color.text_date_selected = white
+2018-11-06 14:11:42		  script.color.text_delimiters = default
+2018-11-06 14:11:42		  script.color.text_description = default
+2018-11-06 14:11:42		  script.color.text_description_selected = white
+2018-11-06 14:11:42		  script.color.text_extension = default
+2018-11-06 14:11:42		  script.color.text_extension_selected = white
+2018-11-06 14:11:42		  script.color.text_name = cyan
+2018-11-06 14:11:42		  script.color.text_name_selected = lightcyan
+2018-11-06 14:11:42		  script.color.text_selected = white
+2018-11-06 14:11:42		  script.color.text_tags = brown
+2018-11-06 14:11:42		  script.color.text_tags_selected = yellow
+2018-11-06 14:11:42		  script.color.text_version = magenta
+2018-11-06 14:11:42		  script.color.text_version_loaded = default
+2018-11-06 14:11:42		  script.color.text_version_loaded_selected = white
+2018-11-06 14:11:42		  script.color.text_version_selected = lightmagenta
+2018-11-06 14:11:42		[scripts] (script.conf)
+2018-11-06 14:11:42		  script.scripts.autoload = on
+2018-11-06 14:11:42		  script.scripts.cache_expire = 1440
+2018-11-06 14:11:42		  script.scripts.download_timeout = 30
+2018-11-06 14:11:42		  script.scripts.hold = ""
+2018-11-06 14:11:42		  script.scripts.path = "%h/script"
+2018-11-06 14:11:42		  script.scripts.url = "https://weechat.org/files/plugins.xml.gz"
+2018-11-06 14:11:42		718 options
+2018-11-06 14:11:47	=!=	Option "nick" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:11:51	=!=	Option "nick*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:11:57	=!=	Error: option "nick" not found
+2018-11-06 14:12:02		[look] (weechat.conf)
+2018-11-06 14:12:02		  weechat.look.prefix_same_nick = ""
+2018-11-06 14:12:02		[color] (weechat.conf)
+2018-11-06 14:12:02		  weechat.color.chat_nick = lightcyan
+2018-11-06 14:12:02		[cmd] (alias.conf)
+2018-11-06 14:12:02		  alias.cmd.ANICK = "allserv /nick"
+2018-11-06 14:12:02		[look] (irc.conf)
+2018-11-06 14:12:02		  irc.look.smart_filter_nick = on
+2018-11-06 14:12:02		[color] (irc.conf)
+2018-11-06 14:12:02		  irc.color.input_nick = lightcyan
+2018-11-06 14:12:02		[network] (irc.conf)
+2018-11-06 14:12:02		  irc.network.whois_double_nick = off
+2018-11-06 14:12:02		6 options (matching with "*nick")
+2018-11-06 14:12:45	=!=	Error: option "*" not found
+2018-11-06 14:12:52		[format] (buflist.conf)
+2018-11-06 14:12:52		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2018-11-06 14:12:52		[look] (irc.conf)
+2018-11-06 14:12:52		  irc.look.color_nicks_in_nicklist = off
+2018-11-06 14:12:52		2 options (matching with "*list")
+2018-11-06 14:13:09		[look] (irc.conf)
+2018-11-06 14:13:09		  irc.look.color_nicks_in_nicklist = off
+2018-11-06 14:13:09		1 option (matching with "*nicklist")
+2018-11-06 14:13:22		[look] (weechat.conf)
+2018-11-06 14:13:22		  weechat.look.color_inactive_buffer = on
+2018-11-06 14:13:22		  weechat.look.color_inactive_prefix_buffer = on
+2018-11-06 14:13:22		  weechat.look.jump_current_to_previous_buffer = on
+2018-11-06 14:13:22		  weechat.look.jump_smart_back_to_buffer = on
+2018-11-06 14:13:22		[color] (weechat.conf)
+2018-11-06 14:13:22		  weechat.color.chat_buffer = white
+2018-11-06 14:13:22		  weechat.color.chat_inactive_buffer = default
+2018-11-06 14:13:22		  weechat.color.chat_prefix_buffer = brown
+2018-11-06 14:13:22		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2018-11-06 14:13:22		[look] (buflist.conf)
+2018-11-06 14:13:22		  buflist.look.mouse_jump_visited_buffer = off
+2018-11-06 14:13:22		  buflist.look.mouse_move_buffer = on
+2018-11-06 14:13:22		[format] (buflist.conf)
+2018-11-06 14:13:22		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2018-11-06 14:13:22		[look] (xfer.conf)
+2018-11-06 14:13:22		  xfer.look.auto_open_buffer = on
+2018-11-06 14:13:22		[look] (irc.conf)
+2018-11-06 14:13:22		  irc.look.part_closes_buffer = off
+2018-11-06 14:13:22		  irc.look.pv_buffer = independent
+2018-11-06 14:13:22		  irc.look.server_buffer = merge_with_core
+2018-11-06 14:13:22		[look] (relay.conf)
+2018-11-06 14:13:22		  relay.look.auto_open_buffer = on
+2018-11-06 14:13:22		16 options (matching with "*buffer")
+2018-11-06 14:17:19	=!=	Option "*buflist" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:17:27		[cmd] (alias.conf)
+2018-11-06 14:17:27		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2018-11-06 14:17:27		[completion] (alias.conf)
+2018-11-06 14:17:27		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2018-11-06 14:17:27		2 options (matching with "*buf")
+2018-11-06 14:17:38	=!=	Option "*bar" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:17:41	=!=	Option "bar" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:17:47		[cmd] (alias.conf)
+2018-11-06 14:17:47		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2018-11-06 14:17:47		[completion] (alias.conf)
+2018-11-06 14:17:47		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2018-11-06 14:17:47		2 options (matching with "*buf")
+2018-11-06 14:19:21		List of bar items:
+2018-11-06 14:19:21		  input_paste (plugin: -)
+2018-11-06 14:19:21		  input_prompt (plugin: -)
+2018-11-06 14:19:21		  input_search (plugin: -)
+2018-11-06 14:19:21		  input_text (plugin: -)
+2018-11-06 14:19:21		  time (plugin: -)
+2018-11-06 14:19:21		  buffer_count (plugin: -)
+2018-11-06 14:19:21		  buffer_last_number (plugin: -)
+2018-11-06 14:19:21		  buffer_plugin (plugin: -)
+2018-11-06 14:19:21		  buffer_number (plugin: -)
+2018-11-06 14:19:21		  buffer_name (plugin: -)
+2018-11-06 14:19:21		  buffer_short_name (plugin: -)
+2018-11-06 14:19:21		  buffer_modes (plugin: -)
+2018-11-06 14:19:21		  buffer_filter (plugin: -)
+2018-11-06 14:19:21		  buffer_zoom (plugin: -)
+2018-11-06 14:19:21		  buffer_nicklist_count (plugin: -)
+2018-11-06 14:19:21		  scroll (plugin: -)
+2018-11-06 14:19:21		  hotlist (plugin: -)
+2018-11-06 14:19:21		  completion (plugin: -)
+2018-11-06 14:19:21		  buffer_title (plugin: -)
+2018-11-06 14:19:21		  buffer_nicklist (plugin: -)
+2018-11-06 14:19:21		  window_number (plugin: -)
+2018-11-06 14:19:21		  mouse_status (plugin: -)
+2018-11-06 14:19:21		  away (plugin: -)
+2018-11-06 14:19:21		  buflist (plugin: buflist)
+2018-11-06 14:19:21		  buffer_plugin (plugin: irc)
+2018-11-06 14:19:21		  buffer_name (plugin: irc)
+2018-11-06 14:19:21		  buffer_short_name (plugin: irc)
+2018-11-06 14:19:21		  buffer_modes (plugin: irc)
+2018-11-06 14:19:21		  irc_channel (plugin: irc)
+2018-11-06 14:19:21		  lag (plugin: irc)
+2018-11-06 14:19:21		  input_prompt (plugin: irc)
+2018-11-06 14:19:21		  irc_nick_modes (plugin: irc)
+2018-11-06 14:22:39		[format] (buflist.conf)
+2018-11-06 14:22:39		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2018-11-06 14:22:39		  buflist.format.buffer_current = "${color:,blue}${format_buffer}"
+2018-11-06 14:22:39		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2018-11-06 14:22:39		  buflist.format.hotlist_highlight = "${color:magenta}"
+2018-11-06 14:22:39		  buflist.format.hotlist_low = "${color:white}"
+2018-11-06 14:22:39		  buflist.format.hotlist_message = "${color:brown}"
+2018-11-06 14:22:39		  buflist.format.hotlist_none = "${color:default}"
+2018-11-06 14:22:39		  buflist.format.hotlist_private = "${color:green}"
+2018-11-06 14:22:39		  buflist.format.hotlist_separator = "${color:default},"
+2018-11-06 14:22:39		  buflist.format.indent = "  "
+2018-11-06 14:22:39		  buflist.format.lag = " ${color:green}[${color:brown}${lag}${color:green}]"
+2018-11-06 14:22:39		  buflist.format.name = "${name}"
+2018-11-06 14:22:39		  buflist.format.nick_prefix = "${color_nick_prefix}${nick_prefix}"
+2018-11-06 14:22:39		  buflist.format.number = "${color:green}${number}${if:${number_displayed}?.: }"
+2018-11-06 14:22:39		14 options (matching with "buflist.format.*")
+2018-11-06 14:22:59	=!=	Option "bar.*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:23:05	=!=	Option "*.bar" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:23:08	=!=	Option "bar" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-06 14:23:12	=!=	Error with command "/bar help" (help on command: /help bar)
+2018-11-06 14:23:16		[core]  /bar  list|listfull|listitems
+2018-11-06 14:23:16		              add <name> <type>[,<conditions>] <position> <size> <separator> <item1>[,<item2>...]
+2018-11-06 14:23:16		              default [input|title|status|nicklist]
+2018-11-06 14:23:16		              del <name>|-all
+2018-11-06 14:23:16		              set <name> <option> <value>
+2018-11-06 14:23:16		              hide|show|toggle <name>
+2018-11-06 14:23:16		              scroll <name> <window> <scroll_value>
+2018-11-06 14:23:16		manage bars
+2018-11-06 14:23:16		         list: list all bars
+2018-11-06 14:23:16		     listfull: list all bars (verbose)
+2018-11-06 14:23:16		    listitems: list all bar items
+2018-11-06 14:23:16		          add: add a new bar
+2018-11-06 14:23:16		         name: name of bar (must be unique)
+2018-11-06 14:23:16		         type:   root: outside windows,
+2018-11-06 14:23:16		               window: inside windows, with optional conditions (see below)
+2018-11-06 14:23:16		   conditions: the conditions to display the bar:
+2018-11-06 14:23:16		                 active: on active window
+2018-11-06 14:23:16		               inactive: on inactive windows
+2018-11-06 14:23:16		               nicklist: on windows with nicklist
+2018-11-06 14:23:16		               other condition: see /help weechat.bar.xxx.conditions and /help eval
+2018-11-06 14:23:16		               without conditions, the bar is always displayed
+2018-11-06 14:23:16		     position: bottom, top, left or right
+2018-11-06 14:23:16		         size: size of bar (in chars)
+2018-11-06 14:23:16		    separator: 1 for using separator (line), 0 or nothing means no separator
+2018-11-06 14:23:16		    item1,...: items for this bar (items can be separated by comma (space between items) or "+" (glued items))
+2018-11-06 14:23:16		      default: create a default bar (all default bars if no bar name is given)
+2018-11-06 14:23:16		          del: delete a bar (or all bars with -all)
+2018-11-06 14:23:16		          set: set a value for a bar property
+2018-11-06 14:23:16		       option: option to change (for options list, look at /set weechat.bar.<barname>.*)
+2018-11-06 14:23:16		        value: new value for option
+2018-11-06 14:23:16		         hide: hide a bar
+2018-11-06 14:23:16		         show: show an hidden bar
+2018-11-06 14:23:16		       toggle: hide/show a bar
+2018-11-06 14:23:16		       scroll: scroll bar
+2018-11-06 14:23:16		       window: window number (use '*' for current window or for root bars)
+2018-11-06 14:23:16		 scroll_value: value for scroll: 'x' or 'y' (optional), followed by '+', '-', 'b' (beginning) or 'e' (end), value (for +/-), and optional % (to scroll by % of width/height, otherwise value is number of chars)
+2018-11-06 14:23:16		Examples:
+2018-11-06 14:23:16		  create a bar with time, buffer number + name, and completion:
+2018-11-06 14:23:16		    /bar add mybar root bottom 1 0 [time],buffer_number+:+buffer_name,completion
+2018-11-06 14:23:16		  hide a bar:
+2018-11-06 14:23:16		    /bar hide mybar
+2018-11-06 14:23:16		  scroll nicklist 10 lines down on current buffer:
+2018-11-06 14:23:16		    /bar scroll nicklist * y+10
+2018-11-06 14:23:16		  scroll to end of nicklist on current buffer:
+2018-11-06 14:23:16		    /bar scroll nicklist * ye
+2018-11-06 14:25:58	=!=	Error with command "/bar buflist toggle" (help on command: /help bar)
+2018-11-06 14:26:10	=!=	Error with command "/bar vertical buflist" (help on command: /help bar)
+2018-11-06 14:26:18		[core]  /bar  list|listfull|listitems
+2018-11-06 14:26:18		              add <name> <type>[,<conditions>] <position> <size> <separator> <item1>[,<item2>...]
+2018-11-06 14:26:18		              default [input|title|status|nicklist]
+2018-11-06 14:26:18		              del <name>|-all
+2018-11-06 14:26:18		              set <name> <option> <value>
+2018-11-06 14:26:18		              hide|show|toggle <name>
+2018-11-06 14:26:18		              scroll <name> <window> <scroll_value>
+2018-11-06 14:26:18		manage bars
+2018-11-06 14:26:18		         list: list all bars
+2018-11-06 14:26:18		     listfull: list all bars (verbose)
+2018-11-06 14:26:18		    listitems: list all bar items
+2018-11-06 14:26:18		          add: add a new bar
+2018-11-06 14:26:18		         name: name of bar (must be unique)
+2018-11-06 14:26:18		         type:   root: outside windows,
+2018-11-06 14:26:18		               window: inside windows, with optional conditions (see below)
+2018-11-06 14:26:18		   conditions: the conditions to display the bar:
+2018-11-06 14:26:18		                 active: on active window
+2018-11-06 14:26:18		               inactive: on inactive windows
+2018-11-06 14:26:18		               nicklist: on windows with nicklist
+2018-11-06 14:26:18		               other condition: see /help weechat.bar.xxx.conditions and /help eval
+2018-11-06 14:26:18		               without conditions, the bar is always displayed
+2018-11-06 14:26:18		     position: bottom, top, left or right
+2018-11-06 14:26:18		         size: size of bar (in chars)
+2018-11-06 14:26:18		    separator: 1 for using separator (line), 0 or nothing means no separator
+2018-11-06 14:26:18		    item1,...: items for this bar (items can be separated by comma (space between items) or "+" (glued items))
+2018-11-06 14:26:18		      default: create a default bar (all default bars if no bar name is given)
+2018-11-06 14:26:18		          del: delete a bar (or all bars with -all)
+2018-11-06 14:26:18		          set: set a value for a bar property
+2018-11-06 14:26:18		       option: option to change (for options list, look at /set weechat.bar.<barname>.*)
+2018-11-06 14:26:18		        value: new value for option
+2018-11-06 14:26:18		         hide: hide a bar
+2018-11-06 14:26:18		         show: show an hidden bar
+2018-11-06 14:26:18		       toggle: hide/show a bar
+2018-11-06 14:26:18		       scroll: scroll bar
+2018-11-06 14:26:18		       window: window number (use '*' for current window or for root bars)
+2018-11-06 14:26:18		 scroll_value: value for scroll: 'x' or 'y' (optional), followed by '+', '-', 'b' (beginning) or 'e' (end), value (for +/-), and optional % (to scroll by % of width/height, otherwise value is number of chars)
+2018-11-06 14:26:18		Examples:
+2018-11-06 14:26:18		  create a bar with time, buffer number + name, and completion:
+2018-11-06 14:26:18		    /bar add mybar root bottom 1 0 [time],buffer_number+:+buffer_name,completion
+2018-11-06 14:26:18		  hide a bar:
+2018-11-06 14:26:18		    /bar hide mybar
+2018-11-06 14:26:18		  scroll nicklist 10 lines down on current buffer:
+2018-11-06 14:26:18		    /bar scroll nicklist * y+10
+2018-11-06 14:26:18		  scroll to end of nicklist on current buffer:
+2018-11-06 14:26:18		    /bar scroll nicklist * ye
+2018-11-06 14:27:12		[bar] (weechat.conf)
+2018-11-06 14:27:12		  weechat.bar.buflist.color_bg = default
+2018-11-06 14:27:12		  weechat.bar.buflist.color_delim = default
+2018-11-06 14:27:12		  weechat.bar.buflist.color_fg = default
+2018-11-06 14:27:12		  weechat.bar.buflist.conditions = ""
+2018-11-06 14:27:12		  weechat.bar.buflist.filling_left_right = vertical
+2018-11-06 14:27:12		  weechat.bar.buflist.filling_top_bottom = columns_vertical
+2018-11-06 14:27:12		  weechat.bar.buflist.hidden = off
+2018-11-06 14:27:12		  weechat.bar.buflist.items = "buflist"  (default: "")
+2018-11-06 14:27:12		  weechat.bar.buflist.position = left
+2018-11-06 14:27:12		  weechat.bar.buflist.priority = 0
+2018-11-06 14:27:12		  weechat.bar.buflist.separator = on
+2018-11-06 14:27:12		  weechat.bar.buflist.size = 0
+2018-11-06 14:27:12		  weechat.bar.buflist.size_max = 0
+2018-11-06 14:27:12		  weechat.bar.buflist.type = root
+2018-11-06 14:27:12		14 options (matching with "weechat.bar.buflist.*")
+2018-11-06 14:27:34		Option changed: weechat.bar.buflist.filling_left_right = horizontal  (default: vertical)
+2018-11-06 14:28:08	=!=	Error: failed to set option "weechat.bar.buflist.filling_top_bottom"
+2018-11-06 14:29:02		[bar] (weechat.conf)
+2018-11-06 14:29:02		  weechat.bar.buflist.position = left
+2018-11-06 14:29:02		1 option (matching with "weechat.bar.buflist.position")
+2018-11-06 14:29:11	=!=	Error: failed to set option "weechat.bar.buflist.position"
+2018-11-06 14:29:16	=!=	Error: failed to set option "weechat.bar.buflist.position"
+2018-11-06 14:29:18		Option changed: weechat.bar.buflist.position = right  (default: left)
+2018-11-06 14:29:31		Option changed: weechat.bar.buflist.position = bottom  (default: left)
+2018-11-06 14:29:36		Option changed: weechat.bar.buflist.position = top  (default: left)
+2018-11-06 14:30:59		[core]
+2018-11-06 14:30:59		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2018-11-06 14:30:59		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2018-11-06 14:30:59		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2018-11-06 14:30:59		[alias]
+2018-11-06 14:30:59		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2018-11-06 14:30:59		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2018-11-06 14:30:59		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2018-11-06 14:30:59		[buflist]
+2018-11-06 14:30:59		  buflist
+2018-11-06 14:30:59		[charset]
+2018-11-06 14:30:59		  charset
+2018-11-06 14:30:59		[exec]
+2018-11-06 14:30:59		  exec
+2018-11-06 14:30:59		[fifo]
+2018-11-06 14:30:59		  fifo
+2018-11-06 14:30:59		[irc]
+2018-11-06 14:30:59		  admin       ctcp        disconnect  kick        me          notify      quiet       samode      squery      unban       wallops   
+2018-11-06 14:30:59		  allchan     cycle       halfop      kickban     mode        op          quote       sanick      squit       unquiet     who       
+2018-11-06 14:30:59		  allpv       dcc         ignore      kill        motd        oper        reconnect   sapart      stats       userhost    whois     
+2018-11-06 14:30:59		  allserv     dehalfop    info        links       msg         part        rehash      saquit      summon      users       whowas    
+2018-11-06 14:30:59		  ban         deop        invite      list        names       ping        remove      server      time        version   
+2018-11-06 14:30:59		  cap         devoice     ison        lusers      nick        pong        restart     service     topic       voice     
+2018-11-06 14:30:59		  connect     die         join        map         notice      query       sajoin      servlist    trace       wallchops 
+2018-11-06 14:30:59		[logger]
+2018-11-06 14:30:59		  logger
+2018-11-06 14:30:59		[relay]
+2018-11-06 14:30:59		  relay
+2018-11-06 14:30:59		[script]
+2018-11-06 14:30:59		  script
+2018-11-06 14:30:59		[perl]
+2018-11-06 14:30:59		  perl
+2018-11-06 14:30:59		[python]
+2018-11-06 14:30:59		  python
+2018-11-06 14:30:59		[trigger]
+2018-11-06 14:30:59		  trigger
+2018-11-06 14:30:59		[xfer]
+2018-11-06 14:30:59		  me  xfer
+2018-11-06 14:31:56		[irc]  /time  [<target>]
+2018-11-06 14:31:56		query local time from server
+2018-11-06 14:31:56		target: query time from specified server
+2018-11-06 14:32:10		[irc]  /time  [<target>]
+2018-11-06 14:32:10		query local time from server
+2018-11-06 14:32:10		target: query time from specified server
+2018-11-06 14:32:13	=!=	No help available, "message" is not a command or an option
+2018-11-06 14:32:19	=!=	Error with command "/bar help" (help on command: /help bar)
+2018-11-06 15:52:12		[buflist]  /buflist  bar
+2018-11-06 15:52:12		                     refresh
+2018-11-06 15:52:12		bar item with list of buffers
+2018-11-06 15:52:12		    bar: add the "buflist" bar
+2018-11-06 15:52:12		refresh: force the refresh of the "buflist" bar item
+2018-11-06 15:52:12		The lines with buffers are displayed using string evaluation (see /help eval for the format), with these options:
+2018-11-06 15:52:12		  - buflist.look.display_conditions: conditions to display a buffer in the list
+2018-11-06 15:52:12		  - buflist.format.buffer: format for a buffer which is not current buffer
+2018-11-06 15:52:12		  - buflist.format.buffer_current: format for the current buffer
+2018-11-06 15:52:12		The following variables can be used in these options:
+2018-11-06 15:52:12		  - buffer data (see hdata "buffer" in API doc for a complete list), for example:
+2018-11-06 15:52:12		    - ${buffer.number}
+2018-11-06 15:52:12		    - ${buffer.name}
+2018-11-06 15:52:12		    - ${buffer.full_name}
+2018-11-06 15:52:12		    - ${buffer.short_name}
+2018-11-06 15:52:12		    - ${buffer.nicklist_nicks_count}
+2018-11-06 15:52:12		  - irc_server: IRC server data, defined only on an IRC buffer (see hdata "irc_server" in API doc)
+2018-11-06 15:52:12		  - irc_channel: IRC channel data, defined only on an IRC channel buffer (see hdata "irc_channel" in API doc)
+2018-11-06 15:52:12		  - extra variables added by buflist for convenience:
+2018-11-06 15:52:12		    - ${format_buffer}: the evaluated value of option buflist.format.buffer; this can be used in option buflist.format.buffer_current to just change the background color for example
+2018-11-06 15:52:12		    - ${current_buffer}: a boolean ("0" or "1"), "1" if this is the current buffer; it can be used in a condition: ${if:${current_buffer}?...:...}
+2018-11-06 15:52:12		    - ${merged}: a boolean ("0" or "1"), "1" if the buffer is merged with at least another buffer; it can be used in a condition: ${if:${merged}?...:...}
+2018-11-06 15:52:12		    - ${format_number}: indented number with separator (evaluation of option buflist.format.number)
+2018-11-06 15:52:12		    - ${number}: indented number, for example " 1" if there are between 10 and 99 buffers
+2018-11-06 15:52:12		    - ${number_displayed}: "1" if the number is displayed, otherwise "0"
+2018-11-06 15:52:12		    - ${indent}: indentation for name (channel and private buffers are indented) (evaluation of option buflist.format.indent)
+2018-11-06 15:52:12		    - ${format_nick_prefix}: colored nick prefix for a channel (evaluation of option buflist.format.nick_prefix)
+2018-11-06 15:52:12		    - ${color_nick_prefix}: color of nick prefix for a channel (set only if the option buflist.look.nick_prefix is enabled)
+2018-11-06 15:52:12		    - ${nick_prefix}: nick prefix for a channel (set only if the option buflist.look.nick_prefix is enabled)
+2018-11-06 15:52:12		    - ${format_name}: formatted name (evaluation of option buflist.format.name)
+2018-11-06 15:52:12		    - ${name}: the short name (if set), with a fallback on the name
+2018-11-06 15:52:12		    - ${color_hotlist}: the color depending on the highest hotlist level for the buffer (evaluation of option buflist.format.hotlist_xxx where xxx is the level)
+2018-11-06 15:52:12		    - ${format_hotlist}: the formatted hotlist (evaluation of option buflist.format.hotlist)
+2018-11-06 15:52:12		    - ${hotlist}: the raw hotlist
+2018-11-06 15:52:12		    - ${hotlist_priority}: "none", "low", "message", "private" or "highlight"
+2018-11-06 15:52:12		    - ${format_lag}: the lag for an IRC server buffer, empty if there's no lag (evaluation of option buflist.format.lag)
+2018-11-06 15:52:22		[buflist]  /buflist  bar
+2018-11-06 15:52:22		                     refresh
+2018-11-06 15:52:22		bar item with list of buffers
+2018-11-06 15:52:22		    bar: add the "buflist" bar
+2018-11-06 15:52:22		refresh: force the refresh of the "buflist" bar item
+2018-11-06 15:52:22		The lines with buffers are displayed using string evaluation (see /help eval for the format), with these options:
+2018-11-06 15:52:22		  - buflist.look.display_conditions: conditions to display a buffer in the list
+2018-11-06 15:52:22		  - buflist.format.buffer: format for a buffer which is not current buffer
+2018-11-06 15:52:22		  - buflist.format.buffer_current: format for the current buffer
+2018-11-06 15:52:22		The following variables can be used in these options:
+2018-11-06 15:52:22		  - buffer data (see hdata "buffer" in API doc for a complete list), for example:
+2018-11-06 15:52:22		    - ${buffer.number}
+2018-11-06 15:52:22		    - ${buffer.name}
+2018-11-06 15:52:22		    - ${buffer.full_name}
+2018-11-06 15:52:22		    - ${buffer.short_name}
+2018-11-06 15:52:22		    - ${buffer.nicklist_nicks_count}
+2018-11-06 15:52:22		  - irc_server: IRC server data, defined only on an IRC buffer (see hdata "irc_server" in API doc)
+2018-11-06 15:52:22		  - irc_channel: IRC channel data, defined only on an IRC channel buffer (see hdata "irc_channel" in API doc)
+2018-11-06 15:52:22		  - extra variables added by buflist for convenience:
+2018-11-06 15:52:22		    - ${format_buffer}: the evaluated value of option buflist.format.buffer; this can be used in option buflist.format.buffer_current to just change the background color for example
+2018-11-06 15:52:22		    - ${current_buffer}: a boolean ("0" or "1"), "1" if this is the current buffer; it can be used in a condition: ${if:${current_buffer}?...:...}
+2018-11-06 15:52:22		    - ${merged}: a boolean ("0" or "1"), "1" if the buffer is merged with at least another buffer; it can be used in a condition: ${if:${merged}?...:...}
+2018-11-06 15:52:22		    - ${format_number}: indented number with separator (evaluation of option buflist.format.number)
+2018-11-06 15:52:22		    - ${number}: indented number, for example " 1" if there are between 10 and 99 buffers
+2018-11-06 15:52:22		    - ${number_displayed}: "1" if the number is displayed, otherwise "0"
+2018-11-06 15:52:22		    - ${indent}: indentation for name (channel and private buffers are indented) (evaluation of option buflist.format.indent)
+2018-11-06 15:52:22		    - ${format_nick_prefix}: colored nick prefix for a channel (evaluation of option buflist.format.nick_prefix)
+2018-11-06 15:52:22		    - ${color_nick_prefix}: color of nick prefix for a channel (set only if the option buflist.look.nick_prefix is enabled)
+2018-11-06 15:52:22		    - ${nick_prefix}: nick prefix for a channel (set only if the option buflist.look.nick_prefix is enabled)
+2018-11-06 15:52:22		    - ${format_name}: formatted name (evaluation of option buflist.format.name)
+2018-11-06 15:52:22		    - ${name}: the short name (if set), with a fallback on the name
+2018-11-06 15:52:22		    - ${color_hotlist}: the color depending on the highest hotlist level for the buffer (evaluation of option buflist.format.hotlist_xxx where xxx is the level)
+2018-11-06 15:52:22		    - ${format_hotlist}: the formatted hotlist (evaluation of option buflist.format.hotlist)
+2018-11-06 15:52:22		    - ${hotlist}: the raw hotlist
+2018-11-06 15:52:22		    - ${hotlist_priority}: "none", "low", "message", "private" or "highlight"
+2018-11-06 15:52:22		    - ${format_lag}: the lag for an IRC server buffer, empty if there's no lag (evaluation of option buflist.format.lag)
+2018-11-06 15:53:15		Option changed: buflist.format.number = "*"  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2018-11-06 15:53:24		Option changed: buflist.format.number = "none"  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2018-11-06 15:53:27		[format] (buflist.conf)
+2018-11-06 15:53:27		  buflist.format.number = "none"  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2018-11-06 15:53:27		1 option (matching with "buflist.format.number")
+2018-11-06 15:55:17		[format] (buflist.conf)
+2018-11-06 15:55:17		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2018-11-06 15:55:17		  buflist.format.buffer_current = "${color:,blue}${format_buffer}"
+2018-11-06 15:55:17		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2018-11-06 15:55:17		  buflist.format.hotlist_highlight = "${color:magenta}"
+2018-11-06 15:55:17		  buflist.format.hotlist_low = "${color:white}"
+2018-11-06 15:55:17		  buflist.format.hotlist_message = "${color:brown}"
+2018-11-06 15:55:17		  buflist.format.hotlist_none = "${color:default}"
+2018-11-06 15:55:17		  buflist.format.hotlist_private = "${color:green}"
+2018-11-06 15:55:17		  buflist.format.hotlist_separator = "${color:default},"
+2018-11-06 15:55:17		  buflist.format.indent = "  "
+2018-11-06 15:55:17		  buflist.format.lag = " ${color:green}[${color:brown}${lag}${color:green}]"
+2018-11-06 15:55:17		  buflist.format.name = "${name}"
+2018-11-06 15:55:17		  buflist.format.nick_prefix = "${color_nick_prefix}${nick_prefix}"
+2018-11-06 15:55:17		  buflist.format.number = "none"  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2018-11-06 15:55:17		14 options (matching with "buflist.format.*")
+2018-11-06 15:55:52		Option changed: buflist.format.number = "hidden"  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2018-11-06 15:55:57		Option changed: buflist.format.number = ""  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2018-11-06 15:59:11		Option changed: weechat.bar.buflist.filling_left_right = horizontal  (default: vertical)
+2018-11-06 15:59:16		Option changed: weechat.bar.buflist.filling_left_right = vertical
+2018-11-06 15:59:22		Option changed: weechat.bar.buflist.filling_left_right = horizontal  (default: vertical)
+2018-11-06 16:05:34		[alias]  /CHAT  
+2018-11-06 16:05:34		dcc chat
+2018-11-06 16:05:40		[alias]  /CHAT  
+2018-11-06 16:05:40		dcc chat
+2018-11-06 16:05:44		[color] (weechat.conf)
+2018-11-06 16:05:44		  weechat.color.chat = default
+2018-11-06 16:05:44		[cmd] (alias.conf)
+2018-11-06 16:05:44		  alias.cmd.CHAT = "dcc chat"
+2018-11-06 16:05:44		2 options (matching with "*chat")
+2018-11-06 16:07:02	=!=	No help available, "message" is not a command or an option
+2018-11-06 16:07:08		[irc]  /msg  [-server <server>] <target>[,<target>...] <text>
+2018-11-06 16:07:08		send message to a nick or channel
+2018-11-06 16:07:08		server: send to this server (internal name)
+2018-11-06 16:07:08		target: nick or channel (may be mask, '*' = current channel)
+2018-11-06 16:07:08		  text: text to send
+2018-11-06 16:07:16		[alias]  /CHAT  
+2018-11-06 16:07:16		dcc chat
+2018-11-06 16:07:34	=!=	You can not write text in this buffer
+2018-11-06 16:07:40	=!=	No help available, "weechat.*.chat" is not a command or an option
+2018-11-06 16:11:52		Option changed: irc.server_default.nicks = "Ergo,ronin7z"  (default: "")
+2018-11-06 16:13:36		[look] (weechat.conf)
+2018-11-06 16:13:36		  weechat.look.align_end_of_lines = message
+2018-11-06 16:13:36		  weechat.look.align_multiline_words = on
+2018-11-06 16:13:36		  weechat.look.bar_more_down = "++"
+2018-11-06 16:13:36		  weechat.look.bar_more_left = "<<"
+2018-11-06 16:13:36		  weechat.look.bar_more_right = ">>"
+2018-11-06 16:13:36		  weechat.look.bar_more_up = "--"
+2018-11-06 16:13:36		  weechat.look.bare_display_exit_on_input = on
+2018-11-06 16:13:36		  weechat.look.bare_display_time_format = "%H:%M"
+2018-11-06 16:13:36		  weechat.look.buffer_auto_renumber = on
+2018-11-06 16:13:36		  weechat.look.buffer_notify_default = all
+2018-11-06 16:13:36		  weechat.look.buffer_position = end
+2018-11-06 16:13:36		  weechat.look.buffer_search_case_sensitive = off
+2018-11-06 16:13:36		  weechat.look.buffer_search_force_default = off
+2018-11-06 16:13:36		  weechat.look.buffer_search_regex = off
+2018-11-06 16:13:36		  weechat.look.buffer_search_where = prefix_message
+2018-11-06 16:13:36		  weechat.look.buffer_time_format = "%H:%M:%S"
+2018-11-06 16:13:36		  weechat.look.color_basic_force_bold = off
+2018-11-06 16:13:36		  weechat.look.color_inactive_buffer = on
+2018-11-06 16:13:36		  weechat.look.color_inactive_message = on
+2018-11-06 16:13:36		  weechat.look.color_inactive_prefix = on
+2018-11-06 16:13:36		  weechat.look.color_inactive_prefix_buffer = on
+2018-11-06 16:13:36		  weechat.look.color_inactive_time = off
+2018-11-06 16:13:36		  weechat.look.color_inactive_window = on
+2018-11-06 16:13:36		  weechat.look.color_nick_offline = off
+2018-11-06 16:13:36		  weechat.look.color_pairs_auto_reset = 5
+2018-11-06 16:13:36		  weechat.look.color_real_white = off
+2018-11-06 16:13:36		  weechat.look.command_chars = ""
+2018-11-06 16:13:36		  weechat.look.command_incomplete = off
+2018-11-06 16:13:36		  weechat.look.confirm_quit = off
+2018-11-06 16:13:36		  weechat.look.confirm_upgrade = off
+2018-11-06 16:13:36		  weechat.look.day_change = on
+2018-11-06 16:13:36		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2018-11-06 16:13:36		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2018-11-06 16:13:36		  weechat.look.eat_newline_glitch = off
+2018-11-06 16:13:36		  weechat.look.emphasized_attributes = ""
+2018-11-06 16:13:36		  weechat.look.highlight = ""
+2018-11-06 16:13:36		  weechat.look.highlight_regex = ""
+2018-11-06 16:13:36		  weechat.look.highlight_tags = ""
+2018-11-06 16:13:36		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"
+2018-11-06 16:13:36		  weechat.look.hotlist_buffer_separator = ", "
+2018-11-06 16:13:36		  weechat.look.hotlist_count_max = 2
+2018-11-06 16:13:36		  weechat.look.hotlist_count_min_msg = 2
+2018-11-06 16:13:36		  weechat.look.hotlist_names_count = 3
+2018-11-06 16:13:36		  weechat.look.hotlist_names_length = 0
+2018-11-06 16:13:36		  weechat.look.hotlist_names_level = 12
+2018-11-06 16:13:36		  weechat.look.hotlist_names_merged_buffers = off
+2018-11-06 16:13:36		  weechat.look.hotlist_prefix = "H: "
+2018-11-06 16:13:36		  weechat.look.hotlist_remove = merged
+2018-11-06 16:13:36		  weechat.look.hotlist_short_names = on
+2018-11-06 16:13:36		  weechat.look.hotlist_sort = group_time_asc
+2018-11-06 16:13:36		  weechat.look.hotlist_suffix = ""
+2018-11-06 16:13:36		  weechat.look.hotlist_unique_numbers = on
+2018-11-06 16:13:36		  weechat.look.input_cursor_scroll = 20
+2018-11-06 16:13:36		  weechat.look.input_share = none
+2018-11-06 16:13:36		  weechat.look.input_share_overwrite = off
+2018-11-06 16:13:36		  weechat.look.input_undo_max = 32
+2018-11-06 16:13:36		  weechat.look.item_away_message = on
+2018-11-06 16:13:36		  weechat.look.item_buffer_filter = "*"
+2018-11-06 16:13:36		  weechat.look.item_buffer_zoom = "!"
+2018-11-06 16:13:36		  weechat.look.item_mouse_status = "M"
+2018-11-06 16:13:36		  weechat.look.item_time_format = "%H:%M"
+2018-11-06 16:13:36		  weechat.look.jump_current_to_previous_buffer = on
+2018-11-06 16:13:36		  weechat.look.jump_previous_buffer_when_closing = on
+2018-11-06 16:13:36		  weechat.look.jump_smart_back_to_buffer = on
+2018-11-06 16:13:36		  weechat.look.key_bind_safe = on
+2018-11-06 16:13:36		  weechat.look.key_grab_delay = 800
+2018-11-06 16:13:36		  weechat.look.mouse = off
+2018-11-06 16:13:36		  weechat.look.mouse_timer_delay = 100
+2018-11-06 16:13:36		  weechat.look.nick_color_force = ""
+2018-11-06 16:13:36		  weechat.look.nick_color_hash = djb2
+2018-11-06 16:13:36		  weechat.look.nick_color_stop_chars = "_|["
+2018-11-06 16:13:36		  weechat.look.nick_prefix = ""
+2018-11-06 16:13:36		  weechat.look.nick_suffix = ""
+2018-11-06 16:13:36		  weechat.look.paste_auto_add_newline = on
+2018-11-06 16:13:36		  weechat.look.paste_bracketed = on
+2018-11-06 16:13:36		  weechat.look.paste_bracketed_timer_delay = 10
+2018-11-06 16:13:36		  weechat.look.paste_max_lines = 1
+2018-11-06 16:13:36		  weechat.look.prefix_action = " *"
+2018-11-06 16:13:36		  weechat.look.prefix_align = right
+2018-11-06 16:13:36		  weechat.look.prefix_align_max = 0
+2018-11-06 16:13:36		  weechat.look.prefix_align_min = 0
+2018-11-06 16:13:36		  weechat.look.prefix_align_more = "+"
+2018-11-06 16:13:36		  weechat.look.prefix_align_more_after = on
+2018-11-06 16:13:36		  weechat.look.prefix_buffer_align = right
+2018-11-06 16:13:36		  weechat.look.prefix_buffer_align_max = 0
+2018-11-06 16:13:36		  weechat.look.prefix_buffer_align_more = "+"
+2018-11-06 16:13:36		  weechat.look.prefix_buffer_align_more_after = on
+2018-11-06 16:13:36		  weechat.look.prefix_error = "=!="
+2018-11-06 16:13:36		  weechat.look.prefix_join = "-->"
+2018-11-06 16:13:36		  weechat.look.prefix_network = "--"
+2018-11-06 16:13:36		  weechat.look.prefix_quit = "<--"
+2018-11-06 16:13:36		  weechat.look.prefix_same_nick = ""
+2018-11-06 16:13:36		  weechat.look.prefix_suffix = "|"
+2018-11-06 16:13:36		  weechat.look.quote_nick_prefix = "<"
+2018-11-06 16:13:36		  weechat.look.quote_nick_suffix = ">"
+2018-11-06 16:13:36		  weechat.look.quote_time_format = "%H:%M:%S"
+2018-11-06 16:13:36		  weechat.look.read_marker = line
+2018-11-06 16:13:36		  weechat.look.read_marker_always_show = off
+2018-11-06 16:13:36		  weechat.look.read_marker_string = "- "
+2018-11-06 16:13:36		  weechat.look.save_config_on_exit = on
+2018-11-06 16:13:36		  weechat.look.save_layout_on_exit = none
+2018-11-06 16:13:36		  weechat.look.scroll_amount = 3
+2018-11-06 16:13:36		  weechat.look.scroll_bottom_after_switch = off
+2018-11-06 16:13:36		  weechat.look.scroll_page_percent = 100
+2018-11-06 16:13:36		  weechat.look.search_text_not_found_alert = on
+2018-11-06 16:13:36		  weechat.look.separator_horizontal = "-"
+2018-11-06 16:13:36		  weechat.look.separator_vertical = ""
+2018-11-06 16:13:36		  weechat.look.tab_width = 1
+2018-11-06 16:13:36		  weechat.look.time_format = "%a, %d %b %Y %T"
+2018-11-06 16:13:36		  weechat.look.window_auto_zoom = off
+2018-11-06 16:13:36		  weechat.look.window_separator_horizontal = on
+2018-11-06 16:13:36		  weechat.look.window_separator_vertical = on
+2018-11-06 16:13:36		  weechat.look.window_title = "WeeChat ${info:version}"
+2018-11-06 16:13:36		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2018-11-06 16:13:36		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-11-06 16:13:36		115 options (matching with "weechat.look.*")
+2018-11-06 16:13:54	=!=	Error: option "weechat.look.window_seperator_horizonal" not found
+2018-11-06 16:14:09	=!=	Error: option "weechat.look.seperator_horizonal" not found
+2018-11-06 16:14:26	=!=	Error: option "weechat.look.separator_horizonal" not found
+2018-11-06 16:14:31		[look] (weechat.conf)
+2018-11-06 16:14:31		  weechat.look.separator_horizontal = "-"
+2018-11-06 16:14:31		  weechat.look.separator_vertical = ""
+2018-11-06 16:14:31		2 options (matching with "weechat.look.separator_*")
+2018-11-06 16:14:37	=!=	Error: failed to set option "weechat.look.separator_horizontal"
+2018-11-06 16:14:39		[look] (weechat.conf)
+2018-11-06 16:14:39		  weechat.look.separator_horizontal = "-"
+2018-11-06 16:14:39		1 option (matching with "weechat.look.separator_horizontal")
+2018-11-06 16:14:44	=!=	Error: failed to set option "weechat.look.separator_horizontal"
+2018-11-06 16:14:48	=!=	Error: failed to set option "weechat.look.separator_horizontal"
+2018-11-06 16:14:50		[look] (weechat.conf)
+2018-11-06 16:14:50		  weechat.look.separator_horizontal = "-"
+2018-11-06 16:14:50		1 option (matching with "weechat.look.separator_horizontal")
+2018-11-06 16:15:02	=!=	Error: failed to set option "weechat.look.separator_vertical"
+2018-11-06 16:15:10	=!=	Error: option "toggle" not found
+2018-11-06 16:15:19	=!=	Error: failed to set option "weechat.look.separator_vertical"
+2018-11-06 16:15:33		[look] (weechat.conf)
+2018-11-06 16:15:33		  weechat.look.separator_horizontal = "-"
+2018-11-06 16:15:33		  weechat.look.separator_vertical = ""
+2018-11-06 16:15:33		2 options (matching with "weechat.look.separator_*")
+2018-11-06 16:15:40		[look] (weechat.conf)
+2018-11-06 16:15:40		  weechat.look.align_end_of_lines = message
+2018-11-06 16:15:40		  weechat.look.align_multiline_words = on
+2018-11-06 16:15:40		  weechat.look.bar_more_down = "++"
+2018-11-06 16:15:40		  weechat.look.bar_more_left = "<<"
+2018-11-06 16:15:40		  weechat.look.bar_more_right = ">>"
+2018-11-06 16:15:40		  weechat.look.bar_more_up = "--"
+2018-11-06 16:15:40		  weechat.look.bare_display_exit_on_input = on
+2018-11-06 16:15:40		  weechat.look.bare_display_time_format = "%H:%M"
+2018-11-06 16:15:40		  weechat.look.buffer_auto_renumber = on
+2018-11-06 16:15:40		  weechat.look.buffer_notify_default = all
+2018-11-06 16:15:40		  weechat.look.buffer_position = end
+2018-11-06 16:15:40		  weechat.look.buffer_search_case_sensitive = off
+2018-11-06 16:15:40		  weechat.look.buffer_search_force_default = off
+2018-11-06 16:15:40		  weechat.look.buffer_search_regex = off
+2018-11-06 16:15:40		  weechat.look.buffer_search_where = prefix_message
+2018-11-06 16:15:40		  weechat.look.buffer_time_format = "%H:%M:%S"
+2018-11-06 16:15:40		  weechat.look.color_basic_force_bold = off
+2018-11-06 16:15:40		  weechat.look.color_inactive_buffer = on
+2018-11-06 16:15:40		  weechat.look.color_inactive_message = on
+2018-11-06 16:15:40		  weechat.look.color_inactive_prefix = on
+2018-11-06 16:15:40		  weechat.look.color_inactive_prefix_buffer = on
+2018-11-06 16:15:40		  weechat.look.color_inactive_time = off
+2018-11-06 16:15:40		  weechat.look.color_inactive_window = on
+2018-11-06 16:15:40		  weechat.look.color_nick_offline = off
+2018-11-06 16:15:40		  weechat.look.color_pairs_auto_reset = 5
+2018-11-06 16:15:40		  weechat.look.color_real_white = off
+2018-11-06 16:15:40		  weechat.look.command_chars = ""
+2018-11-06 16:15:40		  weechat.look.command_incomplete = off
+2018-11-06 16:15:40		  weechat.look.confirm_quit = off
+2018-11-06 16:15:40		  weechat.look.confirm_upgrade = off
+2018-11-06 16:15:40		  weechat.look.day_change = on
+2018-11-06 16:15:40		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2018-11-06 16:15:40		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2018-11-06 16:15:40		  weechat.look.eat_newline_glitch = off
+2018-11-06 16:15:40		  weechat.look.emphasized_attributes = ""
+2018-11-06 16:15:40		  weechat.look.highlight = ""
+2018-11-06 16:15:40		  weechat.look.highlight_regex = ""
+2018-11-06 16:15:40		  weechat.look.highlight_tags = ""
+2018-11-06 16:15:40		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"
+2018-11-06 16:15:40		  weechat.look.hotlist_buffer_separator = ", "
+2018-11-06 16:15:40		  weechat.look.hotlist_count_max = 2
+2018-11-06 16:15:40		  weechat.look.hotlist_count_min_msg = 2
+2018-11-06 16:15:40		  weechat.look.hotlist_names_count = 3
+2018-11-06 16:15:40		  weechat.look.hotlist_names_length = 0
+2018-11-06 16:15:40		  weechat.look.hotlist_names_level = 12
+2018-11-06 16:15:40		  weechat.look.hotlist_names_merged_buffers = off
+2018-11-06 16:15:40		  weechat.look.hotlist_prefix = "H: "
+2018-11-06 16:15:40		  weechat.look.hotlist_remove = merged
+2018-11-06 16:15:40		  weechat.look.hotlist_short_names = on
+2018-11-06 16:15:40		  weechat.look.hotlist_sort = group_time_asc
+2018-11-06 16:15:40		  weechat.look.hotlist_suffix = ""
+2018-11-06 16:15:40		  weechat.look.hotlist_unique_numbers = on
+2018-11-06 16:15:40		  weechat.look.input_cursor_scroll = 20
+2018-11-06 16:15:40		  weechat.look.input_share = none
+2018-11-06 16:15:40		  weechat.look.input_share_overwrite = off
+2018-11-06 16:15:40		  weechat.look.input_undo_max = 32
+2018-11-06 16:15:40		  weechat.look.item_away_message = on
+2018-11-06 16:15:40		  weechat.look.item_buffer_filter = "*"
+2018-11-06 16:15:40		  weechat.look.item_buffer_zoom = "!"
+2018-11-06 16:15:40		  weechat.look.item_mouse_status = "M"
+2018-11-06 16:15:40		  weechat.look.item_time_format = "%H:%M"
+2018-11-06 16:15:40		  weechat.look.jump_current_to_previous_buffer = on
+2018-11-06 16:15:40		  weechat.look.jump_previous_buffer_when_closing = on
+2018-11-06 16:15:40		  weechat.look.jump_smart_back_to_buffer = on
+2018-11-06 16:15:40		  weechat.look.key_bind_safe = on
+2018-11-06 16:15:40		  weechat.look.key_grab_delay = 800
+2018-11-06 16:15:40		  weechat.look.mouse = off
+2018-11-06 16:15:40		  weechat.look.mouse_timer_delay = 100
+2018-11-06 16:15:40		  weechat.look.nick_color_force = ""
+2018-11-06 16:15:40		  weechat.look.nick_color_hash = djb2
+2018-11-06 16:15:40		  weechat.look.nick_color_stop_chars = "_|["
+2018-11-06 16:15:40		  weechat.look.nick_prefix = ""
+2018-11-06 16:15:40		  weechat.look.nick_suffix = ""
+2018-11-06 16:15:40		  weechat.look.paste_auto_add_newline = on
+2018-11-06 16:15:40		  weechat.look.paste_bracketed = on
+2018-11-06 16:15:40		  weechat.look.paste_bracketed_timer_delay = 10
+2018-11-06 16:15:40		  weechat.look.paste_max_lines = 1
+2018-11-06 16:15:40		  weechat.look.prefix_action = " *"
+2018-11-06 16:15:40		  weechat.look.prefix_align = right
+2018-11-06 16:15:40		  weechat.look.prefix_align_max = 0
+2018-11-06 16:15:40		  weechat.look.prefix_align_min = 0
+2018-11-06 16:15:40		  weechat.look.prefix_align_more = "+"
+2018-11-06 16:15:40		  weechat.look.prefix_align_more_after = on
+2018-11-06 16:15:40		  weechat.look.prefix_buffer_align = right
+2018-11-06 16:15:40		  weechat.look.prefix_buffer_align_max = 0
+2018-11-06 16:15:40		  weechat.look.prefix_buffer_align_more = "+"
+2018-11-06 16:15:40		  weechat.look.prefix_buffer_align_more_after = on
+2018-11-06 16:15:40		  weechat.look.prefix_error = "=!="
+2018-11-06 16:15:40		  weechat.look.prefix_join = "-->"
+2018-11-06 16:15:40		  weechat.look.prefix_network = "--"
+2018-11-06 16:15:40		  weechat.look.prefix_quit = "<--"
+2018-11-06 16:15:40		  weechat.look.prefix_same_nick = ""
+2018-11-06 16:15:40		  weechat.look.prefix_suffix = "|"
+2018-11-06 16:15:40		  weechat.look.quote_nick_prefix = "<"
+2018-11-06 16:15:40		  weechat.look.quote_nick_suffix = ">"
+2018-11-06 16:15:40		  weechat.look.quote_time_format = "%H:%M:%S"
+2018-11-06 16:15:40		  weechat.look.read_marker = line
+2018-11-06 16:15:40		  weechat.look.read_marker_always_show = off
+2018-11-06 16:15:40		  weechat.look.read_marker_string = "- "
+2018-11-06 16:15:40		  weechat.look.save_config_on_exit = on
+2018-11-06 16:15:40		  weechat.look.save_layout_on_exit = none
+2018-11-06 16:15:40		  weechat.look.scroll_amount = 3
+2018-11-06 16:15:40		  weechat.look.scroll_bottom_after_switch = off
+2018-11-06 16:15:40		  weechat.look.scroll_page_percent = 100
+2018-11-06 16:15:40		  weechat.look.search_text_not_found_alert = on
+2018-11-06 16:15:40		  weechat.look.separator_horizontal = "-"
+2018-11-06 16:15:40		  weechat.look.separator_vertical = ""
+2018-11-06 16:15:40		  weechat.look.tab_width = 1
+2018-11-06 16:15:40		  weechat.look.time_format = "%a, %d %b %Y %T"
+2018-11-06 16:15:40		  weechat.look.window_auto_zoom = off
+2018-11-06 16:15:40		  weechat.look.window_separator_horizontal = on
+2018-11-06 16:15:40		  weechat.look.window_separator_vertical = on
+2018-11-06 16:15:40		  weechat.look.window_title = "WeeChat ${info:version}"
+2018-11-06 16:15:40		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2018-11-06 16:15:40		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-11-06 16:15:40		115 options (matching with "weechat.look.*")
+2018-11-06 16:16:04	=!=	You can not write text in this buffer
+2018-11-06 16:16:12		Option changed: weechat.look.bare_display_time_format = ""  (default: "%H:%M")
+2018-11-06 16:17:06	=!=	Error: failed to set option "weechat.look.buffer_position"
+2018-11-06 16:17:10	=!=	Error: failed to set option "weechat.look.buffer_position"
+2018-11-06 16:17:42		Option changed: weechat.look.window_title = ""  (default: "WeeChat ${info:version}")
+2018-11-06 18:46:53		Option changed: weechat.look.prefix_suffix = "?"  (default: "|")
+2018-11-06 18:47:03		Option changed: weechat.look.prefix_suffix = "|"
+2018-11-06 18:47:08		Option changed: weechat.look.prefix_suffix = ""  (default: "|")
+2018-11-06 18:47:20		Option changed: weechat.look.item_buffer_filter = "?"  (default: "*")
+2018-11-06 18:48:52		Option changed: weechat.look.buffer_time_format = "[%H:%M]"  (default: "%H:%M:%S")
+2018-11-06 18:48:57		Option changed: weechat.look.buffer_time_format = "[]"  (default: "%H:%M:%S")
+2018-11-06 18:48:59		Option changed: weechat.look.buffer_time_format = ""  (default: "%H:%M:%S")
+2018-11-06 19:02:52		Mouse disabled
+2018-11-06 19:04:10		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 19:11:33		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 19:12:33		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 19:42:38		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 22:39:37		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-06 23:28:50		irc: server snoonet added
+2018-11-07 01:34:41	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-11-07 10:31:01		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-07 10:56:29		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-07 11:19:39		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-07 11:40:01		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-07 14:56:21		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-07 15:25:28		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-07 15:31:44		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 00:17:52		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 11:24:52	=!=	Option "*.seperator" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:24:55		[color] (weechat.conf)
+2018-11-08 11:24:55		  weechat.color.separator = blue
+2018-11-08 11:24:55		[bar] (weechat.conf)
+2018-11-08 11:24:55		  weechat.bar.buflist.separator = on
+2018-11-08 11:24:55		  weechat.bar.input.separator = off
+2018-11-08 11:24:55		  weechat.bar.nicklist.separator = on
+2018-11-08 11:24:55		  weechat.bar.status.separator = off
+2018-11-08 11:24:55		  weechat.bar.title.separator = off
+2018-11-08 11:24:55		6 options (matching with "*.separator")
+2018-11-08 11:25:11	=!=	Error: option "weechat.bar.buflist.seperator" not found
+2018-11-08 11:25:16		Option changed: weechat.bar.buflist.separator = off  (default: on)
+2018-11-08 11:25:28		Option changed: weechat.bar.input.separator = off
+2018-11-08 11:25:51	=!=	Option "*.topic" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:25:58	=!=	Option "topic.*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:26:04	=!=	Option "title" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:26:07	=!=	Option "title*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:26:11		[look] (weechat.conf)
+2018-11-08 11:26:11		  weechat.look.window_title = ""  (default: "WeeChat ${info:version}")
+2018-11-08 11:26:11		1 option (matching with "*title")
+2018-11-08 11:26:33	=!=	Option "*.input" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:26:37		[look] (weechat.conf)
+2018-11-08 11:26:37		  weechat.look.bare_display_exit_on_input = on
+2018-11-08 11:26:37		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-11-08 11:26:37		2 options (matching with "*input")
+2018-11-08 11:26:45	=!=	Option "input*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:26:48	=!=	Option "input" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:26:50	=!=	Option "input.*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 11:30:01	=!=	Error: option "nick_prefix" not found
+2018-11-08 11:30:20		[look] (weechat.conf)
+2018-11-08 11:30:20		  weechat.look.prefix_same_nick = ""
+2018-11-08 11:30:20		[color] (weechat.conf)
+2018-11-08 11:30:20		  weechat.color.chat_nick = lightcyan
+2018-11-08 11:30:20		[cmd] (alias.conf)
+2018-11-08 11:30:20		  alias.cmd.ANICK = "allserv /nick"
+2018-11-08 11:30:20		[look] (irc.conf)
+2018-11-08 11:30:20		  irc.look.smart_filter_nick = on
+2018-11-08 11:30:20		[color] (irc.conf)
+2018-11-08 11:30:20		  irc.color.input_nick = lightcyan
+2018-11-08 11:30:20		[network] (irc.conf)
+2018-11-08 11:30:20		  irc.network.whois_double_nick = off
+2018-11-08 11:30:20		6 options (matching with "*nick")
+2018-11-08 12:54:28	=!=	Option "user." not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 12:54:38	=!=	Option "user.*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 12:54:45	=!=	Option "nick_*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 12:54:47	=!=	Option "nick*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-08 12:54:51		[look] (weechat.conf)
+2018-11-08 12:54:51		  weechat.look.prefix_same_nick = ""
+2018-11-08 12:54:51		[color] (weechat.conf)
+2018-11-08 12:54:51		  weechat.color.chat_nick = lightcyan
+2018-11-08 12:54:51		[cmd] (alias.conf)
+2018-11-08 12:54:51		  alias.cmd.ANICK = "allserv /nick"
+2018-11-08 12:54:51		[look] (irc.conf)
+2018-11-08 12:54:51		  irc.look.smart_filter_nick = on
+2018-11-08 12:54:51		[color] (irc.conf)
+2018-11-08 12:54:51		  irc.color.input_nick = lightcyan
+2018-11-08 12:54:51		[network] (irc.conf)
+2018-11-08 12:54:51		  irc.network.whois_double_nick = off
+2018-11-08 12:54:51		6 options (matching with "*nick")
+2018-11-08 13:11:49		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 13:19:43		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 13:21:04		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 13:30:46		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 16:13:20		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-08 22:14:53		irc: server unix added
+2018-11-09 00:31:12		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-09 00:49:45		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer

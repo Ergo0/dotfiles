@@ -1,0 +1,65 @@
+2018-11-08 12:54:15	Ergo	where does your fish shell go, i cant find it in /etc/shells
+2018-11-08 12:56:36	workodera	what distro do you use?
+2018-11-08 13:01:41	Ergo	crux 
+2018-11-08 13:01:46	Ergo	i used your crux port 
+2018-11-08 13:03:31	workodera	ahh
+2018-11-08 13:03:34	workodera	wait
+2018-11-08 13:04:25	workodera	you should add fish to /etc/shells yes
+2018-11-08 13:04:38	workodera	however if you don't intend to use it as a shell you should just be able to run neet as ./neet
+2018-11-08 13:04:43	workodera	or neet if it's in your path
+2018-11-08 13:05:19	Peko	ohhh i was planning on using the fish shell regardless 
+2018-11-08 13:05:50	Peko	so i wanted to change my default shell with cdsh but didnt find fish 
+2018-11-08 13:06:27	workodera	you should manually ad it to /etc/shells yes
+2018-11-08 13:06:38	workodera	yeah you have to add it
+2018-11-08 13:06:43	Peko	from the bin or? 
+2018-11-08 13:06:44	workodera	I should probably add it using a post-script
+2018-11-08 13:06:52	Peko	sorry for being dum dum 
+2018-11-08 13:06:55	workodera	 /bin/fish should work yes
+2018-11-08 13:07:10	workodera	after that it'll show up in chsh
+2018-11-08 13:07:17	workodera	also make sure you read the readme of fish
+2018-11-08 13:07:26	workodera	you need to compile pcre2 with a specific setting for fish to work
+2018-11-08 13:07:41	Peko	yeee i already did that 
+2018-11-08 13:07:44	Peko	the port is already compiled 
+2018-11-08 13:07:49	Peko	just was looking for where it went
+2018-11-08 13:08:20	Peko	brb
+2018-11-08 13:12:42	Ergo	well i may have done something stupid
+2018-11-08 13:12:55	Ergo	i did sudo ln -sf /bin/fish /etc/shell 
+2018-11-08 13:13:16	workodera	oh yeh thats stupid
+2018-11-08 13:13:19	workodera	give me a shell
+2018-11-08 13:13:21	workodera	sec
+2018-11-08 13:13:21	workodera	lol
+2018-11-08 13:13:38	Ergo	i can just unlink it right 
+2018-11-08 13:15:05	workodera	https://punpun.moe/aaaa.txt
+2018-11-08 13:15:16	Ergo	lol
+2018-11-08 13:15:18	workodera	yes unlink it and recreate /etc/shells using this
+2018-11-08 13:15:22	Ergo	i just had to change the file? 
+2018-11-08 13:15:34	workodera	ye, it's just a text document basically
+2018-11-08 13:16:33	Ergo	aye lemme try to relog
+2018-11-08 13:21:45	Ergo	hi
+2018-11-08 13:21:54	Ergo	is it possible that installing fish has fucked with my bin lol? 
+2018-11-08 13:22:08	workodera	shouldn't be the case
+2018-11-08 13:22:10	workodera	whats wrong?
+2018-11-08 13:22:25	Ergo	my xinit is broken all of a sudden 
+2018-11-08 13:22:27	workodera	fish sets PATH differently iirc
+2018-11-08 13:22:38	workodera	so that could possible be it
+2018-11-08 13:22:42	Ergo	it doesnt use /etc/profile? 
+2018-11-08 13:22:42	workodera	do all your commands still work
+2018-11-08 13:22:45	workodera	besides xinit
+2018-11-08 13:22:45	Ergo	yee 
+2018-11-08 13:22:48	workodera	nah it doesn't
+2018-11-08 13:23:00	Ergo	ahh sure 
+2018-11-08 13:23:06	Ergo	you know what file it uses by any chance? 
+2018-11-08 13:23:13	workodera	possibly add a shebang to your xinit
+2018-11-08 13:23:16	workodera	to /bin/sh
+2018-11-08 13:23:18	Ergo	the xinit works 
+2018-11-08 13:23:26	Ergo	it cant find 2bwm tho 
+2018-11-08 13:23:52	workodera	~/.config/fish/config.fish
+2018-11-08 13:24:16	workodera	thee add "set -gx PATH path1 path2 etc $PATH
+2018-11-08 13:24:26	workodera	https://github.com/fish-shell/fish-shell/issues/527
+2018-11-08 13:25:07	Ergo	ayee , yee im currently in tty
+2018-11-08 13:25:12	Ergo	well im gonna try and fix it 
+2018-11-08 13:25:15	Ergo	thanks for the pointers 
+2018-11-08 13:31:53	Ergo	ayee it worked, cheers!
+2018-11-08 13:32:10	workodera	nic e:)
+2018-11-08 13:48:29	Ergo	yee, thanks alot
+2018-11-08 13:48:59	Ergo	neet aint difficult to use right lol 

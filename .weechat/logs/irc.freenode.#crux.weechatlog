@@ -1,0 +1,304 @@
+2018-11-05 23:25:32	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-05 23:25:32	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-05 23:25:32	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-05 23:25:32	--	Channel #crux: 48 nicks (4 ops, 0 voices, 44 normals)
+2018-11-05 23:25:32	--	URL for #crux: http://crux.nu
+2018-11-05 23:25:34	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-05 23:25:36	ronin7z	thankss for that tip joacim 
+2018-11-05 23:25:45	ronin7z	typing this from my fresh crux install :) 
+2018-11-05 23:26:51	ronin7z	is there a way i can adopt some of the old 6c37 ports? 
+2018-11-05 23:26:56	ronin7z	or should i make em from scratch 
+2018-11-05 23:38:12	Anselmo	they're still up I think, on the github page for 6c37
+2018-11-05 23:39:22	ronin7z	the github page gives me a 404 unfortunately 
+2018-11-05 23:41:05	Anselmo	https://github.com/6c37/crux-ports ?
+2018-11-05 23:41:29	ronin7z	Anselmo: welp, i was looking at the wrong places 
+2018-11-05 23:41:30	ronin7z	thankss :) 
+2018-11-05 23:41:37	Anselmo	ha yeah :3
+2018-11-05 23:42:11	Anselmo	I'm not sure if anyone is making any organized effort to move them, onadera might know, but they're not in right no
+2018-11-05 23:42:19	ronin7z	ohh rightt
+2018-11-05 23:42:27	ronin7z	yee i would do like maim and slop to start with 
+2018-11-05 23:42:38	Anselmo	hmm
+2018-11-05 23:42:39	ronin7z	maybe polybar i guess 
+2018-11-05 23:42:50	-->	kujira (~no1@mobile-166-176-187-12.mycingular.net) has joined #crux
+2018-11-05 23:42:57	ronin7z	nothing too complicated, i will leave that to smart people 
+2018-11-05 23:44:49	Anselmo	ha
+2018-11-06 09:40:08	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 09:40:08	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 09:40:08	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 09:40:08	--	Channel #crux: 48 nicks (4 ops, 0 voices, 44 normals)
+2018-11-06 09:40:08	--	URL for #crux: http://crux.nu
+2018-11-06 09:40:10	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 09:49:11	ronin7z	goodmorning 
+2018-11-06 10:02:54	--	You are now known as Ergo
+2018-11-06 10:06:27	--	You are now known as ronin7z
+2018-11-06 10:06:46	--	You are now known as Ergo
+2018-11-06 10:06:59	--	You are now known as ronin7z
+2018-11-06 10:07:24	--	You are now known as Ergo
+2018-11-06 10:07:58	--	You are now known as Ergo-
+2018-11-06 10:08:32	Ergo-	oh im sorry, i wasnt aware the channel would be spammed 
+2018-11-06 10:18:03	ryuo	Ergo-: Achievement unlocked: "Apologetic Spammer"
+2018-11-06 10:35:47	-->	JanC_ (~janc@lugwv/member/JanC) has joined #crux
+2018-11-06 10:38:09	<--	JanC (~janc@lugwv/member/JanC) has quit (Read error: Connection reset by peer)
+2018-11-06 10:38:57	Ergo-	lol 
+2018-11-06 10:42:52	-->	slek (~seiflek@105.110.133.64) has joined #crux
+2018-11-06 10:57:29	-->	Necrosporus (~Necrospor@unaffiliated/necrosporus) has joined #crux
+2018-11-06 10:57:34	Necrosporus	Regarding CRUX
+2018-11-06 10:57:42	Necrosporus	# Create device-mapper device nodes and scan for LVM volume groups // if [ -x /sbin/lvm ]; then
+2018-11-06 10:57:46	Necrosporus	This is from /etc/rc
+2018-11-06 10:58:25	Necrosporus	May I suggest to change the condition to checking if there LVM volumes in fstab maybe?
+2018-11-06 10:59:14	Necrosporus	I have LVM installed because I want to mount external HDD occasionally but I don't use LVM for the system
+2018-11-06 10:59:58	joacim	which drives have and don't have lvm wouldn't show in fstab. you mount the volume, not the underlying drive.
+2018-11-06 11:00:57	Necrosporus	joacim, if fstab has something like /dev/mapper then it's likely LVM, if it has /dev/sda1 then it is not
+2018-11-06 11:03:23	joacim	i am aware
+2018-11-06 11:04:11	joacim	not every volume is mounted through fstab either. i dont think the current system needs to change
+2018-11-06 11:10:58	joacim	the current lvm.conf that scans all of /dev is also from upstream. there is no specific crux config
+2018-11-06 12:33:51	-->	Ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 12:33:51	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 12:33:51	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 12:33:51	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-06 12:33:51	--	URL for #crux: http://crux.nu
+2018-11-06 12:33:53	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 12:39:40	Ergo-	is there some kind of tool which gives you a template for a port? 
+2018-11-06 12:39:59	Ergo-	or other general documentation on starting your own ports repo 
+2018-11-06 12:42:37	Ergo-	found it :) 
+2018-11-06 12:57:10	Ergo-	if i want to make a port of something that needs deps not in the official repos, am i expected to put them in my own ports collection? 
+2018-11-06 13:18:03	<--	elderK (uid205007@pdpc/supporter/active/elderk) has quit (Quit: Connection closed for inactivity)
+2018-11-06 13:27:57	pedja	Ergo-, yes.
+2018-11-06 13:40:27	-->	seiflek (~seiflek@105.110.233.234) has joined #crux
+2018-11-06 13:43:40	<--	slek (~seiflek@105.110.133.64) has quit (Ping timeout: 268 seconds)
+2018-11-06 14:30:26	-->	Ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 14:30:26	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 14:30:26	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 14:30:26	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-06 14:30:26	--	URL for #crux: http://crux.nu
+2018-11-06 14:30:28	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 14:48:45	<--	pedja (~pedja@79-101-69-12.dynamic.isp.telekom.rs) has quit (Quit: Leaving)
+2018-11-06 15:22:27	<--	Necrosporus (~Necrospor@unaffiliated/necrosporus) has left #crux ("Leaving")
+2018-11-06 16:20:54	-->	pedja (~pedja@79-101-69-12.dynamic.isp.telekom.rs) has joined #crux
+2018-11-06 16:22:13	-->	TheCephalopod (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-06 16:34:46	-->	Kruppt (~Kruppt@50.111.35.28) has joined #crux
+2018-11-06 16:37:09	--	JanC_ is now known as JanC
+2018-11-06 16:44:02	<--	pedja (~pedja@79-101-69-12.dynamic.isp.telekom.rs) has quit (Quit: Leaving)
+2018-11-06 17:09:51	cruxbot	[core.git/3.4]: util-linux: update to 2.33
+2018-11-06 17:11:25	cruxbot	[opt.git/3.4]: sqlite3: update to 3.25.3
+2018-11-06 17:12:11	cruxbot	[contrib.git/3.4]: pmwiki: update to 2.2.110
+2018-11-06 17:20:17	cruxbot	[opt.git/3.4]: tevent: new maintainer
+2018-11-06 17:20:17	cruxbot	[opt.git/3.4]: talloc: new maintainer
+2018-11-06 17:32:02	<--	TheCephalopod (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul. They lurk everywhere.)
+2018-11-06 18:03:51	<--	guido_rokepo (~Thunderbi@83-103-31-21.ip.fastwebnet.it) has quit (Quit: guido_rokepo)
+2018-11-06 18:34:27	-->	pedja (~pedja@79-101-69-12.dynamic.isp.telekom.rs) has joined #crux
+2018-11-06 18:47:32	-->	onodera (~onodera@camille.xs4all.nl) has joined #crux
+2018-11-06 18:58:25	Ergo-	what was the command to see pkgcount again 
+2018-11-06 18:59:36	][_R_][	Of available packages, or intalled packages?
+2018-11-06 19:00:18	][_R_][	`ls /usr/ports/*/ | wc -l` for the former
+2018-11-06 19:00:47	joacim	could pipe prt-get listinst through wc
+2018-11-06 19:00:53	][_R_][	Actually
+2018-11-06 19:00:55	joacim	im sure it isnt the only way
+2018-11-06 19:01:01	][_R_][	`ls /usr/ports/*/ | sort -u | wc -l`
+2018-11-06 19:01:37	Ergo-	i think there was another way 
+2018-11-06 19:01:39	Ergo-	but im not sure 
+2018-11-06 19:01:49	Ergo-	joacim: i think its what u just mentioned ye 
+2018-11-06 19:02:00	pedja	'pkginfo -i | wc -l' ?
+2018-11-06 19:02:05	Ergo-	yeee thats it 
+2018-11-06 19:02:26	Ergo-	444, more then i expected tbh 
+2018-11-06 19:05:56	-->	ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 19:05:56	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 19:05:56	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 19:05:56	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-06 19:05:56	--	URL for #crux: http://crux.nu
+2018-11-06 19:05:57	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 19:08:58	john_cephalopoda	"prt-get listinst | wc -l" also works
+2018-11-06 19:09:23	john_cephalopoda	I got 755.
+2018-11-06 19:10:19	ergo-	yee im on 444 
+2018-11-06 19:10:31	ergo-	but this is a fresh install 
+2018-11-06 19:10:39	Anselmo	187 on one of my machines .. .
+2018-11-06 19:11:17	ergo-	is it a server? 
+2018-11-06 19:12:15	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 19:12:15	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 19:12:15	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 19:12:15	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-06 19:12:15	--	URL for #crux: http://crux.nu
+2018-11-06 19:12:17	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 19:21:15	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 19:21:15	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 19:21:15	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 19:21:15	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-06 19:21:15	--	URL for #crux: http://crux.nu
+2018-11-06 19:21:17	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 19:37:41	ronin7z	hmm i broke my llvm stuff 
+2018-11-06 19:38:23	ronin7z	does the wine port not include vulkan bits if you dont have the vulkan-loader installed? 
+2018-11-06 19:43:31	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 19:43:31	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 19:43:31	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 19:43:31	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-06 19:43:31	--	URL for #crux: http://crux.nu
+2018-11-06 19:43:33	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 19:43:36	ronin7z	had to reboot 
+2018-11-06 19:47:05	<--	Kruppt (~Kruppt@50.111.35.28) has quit (Quit: Leaving)
+2018-11-06 19:59:12	pedja	iirc, wine ships with its own minimal vulkan loader
+2018-11-06 19:59:38	ronin7z	hmm ye it really seems llvm is broken, its in slop and other stuff 
+2018-11-06 20:00:19	pedja	broken how?
+2018-11-06 20:02:23	pedja	speaking of broken, I wonder if the nvidia driver is to blame for dispcal not registering my monitor
+2018-11-06 20:03:42	ronin7z	$ glxgears
+2018-11-06 20:03:42	ronin7z	glxgears: error while loading shared libraries: libLLVM-6.0.so: cannot open shared object file: No such file or directory
+2018-11-06 20:03:45	ronin7z	broken like this 
+2018-11-06 20:04:17	pedja	rebuild mesa after llvm update
+2018-11-06 20:04:23	joacim	did you update llvm and didnt run revdep?
+2018-11-06 20:04:29	ronin7z	doesnt seem like there is a update 
+2018-11-06 20:04:29	joacim	always run revdep after sysups
+2018-11-06 20:04:33	ronin7z	revdep? 
+2018-11-06 20:04:46	joacim	part of some package. prt-get fsearch revdep
+2018-11-06 20:05:14	joacim	identifies what is broken (not everything), so you can rebuild what is broken
+2018-11-06 20:05:29	ronin7z	tells me only glu is broken 
+2018-11-06 20:05:42	pedja	'prt-get readme llvm'
+2018-11-06 20:05:42	ronin7z	also i did exactly that pedja 
+2018-11-06 20:06:23	ronin7z	lol, prt has so much more functionaly then i tought 
+2018-11-06 20:06:36	pedja	glxinfo is shipped in mesa-demos
+2018-11-06 20:06:52	ronin7z	yee iknow
+2018-11-06 20:06:59	ronin7z	its especially wine which i want to get working 
+2018-11-06 20:07:28	pedja	what is the issue you are having exactly?
+2018-11-06 20:07:45	ronin7z	i get some error about vulkan stuff 
+2018-11-06 20:07:55	ronin7z	i had this the last time i tried crux like 3 days ago 
+2018-11-06 20:08:04	pedja	'some error' isn't helpful :)
+2018-11-06 20:08:06	ronin7z	same for slop, and it also was fixed after some llvm stuff 
+2018-11-06 20:08:13	ronin7z	pedja: i will get you the log 
+2018-11-06 20:08:40	pedja	run vulkaninfo as a sanity check
+2018-11-06 20:09:36	ronin7z	i need to install that first 
+2018-11-06 20:09:44	ronin7z	is it in vulkantools? 
+2018-11-06 20:09:50	pedja	yup
+2018-11-06 20:10:08	ronin7z	might it matter that im on kernel 4.14 still 
+2018-11-06 20:10:22	pedja	why would it matter?
+2018-11-06 20:10:26	ronin7z	ive been trying to upgrade but im having some trouble there which i wanted to ask about after this 
+2018-11-06 20:10:28	ronin7z	i have no clue 
+2018-11-06 20:11:33	ronin7z	but im psure it has to do with llvm 
+2018-11-06 20:13:25	joacim	rebuild glu, make sure all dependencies are installed
+2018-11-06 20:13:37	joacim	and be verbose about errors and which command you ran (pastebin)
+2018-11-06 20:13:40	pedja	hard to tell without actual logs/errors
+2018-11-06 20:14:26	ronin7z	pedja: oh right
+2018-11-06 20:14:29	ronin7z	here is the log for wine http://bpaste.net/show/9fcc1011042e
+2018-11-06 20:14:42	ronin7z	nvm that was slop, im a idiot 
+2018-11-06 20:15:22	ronin7z	here is the one for wine - https://paste.pound-python.org/show/fQRfSwYOVS1zSMNvOfGr/
+2018-11-06 20:15:23	pedja	what is slop anyway?
+2018-11-06 20:15:36	ronin7z	its this thing which can select a part of your screne
+2018-11-06 20:15:43	ronin7z	people use it for screenshots or like drawing terminals 
+2018-11-06 20:15:54	joacim	i use scrot for that
+2018-11-06 20:17:07	ronin7z	ye scrot cant do parts of a screen tho 
+2018-11-06 20:17:17	joacim	scrot can
+2018-11-06 20:17:19	ronin7z	or one monitor out of two, one of the two 
+2018-11-06 20:17:25	ronin7z	there was something it couldnt do which i needed it to do 
+2018-11-06 20:17:34	joacim	can do full screen, whole windows, and selections
+2018-11-06 20:17:58	ronin7z	anyways, slop isnt what takes the screenshots 
+2018-11-06 20:18:14	ronin7z	it selects the area and pritns it to sdout or whatever that means 
+2018-11-06 20:18:22	ronin7z	https://github.com/naelstrof/slop
+2018-11-06 20:18:22	joacim	did you rebuild mesa and glu?
+2018-11-06 20:18:29	ronin7z	not yet 
+2018-11-06 20:18:36	pedja	ronin7z, that's an issue with dxvk, so open the issue there
+2018-11-06 20:18:54	ronin7z	its not an issue with dxvk i believe 
+2018-11-06 20:19:05	ronin7z	maybe if slop etc werent broken as well 
+2018-11-06 20:19:10	pedja	how can you tell?
+2018-11-06 20:19:25	ronin7z	because exactly the same thing happened last time 
+2018-11-06 20:19:38	pedja	last time?
+2018-11-06 20:19:53	ronin7z	ye like 4 days ago i was using crux, then switched back to void and now switched back to crux again 
+2018-11-06 20:20:11	ronin7z	last time on crux i had the same issue and i just tinkered around and it fixed itself but i forgot what i exactly did
+2018-11-06 20:20:47	pedja	updated dxvk? rebuild wine?
+2018-11-06 20:21:10	ronin7z	sudo nope, none of those two 
+2018-11-06 20:21:14	ronin7z	https://github.com/naelstrof/slop
+2018-11-06 20:21:19	ronin7z	whoops wrong c/p
+2018-11-06 20:21:26	ronin7z	 https://paste.pound-python.org/show/fQRfSwYOVS1zSMNvOfGr/
+2018-11-06 20:21:29	ronin7z	thats the vulkaninfo log 
+2018-11-06 20:22:09	pedja	no it isn't :)
+2018-11-06 20:23:01	ronin7z	https://paste.pound-python.org/show/xFR4y133NQsufz5d30Jw/
+2018-11-06 20:23:03	ronin7z	this is :) 
+2018-11-06 20:25:00	pedja	nothing wrong there, afaict. install vulkan-tools-32, and try vulkaninfo-32. you are using 32bit wine, right?
+2018-11-06 20:25:25	ronin7z	nope 64bit 
+2018-11-06 20:26:11	ronin7z	is there a command to rebuild all my installed packages? 
+2018-11-06 20:27:08	pedja	did you rebuild the ones shown in revdep output?
+2018-11-06 20:27:15	ronin7z	yupp 
+2018-11-06 20:27:38	ronin7z	oh right i havent updated lvm2 yet
+2018-11-06 20:27:44	ronin7z	if that matters
+2018-11-06 20:27:46	ronin7z	not sure what that does 
+2018-11-06 20:28:47	ronin7z	keyutils fails to update for some reason 
+2018-11-06 20:42:50	ronin7z	fatal error : profile.h no such file or directory 
+2018-11-06 21:10:32	pedja	heh. libvirt now builds with the previous version installed on a system, but it is broken because it still links to some libs from it
+2018-11-06 21:33:30	ronin7z	pedja: joacim thanks for the help , i managed to fix it :) 
+2018-11-06 21:33:41	joacim	nice =)
+2018-11-06 21:37:42	-->	elderK (uid205007@pdpc/supporter/active/elderk) has joined #crux
+2018-11-06 21:59:05	-->	isidore (~isidore@acaen-651-1-101-252.w81-48.abo.wanadoo.fr) has joined #crux
+2018-11-06 23:06:21	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-06 23:06:21	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-06 23:06:21	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-06 23:06:21	--	Channel #crux: 49 nicks (4 ops, 0 voices, 45 normals)
+2018-11-06 23:06:21	--	URL for #crux: http://crux.nu
+2018-11-06 23:06:23	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-06 23:13:15	<--	isidore (~isidore@acaen-651-1-101-252.w81-48.abo.wanadoo.fr) has quit (Quit: WeeChat 2.3)
+2018-11-07 00:54:10	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul.)
+2018-11-08 11:17:21	-->	ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-08 11:17:22	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-08 11:17:22	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-08 11:17:22	--	Channel #crux: 51 nicks (4 ops, 0 voices, 47 normals)
+2018-11-08 11:17:22	--	URL for #crux: http://crux.nu
+2018-11-08 11:17:23	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-08 11:27:30	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul. They lurk everywhere.)
+2018-11-08 11:29:47	-->	smolboye_ (~smolboye@27.4.12.172) has joined #crux
+2018-11-08 11:31:42	<--	smolboye (~smolboye@27.4.12.172) has quit (Ping timeout: 252 seconds)
+2018-11-08 11:53:32	<--	smolboye_ (~smolboye@27.4.12.172) has quit (Quit: WeeChat 2.2)
+2018-11-08 11:55:03	-->	smolboye (~smolboye@27.4.12.172) has joined #crux
+2018-11-08 12:04:29	-->	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-08 12:07:24	-->	slek (~seiflek@105.110.212.50) has joined #crux
+2018-11-08 12:56:45	<--	slek (~seiflek@105.110.212.50) has quit (Ping timeout: 240 seconds)
+2018-11-08 13:03:49	--	You are now known as Peko
+2018-11-08 13:03:56	--	You are now known as ergo-
+2018-11-08 14:46:02	-->	ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-08 14:46:02	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-08 14:46:02	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-08 14:46:02	--	Channel #crux: 50 nicks (4 ops, 0 voices, 46 normals)
+2018-11-08 14:46:04	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-08 14:46:13	--	URL for #crux: http://crux.nu
+2018-11-08 14:53:49	ryuo	mayfrost: i don
+2018-11-08 14:54:02	ryuo	mayfrost: i don't think CRUX's system was built for hotplug in mind.
+2018-11-08 15:02:39	--	irc: disconnected from server
+2018-11-08 15:02:58	--	#crux: Cannot join channel (+b) - you are banned
+2018-11-08 15:29:32	-->	ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-08 15:29:32	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-08 15:29:32	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-08 15:29:32	--	Channel #crux: 48 nicks (4 ops, 0 voices, 44 normals)
+2018-11-08 15:29:33	--	URL for #crux: http://crux.nu
+2018-11-08 15:29:34	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-08 15:29:51	pedja	SiFuh, I had no idea there is such a thing as 'slide rule' collector :). cool, I guess
+2018-11-08 15:31:46	SiFuh	Yeah, I was telling the Slackware guys that the existence of a slide rule was only brought to my attention for about 5 minutes and never learned how to use one. I have always been curious and now that I have one in my possession I am wishing I had a manual for.
+2018-11-08 15:32:28	SiFuh	That site you sent me is huge!
+2018-11-08 15:32:39	pedja	wouldn't books about the general use at least get you started?
+2018-11-08 15:33:08	pedja	they can't be *that* different
+2018-11-08 15:34:02	SiFuh	I already figured out multiplication and division. But no, there are lots of differences and even more advanced calculations
+2018-11-08 15:37:32	pedja	think I saw a friend using it once. seemed...complicated
+2018-11-08 15:37:52	SiFuh	http://www.oughtred.org/books/OSSlideRuleReferenceManualrevA.pdf
+2018-11-08 15:38:14	SiFuh	I was reading this document about them
+2018-11-08 15:38:16	mayfrost	frinnst: I do tethering on another computer usually
+2018-11-08 15:38:33	mayfrost	but I see the problem might be on kernel configuration
+2018-11-08 15:44:01	pedja	SiFuh, well, fuck :) now I have to find where mine is stashed to play with it
+2018-11-08 15:49:47	pedja	I think it's this one http://www.sliderule.ca/staedtler-54428-front.jpg
+2018-11-08 15:52:36	pedja	I guess this is the one you have? http://sliderulemuseum.com/Nestler/S477_AlbertNestlerA-G_No9.jpg
+2018-11-08 15:53:13	SiFuh	I have this one http://www.sliderulemuseum.com/Nestler/S477_AlbertNestlerA-G_No9.jpg
+2018-11-08 15:55:26	SiFuh	The second, third, fourth and fifth row I understand.  First and Sixth row I haven't looked into yet and the otherside of the centre piece that has Sin and Tan and angles I haven't looked at yet.
+2018-11-08 15:55:56	SiFuh	The underneath is just a ruler
+2018-11-08 15:57:09	pedja	pretty ingenious piece of tech
+2018-11-08 15:57:57	john_cephalopoda	Reminds me of sliding calipers. Those are incredible.
+2018-11-08 15:58:17	john_cephalopoda	Although they are pretty simple, you can read distances extremely exact.
+2018-11-08 15:58:51	-->	pankerini (~pankerini@189.230.205.128) has joined #crux
+2018-11-08 15:59:39	pedja	staedtler, faber castell. it's been decades since I last heard those names
+2018-11-08 16:00:13	john_cephalopoda	They are both German, aren't they?
+2018-11-08 16:00:49	SiFuh	I have a g-clamp micrometer that i got from Grandfather. I think it is genius tech as well.
+2018-11-08 16:01:22	john_cephalopoda	All my erasers are from Staedtler. And I still got a lot of Faber Castell color pencils. Used those at school.
+2018-11-08 16:02:28	john_cephalopoda	I even got a special edition eraser from Staedtler, which I bought in Italy :þ
+2018-11-08 16:02:30	SiFuh	Looks something like this  https://shop.mitutoyo.co.uk/pim/upload/mitutoyoData/image/bigweb/115-215_z_eps.png
+2018-11-08 16:03:52	john_cephalopoda	I first used a sliding caliper when I had to cut out some mounting board for an electronic assembly during an internship. Not sure what I even did with it, but it was fun.
+2018-11-08 16:05:42	pedja	ah. we had something similar in the machine shop I used to work ages ago
+2018-11-08 16:06:19	SiFuh	john_cephalopoda: oh yeah, they are awesome. I was even thinking about getting one today but then I remembered that my friend bought one and it rusted. I was then thinking where I could buy one that would not rust since Australia is full of cheap junk these days.
+2018-11-08 16:06:59	SiFuh	john_cephalopoda: these days I still use the G-Clamp style one from my grandfather and convert the inches over to metric.
+2018-11-08 16:07:03	john_cephalopoda	I really enjoyed making that mounting board. It was actually not really required from me, but the people there just let me try out what I had fun with, showed me the machines and let me cut the board.
+2018-11-08 16:07:08	@jaeger	restoring the rusted one might be an interesting project
+2018-11-08 16:08:28	john_cephalopoda	SiFuh: My brother is an industrial mechanic. He said that those sliding calipers are kinda outdated and I should get a digital one if I wanted one. Not sure if he was trolling me or if he was being serious though.
+2018-11-08 16:08:43	pedja	can Firefox be considered rusted, since it's using rust for some parts?
+2018-11-08 16:08:46	john_cephalopoda	(Digital -> also sliding caliper but with a digital display)
+2018-11-08 16:09:16	john_cephalopoda	pedja: Good question. And will Rust go away when you load the WD-40 website?
+2018-11-08 16:10:04	SiFuh	My Uncle had a rusted bowie knife. I heated it up in the fire until it was glowing red. I then quickly cooled the tip and slowly cooled the blade. It turned out the blue in colour when I was finished and after I sharpened it my Uncle saw it and was imporessed. He still carries it to this day with him.

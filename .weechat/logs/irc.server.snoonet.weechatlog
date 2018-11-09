@@ -1,0 +1,757 @@
+2018-11-06 23:28:54	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-06 23:28:54	--	irc: connected to irc.snoonet.org/6667 (199.58.187.94)
+2018-11-06 23:28:54	--	windward.snoonet.org: *** Looking up your hostname...
+2018-11-06 23:28:54	--	windward.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG fT?^hMSoxt or /raw PONG fT?^hMSoxt now.
+2018-11-06 23:28:54	--	windward.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-06 23:28:55	--	windward.snoonet.org: Welcome to Snoonet!
+2018-11-06 23:28:55	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-06 23:28:55	--	Your host is windward.snoonet.org, running version InspIRCd-2.0
+2018-11-06 23:28:55	--	This server was created 10:14:20 Sep  1 2018
+2018-11-06 23:28:55	--	windward.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-06 23:28:55	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-06 23:28:55	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-06 23:28:55	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-06 23:28:55	--	1WWAAICMT :your unique ID
+2018-11-06 23:28:55	--	windward.snoonet.org message of the day
+2018-11-06 23:28:55	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	-   _____                              _
+2018-11-06 23:28:55	--	-  / ____|                            | |
+2018-11-06 23:28:55	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-06 23:28:55	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-06 23:28:55	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-06 23:28:55	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Welcome to the Snoonet Chat Network.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-06 23:28:55	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-06 23:28:55	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-06 23:28:55	--	- from scammers, spammers and the propagation of viruses.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-06 23:28:55	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-06 23:28:55	--	- many network wide rules but the ones we do have we enforce
+2018-11-06 23:28:55	--	- to the best of our ability. This may also include the use of
+2018-11-06 23:28:55	--	- automated oper utilities and/or standalone network bots that may
+2018-11-06 23:28:55	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-06 23:28:55	--	- all network channels to protect you and your users during times
+2018-11-06 23:28:55	--	- of network turmoil.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Please join #help if you have questions about any of the above
+2018-11-06 23:28:55	--	- information.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Network Administration may remove any problem user at any time
+2018-11-06 23:28:55	--	- for the betterment of all users. This includes, but is not limited
+2018-11-06 23:28:55	--	- to, trolling, attempting to receive or spread users personal
+2018-11-06 23:28:55	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-06 23:28:55	--	- media websites, or any thing that network administration sees as
+2018-11-06 23:28:55	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-06 23:28:55	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-06 23:28:55	--	- Act, or any other classified request for user information.
+2018-11-06 23:28:55	--	-
+2018-11-06 23:28:55	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-06 23:28:55	--	- MOTD Last Updated:
+2018-11-06 23:28:55	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-06 23:28:55	--	End of message of the day.
+2018-11-06 23:28:55	--	There are 134 users and 4183 invisible on 13 servers
+2018-11-06 23:28:55	--	38 :operator(s) online
+2018-11-06 23:28:55	--	5168 :channels formed
+2018-11-06 23:28:55	--	I have 204 clients and 1 servers
+2018-11-06 23:28:55	--	Current Local Users: 204  Max: 275
+2018-11-06 23:28:55	--	Current Global Users: 4317  Max: 4538
+2018-11-06 23:28:55	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-06 23:28:55	--	User mode [+Iwxi] by Ergo
+2018-11-06 23:28:55	--	NickServ (NickServ@snoonet/services/NickServ): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2018-11-06 23:28:55	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-06 23:28:55	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-06 23:28:55	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-06 23:29:31	--	MSG(NickServ): register ******************************************
+2018-11-06 23:29:32	--	NickServ (NickServ@snoonet/services/NickServ): Nickname Ergo registered.
+2018-11-06 23:29:32	--	NickServ (NickServ@snoonet/services/NickServ): Your email address is not confirmed. To confirm it, follow the instructions that were emailed to you.
+2018-11-06 23:29:32	--	NickServ (NickServ@snoonet/services/NickServ): Your account will expire, if not confirmed, in 1 day.
+2018-11-06 23:29:52	--	MSG(NickServ): CONFIRM dnievB3dv
+2018-11-06 23:29:52	--	NickServ (NickServ@snoonet/services/NickServ): Your email address of nathaniel.horn.pipper@gmail.com has been confirmed.
+2018-11-06 23:29:52	--	User mode [-x] by windward.snoonet.org
+2018-11-06 23:29:52	--	user/Ergo :is now your displayed host
+2018-11-06 23:29:52	--	HostServ (HostServ@snoonet/services/HostServ): Your vhost of user/Ergo is now activated.
+2018-11-06 23:29:52	--	You are now logged in as Ergo (Ergo!nathaniel@user/Ergo)
+2018-11-06 23:29:53	--	User mode [+r] by NickServ
+2018-11-07 10:31:08	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-07 10:31:08	--	irc: connected to irc.snoonet.org/6667 (88.202.186.46)
+2018-11-07 10:31:08	--	pinkfloyd.snoonet.org: *** Looking up your hostname...
+2018-11-07 10:31:08	--	pinkfloyd.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG DmStyaNLt` or /raw PONG DmStyaNLt` now.
+2018-11-07 10:31:08	--	pinkfloyd.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-07 10:31:09	--	pinkfloyd.snoonet.org: Welcome to Snoonet!
+2018-11-07 10:31:09	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-07 10:31:09	--	Your host is pinkfloyd.snoonet.org, running version InspIRCd-2.0
+2018-11-07 10:31:09	--	This server was created 01:38:19 Jun 21 2017
+2018-11-07 10:31:09	--	pinkfloyd.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-07 10:31:09	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-07 10:31:09	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-07 10:31:09	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-07 10:31:09	--	1PFAE5DHX :your unique ID
+2018-11-07 10:31:09	--	pinkfloyd.snoonet.org message of the day
+2018-11-07 10:31:09	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	-   _____                              _
+2018-11-07 10:31:09	--	-  / ____|                            | |
+2018-11-07 10:31:09	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-07 10:31:09	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-07 10:31:09	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-07 10:31:09	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Welcome to the Snoonet Chat Network.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-07 10:31:09	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-07 10:31:09	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-07 10:31:09	--	- from scammers, spammers and the propagation of viruses.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-07 10:31:09	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-07 10:31:09	--	- many network wide rules but the ones we do have we enforce
+2018-11-07 10:31:09	--	- to the best of our ability. This may also include the use of
+2018-11-07 10:31:09	--	- automated oper utilities and/or standalone network bots that may
+2018-11-07 10:31:09	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-07 10:31:09	--	- all network channels to protect you and your users during times
+2018-11-07 10:31:09	--	- of network turmoil.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Please join #help if you have questions about any of the above
+2018-11-07 10:31:09	--	- information.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Network Administration may remove any problem user at any time
+2018-11-07 10:31:09	--	- for the betterment of all users. This includes, but is not limited
+2018-11-07 10:31:09	--	- to, trolling, attempting to receive or spread users personal
+2018-11-07 10:31:09	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-07 10:31:09	--	- media websites, or any thing that network administration sees as
+2018-11-07 10:31:09	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-07 10:31:09	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-07 10:31:09	--	- Act, or any other classified request for user information.
+2018-11-07 10:31:09	--	-
+2018-11-07 10:31:09	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 10:31:09	--	- MOTD Last Updated:
+2018-11-07 10:31:09	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-07 10:31:09	--	End of message of the day.
+2018-11-07 10:31:09	--	There are 133 users and 3924 invisible on 13 servers
+2018-11-07 10:31:09	--	38 :operator(s) online
+2018-11-07 10:31:09	--	6 :unknown connections
+2018-11-07 10:31:09	--	5153 :channels formed
+2018-11-07 10:31:09	--	I have 1477 clients and 1 servers
+2018-11-07 10:31:09	--	Current Local Users: 1477  Max: 2540
+2018-11-07 10:31:09	--	Current Global Users: 4057  Max: 5583
+2018-11-07 10:31:09	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-07 10:31:09	--	User mode [+Iwxi] by Ergo
+2018-11-07 10:31:09	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-07 10:31:09	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-07 10:31:09	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-07 10:31:09	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-07 10:31:09	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-07 10:31:09	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-07 11:40:04	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-07 11:40:04	--	irc: connected to irc.snoonet.org/6667 (173.244.217.212)
+2018-11-07 11:40:05	--	empire.snoonet.org: *** Looking up your hostname...
+2018-11-07 11:40:05	--	empire.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG K?wsUWb`Mh or /raw PONG K?wsUWb`Mh now.
+2018-11-07 11:40:05	--	empire.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-07 11:40:06	--	empire.snoonet.org: Welcome to Snoonet!
+2018-11-07 11:40:06	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-07 11:40:06	--	Your host is empire.snoonet.org, running version InspIRCd-2.0
+2018-11-07 11:40:06	--	This server was created 23:31:12 Aug  2 2017
+2018-11-07 11:40:06	--	empire.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-07 11:40:06	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-07 11:40:06	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-07 11:40:06	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-07 11:40:06	--	1EMAB7ZG1 :your unique ID
+2018-11-07 11:40:06	--	empire.snoonet.org message of the day
+2018-11-07 11:40:06	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	-   _____                              _
+2018-11-07 11:40:06	--	-  / ____|                            | |
+2018-11-07 11:40:06	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-07 11:40:06	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-07 11:40:06	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-07 11:40:06	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Welcome to the Snoonet Chat Network.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-07 11:40:06	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-07 11:40:06	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-07 11:40:06	--	- from scammers, spammers and the propagation of viruses.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-07 11:40:06	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-07 11:40:06	--	- many network wide rules but the ones we do have we enforce
+2018-11-07 11:40:06	--	- to the best of our ability. This may also include the use of
+2018-11-07 11:40:06	--	- automated oper utilities and/or standalone network bots that may
+2018-11-07 11:40:06	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-07 11:40:06	--	- all network channels to protect you and your users during times
+2018-11-07 11:40:06	--	- of network turmoil.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Please join #help if you have questions about any of the above
+2018-11-07 11:40:06	--	- information.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Network Administration may remove any problem user at any time
+2018-11-07 11:40:06	--	- for the betterment of all users. This includes, but is not limited
+2018-11-07 11:40:06	--	- to, trolling, attempting to receive or spread users personal
+2018-11-07 11:40:06	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-07 11:40:06	--	- media websites, or any thing that network administration sees as
+2018-11-07 11:40:06	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-07 11:40:06	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-07 11:40:06	--	- Act, or any other classified request for user information.
+2018-11-07 11:40:06	--	-
+2018-11-07 11:40:06	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 11:40:06	--	- MOTD Last Updated:
+2018-11-07 11:40:06	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-07 11:40:06	--	End of message of the day.
+2018-11-07 11:40:06	--	There are 134 users and 3922 invisible on 13 servers
+2018-11-07 11:40:06	--	38 :operator(s) online
+2018-11-07 11:40:06	--	5151 :channels formed
+2018-11-07 11:40:06	--	I have 169 clients and 1 servers
+2018-11-07 11:40:06	--	Current Local Users: 169  Max: 1719
+2018-11-07 11:40:06	--	Current Global Users: 4056  Max: 5583
+2018-11-07 11:40:06	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-07 11:40:06	--	User mode [+Iwxi] by Ergo
+2018-11-07 11:40:06	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-07 11:40:06	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-07 11:40:06	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-07 11:40:06	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-07 11:40:06	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-07 11:40:06	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-07 14:56:24	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-07 14:56:24	--	irc: connected to irc.snoonet.org/6667 (88.202.186.46)
+2018-11-07 14:56:24	--	pinkfloyd.snoonet.org: *** Looking up your hostname...
+2018-11-07 14:56:24	--	pinkfloyd.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG `^Phk`|^tm or /raw PONG `^Phk`|^tm now.
+2018-11-07 14:56:24	--	pinkfloyd.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-07 14:56:25	--	pinkfloyd.snoonet.org: Welcome to Snoonet!
+2018-11-07 14:56:25	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-07 14:56:25	--	Your host is pinkfloyd.snoonet.org, running version InspIRCd-2.0
+2018-11-07 14:56:25	--	This server was created 01:38:19 Jun 21 2017
+2018-11-07 14:56:25	--	pinkfloyd.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-07 14:56:25	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-07 14:56:25	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-07 14:56:25	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-07 14:56:25	--	1PFAE5MYO :your unique ID
+2018-11-07 14:56:25	--	pinkfloyd.snoonet.org message of the day
+2018-11-07 14:56:25	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	-   _____                              _
+2018-11-07 14:56:25	--	-  / ____|                            | |
+2018-11-07 14:56:25	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-07 14:56:25	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-07 14:56:25	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-07 14:56:25	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Welcome to the Snoonet Chat Network.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-07 14:56:25	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-07 14:56:25	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-07 14:56:25	--	- from scammers, spammers and the propagation of viruses.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-07 14:56:25	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-07 14:56:25	--	- many network wide rules but the ones we do have we enforce
+2018-11-07 14:56:25	--	- to the best of our ability. This may also include the use of
+2018-11-07 14:56:25	--	- automated oper utilities and/or standalone network bots that may
+2018-11-07 14:56:25	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-07 14:56:25	--	- all network channels to protect you and your users during times
+2018-11-07 14:56:25	--	- of network turmoil.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Please join #help if you have questions about any of the above
+2018-11-07 14:56:25	--	- information.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Network Administration may remove any problem user at any time
+2018-11-07 14:56:25	--	- for the betterment of all users. This includes, but is not limited
+2018-11-07 14:56:25	--	- to, trolling, attempting to receive or spread users personal
+2018-11-07 14:56:25	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-07 14:56:25	--	- media websites, or any thing that network administration sees as
+2018-11-07 14:56:25	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-07 14:56:25	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-07 14:56:25	--	- Act, or any other classified request for user information.
+2018-11-07 14:56:25	--	-
+2018-11-07 14:56:25	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 14:56:25	--	- MOTD Last Updated:
+2018-11-07 14:56:25	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-07 14:56:25	--	End of message of the day.
+2018-11-07 14:56:25	--	There are 133 users and 4008 invisible on 13 servers
+2018-11-07 14:56:25	--	38 :operator(s) online
+2018-11-07 14:56:25	--	6 :unknown connections
+2018-11-07 14:56:25	--	5154 :channels formed
+2018-11-07 14:56:25	--	I have 1482 clients and 1 servers
+2018-11-07 14:56:25	--	Current Local Users: 1482  Max: 2540
+2018-11-07 14:56:25	--	Current Global Users: 4141  Max: 5583
+2018-11-07 14:56:25	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-07 14:56:25	--	User mode [+Iwxi] by Ergo
+2018-11-07 14:56:25	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-07 14:56:25	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-07 14:56:25	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-07 14:56:25	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-07 14:56:25	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-07 14:56:25	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-07 15:25:31	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-07 15:25:31	--	irc: connected to irc.snoonet.org/6667 (173.244.217.212)
+2018-11-07 15:25:32	--	empire.snoonet.org: *** Looking up your hostname...
+2018-11-07 15:25:32	--	empire.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG YSSM[MxjbT or /raw PONG YSSM[MxjbT now.
+2018-11-07 15:25:32	--	empire.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-07 15:25:33	--	empire.snoonet.org: Welcome to Snoonet!
+2018-11-07 15:25:33	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-07 15:25:33	--	Your host is empire.snoonet.org, running version InspIRCd-2.0
+2018-11-07 15:25:33	--	This server was created 23:31:12 Aug  2 2017
+2018-11-07 15:25:33	--	empire.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-07 15:25:33	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-07 15:25:33	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-07 15:25:33	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-07 15:25:33	--	1EMAB7079 :your unique ID
+2018-11-07 15:25:33	--	empire.snoonet.org message of the day
+2018-11-07 15:25:33	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	-   _____                              _
+2018-11-07 15:25:33	--	-  / ____|                            | |
+2018-11-07 15:25:33	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-07 15:25:33	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-07 15:25:33	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-07 15:25:33	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Welcome to the Snoonet Chat Network.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-07 15:25:33	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-07 15:25:33	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-07 15:25:33	--	- from scammers, spammers and the propagation of viruses.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-07 15:25:33	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-07 15:25:33	--	- many network wide rules but the ones we do have we enforce
+2018-11-07 15:25:33	--	- to the best of our ability. This may also include the use of
+2018-11-07 15:25:33	--	- automated oper utilities and/or standalone network bots that may
+2018-11-07 15:25:33	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-07 15:25:33	--	- all network channels to protect you and your users during times
+2018-11-07 15:25:33	--	- of network turmoil.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Please join #help if you have questions about any of the above
+2018-11-07 15:25:33	--	- information.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Network Administration may remove any problem user at any time
+2018-11-07 15:25:33	--	- for the betterment of all users. This includes, but is not limited
+2018-11-07 15:25:33	--	- to, trolling, attempting to receive or spread users personal
+2018-11-07 15:25:33	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-07 15:25:33	--	- media websites, or any thing that network administration sees as
+2018-11-07 15:25:33	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-07 15:25:33	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-07 15:25:33	--	- Act, or any other classified request for user information.
+2018-11-07 15:25:33	--	-
+2018-11-07 15:25:33	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 15:25:33	--	- MOTD Last Updated:
+2018-11-07 15:25:33	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-07 15:25:33	--	End of message of the day.
+2018-11-07 15:25:33	--	There are 133 users and 4029 invisible on 13 servers
+2018-11-07 15:25:33	--	38 :operator(s) online
+2018-11-07 15:25:33	--	5154 :channels formed
+2018-11-07 15:25:33	--	I have 180 clients and 1 servers
+2018-11-07 15:25:33	--	Current Local Users: 180  Max: 1719
+2018-11-07 15:25:33	--	Current Global Users: 4162  Max: 5583
+2018-11-07 15:25:33	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-07 15:25:33	--	User mode [+Iwxi] by Ergo
+2018-11-07 15:25:33	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-07 15:25:33	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-07 15:25:33	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-07 15:25:33	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-07 15:25:33	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-07 15:25:33	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-07 15:31:54	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-07 15:31:55	--	irc: connected to irc.snoonet.org/6667 (107.152.98.2)
+2018-11-07 15:31:55	--	alpine.snoonet.org: *** Looking up your hostname...
+2018-11-07 15:31:55	--	alpine.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG ccMnzRUULT or /raw PONG ccMnzRUULT now.
+2018-11-07 15:31:55	--	alpine.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-07 15:31:56	--	alpine.snoonet.org: Welcome to Snoonet!
+2018-11-07 15:31:56	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-07 15:31:56	--	Your host is alpine.snoonet.org, running version InspIRCd-2.0
+2018-11-07 15:31:56	--	This server was created 20:30:52 Aug  2 2017
+2018-11-07 15:31:56	--	alpine.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-07 15:31:56	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-07 15:31:56	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-07 15:31:56	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-07 15:31:56	--	1APABC4HR :your unique ID
+2018-11-07 15:31:56	--	alpine.snoonet.org message of the day
+2018-11-07 15:31:56	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	-   _____                              _
+2018-11-07 15:31:56	--	-  / ____|                            | |
+2018-11-07 15:31:56	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-07 15:31:56	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-07 15:31:56	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-07 15:31:56	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Welcome to the Snoonet Chat Network.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-07 15:31:56	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-07 15:31:56	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-07 15:31:56	--	- from scammers, spammers and the propagation of viruses.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-07 15:31:56	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-07 15:31:56	--	- many network wide rules but the ones we do have we enforce
+2018-11-07 15:31:56	--	- to the best of our ability. This may also include the use of
+2018-11-07 15:31:56	--	- automated oper utilities and/or standalone network bots that may
+2018-11-07 15:31:56	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-07 15:31:56	--	- all network channels to protect you and your users during times
+2018-11-07 15:31:56	--	- of network turmoil.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Please join #help if you have questions about any of the above
+2018-11-07 15:31:56	--	- information.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Network Administration may remove any problem user at any time
+2018-11-07 15:31:56	--	- for the betterment of all users. This includes, but is not limited
+2018-11-07 15:31:56	--	- to, trolling, attempting to receive or spread users personal
+2018-11-07 15:31:56	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-07 15:31:56	--	- media websites, or any thing that network administration sees as
+2018-11-07 15:31:56	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-07 15:31:56	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-07 15:31:56	--	- Act, or any other classified request for user information.
+2018-11-07 15:31:56	--	-
+2018-11-07 15:31:56	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-07 15:31:56	--	- MOTD Last Updated:
+2018-11-07 15:31:56	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-07 15:31:56	--	End of message of the day.
+2018-11-07 15:31:56	--	There are 133 users and 4029 invisible on 13 servers
+2018-11-07 15:31:56	--	38 :operator(s) online
+2018-11-07 15:31:57	--	1 :unknown connections
+2018-11-07 15:31:57	--	5154 :channels formed
+2018-11-07 15:31:57	--	I have 295 clients and 1 servers
+2018-11-07 15:31:57	--	Current Local Users: 295  Max: 584
+2018-11-07 15:31:57	--	Current Global Users: 4162  Max: 5583
+2018-11-07 15:31:57	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-07 15:31:57	--	User mode [+Iwxi] by Ergo
+2018-11-07 15:31:57	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-07 15:31:57	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-07 15:31:57	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-07 15:31:57	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-07 15:31:57	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-07 15:31:57	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-08 00:17:56	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-08 00:17:56	--	irc: connected to irc.snoonet.org/6667 (173.244.217.212)
+2018-11-08 00:17:56	--	empire.snoonet.org: *** Looking up your hostname...
+2018-11-08 00:17:56	--	empire.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG aS~atla[Oz or /raw PONG aS~atla[Oz now.
+2018-11-08 00:17:57	--	empire.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-08 00:17:57	--	empire.snoonet.org: Welcome to Snoonet!
+2018-11-08 00:17:57	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-08 00:17:57	--	Your host is empire.snoonet.org, running version InspIRCd-2.0
+2018-11-08 00:17:57	--	This server was created 23:31:12 Aug  2 2017
+2018-11-08 00:17:57	--	empire.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-08 00:17:57	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-08 00:17:57	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-08 00:17:57	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-08 00:17:57	--	1EMAB75J3 :your unique ID
+2018-11-08 00:17:57	--	empire.snoonet.org message of the day
+2018-11-08 00:17:57	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	-   _____                              _
+2018-11-08 00:17:57	--	-  / ____|                            | |
+2018-11-08 00:17:57	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-08 00:17:57	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-08 00:17:57	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-08 00:17:57	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Welcome to the Snoonet Chat Network.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-08 00:17:57	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-08 00:17:57	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-08 00:17:57	--	- from scammers, spammers and the propagation of viruses.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-08 00:17:57	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-08 00:17:57	--	- many network wide rules but the ones we do have we enforce
+2018-11-08 00:17:57	--	- to the best of our ability. This may also include the use of
+2018-11-08 00:17:57	--	- automated oper utilities and/or standalone network bots that may
+2018-11-08 00:17:57	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-08 00:17:57	--	- all network channels to protect you and your users during times
+2018-11-08 00:17:57	--	- of network turmoil.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Please join #help if you have questions about any of the above
+2018-11-08 00:17:57	--	- information.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Network Administration may remove any problem user at any time
+2018-11-08 00:17:57	--	- for the betterment of all users. This includes, but is not limited
+2018-11-08 00:17:57	--	- to, trolling, attempting to receive or spread users personal
+2018-11-08 00:17:57	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-08 00:17:57	--	- media websites, or any thing that network administration sees as
+2018-11-08 00:17:57	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-08 00:17:57	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-08 00:17:57	--	- Act, or any other classified request for user information.
+2018-11-08 00:17:57	--	-
+2018-11-08 00:17:57	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-08 00:17:57	--	- MOTD Last Updated:
+2018-11-08 00:17:57	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-08 00:17:57	--	End of message of the day.
+2018-11-08 00:17:57	--	There are 134 users and 4152 invisible on 13 servers
+2018-11-08 00:17:57	--	38 :operator(s) online
+2018-11-08 00:17:57	--	5172 :channels formed
+2018-11-08 00:17:57	--	I have 185 clients and 1 servers
+2018-11-08 00:17:57	--	Current Local Users: 185  Max: 1719
+2018-11-08 00:17:57	--	Current Global Users: 4286  Max: 5583
+2018-11-08 00:17:57	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-08 00:17:57	--	User mode [+Iwxi] by Ergo
+2018-11-08 00:17:58	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-08 00:17:58	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-08 00:17:58	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-08 00:17:58	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-08 00:17:58	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-08 00:17:58	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-08 10:54:53	--	MSG(NicKServ): identify **********
+2018-11-08 10:54:53	--	NickServ (NickServ@snoonet/services/NickServ): Password incorrect.
+2018-11-08 10:55:10	--	MSG(NickServ): register ****************************************
+2018-11-08 10:55:10	--	NickServ (NickServ@snoonet/services/NickServ): Nickname Ergo is already registered!
+2018-11-08 11:16:19	--	You are now known as ronin7z
+2018-11-08 11:16:19	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-08 11:16:19	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-08 11:16:19	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-08 11:16:19	--	NickServ (NickServ@snoonet/services/NickServ): If you do not change within 1 minute, I will change your nick.
+2018-11-08 11:16:26	--	MSG(NickServ): identify **********
+2018-11-08 11:16:26	--	NickServ (NickServ@snoonet/services/NickServ): Password accepted - you are now recognized.
+2018-11-08 11:16:26	--	You are now logged in as ronin7z (ronin7z!nathaniel@Snoonet-p82.c46.n2h3i6.IP)
+2018-11-08 11:16:26	--	User mode [-x] by empire.snoonet.org
+2018-11-08 11:16:26	--	user/ronin7z :is now your displayed host
+2018-11-08 11:16:26	--	HostServ (HostServ@snoonet/services/HostServ): Your vhost of user/ronin7z is now activated.
+2018-11-08 11:16:26	--	User mode [+r] by NickServ
+2018-11-08 13:30:48	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-08 13:30:49	--	irc: connected to irc.snoonet.org/6667 (173.244.217.212)
+2018-11-08 13:30:49	--	empire.snoonet.org: *** Looking up your hostname...
+2018-11-08 13:30:49	--	empire.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG Q\Bh?N~ojJ or /raw PONG Q\Bh?N~ojJ now.
+2018-11-08 13:30:49	--	empire.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-08 13:30:50	--	empire.snoonet.org: Welcome to Snoonet!
+2018-11-08 13:30:50	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-08 13:30:50	--	Your host is empire.snoonet.org, running version InspIRCd-2.0
+2018-11-08 13:30:50	--	This server was created 23:31:12 Aug  2 2017
+2018-11-08 13:30:50	--	empire.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-08 13:30:50	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-08 13:30:50	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-08 13:30:50	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-08 13:30:50	--	1EMAB8BTM :your unique ID
+2018-11-08 13:30:50	--	empire.snoonet.org message of the day
+2018-11-08 13:30:50	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	-   _____                              _
+2018-11-08 13:30:50	--	-  / ____|                            | |
+2018-11-08 13:30:50	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-08 13:30:50	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-08 13:30:50	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-08 13:30:50	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Welcome to the Snoonet Chat Network.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-08 13:30:50	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-08 13:30:50	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-08 13:30:50	--	- from scammers, spammers and the propagation of viruses.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-08 13:30:50	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-08 13:30:50	--	- many network wide rules but the ones we do have we enforce
+2018-11-08 13:30:50	--	- to the best of our ability. This may also include the use of
+2018-11-08 13:30:50	--	- automated oper utilities and/or standalone network bots that may
+2018-11-08 13:30:50	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-08 13:30:50	--	- all network channels to protect you and your users during times
+2018-11-08 13:30:50	--	- of network turmoil.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Please join #help if you have questions about any of the above
+2018-11-08 13:30:50	--	- information.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Network Administration may remove any problem user at any time
+2018-11-08 13:30:50	--	- for the betterment of all users. This includes, but is not limited
+2018-11-08 13:30:50	--	- to, trolling, attempting to receive or spread users personal
+2018-11-08 13:30:50	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-08 13:30:50	--	- media websites, or any thing that network administration sees as
+2018-11-08 13:30:50	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-08 13:30:50	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-08 13:30:50	--	- Act, or any other classified request for user information.
+2018-11-08 13:30:50	--	-
+2018-11-08 13:30:50	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-08 13:30:50	--	- MOTD Last Updated:
+2018-11-08 13:30:50	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-08 13:30:50	--	End of message of the day.
+2018-11-08 13:30:50	--	There are 134 users and 3917 invisible on 13 servers
+2018-11-08 13:30:50	--	38 :operator(s) online
+2018-11-08 13:30:50	--	5150 :channels formed
+2018-11-08 13:30:50	--	I have 171 clients and 1 servers
+2018-11-08 13:30:50	--	Current Local Users: 171  Max: 1719
+2018-11-08 13:30:50	--	Current Global Users: 4051  Max: 5583
+2018-11-08 13:30:50	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-08 13:30:50	--	User mode [+Iwxi] by Ergo
+2018-11-08 13:30:50	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-08 13:30:50	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-08 13:30:50	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-08 13:30:50	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-08 13:30:50	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-08 13:30:50	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy
+2018-11-08 16:13:27	--	irc: connecting to server irc.snoonet.org/6667...
+2018-11-08 16:13:27	--	irc: connected to irc.snoonet.org/6667 (104.200.159.118)
+2018-11-08 16:13:28	--	ranger.snoonet.org: *** Looking up your hostname...
+2018-11-08 16:13:28	--	ranger.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG ~ZxJX{rIrd or /raw PONG ~ZxJX{rIrd now.
+2018-11-08 16:13:28	--	ranger.snoonet.org: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-08 16:13:29	--	ranger.snoonet.org: Welcome to Snoonet!
+2018-11-08 16:13:29	--	Welcome to the Snoonet IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-08 16:13:29	--	Your host is ranger.snoonet.org, running version InspIRCd-2.0
+2018-11-08 16:13:29	--	This server was created 15:10:33 Aug  8 2017
+2018-11-08 16:13:29	--	ranger.snoonet.org InspIRCd-2.0 BHILORSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz FHIJLWXYZbdefghjklovwx
+2018-11-08 16:13:29	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-08 16:13:29	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2018-11-08 16:13:29	--	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2018-11-08 16:13:29	--	1RGABDEVP :your unique ID
+2018-11-08 16:13:29	--	ranger.snoonet.org message of the day
+2018-11-08 16:13:29	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	-   _____                              _
+2018-11-08 16:13:29	--	-  / ____|                            | |
+2018-11-08 16:13:29	--	- | (___  _ __   ___   ___  _ __   ___| |_
+2018-11-08 16:13:29	--	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2018-11-08 16:13:29	--	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2018-11-08 16:13:29	--	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Welcome to the Snoonet Chat Network.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- By connecting to Snoonet you indicate that you have read and
+2018-11-08 16:13:29	--	- accept our policies as set out on http://www.snoonet.org/rules
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Snoonet runs an open proxy scanner.  If you continue connecting
+2018-11-08 16:13:29	--	- to Snoonet, you agree to this scanning to protect our network
+2018-11-08 16:13:29	--	- from scammers, spammers and the propagation of viruses.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Please visit our ruleset listed at http://www.snoonet.org/rules
+2018-11-08 16:13:29	--	- Yes, this is so important we list it twice. Snoonet does not have
+2018-11-08 16:13:29	--	- many network wide rules but the ones we do have we enforce
+2018-11-08 16:13:29	--	- to the best of our ability. This may also include the use of
+2018-11-08 16:13:29	--	- automated oper utilities and/or standalone network bots that may
+2018-11-08 16:13:29	--	- join/part your channel, or the mass setting of channel modes across
+2018-11-08 16:13:29	--	- all network channels to protect you and your users during times
+2018-11-08 16:13:29	--	- of network turmoil.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Please join #help if you have questions about any of the above
+2018-11-08 16:13:29	--	- information.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Network Administration may remove any problem user at any time
+2018-11-08 16:13:29	--	- for the betterment of all users. This includes, but is not limited
+2018-11-08 16:13:29	--	- to, trolling, attempting to receive or spread users personal
+2018-11-08 16:13:29	--	- information (also known as Doxxing), vote brigading on any social
+2018-11-08 16:13:29	--	- media websites, or any thing that network administration sees as
+2018-11-08 16:13:29	--	- potentially harmful to the atmosphere of Snoonet.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Our network rules are located here: http://www.snoonet.org/rules
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- Ignorance is not an excuse - most of the network rules are common sense.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- As of the last MOTD Update, Snoonet has never received a National
+2018-11-08 16:13:29	--	- Security Letter, an order under the Foreign Intelligence Surveillance
+2018-11-08 16:13:29	--	- Act, or any other classified request for user information.
+2018-11-08 16:13:29	--	-
+2018-11-08 16:13:29	--	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2018-11-08 16:13:29	--	- MOTD Last Updated:
+2018-11-08 16:13:29	--	- Sat Aug  11 17:59:00 UTC 2018
+2018-11-08 16:13:29	--	End of message of the day.
+2018-11-08 16:13:29	--	There are 135 users and 4060 invisible on 13 servers
+2018-11-08 16:13:29	--	38 :operator(s) online
+2018-11-08 16:13:29	--	5153 :channels formed
+2018-11-08 16:13:29	--	I have 669 clients and 1 servers
+2018-11-08 16:13:29	--	Current Local Users: 669  Max: 1641
+2018-11-08 16:13:29	--	Current Global Users: 4195  Max: 5583
+2018-11-08 16:13:29	--	Snoonet-p82.c46.n2h3i6.IP :is now your displayed host
+2018-11-08 16:13:29	--	User mode [+Iwxi] by Ergo
+2018-11-08 16:13:29	--	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2018-11-08 16:13:29	--	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-11-08 16:13:29	--	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2018-11-08 16:13:29	--	Global (Global@snoonet/services/Global): [Logon News - Sep 30 11:21:35 2016 CEST] For speedy live help and assistance, type /join #help or visit www.snoonet.org/help - To see which communities are here, type /list or visit www.snoonet.org/communities
+2018-11-08 16:13:29	--	Global (Global@snoonet/services/Global): [Logon News - Dec 17 14:47:17 2016 CET] Snoonet is partnered with Private Internet Access! Make sure to keep secure by connecting to our secure port irc.snoonet.org:6697 and for best security, use a VPN Service! www.privateinternetaccess.com
+2018-11-08 16:13:29	--	Global (Global@snoonet/services/Global): [Logon News - May 23 17:33:02 2018 CEST] By connecting and using the Snoonet IRC network you consent to our privacy policy located at https://snoonet.org/privacy-policy

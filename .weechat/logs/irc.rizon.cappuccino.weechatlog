@@ -1,0 +1,35 @@
+2018-11-08 15:37:04	Ergo	.pet
+2018-11-08 15:37:04	cappuccino	(1) https://cdn.discordapp.com/attachments/426177067256774679/510094762557177857/20181108_151353.jpg [Ergo]
+2018-11-08 15:37:07	Ergo	.pet -r
+2018-11-08 15:37:07	cappuccino	Invalid arguments.
+2018-11-08 15:37:08	Ergo	.pet -d
+2018-11-08 15:37:09	cappuccino	Invalid arguments.
+2018-11-08 15:37:10	Ergo	.pet 
+2018-11-08 15:37:11	cappuccino	(1) https://cdn.discordapp.com/attachments/426177067256774679/510094762557177857/20181108_151353.jpg [Ergo]
+2018-11-08 15:37:13	Ergo	.pet -h
+2018-11-08 15:37:13	cappuccino	Invalid arguments.
+2018-11-08 15:37:15	Ergo	.pet -help
+2018-11-08 15:37:16	cappuccino	Invalid arguments.
+2018-11-08 15:37:18	Ergo	.pet -r
+2018-11-08 15:37:18	cappuccino	Invalid arguments.
+2018-11-08 15:37:21	Ergo	.pet -rm
+2018-11-08 15:37:21	cappuccino	Invalid arguments.
+2018-11-08 15:37:29	Ergo	.pet -a https://a.pste.pw/M3K.jpg
+2018-11-08 15:37:29	cappuccino	pets updated.
+2018-11-08 15:37:33	Ergo	.pet
+2018-11-08 15:37:33	cappuccino	(1) https://cdn.discordapp.com/attachments/426177067256774679/510094762557177857/20181108_151353.jpg | (2) https://a.pste.pw/M3K.jpg [Ergo]
+2018-11-08 20:59:03	Ergo	hi
+2018-11-08 20:59:12	Ergo	.dt nai
+2018-11-08 20:59:12	cappuccino	(1) [NSFW] https://up.monade.li/I7VZet.png [nai]
+2018-11-08 20:59:37	Ergo	.dt enju
+2018-11-08 20:59:38	cappuccino	(1) https://enju.pw/rice | (2) https://enju.pw/img/ce28.png [enju]
+2018-11-08 21:00:22	Ergo	.dt rue
+2018-11-08 21:00:22	cappuccino	rue has no dtops.
+2018-11-08 21:00:39	Ergo	.git tor
+2018-11-08 21:00:40	cappuccino	(1) https://github.com/torvim [tor]
+2018-11-08 22:00:10	Ergo	.dt nuuxe
+2018-11-08 22:00:10	cappuccino	(1) https://0x0.st/sg1_.png | (2) https://0x0.st/sgFa.png | (3) https://0x0.st/sgFM.png | (4) https://0x0.st/sgFu.png [nuuxe]
+2018-11-08 22:00:26	Ergo	.git nuuxe
+2018-11-08 22:00:27	cappuccino	(1) https://github.com/azahi/dotfiles | (2) https://github.com/azahi/emacsd | (3) https://github.com/azahi/xmonad-ng [nuuxe]
+2018-11-08 22:15:51	Ergo	.git eti
+2018-11-08 22:15:51	cappuccino	(1) https://github.com/eti0 [eti]
