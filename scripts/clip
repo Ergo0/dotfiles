@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# clip - clipboard utility
+
+if [[ $# != 0 ]]; then
+    printf '%s' "$*" | xsel -bi
+elif [[ ! -t 0 ]]; then
+    xsel -bi
+else
+    xsel -bo 2> /dev/null
+fi

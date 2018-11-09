@@ -1,0 +1,5 @@
+#!/bin/bash
+
+WINEPREFIX=/home/nathaniel/games/winevk/ wine /home/nathaniel/games/winevk/drive_c/Program\ Files\ \(x86\)/GOG\ Galaxy/GalaxyClient.exe 
+#WINEPREFIX=~/games/winevk/ wine ~/games/winevk/drive_c/Program\ Files\ \(x86\)/GOG\ Galaxy/GalaxyClient.exe 
+
