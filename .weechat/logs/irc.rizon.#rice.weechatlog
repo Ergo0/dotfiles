@@ -7124,3 +7124,1745 @@
 2018-11-12 12:29:05	+Khorne	I wonder if cleartype in fontconfig is worth checking out
 2018-11-12 12:29:13	<--	blank (~blank@empty.lives) has quit (Ping timeout: 240 seconds)
 2018-11-12 12:34:36	-->	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice
+2018-11-12 12:50:14	@Leliana	Khorne: spoiler alert: no
+2018-11-12 12:54:14	+Khorne	Leliana, usuk
+2018-11-12 12:57:29	Ergo	if i add a .gitignore file with this - https://bpaste.net/show/ef7c89e987fe
+2018-11-12 12:57:29	+cappuccino	[ bpaste.net ] show at bpaste (text/html)
+2018-11-12 12:57:36	Ergo	it should not push those files to my repo right 
+2018-11-12 12:58:18	@Leliana	no it'll actually create those files
+2018-11-12 12:58:27	@Leliana	be careful with wildcards, that's how I filled my disk before
+2018-11-12 12:58:49	Ergo	dammit 
+2018-11-12 12:58:54	Ergo	are you kidding me? 
+2018-11-12 12:59:31	Ergo	its for my crux ports repo, the files all *.tar.xz files need to be not pushed 
+2018-11-12 13:00:23	+kyubiko	.dtop
+2018-11-12 13:00:23	+cappuccino	(1) https://i.imgur.com/NE5rVlC.png | (2) https://u.teknik.io/F2TBb.png | (3) https://u.teknik.io/74qZw.png | (4) https://u.teknik.io/4ybI1.png [kyubiko]
+2018-11-12 13:02:30	workodera	Ergo, do you program
+2018-11-12 13:02:53	workodera	tbh you should just store your source files outside of your ports repo Ergo 
+2018-11-12 13:03:13	Ergo	workodera: nope i dont program at all lol 
+2018-11-12 13:03:24	workodera	because some ports have local tar.gz files, for example patches
+2018-11-12 13:03:28	Ergo	also how wouuld i accomplish that? 
+2018-11-12 13:03:53	Ergo	can i create a dir in home that is used to store source files by default? 
+2018-11-12 13:04:18	workodera	in /etc/pkgmk.conf there are commented out values at the botton
+2018-11-12 13:04:30	workodera	on of them becing PKGMK_SOURCE_DIR iirc
+2018-11-12 13:04:39	Ergo	ahh isee 
+2018-11-12 13:04:49	workodera	if you set that value, downloaded files will be downloaded to a set location
+2018-11-12 13:05:03	workodera	you can also change the directory of compiled packages 
+2018-11-12 13:05:14	workodera	and where to build a package
+2018-11-12 13:05:29	workodera	if you create a tmpfs directory you can use this last setting to build in ram btw
+2018-11-12 13:06:16	workodera	btw I'm making my own port/package manager for crux, it's long from finished but can do some cool things: github.com/onodera-punpun/prt
+2018-11-12 13:06:17	Ergo	workodera: so this should do the trick? https://bpaste.net/show/a670cf321b9a
+2018-11-12 13:06:17	+cappuccino	[ bpaste.net ] show at bpaste (text/html)
+2018-11-12 13:06:24	workodera	for example list dependencies recursivly
+2018-11-12 13:06:48	Ergo	workodera: also that seems neat, if you ever need me to test something hit me up 
+2018-11-12 13:07:47	workodera	Mine are set to these values
+2018-11-12 13:07:47	workodera	https://hastebin.com/cofaponupe.makefile
+2018-11-12 13:07:48	+cappuccino	[ hastebin.com ] hastebin (text/html)
+2018-11-12 13:08:02	workodera	btw I would sed to IGNORE_NEW to "yes"
+2018-11-12 13:08:04	Ergo	ahh suree, thanks 
+2018-11-12 13:08:07	workodera	set*
+2018-11-12 13:08:59	workodera	because many times packages have false positive NEW errors (for example if you have lua installed a package might be compiled with lua support, which will result in NEW files)
+2018-11-12 13:15:43	Ergo	workodera: thanks, unfortunately i have to go to the gm 
+2018-11-12 13:15:49	Ergo	but i will look at this later when i get back 
+2018-11-12 13:15:51	Ergo	helps alot 
+2018-11-12 13:16:03	workodera	alright :)
+2018-11-12 13:32:50	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit (Quit: I almost certainly didn't mean to do that.)
+2018-11-12 13:33:07	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 13:34:26	-->	Izuru (~Izuru@hi.im.izuru) has joined #rice
+2018-11-12 13:56:18	-->	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has joined #rice
+2018-11-12 13:58:43	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit (Quit: I almost certainly didn't mean to do that.)
+2018-11-12 13:58:50	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 13:59:39	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 13:59:47	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:01:41	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 14:01:49	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:06:53	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 14:07:07	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:10:38	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 14:10:45	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:14:34	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 14:14:49	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:14:56	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 14:14:56	@eti	maps: u ok mate
+2018-11-12 14:15:57	<--	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has quit (Quit: Leaving)
+2018-11-12 14:16:24	-->	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice
+2018-11-12 14:17:44	<--	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has quit
+2018-11-12 14:17:55	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:18:30	-->	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice
+2018-11-12 14:18:55	<--	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2018-11-12 14:19:12	-->	The_Loko (~The_Loko@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice
+2018-11-12 14:19:41	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit
+2018-11-12 14:19:48	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 14:20:38	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 14:20:38	<--	natemonster321 (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-12 14:35:23	-->	zakame (~zakame@7AAE3747.80A83041.98FA0D85.IP) has joined #rice
+2018-11-12 14:39:48	-->	Cosmonaut (~gagarin@A8370BB0:C65AA3A5:EB74F7E4:IP) has joined #rice
+2018-11-12 14:39:48	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-11-12 14:51:46	workodera	tfw my vhost comes true
+2018-11-12 14:53:33	<--	warchlak (~warchlak@A0B097F4.4D0569DC.BC33D90C.IP) has quit (Ping timeout: 240 seconds)
+2018-11-12 14:54:37	-->	warchlak (~warchlak@Rizon-8EE021BE.adsl.inetia.pl) has joined #rice
+2018-11-12 14:54:38	@eti	who is she
+2018-11-12 14:57:36	workodera	hillary ofc
+2018-11-12 15:08:08	-->	jcv (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-11-12 15:08:45	workodera	https://twitter.com/BasedGFHaver/status/1061983720306102273
+2018-11-12 15:08:46	+cappuccino	[ twitter.com ] Gift from God on Twitter: "… " (text/html)
+2018-11-12 15:09:14	<--	warchlak (~warchlak@Rizon-8EE021BE.adsl.inetia.pl) has quit (Quit: leaving)
+2018-11-12 15:27:40	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-11-12 15:27:50	<--	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has quit (Remote host closed the connection)
+2018-11-12 15:30:14	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Remote host closed the connection)
+2018-11-12 15:30:20	@eti	TAKE ME HOOOOOME
+2018-11-12 15:30:41	@eti	TO THE PLACE
+2018-11-12 15:30:43	@eti	I BELONG
+2018-11-12 15:30:56	@eti	🤠
+2018-11-12 15:40:00	~lxcyp	WE ST VIRGINIAAAA
+2018-11-12 15:40:10	~lxcyp	MOUNTAIN MOMMA
+2018-11-12 15:43:12	+Khorne	dis gay
+2018-11-12 15:44:34	~lxcyp	Your gay
+2018-11-12 15:46:57	@cosarara	his gay
+2018-11-12 15:47:28	~lxcyp	Tru
+2018-11-12 15:47:39	+Khorne	qt
+2018-11-12 15:50:51	workodera	https://twitter.com/atrupar/status/1061965651470925825
+2018-11-12 15:50:52	+cappuccino	[ twitter.com ] Aaron Rupar on Twitter: "I can't believe this commercial that just ran on Fox News is for real… " (text/html)
+2018-11-12 15:52:16	@cosarara	did you buy one yet
+2018-11-12 15:52:57	<--	ym (~ym@F259C5F2.9EF6A597.34C78F8B.IP) has quit (Read error: Connection reset by peer)
+2018-11-12 15:54:02	-->	ym (~ym@35715D7B.B1699BC2.17078704.IP) has joined #rice
+2018-11-12 16:02:20	<--	ym (~ym@35715D7B.B1699BC2.17078704.IP) has quit
+2018-11-12 16:19:10	+LambdaComplex	hi #rice 
+2018-11-12 16:20:37	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-11-12 16:20:37	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-11-12 16:23:51	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-11-12 16:29:29	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-11-12 16:29:29	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-11-12 16:29:52	Izuru	aaaaaaaa
+2018-11-12 16:29:54	Izuru	anyone awake
+2018-11-12 16:29:58	jenkins	hi
+2018-11-12 16:30:13	Izuru	its 2:30am
+2018-11-12 16:30:15	Izuru	idk y im awke
+2018-11-12 16:30:30	jenkins	4:30 pm here
+2018-11-12 16:30:31	-->	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has joined #rice
+2018-11-12 16:32:03	+LambdaComplex	10:30 am here
+2018-11-12 16:32:10	Ergo0	16:30 here
+2018-11-12 16:32:12	Ergo0	just got back from gym 
+2018-11-12 16:32:16	Izuru	i wanna die
+2018-11-12 16:32:24	jenkins	Izuru: it's because this channel is so european, even americans feel the need to be active during eu day hours to synchronize
+2018-11-12 16:32:34	Izuru	im aussie
+2018-11-12 16:32:43	Izuru	australia m8
+2018-11-12 16:32:47	jenkins	the same applies
+2018-11-12 16:32:51	Izuru	i literally wanna move countries lmao
+2018-11-12 16:32:54	Izuru	fuck australia
+2018-11-12 16:32:55	Izuru	shit internet
+2018-11-12 16:33:07	Izuru	would be nice to move countries 
+2018-11-12 16:33:11	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-11-12 16:33:29	Izuru	i wanna save up money
+2018-11-12 16:33:36	Izuru	and move to another country 
+2018-11-12 16:33:41	Izuru	fresh start
+2018-11-12 16:33:48	jenkins	https://u.teknik.io/0mcuj.jpg
+2018-11-12 16:34:03	Izuru	wtf
+2018-11-12 16:34:23	Ergo0	Izuru: AU does seem pretty nice tho 
+2018-11-12 16:34:40	Ergo0	it does seem super expensive tho 
+2018-11-12 16:34:42	Izuru	yeah.
+2018-11-12 16:34:45	Izuru	well
+2018-11-12 16:34:45	Izuru	i live outside the city
+2018-11-12 16:34:45	Ergo0	especially for electronic stuff 
+2018-11-12 16:34:49	Izuru	yup
+2018-11-12 16:34:54	Izuru	tbh
+2018-11-12 16:34:58	Ergo0	like the price of gpu's and stuff there is actually insane 
+2018-11-12 16:35:02	Izuru	i just want time to go quicker
+2018-11-12 16:35:11	Ergo0	how old are you if i may ask? 
+2018-11-12 16:35:13	Izuru	21
+2018-11-12 16:35:21	Izuru	still live with my parents
+2018-11-12 16:35:23	Ergo0	i dont know how expensive it is, but you could always move out 
+2018-11-12 16:35:25	Izuru	unemployed 
+2018-11-12 16:35:29	Izuru	no money
+2018-11-12 16:35:34	Ergo0	cant you get gov money? 
+2018-11-12 16:35:37	Izuru	fired from my last job
+2018-11-12 16:35:44	Izuru	no
+2018-11-12 16:35:47	Izuru	parents income too high lol
+2018-11-12 16:35:50	Ergo0	i know two people from AU who get money to live
+2018-11-12 16:35:53	Ergo0	ah suree 
+2018-11-12 16:35:59	Izuru	pretty gay
+2018-11-12 16:36:08	Izuru	im not satisfied with my life
+2018-11-12 16:36:11	Ergo0	call the gov, tell em your parents dont wanna give u shit 
+2018-11-12 16:36:22	Izuru	if only it worked like that lol
+2018-11-12 16:36:40	Izuru	sigh
+2018-11-12 16:36:49	Izuru	hoping i find a job soon
+2018-11-12 16:36:55	Izuru	then ill save up for a year or two
+2018-11-12 16:37:04	Izuru	and then ask my girlfriend if she wants to move in with me or something
+2018-11-12 16:37:11	Izuru	and hopefully something happens from there
+2018-11-12 16:37:17	Ergo0	yee that seems like a solid plan 
+2018-11-12 16:38:12	Izuru	aaaaaaaaaaaaaa
+2018-11-12 16:38:22	Izuru	need to fast forward life somehow
+2018-11-12 16:38:23	Izuru	fuck
+2018-11-12 16:38:49	Ergo0	just cryo freeze yourself 4head 
+2018-11-12 16:38:51	@eti	>fast forwards life
+2018-11-12 16:38:53	@eti	>end up dead
+2018-11-12 16:39:07	@eti	no thanks i'll stay right here right now
+2018-11-12 16:39:19	Izuru	o ye
+2018-11-12 16:39:23	Izuru	what os r u guys running
+2018-11-12 16:39:28	Izuru	im thinking of fucking off windows 10
+2018-11-12 16:39:36	Ergo0	im running crux 
+2018-11-12 16:39:38	@eti	macos, debian previously
+2018-11-12 16:39:43	@eti	also ran void but it was shit
+2018-11-12 16:39:45	Izuru	i never used any linux distro before
+2018-11-12 16:39:53	@eti	.dt Izuru 
+2018-11-12 16:39:53	+cappuccino	Izuru has no dtops.
+2018-11-12 16:39:55	Ergo0	eti: i liked void alot 
+2018-11-12 16:40:02	@eti	how did you discover #rice
+2018-11-12 16:40:04	Ergo0	if you wanna start out with linux i would go debian i guess 
+2018-11-12 16:40:07	Izuru	uh
+2018-11-12 16:40:08	Ergo0	i like fedora as well 
+2018-11-12 16:40:11	Izuru	i have no idea tbh
+2018-11-12 16:40:15	@eti	yeah debian is really nice
+2018-11-12 16:40:17	Izuru	i was here in <2014
+2018-11-12 16:40:34	Ergo0	never used debian but i hate ppa's 
+2018-11-12 16:40:38	Izuru	i think
+2018-11-12 16:40:39	Ergo0	and i imagine debian has those as well 
+2018-11-12 16:40:43	Izuru	because of lxcyp's friend
+2018-11-12 16:40:44	Izuru	matuka
+2018-11-12 16:40:46	Izuru	or something
+2018-11-12 16:40:53	@eti	nah
+2018-11-12 16:41:04	Izuru	i dont even know what a ppa is
+2018-11-12 16:41:04	Izuru	lmao
+2018-11-12 16:41:06	@eti	debian doesn't have ppas by default
+2018-11-12 16:41:14	Izuru	im too much of a retard to learn how to use linux
+2018-11-12 16:41:18	Izuru	im a gaymer
+2018-11-12 16:41:18	~lxcyp	Matuka <3
+2018-11-12 16:41:20	Izuru	was a gaymer
+2018-11-12 16:41:23	@eti	user repos for ubuntu packages
+2018-11-12 16:41:33	~lxcyp	I miss ma2ka
+2018-11-12 16:41:43	Ergo0	Izuru: im dum dum as well 
+2018-11-12 16:41:56	@eti	can confirm
+2018-11-12 16:41:58	Ergo0	and im fine on linux , not withstanding the dumb questions now and then 
+2018-11-12 16:42:03	@eti	:^)
+2018-11-12 16:42:08	Izuru	i dont even know what a repos is
+2018-11-12 16:42:17	Izuru	im guessing repository 
+2018-11-12 16:42:21	@eti	read the manual
+2018-11-12 16:42:26	Izuru	probably like
+2018-11-12 16:42:29	Ergo0	eti: tbh its more me asking questions way to soon, before actually trying to figure it out 
+2018-11-12 16:42:32	Izuru	like
+2018-11-12 16:42:38	Ergo0	its a habit im trying to get rid off 
+2018-11-12 16:42:42	Izuru	i remember ipod touch 5.1.3
+2018-11-12 16:42:43	Izuru	cyadia
+2018-11-12 16:42:45	Izuru	cydia
+2018-11-12 16:42:47	Izuru	adding repos 
+2018-11-12 16:42:54	Izuru	LOL
+2018-11-12 16:43:02	Izuru	same concept right
+2018-11-12 16:43:07	@eti	ye
+2018-11-12 16:43:10	Ergo0	> why read the manual when you can just ask dumb questions 
+2018-11-12 16:43:11	@eti	iirc
+2018-11-12 16:43:13	Ergo0	:)))) 
+2018-11-12 16:43:37	Izuru	aaaaaaaaaaaa
+2018-11-12 16:43:44	Izuru	this is why i use winblows
+2018-11-12 16:43:49	Izuru	open .exe
+2018-11-12 16:44:24	Izuru	i should really be using linux though
+2018-11-12 16:44:26	Izuru	for my server
+2018-11-12 16:44:37	Izuru	since i leave it on 24/7 for plex, unifi controller, qbittorrent web ui
+2018-11-12 16:44:41	Ergo0	i would argue that linux package management is waaaaaaay better then windows when you get used to it 
+2018-11-12 16:44:48	Ergo0	and way simpler as well 
+2018-11-12 16:45:07	@eti	package managers are great
+2018-11-12 16:45:13	Izuru	my friend told me that
+2018-11-12 16:45:13	@eti	.app and .exe were a mistake
+2018-11-12 16:45:18	Izuru	i should be using containers or something
+2018-11-12 16:45:23	Ergo0	same for launching programs as well 
+2018-11-12 16:45:27	Izuru	idk if i said that right
+2018-11-12 16:45:34	Izuru	its like some new thing
+2018-11-12 16:45:38	@eti	Ergo0: did you realize your nick has a 0 at the end of it
+2018-11-12 16:45:41	Izuru	i dont think its even called containers
+2018-11-12 16:45:43	Ergo0	eti: yee i did 
+2018-11-12 16:45:51	@eti	why is that
+2018-11-12 16:45:53	Izuru	docker containers
+2018-11-12 16:45:55	Ergo0	im still logged on my pc 
+2018-11-12 16:46:01	@eti	i see
+2018-11-12 16:46:01	Izuru	does anyone here use docker?
+2018-11-12 16:46:07	@eti	wua?
+2018-11-12 16:46:11	Ergo0	ive used them before
+2018-11-12 16:46:15	Ergo0	im gonna use them for my sonarr stuff
+2018-11-12 16:46:19	Izuru	whats sonarr
+2018-11-12 16:46:20	Ergo0	cause i dont wanna bother building a crux package for it 
+2018-11-12 16:46:23	Ergo0	its a pvr 
+2018-11-12 16:46:28	Izuru	whats a pvr
+2018-11-12 16:46:29	Ergo0	super convenient for downloading anime and stuff 
+2018-11-12 16:46:46	Ergo0	i dont know the definition, but it basically manages the downloading of series and anime for me 
+2018-11-12 16:46:57	Ergo0	and automatically downloads new releases of series im following 
+2018-11-12 16:47:01	Izuru	so
+2018-11-12 16:47:02	Izuru	like rss feed
+2018-11-12 16:47:25	Ergo0	i guess? 
+2018-11-12 16:47:27	Ergo0	never used those before 
+2018-11-12 16:48:03	icyphox	eeee
+2018-11-12 16:48:11	icyphox	it's only 9:17pm
+2018-11-12 16:48:14	icyphox	and i'm felin sleepy
+2018-11-12 16:48:22	~lxcyp	No it isn't dumbo
+2018-11-12 16:48:27	icyphox	it is here
+2018-11-12 16:48:33	~lxcyp	It's 15:47
+2018-11-12 16:48:34	Ergo0	eti: my github is also ergo0 because regular ergo was already taken :) 
+2018-11-12 16:48:43	Ergo0	lxcyp: im using ssl now :))) 
+2018-11-12 16:48:47	Ergo0	ive been enlightened 
+2018-11-12 16:48:51	-->	zexa (~zexa@Rizon-6AA04BE4.static.zebra.lt) has joined #rice
+2018-11-12 16:49:01	~lxcyp	Proud of u
+2018-11-12 16:50:12	icyphox	lxcyp, never seen u around b4
+2018-11-12 16:50:16	icyphox	did u change your nick
+2018-11-12 16:50:17	~lxcyp	Hehee
+2018-11-12 16:50:18	icyphox	or smth
+2018-11-12 16:50:19	~lxcyp	Yeah
+2018-11-12 16:50:21	~lxcyp	It's me oneesama
+2018-11-12 16:50:24	~lxcyp	Or mikotohe
+2018-11-12 16:50:25	icyphox	what was it
+2018-11-12 16:50:28	icyphox	Ah
+2018-11-12 16:50:59	@eti	Eh
+2018-11-12 16:51:09	icyphox	sup eti 
+2018-11-12 16:51:30	Ergo0	dont you see the ~ 
+2018-11-12 16:51:33	Ergo0	thats owner right 
+2018-11-12 16:51:37	Izuru	i sleep
+2018-11-12 16:51:40	@eti	yes
+2018-11-12 16:51:40	~lxcyp	Some people have modes turned off 
+2018-11-12 16:51:41	Izuru	almost 3 am
+2018-11-12 16:51:42	~lxcyp	Yea 
+2018-11-12 16:51:43	Izuru	bye
+2018-11-12 16:51:44	Izuru	:(
+2018-11-12 16:51:45	~lxcyp	~ is big cheese
+2018-11-12 16:51:47	~lxcyp	Night izuru
+2018-11-12 16:51:51	@eti	gn Izuru sleep tight
+2018-11-12 16:51:53	~lxcyp	Sleep well 
+2018-11-12 16:51:58	icyphox	Ergo0, idk my modes
+2018-11-12 16:51:59	Izuru	i hope i dont wake up
+2018-11-12 16:52:01	Izuru	:)
+2018-11-12 16:52:03	icyphox	same
+2018-11-12 16:52:03	+cappuccino	same
+2018-11-12 16:52:07	~lxcyp	Big mood
+2018-11-12 16:52:09	<--	Izuru (~Izuru@hi.im.izuru) has quit (Quit: Leaving)
+2018-11-12 16:52:25	~lxcyp	Isn't being a millenial great
+2018-11-12 16:52:32	~lxcyp	Existential dread and memes
+2018-11-12 16:52:43	icyphox	i'm technically not a millenial
+2018-11-12 16:52:47	icyphox	'99
+2018-11-12 16:52:51	~lxcyp	Ew
+2018-11-12 16:52:58	~lxcyp	Gen z
+2018-11-12 16:52:58	Ergo0	i have existential dread 
+2018-11-12 16:53:00	Ergo0	gg 
+2018-11-12 16:53:04	~lxcyp	Go play fortnite kiddy
+2018-11-12 16:53:05	Ergo0	i mean no existential dread 
+2018-11-12 16:53:08	~lxcyp	8))))
+2018-11-12 16:53:10	icyphox	no ferk u 
+2018-11-12 16:53:14	@eti	where we droppin boys
+2018-11-12 16:53:15	~lxcyp	I'm jk
+2018-11-12 16:53:18	~lxcyp	I play fortnite
+2018-11-12 16:53:19	Ergo0	salt lake mines 
+2018-11-12 16:53:25	Ergo0	or whatever its called
+2018-11-12 16:53:33	icyphox	lxcyp, for real?
+2018-11-12 16:53:33	~lxcyp	Yeah
+2018-11-12 16:53:35	icyphox	ermagawd
+2018-11-12 16:53:43	Ergo0	i prolly would play fortnite with my friends if their anticheat wasnt shit on linux
+2018-11-12 16:53:45	~lxcyp	It's a good game with a high skill ceiling 
+2018-11-12 16:53:47	Ergo0	i do think it works nowadays tho 
+2018-11-12 16:53:57	Ergo0	i just play OW now 
+2018-11-12 16:54:02	~lxcyp	I'm bored of Ow
+2018-11-12 16:54:07	icyphox	Ergo0, yeah i would play it too tbh if it weren't for the anticheat 
+2018-11-12 16:54:07	Ergo0	in terms of multiplayer games 
+2018-11-12 16:54:10	Ergo0	i havent played in a while tho 
+2018-11-12 16:54:10	~lxcyp	10 seasons burned me out 
+2018-11-12 16:54:21	Ergo0	i still watch OWL tho 
+2018-11-12 16:54:23	icyphox	play Dota
+2018-11-12 16:54:35	~lxcyp	I just play QC and fortnite now
+2018-11-12 16:54:47	~lxcyp	And whatever single player shit I can find time for 
+2018-11-12 16:55:01	icyphox	how do u stand the trash playerbase
+2018-11-12 16:55:20	~lxcyp	Of fortnite? 
+2018-11-12 16:55:27	icyphox	ya
+2018-11-12 16:55:44	~lxcyp	It's honestly OK on pc IMHO, it's not like you ever talk to anyone 
+2018-11-12 16:55:48	~lxcyp	I play solo and solo duos
+2018-11-12 16:55:53	icyphox	oh hm
+2018-11-12 16:55:59	~lxcyp	Or with my housemates and partner 
+2018-11-12 16:56:23	icyphox	maybe it's just garbo tier in Asia
+2018-11-12 16:56:34	icyphox	my roommate plays it all the time
+2018-11-12 16:56:38	icyphox	he's always cussing
+2018-11-12 16:56:48	icyphox	and whining about the shit players
+2018-11-12 16:56:57	~lxcyp	I mean I like it because the player base is so big there's a good mix of trash kids and sweatlords
+2018-11-12 16:57:11	icyphox	ya mayb
+2018-11-12 16:57:12	~lxcyp	I don't play grouped with random ppl so the trash kids don't bother me
+2018-11-12 16:57:27	~lxcyp	I can imagine if ur queueing with random people it's infuriating 
+2018-11-12 16:57:31	~lxcyp	It's why I quit overwatch 
+2018-11-12 16:57:43	~lxcyp	One bad player or person in a shitty mood ruins the game 
+2018-11-12 16:57:58	icyphox	ye agreed
+2018-11-12 16:58:10	icyphox	i stopped CS/Dota because of that
+2018-11-12 16:58:13	~lxcyp	Quake and fortnite for me now 
+2018-11-12 16:58:23	icyphox	anyone playing HS here?
+2018-11-12 16:58:33	~lxcyp	Na
+2018-11-12 16:58:45	~lxcyp	I liked it but didn't wanna invest money
+2018-11-12 16:58:48	icyphox	it's not bad at all
+2018-11-12 16:59:10	icyphox	oh yeah that's a massive turn off for me
+2018-11-12 16:59:10	~lxcyp	And it seems so hard to win  f2p
+2018-11-12 16:59:10	icyphox	i hate p2w
+2018-11-12 16:59:10	icyphox	it's such a grind
+2018-11-12 16:59:46	~lxcyp	Yea 
+2018-11-12 16:59:48	icyphox	but the games are short, less tilting as compared to CS/Dota
+2018-11-12 17:00:01	<--	zexa (~zexa@Rizon-6AA04BE4.static.zebra.lt) has quit (Ping timeout: 240 seconds)
+2018-11-12 17:00:01	icyphox	so idc 
+2018-11-12 17:00:37	~lxcyp	I dip my toe into league sometimes 
+2018-11-12 17:00:47	icyphox	that's p2w too 
+2018-11-12 17:00:49	~lxcyp	I've only played one ranked game though and I'll pass on that 
+2018-11-12 17:00:52	icyphox	for the most part
+2018-11-12 17:00:58	~lxcyp	It's less p2w now actually 
+2018-11-12 17:01:03	~lxcyp	Since they reworked runes completely 
+2018-11-12 17:01:06	icyphox	what did they change
+2018-11-12 17:01:08	icyphox	oh
+2018-11-12 17:01:14	icyphox	but buying heros?
+2018-11-12 17:01:16	~lxcyp	Runes don't cost any real money anymore to fuck with 
+2018-11-12 17:01:17	icyphox	or champs or w/e
+2018-11-12 17:01:29	~lxcyp	You still have to buy champs but you get enough blue essence that its not a huge grind 
+2018-11-12 17:01:35	~lxcyp	A few games to get a medium priced champ 
+2018-11-12 17:01:42	~lxcyp	A little more of a grind to get an expensive one 
+2018-11-12 17:01:55	icyphox	well the fact that the person paying has an advantage still exists
+2018-11-12 17:02:12	~lxcyp	I mean yeah ur right 
+2018-11-12 17:02:16	~lxcyp	But it could be so much worse 
+2018-11-12 17:02:28	icyphox	like Battlefield
+2018-11-12 17:02:50	-->	zakame_ (~zakame@EE550BC5.A3DFB80C.69376DA6.IP) has joined #rice
+2018-11-12 17:03:08	icyphox	or any EA game for that matter
+2018-11-12 17:03:50	~lxcyp	Yea
+2018-11-12 17:03:55	icyphox	.dt lxcyp 
+2018-11-12 17:03:55	+cappuccino	(1) https://vgy.me/Zffjqi.png | (2) https://vgy.me/ova8y4.png | (3) https://sr.ht/LDgk.png | (4) https://sr.ht/uT0w.png [lxcyp]
+2018-11-12 17:04:31	icyphox	is (1) xfce?
+2018-11-12 17:04:32	<--	zakame (~zakame@7AAE3747.80A83041.98FA0D85.IP) has quit (Ping timeout: 240 seconds)
+2018-11-12 17:05:04	~lxcyp	No
+2018-11-12 17:05:06	~lxcyp	Unity 
+2018-11-12 17:05:18	~lxcyp	1 and 2 are Unity, 3 and 4 are awesome
+2018-11-12 17:05:39	icyphox	no 3 and 4 suck actually
+2018-11-12 17:05:42	icyphox	:^)
+2018-11-12 17:05:49	~lxcyp	Oof
+2018-11-12 17:06:36	-->	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has joined #rice
+2018-11-12 17:06:39	icyphox	how bad an idea is installing OpenBSD
+2018-11-12 17:06:50	<--	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has quit
+2018-11-12 17:06:53	-->	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has joined #rice
+2018-11-12 17:06:54	~lxcyp	Eh 
+2018-11-12 17:07:09	~lxcyp	Depends how much software you want to be able to run 
+2018-11-12 17:07:39	icyphox	i don't use more than a browser and a terminal on a dialy basis
+2018-11-12 17:07:48	NerdyPepper	hihi
+2018-11-12 17:07:52	NerdyPepper	o/ icy
+2018-11-12 17:07:56	icyphox	ohai nerdy
+2018-11-12 17:08:09	~lxcyp	Does everyone have their smash ultimate preorder? :] 
+2018-11-12 17:08:22	icyphox	nah
+2018-11-12 17:09:31	icyphox	why is my gh feed so inactive today
+2018-11-12 17:09:38	icyphox	last activity on it was 12h ago
+2018-11-12 17:09:54	icyphox	s/12h/19h
+2018-11-12 17:11:43	~lxcyp	Commit more
+2018-11-12 17:12:02	icyphox	mmm
+2018-11-12 17:12:06	icyphox	no i meant my activity feed
+2018-11-12 17:12:14	icyphox	stars/follows
+2018-11-12 17:12:19	~lxcyp	O
+2018-11-12 17:12:30	icyphox	.git lxcyp 
+2018-11-12 17:12:30	+cappuccino	lxcyp has no dotfiles.
+2018-11-12 17:12:36	icyphox	.git mikotohe
+2018-11-12 17:12:36	+cappuccino	mikotohe has no dotfiles.
+2018-11-12 17:12:45	icyphox	wdahek
+2018-11-12 17:13:08	~lxcyp	I don't have my git on here bc I've not updated my dotfiles repo in 5 years lmak
+2018-11-12 17:13:11	~lxcyp	Lmao*
+2018-11-12 17:13:29	icyphox	ah
+2018-11-12 17:14:29	icyphox	who was that dude who posted that nice dwm rice on OpenBSD
+2018-11-12 17:14:37	icyphox	with the gif wallp
+2018-11-12 17:14:39	@Leliana	>nice
+2018-11-12 17:14:40	@Leliana	>dwm
+2018-11-12 17:14:42	@Leliana	oxymoron
+2018-11-12 17:14:44	@Leliana	:')
+2018-11-12 17:15:07	icyphox	ok well i don't use it anyway
+2018-11-12 17:15:16	icyphox	pantheon best
+2018-11-12 17:15:56	@Leliana	https://www.reddit.com/r/Gentoo/comments/9wfb71/why_its_gotta_be_anime_qq/
+2018-11-12 17:15:58	+cappuccino	[ reddit.com ] Why it's gotta be anime ;_; Q('-'Q) : Gentoo (text/html)
+2018-11-12 17:15:58	@Leliana	....why?
+2018-11-12 17:16:07	@Leliana	this is the cringiest post I've seen on /r/gentoo
+2018-11-12 17:16:41	icyphox	eeks
+2018-11-12 17:17:55	icyphox	ah found it: https://www.reddit.com/r/unixporn/comments/83v6i8/dwm_cute/
+2018-11-12 17:17:57	+cappuccino	[ reddit.com ] [dwm] Cute : unixporn (text/html)
+2018-11-12 17:21:10	icyphox	i think i'll setup and configure OpenBSD over this winter
+2018-11-12 17:21:17	@eti	what even is the point of that post Leliana 
+2018-11-12 17:21:22	@eti	it's not even funny
+2018-11-12 17:21:27	Ergo0	i would try bsd but i hear performance for games is bad 
+2018-11-12 17:21:54	icyphox	i don't even think Steam runs on i
+2018-11-12 17:21:56	icyphox	it
+2018-11-12 17:22:07	Ergo0	icyphox: that dude is a mod in the unixporn discord, he has a lot of good rices and is pretty smart 
+2018-11-12 17:22:17	@eti	>discord
+2018-11-12 17:22:19	@eti	>unixporn
+2018-11-12 17:22:21	@eti	>smart
+2018-11-12 17:22:27	 *	eti coughs
+2018-11-12 17:22:29	Ergo0	i know, i know 
+2018-11-12 17:22:34	Ergo0	but that dude is genuinely nice 
+2018-11-12 17:23:09	Ergo0	and ive talked to him bout linux stuff and he is very knowledgeable 
+2018-11-12 17:28:31	icyphox	oh looks like OpenBSD's performance as a whole is not as great as Linux
+2018-11-12 17:28:37	icyphox	hmm that's a bummer
+2018-11-12 17:28:49	icyphox	i really like the cleanliness of the system and its codebase
+2018-11-12 17:38:01	-->	zexa (~zexa@Rizon-6AA04BE4.static.zebra.lt) has joined #rice
+2018-11-12 17:42:08	<--	zexa (~zexa@Rizon-6AA04BE4.static.zebra.lt) has quit (Ping timeout: 240 seconds)
+2018-11-12 17:44:18	<--	workodera (~workodera@i.believe.that.she.will.win) has quit (Ping timeout: 240 seconds)
+2018-11-12 17:45:18	Ergo0	what about freebsd 
+2018-11-12 17:45:28	+Cosmonaut	goo
+2018-11-12 17:45:40	Ergo0	goo d? 
+2018-11-12 17:46:08	jenkins	freebsd looks cool, I don't understand why the virtualbox download option isn't an iso though
+2018-11-12 17:46:14	jenkins	it's confusing
+2018-11-12 17:46:22	Ergo0	maybe bsd will keep me focused on school lol 
+2018-11-12 17:46:29	Ergo0	cause its actually hard to game on there 
+2018-11-12 17:46:42	Ergo0	dual booting freebsd + linux lol 
+2018-11-12 17:46:43	jenkins	ahah
+2018-11-12 17:46:45	icyphox	i'm not sure i like how FreeBSD devs work
+2018-11-12 17:46:56	icyphox	i mean, they don't even use the OS they develop
+2018-11-12 17:46:58	icyphox	for starters
+2018-11-12 17:47:11	Ergo0	how do you know that
+2018-11-12 17:47:14	Ergo0	also that seems weird
+2018-11-12 17:47:15	jenkins	and they don't like Irc hugs
+2018-11-12 17:47:18	Ergo0	what do they use then? 
+2018-11-12 17:47:24	icyphox	mostly Macs
+2018-11-12 17:47:42	icyphox	it's a well known fact about them lol
+2018-11-12 17:47:50	Ergo0	that doesnt have to mean that they dont use freebsd on mac right 
+2018-11-12 17:47:52	icyphox	jenkins, and that
+2018-11-12 17:48:15	Ergo0	honestly half the reason im on crux is because i like their irc 
+2018-11-12 17:48:32	icyphox	see, OpenBSD devs /use/ the OS as their daily driver
+2018-11-12 17:48:45	icyphox	oh how do u find CRUX?
+2018-11-12 17:49:08	Ergo0	i like it 
+2018-11-12 17:49:09	Ergo0	it has its quirks tho 
+2018-11-12 17:49:22	icyphox	how long did it take you to setup
+2018-11-12 17:49:34	Ergo0	not that long, install is quicker then arch 
+2018-11-12 17:49:34	icyphox	it's pretty hands-on isn't it? 
+2018-11-12 17:49:36	Ergo0	yeee 
+2018-11-12 17:49:43	Ergo0	but it stays out of the way 
+2018-11-12 17:49:55	icyphox	hmm
+2018-11-12 17:49:59	Ergo0	i love the package management system 
+2018-11-12 17:50:05	icyphox	tarballs
+2018-11-12 17:50:18	Ergo0	the ports, which are basically that ye 
+2018-11-12 17:50:23	Ergo0	but like a buildscript is super simple 
+2018-11-12 17:50:35	icyphox	i see
+2018-11-12 17:51:27	icyphox	but idk man, elementary literally JustWorks™
+2018-11-12 17:51:41	Ergo0	icyphox: this is a crux PKGfile i wrote https://paste.pound-python.org/show/ER4ceN1uSIzKpvaR9FRs/
+2018-11-12 17:51:47	+cappuccino	[ paste.pound-python.org ] Paste #ER4ceN1uSIzKpvaR9FRs at spacepaste (text/html)
+2018-11-12 17:51:51	Ergo0	three lines, thats literally it 
+2018-11-12 17:52:28	icyphox	how does the repo system work
+2018-11-12 17:52:35	icyphox	centralized somewhere?
+2018-11-12 17:52:49	Ergo0	you have the official port collections maintained by the crux team 
+2018-11-12 17:53:01	Ergo0	and then there are dozens of user repos 
+2018-11-12 17:53:07	icyphox	ah
+2018-11-12 17:53:18	Ergo0	of users that maintain their own ports like mine https://github.com/ergo0/crux-ports
+2018-11-12 17:53:19	+cappuccino	[ github.com ] GitHub - Ergo0/crux-ports (text/html)
+2018-11-12 17:54:06	Ergo0	you can just copy individual ports and collections, and all you really get is the PkgFIle which basically is a bash script that builds the package and installs it 
+2018-11-12 17:54:16	icyphox	right
+2018-11-12 17:54:56	icyphox	u might wanna fix your `git config user.email` btw
+2018-11-12 17:55:04	jenkins	llsblk
+2018-11-12 17:55:16	Ergo0	icyphox: lol, where do you see that 
+2018-11-12 17:55:37	icyphox	no i mean, your commits are being made as 'root'
+2018-11-12 17:56:03	icyphox	and not as the github user
+2018-11-12 17:56:19	Ergo0	oh thats because i have the ports stored in /usr/ports 
+2018-11-12 17:56:25	Ergo0	would that impact usage for people ? 
+2018-11-12 17:56:25	icyphox	so change your local git email to the one u used to sign-up on github
+2018-11-12 17:56:33	icyphox	not really 
+2018-11-12 17:56:45	icyphox	it's just... not pretty
+2018-11-12 17:57:04	Ergo0	ye im not a developer so im unaware of stuff like that 
+2018-11-12 17:57:12	icyphox	np
+2018-11-12 17:57:19	Ergo0	thanks for the tip tho :) 
+2018-11-12 17:57:23	icyphox	sure thing
+2018-11-12 17:57:34	icyphox	i mean, i'm no "developer" either
+2018-11-12 17:59:33	+Khorne	DEVELOPERS DEVELOPERS DEVELOPERS!
+2018-11-12 17:59:46	+Khorne	who here remembers steve 'the nose' ballmer
+2018-11-12 18:00:07	@eti	you guys don't sudo git push?????
+2018-11-12 18:00:27	icyphox	>using sudo
+2018-11-12 18:00:36	icyphox	>not being logged in as root 
+2018-11-12 18:00:41	+Khorne	^
+2018-11-12 18:00:51	@eti	>not booting in rescue mode 24/7
+2018-11-12 18:00:53	@eti	plebs
+2018-11-12 18:01:17	+Khorne	not defaulting to runlevel1
+2018-11-12 18:01:27	Ergo0	i only sudo git push in my crux ports 
+2018-11-12 18:01:44	Ergo0	do people actually login as root? 
+2018-11-12 18:01:49	+Khorne	ofc
+2018-11-12 18:01:50	icyphox	>not using an OS that runs at ring 0 by default
+2018-11-12 18:01:52	+nai	hello friends :)
+2018-11-12 18:01:58	+Khorne	sup nai
+2018-11-12 18:01:59	Ergo0	why would anyone do that 
+2018-11-12 18:02:02	icyphox	Ergo0, wannabe Kali users
+2018-11-12 18:02:06	icyphox	sup nai
+2018-11-12 18:02:14	+nai	sup nai
+2018-11-12 18:02:16	+Khorne	Ergo0, for example to recover if shit went south
+2018-11-12 18:02:17	icyphox	i'd like to clarify that i am not ur friend
+2018-11-12 18:02:26	+nai	.dt -s https://up.monade.li/QMrMIo.png
+2018-11-12 18:02:26	+cappuccino	dtops updated.
+2018-11-12 18:02:35	+nai	wip
+2018-11-12 18:02:37	Ergo0	i only started using a password for wheel since a week ago lol 
+2018-11-12 18:02:50	icyphox	nai, turn that white down
+2018-11-12 18:02:51	Ergo0	used to not have a password anywhere on my system 
+2018-11-12 18:03:03	+nai	icyphox: TURN DOWN FOR WHAT
+2018-11-12 18:03:04	Ergo0	nai: what happened to the anime boobies 
+2018-11-12 18:03:06	Ergo0	SMFH 
+2018-11-12 18:03:07	+Khorne	I dont have a login password
+2018-11-12 18:03:09	+Khorne	ama
+2018-11-12 18:03:16	+nai	Khorne: why?
+2018-11-12 18:03:19	icyphox	why
+2018-11-12 18:03:22	+Khorne	well I do technically but I get logged in automatically
+2018-11-12 18:03:26	+Khorne	Why would I
+2018-11-12 18:03:35	icyphox	mmm that unlocks ur keyring too
+2018-11-12 18:03:37	Ergo0	this is not relevant, nai getting rid of anime boobies is a crime tho 
+2018-11-12 18:03:37	icyphox	which is a bad idea
+2018-11-12 18:03:42	+Khorne	icyphox, does it?
+2018-11-12 18:03:48	icyphox	well it does fo rme
+2018-11-12 18:03:51	icyphox	for me
+2018-11-12 18:04:01	+Khorne	Well..then its probably not smart to do that in your case
+2018-11-12 18:04:10	icyphox	perhaps ye
+2018-11-12 18:04:15	+Khorne	Also yknow theres the tiny thing about luks
+2018-11-12 18:04:17	+nai	Ergo0: no moar boobies xD
+2018-11-12 18:04:22	Ergo0	sad days man 
+2018-11-12 18:04:22	+Khorne	before anything logs in anyways :')
+2018-11-12 18:04:42	Ergo0	what is life if you're not looking at 2d titties 
+2018-11-12 18:05:52	icyphox	nim is such a comfy lang
+2018-11-12 18:05:59	Ergo0	 nim? 
+2018-11-12 18:06:11	icyphox	time to shill bois
+2018-11-12 18:06:19	icyphox	yeah Ergo0, https://nim-lang.org
+2018-11-12 18:06:20	+cappuccino	[ nim-lang.org ] Nim programming language | Nim (text/html)
+2018-11-12 18:06:21	Ergo0	here we go 
+2018-11-12 18:06:42	Ergo0	thats not shilling, thats just linking 
+2018-11-12 18:06:59	Ergo0	then again shilling this is probably lost on me since i dont code atm 
+2018-11-12 18:07:01	icyphox	oh uh, just read about it urself 
+2018-11-12 18:07:45	Ergo0	i wonder if there is a webdev noob irc 
+2018-11-12 18:08:00	+Khorne	freenode/##javascript
+2018-11-12 18:08:16	icyphox	don't do webdev
+2018-11-12 18:08:25	Ergo0	i just wanna do it in my freetime 
+2018-11-12 18:08:32	<--	zakame_ (~zakame@EE550BC5.A3DFB80C.69376DA6.IP) has quit (Ping timeout: 240 seconds)
+2018-11-12 18:08:34	+Khorne	no you dont
+2018-11-12 18:08:34	icyphox	that's how it starts
+2018-11-12 18:08:38	+Khorne	you just dont know it yet
+2018-11-12 18:08:56	icyphox	any kind of dev is a meme tbh
+2018-11-12 18:09:03	icyphox	heck, SDE is a meme
+2018-11-12 18:09:10	Ergo0	I mean, i gotta build a website for my "hey dumbo, lemme fix your pc for money" service 
+2018-11-12 18:09:21	icyphox	outsource it :^)
+2018-11-12 18:09:26	Ergo0	im actually so sad that i lost my old website 
+2018-11-12 18:09:35	icyphox	just use an ssg 
+2018-11-12 18:09:35	Ergo0	greedy school deleting my domain after i left 
+2018-11-12 18:09:51	icyphox	or spin up some template from https://html5up.net
+2018-11-12 18:09:52	+cappuccino	[ html5up.net ] HTML5 UP! Responsive HTML5 and CSS3 Site Templates (text/html)
+2018-11-12 18:10:10	Ergo0	i wanna write it myself tho 
+2018-11-12 18:11:16	Ergo0	i mean, i do culture studies and digital media, might as well do something on the side to challenge the grey mass ya know 
+2018-11-12 18:11:35	icyphox	well if u insist, webdev probably has the MOST amount of online tuts/coursework available
+2018-11-12 18:11:50	Ergo0	yee iknow 
+2018-11-12 18:11:56	Ergo0	was more fishing for good places to start 
+2018-11-12 18:12:59	icyphox	W3 Schools?
+2018-11-12 18:13:08	Ergo0	still that place ye 
+2018-11-12 18:13:40	+nai	well that's what i call an experimental feature https://up.monade.li/cNxSo3.png
+2018-11-12 18:15:28	icyphox	o yeah, i came across it a few months back
+2018-11-12 18:15:38	+nai	would be damn useful
+2018-11-12 18:16:35	icyphox	it didn't really work for me
+2018-11-12 18:16:38	icyphox	on Chrome or FF
+2018-11-12 18:17:08	icyphox	but yeah, implementing a 1000+ pages spec is probably not the easiest task
+2018-11-12 18:17:15	@eti	oh shit that's really helpful nai 
+2018-11-12 18:17:26	@eti	is it implemented atm
+2018-11-12 18:17:36	+nai	no, as you can see
+2018-11-12 18:17:40	icyphox	nope
+2018-11-12 18:17:40	+nai	0 browsers support it as of now
+2018-11-12 18:17:45	+nai	it's a proposal or something
+2018-11-12 18:17:59	icyphox	Safari has implemented it afaik
+2018-11-12 18:18:05	tor	has it
+2018-11-12 18:18:13	tor	pr chromium
+2018-11-12 18:21:04	@eti	oh i see
+2018-11-12 18:21:25	@eti	nai: is that css tricks
+2018-11-12 18:21:41	+nai	caniuse.com
+2018-11-12 18:22:04	tor	i need a css cross compiler which uses ascii art to style
+2018-11-12 18:22:04	@eti	what do you guys think of this https://soundcloud.com/luupy/i-have-no-idea-what-im-doing-anymore
+2018-11-12 18:22:18	@eti	do any of you guys know of any artist that sounds like this
+2018-11-12 18:22:20	@eti	i love it
+2018-11-12 18:22:43	tor	.dt 1
+2018-11-12 18:22:43	+cappuccino	rule 1: no anime [tor]
+2018-11-12 18:24:02	@eti	can't help it
+2018-11-12 18:24:09	@eti	anime girls are clearly superior anyway
+2018-11-12 18:24:20	@Leliana	rule 2: no tor
+2018-11-12 18:24:30	 *	icyphox delets tor
+2018-11-12 18:24:31	+nai	speaking of neat css tricks, the media-document() function in https://developer.mozilla.org/en-US/docs/Web/CSS/@document can also be used for @-moz-document, which in turn can be used in userContent.css
+2018-11-12 18:24:32	+cappuccino	[ developer.mozilla.org ] @document - CSS: Cascading Style Sheets | MDN (text/html)
+2018-11-12 18:24:38	@Leliana	s/neat/neet/
+2018-11-12 18:24:38	+cappuccino	Leliana thinks nai meant to say: speaking of neet css tricks, the media-document() function in https://developer.mozilla.org/en-US/docs/Web/CSS/@document can also be used for @-moz-document, which in turn can be used in userContent.css
+2018-11-12 18:24:49	+nai	that's useful for changing firefox's background for images
+2018-11-12 18:24:51	icyphox	can we can the webdev talk please
+2018-11-12 18:25:13	tor	.dt 2
+2018-11-12 18:25:13	+cappuccino	rule 2: no tor [tor]
+2018-11-12 18:25:17	+nai	.dt tor
+2018-11-12 18:25:17	+cappuccino	(1) rule 1: no anime | (2) rule 2: no tor | (3) https://torvim.github.io/rice [tor]
+2018-11-12 18:25:27	+nai	the pieces
+2018-11-12 18:25:30	+nai	they come together
+2018-11-12 18:25:43	+nai	.dt -a "no rice" "no life"
+2018-11-12 18:25:43	+cappuccino	dtops updated.
+2018-11-12 18:25:43	icyphox	.dt -a rule 3: no webdev
+2018-11-12 18:25:43	+cappuccino	dtops updated.
+2018-11-12 18:25:48	+nai	.dt
+2018-11-12 18:25:49	+cappuccino	(1) https://up.monade.li/QMrMIo.png | (2) no rice | (3) no life [nai]
+2018-11-12 18:25:56	icyphox	.dt
+2018-11-12 18:25:56	+cappuccino	(1) https://0x0.st/sI8d.png | (2) rule | (3) 3: | (4) no | (5) webdev [icyphox]
+2018-11-12 18:26:02	+nai	brainlet
+2018-11-12 18:26:02	icyphox	lmao
+2018-11-12 18:26:13	+nai	l2quote
+2018-11-12 18:26:49	@eti	https://www.youtube.com/watch?v=R3jME6u3nJg 😍
+2018-11-12 18:26:50	+cappuccino	[ youtube.com ] Youv Dee - Bendo (Prod.Skuna) - YouTube (text/html)
+2018-11-12 18:29:22	<--	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has quit (Remote host closed the connection)
+2018-11-12 18:30:29	-->	mosinut_ (~mosinut_@CB1DD103:AA0840F9:2B874B6C:IP) has joined #rice
+2018-11-12 18:34:34	<--	mosinut_ (~mosinut_@CB1DD103:AA0840F9:2B874B6C:IP) has quit (Ping timeout: 240 seconds)
+2018-11-12 18:41:11	<--	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2018-11-12 18:43:23	-->	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has joined #rice
+2018-11-12 18:52:37	<--	anon9234 (~anon9234@anon.vh.org) has quit (Read error: Connection reset by peer)
+2018-11-12 18:53:29	-->	anon9234 (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has joined #rice
+2018-11-12 19:11:08	+darkwater	anyone ever graphviz
+2018-11-12 19:12:44	@cosarara	no, nobody
+2018-11-12 19:13:03	-->	Jet (~Jet@Rizon-D1047E1E.bredband.comhem.se) has joined #rice
+2018-11-12 19:15:59	<--	jcv (~jcv@Rizon-7184F19E.getinternet.no) has quit (Ping timeout: 240 seconds)
+2018-11-12 19:17:36	<--	kv (~kv@Rizon-1B40D083.dsl.telepac.pt) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2018-11-12 19:18:01	<--	Cosumu (~Cosumu@space.is-the-place) has quit (Quit: WeeChat 1.9.1)
+2018-11-12 19:28:54	tor	about to install slackware on main pc
+2018-11-12 19:28:59	tor	wish me luck lads
+2018-11-12 19:29:00	icyphox	tor, why it's ded
+2018-11-12 19:29:03	+darkwater	y
+2018-11-12 19:29:10	tor	idk fam
+2018-11-12 19:29:41	-->	torvim (~qwebirc@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-12 19:29:41	--	Mode #rice [+v torvim] by Onee-chan
+2018-11-12 19:29:48	+torvim	test
+2018-11-12 19:29:56	tor	ok cya on the other side
+2018-11-12 19:29:57	+darkwater	fail
+2018-11-12 19:30:04	+LambdaComplex	torvim: REEEEEEEEEEEEEEEEEEEE
+2018-11-12 19:30:17	+LambdaComplex	is torvim just tor using vim???
+2018-11-12 19:30:31	+LambdaComplex	did you do the fusion dance with a text editor
+2018-11-12 19:30:34	+LambdaComplex	that's weird
+2018-11-12 19:30:54	icyphox	s/fusion/fortnite/
+2018-11-12 19:30:54	+cappuccino	icyphox thinks LambdaComplex meant to say: did you do the fortnite dance with a text editor
+2018-11-12 19:31:03	 *	eti dabs
+2018-11-12 19:31:14	+torvim	ecks dee fam
+2018-11-12 19:31:16	+LambdaComplex	holy fucking shit delet this you goddamn zoomers or w/e the fuck you're called
+2018-11-12 19:31:22	+LambdaComplex	yes torvim XDDDDDDDDDD indeed
+2018-11-12 19:31:28	@eti	>deleting an irc message
+2018-11-12 19:31:33	@eti	what fucking dum dum amirite 
+2018-11-12 19:31:36	@Leliana	>not deleting an IRC message
+2018-11-12 19:31:36	+darkwater	/delete -2
+2018-11-12 19:31:37	icyphox	>deleting messages
+2018-11-12 19:31:40	@Leliana	get a load of this newfag
+2018-11-12 19:31:42	+torvim	yeet lol
+2018-11-12 19:31:47	+darkwater	 
+2018-11-12 19:31:49	+LambdaComplex	>being an op in #rice 
+2018-11-12 19:31:56	icyphox	>being on irc
+2018-11-12 19:31:57	+LambdaComplex	wow eti isn't it great that we're not that dumb
+2018-11-12 19:31:58	--	Mode #rice [-o Leliana] by Leliana
+2018-11-12 19:31:59	+LambdaComplex	oh wait
+2018-11-12 19:32:02	+darkwater	<message deleted>
+2018-11-12 19:32:04	+LambdaComplex	see? Leliana gets it
+2018-11-12 19:32:11	@eti	can we kick leliana now
+2018-11-12 19:32:17	+LambdaComplex	no, but we can kick nai
+2018-11-12 19:32:20	@eti	french revolution now
+2018-11-12 19:32:20	--	Mode #rice [+o Leliana] by Onee-chan
+2018-11-12 19:32:23	@eti	works for me
+2018-11-12 19:32:34	+LambdaComplex	nai works for you?
+2018-11-12 19:32:37	+LambdaComplex	tell hiim to suck less dick
+2018-11-12 19:33:03	@Leliana	>nai
+2018-11-12 19:33:05	@Leliana	>work
+2018-11-12 19:33:09	+torvim	slurp daddy
+2018-11-12 19:33:09	@eti	does not compute xD
+2018-11-12 19:33:11	@Leliana	100% NEET nibbas
+2018-11-12 19:33:24	+LambdaComplex	Leliana: that's so very sad
+2018-11-12 19:33:35	+nai	REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+2018-11-12 19:33:45	+nai	you're right tho.
+2018-11-12 19:33:46	+LambdaComplex	but i guess rubbing your dick raw while looking at anime girls works for some people
+2018-11-12 19:34:00	@Leliana	nai: also you're adopted btw
+2018-11-12 19:34:14	+LambdaComplex	nai: you do realize it's not normal to have 2TB of Horo hentai, right?
+2018-11-12 19:34:28	@Leliana	It isn't?
+2018-11-12 19:34:35	+nai	LambdaComplex: but i have 3TB so it's ok
+2018-11-12 19:34:37	+torvim	eti: spare me when taking over #rice or northern ireland or getting rid of the border or w/e
+2018-11-12 19:34:38	@Leliana	excuse me, I have some purging to do
+2018-11-12 19:35:00	+LambdaComplex	Leliana: just replace any space you free up with chizuru from kanokon and you'll be good
+2018-11-12 19:35:03	@eti	torvim: i'll antialias your frontier dw
+2018-11-12 19:35:07	@Leliana	>take over #rice
+2018-11-12 19:35:13	@Leliana	not while I'm channel successor :^)
+2018-11-12 19:35:17	+LambdaComplex	>take over #rice 
+2018-11-12 19:35:26	+LambdaComplex	i think that's called "hijacking the special olympics"
+2018-11-12 19:35:36	+torvim	eti know's how to try and take over something
+2018-11-12 19:35:44	@Leliana	yeah, ricing is very much like the special olympics
+2018-11-12 19:35:50	@Leliana	even if you win, you're still a retard
+2018-11-12 19:35:51	+torvim	ira lookin motherfucker
+2018-11-12 19:35:52	@eti	lxcyp: make mr sucessor now
+2018-11-12 19:36:04	+torvim	>you win
+2018-11-12 19:36:05	@eti	leli boutta die from coke overdose in a few months time anyway
+2018-11-12 19:36:12	+torvim	everyone wins
+2018-11-12 19:36:12	+LambdaComplex	Leliana: why won't you just appreciate my stock xfce with numix circle icons?
+2018-11-12 19:36:16	@eti	s/coke/cock/
+2018-11-12 19:36:16	+cappuccino	eti meant to say: leli boutta die from cock overdose in a few months time anyway
+2018-11-12 19:36:20	@eti	better
+2018-11-12 19:36:26	~lxcyp	I already made leliana successor 
+2018-11-12 19:36:31	~lxcyp	Oh 
+2018-11-12 19:36:33	@Leliana	you can't OD on cock
+2018-11-12 19:36:34	+LambdaComplex	if you could die from cock overdose then Leliana would've been dead ages ago
+2018-11-12 19:36:35	@eti	i think you meant cute ira looking mf
+2018-11-12 19:36:36	@eti	.selfie
+2018-11-12 19:36:36	+cappuccino	(1) https://x.eti.tf/nkbQc.jpg [eti]
+2018-11-12 19:36:37	@Leliana	trust me, I've tried
+2018-11-12 19:36:37	~lxcyp	Yeah if he dies I'll give successor to you eti
+2018-11-12 19:36:41	+LambdaComplex	see?
+2018-11-12 19:36:43	@eti	neat
+2018-11-12 19:36:49	~lxcyp	Leliana don't die pls
+2018-11-12 19:36:50	@eti	now tell me where you live Leliana 
+2018-11-12 19:36:53	@eti	:^)
+2018-11-12 19:36:54	+nai	> cock overdose
+2018-11-12 19:36:56	@eti	i got me guns
+2018-11-12 19:36:58	+nai	sounds like a great movie title
+2018-11-12 19:36:58	@eti	and me bombs
+2018-11-12 19:36:58	+LambdaComplex	Leliana: i wonder how good aesthetik's sister is at kissing
+2018-11-12 19:37:01	@eti	and my baguette :^)
+2018-11-12 19:37:07	+LambdaComplex	bet she uses plenty of tongue
+2018-11-12 19:37:14	~lxcyp	You talk a lot about awsthetik's sister 
+2018-11-12 19:37:19	+nai	"kissing" ( ͡° ͜ʖ ͡°)
+2018-11-12 19:37:24	+LambdaComplex	i've mentioned her like twice in the last month!
+2018-11-12 19:37:24	~lxcyp	It's  getting creepy lmaos
+2018-11-12 19:37:26	@Leliana	I think she has a tongue piercing too#feels good on the end of your dick
+2018-11-12 19:37:29	@eti	>aesthetic
+2018-11-12 19:37:30	@eti	>not zack
+2018-11-12 19:37:32	+LambdaComplex	and the first time was because aesthetik mentioned her
+2018-11-12 19:37:39	+LambdaComplex	asking why i wasn't talking about her
+2018-11-12 19:37:57	+nai	>zack>not zack6849
+2018-11-12 19:38:03	@Leliana	LambdaComplex: you on telegram broski
+2018-11-12 19:38:13	~lxcyp	Aight but when the cops come to me for logs I'm letting you go down to save myself 
+2018-11-12 19:38:22	+LambdaComplex	Leliana: i had it at one point and have since deleted it so let's go with "no"
+2018-11-12 19:38:31	+LambdaComplex	"one point" was like "two days"
+2018-11-12 19:38:49	@Leliana	well guess you don't get into the cool kids group then
+2018-11-12 19:38:54	@eti	Leliana: come to brazil
+2018-11-12 19:38:56	~lxcyp	Ownd
+2018-11-12 19:39:07	@eti	pwnd
+2018-11-12 19:39:12	@Leliana	eti: why would I go to a third world shithole
+2018-11-12 19:39:18	+LambdaComplex	Leliana: i'll hit you up if i ever reinstall it
+2018-11-12 19:39:26	+LambdaComplex	eti: alguem br??
+2018-11-12 19:39:27	+Khorne	s/up //
+2018-11-12 19:39:27	+cappuccino	Khorne thinks LambdaComplex meant to say: Leliana: i'll hit you if i ever reinstall it
+2018-11-12 19:39:28	@Leliana	LambdaComplex: nope, chance gone
+2018-11-12 19:39:30	@Leliana	you fucked up
+2018-11-12 19:39:40	+LambdaComplex	oh no how will i ever sleep at night
+2018-11-12 19:39:44	@eti	s o p a
+2018-11-12 19:40:01	@eti	U M A   D E L I C I A
+2018-11-12 19:40:07	+LambdaComplex	eti: br?
+2018-11-12 19:40:13	@eti	fr?
+2018-11-12 19:40:17	+LambdaComplex	br???
+2018-11-12 19:40:22	+LambdaComplex	why isn't kori here
+2018-11-12 19:40:28	@eti	he ded
+2018-11-12 19:40:32	+LambdaComplex	no he isn't
+2018-11-12 19:40:37	@cosarara	he don't love us no more
+2018-11-12 19:40:52	+LambdaComplex	oh
+2018-11-12 19:40:55	+LambdaComplex	ok
+2018-11-12 19:41:25	~lxcyp	He grew out of trying to impress the Internet with shell scripts 
+2018-11-12 19:41:28	~lxcyp	Happy for hin
+2018-11-12 19:42:17	@Leliana	kori can eat my ass
+2018-11-12 19:43:04	@cosarara	well technically, everybody can
+2018-11-12 19:43:13	<--	tor (~torvim@B8505028.C468F6C0.CCD8B8AD.IP) has quit (Remote host closed the connection)
+2018-11-12 19:43:49	+torvim	rip
+2018-11-12 19:44:10	~lxcyp	Everybody can but nobody wants to 
+2018-11-12 19:44:18	~lxcyp	That's what happens when you're a skanky rent boy 
+2018-11-12 19:45:06	+LambdaComplex	i'd rather eat lynn's ass tbqh
+2018-11-12 19:45:37	~lxcyp	Why eat ass when u can eat glass
+2018-11-12 19:45:46	+LambdaComplex	wat
+2018-11-12 19:46:09	~lxcyp	You heard me
+2018-11-12 19:46:21	~lxcyp	Consumes light bulb epic gamer style 
+2018-11-12 19:46:23	+Cosmonaut	glass dildo?
+2018-11-12 19:46:36	+LambdaComplex	no Cosmonaut we don't wanna hear about your fap time
+2018-11-12 19:46:41	+nai	kori: send qt shell script thx
+2018-11-12 19:46:47	~lxcyp	👄 💡 
+2018-11-12 19:46:48	@Leliana	haha lxcyp don't you love talking shit about LambdaComplex on telegram?
+2018-11-12 19:46:55	~lxcyp	Haha yea
+2018-11-12 19:46:56	+Cosmonaut	no no I don't use glass anymore I use dick
+2018-11-12 19:47:01	@Leliana	one of my favourite past times
+2018-11-12 19:47:15	+LambdaComplex	Leliana: is that more or less fun than talking shit about me on irc?
+2018-11-12 19:47:21	~lxcyp	More
+2018-11-12 19:47:22	@eti	👀
+2018-11-12 19:47:24	+LambdaComplex	nice
+2018-11-12 19:47:24	~lxcyp	We can post pics 
+2018-11-12 19:47:47	+LambdaComplex	well i'd hate to interrupt that by joining your group!
+2018-11-12 19:48:09	+Cosmonaut	LambdaComplex: you eat out boy butts?
+2018-11-12 19:49:01	@Leliana	Cosmonaut: do you not?
+2018-11-12 19:49:44	+Cosmonaut	I do
+2018-11-12 19:50:01	@Leliana	well ok then
+2018-11-12 19:50:18	+nai	pwned
+2018-11-12 19:50:32	+Cosmonaut	I was going to say he should if he doesnt
+2018-11-12 19:50:37	+Cosmonaut	because boys are the best
+2018-11-12 19:51:09	+nai	lies
+2018-11-12 19:51:18	+Cosmonaut	get out breeder
+2018-11-12 19:51:22	+Khorne	ew
+2018-11-12 19:51:28	+Khorne	you know whats actually the best
+2018-11-12 19:51:29	+nai	implying
+2018-11-12 19:52:11	+Cosmonaut	boys are
+2018-11-12 19:52:16	+Cosmonaut	end of discussion
+2018-11-12 19:52:22	@Leliana	Khorne: anal masturbation?
+2018-11-12 19:52:25	+Khorne	factually and objectively wrong
+2018-11-12 19:52:28	+Khorne	both
+2018-11-12 19:52:30	+nai	Khorne: no i don't please say plase say
+2018-11-12 19:52:39	+Khorne	doggos :3
+2018-11-12 19:52:40	+nai	please*
+2018-11-12 19:52:51	@Leliana	dogs are disgusting
+2018-11-12 19:52:58	@Leliana	you can't even but your dick in them
+2018-11-12 19:53:02	@Leliana	what's the point?
+2018-11-12 19:53:03	+nai	s/ggo/ggy/
+2018-11-12 19:53:04	+cappuccino	nai thinks Khorne meant to say: doggys :3
+2018-11-12 19:53:12	+nai	fixed it
+2018-11-12 19:53:13	+Khorne	that doesnt work so well, does it.
+2018-11-12 19:54:17	@Leliana	Khorne: like your dick haha geddit?
+2018-11-12 19:54:29	@Leliana	the joke is you have erectile dysfunction
+2018-11-12 19:54:31	@Leliana	amirite
+2018-11-12 19:54:39	+Khorne	uh sure
+2018-11-12 19:55:06	+Cosmonaut	Leliana: >cant
+2018-11-12 19:55:07	 *	nai laughs at Leliana's joke
+2018-11-12 19:55:10	Roserin	what even happened here?
+2018-11-12 19:55:13	+Khorne	your mom prefers two fists anyways
+2018-11-12 19:55:13	+nai	(not because of the joke)
+2018-11-12 19:55:20	Ergo0	im very confused as well Roserin 
+2018-11-12 19:55:30	+Khorne	Ergo0, Roserin foreplay
+2018-11-12 19:55:34	+Khorne	grow up
+2018-11-12 19:55:34	Roserin	oh
+2018-11-12 19:55:36	Roserin	ok
+2018-11-12 19:55:45	+Khorne	:')
+2018-11-12 19:55:47	Ergo0	welp 
+2018-11-12 19:56:38	+Khorne	np: Parov Stelar – Milla's Dream
+2018-11-12 19:59:14	<--	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-12 19:59:39	+LambdaComplex	13:46 <@Leliana> dogs are disgusting
+2018-11-12 19:59:42	+LambdaComplex	13:46 <@Leliana> you can't even but your dick in them
+2018-11-12 19:59:43	+LambdaComplex	Leliana do you fuck dolphines
+2018-11-12 20:00:29	@Leliana	nah, dolphins are fairly intellegent, and as a result won't go near me
+2018-11-12 20:00:40	+torvim	hurray, got slackware installed
+2018-11-12 20:00:44	+Khorne	unlike zacks sister?
+2018-11-12 20:00:55	+Cosmonaut	weew
+2018-11-12 20:01:13	+LambdaComplex	Leliana: even when they're horny?
+2018-11-12 20:01:16	~lxcyp	realized after finishing the gentoo install that i cant be bothered
+2018-11-12 20:01:20	~lxcyp	i dont have time for this anymore
+2018-11-12 20:01:23	+Khorne	kek
+2018-11-12 20:01:24	~lxcyp	ubuntu 18.10 it is
+2018-11-12 20:01:27	+Khorne	embrace ub..
+2018-11-12 20:01:29	+Khorne	wew
+2018-11-12 20:01:33	+LambdaComplex	btw i use arch
+2018-11-12 20:01:35	~lxcyp	I mean I used ubuntu for ages
+2018-11-12 20:01:37	~lxcyp	.dtop 1,2
+2018-11-12 20:01:37	+cappuccino	1,2 has no dtops.
+2018-11-12 20:01:42	+LambdaComplex	lxcyp: yo ushould install arch linux
+2018-11-12 20:01:43	~lxcyp	i mean i guess that makes sense
+2018-11-12 20:01:46	~lxcyp	.dtop 1
+2018-11-12 20:01:46	+cappuccino	https://vgy.me/Zffjqi.png [lxcyp]
+2018-11-12 20:01:47	+LambdaComplex	it's really minimal
+2018-11-12 20:01:49	+LambdaComplex	:^)
+2018-11-12 20:01:52	~lxcyp	LambdaComplex: lols 
+2018-11-12 20:02:07	+Khorne	Have a nice evening
+2018-11-12 20:02:08	+LambdaComplex	.distro
+2018-11-12 20:02:08	+cappuccino	(1) btw i use arch [LambdaComplex]
+2018-11-12 20:02:10	+Khorne	<3
+2018-11-12 20:02:13	+LambdaComplex	bye Khorne <3
+2018-11-12 20:02:20	+Khorne	what
+2018-11-12 20:02:25	+LambdaComplex	oh
+2018-11-12 20:02:26	+Khorne	im not going anywhere lulz
+2018-11-12 20:02:31	~lxcyp	.distro mikotohe
+2018-11-12 20:02:32	+cappuccino	(1) Ubuntu 18.04 [mikotohe]
+2018-11-12 20:02:32	+LambdaComplex	s-sorry
+2018-11-12 20:02:46	+Khorne	whos is this mikotohoe
+2018-11-12 20:02:49	+Khorne	huehue
+2018-11-12 20:02:52	+LambdaComplex	idk probably some loser
+2018-11-12 20:02:58	+LambdaComplex	well
+2018-11-12 20:03:02	+LambdaComplex	they're on rizon so that's a given really
+2018-11-12 20:03:06	+Khorne	^
+2018-11-12 20:03:07	~lxcyp	.distro -s Ubuntu 18.10
+2018-11-12 20:03:07	+cappuccino	distros updated.
+2018-11-12 20:03:10	+Khorne	[shame]
+2018-11-12 20:03:11	+cappuccino	[SHAME INTENSIFIES]
+2018-11-12 20:03:17	~lxcyp	did they stop naming ubuntu versions
+2018-11-12 20:03:29	+Khorne	No its probably
+2018-11-12 20:03:32	~lxcyp	oh no they just don't have it on display
+2018-11-12 20:03:36	+Khorne	Poopy Pooper now
+2018-11-12 20:03:36	~lxcyp	its Cosmic Cuttlefish
+2018-11-12 20:03:40	+Khorne	lmao
+2018-11-12 20:03:49	~lxcyp	.distro -S Ubuntu 18.10 Cosmic Cuttlefish
+2018-11-12 20:03:49	+cappuccino	Invalid arguments.
+2018-11-12 20:03:53	~lxcyp	.distro -s Ubuntu 18.10 Cosmic Cuttlefish
+2018-11-12 20:03:53	+cappuccino	distros updated.
+2018-11-12 20:04:30	~lxcyp	god i wish i wasnt brain dumb
+2018-11-12 20:04:30	Roserin	.distro
+2018-11-12 20:04:30	+cappuccino	Roserin has no distros.
+2018-11-12 20:04:32	+torvim	i love that adduser asks for your room number, work phone and home phone
+2018-11-12 20:04:37	+LambdaComplex	RIP Stan Lee
+2018-11-12 20:05:07	~lxcyp	yea thats because linux is for PROFESSIONALS
+2018-11-12 20:05:09	+torvim	what
+2018-11-12 20:05:10	+torvim	when
+2018-11-12 20:05:11	~lxcyp	not for idiot ricer spacks
+2018-11-12 20:05:28	~lxcyp	oh fuck LambdaComplex 
+2018-11-12 20:05:35	+Khorne	good good
+2018-11-12 20:05:47	+LambdaComplex	lxcyp: ;-;
+2018-11-12 20:05:54	+LambdaComplex	hold me #rice 
+2018-11-12 20:06:10	+Cosmonaut	finally
+2018-11-12 20:06:16	+Khorne	the final cameo
+2018-11-12 20:06:18	+Khorne	in heaven
+2018-11-12 20:06:20	+LambdaComplex	i'm sorry Cosmonaut but WHAT THE FUCK DID YOU JUST SAY
+2018-11-12 20:06:21	 *	Roserin holds LambdaComplex 
+2018-11-12 20:06:35	 *	LambdaComplex hold Roserin ;-;
+2018-11-12 20:06:45	+LambdaComplex	(who is Roserin? do i care right now? no)
+2018-11-12 20:06:52	+Cosmonaut	nobody cares
+2018-11-12 20:06:55	Roserin	love ya too, buddy
+2018-11-12 20:06:56	+Cosmonaut	fuck capeshit
+2018-11-12 20:09:19	+LambdaComplex	"reeeeeee stop liking things i don't like"
+2018-11-12 20:09:22	+LambdaComplex	t. Cosmonaut 
+2018-11-12 20:09:27	-->	heibol (~heibol@Rizon-2DEC2519.red-88-29-231.dynamicip.rima-tde.net) has joined #rice
+2018-11-12 20:09:33	+Cosmonaut	stop liking garbage more like
+2018-11-12 20:09:35	+Cosmonaut	silly npc
+2018-11-12 20:10:02	+Khorne	>weebs everywhere
+2018-11-12 20:10:04	+Khorne	>stop liking garbage
+2018-11-12 20:10:06	+Khorne	righto
+2018-11-12 20:10:11	@eti	.dt -r 2 https://x.eti.tf/MnBsi.png
+2018-11-12 20:10:12	+cappuccino	Replaced https://x.eti.tf/FhRqs.png with https://x.eti.tf/MnBsi.png
+2018-11-12 20:10:21	+Cosmonaut	implyong
+2018-11-12 20:12:04	~lxcyp	wew stock ubuntu looks really nice these day
+2018-11-12 20:12:05	~lxcyp	+s
+2018-11-12 20:12:10	Roserin	...
+2018-11-12 20:12:26	Roserin	lxcyp: blink twice if they are listening
+2018-11-12 20:12:34	~lxcyp	no it does lol
+2018-11-12 20:12:47	 *	Roserin stares at lxcyp's eyes
+2018-11-12 20:12:53	~lxcyp	if you think that there's any distro that does an ootb experience as good as Ubuntu does you're actually braindead
+2018-11-12 20:13:02	Roserin	BunsenLabs
+2018-11-12 20:13:07	Roserin	Easy
+2018-11-12 20:13:26	~lxcyp	>fuck with XML to change your keybinds
+2018-11-12 20:13:27	~lxcyp	>easy
+2018-11-12 20:13:36	Roserin	>OOTB
+2018-11-12 20:13:40	Roserin	>changing things
+2018-11-12 20:13:58	~lxcyp	bunsenlabs is shit out of the box
+2018-11-12 20:14:06	Roserin	(also, I meant BL was easily better than Ubuntu)
+2018-11-12 20:14:15	Roserin	why?
+2018-11-12 20:14:21	Roserin	I didn't mind it
+2018-11-12 20:16:24	~lxcyp	I mean it's good, as far as openbox configurations go
+2018-11-12 20:16:32	+Khorne	Does Shitbuntu still use Unity?
+2018-11-12 20:16:40	~lxcyp	ubuntu hasn't used unity in legitimately over a year
+2018-11-12 20:16:48	+Khorne	An entire year
+2018-11-12 20:16:54	~lxcyp	unity was fine, anyway
+2018-11-12 20:16:58	~lxcyp	mir sucked but unity sucked
+2018-11-12 20:17:00	+Khorne	Unity was horseshit
+2018-11-12 20:17:00	~lxcyp	er
+2018-11-12 20:17:02	~lxcyp	unity didn't* 
+2018-11-12 20:17:20	+Khorne	the whole interface concept was designed for touchscreens
+2018-11-12 20:17:36	~lxcyp	.dtop 1
+2018-11-12 20:17:36	+cappuccino	https://vgy.me/Zffjqi.png [lxcyp]
+2018-11-12 20:17:38	~lxcyp	pls
+2018-11-12 20:17:41	~lxcyp	unity is beautiful
+2018-11-12 20:17:45	~lxcyp	the dock is good 
+2018-11-12 20:18:03	+Khorne	>dock is good
+2018-11-12 20:18:05	+Khorne	>not on screenshot
+2018-11-12 20:18:15	~lxcyp	why would you have it on the screen all the time 
+2018-11-12 20:18:35	~lxcyp	it's out of the way until you need it, like a dock should be :) 
+2018-11-12 20:18:52	Roserin	.dtop 1
+2018-11-12 20:19:03	~lxcyp	I just do not understand all of the hate for Ubuntu 
+2018-11-12 20:19:08	~lxcyp	it's insane and unfounded
+2018-11-12 20:19:16	Roserin	bloat
+2018-11-12 20:19:16	+Khorne	Ubuntu is fine
+2018-11-12 20:19:16	Roserin	systemd
+2018-11-12 20:19:20	~lxcyp	they're trying REALLY hard to make desktop linux appealing enough for mainstream adoption
+2018-11-12 20:19:25	~lxcyp	>uneducated systemd bashing
+2018-11-12 20:19:26	~lxcyp	yea dropped
+2018-11-12 20:19:30	Roserin	:(
+2018-11-12 20:19:34	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-11-12 20:19:36	Roserin	fair
+2018-11-12 20:19:38	+Khorne	lxcyp, its the entire debian ecosystem thats slightly annoying tbh
+2018-11-12 20:19:50	+Khorne	with about 40 downstream patches to every package
+2018-11-12 20:19:57	Roserin	lxcyp: they are doing a lot to make Linux mainstream viable, that's true
+2018-11-12 20:20:02	~lxcyp	I mean that's a legitimate criticism Khorne 
+2018-11-12 20:20:10	~lxcyp	muh stability and such
+2018-11-12 20:20:16	+Khorne	lxcyp, used Ubuntu 7.04 to 9.10
+2018-11-12 20:20:18	+Khorne	ama
+2018-11-12 20:20:51	~lxcyp	i used 9.10 probably
+2018-11-12 20:20:59	~lxcyp	that'd put me at about 12yo
+2018-11-12 20:21:05	+Khorne	But tbf everything back then was about shite
+2018-11-12 20:21:07	~lxcyp	i dont remember being 12 though
+2018-11-12 20:21:32	+Khorne	And Canonical pulled a few really questionable moves
+2018-11-12 20:21:38	Roserin	true
+2018-11-12 20:21:39	~lxcyp	mir was a misfire
+2018-11-12 20:21:39	Roserin	but
+2018-11-12 20:21:45	~lxcyp	I do not think anyone should let them get away with trying to push mir
+2018-11-12 20:21:46	+Khorne	Upstart and mir are debatable in terms of technology
+2018-11-12 20:21:48	Roserin	they are doing a lot to make Linux mainstream viable, that's true
+2018-11-12 20:21:48	~lxcyp	and they know that too
+2018-11-12 20:21:53	~lxcyp	O
+2018-11-12 20:21:56	+Khorne	Their store integration and spyware was...meh
+2018-11-12 20:21:59	~lxcyp	I'm glad they dropped mir
+2018-11-12 20:22:12	~lxcyp	upstart is.. I mean upstart is a debian thing, is it not?
+2018-11-12 20:22:28	+Khorne	Rather sure that was grown on ubuntus shitpile
+2018-11-12 20:22:35	~lxcyp	you might be right
+2018-11-12 20:22:45	Roserin	It isn't anymore... It's systemd as pretty much a standard
+2018-11-12 20:22:50	~lxcyp	yea
+2018-11-12 20:22:51	~lxcyp	good
+2018-11-12 20:22:52	+Khorne	It was written by Scott James Remnant, a former employee of Canonical Ltd.
+2018-11-12 20:22:55	+Khorne	ye
+2018-11-12 20:23:03	~lxcyp	openrc didn't keep up and systemd is the best init system we have
+2018-11-12 20:23:07	+Khorne	Few distros considered picking it up too
+2018-11-12 20:23:16	+Khorne	But systemd superceded it quickly
+2018-11-12 20:23:36	Roserin	I don't quite get what people use systemd for
+2018-11-12 20:23:43	+Khorne	Roserin, everything?
+2018-11-12 20:23:50	Roserin	Khorne: like..?
+2018-11-12 20:23:57	+Khorne	Which is, unironically, a good thing to me as a systems administrator
+2018-11-12 20:24:10	Roserin	that's fair
+2018-11-12 20:24:31	+Khorne	I dont need to mess with cron, 4 different logging implementations + plain file logging, a unit is written in like 30s contrary to (some) init scripts
+2018-11-12 20:25:36	+Khorne	Also people always claim systemd is bloated af because it ships everything
+2018-11-12 20:25:47	+Khorne	But fail to realize that thats a distro decision to ship everything
+2018-11-12 20:26:01	+Khorne	And not a forced decision by systemd the project
+2018-11-12 20:26:02	~lxcyp	not to mention the alternative is having 20 different monolithic daemons running
+2018-11-12 20:26:50	Roserin	I think the criticism is more that it is too complex
+2018-11-12 20:27:09	+Khorne	What you can argue about (and probably should) is its integration of udev and similar buses which makes it hard(er) to ship things depending on those without systemd
+2018-11-12 20:27:18	+Khorne	Roserin, thats a fucking bullshit criticism tbh
+2018-11-12 20:27:34	+Khorne	Software is always complex
+2018-11-12 20:27:55	Roserin	so...
+2018-11-12 20:28:07	Roserin	the complaint is it breaks "unix philosophy"
+2018-11-12 20:28:14	+Khorne	Roserin, so does vim
+2018-11-12 20:28:23	Roserin	where one program does one thing, and does it well
+2018-11-12 20:28:27	+Khorne	vim not only reads files, it edits them and saves them too
+2018-11-12 20:28:28	+nai	.distro lxcyp 
+2018-11-12 20:28:28	+cappuccino	(1) Ubuntu | (2) 18.10 | (3) Cosmic | (4) Cuttlefish [lxcyp]
+2018-11-12 20:28:29	+Khorne	motherfucking vim
+2018-11-12 20:28:30	+nai	absolutely
+2018-11-12 20:28:31	+nai	braindead
+2018-11-12 20:28:51	Roserin	Khorne: :P
+2018-11-12 20:29:08	+nai	always use quotes kids
+2018-11-12 20:29:08	+Khorne	Roserin, no really, of all things, thats the weakest argument that there is
+2018-11-12 20:29:25	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-11-12 20:29:26	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-11-12 20:29:58	Roserin	Khorne: it's actually similar to what you said about udev
+2018-11-12 20:30:21	+Khorne	well no.
+2018-11-12 20:30:31	Roserin	How so?
+2018-11-12 20:30:41	+Khorne	You might mean a similar thing by reducing it to "breaks unix philosophy"
+2018-11-12 20:30:59	+Khorne	But as an argument itself its just not good
+2018-11-12 20:31:48	+Khorne	And to be honest if we were going by that we'd be stuck with coreutils for everything
+2018-11-12 20:32:05	Roserin	I like coreutils
+2018-11-12 20:32:08	jenkins	what about the argument that it's too big and complicated, and constantly extended by engineers who are paid to develop it?
+2018-11-12 20:32:28	+Khorne	jenkins, what about the linux kernel then?
+2018-11-12 20:32:30	jenkins	that it constitues a security issue
+2018-11-12 20:32:43	jenkins	Khorne: it's a common argument against linux as well
+2018-11-12 20:32:45	Roserin	Khorne: it's mostly drivers
+2018-11-12 20:33:03	+Khorne	jenkins, I dont see people rioting over the kernel though :')
+2018-11-12 20:33:07	Roserin	also that gets into microkernel vs monolithic kernel
+2018-11-12 20:33:37	jenkins	eh.. I guess
+2018-11-12 20:33:40	+Khorne	jenkins, and I really dont see whats wrong with software by people who are paid for developping software?
+2018-11-12 20:34:05	+Khorne	Or is the concern really *who* pays them?
+2018-11-12 20:34:15	jenkins	it makes it grow even faster and get more complicated
+2018-11-12 20:34:18	+Khorne	(Who do you think *owns* the software developers?)
+2018-11-12 20:34:48	jenkins	it's now like this will be audited too often, in ever
+2018-11-12 20:34:52	jenkins	*if
+2018-11-12 20:35:13	+Khorne	jenkins, I mean, I would have to research it, but I'm pretty sure I could guarantuee you that every 'brand' FOSS project has contributions from paid developers
+2018-11-12 20:35:23	Roserin	probably
+2018-11-12 20:35:43	jenkins	I don't mind paid developers
+2018-11-12 20:35:49	Roserin	you think intel doesn't pay people to contribute to linux
+2018-11-12 20:36:10	Roserin	or AMD? Or loads of other companies?
+2018-11-12 20:36:16	Roserin	but not NVidia...
+2018-11-12 20:36:23	jenkins	but a coordinated effort with lots of money being put into something like this is a bit unsettling
+2018-11-12 20:36:47	+Khorne	SELinux is literally sponsored by the NSA :')
+2018-11-12 20:36:59	-->	Ivion (~ivion@600D7774:46E0B50F:40608628:IP) has joined #rice
+2018-11-12 20:37:15	@cosarara	well if you are the national security agency you'll want to have secure linux machines right?
+2018-11-12 20:37:22	+Khorne	Exactly
+2018-11-12 20:37:48	Roserin	Khorne: do people who aren't the NSA use SELinux?
+2018-11-12 20:37:55	+Khorne	Android?
+2018-11-12 20:38:00	+Khorne	So you probably?
+2018-11-12 20:38:17	jenkins	btw openrc looks decent
+2018-11-12 20:42:21	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Quit: bye bye)
+2018-11-12 20:47:23	+nai	nice meme
+2018-11-12 20:47:24	+torvim	guess who fucked up the install
+2018-11-12 20:47:31	+nai	so torvim 
+2018-11-12 20:47:35	+nai	why did you install slackware
+2018-11-12 20:47:45	+torvim	idk fam
+2018-11-12 20:47:47	+torvim	seemed fun
+2018-11-12 20:48:08	+torvim	so i installed it but didn't do the full install
+2018-11-12 20:48:14	+torvim	so i hadn't got wget
+2018-11-12 20:48:23	+torvim	but i can't just wget the tgz
+2018-11-12 20:48:31	+torvim	for wget
+2018-11-12 20:48:40	+torvim	...because i don't have wget
+2018-11-12 20:48:40	+nai	brain
+2018-11-12 20:48:41	jenkins	lol
+2018-11-12 20:48:42	+nai	let.
+2018-11-12 20:48:51	+nai	this is on the level of
+2018-11-12 20:48:54	+nai	.distro lxcyp 
+2018-11-12 20:48:54	+cappuccino	(1) Ubuntu | (2) 18.10 | (3) Cosmic | (4) Cuttlefish [lxcyp]
+2018-11-12 20:49:00	jenkins	lmao
+2018-11-12 20:49:14	+nai	epic
+2018-11-12 20:49:42	~lxcyp	oh thats pretty funny
+2018-11-12 20:49:48	+torvim	actuallyfuck my life
+2018-11-12 20:49:52	+torvim	now i've gotta reinstall
+2018-11-12 20:49:54	+nai	q u o t e s 
+2018-11-12 20:49:54	~lxcyp	.distro -s "Ubuntu 18.10 Cosmic Cuttlefish"
+2018-11-12 20:49:54	+cappuccino	distros updated.
+2018-11-12 20:50:03	+Shinryuu	reinstall!?
+2018-11-12 20:50:04	Roserin	https://0x0.st/sl3k.png
+2018-11-12 20:50:07	-->	Cosmonaut (~gagarin@BDA8C3D5:ED8B79E3:EE4EFEEA:IP) has joined #rice
+2018-11-12 20:50:07	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-11-12 20:50:11	+torvim	re-setup
+2018-11-12 20:50:11	+nai	they'll fuck you in the ass if you don't show them who's the boss
+2018-11-12 20:50:14	+torvim	whatever
+2018-11-12 20:50:27	+nai	wtf torvim
+2018-11-12 20:50:30	Roserin	torvim: you have curl?
+2018-11-12 20:50:33	+torvim	no
+2018-11-12 20:50:38	+nai	just slide a wget into that install
+2018-11-12 20:50:52	jenkins	put it on a usb drive
+2018-11-12 20:50:54	+nai	you have another os in dual boot right?
+2018-11-12 20:51:22	+torvim	nah, have a linux laptop and a windows laptop
+2018-11-12 20:51:33	+nai	.dt tor
+2018-11-12 20:51:33	+cappuccino	(1) rule 1: no anime | (2) rule 2: no tor | (3) https://torvim.github.io/rice [tor]
+2018-11-12 20:51:43	+nai	i mean
+2018-11-12 20:51:47	+nai	where's your debian install
+2018-11-12 20:51:51	+nai	also put links on that page
+2018-11-12 20:51:55	+nai	i had to right clink that shit
+2018-11-12 20:51:58	+nai	slick
+2018-11-12 20:52:01	+nai	CLICK goddammit
+2018-11-12 20:52:07	+torvim	that's the debian install
+2018-11-12 20:52:10	+torvim	middle click fam
+2018-11-12 20:52:20	+nai	torvim: ?
+2018-11-12 20:52:28	+nai	just shows the scroll thingy
+2018-11-12 20:52:33	+nai	also wdym that's the debian install
+2018-11-12 20:52:37	+nai	what's the debian install
+2018-11-12 20:52:43	+nai	the slackware install is the debian install?
+2018-11-12 20:52:45	+torvim	nvm
+2018-11-12 20:52:45	+nai	get your shit together mate
+2018-11-12 20:52:59	+nai	and put links on that page
+2018-11-12 20:53:06	+torvim	i installed slackware over the debian install
+2018-11-12 20:53:07	+nai	or i'll fucking whip your ass
+2018-11-12 20:53:12	+nai	oh
+2018-11-12 20:53:13	+Shinryuu	I need a cock
+2018-11-12 20:53:20	+nai	did you wipe everything?
+2018-11-12 20:53:24	jenkins	.distro jenkins 
+2018-11-12 20:53:24	+cappuccino	(1) Arch Linux (btw) [jenkins]
+2018-11-12 20:53:38	jenkins	soon it will change...
+2018-11-12 20:53:42	+torvim	nai: yes
+2018-11-12 20:53:55	+torvim	important shit backed up, yeah?
+2018-11-12 20:54:37	+nai	and now you're struggling to install wget
+2018-11-12 20:54:43	+nai	just boot the installation media again
+2018-11-12 20:55:39	raph_ael	long time I hadn't read someone trying to install slackware
+2018-11-12 20:56:26	+nai	hey chromium is looking nice these days
+2018-11-12 20:56:44	-->	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has joined #rice
+2018-11-12 20:58:12	Roserin	doesn't it use shitloads of RAM though?
+2018-11-12 20:58:39	+nai	idk
+2018-11-12 20:58:41	+nai	idc
+2018-11-12 20:58:46	Ergo0	what does lol 
+2018-11-12 20:59:06	+nai	chromium
+2018-11-12 20:59:30	raph_ael	all browseres use shitload of ram
+2018-11-12 21:00:17	Roserin	Yeah but I need as much as possible to play modded minecraft
+2018-11-12 21:00:33	~lxcyp	ram is there 2 be used
+2018-11-12 21:00:39	~lxcyp	no good browser has a low footprint
+2018-11-12 21:00:46	~lxcyp	sandboxing every tab is not cheap 
+2018-11-12 21:00:55	~lxcyp	and I'll take sandboxing over muh memory minimalism thanks
+2018-11-12 21:01:18	Roserin	Yeah but I want it for the JVM not some stupid javascript vm
+2018-11-12 21:01:24	Roserin	kthx
+2018-11-12 21:02:48	+torvim	fucked it up again
+2018-11-12 21:05:29	+nai	what'd you do this time
+2018-11-12 21:06:46	+torvim	still didn't have curl
+2018-11-12 21:06:49	+torvim	or wget
+2018-11-12 21:07:36	Ergo0	still installing slackware? 
+2018-11-12 21:07:54	<--	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-12 21:08:02	+torvim	yes
+2018-11-12 21:08:12	+torvim	fucked it up a couple times though
+2018-11-12 21:11:09	+torvim	FUCK YES
+2018-11-12 21:11:16	+torvim	i have wget
+2018-11-12 21:11:20	~lxcyp	hmm
+2018-11-12 21:11:27	~lxcyp	why does my disk password not work
+2018-11-12 21:12:05	~lxcyp	i cant type dw
+2018-11-12 21:13:42	+torvim	should i have tput
+2018-11-12 21:14:09	Roserin	yes
+2018-11-12 21:14:18	Roserin	I think that's important
+2018-11-12 21:14:37	Roserin	is something complaining about not having tput?
+2018-11-12 21:16:17	+nai	isn't tput part of ncurses?
+2018-11-12 21:16:29	+nai	bc you definitely should have ncurses
+2018-11-12 21:18:15	~lxcyp	https://vgy.me/wzrKAl.png
+2018-11-12 21:18:18	~lxcyp	rate my desktop :DDD
+2018-11-12 21:18:37	Roserin	0/10 bad localization
+2018-11-12 21:18:45	Roserin	 /s
+2018-11-12 21:19:03	-->	Icedman (~Icedman@nein.not.funny) has joined #rice
+2018-11-12 21:19:16	Roserin	well, *i* don't exactly like it, but I can see why you would like it
+2018-11-12 21:19:23	Roserin	it's not UGLY
+2018-11-12 21:19:36	~lxcyp	its stock ubuntu i was memeing
+2018-11-12 21:19:41	Roserin	also that\
+2018-11-12 21:19:49	Roserin	waity
+2018-11-12 21:19:58	Roserin	that's shit compared to stock bunsenlabs
+2018-11-12 21:20:02	Roserin	:P
+2018-11-12 21:21:54	~lxcyp	nah I can right click programs and there's a "start with dedicated graphics card" option
+2018-11-12 21:22:06	Roserin	But if you replace the icon theme and background, I wouldn't mind it
+2018-11-12 21:22:11	Roserin	lxcyp: why?
+2018-11-12 21:22:20	~lxcyp	uh for laptops
+2018-11-12 21:22:24	~lxcyp	with discrete gpus
+2018-11-12 21:22:48	Roserin	that's what you have?
+2018-11-12 21:22:58	~lxcyp	that's what this device is yeah
+2018-11-12 21:23:07	Roserin	not bad
+2018-11-12 21:23:16	~lxcyp	nah it's ancient
+2018-11-12 21:23:21	~lxcyp	2nd gen i7 and a 540M
+2018-11-12 21:23:38	~lxcyp	I paid £40 for it to do coursework for un
+2018-11-12 21:23:39	~lxcyp	uni*
+2018-11-12 21:28:52	-->	onodera (~onodera@the.culture.of.critique) has joined #rice
+2018-11-12 21:29:55	@eti	yeeeeeeeeeeeet
+2018-11-12 21:30:12	+nai	lxcyp: nice memeing
+2018-11-12 21:30:28	~lxcyp	thanks mommy
+2018-11-12 21:30:57	+nai	now rice that shit up
+2018-11-12 21:31:16	+Shinryuu	I can fap myself up
+2018-11-12 21:31:53	+nai	but i didn't ask you to do that
+2018-11-12 21:31:54	~lxcyp	i will 
+2018-11-12 21:31:57	~lxcyp	at some point
+2018-11-12 21:32:16	+Shinryuu	^
+2018-11-12 21:32:19	+Shinryuu	<3
+2018-11-12 21:32:20	+Shinryuu	my hero
+2018-11-12 21:32:29	~lxcyp	huh
+2018-11-12 21:32:33	~lxcyp	oh that was in response to nai
+2018-11-12 21:32:34	~lxcyp	not u
+2018-11-12 21:32:49	+nai	o o f
+2018-11-12 21:33:00	+nai	implying you won't fap Shinryuu up at some point
+2018-11-12 21:33:09	~lxcyp	weve known each other too long
+2018-11-12 21:33:11	~lxcyp	it'd be weird
+2018-11-12 21:33:14	+nai	or fap yourself up idk
+2018-11-12 21:33:28	~lxcyp	like doing sex to a childhood friend
+2018-11-12 21:33:30	+nai	> weve known each other
+2018-11-12 21:33:32	~lxcyp	haram
+2018-11-12 21:33:33	+nai	> for so long
+2018-11-12 21:33:52	Roserin	You know the rules, and so do i
+2018-11-12 21:34:00	+nai	> your heart's been aching but
+2018-11-12 21:34:00	+nai	> you're too shy to say it
+2018-11-12 21:34:06	+nai	> inside we both know what's been
+2018-11-12 21:34:09	+nai	> going on
+2018-11-12 21:34:15	+nai	> we know the game and we're
+2018-11-12 21:34:18	+nai	> gonna playy it
+2018-11-12 21:34:24	~lxcyp	fornite
+2018-11-12 21:34:32	+nai	what no
+2018-11-12 21:34:36	+nai	jfc
+2018-11-12 21:34:55	Roserin	^
+2018-11-12 21:35:01	~lxcyp	oh :(
+2018-11-12 21:35:03	~lxcyp	what then
+2018-11-12 21:35:07	Roserin	minecraft
+2018-11-12 21:35:14	Roserin	we've been over this
+2018-11-12 21:35:21	~lxcyp	>minecraft
+2018-11-12 21:35:26	~lxcyp	how's all that new content since 1.0 treating you
+2018-11-12 21:35:28	~lxcyp	oh wait xd
+2018-11-12 21:35:28	+nai	the game of l o v e ™
+2018-11-12 21:35:56	+nai	> implying minecraft versions go higher than 1.0
+2018-11-12 21:36:00	+nai	nonsense
+2018-11-12 21:42:25	-->	blank (~blank@empty.lives) has joined #rice
+2018-11-12 21:42:43	+Khorne	whats up penis faces
+2018-11-12 21:43:14	-->	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has joined #rice
+2018-11-12 21:43:22	Ergo0	eti: thanks for the tmux tip lol, this is much better 
+2018-11-12 21:43:41	+Khorne	what was the tip tho
+2018-11-12 21:43:46	+Khorne	and was it only the tip
+2018-11-12 21:43:49	+Khorne	or was it more
+2018-11-12 21:43:57	Ergo0	about installing tmux and attaching weechat to a tmux session
+2018-11-12 21:44:05	Ergo0	since i restart x alot 
+2018-11-12 21:44:21	+Khorne	o
+2018-11-12 21:44:46	~lxcyp	better tip
+2018-11-12 21:44:51	~lxcyp	run weechat on a remote server in tmux and ssh into it
+2018-11-12 21:44:55	~lxcyp	never disconnect again
+2018-11-12 21:45:25	Ergo0	> implying i have a remote server 
+2018-11-12 21:45:25	~lxcyp	what are you, poor?
+2018-11-12 21:45:25	+Khorne	better tip
+2018-11-12 21:45:28	+Khorne	run weechat on lxcyp and ssh into it whenever
+2018-11-12 21:45:31	+Khorne	( ͡° ͜ʖ ͡°)
+2018-11-12 21:45:39	Ergo0	lxcyp: more like, i never bothered to set on up 
+2018-11-12 21:45:49	~lxcyp	:^)
+2018-11-12 21:45:52	~lxcyp	i meme
+2018-11-12 21:45:53	Ergo0	im gonna get a raspberry pi tho, but im gonna use that for plex and parsec streaming 
+2018-11-12 21:46:02	+Khorne	1 meme, 1 life saved
+2018-11-12 21:46:07	~lxcyp	im excited
+2018-11-12 21:46:10	Ergo0	i also could use a low power server build 
+2018-11-12 21:46:12	~lxcyp	my 1080 will be here tomorrow
+2018-11-12 21:46:15	Ergo0	for downloading 
+2018-11-12 21:46:18	~lxcyp	which means my 960 can go in my htpc
+2018-11-12 21:46:20	Ergo0	nvidia blurgh 
+2018-11-12 21:46:36	+Khorne	^ :')
+2018-11-12 21:46:49	~lxcyp	i use shadowplay
+2018-11-12 21:46:53	+Shinryuu	I use boner yay
+2018-11-12 21:46:57	~lxcyp	and gsync monitors are just better than a lot of the freesync alternatives
+2018-11-12 21:47:01	Ergo0	dont get me wrong, im not saying any of the amdgpu;s in that price range are attractive options 
+2018-11-12 21:47:02	+Khorne	Ergo0, whats the beef with nv
+2018-11-12 21:47:09	~lxcyp	also yeah
+2018-11-12 21:47:11	~lxcyp	amd don't make good gpus
+2018-11-12 21:47:18	Ergo0	the 580 is amazing 
+2018-11-12 21:47:23	Ergo0	amazing * 
+2018-11-12 21:47:34	Ergo0	my r9 290 which is 6 years old still fucksssss with the big bois 
+2018-11-12 21:47:48	~lxcyp	yeah but does it though
+2018-11-12 21:47:58	Ergo0	yeee 
+2018-11-12 21:48:03	+Shinryuu	I'm still on HD3000 ;-)
+2018-11-12 21:48:14	Ergo0	i swear, the r9 290 is actually one of the best gpus ever made 
+2018-11-12 21:48:21	Ergo0	in terms of longevity 
+2018-11-12 21:48:45	~lxcyp	https://vgy.me/hbUfSG.png
+2018-11-12 21:50:44	Ergo0	lxcyp: look, that gpu is 6 years old 
+2018-11-12 21:50:44	Ergo0	and i bought it used for 150 
+2018-11-12 21:50:54	~lxcyp	thats a good price
+2018-11-12 21:51:01	~lxcyp	i got my 1080 for £250
+2018-11-12 21:51:18	~lxcyp	and then returned the 1060 I bought last month and got £220 back :^)
+2018-11-12 21:51:26	Ergo0	howwww
+2018-11-12 21:51:26	+nai	i just wanna s-wanna say
+2018-11-12 21:51:27	~lxcyp	£30 gtx 1080 bois
+2018-11-12 21:51:34	Ergo0	thats just unfair man 
+2018-11-12 21:51:34	+nai	you're *really* cool
+2018-11-12 21:51:53	~lxcyp	my friend's colleague has more money than brains and decided to upgrade his mining rig
+2018-11-12 21:51:57	~lxcyp	2 months after building it
+2018-11-12 21:51:59	~lxcyp	and wanted to flip gpus quick
+2018-11-12 21:52:06	~lxcyp	so he sold a bunch of 1080s for 250 each
+2018-11-12 21:52:39	Ergo0	get me one 
+2018-11-12 21:52:42	Ergo0	:) 
+2018-11-12 21:53:22	~lxcyp	bit late
+2018-11-12 21:53:26	~lxcyp	also international shipping nty
+2018-11-12 21:53:48	Ergo0	i will send you infinite clips of 
+2018-11-12 21:53:50	Ergo0	.pet
+2018-11-12 21:53:50	+cappuccino	Ergo0 has no pets.
+2018-11-12 21:53:53	Ergo0	.pet ergo
+2018-11-12 21:53:53	+cappuccino	ergo has no pets.
+2018-11-12 21:54:01	Ergo0	ww--whaattt 
+2018-11-12 21:56:25	Ergo0	.pet -a https://a.pste.pw/M3K.jpg
+2018-11-12 21:56:25	+cappuccino	pets updated.
+2018-11-12 21:58:56	+nai	cute cate
+2018-11-12 21:59:16	+nai	i'd eat it
+2018-11-12 22:02:04	@eti	ban nai
+2018-11-12 22:02:07	-->	zexa (~zexa@A0EAF84B.5C2421CA.7CFCAB6D.IP) has joined #rice
+2018-11-12 22:02:11	Ergo0	nai cmon man 
+2018-11-12 22:02:12	Ergo0	i will hunt u down 
+2018-11-12 22:02:13	@eti	how old is it Ergo0 
+2018-11-12 22:02:19	Ergo0	hmmm
+2018-11-12 22:02:26	Ergo0	about 3/4 months 
+2018-11-12 22:02:34	Ergo0	she sleeps next to me every night 
+2018-11-12 22:02:44	Ergo0	which is super cute, she also wakes me up every morning which is less cute lol 
+2018-11-12 22:03:30	@eti	well that's a cat for you
+2018-11-12 22:04:48	+Khorne	She doesnt trust you until she sleeps on your face
+2018-11-12 22:06:14	-->	cheesus (~cheesus@38AA49E5:9613FC31:3EF22254:IP) has joined #rice
+2018-11-12 22:06:15	Ergo0	its more that she licks me awake every morning 
+2018-11-12 22:14:28	<--	Shinryuu (~gdsptuwtd@moe.pantsu) has quit (Ping timeout: 240 seconds)
+2018-11-12 22:14:32	-->	heibol_ (~heibol@Rizon-2DEC2519.red-88-29-231.dynamicip.rima-tde.net) has joined #rice
+2018-11-12 22:15:05	<--	heibol_ (~heibol@Rizon-2DEC2519.red-88-29-231.dynamicip.rima-tde.net) has quit
+2018-11-12 22:15:13	-->	heibol_ (~heibol@Rizon-2DEC2519.red-88-29-231.dynamicip.rima-tde.net) has joined #rice
+2018-11-12 22:15:47	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-11-12 22:15:47	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-11-12 22:16:45	~lxcyp	<+Khorne> She doesnt trust you until she sleeps on your face
+2018-11-12 22:16:48	~lxcyp	this is true for humans 2
+2018-11-12 22:17:33	<--	heibol_ (~heibol@Rizon-2DEC2519.red-88-29-231.dynamicip.rima-tde.net) has quit
+2018-11-12 22:18:12	+nai	how else can you trust someone
+2018-11-12 22:18:24	+nai	than by having a good night's sleep on their very face
+2018-11-12 22:19:37	+Shinryuu	dutch oven 
+2018-11-12 22:20:54	~lxcyp	gross
+2018-11-12 22:24:19	+Shinryuu	religious boner master race
+2018-11-12 22:33:41	Ergo0	test
+2018-11-12 22:33:46	Ergo0	does anuone see this? 
+2018-11-12 22:33:55	jenkins	yes
+2018-11-12 22:43:49	+torvim	finally got it properly installed 
+2018-11-12 22:44:01	Ergo0	was it worth it? 
+2018-11-12 22:44:07	+torvim	yes.
+2018-11-12 22:44:09	Ergo0	also did this took you the whole day? 
+2018-11-12 22:44:12	Ergo0	take* 
+2018-11-12 22:44:12	+torvim	no
+2018-11-12 22:44:18	Ergo0	how long ? 
+2018-11-12 22:44:34	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-12 22:44:39	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 22:45:49	+torvim	couple hours
+2018-11-12 22:46:03	+torvim	from having only installed manjaro and debian before
+2018-11-12 22:47:33	-->	natemonster321 (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 22:47:58	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-12 22:49:30	+nai	screenshot
+2018-11-12 22:50:22	Ergo0	torvim nicee, congrats :) 
+2018-11-12 22:50:54	<--	blank (~blank@empty.lives) has quit (Ping timeout: 240 seconds)
+2018-11-12 22:51:09	+torvim	haven't got x yet
+2018-11-12 22:51:20	+torvim	been fucking about with resolv.conf and shit
+2018-11-12 22:51:28	+torvim	this is a big moment for me
+2018-11-12 22:51:48	+nai	damn dude
+2018-11-12 22:51:57	+nai	how hard can it be :')
+2018-11-12 22:52:02	+torvim	s/big/mediocre/
+2018-11-12 22:52:03	+cappuccino	torvim meant to say: this is a mediocre moment for me
+2018-11-12 22:52:12	Ergo0	im curious now as well nai 
+2018-11-12 22:52:57	Ergo0	wonder if its more ""difficult"" then installing gentoo 
+2018-11-12 22:54:33	<--	natemonster321 (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-11-12 22:54:41	Ergo0	time to go home back to my trusty desktop 
+2018-11-12 22:54:43	<--	Ergo0 (~nathaniel@Rizon-24081D3C.cm-25.dynamic.ziggo.nl) has left #rice (WeeChat 1.9.1)
+2018-11-12 22:56:08	+nai	also tor are you telling me that the "A" package set doesn't have either curl or wget?
+2018-11-12 22:57:57	<--	Shinryuu (~gdsptuwtd@moe.pantsu) has quit (Quit: test)
+2018-11-12 23:00:18	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 23:02:22	<--	torvim (~qwebirc@B8505028.C468F6C0.CCD8B8AD.IP) has quit (Ping timeout: 240 seconds)
+2018-11-12 23:03:31	-->	blank (~blank@empty.lives) has joined #rice
+2018-11-12 23:03:32	<--	heibol (~heibol@Rizon-2DEC2519.red-88-29-231.dynamicip.rima-tde.net) has left #rice
+2018-11-12 23:12:04	onodera	https://twitter.com/grandayy/status/1062028920923611136 epic
+2018-11-12 23:12:05	+cappuccino	[ twitter.com ] Dr. Grandayy 🏥 on Twitter: "Maybe I'll be Note Block… " (text/html)
+2018-11-12 23:14:08	raph_ael	nobody uses xmonad nowadays ?
+2018-11-12 23:14:09	@cosarara	nai: just connect(3p) smh
+2018-11-12 23:14:23	@cosarara	raph_ael: yes we have a haskell guy somewhere around here
+2018-11-12 23:14:51	+nai	raph_ael: nuuxe does
+2018-11-12 23:15:16	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-11-12 23:16:17	<--	ninjabuffet (~ninjabuff@ono.sendai) has quit (Quit: Laters)
+2018-11-12 23:16:28	+nai	cosarara: or just  exec 3<>/dev/tcp/foo.com/80; printf '%s\r\n' "GET /bar.jpg HTTP/1.1" "Host: foo.com" >&3; cat <&3 > bar.jpg
+2018-11-12 23:16:34	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 23:16:40	+nai	smh, kids these days don't know how to implement curl with a line of shell
+2018-11-12 23:17:26	-->	ninjabuffet (~ninjabuff@Rizon-3F31574E.hsd1.mi.comcast.net) has joined #rice
+2018-11-12 23:18:16	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-12 23:18:33	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 23:19:14	<--	onodera (~onodera@the.culture.of.critique) has quit (Ping timeout: 240 seconds)
+2018-11-12 23:20:48	-->	xulin (~xulin@Rizon-85392CB7.hsd1.il.comcast.net) has joined #rice
+2018-11-12 23:20:55	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-12 23:21:41	Ergo	we back 
+2018-11-12 23:24:32	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-12 23:24:51	+nai	curl() { local url=$1; url=${url#*://}; host=${url%%/*}; path=${url#"$host"}; basename=${path##*/}; basename=${basename:-index.html}; exec 3<>/dev/tcp/"$host"/80; printf '%s\r\n' "GET $path HTTP/1.1" "Host: $host" '' >&3; awk 'p; /^\r$/ { p = 1 }' <&3 > "$basename"; exec 3>-; }
+2018-11-12 23:24:53	+nai	i'm such a fucking autist
+2018-11-12 23:25:05	@cosarara	wtf does exec 3<> mean
+2018-11-12 23:25:22	+nai	open fd 3 for reading and writin
+2018-11-12 23:25:24	+nai	g
+2018-11-12 23:25:38	+nai	on a special path that also opens a socket
+2018-11-12 23:26:13	@cosarara	explain better pls
+2018-11-12 23:26:30	@cosarara	the argument to exec is a command
+2018-11-12 23:26:41	@cosarara	I've never seen <>
+2018-11-12 23:27:17	+nai	exec also does redirection and changing argv[0]
+2018-11-12 23:27:26	+nai	the redirections operate at the shell level
+2018-11-12 23:27:56	+nai	here i'm asking the shell to open this fd for itself, not for a command it's about to run
+2018-11-12 23:28:16	+nai	also the last exec should be  exec 3>&-  (that closes fd 3)
+2018-11-12 23:31:18	raph_ael	nai: nice, I wanted to try it
+2018-11-12 23:34:26	Ergo	anyone who by any chance knows how to collapse buffers? 
+2018-11-12 23:34:33	Ergo	like weechat rizon freenode tc 
+2018-11-12 23:34:47	Ergo	cant find the option 
+2018-11-12 23:35:41	+Cosmonaut	merge
+2018-11-12 23:35:52	+Cosmonaut	 /window merge
+2018-11-12 23:36:01	+Cosmonaut	oh wait
+2018-11-12 23:36:06	+Cosmonaut	idr
+2018-11-12 23:36:15	+nai	irc.look.server_buffer
+2018-11-12 23:38:30	-->	m3d (~m3d@DD1EA035.9826AEA1.F6D236E4.IP) has joined #rice
+2018-11-12 23:39:24	Ergo	dammit that still didnt do what i wanted 
+2018-11-12 23:39:34	Ergo	i basically want it like how it is by default in irssi 
+2018-11-12 23:40:43	+nai	show screenshot and desired result
+2018-11-12 23:41:13	+Khorne	Ergo, metax on merged buffers
+2018-11-12 23:41:29	Ergo	https://a.pste.pw/fP1.png
+2018-11-12 23:41:41	Ergo	so i want weechat/snoonet/scratch/freenode to be like 1 window 
+2018-11-12 23:41:48	Ergo	or have only 1 header i guess 
+2018-11-12 23:41:49	+Khorne	Merge them
+2018-11-12 23:41:52	Ergo	i did 
+2018-11-12 23:41:57	+Khorne	alt x in merged buffer
+2018-11-12 23:42:10	+Khorne	On the top bar?
+2018-11-12 23:42:16	Ergo	yeee 
+2018-11-12 23:42:17	+nai	no it's ctrl + x
+2018-11-12 23:42:24	+Khorne	nai, w r o n g
+2018-11-12 23:42:28	Ergo	no
+2018-11-12 23:42:31	Ergo	thats for switching buffers
+2018-11-12 23:42:35	Ergo	but i dont want all of the names to show 
+2018-11-12 23:42:35	+Khorne	ctrl x is to switch between merged buffers
+2018-11-12 23:42:36	+nai	what does zoom_merged_buffer do
+2018-11-12 23:42:47	+Khorne	Also no idea how the bar does it
+2018-11-12 23:42:50	+Khorne	I dont have a buffer bar
+2018-11-12 23:42:51	+nai	oh well idc
+2018-11-12 23:43:02	Ergo	like i want freenode, rizon etc gone but still be able to go to the core window and use ctrl + x to switch buffers 
+2018-11-12 23:43:21	+Khorne	Ergo, you prolly want condition for that bar
+2018-11-12 23:43:27	Roserin	Ergo: what's that weechat theme?
+2018-11-12 23:43:34	Ergo	Roserin: its not theme 
+2018-11-12 23:43:44	Roserin	oh
+2018-11-12 23:43:44	Ergo	i think its just using my .Xresources colors 
+2018-11-12 23:43:48	Ergo	there are weechat themes? 
+2018-11-12 23:43:54	+Khorne	ye
+2018-11-12 23:44:00	Roserin	my weechat didn't look like that
+2018-11-12 23:44:03	Ergo	so why have i been struggling with this 
+2018-11-12 23:44:05	Ergo	for like 3 days 
+2018-11-12 23:44:08	Roserin	all the stuff was on the side
+2018-11-12 23:44:11	Roserin	not on top
+2018-11-12 23:44:24	+Khorne	Ergo, https://github.com/weechat/weechat/wiki/buflist
+2018-11-12 23:44:24	+cappuccino	[ github.com ] buflist · weechat/weechat Wiki · GitHub (text/html)
+2018-11-12 23:44:32	+Khorne	How do I...
+2018-11-12 23:44:34	+Khorne	Hide server buffers merged with core buffer
+2018-11-12 23:44:38	+Khorne	p sure thats what you want
+2018-11-12 23:45:23	Ergo	Khorne: I LOVE YOU 
+2018-11-12 23:45:53	+Khorne	also https://weechat.org/themes/
+2018-11-12 23:45:54	+cappuccino	[ weechat.org ] WeeChat :: themes (text/html)
+2018-11-12 23:45:55	+Khorne	:')
+2018-11-12 23:46:00	Ergo	ye i checked those out 
+2018-11-12 23:46:08	Ergo	but those dont look like i want them too 
+2018-11-12 23:46:19	+Khorne	If you want it done right, do it yourself
+2018-11-12 23:46:25	Ergo	https://a.pste.pw/NVl.png 
+2018-11-12 23:46:26	+Khorne	Goes for masturbation as well as ricing
+2018-11-12 23:46:49	Ergo	now i just have to fix the position of the buflist, or rather have the names of channels be rendered in the middle 
+2018-11-12 23:46:53	Ergo	add a indent 
+2018-11-12 23:47:12	Ergo	or seperator i guess 
+2018-11-12 23:47:19	+Khorne	uh
+2018-11-12 23:47:24	Ergo	Roserin: but ye, i just went through all the options and just experimenting 
+2018-11-12 23:47:44	Roserin	ok
+2018-11-12 23:47:51	Roserin	will try that next time
+2018-11-12 23:48:33	+nai	mfw Ergo's rice looks like suit's
+2018-11-12 23:48:38	+nai	.dt suits
+2018-11-12 23:48:38	+cappuccino	(1) https://u.teknik.io/K6X0c.png | (2) https://u.teknik.io/zrb57.png | (3) https://u.teknik.io/c2Uxd.png [suits]
+2018-11-12 23:48:54	+Khorne	No idea about centering tho
+2018-11-12 23:49:10	+Khorne	https://i.imgur.com/qbsNvM1.png
+2018-11-12 23:49:13	+Khorne	dont need it
+2018-11-12 23:49:27	+nai	your font rendering is shit
+2018-11-12 23:49:34	+Khorne	mfw windows
+2018-11-12 23:49:38	+Khorne	so bite me
+2018-11-12 23:49:39	+nai	:')
+2018-11-12 23:49:41	Ergo	my rice doesnt look that 
+2018-11-12 23:49:43	Ergo	does it? 
+2018-11-12 23:49:54	+nai	dt 2 mostly
+2018-11-12 23:50:01	+nai	the font mostly
+2018-11-12 23:50:08	Ergo	lol
+2018-11-12 23:50:10	Ergo	yee okay 
+2018-11-12 23:50:20	+Khorne	o you were talking about him
+2018-11-12 23:50:56	Ergo	this is what im looking at right now 
+2018-11-12 23:50:56	Ergo	https://a.pste.pw/sFt.png
+2018-11-12 23:51:24	@eti	bad font and colors don't fit together
+2018-11-12 23:51:39	@eti	did you make that colorscheme?
+2018-11-12 23:51:41	Ergo	i like the font 
+2018-11-12 23:51:45	Ergo	and nope its a dkeg colorscheme 
+2018-11-12 23:51:55	Ergo	im mostly fine with it, think the green is a bit weird tho 
+2018-11-12 23:52:35	@eti	i feel like the window border color doesn't fit at all
+2018-11-12 23:52:38	Ergo	yeee
+2018-11-12 23:52:45	Ergo	i dont know what color to use 
+2018-11-12 23:52:48	Ergo	i tried white 
+2018-11-12 23:52:55	Ergo	but white causes burn in my screen lol 
+2018-11-12 23:53:35	Ergo	https://a.pste.pw/4Xt.png this does look alot better tho https://a.pste.pw/4Xt.png
+2018-11-12 23:53:36	@eti	just get your terminal bg color and brighten it up a bit
+2018-11-12 23:53:42	<--	blank (~blank@empty.lives) has quit (Ping timeout: 240 seconds)
+2018-11-12 23:53:55	@eti	yeah it looks a lot better
+2018-11-12 23:54:02	@eti	doesn't have to be #fff btw
+2018-11-12 23:54:07	@eti	.dt nuuxe 
+2018-11-12 23:54:07	+cappuccino	(1) https://0x0.st/sg1_.png | (2) https://0x0.st/sgFa.png | (3) https://0x0.st/sgFM.png | (4) https://0x0.st/sgFu.png [nuuxe]
+2018-11-12 23:54:16	@eti	similar colors, but the border color fits
+2018-11-12 23:54:20	+nai	<Ergo> i like the font  
+2018-11-12 23:54:20	@eti	feel me?
+2018-11-12 23:54:22	+nai	literally suits
+2018-11-12 23:54:39	@eti	there's nothing wrong with being suits :3
+2018-11-12 23:54:44	Ergo	eti: ye i get what ur saying 
+2018-11-12 23:54:50	Ergo	i like white borders tho 
+2018-11-12 23:54:58	Ergo	i think i have to fix my borders tho 
+2018-11-12 23:55:05	Ergo	double borders 
+2018-11-12 23:55:22	Ergo	.dt mitya
+2018-11-12 23:55:22	+cappuccino	(1) https://u.teknik.io/NxoN2.png [mitya]
+2018-11-12 23:55:44	Ergo	im trying to get my buflist similar to mitya's irc window 
+2018-11-12 23:56:35	@mitya	why would you wanna do that, mitya's a loser
+2018-11-12 23:56:52	@eti	mitya: aw don't say that about yourself babe
+2018-11-12 23:57:16	@mitya	Ergo, I assume you're on weechat then?
+2018-11-12 23:57:20	Ergo	yee i am 
+2018-11-12 23:58:42	Ergo	i like this wallcolor a lot, but im not sure if i will be able to refrain from a waifu wall for long lol 
+2018-11-12 23:58:54	@mitya	https://github.com/fullsalvo/dotfiles/blob/master/base/.weechat/weechat.conf#L245 prob around here
+2018-11-12 23:58:55	+cappuccino	[ github.com ] dotfiles/weechat.conf at master · fullsalvo/dotfiles · GitHub (text/html)
+2018-11-13 00:00:44	@Leliana	yo #rice where all the white women at
+2018-11-13 00:01:15	+Khorne	Dead in the water
+2018-11-13 00:01:20	Ergo	if you find em, send em to me :) 
+2018-11-13 00:01:48	Ergo	that sounded wrong on so many levels lol 
+2018-11-13 00:02:36	+nai	*everyone is judging you*
+2018-11-13 00:02:58	@Leliana	good point nai, now Ergo knows how it feels to be french
+2018-11-13 00:03:27	Ergo	unlucky 
+2018-11-13 00:03:35	+nai	umpf
+2018-11-13 00:04:05	@Leliana	no wait he still needs a dick up his ass
+2018-11-13 00:04:13	Ergo	what theee 
+2018-11-13 00:04:18	@Leliana	I volunteer as tribute
+2018-11-13 00:04:44	+nai	i accept thy sacrifice
+2018-11-13 00:04:47	 *	nai chops Leliana's dick
+2018-11-13 00:04:54	@eti	can we not lads
+2018-11-13 00:04:54	 *	nai sticks it up his divine butt
+2018-11-13 00:04:58	@eti	alright
+2018-11-13 00:05:02	@eti	goodnight yall
+2018-11-13 00:05:05	Ergo	nightt lad 
+2018-11-13 00:05:10	Ergo	i agree tho 
+2018-11-13 00:05:11	+nai	also Leliana i'm trying to make cappy understand  .dt <user> <id>
+2018-11-13 00:05:16	+nai	would you accept such a pull request?
+2018-11-13 00:05:36	Ergo	.git dysfigured
+2018-11-13 00:05:36	+cappuccino	(1) https://github.com/DanielFGray | (2) https://gitlab.com/DanielFGray [dysfigured]
+2018-11-13 00:05:58	Ergo	dammit, i thought that would give me the dtop site 
+2018-11-13 00:06:02	Ergo	sorry for tagging lol 
+2018-11-13 00:06:06	+dysfigured	idc
+2018-11-13 00:07:25	+dysfigured	http://danielfgray.gitlab.io/dtoplist/
+2018-11-13 00:07:25	+cappuccino	[ danielfgray.gitlab.io ] #rice .dtops (text/html)
+2018-11-13 00:07:38	Ergo	thankuuu :) 
+2018-11-13 00:07:52	@Leliana	nai: if it worksd
+2018-11-13 00:07:55	@Leliana	s/d//
+2018-11-13 00:07:56	+cappuccino	Leliana meant to say: nai: if it works
+2018-11-13 00:07:56	+nai	k
+2018-11-13 00:08:06	Ergo	.dt 
+2018-11-13 00:08:06	+cappuccino	(1) https://a.pste.pw/zCA.png [Ergo]
+2018-11-13 00:08:09	+dysfigured	it's buried in gitlab because i haven't touched it in forever, idk if it still does, glhf
+2018-11-13 00:08:14	Ergo	do i have to tag this as nsfw? 
+2018-11-13 00:08:25	@Leliana	lmao
+2018-11-13 00:08:27	@Leliana	no
+2018-11-13 00:08:39	Ergo	girl is hot tho 
+2018-11-13 00:08:41	+nai	rofl
+2018-11-13 00:08:43	Ergo	if you know what doujin that is 
+2018-11-13 00:08:44	+dysfigured	appending ?nsfw to urls usually works well [if you need it]
+2018-11-13 00:08:45	Ergo	hit me up 
+2018-11-13 00:08:55	Ergo	lol forreal? 
+2018-11-13 00:08:57	Ergo	never heard of that 
+2018-11-13 00:09:00	+nai	or just adding [NSFW] after the url
+2018-11-13 00:09:03	@Leliana	dysfigured: that's actually a good idea
+2018-11-13 00:09:06	@Leliana	or
+2018-11-13 00:09:08	@Leliana	well, yeah
+2018-11-13 00:09:10	@Leliana	that
+2018-11-13 00:09:17	+dysfigured	yeah you can usually add ?garbage and #garbage to urls without much effect
+2018-11-13 00:09:26	+nai	just put a space
+2018-11-13 00:09:35	@cosarara	can't you just .dtop -a "whatever asdf wew" ?
+2018-11-13 00:09:36	+nai	url matchers will stop before the [
+2018-11-13 00:09:43	+nai	yes
+2018-11-13 00:09:45	-->	jcv (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-11-13 00:09:57	@cosarara	put it between quotes and use the magical space character!
+2018-11-13 00:10:10	+nai	\x20 to the rescue
+2018-11-13 00:11:24	Ergo	did you ever experience your cat playing on your lap
+2018-11-13 00:11:37	Ergo	then falling down, and to save himself from falling putting his nails in your pants 
+2018-11-13 00:11:43	Ergo	great fealing 
+2018-11-13 00:11:44	Ergo	wew
+2018-11-13 00:11:45	+cappuccino	w e w l a d
+2018-11-13 00:13:20	+nai	cats are great
+2018-11-13 00:14:40	Ergo	for some reason she also loves to sit on my shoulder 
+2018-11-13 00:15:50	Ergo	but enougb bout cats, is tint2 easier then lemonbar lol 
+2018-11-13 00:16:37	@eti	yes
+2018-11-13 00:16:54	Ergo	eti: you were supposed to be sleeping smh 
+2018-11-13 00:16:58	@eti	i know
+2018-11-13 00:17:04	+nai	>supposed
+2018-11-13 00:17:06	@eti	but i got in a music player rabbit hole
+2018-11-13 00:17:21	Ergo	you said tint2 was good right 
+2018-11-13 00:17:25	+nai	implying the universe exists and we aren't just all mathematical constructs in a platonic world
+2018-11-13 00:17:27	@eti	i'd be looking at the ceiling from my bed if i was gone to sleep anyway
+2018-11-13 00:17:31	@eti	let's just ban nai
+2018-11-13 00:17:40	+nai	my thoughts exactly
+2018-11-13 00:17:40	@eti	Ergo: yeah, tint2 is good and easy to use
+2018-11-13 00:17:49	@eti	tint2conf is v good too
+2018-11-13 00:17:55	@eti	it has a really good documentation too
+2018-11-13 00:18:07	@eti	so it shouldn't be too hard to write a config file yourself
+2018-11-13 00:18:15	Ergo	that soundss pogg 
+2018-11-13 00:18:17	Ergo	thankss :) 
+2018-11-13 00:18:30	@eti	the fuck is pogg
+2018-11-13 00:18:44	@eti	https://x.eti.tf/txHLD.png
+2018-11-13 00:19:00	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Quit: bye bye)
+2018-11-13 00:19:06	@eti	anyway, going to sleep fr now
+2018-11-13 00:19:10	@eti	cya tomorrow yall
+2018-11-13 00:19:32	Ergo	https://cdn.discordapp.com/attachments/377588712197980170/511681259282497546/PenguinBot_data_emoji_cache_437078085653889024.png
+2018-11-13 00:19:33	Ergo	eti: 
+2018-11-13 00:19:55	Ergo	thats not mac, is it? 
+2018-11-13 00:27:16	Roserin	https://0x0.st/slgW.png
+2018-11-13 00:27:19	Roserin	mine
+2018-11-13 00:27:31	Ergo	I like the orange 
+2018-11-13 00:27:36	Ergo	but im really not find of blur 
+2018-11-13 00:29:29	Roserin	i like the blur
+2018-11-13 00:30:51	Ergo	naturally, thats why ur using it 
+2018-11-13 00:31:02	Ergo	isnt blur also a massive cpu/gpu hog? 
+2018-11-13 00:31:20	Roserin	I feel that the wallpaper would be too distracting without blur
+2018-11-13 00:31:30	Ergo	how? 
+2018-11-13 00:31:35	Ergo	you wouldnt see it right 
+2018-11-13 00:32:37	Roserin	without blur but with transparency
+2018-11-13 00:32:50	Roserin	and if i had neither id not get any of the wallpaper
+2018-11-13 00:33:01	Roserin	surprisingly, the blur isn't too bad
+2018-11-13 00:33:12	Roserin	I had a VM running
+2018-11-13 00:33:19	Roserin	it was using a lot of memory
+2018-11-13 00:33:39	Roserin	and firefox is of course using like 2G
+2018-11-13 00:34:12	Ergo	ahhh sure, i guess that makes sense 
+2018-11-13 00:34:19	Ergo	you could also go for no blur and no transparency :) 
+2018-11-13 00:35:31	Roserin	then I wouldn't see any of my pretty pretty wallpaper
+2018-11-13 00:39:59	Ergo	im reading tint2 docs
+2018-11-13 00:40:02	Ergo	actuallly nutting 
+2018-11-13 00:42:24	+nai	Leliana: what this: storage = json://data.json
+2018-11-13 00:42:56	Roserin	Ergo: but NNN!
+2018-11-13 00:43:08	Ergo	Roserin: im fine, im still going strong
+2018-11-13 00:43:09	+nai	nvm
+2018-11-13 00:43:13	-->	Cosmonaut (~wannagoto@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-11-13 00:43:13	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-11-13 00:43:15	Ergo	im almost halfway through 
+2018-11-13 00:43:16	Ergo	pog 
+2018-11-13 00:43:23	+nai	just a way to say it's a json file i assumed
+2018-11-13 00:43:26	+nai	-d
+2018-11-13 00:44:00	<--	The_Loko (~The_Loko@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2018-11-13 00:49:21	@Leliana	nai: unused
+2018-11-13 00:49:42	+nai	what do you use
+2018-11-13 00:49:58	+nai	also i get  AttributeError: 'IrcBot' object has no attribute 'get_user_value'
+2018-11-13 00:50:04	@Leliana	userdb
+2018-11-13 00:50:15	+nai	and i had to manually rename rice.py to ricedb.py
+2018-11-13 00:50:22	+nai	oh yeah sqlite3
+2018-11-13 00:50:33	@Leliana	that'll be because your confg is outdated
+2018-11-13 00:50:41	@Leliana	change it to rice in the config
+2018-11-13 00:50:44	@Leliana	not by renaming it
+2018-11-13 00:51:02	+nai	i just cloned your repo
+2018-11-13 00:51:07	+nai	update the .dist
+2018-11-13 00:51:20	+nai	also remove plugins.crypto
+2018-11-13 00:51:30	@Leliana	no u
+2018-11-13 00:51:41	+nai	ok lmao
+2018-11-13 00:51:50	+nai	i'll just slide that in the PR
+2018-11-13 00:51:56	+nai	but that error tho
+2018-11-13 00:52:19	+nai	oh nvm
+2018-11-13 00:52:21	@Leliana	werks on my machine(tm)
+2018-11-13 00:52:27	+nai	i also have to add plugins.userdb
+2018-11-13 00:52:28	+nai	jesus
+2018-11-13 00:52:55	+nai	no still not
+2018-11-13 00:53:37	+nai	the UserDB class is defined but never used
+2018-11-13 00:53:39	+nai	wtf Leliana 
+2018-11-13 00:53:49	+nai	can you just commit your shit and push it lmao
+2018-11-13 00:53:54	+nai	so that i get a working version
+2018-11-13 00:54:16	@Leliana	the repo is the latest
+2018-11-13 00:54:22	+nai	oof
+2018-11-13 00:56:55	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-11-13 00:56:56	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-11-13 00:56:56	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 16:32:42
+2018-11-13 00:56:56	--	Channel #rice: 169 nicks (9 ops, 0 halfops, 16 voices, 144 normals)
+2018-11-13 00:56:56	--	Channel created on Sun, 30 Dec 2012 01:07:54
+2018-11-13 00:57:17	-->	mobo (~mobo@death.by.reputation) has joined #rice
+2018-11-13 00:57:17	--	Mode #rice [+o mobo] by Onee-chan
+2018-11-13 00:57:20	@Leliana	uh
+2018-11-13 00:57:23	@Leliana	why isn't userdb.py there
+2018-11-13 00:57:36	+nai	it is

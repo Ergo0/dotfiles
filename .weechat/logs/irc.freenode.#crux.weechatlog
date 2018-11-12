@@ -326,3 +326,505 @@
 2018-11-12 11:17:13	Ergo-	loll 
 2018-11-12 11:17:19	Ergo-	can i have a peek 
 2018-11-12 11:17:21	Ergo-	im curious now 
+2018-11-12 12:59:40	Ergo-	hmm i added this to my repo https://bpaste.net/show/ef7c89e987fe
+2018-11-12 12:59:50	Ergo-	but it still pushes the .tar.gz files  
+2018-11-12 13:20:51	joacim	easier to just not have those files in there
+2018-11-12 13:26:23	-->	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-12 13:27:39	Romster	because it's just used as a library for chromium
+2018-11-12 13:31:17	Romster	make a npm port with https://github.com/npm/cli/archive/v6.4.1.tar.gz"
+2018-11-12 13:39:54	Ergo-	joacim: ye thats what i ended up doing 
+2018-11-12 13:59:52	joacim	i dont think i even have a .gitignore
+2018-11-12 14:00:23	joacim	i always watch git status and git diff before i add, commit, and push tho
+2018-11-12 14:05:42	pedja	Romster, nah, I am a lazy bastard, I'll just build nodejs with it :)
+2018-11-12 14:30:37	-->	nogagplz (~nogagplz@ppp121-44-204-71.bras1.syd2.internode.on.net) has joined #crux
+2018-11-12 14:38:11	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Read error: Connection reset by peer)
+2018-11-12 14:41:35	-->	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-12 15:22:03	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul. They lurk everywhere.)
+2018-11-12 15:23:56	<--	elderK (uid205007@pdpc/supporter/active/elderk) has quit (Quit: Connection closed for inactivity)
+2018-11-12 15:40:14	-->	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-12 15:54:18	<--	nogagplz (~nogagplz@ppp121-44-204-71.bras1.syd2.internode.on.net) has quit (Ping timeout: 252 seconds)
+2018-11-12 15:55:09	-->	Kruppt (~Kruppt@50.111.7.101) has joined #crux
+2018-11-12 15:55:37	<--	Kruppt (~Kruppt@50.111.7.101) has quit (Max SendQ exceeded)
+2018-11-12 15:56:54	-->	Kruppt (~Kruppt@50.111.7.101) has joined #crux
+2018-11-12 16:08:07	-->	pankerini (~pankerini@189.230.162.160) has joined #crux
+2018-11-12 16:12:21	-->	emmett1 (~emmett1@218.111.12.216) has joined #crux
+2018-11-12 16:31:55	-->	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-12 16:35:30	<--	Kruppt (~Kruppt@50.111.7.101) has quit (Quit: Leaving)
+2018-11-12 16:41:11	<--	emmett1 (~emmett1@218.111.12.216) has quit (Ping timeout: 240 seconds)
+2018-11-12 17:43:02	-->	slek (~seiflek@105.110.130.103) has joined #crux
+2018-11-12 18:05:29	Ergo0	i submitted my port repo to portdb :)
+2018-11-12 18:12:51	<--	slek (~seiflek@105.110.130.103) has quit (Ping timeout: 240 seconds)
+2018-11-12 18:17:27	Ergo0	hmm for some reason i cant sync my ports on my laptop
+2018-11-12 18:18:45	Anselmo	what sortof error ?
+2018-11-12 18:18:47	Ergo0	nvm it worked, internet was just really fucking with me
+2018-11-12 18:18:50	Anselmo	o
+2018-11-12 18:18:52	Anselmo	ha
+2018-11-12 18:18:56	Ergo0	i got a error at first, had to try 4 times lol
+2018-11-12 18:19:24	Anselmo	o
+2018-11-12 18:19:44	Anselmo	but now it works :3
+2018-11-12 18:23:55	ryuo	In the near future i'll be switching my web server to ECDSA certs.
+2018-11-12 18:41:50	<--	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Ping timeout: 276 seconds)
+2018-11-12 19:05:50	-->	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-12 19:14:29	Ergo0	https://paste.pound-python.org/show/VcFxQo2TUZ95pxmN1H6f/ does this have to do with my kernel version?
+2018-11-12 19:14:36	Ergo0	trying to setup nvidia optimus stuff
+2018-11-12 19:20:20	@jaeger	hrmm, haven't seen that one. I think it should work with 4.14.40, though
+2018-11-12 19:23:47	@jaeger	I don't see it on a system with 4.14.71
+2018-11-12 19:29:04	Ergo0	yee, i assume its a kernel thing
+2018-11-12 19:29:15	Ergo0	maybe a forgotten module, but then again nvidia prop isnt even a option when compiling it right
+2018-11-12 19:30:00	Anselmo	you might need to specify things to make the nvidia stuff happy later
+2018-11-12 19:30:04	@jaeger	yeah, no proprietary nvidia stuff in the kernel
+2018-11-12 19:30:10	Anselmo	but its not something I know much about,
+2018-11-12 19:30:17	@frinnst	Ergo0: you'll need to fix httpup for your repo
+2018-11-12 19:30:23	Anselmo	I feel like the gentoo wiki probably has a good walkthrough of some of this stuff
+2018-11-12 19:31:02	joacim	yeah i tend to go to the gentoo wiki when im looking for certain kernel configs for certain stuff
+2018-11-12 19:31:12	Ergo0	frinnst: ohhh , i thought just git would be fine
+2018-11-12 19:31:23	Ergo0	i can try and setup httpup tho
+2018-11-12 19:31:33	Ergo0	should i send you another mail when its done?
+2018-11-12 19:31:36	@frinnst	yeah just generate the repo and commit it, then push
+2018-11-12 19:32:19	@frinnst	check out how the other people did it on the portdb
+2018-11-12 19:33:43	<--	pankerini (~pankerini@189.230.162.160) has quit (Remote host closed the connection)
+2018-11-12 19:38:54	Ergo0	frinnst: i sure, will do later tonight
+2018-11-12 19:38:58	Ergo0	thanks for getting back to me quickly :)
+2018-11-12 19:39:16	@frinnst	no worries
+2018-11-12 19:42:23	@jaeger	Ergo0: ports understands git repos through the git ports driver, but the portdb doesn't currently
+2018-11-12 19:43:25	Ergo0	is that planned to be added later?
+2018-11-12 19:43:27	Ergo0	just curious
+2018-11-12 19:43:31	Ergo0	i dont mind setting up http
+2018-11-12 19:44:56	@jaeger	It's on my list to investigate but no official plan yet
+2018-11-12 19:47:38	Ergo0	ayee cool
+2018-11-12 19:47:52	Ergo0	oh right, i assume subscribing to the mailing list would be useful huh
+2018-11-12 19:53:11	Ergo0	i imagine thats where news goes first right
+2018-11-12 19:54:47	joacim	yeah a lot of stuff like renamed ports and new dependencies
+2018-11-12 19:59:14	<--	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-12 20:06:38	-->	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-12 20:06:44	Ergo0	hmm odd, i upgraded to latest kernel
+2018-11-12 20:06:49	Ergo0	but i still get the same error
+2018-11-12 20:07:11	Ergo0	 https://paste.pound-python.org/show/6FEzQ6ey05sBjkpgAnsi/
+2018-11-12 20:07:21	Ergo0	i tried it with su and without su
+2018-11-12 20:17:54	<--	BurnZeZ (none@feline.systems) has quit (Ping timeout: 244 seconds)
+2018-11-12 20:24:09	@frinnst	a 5 year old out-of-tree driver? i'd be surprised if it compiled
+2018-11-12 20:24:36	Ergo0	frinnst: its 5 y/o ? lol
+2018-11-12 20:24:59	@frinnst	0.8 was released on dec 5 2013
+2018-11-12 20:24:59	Ergo0	i think this is what is recommended on the crux wiki tho for setting up nvidia with optimus
+2018-11-12 20:25:31	@frinnst	is it still needed?
+2018-11-12 20:27:02	Ergo0	i think both the bumblebee ports in contrib and kris have it as a dep
+2018-11-12 20:27:24	Ergo0	romsters port doesnt tho
+2018-11-12 20:36:18	<--	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Ping timeout: 246 seconds)
+2018-11-12 20:37:32	-->	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-12 20:41:06	Ergo0	https://paste.pound-python.org/show/xC4tMXObIG04EkfEO8UL/
+2018-11-12 20:41:14	Ergo0	sorry for being a bother, not sure if its my system or the packages that are broken
+2018-11-12 20:41:24	Ergo0	i assume the first lol
+2018-11-12 20:43:24	ryuo	Ergo0: i doubt it's due to your build environment. that kind of errors means either a header isn't being included or the symbol was removed.
+2018-11-12 20:46:30	ryuo	Ergo0: what's your kernel version?
+2018-11-12 20:46:34	Ergo0	4.19.1
+2018-11-12 20:46:55	Ergo0	latest stable
+2018-11-12 20:47:10	Ergo0	i will try a later version of the package
+2018-11-12 20:47:23	ryuo	i'll see what i can dig out of the kernel source.
+2018-11-12 20:47:32	<--	SiFuh (~SiFuh@64.64.121.195) has quit (Ping timeout: 240 seconds)
+2018-11-12 20:49:02	ryuo	Hm. Present in 4.9
+2018-11-12 20:49:05	ryuo	Let's check 4.14
+2018-11-12 20:49:51	-->	SiFuh (~SiFuh@64.64.121.195) has joined #crux
+2018-11-12 20:50:39	Ergo0	hmm i tried using the latest build from the virtualGL sourceforve and it gives the same error
+2018-11-12 20:51:13	Ergo0	maybe its my kernel config?
+2018-11-12 20:51:46	Ergo0	https://paste.pound-python.org/show/IpPcINEfL3bqw6l3vqOP/
+2018-11-12 20:51:49	Ergo0	thats my kernel config
+2018-11-12 20:51:57	ryuo	Ergo0: doubt it. it should be in your kernel headers.
+2018-11-12 20:52:37	Ergo0	 anyway for me to double check?
+2018-11-12 20:52:43	ryuo	Not unless you know C.
+2018-11-12 20:52:52	Ergo0	i dont know coding lol
+2018-11-12 20:53:02	ryuo	Exactly.
+2018-11-12 20:53:07	ryuo	But I do.
+2018-11-12 20:53:38	ryuo	Hm. Seems this macro/inline function is being used in kernel still.
+2018-11-12 20:53:48	ryuo	So why is bbswitch having this compile error?
+2018-11-12 20:54:00	Ergo0	i dont think its bbswitch
+2018-11-12 20:54:13	Ergo0	since its not a depend on Romster 's bumblebee port
+2018-11-12 20:54:47	Ergo0	oh well now that I tagged you, there seems to be a problem with your port regarding the source for virtualGL, seems like they changed the download tree or whatevery ou would call it
+2018-11-12 20:55:45	ryuo	I don't maintain any CRUX ports. I just happen to know how to patch most C code issues.
+2018-11-12 20:56:34	ryuo	Seriously? It's that simple?
+2018-11-12 20:56:58	Ergo0	ryuo: what? you figured it out?
+2018-11-12 20:57:15	ryuo	Probably.
+2018-11-12 20:57:29	ryuo	It's the kernel headers. They did some restructuring changes.
+2018-11-12 20:57:34	ryuo	Let me give you a patch to try.
+2018-11-12 20:59:01	ryuo	http://dpaste.com/1TBMF2C
+2018-11-12 20:59:06	ryuo	Ergo0: <
+2018-11-12 20:59:25	Ergo0	how uhm would i use that
+2018-11-12 20:59:41	ryuo	edit the port to apply the patch.
+2018-11-12 20:59:57	Ergo0	the bumblebee port or the bbswitch port?
+2018-11-12 21:00:01	ryuo	bbswitch
+2018-11-12 21:00:04	Ergo0	i was trying romsters bumblbee port which doesnt include bbswitch
+2018-11-12 21:00:07	Ergo0	aye will try
+2018-11-12 21:00:25	ryuo	I spent 8 years fixing this kind of crap for Frugalware.
+2018-11-12 21:00:45	Ergo0	so i make a .c file in the bbswtich ports dir right
+2018-11-12 21:00:52	Ergo0	then make it execute that patch
+2018-11-12 21:01:13	ryuo	no, you apply the patch from the source directory before trying to run cmake or w/e.
+2018-11-12 21:01:40	ryuo	if it works, you can bug the maintainer to include it.
+2018-11-12 21:01:44	pedja	are you talking about bbswitch?
+2018-11-12 21:01:48	ryuo	yes.
+2018-11-12 21:01:57	pedja	it builds fine on my 4.19.1
+2018-11-12 21:02:20	Ergo0	where you using the contrib bumblee port?
+2018-11-12 21:02:25	Ergo0	were*
+2018-11-12 21:02:45	pedja	no, the source tarball
+2018-11-12 21:03:01	Ergo0	from the bbswitch git ?
+2018-11-12 21:03:33	pedja	yes
+2018-11-12 21:03:39	pedja	let me try the port
+2018-11-12 21:04:13	Ergo0	 https://paste.pound-python.org/show/gwCEMXyOgEWHVAOMpLrP/
+2018-11-12 21:04:20	pedja	yup, contrib/bbswitch builds fine too
+2018-11-12 21:04:20	Ergo0	same problem compiling from tarball
+2018-11-12 21:05:16	ryuo	ok. seems i was mistaken.
+2018-11-12 21:05:23	pedja	hm 'cc1: some warnings being treated as errors' <-- I didn't get that
+2018-11-12 21:05:25	ryuo	it builds on my ubuntu kernel just fine. 4.15.x
+2018-11-12 21:05:27	Ergo0	i may have figured out the issue
+2018-11-12 21:05:42	ryuo	Ergo0: it may be your kernel headers are borked then.
+2018-11-12 21:05:55	ryuo	I was thinking the kernel's APIs got shuffled around,
+2018-11-12 21:06:03	ryuo	Wouldn't be the first time I had to swap includes around.
+2018-11-12 21:06:07	Ergo0	 https://paste.pound-python.org/show/Xhj5FtcxnSFqomgVHKiI/
+2018-11-12 21:06:18	Ergo0	might be my modprobe.d stuff messing it up
+2018-11-12 21:06:38	ryuo	what does modprobe have to do with compile a kernel module?
+2018-11-12 21:07:02	Ergo0	because the kernel module for nvidia is currently not loaded
+2018-11-12 21:07:12	ryuo	So? I don't even use NVIDIA.
+2018-11-12 21:07:17	Ergo0	which might be because of that error
+2018-11-12 21:07:18	ryuo	It compiled here.
+2018-11-12 21:07:24	Ergo0	I dont know, im just spitballing lol
+2018-11-12 21:07:37	ryuo	So, something is up with the kernel headers.
+2018-11-12 21:07:45	Ergo0	brb, gonna reboot
+2018-11-12 21:07:54	<--	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-12 21:09:41	-->	ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-12 21:09:45	ergo0	hmmm
+2018-11-12 21:09:54	ergo0	the kernel module for nvidia is still not being loaded
+2018-11-12 21:14:52	pedja	no nvidia in lsmod output?
+2018-11-12 21:15:52	ergo0	nope
+2018-11-12 21:15:57	ergo0	and if you look here, it seems like the kernel module is not being loaded
+2018-11-12 21:15:57	ergo0	https://paste.pound-python.org/show/EHoCr1lGqEv9LpesP4YE/
+2018-11-12 21:16:11	ryuo	did you forget to use depmod?
+2018-11-12 21:16:23	ergo0	depmod?
+2018-11-12 21:16:47	ryuo	depmod -a
+2018-11-12 21:17:58	ergo0	https://paste.pound-python.org/show/UcwttcjK8k0RmGwDcuHt/ seems like dragons be here
+2018-11-12 21:19:03	ryuo	you can't load kernel modules until depmod has been run.
+2018-11-12 21:19:23	ergo0	so after doing that i should reboot again
+2018-11-12 21:19:26	ergo0	?
+2018-11-12 21:19:31	ryuo	or try modprobing nvidia
+2018-11-12 21:19:59	ergo0	ah that worked
+2018-11-12 21:20:16	ryuo	whether it gets loaded on reboot is another matter.
+2018-11-12 21:20:31	pedja	nvidia-modprobe should take care of that
+2018-11-12 21:20:50	pedja	emphasis on "should" :)
+2018-11-12 21:20:52	ryuo	i would hope so, but it's still something i remember needing to do.
+2018-11-12 21:21:09	ryuo	it also depends on how the port was installed.
+2018-11-12 21:21:18	pedja	I modprobe nvidia-uvm on every reboot
+2018-11-12 21:21:19	ryuo	not everything runs the post install scripts.
+2018-11-12 21:21:20	ergo0	i just used prt-get depinst
+2018-11-12 21:21:35	ergo0	i also dont see a postinstall scripts in opt/nvidia
+2018-11-12 21:21:52	ryuo	it may not exist, but i can't be sure.
+2018-11-12 21:22:12	pedja	there is no need for one
+2018-11-12 21:22:12	<--	joacim (~joacim@cm-84.214.234.57.getinternet.no) has quit (Quit: WeeChat 2.3)
+2018-11-12 21:22:15	ryuo	i love my AMDGPU though. ;)
+2018-11-12 21:22:24	ryuo	the makefile runs modprobe?
+2018-11-12 21:22:25	ergo0	yee i have a amdgpu on my desktop
+2018-11-12 21:22:27	ergo0	works fantastic
+2018-11-12 21:22:34	pedja	which one you have?
+2018-11-12 21:22:36	-->	joacim (~joacim@cm-84.214.234.57.getinternet.no) has joined #crux
+2018-11-12 21:22:42	ergo0	my desktop has a r9 290
+2018-11-12 21:22:45	ergo0	man fuck nvidia
+2018-11-12 21:22:51	ergo0	why is this so difficult lol
+2018-11-12 21:22:51	ryuo	Me? Just what's built into my bristol ridge laptop APU.
+2018-11-12 21:23:02	ryuo	ergo0: it isn't... for normies.
+2018-11-12 21:23:07	ryuo	ergo0: like Ubuntu users.
+2018-11-12 21:24:04	ryuo	a10-9620P
+2018-11-12 21:24:26	ryuo	AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G
+2018-11-12 21:25:02	ryuo	<3 ProBook 455 G5
+2018-11-12 21:25:41	@jaeger	you should not need to manually load any modules, bbswitch and bumblebeed take care of that for you
+2018-11-12 21:28:58	-->	onodera (~onodera@camille.xs4all.nl) has joined #crux
+2018-11-12 21:30:18	@jaeger	for example: http://ix.io/1rF8
+2018-11-12 21:31:01	@jaeger	ergo0: did you do something silly like replace headers in /usr/include with some from the kernel source, maybe?
+2018-11-12 21:31:44	ergo0	jaeger: nopeee
+2018-11-12 21:31:49	ergo0	unless it happened on accident
+2018-11-12 21:31:52	ergo0	https://paste.pound-python.org/show/woRa3PqIs9Uo9YW4mjJc/
+2018-11-12 21:31:54	ergo0	hmm does this look allright?
+2018-11-12 21:32:42	@jaeger	It looks like nvidia is loaded
+2018-11-12 21:33:10	ergo0	yee it is loaded
+2018-11-12 21:33:15	ergo0	i just cant install bbswitch
+2018-11-12 21:34:40	@jaeger	http://ix.io/1rFb <-- I'm not able to reproduce that error
+2018-11-12 21:35:03	@jaeger	https://crux.ninja/tmp/bbswitch%230.8-1.pkg.tar.xz if you want to try a prebuilt package
+2018-11-12 21:35:56	ryuo	jaeger: i'm starting to think crux could use a kernel package to help with producing consistent builds.
+2018-11-12 21:36:02	@jaeger	Maybe so
+2018-11-12 21:36:22	@jaeger	I've considered it repeatedly at least for having a generic config
+2018-11-12 21:36:57	ryuo	i'll try putting something together later, maybe someone can try putting it in opt or contrib.
+2018-11-12 21:36:59	ergo0	uhm
+2018-11-12 21:37:05	ergo0	seems like ints installed now?
+2018-11-12 21:37:08	ergo0	thinking
+2018-11-12 21:37:27	ergo0	ryuo: do you use crux btw? or just ubuntu now?
+2018-11-12 21:37:56	ryuo	ergo0: ubuntu more or less. why? i can still build kernels though.
+2018-11-12 21:38:10	ergo0	ohh you seem to know the distro well, so i was just curious
+2018-11-12 21:38:21	ryuo	i was a user a long time ago.
+2018-11-12 21:38:27	ryuo	and most of what I know is generic.
+2018-11-12 21:39:42	ergo0	hold up, gonna try something out
+2018-11-12 21:39:42	<--	ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-12 21:40:15	-->	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-12 21:40:22	ryuo	i've noticed programmers seem to be rare around these parts.
+2018-11-12 21:40:33	Ergo0	this distro irc?
+2018-11-12 21:40:41	ryuo	Eh, at least for CRUX.
+2018-11-12 21:41:14	Ergo0	im a digital media and culture studies dude lol
+2018-11-12 21:41:31	Ergo0	lets see if i can close my terminal without disconnecting from irc
+2018-11-12 21:41:39	ryuo	...
+2018-11-12 21:41:56	Ergo0	that worked
+2018-11-12 21:42:00	ryuo	I see.
+2018-11-12 21:42:00	Ergo0	nice
+2018-11-12 21:42:36	Ergo0	sorry lol
+2018-11-12 21:43:23	ryuo	there's one breed of developer that seems to be the most feared.
+2018-11-12 21:43:29	Ergo0	which iss?
+2018-11-12 21:43:32	ryuo	web developers. just ask frinnst. =p
+2018-11-12 21:43:34	-->	pankerini (~pankerini@189.230.162.160) has joined #crux
+2018-11-12 21:44:21	ryuo	most of them have no technical background, so hilarity ensues if they try to touch anything IT related.
+2018-11-12 21:44:46	Ergo0	im gonna pick up webdev stuff
+2018-11-12 21:44:47	Ergo0	seems like fun
+2018-11-12 21:46:03	ryuo	I actually have a form of IT experience, so...
+2018-11-12 21:46:37	ryuo	currently working on getting my new dedicated server configured.
+2018-11-12 21:47:54	Ergo0	i actually dont have any practical reason to be on linux lol
+2018-11-12 21:48:11	ryuo	webdev gives you a reason.
+2018-11-12 21:48:35	ryuo	Most of what you do takes place on servers. Guess what most of them run?
+2018-11-12 21:48:38	Ergo0	i used to do webdev school in uni like 3 years ago
+2018-11-12 21:48:52	Ergo0	2 years i guess
+2018-11-12 21:48:57	ryuo	Linux.
+2018-11-12 21:48:59	Ergo0	but i dropped out to go do digital media and culture studies
+2018-11-12 21:49:04	Ergo0	yee i am aware
+2018-11-12 21:49:26	Ergo0	main reason for me to switch was open source, free, way more control, ricing and fuck windows updates
+2018-11-12 21:49:35	Ergo0	how i ended up on crux, i dont know lol
+2018-11-12 21:49:47	ryuo	It sounds like you'd be happier with Linux Mint.
+2018-11-12 21:50:17	@jaeger	tried bbswitch on a system with linux 4.19 (though not 4.19.1), still built fine there
+2018-11-12 21:50:55	Ergo0	ryuo: nah i tried that
+2018-11-12 21:50:59	Ergo0	i really  dont like debian
+2018-11-12 21:51:05	Ergo0	tried arch, but i didnt like systemd
+2018-11-12 21:51:11	Ergo0	tried void but i didnt like the people in their irc
+2018-11-12 21:51:34	ryuo	Sounds like me circa 2008.
+2018-11-12 21:52:01	ryuo	I eventually went back to Ubuntu after tiring of channel surfing.
+2018-11-12 21:52:11	john_cephalopoda	Ergo0: What's your primary GPU?
+2018-11-12 21:52:15	Ergo0	also outside of this problem which i apparently cant solve , crux has been great for me
+2018-11-12 21:52:17	john_cephalopoda	Intel Haswell?
+2018-11-12 21:52:23	Ergo0	john_cephalopoda: the igpu of my 6500HQ
+2018-11-12 21:52:28	Ergo0	skylake
+2018-11-12 21:52:42	ryuo	Ergo0: whenever you're due for an upgrade, perhaps AMD would be viable.
+2018-11-12 21:52:51	ryuo	I bought a ProBook 455 G5 this year.
+2018-11-12 21:52:59	Ergo0	my next laptop is prolly gonna be one without a dgpu
+2018-11-12 21:53:06	Ergo0	rather have something thin and light
+2018-11-12 21:53:22	ryuo	AMD Ryzen has taken off in that area.
+2018-11-12 21:53:23	Ergo0	im prolly gonna buy a used hp elitebook folio or something
+2018-11-12 21:53:33	Ergo0	ryuo: as long as it can play overwatch
+2018-11-12 21:53:38	Ergo0	that would be super good
+2018-11-12 21:53:42	ryuo	I don't game, so I don't know.
+2018-11-12 21:53:50	joacim	i mostly just play doom on my laptop
+2018-11-12 21:53:52	john_cephalopoda	Ergo0: I've been told that Haswell is pretty good already and the nvidia 3d accelerator won't bring me much advantage at a higher energy usage. So using that is probably not really productive anyway.
+2018-11-12 21:54:05	joacim	that kind of game works well enough with the trackpoint =)
+2018-11-12 21:54:32	ryuo	joacim: heh. the HP elitebooks with AMD Ryzen already launched.
+2018-11-12 21:54:45	Ergo0	lolll, i dont think my igpu will be able to play OW
+2018-11-12 21:54:55	Ergo0	i could play it on my 960m just fine tho
+2018-11-12 21:54:56	@jaeger	From the lspci output you pasted earlier your system looks similar to the laptop I'm using
+2018-11-12 21:55:04	@jaeger	intel igpu, nvidia 3d controller
+2018-11-12 21:55:26	Ergo0	i have no clue waht is going on
+2018-11-12 21:55:26	@jaeger	It all works well for me, for what that's worth
+2018-11-12 21:55:30	Ergo0	is there something i can use to fix my kernel headers?
+2018-11-12 21:55:43	ryuo	No idea. I'd say nuke it from orbit to be sure.
+2018-11-12 21:57:09	ryuo	Ergo0: people generally swear by thinkpads as being the best Linux laptop.
+2018-11-12 21:57:30	Ergo0	fuck thinkpads
+2018-11-12 21:57:33	Ergo0	they look ugl
+2018-11-12 21:57:35	Ergo0	y
+2018-11-12 21:57:52	Ergo0	dont ban me
+2018-11-12 21:58:22	ryuo	yea... they always prioritized functionality...
+2018-11-12 21:58:30	ryuo	X200 was pretty damn good for its time.
+2018-11-12 21:59:42	@jaeger	I used an x220 for a few years, it was rock solid
+2018-11-12 22:00:10	ryuo	I still have an X200 but I only use it for portable jobs around the house now.
+2018-11-12 22:00:23	ryuo	Meltdown pretty much ruined it for anything else.
+2018-11-12 22:00:39	ryuo	It's too old to receive updates.
+2018-11-12 22:01:02	Ergo0	what the
+2018-11-12 22:01:05	ryuo	?
+2018-11-12 22:01:08	Ergo0	ryzen laptops are super cheap
+2018-11-12 22:01:16	ryuo	Define cheap.
+2018-11-12 22:01:33	Ergo0	cheap compared to their nvidia counterparts unless im getting the specs wrong
+2018-11-12 22:01:55	ryuo	AMD Ryzen is a significant upgrade compared to previous AMD cpus.
+2018-11-12 22:02:17	ryuo	I was following the models for awhile.
+2018-11-12 22:02:39	ryuo	What are you looking for?
+2018-11-12 22:03:01	ryuo	Gigabit ethernet was a feature that eliminated most of them from my list.
+2018-11-12 22:04:15	joacim	i'll be keeping my t420 for a while longer, unless a potential job decides i should get a new laptop
+2018-11-12 22:04:19	Ergo0	only thing i want is be able to play OW at like 60fps
+2018-11-12 22:04:19	ryuo	I frankly consider Dell, Lenovo, and HP business hardware to be the best choice for longterm use.
+2018-11-12 22:04:37	ryuo	Ergo0: there's an ASUS ROG with a desktop Ryzen.
+2018-11-12 22:04:42	Ergo0	nahhh fuck that
+2018-11-12 22:04:47	ryuo	It's 8 cores.
+2018-11-12 22:04:50	Ergo0	also thin and light
+2018-11-12 22:05:02	ryuo	Well, it's not light.
+2018-11-12 22:05:05	Ergo0	60fps at 720p
+2018-11-12 22:05:09	Ergo0	would be fine as well lol
+2018-11-12 22:05:34	@jaeger	one thing to consider is there's no support currently for vulkan with optimus so you won't be able to use wine with dxvk for example to play OW
+2018-11-12 22:05:48	Ergo0	jaeger: noooooooooooooooo
+2018-11-12 22:05:54	Ergo0	all this effort for no reason lol
+2018-11-12 22:06:05	ryuo	Ergo0: Linux support for Ryzen is still a WIP.
+2018-11-12 22:06:08	@jaeger	Sorry :/ Maybe that'll change in the future
+2018-11-12 22:06:19	@jaeger	Ergo0: with that said, it *might* work with wine-pba
+2018-11-12 22:06:20	ryuo	You need the latest kernel and such for it to work at all.
+2018-11-12 22:06:27	@jaeger	just not dxvk
+2018-11-12 22:06:32	Ergo0	ryuo: i would use latest kernel anyways
+2018-11-12 22:06:38	Ergo0	its fine, i will just use my igpu to play games
+2018-11-12 22:06:40	Ergo0	kappa
+2018-11-12 22:07:08	ryuo	i assume you don't care about serviceability.
+2018-11-12 22:07:16	@jaeger	I've not tried OW, but WoW works well on this laptop using wine-pba
+2018-11-12 22:07:16	ryuo	any brand preferences?
+2018-11-12 22:07:30	Ergo0	what gpu you gott
+2018-11-12 22:07:33	Ergo0	ryuo: nope not at all
+2018-11-12 22:07:38	Ergo0	i have bad experiences with acer tho
+2018-11-12 22:07:42	Ergo0	fuck their build quality
+2018-11-12 22:07:46	@jaeger	MX150 in this thing... your 960M is more powerful than this one
+2018-11-12 22:08:01	Ergo0	well sadly i cant use my 960m yet :(
+2018-11-12 22:08:03	ryuo	I had a similar experience with HP consumer. I've been happy with HP business.
+2018-11-12 22:08:09	ryuo	That was 10 years ago.
+2018-11-12 22:08:24	ryuo	Trouble is business machines are typically boring.
+2018-11-12 22:08:31	@jaeger	yeah, but I'm trying to say that if you figure out what's gone wrong on your system, it might work
+2018-11-12 22:09:01	Ergo0	jaeger: yee i guess thats true
+2018-11-12 22:09:11	Ergo0	i really wonder how i could possiblly fix this tho
+2018-11-12 22:09:15	Ergo0	i dont even know waht the cause is
+2018-11-12 22:10:25	@jaeger	No idea... hard to guess since I can't reproduce your build error here
+2018-11-12 22:10:40	@jaeger	Did you try my bbswitch package?
+2018-11-12 22:12:55	@jaeger	also, have you updated everything on your system since installing?
+2018-11-12 22:19:53	Ergo0	jaeger: nope not yet
+2018-11-12 22:20:01	ryuo	https://www.lenovo.com/us/en/laptops/ideapad/ideapad-700-series/Ideapad-720S-13-AMD/p/88IP70S0929
+2018-11-12 22:20:03	Ergo0	and everything execpt keyutils and lvm2
+2018-11-12 22:20:30	Ergo0	since those for some reason wont update
+2018-11-12 22:21:11	ryuo	Ergo0: that the kind of stuff you're looking for?
+2018-11-12 22:21:30	Ergo0	i dont see it in your ports repo jaeger
+2018-11-12 22:21:41	@jaeger	won't update how?
+2018-11-12 22:21:51	Ergo0	i did try the one you send me earlier
+2018-11-12 22:21:52	@jaeger	I linked it here earlier
+2018-11-12 22:22:05	Ergo0	and it installed as well
+2018-11-12 22:22:27	@jaeger	OK, then what?
+2018-11-12 22:23:07	Ergo0	its installed
+2018-11-12 22:23:22	@jaeger	OK, did you test? :)
+2018-11-12 22:23:34	Ergo0	ryuo: that looks great
+2018-11-12 22:23:36	Ergo0	jaeger: not yet
+2018-11-12 22:23:39	Ergo0	lemme try
+2018-11-12 22:24:00	@jaeger	At some point, pastebin your keyutils and lvm2 errors, maybe they're related
+2018-11-12 22:24:55	ryuo	Ergo0: if you're going to buy soon, AMD Ryzen is likely the best value at the moment. No idea how it would handle OW though.
+2018-11-12 22:25:23	Ergo0	yeee i was about to look into that
+2018-11-12 22:25:29	joacim	got a feeling ryuo owns amd stock =)
+2018-11-12 22:25:35	Ergo0	both of those things that were said
+2018-11-12 22:25:37	ryuo	Plus it's less suspectible to the speculative execution crap.
+2018-11-12 22:25:53	Anselmo	just invest in sledgehammers
+2018-11-12 22:26:03	Anselmo	so as to smash all the computers at some near date. . .
+2018-11-12 22:26:28	Ergo0	jaeger: hmmmm https://paste.pound-python.org/show/1NCZREqEWEbWRnRuzrwL/
+2018-11-12 22:26:36	ryuo	Ergo0: http://dpaste.com/00MCA3D :D
+2018-11-12 22:26:43	ryuo	Immune to 2 out of 5.
+2018-11-12 22:27:03	ryuo	l1tf and meltdown
+2018-11-12 22:27:04	Ergo0	that was the wrong one , hold up
+2018-11-12 22:27:40	Ergo0	is that goood?
+2018-11-12 22:28:35	Anselmo	its better than a lot of intel's stuff . . .
+2018-11-12 22:28:41	Anselmo	which is relatively speaking quite good :P
+2018-11-12 22:29:09	Ergo0	jaeger: IT WORKSSS
+2018-11-12 22:29:25	Ergo0	i installed primus instead of the other thing
+2018-11-12 22:29:27	Ergo0	virtualgl
+2018-11-12 22:29:53	@jaeger	good, that's some progress at least
+2018-11-12 22:30:00	Ergo0	now i just have to compile wine and see lol
+2018-11-12 22:30:34	Ergo0	is virtualgl better then primus?
+2018-11-12 22:31:36	@jaeger	No idea there, I use primus and it works
+2018-11-12 22:31:56	Ergo0	ayee cool
+2018-11-12 22:35:36	joacim	i remember people talked about dx12 being able to spread the load across gpus. was that a big fat lie?
+2018-11-12 22:37:30	Ergo0	im not sure
+2018-11-12 22:37:45	Ergo0	it does seem like vulkan is doing well tho
+2018-11-12 22:37:55	pedja	joacim, isn't SLI basically dead?
+2018-11-12 22:38:01	Ergo0	and yee i think so as well
+2018-11-12 22:38:13	Ergo0	you can still use dual gpu i think but nvidia killed support for sli
+2018-11-12 22:38:16	Ergo0	iirc
+2018-11-12 22:38:39	joacim	there is support for dual card sli, but i doubt there will be much of a future for it in video games
+2018-11-12 22:39:09	pedja	too much work for small percentage of usage
+2018-11-12 22:39:16	@jaeger	Yeah, I think SLi is basically gone at this point but NVlink is much better (tm)
+2018-11-12 22:39:36	pedja	SLI mk.2 :) ?
+2018-11-12 22:39:49	joacim	amd tried to push crossfire with their rx 480
+2018-11-12 22:39:54	Ergo0	i wonder how long compiling wine will take on my i5 6600hq
+2018-11-12 22:39:55	joacim	but i dont see crossfire used much either
+2018-11-12 22:39:58	Ergo0	or whatever my cpu is
+2018-11-12 22:40:07	Ergo0	joacim: same, then again dual gpu is kind of a waste
+2018-11-12 22:40:14	Ergo0	for gaming atleast
+2018-11-12 22:40:31	pedja	amd for graphics, nvidia for cuda compute :)
+2018-11-12 22:40:54	pedja	or gpu passthrough
+2018-11-12 22:41:21	Ergo0	amd works well for gpu passthrough as well
+2018-11-12 22:42:04	pedja	wasn't their an issue with Vega gpu basically freezing, so the only way out was reboot?
+2018-11-12 22:42:07	@jaeger	Ergo0: I've no idea how regular wine or wine-staging handle OW, but if you decide to check out PBA, there's a port for it: https://crux.ninja/portdb/port/jaeger/wine-pba/
+2018-11-12 22:42:26	Ergo0	jaeger: thankss
+2018-11-12 22:42:38	Ergo0	im trying to make my lutris port work
+2018-11-12 22:42:46	Ergo0	but it seems like its still missing some stuff
+2018-11-12 22:42:58	Ergo0	jaeger: its super great aat using different wines etc
+2018-11-12 22:43:02	Ergo0	you should check it out sometime
+2018-11-12 22:43:35	@jaeger	I've looked at it. Neat idea but I've not really needed it so far
+2018-11-12 22:45:30	pedja	I've tried to use fusion360 with wine. didn't go so well :)
+2018-11-12 22:46:43	Ergo0	why does wine-staging need llvm7
+2018-11-12 22:46:46	Ergo0	thinking
+2018-11-12 22:46:51	Ergo0	pedja: try with dxvk :)
+2018-11-12 22:46:55	Ergo0	its magic
+2018-11-12 22:47:44	pedja	that was the idea, but it won't install
+2018-11-12 22:48:20	pedja	online installer hangs forever
+2018-11-12 22:48:26	Ergo0	hmmm thats odd
+2018-11-12 22:48:49	Ergo0	https://appdb.winehq.org/objectManager.php?sClass=application&iId=15617
+2018-11-12 22:48:58	Ergo0	doesnt look to great on winehq
+2018-11-12 22:49:29	pedja	yeah. so I installed it on a Win10 laptop, so I can play with it
+2018-11-12 22:50:07	pedja	haven't tried yet to rdp to it
+2018-11-12 22:50:13	Ergo0	ayee makes sense
+2018-11-12 22:53:38	pedja	frinnst, any issues with xrdp and Win10 that you are aware of? or you rdp only to Windows servers?
+2018-11-12 22:53:56	Ergo0	well boys, im gonna go back home from my friends place
+2018-11-12 22:54:06	Ergo0	going back to my trusty pc with my r9 290
+2018-11-12 22:54:17	@jaeger	later
+2018-11-12 22:54:31	<--	Ergo0 (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has left #crux ("WeeChat 1.9.1")
+2018-11-12 22:57:35	pedja	VMWorld Europe is in Barcelona. nice
+2018-11-12 22:57:57	joacim	https://www.ebay.com/itm/Sapphire-R9-290-Tri-X-OC-4GB-GDDR5-Graphics-Card/192714255841
+2018-11-12 22:58:05	joacim	the back of that card looks a bit nasty
+2018-11-12 22:58:23	joacim	is that aircon damage?
+2018-11-12 22:59:44	@frinnst	pedja: only servers
+2018-11-12 22:59:58	@frinnst	but I suspect the issues I had with 2016 are also in win10
+2018-11-12 23:00:38	joacim	https://www.ebay.com/itm/Sapphire-Radeon-R9-290X-8GB-GDDR5-Dual-DVI-D-HMDI-DP-TRI-X-OC-Version/352491097902
+2018-11-12 23:00:43	joacim	this has some green on it
+2018-11-12 23:00:55	pedja	didn't MS introduce a new version of RDP in Win10, or something like that?
+2018-11-12 23:01:03	@frinnst	eew
+2018-11-12 23:01:10	joacim	i know they introduced a new client
+2018-11-12 23:01:43	@frinnst	2016=older win10
+2018-11-12 23:03:07	pedja	I wonder what, apart from wifi, will MS update break on that laptop this time, it's been a while
+2018-11-12 23:04:16	@frinnst	zip files?
+2018-11-12 23:04:38	pedja	what?
+2018-11-12 23:06:37	@frinnst	https://www.bleepingcomputer.com/news/security/windows-10-1809-zip-extraction-bug-overwrites-files-without-confirmation/
+2018-11-12 23:07:05	joacim	if they fix all the bugs
+2018-11-12 23:07:14	joacim	will it still be windows?
+2018-11-12 23:08:28	pedja	holy shit, that's...kind of hilarious, tbh
+2018-11-12 23:09:46	@jaeger	reminds me of EVE Online deleting your boot.ini
+2018-11-12 23:10:08	@jaeger	man, that was a long time ago
+2018-11-12 23:10:32	joacim	i dont know what they were thinking there
+2018-11-12 23:10:37	joacim	didnt happen to me at least
+2018-11-12 23:10:57	@jaeger	Undoubtedly they weren't thinking, just a mistake
+2018-11-12 23:11:11	@jaeger	Not enough QA testing, etc.
+2018-11-12 23:11:37	joacim	they choked their players internet connection once too
+2018-11-12 23:11:44	joacim	from including a torrent client in the launcher
+2018-11-12 23:12:10	joacim	wasted peoples'data caps
+2018-11-12 23:12:58	@jaeger	oops, heh
+2018-11-12 23:13:17	pedja	MS, Nvidia and now even AMD are pushing Cloud Gaming. how feasible is that?
+2018-11-12 23:13:40	joacim	sounds like the good old days of door games
+2018-11-12 23:15:26	pedja	I understand why Nvidia and AMD, they'd love to sell expensive racks of GPUs to DCs. but MS?
+2018-11-12 23:15:59	@frinnst	I still dont understand how they will/have solve(d) latency
+2018-11-12 23:16:57	pedja	that's another issue. how many people have bandwidth required for something like that?
+2018-11-12 23:17:15	@frinnst	pied piper will solve it
+2018-11-12 23:20:02	<--	onodera (~onodera@camille.xs4all.nl) has quit (Ping timeout: 276 seconds)
+2018-11-12 23:21:46	Ergo-	nice 
+2018-11-12 23:21:49	Ergo-	back on my trusty pc 
+2018-11-12 23:22:20	joacim	pedja: for ms it would be more revenue from azure i guess
+2018-11-12 23:22:30	joacim	and licenses for their other technologies
+2018-11-12 23:27:37	pedja	that makes sense
+2018-11-12 23:28:28	Ergo-	hi
+2018-11-12 23:28:38	Ergo-	lol i accidently removed the input bar 
+2018-11-12 23:28:44	Ergo-	i meant to hide the thing thats above that 
+2018-11-12 23:29:00	abenz	cloud gaming eh?
+2018-11-12 23:29:43	abenz	I wonder if the guy who coined this term, cloud, when talking about "put your stuff in our server", knew it would take off like this..
+2018-11-12 23:29:51	ryuo	silently overwriting files?
+2018-11-12 23:30:11	ryuo	I guess Microsoft wanted to copy that tradition of TAR.
+2018-11-12 23:32:41	pedja	interesting take on desktop environment https://www.youtube.com/watch?v=5vY2B9m5HDM&list=PLGqpKIeZOSp6quf6CmMOr91Tmj4UppyoR&index=2
+2018-11-12 23:35:17	pedja	if articles on the site are to be believed, the plan is to reach feature parity with Xorg before 1.0 :)
+2018-11-12 23:37:12	pedja	the last time I bothered to check, wayland was still far from that
+2018-11-12 23:48:02	joacim	most interesting thing for me is cave story
+2018-11-13 00:06:47	<--	abenz (~abenz@unaffiliated/abenz) has quit (Ping timeout: 268 seconds)
+2018-11-13 00:19:34	-->	abenz (~abenz@unaffiliated/abenz) has joined #crux
+2018-11-13 00:56:32	-->	Ergo0 (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-13 00:56:33	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-13 00:56:33	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-13 00:56:33	--	Channel #crux: 48 nicks (4 ops, 0 voices, 44 normals)
+2018-11-13 00:56:33	--	URL for #crux: http://crux.nu
+2018-11-13 00:56:35	--	Channel created on Sun, 26 Nov 2006 07:42:43
