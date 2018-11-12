@@ -6918,3 +6918,209 @@
 2018-11-09 01:21:21	<--	POJO (~quassel@PO.JO) has quit (Killed (NickServ (GHOST command used by POJO_)))
 2018-11-09 01:21:42	-->	POJO (~quassel@PO.JO) has joined #rice
 2018-11-09 01:22:14	-->	murf (~murf@vicer.oy) has joined #rice
+2018-11-12 09:27:13	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-11-12 09:27:13	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-11-12 09:27:13	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 16:32:42
+2018-11-12 09:27:13	--	Channel #rice: 164 nicks (9 ops, 0 halfops, 16 voices, 139 normals)
+2018-11-12 09:27:18	--	Channel created on Sun, 30 Dec 2012 01:07:54
+2018-11-12 09:29:03	-->	qzo (~qzo@Rizon-83FBCF16.hsd1.co.comcast.net) has joined #rice
+2018-11-12 09:48:55	-->	warchlak (~warchlak@A0B097F4.4D0569DC.BC33D90C.IP) has joined #rice
+2018-11-12 09:50:23	-->	Jet (~Jet@Rizon-D1047E1E.bredband.comhem.se) has joined #rice
+2018-11-12 09:51:53	bgiannan	do you guys know of a script that prints the current mpd song in fancy ascii font in the terminal ?
+2018-11-12 09:52:08	+Khorne	No because thats cancerous
+2018-11-12 09:52:16	+Khorne	mpc | figlet
+2018-11-12 09:52:58	@Leliana	yeah that's pretty cancer
+2018-11-12 09:52:59	Ergo	morning 
+2018-11-12 09:53:01	@Leliana	and also useless
+2018-11-12 09:53:16	@Leliana	it won't take much for the text to break at the edge of your terminal
+2018-11-12 09:53:38	+Khorne	I wonder how figlet does with non ascii.. :')
+2018-11-12 09:53:46	+Khorne	all these weeb shits
+2018-11-12 09:53:58	Ergo	isnt the only use of that to make a scrot ? 
+2018-11-12 09:54:06	bgiannan	already have https://github.com/cacalabs/toilet that looks great but i want something that's always there and updates itself
+2018-11-12 09:54:06	+cappuccino	[ github.com ] GitHub - cacalabs/toilet (text/html)
+2018-11-12 09:54:16	@Leliana	>looks great
+2018-11-12 09:54:18	@Leliana	[doubt]
+2018-11-12 09:54:18	+cappuccino	[DOUBT INTENSIFIES]
+2018-11-12 09:54:24	+Khorne	'that's already there'
+2018-11-12 09:54:32	+Khorne	figlet
+2018-11-12 09:54:33	@Leliana	>updates itself
+2018-11-12 09:54:35	+Khorne	toilet
+2018-11-12 09:54:36	@Leliana	>what is a package manager
+2018-11-12 09:54:42	+Khorne	I dont even know
+2018-11-12 09:54:42	@Leliana	Khorne: well known coreutils
+2018-11-12 09:54:59	@Leliana	a staple of the old UNIX mainframes
+2018-11-12 09:55:27	 *	lxcyp dabs
+2018-11-12 09:55:32	@Leliana	fuck off cunt
+2018-11-12 09:55:40	bgiannan	https://0x0.st/slt4.png
+2018-11-12 09:55:46	~lxcyp	Hi leliana love you 
+2018-11-12 09:55:51	@Leliana	yeah, just as I thought
+2018-11-12 09:55:52	+Khorne	# apt show toilet
+2018-11-12 09:55:53	@Leliana	disgusting
+2018-11-12 09:55:55	+Khorne	Package: toilet
+2018-11-12 09:55:57	+Khorne	Version: 0.3-1.1
+2018-11-12 09:55:59	+Khorne	ama
+2018-11-12 09:56:02	+Khorne	sadly it doesnt update itself
+2018-11-12 09:56:12	+Khorne	and it wasnt already there either
+2018-11-12 09:56:14	@Leliana	>mpd-current.sh
+2018-11-12 09:56:17	@Leliana	or just
+2018-11-12 09:56:31	@Leliana	mpc current
+2018-11-12 09:56:32	@Leliana	yno
+2018-11-12 09:56:39	@Leliana	>mfw
+2018-11-12 09:56:53	bgiannan	that scripts works with spotify & mpd
+2018-11-12 09:57:02	bgiannan	the name is misleading
+2018-11-12 09:57:05	+Khorne	is it really mpd current then
+2018-11-12 09:57:15	--	irc: disconnected from server
+2018-11-12 10:07:26	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-11-12 10:07:26	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-11-12 10:07:26	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 16:32:42
+2018-11-12 10:07:26	--	Channel #rice: 168 nicks (9 ops, 0 halfops, 16 voices, 143 normals)
+2018-11-12 10:07:27	bgiannan	now just have to center it
+2018-11-12 10:07:28	@Leliana	oh my lord
+2018-11-12 10:07:28	--	Channel created on Sun, 30 Dec 2012 01:07:54
+2018-11-12 10:07:31	Ergo	we connected with ssl now 
+2018-11-12 10:07:31	--	#rice: You need to login to services to join or speak in that channel.
+2018-11-12 10:07:34	@Leliana	just use `watch -n 1`
+2018-11-12 10:07:36	@eti	why are you running it in a loop
+2018-11-12 10:07:37	@Leliana	jesus christ
+2018-11-12 10:07:45	Ergo	we connected with ssl now 
+2018-11-12 10:07:49	@eti	or just use mpc's built in wait
+2018-11-12 10:07:52	@Leliana	Ergo: welcome to 2001
+2018-11-12 10:08:01	Ergo	lyxcp enlightened me yday 
+2018-11-12 10:08:05	@Leliana	eti: oh, he's waiting on output?
+2018-11-12 10:08:26	@eti	Leliana: i have no fucking clue man
+2018-11-12 10:08:27	@Leliana	figured he just wanted constantly updated output with an interval
+2018-11-12 10:08:28	bgiannan	Leliana, don't have watch on macOS, seems like
+2018-11-12 10:08:56	@Leliana	oh, I thought watch was coreutils
+2018-11-12 10:09:01	@Leliana	turns out it's part of procps
+2018-11-12 10:09:10	@Leliana	> watch from procps-ng 3.3.15
+2018-11-12 10:09:13	bgiannan	hum
+2018-11-12 10:09:16	bgiannan	just have to brew install it
+2018-11-12 10:11:05	@Leliana	personally I prefer an operating system where the package manager isn't a third party tacked on afterthought :^)
+2018-11-12 10:11:12	@Leliana	but that's just me
+2018-11-12 10:11:26	bgiannan	Leliana, me too but i'm an iOS dev so i'm kinda stuck with it at work
+2018-11-12 10:12:37	Ergo	just run all your mac stuff in a vm 4head 
+2018-11-12 10:13:08	bgiannan	Ergo, did you ever run Xcode, you can't run a VM + XCode
+2018-11-12 10:13:14	bgiannan	your mac will die
+2018-11-12 10:13:17	Ergo	i used xcode before 
+2018-11-12 10:13:21	Ergo	but that was on a old macbook 
+2018-11-12 10:13:27	bgiannan	how long ago  was  "before" ?
+2018-11-12 10:13:29	Ergo	i guess you could do it on a beefy desktop right bgiannan 
+2018-11-12 10:13:36	Ergo	uhmm like 3/4 years maybe 
+2018-11-12 10:13:38	<--	warchlak (~warchlak@A0B097F4.4D0569DC.BC33D90C.IP) has quit (Ping timeout: 240 seconds)
+2018-11-12 10:13:42	Ergo	before i dropped out of dev school 
+2018-11-12 10:13:59	bgiannan	also macOS is fine really
+2018-11-12 10:14:12	Ergo	i prefer it to using windows 
+2018-11-12 10:14:21	bgiannan	that's for sure
+2018-11-12 10:14:26	@Leliana	<bgiannan> Leliana, me too but i'm an iOS dev
+2018-11-12 10:14:32	@Leliana	you have my deepest sympathies
+2018-11-12 10:14:36	bgiannan	thx
+2018-11-12 10:27:49	-->	warchlak (~warchlak@A0B097F4.4D0569DC.BC33D90C.IP) has joined #rice
+2018-11-12 10:35:01	Izuru	aaaaaaaa
+2018-11-12 10:35:08	+Khorne	bbbbbbb
+2018-11-12 10:35:12	Izuru	cccccccc
+2018-11-12 10:36:40	<--	Izuru (~Izuru@hi.im.izuru) has quit (Quit: Leaving)
+2018-11-12 10:37:17	+Khorne	good talk
+2018-11-12 10:40:04	@eti	🤣🤣🤣🤣🤣🤣
+2018-11-12 10:40:12	NerdyPepper	   
+2018-11-12 10:45:27	@eti	[B]
+2018-11-12 10:45:27	+cappuccino	[B INTENSIFIES]
+2018-11-12 10:45:34	@eti	cappuccino: nigga i love you
+2018-11-12 10:45:35	+cappuccino	darkwater: is there init sorcery?
+2018-11-12 10:55:43	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 11:03:31	<--	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2018-11-12 11:07:21	Ergo	i wanted to take the redacted interview
+2018-11-12 11:07:25	-->	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has joined #rice
+2018-11-12 11:07:29	Ergo	but holy hell is the wait long 
+2018-11-12 11:13:39	-->	Guest05 (Guest@69B44561.4F9E3E6E.249F2BF4.IP) has joined #rice
+2018-11-12 11:14:12	<--	Guest05 (Guest@69B44561.4F9E3E6E.249F2BF4.IP) has left #rice
+2018-11-12 11:18:14	<--	klaus (~klaus@231C7D41.45F4C977.861195DE.IP) has quit (Quit: leaving)
+2018-11-12 11:21:53	-->	workodera (~workodera@i.believe.that.she.will.win) has joined #rice
+2018-11-12 11:22:22	workodera	gomen nasai guys
+2018-11-12 11:22:29	workodera	it means good morning for the non-weebs
+2018-11-12 11:24:11	+darkwater	t/n: nasai is a good brand of noodles
+2018-11-12 11:24:13	@cosarara	https://ptpb.pw/XUCv.jpg
+2018-11-12 11:33:59	Ergo	mfw i cant get vim_instant_markdown to work with neovim 
+2018-11-12 11:34:02	Ergo	or regular vim 
+2018-11-12 11:35:06	workodera	just according to kaikaku
+2018-11-12 11:35:11	@eti	gutten morningu
+2018-11-12 11:45:19	+darkwater	Ergo: do you use chrome?
+2018-11-12 11:46:01	+darkwater	https://chrome.google.com/webstore/detail/github-flavored-markdown/faelggnmhofdamhdegcdhhemfokkfngk
+2018-11-12 11:46:01	+cappuccino	[ chrome.google.com ] GitHub Flavored Markdown - Chrome Web Store (text/html)
+2018-11-12 11:46:08	+darkwater	this auto-reloads local files
+2018-11-12 11:46:43	+Khorne	Ergo, why not
+2018-11-12 11:52:34	Ergo	it just doesnt do anything , i also saw a recent issue opened in github saying that nvim isnt supported 
+2018-11-12 11:52:38	Ergo	darkwater: i dont use chrome no 
+2018-11-12 11:54:02	Ergo	im trying to set up some different stuff for neovim tho 
+2018-11-12 11:55:30	+Khorne	Ergo, nvim is supported
+2018-11-12 11:55:53	Ergo	might also be that i configured it wrong 
+2018-11-12 11:56:25	+Khorne	Probably
+2018-11-12 11:57:02	+Khorne	https://ptpb.pw/UMZv.png it's definitely working with nvim
+2018-11-12 11:57:15	+Khorne	Have you installed the npm module? instant-markdown-d?
+2018-11-12 11:57:40	Ergo	yee i have 
+2018-11-12 11:57:51	+Khorne	globally?
+2018-11-12 11:58:17	Ergo	i just did this [sudo] npm -g install instant-markdown-d
+2018-11-12 11:58:30	Ergo	without the [] ofcourse 
+2018-11-12 11:58:36	+Khorne	reeee
+2018-11-12 11:59:29	Ergo	i aslo co
+2018-11-12 11:59:56	Ergo	i think i know what i did wrong 
+2018-11-12 12:00:04	+Khorne	?
+2018-11-12 12:00:16	Ergo	prolly copied the after/ftplugin/markdown/instant-markdown.vim to the wrong place 
+2018-11-12 12:00:56	+Khorne	>not using a plugin manager
+2018-11-12 12:01:00	+Khorne	l m a o
+2018-11-12 12:01:04	Ergo	i was 
+2018-11-12 12:01:09	Ergo	3/
+2018-11-12 12:01:24	Ergo	in the process of setting up a plugin manager actually 
+2018-11-12 12:02:58	+Khorne	Also stop installing npm shit into /
+2018-11-12 12:02:59	+Khorne	https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
+2018-11-12 12:03:15	+Khorne	Or use a node version manager
+2018-11-12 12:04:36	Ergo	i was planning on using this - https://github.com/junegunn/vim-plug for the vim plugins 
+2018-11-12 12:04:37	+cappuccino	[ github.com ] GitHub - junegunn/vim-plug: Minimalist Vim Plugin Manager (text/html)
+2018-11-12 12:04:48	<--	NerdyPepper (~NerdyPepp@AFF5AE5D:85CBB917:AEC0D3C1:IP) has quit (Remote host closed the connection)
+2018-11-12 12:05:04	+Khorne	ye
+2018-11-12 12:05:06	+Khorne	Works fine
+2018-11-12 12:05:22	Ergo	just did this to install 
+2018-11-12 12:05:24	Ergo	curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+2018-11-12 12:05:24	Ergo	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+2018-11-12 12:05:28	+cappuccino	[ raw.githubusercontent.com ] " vim-plug: Vim plugin manager " ============================ " " Download plug.vim and put it in ~/.vim/autoload " " curl -f... (text/plain) (22.5KB)
+2018-11-12 12:07:00	Ergo	ah its working 
+2018-11-12 12:11:17	Ergo	the vim_instant_markdown stuff still doesnt do anything tho 
+2018-11-12 12:12:13	<--	Jet (~Jet@Rizon-D1047E1E.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-11-12 12:12:37	+Khorne	the what?
+2018-11-12 12:12:57	Ergo	https://github.com/suan/vim-instant-markdown
+2018-11-12 12:12:58	+cappuccino	[ github.com ] GitHub - suan/vim-instant-markdown: Instant Markdown previews from VIm! (text/html)
+2018-11-12 12:13:14	+Khorne	-v
+2018-11-12 12:13:21	Ergo	maybe its because im using fish instead of bash 
+2018-11-12 12:13:42	+Khorne	You just gotta fix the stuff to use the right stuff instead of the wrong stuff
+2018-11-12 12:13:45	+Khorne	ACtually
+2018-11-12 12:14:07	Ergo	yup
+2018-11-12 12:14:08	Ergo	now it works 
+2018-11-12 12:14:15	+Khorne	Nice
+2018-11-12 12:14:21	+Khorne	Leliana, petition to add http://www.catb.org/~esr/faqs/smart-questions.html to the topic
+2018-11-12 12:14:22	+cappuccino	[ catb.org ] How To Ask Questions The Smart Way (text/html)
+2018-11-12 12:17:11	Ergo	mfw this request was inspired by me 
+2018-11-12 12:17:12	Ergo	:( 
+2018-11-12 12:17:55	+Khorne	Not particularly..too many people phrase questions in a way that is entirely unsuited to give them a proper answer
+2018-11-12 12:18:07	Ergo	dammnit , so the preview window opens but nothing happens 
+2018-11-12 12:18:24	+Khorne	Granted you figured it out by yourself but who's gonna decipher what "the instant_markdown_d stuff isn't working" is supposed to mean?
+2018-11-12 12:19:04	Ergo	Khorne: tbh thats a problem i often have
+2018-11-12 12:19:15	Ergo	i will end up thinking out loud and just typing that
+2018-11-12 12:19:22	Ergo	then finding a solution like 1 minute after typing 
+2018-11-12 12:19:47	Ergo	https://a.pste.pw/MUM.png but ye, this doesnt seem right 
+2018-11-12 12:20:06	-->	ym (~ym@F259C5F2.9EF6A597.34C78F8B.IP) has joined #rice
+2018-11-12 12:20:08	+Khorne	Mh..no
+2018-11-12 12:20:39	Ergo	so the window opens when i open a markdown file but it doesnt render anything when i type into the vim window 
+2018-11-12 12:23:34	<--	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has quit (Quit: I almost certainly didn't mean to do that.)
+2018-11-12 12:23:45	+Khorne	Save
+2018-11-12 12:23:53	Ergo	i already tried that 
+2018-11-12 12:23:56	+Khorne	Mh
+2018-11-12 12:24:05	Ergo	should have mentioned that , whoops 
+2018-11-12 12:24:14	-->	maps (~maps@Rizon-AF96FB91.hsd1.ca.comcast.net) has joined #rice
+2018-11-12 12:24:43	+Khorne	is this vim or nvim?
+2018-11-12 12:25:43	+Khorne	Ergo, maybe this: https://github.com/suan/vim-instant-markdown/issues/41 if your default shell is fish
+2018-11-12 12:25:44	+cappuccino	[ github.com ] not work on Mac OSX Mavericks · Issue #41 · suan/vim-instant-markdown · GitHub (text/html)
+2018-11-12 12:25:45	+Khorne	idk
+2018-11-12 12:26:42	Ergo	thats what i did to get the window to open hmm 
+2018-11-12 12:27:12	Ergo	ah i see
+2018-11-12 12:29:05	+Khorne	I wonder if cleartype in fontconfig is worth checking out
+2018-11-12 12:29:13	<--	blank (~blank@empty.lives) has quit (Ping timeout: 240 seconds)
+2018-11-12 12:34:36	-->	The_Loko (~Julio@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice

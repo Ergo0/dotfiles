@@ -1,0 +1,14 @@
+2018-11-12 11:39:18	-->	Ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #neovim
+2018-11-12 11:39:18	--	Topic for #neovim is "Register with NickServ to talk | Vim fork focused on extensibility and usability -- https://github.com/neovim/neovim -- Help sustain Neovim: https://salt.bountysource.com/teams/neovim -- Gitter: https://gitter.im/neovim/neovim"
+2018-11-12 11:39:18	--	Topic set by jamessan (~jamessan@debian/developer/jamessan) on Thu, 27 Sep 2018 03:36:33
+2018-11-12 11:39:18	--	Channel #neovim: 1046 nicks (0 ops, 0 voices, 1046 normals)
+2018-11-12 11:39:20	--	Channel created on Fri, 31 Jan 2014 17:44:47
+2018-11-12 11:39:27	Ergo-	anyone who could help me with setting up plugins? 
+2018-11-12 11:39:40	Ergo-	https://github.com/junegunn/vim-plug trying to use this 
+2018-11-12 11:40:45	Mattias	Ergo-: vim-plug is good, https://github.com/luan/vimfiles uses that, and has a lot of good stuff from the start. you could extend it with more plugins
+2018-11-12 11:42:12	Ergo-	Mattias: thanks, my main concern right now is getting a markdown preview window working 
+2018-11-12 11:43:32	-->	day0 (~day0@177.128.104.240) has joined #neovim
+2018-11-12 11:56:02	<--	lgc (~weechat@2001:41d0:fe1d:5300:8860:c752:26f:e34e) has quit (Quit: WeeChat 2.3-dev)
+2018-11-12 11:56:22	-->	lgc (~weechat@2001:41d0:fe1d:5300:8860:c752:26f:e34e) has joined #neovim
+2018-11-12 12:30:48	-->	HashMap_ (~HashMap@193.86.125.80) has joined #neovim
+2018-11-12 12:33:42	<--	HashMap (~HashMap@193.86.125.80) has quit (Ping timeout: 245 seconds)

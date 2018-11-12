@@ -2367,3 +2367,56 @@
 2018-11-08 22:14:53		irc: server unix added
 2018-11-09 00:31:12		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
 2018-11-09 00:49:45		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-12 09:26:37		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-12 09:54:11	=!=	Error with command "/server remove unix" (help on command: /help server)
+2018-11-12 09:54:16	=!=	Error with command "/server rdel unix" (help on command: /help server)
+2018-11-12 09:54:22		irc: server unix has been deleted
+2018-11-12 09:55:44		Option changed: weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2018-11-12 09:56:14		Option changed: irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2018-11-12 09:56:30		Option changed: irc.server.freenode.ssl = on  (default if null: off)
+2018-11-12 09:56:38	=!=	irc: already connected to server "freenode"!
+2018-11-12 09:57:20		irc: server rizon has been deleted
+2018-11-12 09:58:27	=!=	Error: option "irc.rizon.net.6697_verify" not found
+2018-11-12 09:58:47	=!=	Error: option "irc.rizon.net.ssl_verify" not found
+2018-11-12 09:59:03	=!=	Error: option "irc.server.rizon.ssl_verify" not found
+2018-11-12 09:59:21	=!=	Error: option "irc.server.irc.rizon.net/6697.ssl_verify" not found
+2018-11-12 10:00:02		irc: server rizon added
+2018-11-12 10:00:10		irc: server rizon has been deleted
+2018-11-12 10:00:15	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2018-11-12 10:00:21		irc: server rizon added
+2018-11-12 10:00:40		Option changed: irc.server.rizon.ssl_verify = on  (default if null: on)
+2018-11-12 10:00:51	=!=	irc: unable to add temporary server "irc.rizon.net/6697" because the addition of temporary servers with command /connect is currently disabled
+2018-11-12 10:00:51	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-12 10:01:01	=!=	irc: unable to add temporary server "irc.rizon.net" because the addition of temporary servers with command /connect is currently disabled
+2018-11-12 10:01:01	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-12 10:02:03		irc: server rizonssl added
+2018-11-12 10:02:56		irc: server rizonssl has been deleted
+2018-11-12 10:03:04	=!=	irc: unable to add temporary server "6697")" because the addition of temporary servers with command /connect is currently disabled
+2018-11-12 10:03:04	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-12 10:03:24	=!=	irc: unable to add temporary server "6697")" because the addition of temporary servers with command /connect is currently disabled
+2018-11-12 10:03:24	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-12 10:03:40	=!=	Error with command "/server disconnect rizon" (help on command: /help server)
+2018-11-12 10:04:57		irc: server rizon has been deleted
+2018-11-12 10:05:06	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2018-11-12 10:05:47	=!=	Error: option "irc.server.rizon.addresses" not found
+2018-11-12 10:06:01	=!=	Option "irc.server.rizon.addresses" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-12 10:06:09	=!=	Option "irc.server.rizon.*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-12 10:06:13	=!=	Option "irc.server.rizon*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2018-11-12 10:06:18		[server] (irc.conf)
+2018-11-12 10:06:18		  irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2018-11-12 10:06:18		1 option (matching with "irc.server.freenode.addresses")
+2018-11-12 10:06:51		irc: server rizon added
+2018-11-12 10:06:55		Option changed: irc.server.rizon.addresses = "irc.rizon.net/6697"  (default if null: "")
+2018-11-12 10:07:05		Option changed: irc.server.rizon.ssl = on  (default if null: off)
+2018-11-12 10:33:46		irc: server scratch added
+2018-11-12 10:34:08	=!=	irc: unable to add temporary server "#RED-invites" because the addition of temporary servers with command /connect is currently disabled
+2018-11-12 10:34:08	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-11-12 10:34:13	=!=	irc: already connected to server "scratch"!
+2018-11-12 11:56:08	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2018-11-12 11:56:12		irc: server unix added
+2018-11-12 12:32:08		irc: server unix has been deleted
+2018-11-12 12:32:22		irc: server unix added
+2018-11-12 12:32:28		Option changed: irc.server.unix.ssl = on  (default if null: off)
+2018-11-12 12:32:54		irc: server unix has been deleted
+2018-11-12 12:32:57		irc: server unix added
+2018-11-12 12:33:00		Option changed: irc.server.unix.ssl = on  (default if null: off)

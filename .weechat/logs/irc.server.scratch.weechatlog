@@ -1,0 +1,26 @@
+2018-11-12 10:33:49	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-12 10:33:50	--	irc: connected to irc.scratch-network.net/6667 (79.137.39.214)
+2018-11-12 10:33:50	--	victoria.scratch-network.net: *** Looking up your hostname...
+2018-11-12 10:33:50	--	victoria.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-12 10:33:50	--	victoria.scratch-network.net: Welcome to Scratch-Network!
+2018-11-12 10:33:50	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-12 10:33:50	--	Your host is victoria.scratch-network.net, running version InspIRCd-2.0
+2018-11-12 10:33:50	--	This server was created 00:32:02 Aug 28 2017
+2018-11-12 10:33:50	--	victoria.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-12 10:33:50	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-12 10:33:50	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-12 10:33:50	--	SECURELIST SILENCE=32 SSL=79.137.39.214:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-12 10:33:50	--	590AFCMHY :your unique ID
+2018-11-12 10:33:50	--	victoria.scratch-network.net message of the day
+2018-11-12 10:33:50	--	End of message of the day.
+2018-11-12 10:33:50	--	There are 877 users and 573 invisible on 8 servers
+2018-11-12 10:33:50	--	11 :operator(s) online
+2018-11-12 10:33:50	--	474 :channels formed
+2018-11-12 10:33:50	--	I have 516 clients and 1 servers
+2018-11-12 10:33:50	--	Current Local Users: 516  Max: 722
+2018-11-12 10:33:50	--	Current Global Users: 1450  Max: 1620
+2018-11-12 10:33:50	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-12 10:33:50	--	User mode [+x] by Ergo
+2018-11-12 10:33:59	--	You are now known as ergo7z
+2018-11-12 10:35:43	--	CTCP requested by Gatekeeper: VERSION
+2018-11-12 10:35:43	--	CTCP reply to Gatekeeper: VERSION WeeChat 1.9.1 (Nov  5 2018)

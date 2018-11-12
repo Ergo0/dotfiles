@@ -302,3 +302,27 @@
 2018-11-08 16:08:46	john_cephalopoda	(Digital -> also sliding caliper but with a digital display)
 2018-11-08 16:09:16	john_cephalopoda	pedja: Good question. And will Rust go away when you load the WD-40 website?
 2018-11-08 16:10:04	SiFuh	My Uncle had a rusted bowie knife. I heated it up in the fire until it was glowing red. I then quickly cooled the tip and slowly cooled the blade. It turned out the blue in colour when I was finished and after I sharpened it my Uncle saw it and was imporessed. He still carries it to this day with him.
+2018-11-12 11:02:17	-->	Ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-12 11:02:17	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-12 11:02:17	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-12 11:02:17	--	Channel #crux: 48 nicks (4 ops, 0 voices, 44 normals)
+2018-11-12 11:02:17	--	URL for #crux: http://crux.nu
+2018-11-12 11:02:19	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-12 11:04:00	pedja	frinnst, iirc you mentioned once that you watched NatGeo series Mars? if so, is it any good? S2 started
+2018-11-12 11:06:17	Ergo-	https://bpaste.net/show/0f620e15c88e anyone who has a clue while the build of nodejs is failing? 
+2018-11-12 11:09:02	pedja	Ergo-, there is a nodejs port in opt
+2018-11-12 11:09:38	Ergo-	pedja: i am aware but that comes without nodejs
+2018-11-12 11:09:43	Ergo-	i mean without npm 
+2018-11-12 11:09:56	Ergo-	so i wanted to try this one, guess i will just edit the port for npm
+2018-11-12 11:11:03	pedja	just remove '--without-npm' from it
+2018-11-12 11:11:07	@frinnst	pedja: yeah i liked s01
+2018-11-12 11:11:33	pedja	great :) added to the playlist. thanks
+2018-11-12 11:13:35	pedja	Romster, why are you disabling npm in nodejs port, anyway?
+2018-11-12 11:14:01	Ergo-	i just copied it over to my own repo and removed the flag 
+2018-11-12 11:14:55	pedja	yup, that's what I did, too. nodejs is kind of useless for me without npm
+2018-11-12 11:15:27	Ergo-	where is the pedja ports repo on the site hmmm 
+2018-11-12 11:15:51	pedja	portdb? never applied to it
+2018-11-12 11:16:54	pedja	majority of my ports is useless crap no one but me is interested in, anyway :)
+2018-11-12 11:17:13	Ergo-	loll 
+2018-11-12 11:17:19	Ergo-	can i have a peek 
+2018-11-12 11:17:21	Ergo-	im curious now 
