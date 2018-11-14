@@ -1831,3 +1831,198 @@
 2018-11-13 00:56:52	--	MSG(NickServ): identify **********
 2018-11-13 00:56:52	--	User mode [+r] by Ergo
 2018-11-13 00:56:52	--	NickServ (service@rizon.net): Password accepted - you are now recognized.
+2018-11-13 10:03:38	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-11-13 10:03:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-13 10:03:38	--	gnutls: receiving 2 certificates
+2018-11-13 10:03:38	--	 - certificate[1] info:
+2018-11-13 10:03:38	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-11-13 10:03:38	--	 - certificate[2] info:
+2018-11-13 10:03:38	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-13 10:03:38	--	gnutls: peer's certificate is trusted
+2018-11-13 10:03:38	--	irc: connected to irc.rizon.net/6697 (35.187.100.28)
+2018-11-13 10:03:38	--	irc.x2x.cc: *** Looking up your hostname...
+2018-11-13 10:03:38	--	irc.x2x.cc: *** Found your hostname
+2018-11-13 10:03:38	--	irc.x2x.cc: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2018-11-13 10:03:38	--	irc.x2x.cc: *** Your host is masked (Rizon-655F8092.ip.xs4all.nl)
+2018-11-13 10:03:38	--	Welcome to the Rizon Internet Relay Chat Network Ergo
+2018-11-13 10:03:38	--	Your host is irc.x2x.cc, running version plexus-4(hybrid-8.1.20)
+2018-11-13 10:03:38	--	This server was created Sep 19 2017 at 19:10:00
+2018-11-13 10:03:38	--	irc.x2x.cc plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+2018-11-13 10:03:38	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+2018-11-13 10:03:38	--	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz NAMESX UHNAMES ELIST=CMNTU SAFELIST AWAYLEN=180 WATCH=60 KNOCK :are supported by this server
+2018-11-13 10:03:38	--	There are 21 users and 13686 invisible on 20 servers
+2018-11-13 10:03:38	--	63 :IRC Operators online
+2018-11-13 10:03:38	--	11157 :channels formed
+2018-11-13 10:03:38	--	I have 13707 clients and 20 servers
+2018-11-13 10:03:38	--	Current local users: 13707  Max: 19437
+2018-11-13 10:03:38	--	Current global users: 13707  Max: 19437
+2018-11-13 10:03:38	--	- irc.x2x.cc Message of the Day -
+2018-11-13 10:03:38	--	-          oo                            
+2018-11-13 10:03:38	--	-
+2018-11-13 10:03:38	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2018-11-13 10:03:38	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2018-11-13 10:03:38	--	- 88       88  .Y8P    88.  .88 88    88 
+2018-11-13 10:03:38	--	- dP       dP d888888P `88888P' dP    dP
+2018-11-13 10:03:38	--	-
+2018-11-13 10:03:38	--	- Rizon Chat Network -- http://rizon.net
+2018-11-13 10:03:38	--	-
+2018-11-13 10:03:38	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2018-11-13 10:03:38	--	-
+2018-11-13 10:03:38	--	- Rules:
+2018-11-13 10:03:38	--	- o No spamming or flooding
+2018-11-13 10:03:38	--	- o No clones or malicious bots
+2018-11-13 10:03:38	--	- o No takeovers
+2018-11-13 10:03:38	--	- o No distribution of child pornography
+2018-11-13 10:03:38	--	- o Clients must respond to VERSION requests
+2018-11-13 10:03:38	--	- o Rizon staff may disconnect clients for any or no reason
+2018-11-13 10:03:38	--	-
+2018-11-13 10:03:38	--	- First steps:
+2018-11-13 10:03:38	--	- o To register your nick: /msg NickServ HELP
+2018-11-13 10:03:38	--	- o To register your channel: /msg ChanServ HELP
+2018-11-13 10:03:38	--	- o To get a vHost: /msg HostServ HELP REQUEST
+2018-11-13 10:03:38	--	- o For other help with Rizon: /join #help
+2018-11-13 10:03:38	--	-
+2018-11-13 10:03:38	--	- Usage of this network is a privilege, not a right. Rizon is a
+2018-11-13 10:03:38	--	- transit provider, therefore no person or entity involved with
+2018-11-13 10:03:38	--	- *.rizon.net or irc.x2x.cc takes any responsibility for
+2018-11-13 10:03:38	--	- users' actions. Absolutely no warranty is expressed or implied.
+2018-11-13 10:03:38	--	End of /MOTD command.
+2018-11-13 10:03:38	--	User mode [+Six] by Ergo
+2018-11-13 10:03:38	--	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2018-11-13 10:03:38	--	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2018-11-13 10:03:38	--	Global (service@rizon.net): [Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+2018-11-13 10:03:38	--	NickServ (service@rizon.net): This nickname is registered and protected. If it is your
+2018-11-13 10:03:38	--	NickServ (service@rizon.net): nick, type /msg NickServ IDENTIFY password. Otherwise,
+2018-11-13 10:03:38	--	NickServ (service@rizon.net): please choose a different nick.
+2018-11-13 10:03:38	--	CTCP requested by py-ctcp: VERSION
+2018-11-13 10:03:38	--	CTCP reply to py-ctcp: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-13 10:03:55	--	MSG(NickServ): identify **********
+2018-11-13 10:03:55	--	NickServ (service@rizon.net): Password incorrect.
+2018-11-13 10:04:01	--	MSG(NickServ): identify **********
+2018-11-13 10:04:01	--	User mode [+r] by Ergo
+2018-11-13 10:04:01	--	NickServ (service@rizon.net): Password accepted - you are now recognized.
+2018-11-14 10:12:16	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-11-14 10:12:16	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-14 10:12:16	--	gnutls: receiving 2 certificates
+2018-11-14 10:12:16	--	 - certificate[1] info:
+2018-11-14 10:12:16	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x037d466d152d71b73f15a8b4376d9770a6f6, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-02 20:03:21 UTC', expires `2018-12-31 20:03:21 UTC', pin-sha256="LUDqLYiVunjl7tp3Zy0sl+Mgs8QzyigLcmcbrUGa4u0="
+2018-11-14 10:12:16	--	 - certificate[2] info:
+2018-11-14 10:12:16	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-14 10:12:16	--	gnutls: peer's certificate is trusted
+2018-11-14 10:12:16	--	irc: connected to irc.rizon.net/6697 (31.204.150.217)
+2018-11-14 10:12:16	--	irc.destiny.vision: *** Looking up your hostname...
+2018-11-14 10:12:16	--	irc.destiny.vision: *** Checking Ident
+2018-11-14 10:12:16	--	irc.destiny.vision: *** Found your hostname
+2018-11-14 10:12:17	--	irc.destiny.vision: *** No Ident response
+2018-11-14 10:12:17	--	irc.destiny.vision: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2018-11-14 10:12:17	--	irc.destiny.vision: *** Your host is masked (Rizon-655F8092.ip.xs4all.nl)
+2018-11-14 10:12:17	--	Welcome to the Rizon Internet Relay Chat Network Ergo
+2018-11-14 10:12:17	--	Your host is irc.destiny.vision, running version plexus-4(hybrid-8.1.20)
+2018-11-14 10:12:17	--	This server was created Feb  1 2018 at 23:04:26
+2018-11-14 10:12:17	--	irc.destiny.vision plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+2018-11-14 10:12:17	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+2018-11-14 10:12:17	--	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz WATCH=60 ELIST=CMNTU SAFELIST KNOCK AWAYLEN=180 NAMESX UHNAMES :are supported by this server
+2018-11-14 10:12:17	--	There are 22 users and 13405 invisible on 20 servers
+2018-11-14 10:12:17	--	62 :IRC Operators online
+2018-11-14 10:12:17	--	4 :unknown connection(s)
+2018-11-14 10:12:17	--	11123 :channels formed
+2018-11-14 10:12:17	--	I have 13427 clients and 20 servers
+2018-11-14 10:12:17	--	Current local users: 13427  Max: 15564
+2018-11-14 10:12:17	--	Current global users: 13427  Max: 15564
+2018-11-14 10:12:17	--	- irc.destiny.vision Message of the Day -
+2018-11-14 10:12:17	--	-          oo                            
+2018-11-14 10:12:17	--	-
+2018-11-14 10:12:17	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2018-11-14 10:12:17	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2018-11-14 10:12:17	--	- 88       88  .Y8P    88.  .88 88    88 
+2018-11-14 10:12:17	--	- dP       dP d888888P `88888P' dP    dP
+2018-11-14 10:12:17	--	-
+2018-11-14 10:12:17	--	- Rizon Chat Network -- http://rizon.net
+2018-11-14 10:12:17	--	-
+2018-11-14 10:12:17	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2018-11-14 10:12:17	--	-
+2018-11-14 10:12:17	--	- Rules:
+2018-11-14 10:12:17	--	- o No spamming or flooding
+2018-11-14 10:12:17	--	- o No clones or malicious bots
+2018-11-14 10:12:17	--	- o No takeovers
+2018-11-14 10:12:17	--	- o No distribution of child pornography
+2018-11-14 10:12:17	--	- o Clients must respond to VERSION requests
+2018-11-14 10:12:17	--	- o Rizon staff may disconnect clients for any or no reason
+2018-11-14 10:12:17	--	-
+2018-11-14 10:12:17	--	- First steps:
+2018-11-14 10:12:17	--	- o To register your nick: /msg NickServ HELP
+2018-11-14 10:12:17	--	- o To register your channel: /msg ChanServ HELP
+2018-11-14 10:12:17	--	- o To get a2018-11-14 10:16:13	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-11-14 10:16:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-14 10:16:13	--	gnutls: receiving 2 certificates
+2018-11-14 10:16:13	--	 - certificate[1] info:
+2018-11-14 10:16:13	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-11-14 10:16:13	--	 - certificate[2] info:
+2018-11-14 10:16:13	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-14 10:16:13	--	gnutls: peer's certificate is trusted
+2018-11-14 10:16:13	--	irc: connected to irc.rizon.net/6697 (35.187.100.28)
+2018-11-14 10:16:13	--	irc.x2x.cc: *** Looking up your hostname...
+2018-11-14 10:16:13	--	irc.x2x.cc: *** Found your hostname
+2018-11-14 10:16:13	--	irc: nickname "Ergo" is already in use, trying nickname "ronin7z"
+2018-11-14 10:16:13	--	irc.x2x.cc: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2018-11-14 10:16:13	--	irc.x2x.cc: *** Your host is masked (Rizon-655F8092.ip.xs4all.nl)
+2018-11-14 10:16:13	--	Welcome to the Rizon Internet Relay Chat Network ronin7z
+2018-11-14 10:16:13	--	Your host is irc.x2x.cc, running version plexus-4(hybrid-8.1.20)
+2018-11-14 10:16:13	--	This server was created Sep 19 2017 at 19:10:00
+2018-11-14 10:16:13	--	irc.x2x.cc plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+2018-11-14 10:16:13	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+2018-11-14 10:16:13	--	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz NAMESX UHNAMES ELIST=CMNTU SAFELIST AWAYLEN=180 WATCH=60 KNOCK :are supported by this server
+2018-11-14 10:16:13	--	There are 22 users and 13404 invisible on 20 servers
+2018-11-14 10:16:13	--	62 :IRC Operators online
+2018-11-14 10:16:13	--	3 :unknown connection(s)
+2018-11-14 10:16:13	--	11122 :channels formed
+2018-11-14 10:16:13	--	I have 13426 clients and 20 servers
+2018-11-14 10:16:13	--	Current local users: 13426  Max: 19437
+2018-11-14 10:16:13	--	Current global users: 13426  Max: 19437
+2018-11-14 10:16:13	--	- irc.x2x.cc Message of the Day -
+2018-11-14 10:16:13	--	-          oo                            
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2018-11-14 10:16:13	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2018-11-14 10:16:13	--	- 88       88  .Y8P    88.  .88 88    88 
+2018-11-14 10:16:13	--	- dP       dP d888888P `88888P' dP    dP
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Rizon Chat Network -- http://rizon.net
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Rules:
+2018-11-14 10:16:13	--	- o No spamming or flooding
+2018-11-14 10:16:13	--	- o No clones or malicious bots
+2018-11-14 10:16:13	--	- o No takeovers
+2018-11-14 10:16:13	--	- o No distribution of child pornography
+2018-11-14 10:16:13	--	- o Clients must respond to VERSION requests
+2018-11-14 10:16:13	--	- o Rizon staff may disconnect clients for any or no reason
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- First steps:
+2018-11-14 10:16:13	--	- o To register your nick: /msg NickServ HELP
+2018-11-14 10:16:13	--	- o To register your channel: /msg ChanServ HELP
+2018-11-14 10:16:13	--	- o To get a vHost: /msg HostServ HELP REQUEST
+2018-11-14 10:16:13	--	- o For other help with Rizon: /join #help
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Usage of this network is a privilege, not a right. Rizon is a
+2018-11-14 10:16:13	--	- transit provider, therefore no person or entity involved with
+2018-11-14 10:16:13	--	- *.rizon.net or irc.x2x.cc takes any responsibility for
+2018-11-14 10:16:13	--	- users' actions. Absolutely no warranty is expressed or implied.
+2018-11-14 10:16:13	--	End of /MOTD command.
+2018-11-14 10:16:13	--	User mode [+Six] by ronin7z
+2018-11-14 10:16:13	--	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2018-11-14 10:16:13	--	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2018-11-14 10:16:13	--	Global (service@rizon.net): [Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+2018-11-14 10:16:13	--	NickServ (service@rizon.net): This nickname is registered and protected. If it is your
+2018-11-14 10:16:13	--	NickServ (service@rizon.net): nick, type /msg NickServ IDENTIFY password. Otherwise,
+2018-11-14 10:16:13	--	NickServ (service@rizon.net): please choose a different nick.
+2018-11-14 10:16:13	--	CTCP requested by py-ctcp: VERSION
+2018-11-14 10:16:13	--	CTCP reply to py-ctcp: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-14 10:18:12	--	You are now known as ergo
+2018-11-14 10:18:12	--	NickServ (service@rizon.net): This nickname is registered and protected. If it is your
+2018-11-14 10:18:12	--	NickServ (service@rizon.net): nick, type /msg NickServ IDENTIFY password. Otherwise,
+2018-11-14 10:18:12	--	NickServ (service@rizon.net): please choose a different nick.
+2018-11-14 10:18:20	--	MSG(NicKServ): identify **********
+2018-11-14 10:18:20	--	User mode [+r] by ergo
+2018-11-14 10:18:20	--	NickServ (service@rizon.net): Password accepted - you are now recognized.

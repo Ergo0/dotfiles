@@ -1,0 +1,19 @@
+# panel config
+
+. ~/.theme/colors
+
+height=30
+
+a='#e9dbce'
+b='#55565b'
+c='#e9dbce'
+
+foreground='#303139'
+background='#e9dbce'
+
+font="-lucy-tewi-medium-r-normal-*-11-90-100-100-c-60-iso10646-1"
+icons="-wuncon-siji-medium-r-normal-*-10-100-75-75-c-80-iso10646-1"
+
+
+# vim: ft=sh
+

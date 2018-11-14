@@ -828,3 +828,562 @@
 2018-11-13 00:56:33	--	Channel #crux: 48 nicks (4 ops, 0 voices, 44 normals)
 2018-11-13 00:56:33	--	URL for #crux: http://crux.nu
 2018-11-13 00:56:35	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-13 01:07:45	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul.)
+2018-11-13 01:35:52	<--	pankerini (~pankerini@189.230.162.160) has quit (Ping timeout: 240 seconds)
+2018-11-13 01:41:21	-->	pankerini (~pankerini@189.230.162.160) has joined #crux
+2018-11-13 01:46:00	-->	emmett1 (~emmett1@218.111.12.216) has joined #crux
+2018-11-13 01:54:58	<--	emmett1 (~emmett1@218.111.12.216) has quit (Ping timeout: 245 seconds)
+2018-11-13 03:11:09	-->	elderK (uid205007@pdpc/supporter/active/elderk) has joined #crux
+2018-11-13 10:18:35	-->	Ergo0 (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-13 10:18:35	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-13 10:18:35	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-13 10:18:35	--	Channel #crux: 49 nicks (4 ops, 0 voices, 45 normals)
+2018-11-13 10:18:35	--	URL for #crux: http://crux.nu
+2018-11-13 10:18:37	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-13 10:19:42	joacim	gotta be it
+2018-11-13 10:19:54	joacim	i know i like to finish my drink before i go to the next one
+2018-11-13 10:20:48	john_cephalopoda	Traveling pub-customer problem?
+2018-11-13 10:26:09	joacim	yeh. 404 problems =)
+2018-11-13 10:26:11	ryuo	https://www.globalscaletechnologies.com/p-79-v7-marvell-espressobin.aspx
+2018-11-13 10:26:27	ryuo	i heard this just launched.
+2018-11-13 10:27:08	ryuo	it seems suitable for homebrew routers or other network equipment.
+2018-11-13 10:58:39	joacim	decent price. does it come with a case?
+2018-11-13 10:58:57	-->	abenz (~abenz@unaffiliated/abenz) has joined #crux
+2018-11-13 11:01:59	@frinnst	joacim: I only added it to the portdb listing, sry
+2018-11-13 11:02:06	<--	emmett1 (~emmett1@2001:e68:7400:0:34d:f788:eb46:6586) has quit (Remote host closed the connection)
+2018-11-13 11:02:23	@frinnst	1 sec
+2018-11-13 11:03:42	@frinnst	fixed
+2018-11-13 11:33:15	joacim	np. thanks =)
+2018-11-13 12:00:59	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul. They lurk everywhere.)
+2018-11-13 12:14:06	-->	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-13 12:18:02	joacim	frinnst: you uploaded githubs' html blob, not the raw text file
+2018-11-13 12:19:27	joacim	https://raw.githubusercontent.com/joacimot/CRUX-Ports/master/joacim.pub
+2018-11-13 12:23:29	john_cephalopoda	Didn't somebody once work on making the portdb more informative?
+2018-11-13 12:23:42	john_cephalopoda	(By listing the version of the packages etc).
+2018-11-13 12:23:57	joacim	yeah. forgot who that was. dont think it is hosted anywhere anymore
+2018-11-13 12:24:23	john_cephalopoda	Was it jaeger?
+2018-11-13 12:24:29	joacim	dont think it was
+2018-11-13 12:25:17	john_cephalopoda	Hmm. How is the portdb generated anyway? Couldn't the database be restructured to simply read out the package version?
+2018-11-13 12:25:35	joacim	would be nice with categories too. so it was more visible which were official, contrib, and pure user contributed repositories
+2018-11-13 12:27:09	john_cephalopoda	That might be a useful addition although it isn't that hard to find out, a look in the "Collection" column is enough.
+2018-11-13 12:33:24	<--	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul. They lurk everywhere.)
+2018-11-13 14:16:00	-->	john_cephalopoda (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-13 14:24:37	-->	graf_zahl (~herbert@dyndsl-031-150-211-007.ewe-ip-backbone.de) has joined #crux
+2018-11-13 15:02:01	graf_zahl	fresh install crux 3.4; ports system is set up; prt-get sysup --prefer-higher bails out when upgrading rust; has someone made the same observation?
+2018-11-13 15:03:04	@frinnst	quite possible that new dependencies were added during the lifetime. Don't remember
+2018-11-13 15:03:22	@frinnst	try running prt-get depinst $(prt-get quickdep rust)
+2018-11-13 15:03:51	@frinnst	firefox-bin has also been added after the 3.4 release. easier on the dependencies (no clang, rust deps)
+2018-11-13 15:04:24	@frinnst	firefox and thunderbird will be replaced by the binary versions for the next release of those programs
+2018-11-13 15:05:29	Anselmo	neato
+2018-11-13 15:06:00	graf_zahl	thanks for the advice, I will try it out; because it's a slow machine it will last about 5 hours :(
+2018-11-13 15:06:04	Anselmo	but silly that thats needed x-x
+2018-11-13 15:06:29	graf_zahl	nice to hear about those binary versions
+2018-11-13 15:06:33	@frinnst	if you just want firefox then I'd recommend installing firefox-bin instead
+2018-11-13 15:06:50	@frinnst	nodejs dependency was my breakingpoint for firefox
+2018-11-13 15:06:53	Anselmo	you can use lock also, to tell prt-get tp not update certain packages
+2018-11-13 15:07:17	@frinnst	also rust is a mess. thunderbird fails to build with new rust versions
+2018-11-13 15:07:26	Anselmo	wat
+2018-11-13 15:07:31	graf_zahl	@Anselmo good to know
+2018-11-13 15:08:23	@frinnst	https://lists.crux.nu/pipermail/crux/2018-October/005958.html
+2018-11-13 15:08:33	@frinnst	^^ regarding firefox/firefox-bin
+2018-11-13 15:09:52	graf_zahl	firefox-bin... that sounds good (compiling-wise)
+2018-11-13 15:10:19	@frinnst	only downside is that it requires pulseaudio if you want audio support
+2018-11-13 15:10:29	@frinnst	but pulse is quite nice these days
+2018-11-13 15:10:40	@frinnst	(never thought i'd ever say that)
+2018-11-13 15:11:20	Anselmo	ha
+2018-11-13 15:11:38	graf_zahl	perhaps I should give pulseaudio another try...
+2018-11-13 15:12:28	@frinnst	using it on rhel 6 back in the day was *not* a nice experience
+2018-11-13 15:13:37	graf_zahl	on gentoo it hosed my audio setup for blender, if I remember right
+2018-11-13 15:14:11	Anselmo	I've also not had a web browser with working audio in years and am perfectly happy ^_^
+2018-11-13 15:15:32	graf_zahl	no youtube-afficionado?? ;)
+2018-11-13 15:18:43	Anselmo	I occasionally download yt links that people send me, but often not :P
+2018-11-13 15:18:51	Anselmo	youtube-dl is more than sufficient though
+2018-11-13 15:19:22	graf_zahl	you are absolutely right
+2018-11-13 15:24:45	graf_zahl	oh ah I must leave! many thanks for the insights hasta la vista
+2018-11-13 15:24:52	<--	graf_zahl (~herbert@dyndsl-031-150-211-007.ewe-ip-backbone.de) has quit (Quit: Leaving)
+2018-11-13 15:24:52	Anselmo	ciao graf_zahl
+2018-11-13 15:24:55	Anselmo	o
+2018-11-13 16:16:35	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 16:16:37	ergo-	ls
+2018-11-13 16:16:55	ergo-	i should be able to optinrun WINEPREFIX=~/blabla right?
+2018-11-13 16:19:51	joacim	might need the WINEPREFIX stuff first
+2018-11-13 16:19:57	joacim	idk
+2018-11-13 16:20:26	ergo-	ohh right
+2018-11-13 16:22:27	ergo-	gonna try that
+2018-11-13 16:25:05	-->	TheCephalopod (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-13 16:27:06	<--	guido_rokepo (~Thunderbi@83-103-31-21.ip.fastwebnet.it) has quit (Remote host closed the connection)
+2018-11-13 16:27:20	@jaeger	joacim, john_cephalopoda: there was one a while back that I think was made by nrxtx? I can't remember exactly... but I made my own more recently than that
+2018-11-13 16:59:22	joacim	windows 10 installer bsods in qemu if i use a cpu selection similar to my cpu :(
+2018-11-13 16:59:34	joacim	works when i "downgrade" to c2d
+2018-11-13 17:00:55	<--	elderK (uid205007@pdpc/supporter/active/elderk) has quit (Quit: Connection closed for inactivity)
+2018-11-13 17:04:33	-->	pankerini (~pankerini@189.230.162.160) has joined #crux
+2018-11-13 17:09:59	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Ping timeout: 245 seconds)
+2018-11-13 17:12:31	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 17:12:47	ergo-	did mu last message sent? about /etc/security/limits.conf?
+2018-11-13 17:13:39	Anselmo	no dont think so
+2018-11-13 17:13:53	ergo-	well i was looking at this https://github.com/lutris/lutris/wiki/How-to:-Esync
+2018-11-13 17:14:03	ergo-	but i cant find /etc/security/limits.conf on my system
+2018-11-13 17:14:49	ergo-	or is it a file i should make myself
+2018-11-13 17:15:11	@jaeger	That's a PAM file and CRUX doesn't use PAM
+2018-11-13 17:15:22	Anselmo	in linux-pam there is a file of that name
+2018-11-13 17:15:23	joacim	there is linux-pam from contrib tho
+2018-11-13 17:15:33	ergo-	would you know of any way for me to accomplish the same?
+2018-11-13 17:15:38	ergo-	ah i guess downloading linux-pam?
+2018-11-13 17:15:47	joacim	but i provide no warranties if your system breaks =)
+2018-11-13 17:15:52	@jaeger	I would not recommend installing PAM unless you know what you're doing
+2018-11-13 17:15:59	@jaeger	It can touch a lot of other software
+2018-11-13 17:16:09	ergo-	but muh fps in overwatch :(
+2018-11-13 17:16:30	joacim	i wonder. would gpu passthrough work on such a laptop?
+2018-11-13 17:16:35	ergo-	probably
+2018-11-13 17:16:42	ergo-	was thinking of setting that up actually
+2018-11-13 17:16:48	ergo-	but im not sure if my gpu is strong enough
+2018-11-13 17:17:07	ergo-	jaeger: have you used this package before?
+2018-11-13 17:19:04	@jaeger	I have not
+2018-11-13 17:19:12	@jaeger	well, if you mean lutris
+2018-11-13 17:19:25	pedja	joacim, https://www.berrange.com/posts/2018/06/29/cpu-model-configuration-for-qemu-kvm-on-x86-hosts/
+2018-11-13 17:22:49	ergo-	jaeger: nope not lutris
+2018-11-13 17:22:52	ergo-	i meant linux-pam
+2018-11-13 17:22:59	@jaeger	I have in the past. Not recently
+2018-11-13 17:23:11	ergo-	is it a break your system risk
+2018-11-13 17:23:18	ergo-	or steal your files risk
+2018-11-13 17:24:41	@jaeger	more the former but you could make it the latter if you configure something wrong
+2018-11-13 17:38:23	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-13 17:42:32	<--	TheCephalopod (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Quit: Trees can see into your soul. They lurk everywhere.)
+2018-11-13 17:47:51	pedja	isn't using PAM on 'MAYBE' list for Crux for a while now? but no one volunteered to do the work :)?
+2018-11-13 17:48:26	@jaeger	I did the work some time ago, not sure if I still have those ports around
+2018-11-13 17:49:12	pedja	is the upstream config usable ootb, or it requires tweaking?
+2018-11-13 17:49:39	@jaeger	I don't recall the details but I think it needed tweaking
+2018-11-13 17:49:59	pedja	never really played with it
+2018-11-13 17:51:59	pedja	it just works on distributions I run in a VM. and FreeBSD, iirc
+2018-11-13 17:53:39	@jaeger	I had to fix PAM issues at work just recently
+2018-11-13 17:55:58	@jaeger	hey, I found them - https://crux.nu/~jaeger/pamports/
+2018-11-13 17:56:10	@jaeger	nearly 5 years old so don't assume they work still :)
+2018-11-13 18:00:53	pedja	'PAM Mastery' might come in handy :)
+2018-11-13 18:03:41	pedja	is PAM required to use smart card auth with ssh or?
+2018-11-13 18:07:20	@jaeger	probably so. and for things like yubikeys
+2018-11-13 18:07:26	@jaeger	and for some software like lightdm
+2018-11-13 18:17:38	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 18:17:45	ergo-	jaeger: did you manage to get bnet working btw?
+2018-11-13 18:18:00	ergo-	cause it seems like im missing some dependencies, since i cant login
+2018-11-13 18:20:34	@jaeger	no, I haven't been able to
+2018-11-13 18:27:28	ergo-	jaeger: im trying to check for devs, https://github.com/lutris/lutris/wiki/Game:-Blizzard-App
+2018-11-13 18:27:49	ergo-	deps*
+2018-11-13 18:27:57	ergo-	maybe you can spot some that are missing quickly
+2018-11-13 18:28:02	ergo-	missing on a basic crux install that is
+2018-11-13 18:36:11	<--	pankerini (~pankerini@189.230.162.160) has quit (Ping timeout: 268 seconds)
+2018-11-13 18:44:42	joacim	https://www.youtube.com/watch?v=PH-2FfFD2PU
+2018-11-13 18:45:11	ergo-	lolll
+2018-11-13 18:45:15	joacim	his writing is mirrored
+2018-11-13 18:46:55	-->	TheCephalopod (~john@unaffiliated/john-cephalopoda/x-6407167) has joined #crux
+2018-11-13 18:48:36	<--	TheCephalopod (~john@unaffiliated/john-cephalopoda/x-6407167) has quit (Client Quit)
+2018-11-13 19:02:33	-->	onodera (~onodera@2001:980:e682:1:c327:64c4:38c6:3428) has joined #crux
+2018-11-13 19:13:39	-->	pankerini (~pankerini@189.230.173.45) has joined #crux
+2018-11-13 19:16:06	cruxbot	[core.git/3.4]: iptables: update to 1.8.2
+2018-11-13 19:17:06	cruxbot	[opt.git/3.4]: nano: update to 1.8.2
+2018-11-13 19:27:23	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-13 20:01:28	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 20:01:34	ergo-	anyone who has set up gpu passthrough with crux before?
+2018-11-13 20:05:28	cruxbot	[opt.git/3.4]: libjpeg-turbo: updated to 2.0.1
+2018-11-13 20:08:36	Anselmo	just for wine, ergo ?
+2018-11-13 20:08:46	ergo-	Anselmo: no because i cant get OW to work lol
+2018-11-13 20:08:59	ergo-	or the game works, but i cant use the launcher so i can only play on NA servers
+2018-11-13 20:11:16	Anselmo	or, I have done some passthrough stuff, but with xen
+2018-11-13 20:11:25	Anselmo	and qemu,
+2018-11-13 20:11:34	Anselmo	but the latter not in a while,
+2018-11-13 20:12:31	Anselmo	wait, are you able to hand the entire display over to the <whatever> you're trying to passthrough too ? if the host system's using it then you can't passthrough usually,
+2018-11-13 20:12:44	ergo-	i would use my igpu
+2018-11-13 20:12:49	ergo-	and maybe use something liek looking glass
+2018-11-13 20:13:00	ergo-	i think there is a way to switch the display between gpus as well
+2018-11-13 20:13:01	ergo-	but im not sure
+2018-11-13 20:13:05	ergo-	never done it on a laptop before
+2018-11-13 20:15:30	joacim	i did it with crux before. kvm and qemu
+2018-11-13 20:15:49	joacim	this was when the issues with ryzen and threadripper hadnt been fixed yet, so it wasn't very useful for me
+2018-11-13 20:15:55	ergo-	yee makes sense
+2018-11-13 20:15:56	ergo-	honestly
+2018-11-13 20:16:03	ergo-	if i can get the bnetlauncher to work
+2018-11-13 20:16:05	ergo-	im completely fine
+2018-11-13 20:18:17	@jaeger	I did passthrough on a haswell and later a skylake system, worked well... but I think that's a lot of effort just to play OW
+2018-11-13 20:18:24	Anselmo	typically internal and external graphics cards have different output plugs,
+2018-11-13 20:18:49	joacim	dont think laptops are like that. they do some kind of internal switching
+2018-11-13 20:19:21	Anselmo	ah, I was assuming this was a desktop system, perhaps wrongly
+2018-11-13 20:19:27	@jaeger	passthrough will NOT work on a laptop that uses a '3D controller' type GPU instead of a real discrete one
+2018-11-13 20:19:53	ergo-	qwll
+2018-11-13 20:20:18	ergo-	im just gonna be installing a ton of deps , hoping i magically find the dep needed to get bnet to work
+2018-11-13 20:21:14	-->	Slack4LS (~Slack4LS@177.27.219.176) has joined #crux
+2018-11-13 20:22:22	Anselmo	best of luck
+2018-11-13 20:30:48	-->	kujira (~no1@mobile-166-170-43-229.mycingular.net) has joined #crux
+2018-11-13 20:38:56	ergo-	is no vulkan on primus a crux or a nvidia thing ?
+2018-11-13 20:39:03	ergo-	i assume the latter right
+2018-11-13 20:39:21	joacim	i assume an nvidia thing
+2018-11-13 20:39:40	joacim	as vulkan works just fine if your card is supported by amdgpu or intel drivers
+2018-11-13 20:39:54	joacim	newer than sandy bridge is supported by intel
+2018-11-13 20:40:41	ergo-	unlucky then
+2018-11-13 20:40:45	ergo-	that nvidia is shitty
+2018-11-13 20:41:49	pedja	what do you mean? vulkan works fine on nvidia
+2018-11-13 20:42:08	ergo-	it does normally ye
+2018-11-13 20:42:16	ergo-	but doesnt for primus/dualgpu
+2018-11-13 20:42:22	ergo-	optimus*
+2018-11-13 20:42:36	pedja	ah. well, that whole another issue
+2018-11-13 20:42:51	pedja	that's*
+2018-11-13 20:44:16	ergo-	https://github.com/Witko/nvidia-xrun
+2018-11-13 20:44:18	ergo-	gonna try this
+2018-11-13 20:45:23	ergo-	i will make a port of it if it works
+2018-11-13 20:46:20	@jaeger	yeah, it's not crux-specific
+2018-11-13 20:48:06	pedja	https://github.com/Bumblebee-Project/Bumblebee/issues/769
+2018-11-13 20:53:37	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-13 20:55:22	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 20:56:59	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Client Quit)
+2018-11-13 20:57:45	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 20:58:59	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Client Quit)
+2018-11-13 21:00:11	-->	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has joined #crux
+2018-11-13 21:01:37	ergo-	is /proc/acpi/bbswitch a file i should have after installing bbswitch
+2018-11-13 21:02:25	@jaeger	If the bbswitch module is loaded
+2018-11-13 21:02:51	ergo-	thats odd then, since it doesnt load for me unless i modprobe nvidia
+2018-11-13 21:03:25	ergo-	but thats bumblebee, not bbswitch
+2018-11-13 21:03:27	@jaeger	you should not need to do ANY manual loading
+2018-11-13 21:03:31	@jaeger	that's what bumblebee is for
+2018-11-13 21:04:38	ergo-	hmmm
+2018-11-13 21:04:46	ergo-	did you ever have a look at nvidia_xrun?
+2018-11-13 21:05:03	@jaeger	not so far
+2018-11-13 21:06:21	ergo-	might be that figuring this out on crux is beyond my capabilities, but it seems like something you would be interested in
+2018-11-13 21:06:33	ergo-	allows us to have vulkan with optimus
+2018-11-13 21:06:49	@jaeger	I just use wine-pba on my laptop currently
+2018-11-13 21:11:50	ergo-	oh right, you dont need dxvk etc
+2018-11-13 21:13:27	<--	Slack4LS (~Slack4LS@177.27.219.176) has quit (Remote host closed the connection)
+2018-11-13 21:18:27	pedja	that's a *lot* of effort to play a game :) but, then again, I am not a gamer
+2018-11-13 21:18:57	ergo-	pedja: its just in general
+2018-11-13 21:19:00	ergo-	seems nice to have
+2018-11-13 21:19:11	ergo-	i wonder why my system is so broken, cant even install bumblebee
+2018-11-13 21:19:51	@jaeger	what error(s) do you get building bumblebee?
+2018-11-13 21:20:07	ergo-	im getting a log
+2018-11-13 21:20:15	ergo-	jaeger: https://paste.pound-python.org/show/KYQZdSF91hpUIRPB7qTY/
+2018-11-13 21:21:38	@jaeger	so virtualgl is what's failing, not bumblebee... contrib/bumblebee doesn't depend on virtualgl so where is that coming from?
+2018-11-13 21:21:50	ergo-	ohh i will try that then, this is romster's port
+2018-11-13 21:22:39	@jaeger	ah
+2018-11-13 21:23:38	-->	Slack4LS (~Slack4LS@177.27.219.176) has joined #crux
+2018-11-13 21:23:49	ergo-	well bumblebee installed
+2018-11-13 21:23:57	ergo-	but im still having some trouble with bbswitch
+2018-11-13 21:24:04	ergo-	i think thats the last thing i need to fix
+2018-11-13 21:24:14	@jaeger	using contrib/bbswitch?
+2018-11-13 21:24:38	ergo-	yee
+2018-11-13 21:24:43	ergo-	the package u gave me worked
+2018-11-13 21:24:45	ergo-	as in i installed it
+2018-11-13 21:24:53	ergo-	but i keep getting kernel problems or something
+2018-11-13 21:25:02	@jaeger	what problems, specifically?
+2018-11-13 21:25:24	pedja	that virtualgl version is 3+years old
+2018-11-13 21:25:28	ergo-	module bbswitch not found in directory /lib/modules/4.19.1
+2018-11-13 21:25:39	 *	Anselmo yawns
+2018-11-13 21:25:53	@jaeger	Ah, so you're on a different kernel version than the package now. So you'll need to rebuild it
+2018-11-13 21:25:55	ergo-	i wonder if i screwed something up during my crux install but seems unlikely
+2018-11-13 21:26:14	@jaeger	Anything like bbswitch or nvidia that installs a kernel module will be tied to your kernel version unless you involve DKMS
+2018-11-13 21:26:17	ergo-	jaeger: should i update the bbswitch version number then?
+2018-11-13 21:26:27	@jaeger	no, you should just rebuild bbswitch if you can
+2018-11-13 21:26:37	ergo-	that also errors out lol
+2018-11-13 21:26:57	@jaeger	Then, ideally, you should track down what's causing it to error out and fix that
+2018-11-13 21:27:07	@jaeger	Because I cannot duplicate that error on any system I have
+2018-11-13 21:27:14	ergo-	 https://paste.pound-python.org/show/8sTc5MAWOqoDAIFyN4UV/
+2018-11-13 21:27:16	ergo-	yee still this
+2018-11-13 21:27:47	@jaeger	out of curiosity, can you pastebin your pkgmk.conf and prt-get.conf?
+2018-11-13 21:27:53	ergo-	suree thing
+2018-11-13 21:28:13	ergo-	this is pkgmk  https://paste.pound-python.org/show/KZLfafdgS3uwyIpaNufN/
+2018-11-13 21:28:28	ergo-	 https://paste.pound-python.org/show/dKVZ6XJQL8ku9K3Epy9p/ and prt-get.conf
+2018-11-13 21:29:47	pedja	I wonder where does 'cc1: some warnings being treated as errors' come from. haven't seen that when I tried to build bbswitch
+2018-11-13 21:30:42	ergo-	it seems like its trying to change something in my kernel config
+2018-11-13 21:30:47	ergo-	but gets kicked out?
+2018-11-13 21:30:49	ergo-	im not sure
+2018-11-13 21:31:08	@jaeger	what does your 'gcc -v' say?
+2018-11-13 21:31:29	ergo-	https://paste.pound-python.org/show/DrJHpr25UYfM2xQr1Q3y/
+2018-11-13 21:31:57	@jaeger	I don't see anything wrong with those
+2018-11-13 21:33:47	ergo-	maybe its how i updated my kernel?
+2018-11-13 21:34:01	ergo-	https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html
+2018-11-13 21:34:03	ergo-	i just followed this
+2018-11-13 21:36:50	<--	onodera (~onodera@2001:980:e682:1:c327:64c4:38c6:3428) has quit (Ping timeout: 252 seconds)
+2018-11-13 21:41:42	@jaeger	that seems alright
+2018-11-13 21:42:03	ergo-	maybe i should rebuild all packages on my system lol
+2018-11-13 21:42:09	ergo-	revdep also doesnt gimme anything
+2018-11-13 21:42:54	pedja	does the build fail with any other out-of-tree module? like nvidia?
+2018-11-13 21:43:11	ergo-	you mean after i load nvidia?
+2018-11-13 21:43:16	ergo-	currently its not loaded
+2018-11-13 21:43:48	pedja	but since you have it, I presume it built fine :)
+2018-11-13 21:43:57	ergo-	nvidia did
+2018-11-13 21:44:02	ergo-	but i need bbswitch basically
+2018-11-13 21:44:18	ergo-	you think switching kernel versions would maybe solve anything?
+2018-11-13 21:44:42	pedja	not really
+2018-11-13 21:46:08	@jaeger	ok, copy_from_user that the error complains about comes from include/linux/uaccess.h in your kernel source tree. can you pastebin that file?
+2018-11-13 21:47:35	ergo-	jaeger: that file uhm
+2018-11-13 21:47:37	ergo-	doesnt exist
+2018-11-13 21:48:15	ergo-	both in 4.14 and 4.19
+2018-11-13 21:48:17	@jaeger	ok, how about the output of 'find / -name "uaccess.h"' ?
+2018-11-13 21:49:45	ergo-	in kernel source tree
+2018-11-13 21:49:51	ergo-	or just enter it in home?
+2018-11-13 21:50:08	@jaeger	anywhere, the / tells it to search everything
+2018-11-13 21:50:39	ergo-	this might take a while right
+2018-11-13 21:51:05	@jaeger	a few seconds, not terribly long, unless you have a REALLY slow drive
+2018-11-13 21:51:12	@jaeger	or network shares mounted
+2018-11-13 21:51:37	ergo-	well its a ssd
+2018-11-13 21:51:41	ergo-	it shoulld be fine
+2018-11-13 21:51:44	@jaeger	yeah
+2018-11-13 21:51:44	ergo-	butt its still going lol
+2018-11-13 21:53:03	ergo-	oh right, its also searching my hdd
+2018-11-13 21:53:24	ergo-	jaeger: ye here we go https://paste.pound-python.org/show/Z2jl4bWpAyQ7ntu8MTpW/
+2018-11-13 21:53:37	ergo-	brb
+2018-11-13 21:53:40	joacim	https://www.linux-kvm.org/page/Boot_from_virtio_block_device
+2018-11-13 21:54:04	joacim	"where vda1 is your boot partition" <- is that an error in their documentation? on my server, root= points to my root partition, not my boot partition
+2018-11-13 21:54:19	@jaeger	ok, lines 35 and 63 look to me like you do have the file
+2018-11-13 21:55:02	@jaeger	ergo-: how about the output from 'ls -la /lib/modules/$(uname -r)' ?
+2018-11-13 21:55:43	@jaeger	joacim: does seem like an error
+2018-11-13 21:57:24	joacim	a smarter man would've just set the disk image to sata mode, instead of virtio
+2018-11-13 21:57:26	joacim	but no
+2018-11-13 21:57:37	joacim	can't just do it easy for myself
+2018-11-13 21:59:01	ergo-	jaeger: https://paste.pound-python.org/show/QSByyUDSOfgcWR4A3qY3/
+2018-11-13 21:59:39	ergo-	this whole thing has given me a new appreciation for wgetpaste lol
+2018-11-13 22:00:08	@jaeger	no doubt
+2018-11-13 22:00:15	@jaeger	Anyway, I'm out of ideas, I have no idea what's wrong
+2018-11-13 22:00:28	ergo-	well atleast its not just my own stupidy then
+2018-11-13 22:00:33	ergo-	thankss for the big effort tho
+2018-11-13 22:00:51	@jaeger	welcome
+2018-11-13 22:01:19	@jaeger	I *do* think something is wrong with your installation that is causing it to fail but I don't know what else to check
+2018-11-13 22:01:29	ergo-	i wonder if i installed a wrong kernel module or something
+2018-11-13 22:01:34	ergo-	but that file is huge
+2018-11-13 22:02:03	ergo-	https://paste.pound-python.org/show/XOZNgG6YwCQNEm6DYhw8/
+2018-11-13 22:02:05	pedja	joacim, in my opensuse.xml thingie for libvirt, vda is set as a target device, fwiv
+2018-11-13 22:02:22	pedja	windows7 too. both using virtio
+2018-11-13 22:02:57	joacim	yeah other distros work, but not when i want to punch up a config on my own =)
+2018-11-13 22:03:23	pedja	virt-manager ftw :)
+2018-11-13 22:03:45	joacim	what im using now =)
+2018-11-13 22:04:13	@jaeger	ergo-: I guess if you're really bored you could try my kernel config
+2018-11-13 22:04:24	ergo-	jaeger: well im out of ideas lol
+2018-11-13 22:04:29	pedja	which distro are you trying, joacim ?
+2018-11-13 22:04:31	ergo-	soo im willing to try almost anything lol
+2018-11-13 22:04:35	joacim	pedja: crux
+2018-11-13 22:04:39	pedja	heh
+2018-11-13 22:04:58	@jaeger	ok. I'll grab the laptop and upload the config. Can you paste your lspci output again? or if you still have a link to it, that's fine
+2018-11-13 22:04:59	<--	pankerini (~pankerini@189.230.173.45) has quit (Quit: Leaving)
+2018-11-13 22:05:00	joacim	building a basic crux system that i can image and use for port testing
+2018-11-13 22:05:20	ergo-	https://paste.pound-python.org/show/2JAkVqgRJV5mWuFZgTAf/
+2018-11-13 22:05:22	ergo-	you meant this right
+2018-11-13 22:05:31	@jaeger	yes, thanks
+2018-11-13 22:05:59	pedja	docker image is way less work for port testing, imho
+2018-11-13 22:06:10	joacim	pretty sure i enabled all the relevant VIRTIO options too
+2018-11-13 22:06:41	pedja	kernel on the iso has them enabled, iirc
+2018-11-13 22:06:50	joacim	yeh
+2018-11-13 22:14:11	@jaeger	ergo-: http://ix.io/1rOo
+2018-11-13 22:14:24	@jaeger	from my laptop where bbswitch/bumblebee/primus work
+2018-11-13 22:14:28	pedja	joacim, so what's the issue you are having? it won't boot?
+2018-11-13 22:14:34	ergo-	jaeger: ahh thankss aloottt
+2018-11-13 22:14:37	ergo-	im gonna try that out right now
+2018-11-13 22:15:46	ergo-	jaeger: does this config include the relevant efi bits btw?
+2018-11-13 22:16:01	joacim	pedja: yeah the typical VFS kernel panic. just compared the config on the iso and my own, and the big difference is that i've enabled more stuff
+2018-11-13 22:16:11	@jaeger	If you're not using efistub, yes
+2018-11-13 22:16:19	joacim	ill cheat and make olddefconfig against the iso config anyways
+2018-11-13 22:16:44	ergo-	jaeger: ye i just enabled it
+2018-11-13 22:16:48	ergo-	because i use refind bootloader
+2018-11-13 22:16:51	pedja	s/cheat/be lazy and smart/ :)
+2018-11-13 22:17:21	@jaeger	that's fine, efistub isn't needed for refind or any other separate loader
+2018-11-13 22:17:23	joacim	time it too, to see how fast it can build =)
+2018-11-13 22:17:30	joacim	tho i only gave 8 cores to this vm
+2018-11-13 22:17:47	pedja	'only'
+2018-11-13 22:17:48	ergo-	22:16 now
+2018-11-13 22:17:57	ergo-	joacim: thats more then my laptop has smh
+2018-11-13 22:17:59	ergo-	i have 4
+2018-11-13 22:18:18	ergo-	4 real cores tho, i5 6600hq
+2018-11-13 22:18:20	joacim	pedja: the server i found in a dumpster has 4+4. i can upgrade to 6+6 cheaply =)
+2018-11-13 22:18:23	@jaeger	fujin/jaeger ~ $ nproc
+2018-11-13 22:18:24	@jaeger	32
+2018-11-13 22:18:26	@jaeger	rawr
+2018-11-13 22:18:31	joacim	pairs of 6 core processors on ebay for about 20-30 dollars
+2018-11-13 22:18:42	ergo-	jaeger: the heck is that cpu
+2018-11-13 22:18:47	joacim	[joacim@athena ~]$ nproc
+2018-11-13 22:18:48	@jaeger	Threadripper 2950x
+2018-11-13 22:18:50	joacim	32
+2018-11-13 22:19:06	pedja	joacim, pretty nice dumpster
+2018-11-13 22:19:32	ergo-	ye i have 4 :(
+2018-11-13 22:19:45	@jaeger	still enough to get things done
+2018-11-13 22:19:48	joacim	think it came with 24GB RAM too. when i get a job, i'll definitely get an apartment with a 16A breaker! =)
+2018-11-13 22:20:12	ergo-	yee 4 is okay
+2018-11-13 22:20:18	ergo-	wanna buy a ryzen laptop tho
+2018-11-13 22:20:37	ergo-	i wonder if sidegrading my 6700k to a ryzen5/7 would be worth
+2018-11-13 22:20:40	ergo-	i guess 5 is a downgrade
+2018-11-13 22:20:58	joacim	16 cores was a bit overkill. 8 would've been more than enough for me. and I'd be perfectly fine with 4
+2018-11-13 22:21:08	pedja	yeah, right
+2018-11-13 22:21:21	joacim	i blame black friday
+2018-11-13 22:21:52	joacim	this year i'll be looking for https://www.bequiet.com/en/case/1520
+2018-11-13 22:22:24	joacim	apparently its not that great for thermals. but i think most reviews didn't add more fans, and didn't populate the bottom slots behind the power supply
+2018-11-13 22:22:29	ergo-	i wonder how much i can still get for my 6700k
+2018-11-13 22:22:43	joacim	probably a lot. i7 hold their value well
+2018-11-13 22:23:04	joacim	if i had to guess, 200 dollars or more just for the cpu
+2018-11-13 22:23:21	ergo-	i dont think i have warranty th
+2018-11-13 22:23:24	ergo-	but still
+2018-11-13 22:23:42	joacim	250 USD after checking
+2018-11-13 22:24:05	ergo-	yee i should be able to get 250EU
+2018-11-13 22:24:09	ergo-	maybe 300 if im lucky
+2018-11-13 22:24:16	pedja	joacim, nice case
+2018-11-13 22:24:28	pedja	no side window?
+2018-11-13 22:24:38	ergo-	i also need a smaller case
+2018-11-13 22:24:41	ergo-	but i dont think i can sell mine
+2018-11-13 22:24:44	joacim	yeah. i like the convenience of solid panels (no finger prints to care about)
+2018-11-13 22:24:45	ergo-	cause the panel is a bit scratched
+2018-11-13 22:24:51	ergo-	i have a NZXT h440 v2
+2018-11-13 22:24:53	ergo-	its so big
+2018-11-13 22:25:32	pedja	joacim, for which system?
+2018-11-13 22:25:48	joacim	tr4
+2018-11-13 22:26:05	pedja	can noctua fit in it?
+2018-11-13 22:26:17	joacim	the i5 gets to keep its case. not something i care about pimping much anymore
+2018-11-13 22:26:19	ergo-	i can sell my 6700k for 250 and then buy a ryzen 7 1700x for 200
+2018-11-13 22:26:30	ergo-	man that seems pretty enticing
+2018-11-13 22:26:31	joacim	yeah. those bequiet cases are really thick
+2018-11-13 22:26:52	joacim	so a 140mm cooler should fit without issues. my 120mm will have no problems in there
+2018-11-13 22:27:15	ergo-	i wonder if a r5 2600 would be enough for me
+2018-11-13 22:27:40	joacim	if you sell the motherboard + ram and cpu as a kit, you might get away with what you paid for it intitially, if you got the ram prices were low when you bought it
+2018-11-13 22:27:57	ergo-	yee i got my 16gigs
+2018-11-13 22:27:59	ergo-	for like 60
+2018-11-13 22:28:01	ergo-	:)
+2018-11-13 22:28:04	ergo-	2666mhz tho
+2018-11-13 22:28:14	joacim	if i buy a quad core i3 with more or less the same performance as my i5 haswell-r today, i'd end up paying just as much as my old system, simply due to the RAM prices
+2018-11-13 22:28:17	@jaeger	you would need to replace your motherboard, too, and probably want to replace the RAM
+2018-11-13 22:28:26	@jaeger	since ryzen benefits more from the higher speeds than intel
+2018-11-13 22:28:30	ergo-	wonder if there is a tool to verify my cpu health
+2018-11-13 22:28:33	ergo-	if that makes sense
+2018-11-13 22:29:25	ergo-	gonna reboot the new kernel
+2018-11-13 22:29:27	joacim	i used prime95 back in the olden days. i still use that to check if my cooler can handle my cpu at full blast
+2018-11-13 22:29:34	<--	ergo- (~nathaniel@D9695F7E.cm-25.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.9.1)
+2018-11-13 22:29:38	joacim	on linux you would use mprime instead of prime95
+2018-11-13 22:32:03	-->	Ergo- (~androirc@143.179.104.85) has joined #crux
+2018-11-13 22:32:07	Ergo-	Mfw kernel panic
+2018-11-13 22:32:17	Ergo-	And I don't have my install cd on me
+2018-11-13 22:32:57	@jaeger	:(
+2018-11-13 22:33:23	Ergo-	Guess I will have to fix it when I get home lol
+2018-11-13 22:33:27	@jaeger	you can probably tell refind to look at  the previous kernel
+2018-11-13 22:33:35	@jaeger	Ah, you're not in front of it
+2018-11-13 22:33:40	Ergo-	Oh I am
+2018-11-13 22:33:48	Ergo-	I'm at a friend
+2018-11-13 22:34:07	Ergo-	I also might be in the bad habit of removing old kernels lol
+2018-11-13 22:34:08	joacim	https://i.imgur.com/n5G8464.png
+2018-11-13 22:34:12	Ergo-	Lessons learned
+2018-11-13 22:34:28	joacim	same happens with the config found on the iso
+2018-11-13 22:35:00	@jaeger	joacim: what's the module/driver used for that storage device? It's probably just missing from the kernel config
+2018-11-13 22:35:25	joacim	the virtio driver. supposed to be in the block device section i think
+2018-11-13 22:35:46	Ergo-	http://imgur.com/gallery/AKMycQt
+2018-11-13 22:35:50	Ergo-	This is mine
+2018-11-13 22:35:59	joacim	ext4 is built in. vda2 is ext4, vda1 is ext2.
+2018-11-13 22:36:09	Ergo-	Maybe its because I use btrfs?
+2018-11-13 22:36:13	Ergo-	Seems unlikely tho
+2018-11-13 22:36:35	@jaeger	oh, didn't think to ask that
+2018-11-13 22:36:44	joacim	CONFIG_VIRTIO_BLK is set to y
+2018-11-13 22:36:44	@jaeger	I use ext4 and didn't have btrfs support in the kernel
+2018-11-13 22:36:49	@jaeger	so yeah
+2018-11-13 22:37:49	joacim	Ergo-: you could try to specify rootfstype=ext4
+2018-11-13 22:37:55	@jaeger	sorry about that
+2018-11-13 22:38:01	@jaeger	joacim: not if he uses btrfs :)
+2018-11-13 22:38:10	joacim	i mean btrfs
+2018-11-13 22:38:16	joacim	i just copypasted and forgot to edit
+2018-11-13 22:38:32	@jaeger	nah, because my kernel config doesn't have btrfs enabled, it's module
+2018-11-13 22:40:08	Ergo-	Lolll
+2018-11-13 22:40:15	Ergo-	That's on me for being lazy
+2018-11-13 22:40:30	Ergo-	I thought it was build in the kernel standard
+2018-11-13 22:40:36	Ergo-	Or rather it's pre selected
+2018-11-13 22:41:25	joacim	SCSI system is a module in the default config. i guess that could be why i have issues
+2018-11-13 22:45:25	joacim	https://i.imgur.com/hpg2i7p.png <- it was user error all along.
+2018-11-13 22:45:42	@jaeger	:D
+2018-11-13 22:50:07	pedja	joacim, what was the issue?
+2018-11-13 22:52:30	 *	pedja checks the irc backlog
+2018-11-13 22:53:27	joacim	SCSI stuff being modules. I think I might have forgotten to enable virtio within the SCSI system too
+2018-11-13 22:53:37	joacim	thinking the block device was enough
+2018-11-13 22:53:43	Ergo-	I wonder if reinstalling would be a good idea
+2018-11-13 22:54:01	Ergo-	If jaeger s kernel still doesn't fix it
+2018-11-13 23:00:51	pedja	tweak the config until it boots :)
+2018-11-13 23:04:03	Ergo-	Oh that shouldn't be hard
+2018-11-13 23:04:12	Ergo-	I mean my bbswitch problems
+2018-11-13 23:13:50	joacim	that should be fixable. often you learn a lot from fixing rather than giving up
+2018-11-13 23:22:00	joacim	pedja: do you have a port that contain qemu-guest-agent?
+2018-11-13 23:22:05	-->	isidore (~isidore@acaen-651-1-110-213.w81-48.abo.wanadoo.fr) has joined #crux
+2018-11-13 23:23:43	pedja	no, I build it as part of qemu. but there is qemu-agent in opt
+2018-11-13 23:24:00	joacim	oh right. somehow i went straight for your repo
+2018-11-13 23:24:10	pedja	I am flattered :)
+2018-11-13 23:26:52	pedja	never really thought of making it a separate port, tbh
+2018-11-13 23:27:12	joacim	if it is already in opt, i dont see a reason to make a dupe
+2018-11-13 23:27:45	pedja	agreed
+2018-11-13 23:27:54	joacim	unless you aim to have that repository replace everything virtualization in opt/contrib
+2018-11-13 23:29:34	Ergo0	pedja: if your repo has qemu stuff etc 
+2018-11-13 23:29:38	Ergo0	hook me up 
+2018-11-13 23:29:43	joacim	still thinking about making a fonts repo. since there are so many different fonts out there, especially if you package noto fonts
+2018-11-13 23:30:36	joacim	qemu-agent depends on sdl and xorg, so will try to build with only glib as a dependency first
+2018-11-13 23:30:56	joacim	dont wnt too many deps on a vm intended for testing ports
+2018-11-13 23:31:47	pedja	joacim, wrt font repo, something like a desktop-stuff repo would be cool. fonts, icon themes, gtk3 themes, that sort of thing
+2018-11-13 23:32:36	joacim	fonts can be 100 or more ports on its own tho
+2018-11-13 23:32:56	joacim	tho you usually want fonts if you want gtk stuff
+2018-11-13 23:32:59	pedja	one thing I was meaning to do is to make a minimal qemu port, like ClearLinux has
+2018-11-13 23:33:01	Ergo0	you could make ports of stuff like this -https://github.com/Tecate/bitmap-fonts
+2018-11-13 23:34:08	joacim	a video game repo would be nice too, but i have only 3 video game ports. 4 if i add dhewm3
+2018-11-13 23:34:19	Ergo0	make a big fat ricing port 
+2018-11-13 23:34:26	joacim	6 if i add the bfg version of dhewm3 and gzdoom-legacy
+2018-11-13 23:34:51	pedja	joacim, I have 8, I think
+2018-11-13 23:35:13	joacim	would need to figure out a way to share assets with similar engines like vkquake and quakespasm too
+2018-11-13 23:35:22	john_cephalopoda	I ship various KDE frameworks and could easily ship them all.
+2018-11-13 23:35:23	joacim	nquake i think can access such assets too
+2018-11-13 23:35:31	Ergo0	what kinda games are those tho 
+2018-11-13 23:35:36	joacim	john_cephalopoda: kde4?
+2018-11-13 23:35:39	Ergo0	old ones i imagine? 
+2018-11-13 23:35:55	joacim	yes very. quakespasm and vkquake is for playing quake from 1996
+2018-11-13 23:36:02	joacim	gzdoom is for playing the even older doom and doom 2
+2018-11-13 23:36:10	joacim	dhewm3 is for playing doom3
+2018-11-13 23:36:27	pedja	I sense a theme here :)
+2018-11-13 23:36:34	john_cephalopoda	joacim: "jmf" collection.
+2018-11-13 23:36:38	joacim	just make it the idtech repo?
+2018-11-13 23:37:01	Ergo0	do you still play those games? 
+2018-11-13 23:37:09	Ergo0	and do they have alive player bases 
+2018-11-13 23:37:13	john_cephalopoda	I only ship what I need to compile krita. Will eventually ship krita itself but didn't feel like it until 6c37 stopped existing.
+2018-11-13 23:37:16	joacim	john_cephalopoda: i always forget which irc nicks belong to the people posting on the mailing list and on the portdb
+2018-11-13 23:37:45	john_cephalopoda	joacim: I am "jmf". I rarely write anything on the ML.
+2018-11-13 23:38:06	joacim	Ergo0: i sure do play quake and doom. they're fun and simple. mostly single player these days, but there zandronum and nquake for doom and quake multiplayer
+2018-11-13 23:38:17	pedja	why not
+2018-11-13 23:38:20	joacim	there is*
+2018-11-13 23:38:47	joacim	Ergo0: are you running weechat from crux?
+2018-11-13 23:39:17	joacim	if you are, my repository has a newer version
+2018-11-13 23:39:36	joacim	2.1 instead of 1.9.1
+2018-11-13 23:40:09	pedja	isn't 2.2 latest?
+2018-11-13 23:40:19	joacim	2.3
+2018-11-13 23:40:30	<--	isidore (~isidore@acaen-651-1-110-213.w81-48.abo.wanadoo.fr) has quit (Quit: WeeChat 2.3)
+2018-11-13 23:40:43	joacim	mine is 2.3. I just have a bad memory
+2018-11-13 23:40:49	<--	kujira (~no1@mobile-166-170-43-229.mycingular.net) has quit
+2018-11-13 23:41:04	pedja	ah. time to update. don't use it, but like to have it, as backup to hexchat
+2018-11-13 23:41:25	joacim	i want to switch back to irssi, and be even more hipster with tmux+irssi
+2018-11-13 23:41:33	joacim	instead of the typical tmux+weechat and screen+irssi
+2018-11-13 23:41:43	joacim	maybe dtach+bitchx
+2018-11-13 23:42:38	joacim	i usually lag behind a week or so with my weechat port. im trying to stay more up2date now with rss feeds
+2018-11-13 23:43:07	joacim	annoying how many blogs dont have rss feeds
+2018-11-13 23:43:17	pedja	set ck4up?
+2018-11-13 23:43:34	Ergo0	joacim: yeee i am 
+2018-11-13 23:43:39	Ergo0	how did you know i was using weechat 
+2018-11-13 23:44:58	joacim	your quit message
+2018-11-13 23:45:24	joacim	pedja: i already use that, i just never check it =)
+2018-11-13 23:45:53	joacim	a cronjob that send me an email when such things show up would be nice
+2018-11-13 23:46:12	Ergo0	joacim: ohh that actually seems like a smart idea 
+2018-11-13 23:46:46	Ergo0	brb
+2018-11-13 23:48:20	pedja	apparently, Amazon is opening a zone in Stockholm. I though they already have presence there
+2018-11-13 23:48:32	Ergo0	what the
+2018-11-13 23:48:36	Ergo0	tmux can keep sessions even if i log out 
+2018-11-13 23:48:42	Ergo0	whoever made this is a genius 
+2018-11-13 23:49:55	@jaeger	yes, tmux is awesome
+2018-11-13 23:52:01	Ergo0	i dont use it for anyting else tho 
+2018-11-13 23:52:13	Ergo0	outside of not constantly relogging in weechat 
+2018-11-13 23:53:04	Anselmo	tmux is nice ^_^
+2018-11-13 23:53:24	pedja	does it have native session save yet?
+2018-11-13 23:55:48	pedja	like tmuxp
+2018-11-13 23:58:33	Ergo0	im not suree 
+2018-11-14 00:24:14	joacim	the guest agent works ok it seems. see if i can strip it further for dependencies
+2018-11-14 00:25:22	joacim	can shut it down and reboot with virsh, but it still captures my mouse
+2018-11-14 00:47:54	<--	Slack4LS (~Slack4LS@177.27.219.176) has quit (Ping timeout: 245 seconds)
+2018-11-14 00:50:28	-->	Slack4LS (~Slack4LS@177.27.219.176) has joined #crux
+2018-11-14 00:54:53	<--	Slack4LS (~Slack4LS@177.27.219.176) has quit (Ping timeout: 252 seconds)
+2018-11-14 00:55:19	-->	Slack4LS (~Slack4LS@177.27.219.176) has joined #crux
+2018-11-14 00:58:44	<--	Ergo- (~androirc@143.179.104.85) has quit (Ping timeout: 252 seconds)
+2018-11-14 10:18:02	-->	ergo- (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-11-14 10:18:02	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-11-14 10:18:02	--	Topic set by frinnst on Sat, 12 May 2018 21:46:38
+2018-11-14 10:18:02	--	Channel #crux: 51 nicks (4 ops, 0 voices, 47 normals)
+2018-11-14 10:18:02	--	URL for #crux: http://crux.nu
+2018-11-14 10:18:04	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2018-11-14 10:18:25	-->	SiFuh (~SiFuh@64.64.121.195) has joined #crux
+2018-11-14 10:36:37	<--	SiFuh (~SiFuh@64.64.121.195) has quit (Ping timeout: 246 seconds)
+2018-11-14 10:37:06	<--	jue (~jue@pdpc/supporter/active/jue) has quit (Read error: No route to host)

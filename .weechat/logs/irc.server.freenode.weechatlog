@@ -2096,3 +2096,251 @@
 2018-11-13 00:56:28	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
 2018-11-13 00:56:29	--	MSG(NickServ): identify **********
 2018-11-13 00:56:30	--	NickServ (NickServ@services.): You are now identified for Ergo0.
+2018-11-13 10:03:38	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-11-13 10:03:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-13 10:03:38	--	gnutls: receiving 2 certificates
+2018-11-13 10:03:38	--	 - certificate[1] info:
+2018-11-13 10:03:38	--	   - subject `CN=adams.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0371137c3d62a2d17c7b8b5520055b0d76a4, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-09-17 05:08:43 UTC', expires `2018-12-16 05:08:43 UTC', pin-sha256="WXu8USfiHQt4RHvXQ5FsEanHAnt5GTERZ3bqIOKeh9Q="
+2018-11-13 10:03:38	--	 - certificate[2] info:
+2018-11-13 10:03:38	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-13 10:03:38	--	gnutls: peer's certificate is trusted
+2018-11-13 10:03:38	--	irc: connected to chat.freenode.net/7000 (94.125.182.252)
+2018-11-13 10:03:38	--	adams.freenode.net: *** Looking up your hostname...
+2018-11-13 10:03:38	--	adams.freenode.net: *** Checking Ident
+2018-11-13 10:03:38	--	adams.freenode.net: *** No Ident response
+2018-11-13 10:03:39	--	adams.freenode.net: *** Found your hostname
+2018-11-13 10:03:39	--	Welcome to the freenode Internet Relay Chat Network Ergo
+2018-11-13 10:03:39	--	Your host is adams.freenode.net[94.125.182.252/7000], running version ircd-seven-1.1.7
+2018-11-13 10:03:39	--	This server was created Tue Aug 28 2018 at 19:59:23 UTC
+2018-11-13 10:03:39	--	adams.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-11-13 10:03:39	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-11-13 10:03:39	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE ETRACE :are supported by this server
+2018-11-13 10:03:39	--	KNOCK SAFELIST ELIST=CTU WHOX :are supported by this server
+2018-11-13 10:03:39	--	There are 110 users and 86218 invisible on 31 servers
+2018-11-13 10:03:39	--	32 :IRC Operators online
+2018-11-13 10:03:39	--	35 :unknown connection(s)
+2018-11-13 10:03:39	--	48444 :channels formed
+2018-11-13 10:03:39	--	I have 5301 clients and 1 servers
+2018-11-13 10:03:39	--	5301 6647 :Current local users 5301, max 6647
+2018-11-13 10:03:39	--	86328 94264 :Current global users 86328, max 94264
+2018-11-13 10:03:39	--	Highest connection count: 6648 (6647 clients) (409623 connections received)
+2018-11-13 10:03:39	--	- adams.freenode.net Message of the Day -
+2018-11-13 10:03:39	--	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+2018-11-13 10:03:39	--	- (http://www.atw.hu) for sponsoring this server!
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+2018-11-13 10:03:39	--	- to the Galaxy and many other witty and humourous books,
+2018-11-13 10:03:39	--	- portrayed in his uniquely British irony. He is sorely missed
+2018-11-13 10:03:39	--	- by many millions of devoted fans. "So long and thanks for all
+2018-11-13 10:03:39	--	- the books!"
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- Welcome to freenode - supporting the free and open source
+2018-11-13 10:03:39	--	- software communities since 1998.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- By connecting to freenode you indicate that you have read and
+2018-11-13 10:03:39	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- In the event that you observe behaviour that contravenes our policies,
+2018-11-13 10:03:39	--	- please notify a volunteer staff member via private message, or send us an
+2018-11-13 10:03:39	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-11-13 10:03:39	--	- situation within a reasonable period of time, and we may request further
+2018-11-13 10:03:39	--	- information or, as appropriate, involve other parties such as channel operators
+2018-11-13 10:03:39	--	- Group Contacts representing an on-topic group.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- freenode runs an open proxy scanner.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- If you are looking for assistance, you will be able to find a list of
+2018-11-13 10:03:39	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-11-13 10:03:39	--	- message any of us at any time. Please note that freenode predominantly
+2018-11-13 10:03:39	--	- provides assistance via private message, and while we have a network
+2018-11-13 10:03:39	--	- channel the primary venue for support requests is via private message to
+2018-11-13 10:03:39	--	- a member of the volunteer staff team.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-11-13 10:03:39	--	- the project, or the communities that we host. The majority of such notices
+2018-11-13 10:03:39	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-11-13 10:03:39	--	- do not miss them. Important messages relating to the freenode project, including
+2018-11-13 10:03:39	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-11-13 10:03:39	--	- global notices.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- Representing an on-topic project? Don't forget to register, more information
+2018-11-13 10:03:39	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- freenode organises an annual conference, and we would like to extend our
+2018-11-13 10:03:39	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-11-13 10:03:39	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-11-13 10:03:39	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-11-13 10:03:39	--	- network going for close to two decades.
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2018-11-13 10:03:39	--	- and everyone else who made this year's freenode #live conference amazing.
+2018-11-13 10:03:39	--	- https://freenode.net/news/live-2018
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	- Thank you for using freenode!
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	-
+2018-11-13 10:03:39	--	End of /MOTD command.
+2018-11-13 10:03:39	--	User mode [+RZi] by Ergo
+2018-11-13 10:03:39	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-13 10:03:39	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the persistent ongoing spam, all new connections are being set +R (block messages from unidentified users) and will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-11-13 10:03:39	--	CTCP requested by freenode-connect: VERSION
+2018-11-13 10:03:39	--	CTCP reply to freenode-connect: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-13 10:18:17	--	You are now known as Ergo0
+2018-11-13 10:18:17	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-13 10:18:29	--	MSG(NickServ): identify **********
+2018-11-13 10:18:29	--	NickServ (NickServ@services.): You are now identified for Ergo0.
+2018-11-13 23:38:59	--	CTCP requested by joacim: VERSION
+2018-11-13 23:38:59	--	CTCP reply to joacim: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-14 00:01:25	--	CTCP requested by john_cephalopoda: VERSION
+2018-11-14 00:01:25	--	CTCP reply to john_cephalopoda: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-14 10:12:16	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-11-14 10:12:16	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-14 10:12:16	--	gnutls: receiving 2 certificates
+2018-11-14 10:12:16	--	 - certificate[1] info:
+2018-11-14 10:12:16	--	   - subject `CN=niven.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x037780898fcd64a5eb1eb53d55769c7a2f89, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-01 05:02:43 UTC', expires `2018-12-30 05:02:43 UTC', pin-sha256="fos68YEUpLyHfCcaVq+XTC/rDkvwRlJlx7aHKh9wp8s="
+2018-11-14 10:12:16	--	 - certificate[2] info:
+2018-11-14 10:12:16	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-14 10:12:16	--	gnutls: peer's certificate is trusted
+2018-11-14 10:12:16	--	irc: connected to chat.freenode.net/7000 (139.162.227.51)
+2018-11-14 10:12:16	--	niven.freenode.net: *** Looking up your hostname...
+2018-11-14 10:12:16	--	niven.freenode.net: *** Checking Ident
+2018-11-14 10:12:16	--	niven.freenode.net: *** No Ident response
+2018-11-14 10:12:16	--	niven.freenode.net: *** Found your hostname
+2018-11-14 10:12:16	--	Welcome to the freenode Internet Relay Chat Network Ergo
+2018-11-14 10:12:16	--	Your host is niven.freenode.net[139.162.227.51/7000], running version ircd-seven-1.1.7
+2018-11-14 10:12:16	--	This server was created Tue Aug 21 2018 at 19:57:37 UTC
+2018-11-14 10:12:16	--	niven.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-11-14 10:12:16	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-11-14 10:12:16	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+2018-11-14 10:12:16	--	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+2018-11-14 10:12:16	--	There are 109 users and 86140 invisible on 31 servers
+2018-11-14 10:12:16	--	33 :IRC Operators online
+2018-11-14 10:12:16	--	52 :unknown connection(s)
+2018-11-14 10:12:16	--	48553 :channels formed
+2018-11-14 10:12:16	--	I have 5336 clients and 1 servers
+2018-11-14 10:12:16	--	5336 8977 :Current local users 5336, max 8977
+2018-11-14 10:12:16	--	86249 94264 :Current global users 86249, max 94264
+2018-11-14 10:12:16	--	Highest connection count: 8978 (8977 clients) (269437 connections received)
+2018-11-14 10:12:16	--	- niven.freenode.net Message of the Day -
+2018-11-14 10:12:16	--	- Welcome to niven.freenode.net in London, United Kingdom, EU.
+2018-11-14 10:12:16	--	- thanks to Linode for sponsoring this server!
+2018-11-14 10:12:16	--	-
+2018-11-14 10:12:16	--	- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+2018-11-14 10:12:16	--	- the setting of Protector, World of Ptaavs and the
+2018-11-14 10:12:16	--	- Ringworld series.  Author of "Flash Crowd", a canonical
+2018-11-14 10:12:16	--	- sociological hard science fiction short story dealing with
+2018-11-14 10:12:16	--	- effects of near instantaneous transportation on a modern
+2018-11-14 10:12:16	--	- technological society.  In addition, he is well known for his
+2018-11-14 10:12:16	--	- collaborations with Jerry Pournelle, including The Mote in
+2018-11-14 10:12:16	--	- God's Eye and Lucifer's Hammer.
+2018-11-14 10:12:16	--	-
+2018-11-14 10:12:16	--	- Welcome to freenode - supporting the free and open source
+2018-11-14 10:12:16	--	- software communities since 1998.
+2018-11-14 10:12:16	--	-
+2018-11-14 10:12:16	--	- By connecting to freenode you indicate that you have read and
+2018-11-14 10:12:16	--	- acce2018-11-14 10:16:13	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-11-14 10:16:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-11-14 10:16:13	--	gnutls: receiving 2 certificates
+2018-11-14 10:16:13	--	 - certificate[1] info:
+2018-11-14 10:16:13	--	   - subject `CN=niven.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x037780898fcd64a5eb1eb53d55769c7a2f89, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-01 05:02:43 UTC', expires `2018-12-30 05:02:43 UTC', pin-sha256="fos68YEUpLyHfCcaVq+XTC/rDkvwRlJlx7aHKh9wp8s="
+2018-11-14 10:16:13	--	 - certificate[2] info:
+2018-11-14 10:16:13	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-11-14 10:16:13	--	gnutls: peer's certificate is trusted
+2018-11-14 10:16:13	--	irc: connected to chat.freenode.net/7000 (139.162.227.51)
+2018-11-14 10:16:13	--	niven.freenode.net: *** Looking up your hostname...
+2018-11-14 10:16:13	--	niven.freenode.net: *** Checking Ident
+2018-11-14 10:16:13	--	niven.freenode.net: *** Found your hostname
+2018-11-14 10:16:13	--	niven.freenode.net: *** No Ident response
+2018-11-14 10:16:13	--	irc: nickname "Ergo" is already in use, trying nickname "ronin7z"
+2018-11-14 10:16:13	--	Welcome to the freenode Internet Relay Chat Network ronin7z
+2018-11-14 10:16:13	--	Your host is niven.freenode.net[139.162.227.51/7000], running version ircd-seven-1.1.7
+2018-11-14 10:16:13	--	This server was created Tue Aug 21 2018 at 19:57:37 UTC
+2018-11-14 10:16:13	--	niven.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-11-14 10:16:13	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-11-14 10:16:13	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+2018-11-14 10:16:13	--	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+2018-11-14 10:16:13	--	There are 110 users and 86171 invisible on 31 servers
+2018-11-14 10:16:13	--	33 :IRC Operators online
+2018-11-14 10:16:13	--	56 :unknown connection(s)
+2018-11-14 10:16:13	--	48555 :channels formed
+2018-11-14 10:16:13	--	I have 5368 clients and 1 servers
+2018-11-14 10:16:13	--	5368 8977 :Current local users 5368, max 8977
+2018-11-14 10:16:13	--	86281 94264 :Current global users 86281, max 94264
+2018-11-14 10:16:13	--	Highest connection count: 8978 (8977 clients) (269498 connections received)
+2018-11-14 10:16:13	--	- niven.freenode.net Message of the Day -
+2018-11-14 10:16:13	--	- Welcome to niven.freenode.net in London, United Kingdom, EU.
+2018-11-14 10:16:13	--	- thanks to Linode for sponsoring this server!
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+2018-11-14 10:16:13	--	- the setting of Protector, World of Ptaavs and the
+2018-11-14 10:16:13	--	- Ringworld series.  Author of "Flash Crowd", a canonical
+2018-11-14 10:16:13	--	- sociological hard science fiction short story dealing with
+2018-11-14 10:16:13	--	- effects of near instantaneous transportation on a modern
+2018-11-14 10:16:13	--	- technological society.  In addition, he is well known for his
+2018-11-14 10:16:13	--	- collaborations with Jerry Pournelle, including The Mote in
+2018-11-14 10:16:13	--	- God's Eye and Lucifer's Hammer.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Welcome to freenode - supporting the free and open source
+2018-11-14 10:16:13	--	- software communities since 1998.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- By connecting to freenode you indicate that you have read and
+2018-11-14 10:16:13	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- In the event that you observe behaviour that contravenes our policies,
+2018-11-14 10:16:13	--	- please notify a volunteer staff member via private message, or send us an
+2018-11-14 10:16:13	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-11-14 10:16:13	--	- situation within a reasonable period of time, and we may request further
+2018-11-14 10:16:13	--	- information or, as appropriate, involve other parties such as channel operators
+2018-11-14 10:16:13	--	- Group Contacts representing an on-topic group.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- freenode runs an open proxy scanner.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- If you are looking for assistance, you will be able to find a list of
+2018-11-14 10:16:13	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-11-14 10:16:13	--	- message any of us at any time. Please note that freenode predominantly
+2018-11-14 10:16:13	--	- provides assistance via private message, and while we have a network
+2018-11-14 10:16:13	--	- channel the primary venue for support requests is via private message to
+2018-11-14 10:16:13	--	- a member of the volunteer staff team.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-11-14 10:16:13	--	- the project, or the communities that we host. The majority of such notices
+2018-11-14 10:16:13	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-11-14 10:16:13	--	- do not miss them. Important messages relating to the freenode project, including
+2018-11-14 10:16:13	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-11-14 10:16:13	--	- global notices.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Representing an on-topic project? Don't forget to register, more information
+2018-11-14 10:16:13	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- freenode organises an annual conference, and we would like to extend our
+2018-11-14 10:16:13	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-11-14 10:16:13	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-11-14 10:16:13	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-11-14 10:16:13	--	- network going for close to two decades.
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2018-11-14 10:16:13	--	- and everyone else who made this year's freenode #live conference amazing.
+2018-11-14 10:16:13	--	- https://freenode.net/news/live-2018
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	- Thank you for using freenode!
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	-
+2018-11-14 10:16:13	--	End of /MOTD command.
+2018-11-14 10:16:13	--	User mode [+RZi] by ronin7z
+2018-11-14 10:16:14	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the persistent ongoing spam, all new connections are being set +R (block messages from unidentified users) and will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-11-14 10:16:14	--	CTCP requested by freenode-connect: VERSION
+2018-11-14 10:16:14	--	CTCP reply to freenode-connect: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-14 10:16:16	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-14 10:17:27	--	ergo-: Nickname is already in use.
+2018-11-14 10:17:44	--	You are now known as ergo-
+2018-11-14 10:17:44	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-11-14 10:17:52	--	MSG(NickServ): identify **********
+2018-11-14 10:17:52	--	NickServ (NickServ@services.): Invalid password for ronin7z.
+2018-11-14 10:18:00	--	MSG(NickServ): identify **********
+2018-11-14 10:18:00	--	NickServ (NickServ@services.): You are now identified for ronin7z.
+2018-11-14 10:18:00	--	NickServ (NickServ@services.): 1 failed login since last login.
+2018-11-14 10:18:00	--	NickServ (NickServ@services.): Last failed attempt from: ergo-!~nathaniel@82-161-43-23.ip.xs4all.nl on Nov 14 09:17:05 2018.

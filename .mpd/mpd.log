@@ -259,3 +259,158 @@ Nov 09 00:23 : client: [97] closed
 Nov 09 00:27 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
 Nov 09 00:30 : player: played "Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac"
 Nov 09 00:36 : client: [58] closed
+Nov 13 02:50 : config: option 'device' on line 13 was not recognized
+Nov 13 02:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 02:50 : client: [0] opened from 127.0.0.1:35310
+Nov 13 02:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 02:51 : client: [1] opened from 127.0.0.1:35324
+Nov 13 02:51 : client: [1] closed
+Nov 13 02:51 : client: [2] opened from 127.0.0.1:35326
+Nov 13 02:51 : client: [2] closed
+Nov 13 02:51 : client: [3] opened from 127.0.0.1:35328
+Nov 13 02:51 : client: [3] closed
+Nov 13 02:51 : client: [4] opened from 127.0.0.1:35330
+Nov 13 02:51 : client: [4] closed
+Nov 13 02:53 : client: [5] opened from 127.0.0.1:35432
+Nov 13 02:53 : client: [5] closed
+Nov 13 02:53 : client: [6] opened from 127.0.0.1:35434
+Nov 13 02:53 : client: [6] closed
+Nov 13 02:53 : client: [7] opened from 127.0.0.1:35436
+Nov 13 02:53 : client: [7] closed
+Nov 13 02:53 : client: [8] opened from 127.0.0.1:35438
+Nov 13 02:53 : client: [8] closed
+Nov 13 02:53 : client: [9] opened from 127.0.0.1:35440
+Nov 13 02:53 : client: [9] closed
+Nov 13 02:53 : client: [10] opened from 127.0.0.1:35442
+Nov 13 02:53 : client: [10] closed
+Nov 13 02:53 : client: [11] opened from 127.0.0.1:35444
+Nov 13 02:53 : client: [11] closed
+Nov 13 02:53 : client: [12] opened from 127.0.0.1:35446
+Nov 13 02:53 : client: [12] closed
+Nov 13 02:53 : client: [13] opened from 127.0.0.1:35448
+Nov 13 02:53 : client: [13] closed
+Nov 13 02:53 : client: [14] opened from 127.0.0.1:35450
+Nov 13 02:53 : client: [14] closed
+Nov 13 02:53 : client: [15] opened from 127.0.0.1:35452
+Nov 13 02:53 : client: [15] closed
+Nov 13 02:53 : player: played "Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac"
+Nov 13 02:54 : client: [16] opened from 127.0.0.1:35454
+Nov 13 02:54 : client: [16] closed
+Nov 13 02:54 : client: [17] opened from 127.0.0.1:35456
+Nov 13 02:54 : client: [17] closed
+Nov 13 02:54 : client: [18] opened from 127.0.0.1:35458
+Nov 13 02:54 : client: [18] closed
+Nov 13 02:55 : client: [19] opened from 127.0.0.1:35460
+Nov 13 02:55 : client: [19] closed
+Nov 13 02:55 : client: [20] opened from 127.0.0.1:35462
+Nov 13 02:55 : client: [20] closed
+Nov 13 02:55 : client: [21] opened from 127.0.0.1:35464
+Nov 13 02:55 : client: [21] closed
+Nov 13 03:17 : client: [0] closed
+Nov 13 10:49 : config: option 'device' on line 13 was not recognized
+Nov 13 10:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 10:49 : client: [0] opened from 127.0.0.1:48800
+Nov 13 10:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 10:49 : client: [1] opened from 127.0.0.1:48802
+Nov 13 10:49 : client: [1] closed
+Nov 13 10:49 : client: [2] opened from 127.0.0.1:48804
+Nov 13 10:49 : client: [2] closed
+Nov 13 10:49 : client: [3] opened from 127.0.0.1:48806
+Nov 13 10:50 : client: [3] closed
+Nov 13 10:50 : client: [4] opened from 127.0.0.1:48808
+Nov 13 10:50 : client: [4] closed
+Nov 13 10:50 : client: [5] opened from 127.0.0.1:48810
+Nov 13 10:50 : client: [5] closed
+Nov 13 10:50 : client: [6] opened from 127.0.0.1:48812
+Nov 13 10:50 : client: [6] closed
+Nov 13 10:50 : client: [7] opened from 127.0.0.1:48814
+Nov 13 10:50 : client: [7] closed
+Nov 13 10:50 : client: [8] opened from 127.0.0.1:48816
+Nov 13 10:50 : client: [8] closed
+Nov 13 10:50 : client: [9] opened from 127.0.0.1:48818
+Nov 13 10:50 : client: [9] closed
+Nov 13 10:52 : player: played "Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac"
+Nov 13 10:52 : client: [10] opened from 127.0.0.1:48906
+Nov 13 10:52 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Nov 13 10:53 : client: [0] closed
+Nov 13 10:53 : client: [10] closed
+Nov 13 10:54 : client: [11] opened from 127.0.0.1:48920
+Nov 13 10:54 : client: [11] closed
+Nov 13 10:54 : client: [12] opened from 127.0.0.1:48922
+Nov 13 10:54 : client: [12] closed
+Nov 13 10:54 : client: [13] opened from 127.0.0.1:48924
+Nov 13 10:55 : client: [13] closed
+Nov 13 10:56 : player: played "Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac"
+Nov 13 11:00 : player: played "Arctic Monkeys/Humbug (2009)/02-arctic_monkeys-crying_lightning.flac"
+Nov 13 11:01 : client: [14] opened from 127.0.0.1:48944
+Nov 13 11:01 : client: [14] closed
+Nov 13 11:01 : client: [15] opened from 127.0.0.1:48946
+Nov 13 11:01 : client: [15] closed
+Nov 13 11:01 : client: [16] opened from 127.0.0.1:48948
+Nov 13 11:01 : client: [16] closed
+Nov 13 11:02 : client: [17] opened from 127.0.0.1:48952
+Nov 13 11:02 : client: [17] closed
+Nov 13 11:02 : client: [18] opened from 127.0.0.1:48954
+Nov 13 11:02 : client: [18] closed
+Nov 13 11:02 : client: [19] opened from 127.0.0.1:48956
+Nov 13 11:02 : client: [19] closed
+Nov 13 11:03 : client: [20] opened from 127.0.0.1:49068
+Nov 13 11:03 : client: [20] closed
+Nov 13 11:03 : client: [21] opened from 127.0.0.1:49070
+Nov 13 11:03 : client: [21] closed
+Nov 13 11:03 : client: [22] opened from 127.0.0.1:49072
+Nov 13 11:03 : client: [22] closed
+Nov 13 11:03 : client: [23] opened from 127.0.0.1:49078
+Nov 13 11:03 : client: [23] closed
+Nov 13 11:03 : client: [24] opened from 127.0.0.1:49080
+Nov 13 11:03 : client: [24] closed
+Nov 13 11:03 : client: [25] opened from 127.0.0.1:49082
+Nov 13 11:03 : client: [25] closed
+Nov 13 11:03 : player: played "Arctic Monkeys/Humbug (2009)/03-arctic_monkeys-dangerous_animals.flac"
+Nov 13 11:04 : client: [26] opened from 127.0.0.1:49086
+Nov 13 11:04 : client: [26] closed
+Nov 13 11:04 : client: [27] opened from 127.0.0.1:49088
+Nov 13 11:04 : client: [27] closed
+Nov 13 11:04 : client: [28] opened from 127.0.0.1:49090
+Nov 13 11:04 : client: [28] closed
+Nov 13 11:05 : client: [29] opened from 127.0.0.1:49094
+Nov 13 11:05 : client: [29] closed
+Nov 13 11:05 : client: [30] opened from 127.0.0.1:49096
+Nov 13 11:05 : client: [30] closed
+Nov 13 11:05 : client: [31] opened from 127.0.0.1:49098
+Nov 13 11:05 : client: [31] closed
+Nov 13 11:06 : client: [32] opened from 127.0.0.1:49100
+Nov 13 11:06 : client: [32] closed
+Nov 13 11:06 : client: [33] opened from 127.0.0.1:49102
+Nov 13 11:06 : client: [33] closed
+Nov 13 11:06 : client: [34] opened from 127.0.0.1:49104
+Nov 13 11:06 : client: [34] closed
+Nov 13 11:06 : client: [35] opened from 127.0.0.1:49108
+Nov 13 11:06 : client: [35] closed
+Nov 13 11:06 : client: [36] opened from 127.0.0.1:49110
+Nov 13 11:06 : client: [36] closed
+Nov 13 11:06 : client: [37] opened from 127.0.0.1:49112
+Nov 13 11:06 : client: [37] closed
+Nov 13 11:07 : client: [38] opened from 127.0.0.1:49116
+Nov 13 11:07 : client: [38] closed
+Nov 13 11:07 : client: [39] opened from 127.0.0.1:49118
+Nov 13 11:07 : client: [39] closed
+Nov 13 11:07 : client: [40] opened from 127.0.0.1:49120
+Nov 13 11:07 : player: played "Arctic Monkeys/Humbug (2009)/04-arctic_monkeys-secret_door.flac"
+Nov 13 11:07 : client: [40] closed
+Nov 13 11:07 : client: [41] opened from 127.0.0.1:49122
+Nov 13 11:07 : client: [41] closed
+Nov 13 11:07 : client: [42] opened from 127.0.0.1:49124
+Nov 13 11:07 : client: [42] closed
+Nov 13 11:07 : client: [43] opened from 127.0.0.1:49126
+Nov 13 11:07 : client: [43] closed
+Nov 13 11:08 : client: [44] opened from 127.0.0.1:49128
+Nov 13 11:08 : client: [44] closed
+Nov 13 11:08 : client: [45] opened from 127.0.0.1:49130
+Nov 13 11:08 : client: [45] closed
+Nov 13 11:08 : client: [46] opened from 127.0.0.1:49132
+Nov 13 11:08 : client: [46] closed
+Nov 13 11:11 : player: played "Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-potion_approaching.flac"
+Nov 13 11:15 : player: played "Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac"
+Nov 13 11:17 : client: [47] opened from 127.0.0.1:49592
+Nov 13 11:19 : client: [47] closed

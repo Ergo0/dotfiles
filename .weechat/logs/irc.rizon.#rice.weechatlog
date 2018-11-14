@@ -8866,3 +8866,1672 @@
 2018-11-13 00:57:20	@Leliana	uh
 2018-11-13 00:57:23	@Leliana	why isn't userdb.py there
 2018-11-13 00:57:36	+nai	it is
+2018-11-13 00:58:04	+nai	wait
+2018-11-13 00:58:29	+nai	you just deleted it
+2018-11-13 00:58:31	+nai	dummy
+2018-11-13 00:58:47	+nai	oh you added static typing
+2018-11-13 00:58:50	+nai	[why not]
+2018-11-13 00:58:50	+cappuccino	[WHY NOT INTENSIFIES]
+2018-11-13 01:01:06	<--	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has quit (Remote host closed the connection)
+2018-11-13 01:01:35	+nai	still the same error
+2018-11-13 01:02:17	@Leliana	try again
+2018-11-13 01:02:34	+nai	> https://github.com/FoxDev/cappuccino/commit/4753cd9e9789126ad37d190922959d823c887ffb
+2018-11-13 01:02:39	+nai	th-thanks sempai
+2018-11-13 01:03:05	-->	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has joined #rice
+2018-11-13 01:03:05	--	Mode #rice [+v cappuccino] by Onee-chan
+2018-11-13 01:03:26	+nai	rofl, it's a JSON error now
+2018-11-13 01:03:38	@Leliana	.dtop
+2018-11-13 01:03:38	+cappuccino	(1) https://a.pste.pw/jw7.png [Leliana]
+2018-11-13 01:03:42	@Leliana	[not my problem]
+2018-11-13 01:03:42	+cappuccino	[NOT MY PROBLEM INTENSIFIES]
+2018-11-13 01:04:14	@Leliana	just pull https://ricedb.api.revthefox.co.uk/ to userdb.json
+2018-11-13 01:05:33	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-11-13 01:06:41	+nai	it's working
+2018-11-13 01:06:43	+nai	hallelujah
+2018-11-13 01:10:05	<--	Icedman (~Icedman@nein.not.funny) has quit (Quit: WeeChat 2.3)
+2018-11-13 01:10:13	@Leliana	now install gentoo.py
+2018-11-13 01:11:42	Ergo	delete gentoo instead 
+2018-11-13 01:11:45	Ergo	be rid of useflags 
+2018-11-13 01:15:24	@Leliana	how about
+2018-11-13 01:15:27	@Leliana	"fuck no"
+2018-11-13 01:15:57	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 01:18:15	+nai	Leliana: PR'd
+2018-11-13 01:19:08	@Leliana	nai: rejected
+2018-11-13 01:19:28	+nai	:'(
+2018-11-13 01:19:39	+nai	notice me
+2018-11-13 01:21:18	+nai	good
+2018-11-13 01:21:26	<--	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has quit (Remote host closed the connection)
+2018-11-13 01:21:45	-->	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has joined #rice
+2018-11-13 01:21:45	--	Mode #rice [+v cappuccino] by Onee-chan
+2018-11-13 01:21:54	<--	Jet (~Jet@Rizon-D1047E1E.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-11-13 01:22:26	@Leliana	.dtop eti 1
+2018-11-13 01:22:26	+cappuccino	https://eti.tf/rice [eti]
+2018-11-13 01:22:30	@Leliana	total shit
+2018-11-13 01:22:33	@Leliana	kys nai
+2018-11-13 01:22:35	@Leliana	reverted
+2018-11-13 01:22:39	@Leliana	banned and reported
+2018-11-13 01:22:48	Ergo	dat last scrot is lit 
+2018-11-13 01:22:58	Ergo	makes me wanna do openbox 
+2018-11-13 01:23:15	@Leliana	Ergo: yeah eti's rice is pretty woke
+2018-11-13 01:23:18	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-11-13 01:23:18	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-11-13 01:23:24	Ergo	i like the rices by enju alot as well 
+2018-11-13 01:23:26	Ergo	.dt enju 
+2018-11-13 01:23:26	+cappuccino	(1) https://enju.pw/rice | (2) https://enju.pw/img/ce28.png [enju]
+2018-11-13 01:23:27	@Leliana	he comes second only to me
+2018-11-13 01:23:43	+nai	<@Leliana> total shit 
+2018-11-13 01:23:51	+nai	did you want it to suck your cock?
+2018-11-13 01:23:55	@Leliana	ideally, yes
+2018-11-13 01:23:58	+nai	because i haven't implemented that yet
+2018-11-13 01:24:02	+nai	sorry bitch
+2018-11-13 01:24:33	Ergo	you should do a anual rice competition 
+2018-11-13 01:24:39	@Leliana	nai: did you use the docker image by chance?
+2018-11-13 01:24:41	+nai	s/ua/a/
+2018-11-13 01:24:42	+cappuccino	nai thinks Ergo meant to say: you should do a anal rice competition
+2018-11-13 01:24:48	+nai	Leliana: nope why
+2018-11-13 01:24:49	Ergo	cmon man 
+2018-11-13 01:24:54	@Leliana	you disgust me
+2018-11-13 01:24:57	+nai	>implying i have dorker installed
+2018-11-13 01:25:05	Ergo	s/anual/annual
+2018-11-13 01:25:11	Ergo	s/anual/annual/
+2018-11-13 01:25:12	+cappuccino	Ergo meant to say: you should do a annual rice competition
+2018-11-13 01:27:53	+nai	we did have ricebowl at one point
+2018-11-13 01:27:59	+nai	talk about dead projects lmao
+2018-11-13 01:32:58	-->	murf (~murf@vicer.oy) has joined #rice
+2018-11-13 01:33:44	@Leliana	aww yiss https://hub.docker.com/r/foxdevco/cappuccino/
+2018-11-13 01:33:45	+cappuccino	yeah it's a light theme a while how to use pastes
+2018-11-13 01:33:58	@mobo	>docker
+2018-11-13 01:34:00	@mobo	dropped
+2018-11-13 01:36:39	+nai	wtf
+2018-11-13 01:36:44	+nai	kys tbh
+2018-11-13 01:36:46	+nai	smh
+2018-11-13 01:40:17	@Leliana	what's wrong with docker?
+2018-11-13 01:45:10	+nai	overkill
+2018-11-13 01:50:02	@Leliana	hmm
+2018-11-13 01:50:05	@Leliana	no
+2018-11-13 01:58:58	<--	mobo (~mobo@death.by.reputation) has quit (Quit: Excess flood)
+2018-11-13 02:04:51	<--	zexa (~zexa@A0EAF84B.5C2421CA.7CFCAB6D.IP) has quit (Quit: WeeChat 2.3)
+2018-11-13 02:12:43	<--	m3d (~m3d@DD1EA035.9826AEA1.F6D236E4.IP) has quit
+2018-11-13 02:18:24	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 02:34:34	<--	jcv (~jcv@Rizon-7184F19E.getinternet.no) has quit (Ping timeout: 240 seconds)
+2018-11-13 02:36:34	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 02:38:44	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 02:38:48	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 02:39:17	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit
+2018-11-13 02:39:22	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 03:12:52	-->	mobo_ (~mobo@death.by.reputation) has joined #rice
+2018-11-13 03:13:15	--	mobo_ is now known as mobo
+2018-11-13 10:04:03	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-11-13 10:04:03	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-11-13 10:04:03	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 16:32:42
+2018-11-13 10:04:03	--	Channel #rice: 164 nicks (9 ops, 0 halfops, 18 voices, 137 normals)
+2018-11-13 10:04:05	--	Channel created on Sun, 30 Dec 2012 01:07:54
+2018-11-13 10:04:31	Ergo	gutemorgen 
+2018-11-13 10:05:31	<--	Izuru (~Izuru@hi.im.izuru) has quit (Read error: Connection reset by peer)
+2018-11-13 10:09:37	<--	Ckat (~Ckat@php.jp) has quit (Ping timeout: 240 seconds)
+2018-11-13 10:09:57	-->	jcv (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-11-13 10:09:59	-->	Plastic (~Plastic@sniffs.farts.profusely) has joined #rice
+2018-11-13 10:14:54	+Rue	this aint germany gtfo here
+2018-11-13 10:15:00	-->	Ckat (~Ckat@php.jp) has joined #rice
+2018-11-13 10:15:13	Ergo	should i be saying moin then 
+2018-11-13 10:15:14	Ergo	smh 
+2018-11-13 10:15:34	<--	jcv (~jcv@Rizon-7184F19E.getinternet.no) has quit (Ping timeout: 240 seconds)
+2018-11-13 10:36:32	@cosarara	moin is german too smh
+2018-11-13 10:42:15	-->	Cosumu (~Cosumu@space.is-the-place) has joined #rice
+2018-11-13 10:42:15	--	Mode #rice [+v Cosumu] by Onee-chan
+2018-11-13 10:51:47	+Khorne	reee
+2018-11-13 10:51:49	+Rue	Ergo: you some kind of german knockoff??
+2018-11-13 10:51:52	+Khorne	w r o n g
+2018-11-13 10:51:54	+Khorne	technically
+2018-11-13 10:52:00	+Khorne	also isnt Ergo from the Netherlands
+2018-11-13 10:52:03	+Khorne	Germany Lite?
+2018-11-13 10:54:01	Ergo	yeee
+2018-11-13 10:54:04	Ergo	im from the netherlands 
+2018-11-13 10:54:07	Ergo	smhhhh 
+2018-11-13 10:54:13	Ergo	cosarara: moin is frisian SMH 
+2018-11-13 10:54:40	+Khorne	^
+2018-11-13 10:55:18	+Rue	i'm from https://www.youtube.com/watch?v=RDrfE9I8_hs
+2018-11-13 10:55:19	+cappuccino	[ youtube.com ] Donald Trump Says "China" - YouTube (text/html)
+2018-11-13 10:55:43	-->	cheesus (~cheesus@38AA49E5:9613FC31:3EF22254:IP) has joined #rice
+2018-11-13 10:56:50	Ergo	mfw ive been trying to take the red interview for days
+2018-11-13 10:56:54	Ergo	but their queues are so fucking long 
+2018-11-13 11:00:58	-->	absolutejam (~absolutej@Rizon-7CE22AC0.static.kc.net.uk) has joined #rice
+2018-11-13 11:02:49	<--	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2018-11-13 11:04:32	+Khorne	"Powerline and Bash: Can I make my Powerline prompt similar to my regular Bash prompt?"
+2018-11-13 11:04:35	+Khorne	Yes by not using powerline
+2018-11-13 11:04:38	+Khorne	smh
+2018-11-13 11:07:10	<--	Glitch (~Glitch@cloud.9) has quit (Ping timeout: 240 seconds)
+2018-11-13 11:07:43	-->	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has joined #rice
+2018-11-13 11:08:19	-->	Savitar (~Savitar@Rizon-4D17F8E7.ok.ok.cox.net) has joined #rice
+2018-11-13 11:08:32	-->	Glitch (~Glitch@A8697AAC.5BAB6817.73FA2EDA.IP) has joined #rice
+2018-11-13 11:10:41	@cosarara	Ergo: days? wew
+2018-11-13 11:10:57	Ergo	i mean im currently like 10th in the queue 
+2018-11-13 11:11:05	Ergo	but these interviews take like a hour or two seems like 
+2018-11-13 11:11:11	@cosarara	Ergo: oh sry
+2018-11-13 11:11:16	@cosarara	wrt frisian
+2018-11-13 11:11:35	Ergo	im not even frisian
+2018-11-13 11:11:42	@cosarara	it takes 1h in my experience
+2018-11-13 11:11:48	Ergo	also days is a exeggeration 
+2018-11-13 11:11:56	Ergo	i was in queue for like 2h yesterday then i had to go to gym 
+2018-11-13 11:12:10	Ergo	ive been in queue for 1 hour now but im also gonna go to gym in like 2 hours 
+2018-11-13 11:12:29	@cosarara	gotta pick between lifting or music
+2018-11-13 11:12:42	Ergo	cant download music to lift :( 
+2018-11-13 11:12:53	@cosarara	you go to the gym every day?
+2018-11-13 11:13:03	Ergo	im going 6 days a week now 
+2018-11-13 11:13:09	@cosarara	just skip it today smh
+2018-11-13 11:13:15	Ergo	nah, i do splits 
+2018-11-13 11:13:17	+Rue	you should do 2-3 days on 1 day off
+2018-11-13 11:13:20	Ergo	i also only go for an hour 
+2018-11-13 11:13:27	+Rue	muscles wont go if you dont give it recovery time
+2018-11-13 11:13:30	Ergo	Rue: with my schedule its fine, since i really splut up groups 
+2018-11-13 11:13:30	+Rue	noop
+2018-11-13 11:13:37	+Rue	k
+2018-11-13 11:13:49	Ergo	there is always 3 days between me targeting the same muscle groups 
+2018-11-13 11:14:14	Ergo	so like if i do legs, i wont do legs again for another 3 days 
+2018-11-13 11:14:28	Ergo	and i never mix groups 
+2018-11-13 11:14:38	@cosarara	tfw what's a muscle
+2018-11-13 11:15:09	+Rue	Ergo: ya i used to do that too as well
+2018-11-13 11:15:20	+Rue	it's probably still better to have some off days
+2018-11-13 11:15:32	Ergo	like, i wouldnt go 6 days a week if i did fullbody 
+2018-11-13 11:15:42	Ergo	now i do push pull legs rest push pull legs 
+2018-11-13 11:31:01	-->	Kirtide (~Kirtide@79AFF391.A264066A.1E6225DB.IP) has joined #rice
+2018-11-13 11:31:05	<--	Kirtide (~Kirtide@79AFF391.A264066A.1E6225DB.IP) has quit (Remote host closed the connection)
+2018-11-13 11:31:40	-->	Diego (~Diego@43C65EE2.30F2FD45.709D41CF.IP) has joined #rice
+2018-11-13 11:31:41	<--	Diego (~Diego@43C65EE2.30F2FD45.709D41CF.IP) has quit (Connection closed)
+2018-11-13 11:51:52	+Khorne	dedest of channels
+2018-11-13 11:52:06	+Rue	that's 'cuz your soulmate aint here
+2018-11-13 11:52:35	 *	Rue shapshifts into enju
+2018-11-13 11:53:09	+Rue	be back later. time to grab some food
+2018-11-13 11:57:20	~lxcyp	Yeet
+2018-11-13 11:57:39	~lxcyp	I need caffeine and sugar in my body but it's not lunch yet
+2018-11-13 11:57:55	Ergo	unluckyy 
+2018-11-13 11:57:57	~lxcyp	And the office coffee machine is die 
+2018-11-13 11:58:05	Ergo	where is my boi enju 
+2018-11-13 11:58:12	~lxcyp	I didn't get any caffeine on the way to work :( kms
+2018-11-13 11:58:15	~lxcyp	That's a good question
+2018-11-13 11:58:19	~lxcyp	Not seen him this morning 
+2018-11-13 11:58:23	~lxcyp	On telegram or here
+2018-11-13 11:58:31	Ergo	neither yday :( 
+2018-11-13 11:58:50	+Khorne	qt https://ptpb.pw/xAtD.png
+2018-11-13 11:59:21	~lxcyp	He's sick tbf
+2018-11-13 11:59:26	~lxcyp	He's got a real bad fever
+2018-11-13 11:59:48	Ergo	oh forreal? 
+2018-11-13 11:59:54	Ergo	hope he gets well soon then 
+2018-11-13 12:01:01	~lxcyp	That's pretty nice khorne 
+2018-11-13 12:03:30	Ergo	whhy do people lemonbar with fish 
+2018-11-13 12:03:48	Ergo	it stops me from just stealing their files like enju and eti who also have the best rices :(( 
+2018-11-13 12:04:06	+Khorne	lxcyp, ikr
+2018-11-13 12:04:15	+Khorne	rofi offers window selection tho :s
+2018-11-13 12:04:18	+Khorne	https://ptpb.pw/BqVL.png
+2018-11-13 12:04:31	Ergo	did you write that yourself ?
+2018-11-13 12:05:24	+Khorne	no
+2018-11-13 12:06:23	~lxcyp	.np
+2018-11-13 12:06:24	+cappuccino	lxcyp (MikotoHE2) is now playing Welcome to the Next Level Feat. Teminite by Starr Chen
+2018-11-13 12:06:42	~lxcyp	55 minutes 
+2018-11-13 12:12:19	+Khorne	Ah naturally there is an extension for it
+2018-11-13 12:12:21	+Khorne	me happy
+2018-11-13 12:41:55	~lxcyp	20 minutesss
+2018-11-13 12:48:36	-->	Ta1}s0n (~Ta1}s0n@Rizon-B4A65A30.texas.us.northamericancoax.com) has joined #rice
+2018-11-13 12:48:37	<--	Ta1}s0n (~Ta1}s0n@Rizon-B4A65A30.texas.us.northamericancoax.com) has quit (Connection closed)
+2018-11-13 13:04:42	+LambdaComplex	.np
+2018-11-13 13:04:43	+cappuccino	LambdaComplex (TheReverend403) is not listening to anything right now.
+2018-11-13 13:04:45	+LambdaComplex	:^)
+2018-11-13 13:05:12	+Khorne	And then we kill the LambdaComplex 
+2018-11-13 13:07:00	+LambdaComplex	:<
+2018-11-13 13:07:39	@cosarara	.np Khorne 
+2018-11-13 13:07:40	+cappuccino	Khorne (TheReverend403) is not listening to anything right now.
+2018-11-13 13:07:50	+Khorne	np: Parov Stelar – Song For The Crickets
+2018-11-13 13:07:51	@cosarara	why you two do this
+2018-11-13 13:08:00	+Khorne	cosarara, because its fun and np scripts in bots are stupid
+2018-11-13 13:08:06	@cosarara	that's a nice song
+2018-11-13 13:08:21	@cosarara	no they are not stupid!
+2018-11-13 13:08:22	+nai	.np
+2018-11-13 13:08:23	+cappuccino	nai (TheReverend403) is not listening to anything right now.
+2018-11-13 13:08:27	+nai	yes they are tbh
+2018-11-13 13:08:30	+Khorne	cosarara, they are really stupid
+2018-11-13 13:08:52	@cosarara	it lets me do .np easily
+2018-11-13 13:08:58	+nai	i can do /np easily
+2018-11-13 13:08:58	+Khorne	Exhibit a) You can set whatever user b) it works in only two channels
+2018-11-13 13:09:03	+Khorne	cosarara, so does /np
+2018-11-13 13:09:06	+Khorne	mfw
+2018-11-13 13:09:17	@cosarara	nai: no, because this weechat is not running on the machine I'm listening to music on
+2018-11-13 13:09:25	+Khorne	cosarara, neither is mine?
+2018-11-13 13:09:34	+Khorne	It does the same thing the dumb bot does, curl lastfm
+2018-11-13 13:09:46	+nai	wait what
+2018-11-13 13:09:47	@cosarara	well I didn't have to install anything on my client!
+2018-11-13 13:09:54	@cosarara	I just let cappy do it for me
+2018-11-13 13:09:56	+Khorne	But it works everywhere.
+2018-11-13 13:09:57	+nai	are you playing music on your phone or some shit
+2018-11-13 13:10:02	+Khorne	nai, yes
+2018-11-13 13:10:07	@cosarara	nai: no
+2018-11-13 13:10:15	+Khorne	And my weechat doesnt run on my local machine in the first place?
+2018-11-13 13:10:16	+nai	confused
+2018-11-13 13:10:20	@cosarara	laptop (music), server (weechat)
+2018-11-13 13:10:21	+Khorne	it runs on a server
+2018-11-13 13:10:25	+nai	tru
+2018-11-13 13:10:40	+Khorne	naturally i could do some retarded shit over ssh or w/e
+2018-11-13 13:10:43	+nai	Khorne: are you one of these weechat-behind-tmux-over-ssh people^Wfags
+2018-11-13 13:10:43	+Khorne	but why
+2018-11-13 13:10:48	+Khorne	If I scrobble anyways
+2018-11-13 13:10:59	@cosarara	mosh to vps, tmux, weechat, which connects to znc :^)
+2018-11-13 13:11:04	+Khorne	nai, no I prefer to disconnect every 15seconds because my internet is assshit like so many people
+2018-11-13 13:11:10	+Khorne	cosarara, why to znc tho
+2018-11-13 13:11:11	+nai	what
+2018-11-13 13:11:17	+nai	hello what is a bouncer
+2018-11-13 13:11:22	+Khorne	>bouncer
+2018-11-13 13:11:25	+Khorne	what for
+2018-11-13 13:11:27	+Khorne	when I can just run weechat?
+2018-11-13 13:11:30	@cosarara	Khorne: because sometimes I use hexchat
+2018-11-13 13:11:31	+Khorne	silly people
+2018-11-13 13:11:35	+Khorne	cosarara, and?
+2018-11-13 13:11:39	+Khorne	Relays
+2018-11-13 13:11:39	+nai	that just seems stupid to me
+2018-11-13 13:11:43	+nai	running a client on a server
+2018-11-13 13:11:43	+Khorne	nai, why
+2018-11-13 13:11:46	+Khorne	what
+2018-11-13 13:11:51	+nai	and then you can't do /np because mpd is on a different machine
+2018-11-13 13:11:56	+Khorne	lmao
+2018-11-13 13:12:01	+Khorne	np: Parov Stelar – Silent Shuffle (feat. Jerry Di Monza)
+2018-11-13 13:12:03	+Khorne	but i can
+2018-11-13 13:12:05	+Khorne	?
+2018-11-13 13:12:06	+nai	also if your connection gets bad you get delay when you press keys
+2018-11-13 13:12:13	+nai	i'd rather have delay in the actual irc connection
+2018-11-13 13:12:13	@cosarara	not with mosh
+2018-11-13 13:12:17	+Khorne	nai, also do you run mpd on your *client* machine?
+2018-11-13 13:12:20	+nai	than in the path between my keyboard and my screen
+2018-11-13 13:12:21	+Khorne	lmao
+2018-11-13 13:12:24	+Khorne	pleb
+2018-11-13 13:12:28	+nai	yes..
+2018-11-13 13:12:42	+Khorne	but its server software
+2018-11-13 13:12:45	+Khorne	it should run on a server
+2018-11-13 13:12:53	+nai	shut up
+2018-11-13 13:13:02	+Khorne	¯\_(ツ)_/¯
+2018-11-13 13:13:05	+Khorne	Dont start shit if you cant finish
+2018-11-13 13:13:07	+Khorne	:')
+2018-11-13 13:13:20	+nai	i think i finished
+2018-11-13 13:13:26	+Khorne	( ͡° ͜ʖ ͡°)
+2018-11-13 13:13:29	+nai	no i mean
+2018-11-13 13:13:33	+nai	i did expose another valid argument
+2018-11-13 13:13:33	+Khorne	We know what you mean
+2018-11-13 13:13:39	+Khorne	Not really though
+2018-11-13 13:14:16	+nai	oh well
+2018-11-13 13:14:36	-->	ym (~ym@CCE21784.51FD2210.17078704.IP) has joined #rice
+2018-11-13 13:14:45	@cosarara	Khorne: you run mpd on a remote?
+2018-11-13 13:14:46	+nai	¯\_ to the (ツ) to the _/¯
+2018-11-13 13:14:53	+Khorne	cosarara, I dont run mpd at all
+2018-11-13 13:15:00	@cosarara	aha
+2018-11-13 13:15:23	+Khorne	But when I did, I ran it at least on an always on machine so it could stream to my phone
+2018-11-13 13:16:36	@cosarara	last time I tried mpd android streaming it was pretty shit
+2018-11-13 13:16:44	+Khorne	how?
+2018-11-13 13:16:54	+Khorne	used to work quite alright for me
+2018-11-13 13:17:05	-->	im0nde (~binaryple@Rizon-FE7566C2.ipv6dyn.netcologne.de) has joined #rice
+2018-11-13 13:17:12	<--	Cosmonaut (~wannagoto@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-11-13 13:17:29	@cosarara	IIRC it had to do with ogg support. super high latency
+2018-11-13 13:17:41	@cosarara	like 30s
+2018-11-13 13:20:34	+Khorne	did you use the internal httpd stream?
+2018-11-13 13:21:13	workodera	Ergo, https://www.youtube.com/watch?v=ncQNQSEhqng
+2018-11-13 13:21:13	+cappuccino	[ youtube.com ] Dagobert Duck in de bijstand - YouTube (text/html)
+2018-11-13 13:21:16	workodera	kunst
+2018-11-13 13:21:31	@cosarara	Khorne: probably, don't really remember
+2018-11-13 13:22:02	+Khorne	Mh, worked quite alright with MPDroid and MALP
+2018-11-13 13:22:22	+Khorne	¯\_(ツ)_/¯
+2018-11-13 13:22:41	@eti	trying to do something a bit different :p https://x.eti.tf/vDxSK.wav
+2018-11-13 13:23:34	+nai	eti: good chords, not a fan of the excessive distorsion
+2018-11-13 13:25:36	@eti	actually there's only distortion on the kick
+2018-11-13 13:25:41	@eti	oh and the riff of course
+2018-11-13 13:25:59	@eti	tfw i'm supposed to work on a hologram but i'm making music instead
+2018-11-13 13:31:07	<--	AnalytiCat (~analytica@spherical.cows) has quit (Quit: ZNC 1.6.5+deb1+deb9u1 - http://znc.in)
+2018-11-13 13:33:19	-->	AnalytiCat (~analytica@spherical.cows) has joined #rice
+2018-11-13 13:33:55	+Rue	back
+2018-11-13 13:34:15	+Rue	oh ya eti is so cool with his macbook now
+2018-11-13 13:34:18	+Rue	xD
+2018-11-13 13:35:21	+Rue	what's the spec by the way
+2018-11-13 13:35:26	@eti	no idea fam
+2018-11-13 13:35:29	+Khorne	lmao
+2018-11-13 13:35:43	@eti	https://x.eti.tf/2nRU8.png
+2018-11-13 13:35:57	@eti	https://x.eti.tf/PaI8w.png
+2018-11-13 13:35:59	+Khorne	is it the silver one
+2018-11-13 13:35:59	+nai	is that neofetch xD
+2018-11-13 13:36:14	+nai	lmao you actually linked neofetch too
+2018-11-13 13:36:45	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-11-13 13:36:45	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-11-13 13:36:52	+Khorne	Did you think neofetch didnt exist for macos
+2018-11-13 13:37:03	+nai	no
+2018-11-13 13:37:16	+Khorne	whats so funny then
+2018-11-13 13:37:22	@eti	it's the dark silver vesion
+2018-11-13 13:38:11	+nai	Khorne: your face.
+2018-11-13 13:38:26	+Khorne	.selfie nai
+2018-11-13 13:38:26	+cappuccino	(1) https://up.monade.li/YTEyZm.jpg [nai]
+2018-11-13 13:38:28	+Khorne	:thinking:
+2018-11-13 13:38:34	+nai	.selfie Khorne 
+2018-11-13 13:38:34	+cappuccino	(1) https://pbs.twimg.com/profile_images/428258272332619776/RuXJe5p6.jpeg | (2) https://ptpb.pw/hC-p.png | (3) https://st3.depositphotos.com/3584053/16425/i/1600/depositphotos_164256928-stock-photo-halloween-hipster-with-beard-smiling.jpg [Khorne]
+2018-11-13 13:38:45	+nai	:thonkong:
+2018-11-13 13:39:19	+nai	.selfie Khorne 2
+2018-11-13 13:39:19	+cappuccino	https://ptpb.pw/hC-p.png [Khorne]
+2018-11-13 13:39:24	+nai	my theory is that this one is a real selfie
+2018-11-13 13:39:41	+Shinryuu	looks chad enough
+2018-11-13 13:39:43	+nai	you just hid it in plainsight among the shutterstock ones
+2018-11-13 13:39:45	+Khorne	All of them are real selfies. They are in .selfie. What else would they be?
+2018-11-13 13:39:58	+nai	tru
+2018-11-13 13:40:00	+nai	just like
+2018-11-13 13:40:02	+nai	.selfie mobo
+2018-11-13 13:40:02	+cappuccino	(1) https://0x0.st/sYNu.jpg [mobo]
+2018-11-13 13:40:16	+Khorne	Are you saying mobo isnt a premium service partner?
+2018-11-13 13:40:19	+Khorne	wew
+2018-11-13 13:40:37	+nai	no
+2018-11-13 13:40:40	+nai	i'm /implying/ it
+2018-11-13 13:41:20	+Khorne	rude
+2018-11-13 13:43:08	@eti	///
+2018-11-13 13:43:21	+Rue	nice to have google/youtube/reddit back
+2018-11-13 13:43:36	+nai	\\\
+2018-11-13 13:44:23	+nai	Rue: you couldn't just use a vpn?
+2018-11-13 13:44:49	+Rue	i was using one on my cellphone
+2018-11-13 13:44:52	+Rue	not on the laptop
+2018-11-13 13:45:04	+nai	why no
+2018-11-13 13:45:05	+nai	t
+2018-11-13 13:46:08	+Rue	i dont know, never used one on computer before. cosarara said i could use his, but i had to get wireshark or something
+2018-11-13 13:46:35	+Rue	it wasn't on the openbsd repo, and i didn't feel like getting it manually or the hassle of setting one up
+2018-11-13 13:46:37	+Rue	:P
+2018-11-13 13:46:52	+nai	wireguard
+2018-11-13 13:46:58	+nai	shame
+2018-11-13 13:47:32	+nai	https://www.wireguard.com/install/#openbsd-not-yet-packaged
+2018-11-13 13:47:33	+cappuccino	[ wireguard.com ] Installation - WireGuard (text/html)
+2018-11-13 13:47:57	+nai	they made a nice script
+2018-11-13 13:48:38	@cosarara	why do you use openbsd Rue
+2018-11-13 13:49:22	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-11-13 13:49:24	+Rue	'cuz install takes 30 seconds, and everything's good to go
+2018-11-13 13:49:29	+Rue	plus it's simple to use
+2018-11-13 13:50:11	+Rue	and i got arch on desktop, so i might go a week without using the laptop. i didn't feel like constantly updating software on both machines
+2018-11-13 13:51:23	+Khorne	btw he uses arch
+2018-11-13 13:52:05	+nai	wait, is openbsd user-friendly? i thought it was """hard""" to install like gentoo
+2018-11-13 13:52:32	+Rue	no. intall literally takes only 30 seconds
+2018-11-13 13:52:47	+Rue	and the whole system is ready to go
+2018-11-13 13:52:57	+Rue	just enter the wifi info into a file
+2018-11-13 13:53:06	+nai	thought it was a neckbearded nerd thing
+2018-11-13 13:53:26	+Rue	nah
+2018-11-13 13:53:57	+Khorne	(yes)
+2018-11-13 13:54:35	+Rue	the filesystem looks pretty clean too, everything goes to the right place so it feels neat and organized
+2018-11-13 13:54:48	raph_ael	nai: simple to install, but it takes some time to get used to
+2018-11-13 13:55:00	+Rue	nah. all the commands are dead simple
+2018-11-13 13:55:18	+Rue	mixerctl to change volume
+2018-11-13 13:55:24	+Rue	pkg_add, pkg_delete, pkg_info
+2018-11-13 13:55:25	raph_ael	Rue: coming from linux, you have to get new habits, that takes time
+2018-11-13 13:55:37	+nai	i'm too used to linux anyway
+2018-11-13 13:55:40	+Rue	i never had much knowledge in linux anyway
+2018-11-13 13:55:50	+Rue	Khorne tells me what to do and i m'fucking do it
+2018-11-13 13:55:58	+Khorne	That is true
+2018-11-13 13:56:23	+Rue	pkg_info -m shows all the manually pakcages you installed
+2018-11-13 13:56:28	+Rue	pkg_check
+2018-11-13 13:56:41	+Rue	doas instead of sudo
+2018-11-13 13:57:00	+nai	i do  yay -Qe
+2018-11-13 13:57:04	+nai	it's shorter!
+2018-11-13 13:57:15	+Khorne	alias p=pacman
+2018-11-13 13:57:19	+Khorne	p -Qe
+2018-11-13 13:57:21	+Khorne	rekt scrub
+2018-11-13 13:57:34	raph_ael	alias breakmysystem=pacman
+2018-11-13 13:57:48	+nai	PS1='$(pacman -Qe)'
+2018-11-13 13:57:48	+Khorne	Times pacman has broken my system:
+2018-11-13 13:57:50	+nai	0 characters
+2018-11-13 13:57:59	+Khorne	Times dist-upgrade has broken my system: INT_MAX
+2018-11-13 13:58:12	+Khorne	Fucking debian
+2018-11-13 13:58:30	+nai	Khorne: i know right
+2018-11-13 13:58:33	+Khorne	nai, cant do it like that
+2018-11-13 13:58:34	+nai	well i don't
+2018-11-13 13:58:38	+nai	never used debian
+2018-11-13 13:58:50	+nai	but like, i must have had problems with missing libs after a pacman -Syu like twice
+2018-11-13 13:58:50	+Khorne	PS1 is already sudo pacman -Syyuu --no-confirm --overwrite '*'
+2018-11-13 13:59:00	+nai	mfw
+2018-11-13 13:59:00	+Khorne	nai, for repo packages or aur pacakges
+2018-11-13 13:59:05	+nai	repo
+2018-11-13 13:59:12	+Khorne	Mh that should be rather rare
+2018-11-13 13:59:21	+nai	libs were updated but packages were still depending on older versions
+2018-11-13 13:59:25	+nai	and not finding the .so files
+2018-11-13 13:59:28	+Khorne	openssl 1.1 move was a bit shitty
+2018-11-13 13:59:30	+Khorne	Because upstream didnt update
+2018-11-13 13:59:32	+nai	i had to symlink a few files in /usr/lib manually
+2018-11-13 13:59:34	+nai	was long ago
+2018-11-13 14:00:06	raph_ael	I have painful rememberings using arch
+2018-11-13 14:00:49	+nai	it's probably reciprocal
+2018-11-13 14:01:24	+Khorne	heh
+2018-11-13 14:03:03	+Khorne	Anyone want tildes.net invites?
+2018-11-13 14:04:10	raph_ael	seems a nice project
+2018-11-13 14:04:39	+nai	why do i still have no idea what it *is* after reading the front page and clicking a link
+2018-11-13 14:04:40	+Rue	what that khorne
+2018-11-13 14:04:48	+Khorne	Ah website
+2018-11-13 14:04:48	+nai	> a non-profit community site driven by its users' interests
+2018-11-13 14:04:55	+Khorne	nai, reddit clone
+2018-11-13 14:05:37	+nai	why would i want to join that
+2018-11-13 14:05:52	+Khorne	¯\_(ツ)_/¯
+2018-11-13 14:06:01	+Khorne	Because reddit is gonna get suckier and suckier?
+2018-11-13 14:07:02	+nai	why
+2018-11-13 14:07:12	+nai	i mean
+2018-11-13 14:07:15	+nai	who needs reddit
+2018-11-13 14:07:29	+Khorne	So that's a no for nai
+2018-11-13 14:07:57	+Rue	show us some screenshot of the content
+2018-11-13 14:08:47	raph_ael	if there's few people, do not hope on content
+2018-11-13 14:10:29	+nai	who wants an invite to join an obscure community with no people and no content :')
+2018-11-13 14:11:28	+Khorne	https://ptpb.pw/TTvk.png
+2018-11-13 14:14:27	+Rue	sure send me an invite i'll check it out
+2018-11-13 14:20:35	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 14:22:45	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 14:22:59	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 14:23:42	raph_ael	lobste.rs is nice but very tech oriented
+2018-11-13 14:27:00	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 14:27:44	-->	jcv (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-11-13 14:29:55	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 14:34:09	-->	Izuru (~Izuru@hi.im.izuru) has joined #rice
+2018-11-13 14:35:40	@cosarara	idk I don't like lobste.rs much
+2018-11-13 14:35:55	@cosarara	very few comments, usually negative
+2018-11-13 14:36:03	@cosarara	I guess that's most of the internet anyway
+2018-11-13 14:37:36	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 14:38:09	+Rue	time to make some thai milk tea
+2018-11-13 14:38:21	@cosarara	maybe I'm just mad because it's a sicrt club and I'm not in
+2018-11-13 14:38:22	+Rue	it was so delicious when i had it at the restaurants
+2018-11-13 14:38:33	+Rue	i bought some instant ones
+2018-11-13 14:38:39	+Rue	hope it's tasty
+2018-11-13 14:39:06	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 14:40:19	@eti	ahem
+2018-11-13 14:40:20	@eti	COCKA
+2018-11-13 14:40:22	@eti	COCKS
+2018-11-13 14:40:24	@eti	*
+2018-11-13 14:40:26	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 14:43:16	-->	Double_Helix (~Double_He@I.dont.want.to.believe.I.want.to.know) has joined #rice
+2018-11-13 14:44:49	+Rue	tfw that's the first thing that popped into eti's mind when tasty is mentioned
+2018-11-13 14:47:10	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 15:00:50	<--	ym (~ym@CCE21784.51FD2210.17078704.IP) has quit (Quit: WeeChat 2.2)
+2018-11-13 15:03:20	<--	Izuru (~Izuru@hi.im.izuru) has quit (Quit: Leaving)
+2018-11-13 15:15:18	~lxcyp	Teehee
+2018-11-13 15:15:19	~lxcyp	Hi
+2018-11-13 15:18:39	@eti	hiiii uwu :3
+2018-11-13 15:18:49	@eti	welcome to the #wice channel!!!
+2018-11-13 15:18:53	@eti	enjoy ur stay!!!
+2018-11-13 15:19:53	+Khorne	Dont mind the welcome bot
+2018-11-13 15:20:00	+Khorne	It usually shuts up quickly
+2018-11-13 15:21:54	@eti	cappuccino: ass
+2018-11-13 15:21:55	+cappuccino	macbooks go beserk when they're online they're murdering other people, even
+2018-11-13 15:22:05	@eti	>_>
+2018-11-13 15:23:13	@cosarara	mfw cappy has become a fake news spreader
+2018-11-13 15:25:24	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-11-13 15:28:49	+Khorne	or is he
+2018-11-13 15:29:06	+Khorne	what if macbooks are part of a ai botnet
+2018-11-13 15:29:22	+Khorne	and theyre systematically working to replace whites in europe
+2018-11-13 15:29:27	+Khorne	:thonking:
+2018-11-13 15:31:02	~lxcyp	Oh shit tru 
+2018-11-13 15:31:23	+Khorne	what if cappuccino is controlling them and we're all next
+2018-11-13 15:31:24	+cappuccino	azahi: you're a kook man
+2018-11-13 15:31:32	~lxcyp	What if democracy doesn't real
+2018-11-13 15:31:50	+Khorne	they already got enju and suits
+2018-11-13 15:31:53	+Khorne	wew
+2018-11-13 15:34:20	~lxcyp	Rip
+2018-11-13 15:35:05	~lxcyp	Khorne ill take an invite 
+2018-11-13 15:35:33	~lxcyp	If I see any nazi shit or pedo shit I'll be unhappy though 
+2018-11-13 15:35:44	+Khorne	Nah
+2018-11-13 15:35:52	~lxcyp	Nazis lose the vote pedos get the rope
+2018-11-13 15:35:52	+Khorne	Less than on reddit :')
+2018-11-13 15:37:36	~lxcyp	I registered 
+2018-11-13 15:39:24	-->	apetresc (~apetresc@Rizon-CAB8B3AC.dsl.bell.ca) has joined #rice
+2018-11-13 15:39:33	@Leliana	cappuccino: why are the macbooks murdering people?
+2018-11-13 15:39:34	+cappuccino	\x: what it really does
+2018-11-13 15:49:16	@eti	weewoo weewoo https://x.eti.tf/5lNem.png
+2018-11-13 15:49:20	@eti	the bully police is here
+2018-11-13 15:49:24	@eti	ban Leliana 
+2018-11-13 15:54:03	 *	Rue listens to https://www.youtube.com/watch?v=VC02wGj5gPw
+2018-11-13 15:54:04	+cappuccino	[ youtube.com ] JEFF BECK LIVE Cause We've Ended As Lovers - YouTube (text/html)
+2018-11-13 15:56:39	@eti	anyone has any idea what this could be 'FBMD01000a820d0000662c0000e74f0000ca500000c45100006169000084ac000008b50000dfb700006bba0000c2370100'
+2018-11-13 15:57:05	+Khorne	your face
+2018-11-13 15:57:54	@eti	there's also this 'ch9HsZkVHIzSf-MuXGhl'
+2018-11-13 15:58:02	+Khorne	your slightly smaller face
+2018-11-13 15:58:02	@eti	ok thanks Khorne rly helpful
+2018-11-13 15:58:16	+Khorne	Do you have any context? -.-
+2018-11-13 15:59:46	@eti	bandcamp artist included this in the metadata of his cover.jpg
+2018-11-13 15:59:56	+Rue	how edgy
+2018-11-13 15:59:58	@eti	it's the only string of text that appears, the rest is purged
+2018-11-13 16:00:30	+Khorne	https://www.hackerfactor.com/blog/index.php?/archives/726-Facebook-Tracking.html
+2018-11-13 16:00:31	+Rue	https://en.wikipedia.org/wiki/FreeBMD
+2018-11-13 16:00:31	+cappuccino	[ hackerfactor.com ] Facebook Tracking  - The Hacker Factor Blog (text/html)
+2018-11-13 16:00:32	+cappuccino	[ en.wikipedia.org ] FreeBMD - Wikipedia (text/html)
+2018-11-13 16:00:36	+Rue	FreeBMD
+2018-11-13 16:00:39	+Rue	kek
+2018-11-13 16:00:59	+Khorne	Yea, I wanna go with mine, thanks
+2018-11-13 16:01:27	+Rue	https://www.hackerfactor.com/blog/index.php?/archives/726-Facebook-Tracking.html
+2018-11-13 16:01:28	+cappuccino	[ hackerfactor.com ] Facebook Tracking  - The Hacker Factor Blog (text/html)
+2018-11-13 16:01:40	+Rue	oh khorne beat me to it
+2018-11-13 16:02:07	+Rue	that bandcamp artist is an edgy poser
+2018-11-13 16:02:54	@eti	nice
+2018-11-13 16:03:11	@eti	so it means that guy got that pic through facebook and downloaded it from there?
+2018-11-13 16:03:19	+Khorne	possibly
+2018-11-13 16:03:22	@eti	i don't understand the second bit though
+2018-11-13 16:03:42	+Khorne	what second bit?
+2018-11-13 16:04:40	@eti	'ch9HsZkVHIzSf-MuXGhl'
+2018-11-13 16:05:03	+Khorne	IPTC Original Transmission Reference: YZZ3rl24dBgeWhPfrSiR
+2018-11-13 16:05:08	+Khorne	seems reasonably similar
+2018-11-13 16:05:13	<--	Pixi (~Pixi@magical.mithra) has quit
+2018-11-13 16:06:08	+Khorne	IPTC Original Transmission Reference: ch9HsZkVHIzSf-MuXGhl
+2018-11-13 16:06:11	+Khorne	ye
+2018-11-13 16:06:29	@eti	aight
+2018-11-13 16:06:32	@eti	makes sense
+2018-11-13 16:06:41	@eti	so it's just facebook's metadata?
+2018-11-13 16:06:44	@eti	makes me sad tbh
+2018-11-13 16:06:46	+Khorne	I guess
+2018-11-13 16:06:55	@eti	i was expecting something cool
+2018-11-13 16:07:04	@eti	like a website filled with cocks or something
+2018-11-13 16:07:10	+Khorne	So
+2018-11-13 16:07:13	+Khorne	Facebook?
+2018-11-13 16:07:23	jenkins	he said cocks not cucks
+2018-11-13 16:07:24	@eti	y-yes
+2018-11-13 16:07:35	+Khorne	Same
+2018-11-13 16:07:50	-->	Pixi (~Pixi@magical.mithra) has joined #rice
+2018-11-13 16:08:21	~lxcyp	.np
+2018-11-13 16:08:22	+cappuccino	lxcyp (MikotoHE2) is now playing American Boy by Estelle
+2018-11-13 16:15:12	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Ping timeout: 240 seconds)
+2018-11-13 16:18:44	@mitya	.dtop -d *
+2018-11-13 16:18:44	+cappuccino	Removed all of your dtops.
+2018-11-13 16:19:00	@mitya	.dtop -a https://fictitious.space/rice/dtop.png
+2018-11-13 16:19:00	+cappuccino	dtops updated.
+2018-11-13 16:19:16	 *	Rue listens to https://www.youtube.com/watch?v=X5OT7f5hetM
+2018-11-13 16:19:17	+cappuccino	[ youtube.com ] Jeff Beck - Pork Pie (From "Performing This Week Live at Ronnie Scotts") - YouTube (text/html)
+2018-11-13 16:23:26	-->	Kirtide (~Kirtide@79AFF391.A264066A.1E6225DB.IP) has joined #rice
+2018-11-13 16:23:31	<--	Kirtide (~Kirtide@79AFF391.A264066A.1E6225DB.IP) has quit (Remote host closed the connection)
+2018-11-13 16:29:36	-->	Pixi_ (~Pixi@Rizon-827BF723.hsd1.va.comcast.net) has joined #rice
+2018-11-13 16:29:58	<--	Pixi_ (~Pixi@Rizon-827BF723.hsd1.va.comcast.net) has quit
+2018-11-13 16:33:17	<--	Pixi (~Pixi@magical.mithra) has quit (Ping timeout: 240 seconds)
+2018-11-13 16:34:28	~lxcyp	.np
+2018-11-13 16:34:29	+cappuccino	lxcyp (MikotoHE2) is now playing Strange Embrace by Kitten
+2018-11-13 16:34:43	@mitya	hi fearless leader
+2018-11-13 16:34:54	 *	mitya is listening to MBMBaM
+2018-11-13 16:35:49	~lxcyp	Hiy
+2018-11-13 16:36:06	~lxcyp	I listened to this week's mbmbam this morning too
+2018-11-13 16:36:25	<--	Cosumu (~Cosumu@space.is-the-place) has quit (Ping timeout: 240 seconds)
+2018-11-13 16:44:31	-->	Pixi (~Pixi@Rizon-827BF723.hsd1.va.comcast.net) has joined #rice
+2018-11-13 16:45:19	@Leliana	.np
+2018-11-13 16:45:20	+cappuccino	Leliana (TheReverend403) is not listening to anything right now.
+2018-11-13 16:45:23	@Leliana	fuck off cappuccino
+2018-11-13 16:45:24	+cappuccino	+Leliana mitya: it's not spam
+2018-11-13 16:46:19	@mitya	that's meta
+2018-11-13 16:46:23	@mitya	bc I do think the bot is spam
+2018-11-13 16:46:35	@mitya	at least the ai
+2018-11-13 16:46:39	@Leliana	too bad, suck it up princess
+2018-11-13 16:47:00	@Leliana	> https://www.reddit.com/r/linux/comments/9wnmzv/stderred_stderr_in_red/
+2018-11-13 16:47:01	+cappuccino	[ reddit.com ] Stderred - stderr in red. : linux (text/html)
+2018-11-13 16:47:02	@Leliana	"why?"
+2018-11-13 16:47:13	@mitya	wut
+2018-11-13 16:47:19	@mitya	that sounds pointless
+2018-11-13 16:49:30	-->	Cosumu (~Cosumu@space.is-the-place) has joined #rice
+2018-11-13 16:49:30	--	Mode #rice [+v Cosumu] by Onee-chan
+2018-11-13 16:52:00	<--	Shinryuu (~gdsptuwtd@moe.pantsu) has quit (Quit: test)
+2018-11-13 16:52:12	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-11-13 17:04:57	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Ping timeout: 240 seconds)
+2018-11-13 17:10:27	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-11-13 17:40:02	<--	absolutejam (~absolutej@Rizon-7CE22AC0.static.kc.net.uk) has quit (Ping timeout: 240 seconds)
+2018-11-13 17:56:00	@eti	ded
+2018-11-13 18:01:23	+Kosomonauto	azz
+2018-11-13 18:07:44	-->	The_Loko (~The_Loko@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice
+2018-11-13 18:17:28	<--	cheesus (~cheesus@38AA49E5:9613FC31:3EF22254:IP) has quit (Quit: WeeChat 1.6)
+2018-11-13 18:24:28	<--	Savitar (~Savitar@Rizon-4D17F8E7.ok.ok.cox.net) has quit (Ping timeout: 240 seconds)
+2018-11-13 18:28:20	-->	Savitar (~Savitar@Rizon-4D17F8E7.ok.ok.cox.net) has joined #rice
+2018-11-13 19:02:32	-->	onodera (~onodera@the.culture.of.critique) has joined #rice
+2018-11-13 19:05:48	+nai	fuck Khorne 
+2018-11-13 19:12:12	+torvim	i agree
+2018-11-13 19:19:15	-->	tor (~tor@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-13 19:19:35	<--	tor (~tor@B8505028.C468F6C0.CCD8B8AD.IP) has quit
+2018-11-13 19:20:23	<--	The_Loko (~The_Loko@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2018-11-13 19:21:18	+nai	why is sewing pronounced sowing
+2018-11-13 19:21:22	+nai	what the fuck english
+2018-11-13 19:21:54	+nai	get your fucking shit to fucking gether
+2018-11-13 19:23:36	-->	The_Loko (~The_Loko@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has joined #rice
+2018-11-13 19:24:13	+Khorne	ban nai
+2018-11-13 19:24:28	+Khorne	nai, haha what about Lieutenant
+2018-11-13 19:24:41	+torvim	coming from someone who speaks french
+2018-11-13 19:24:46	+torvim	or colonel
+2018-11-13 19:25:00	+Khorne	ikr
+2018-11-13 19:25:15	+Khorne	or baguette
+2018-11-13 19:25:17	-->	tor (~tor@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-13 19:25:26	+Khorne	wheres the u
+2018-11-13 19:25:27	+torvim	actually fuck me
+2018-11-13 19:25:28	+nai	what
+2018-11-13 19:25:28	+Khorne	where
+2018-11-13 19:25:35	+Khorne	WHERE IS THE U SOUND IN BAGUETTE NAI
+2018-11-13 19:25:40	+nai	it's silent
+2018-11-13 19:25:43	+nai	as is
+2018-11-13 19:25:45	+nai	the norm
+2018-11-13 19:25:47	+nai	in french
+2018-11-13 19:25:49	+nai	it's not an exception
+2018-11-13 19:25:51	+nai	whereas
+2018-11-13 19:25:53	+nai	sewing
+2018-11-13 19:25:53	+torvim	fuck off nai 
+2018-11-13 19:25:54	+nai	is clearly a malfunction
+2018-11-13 19:25:59	+Khorne	p sure the entirety of french is an exception
+2018-11-13 19:26:01	+nai	of the english consistency
+2018-11-13 19:26:07	+nai	the French Exception™
+2018-11-13 19:26:09	+Khorne	>english consistency
+2018-11-13 19:26:11	+Khorne	lmao
+2018-11-13 19:26:16	+Khorne	u high fam
+2018-11-13 19:26:16	+nai	okay
+2018-11-13 19:26:19	+nai	that might have been
+2018-11-13 19:26:22	+nai	a bit of a stretch
+2018-11-13 19:26:23	+Khorne	high
+2018-11-13 19:26:25	+Khorne	as 
+2018-11-13 19:26:27	+Khorne	balls
+2018-11-13 19:26:29	+nai	Cosumu
+2018-11-13 19:26:43	+torvim	the 'n', 'a' and 'i' in nai are replaced with 'c', 'u', 'n' and 't'
+2018-11-13 19:28:03	+nai	yeah? well the 't', 'o', 'r', 'v', 'i', 'm' in torvim are replaced with 'f', 'u', 'c', 'k', ' ', 'y', 'o', 'u', ' ', 'n', 'i', 'g', 'g', 'e', 'r', ' ', 'i', ' ', 'h', 'a', 'd', ' ', 's', 'e', 'x', ' ', 'w', 'i', 't', 'h', ' ', 'y', 'o', 'u', 'r', ' ', 'm', 'o', 'm'.
+2018-11-13 19:28:10	+nai	that was painful
+2018-11-13 19:28:17	+nai	and no i did not use python
+2018-11-13 19:28:46	+torvim	i used python with your mum
+2018-11-13 19:28:50	+torvim	also mum, not mom
+2018-11-13 19:28:55	+nai	also fuck you
+2018-11-13 19:29:10	<--	tor (~tor@B8505028.C468F6C0.CCD8B8AD.IP) has quit
+2018-11-13 19:30:27	+nai	also Khorne what is wrong with lieutenant
+2018-11-13 19:30:33	<--	Rue (~rue@Rizon-8DC8FE8F.dynamic-ip.hinet.net) has quit
+2018-11-13 19:30:33	+nai	it's literally literal
+2018-11-13 19:31:31	+torvim	sorry for spam yall
+2018-11-13 19:31:35	-->	tor (~tor@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-13 19:32:22	<--	tor (~tor@B8505028.C468F6C0.CCD8B8AD.IP) has quit
+2018-11-13 19:32:23	+nai	not sorry for spam yall
+2018-11-13 19:42:01	-->	tor (~core@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-13 19:43:09	<--	tor (~core@B8505028.C468F6C0.CCD8B8AD.IP) has quit
+2018-11-13 19:46:00	<--	torvim (~qwebirc@B8505028.C468F6C0.CCD8B8AD.IP) has quit (Killed (NickServ (GHOST command used by core_)))
+2018-11-13 19:47:18	+Khorne	nai, uhm no
+2018-11-13 19:47:22	+Khorne	its literally not
+2018-11-13 19:47:41	+nai	lieu-te-nant
+2018-11-13 19:47:49	+nai	it literally is literally literal
+2018-11-13 19:47:54	+Khorne	https://www.youtube.com/watch?v=1DEyUNRRN_Q
+2018-11-13 19:47:54	+cappuccino	[ youtube.com ] How to pronounce lieutenant (British English) - YouTube (text/html)
+2018-11-13 19:47:57	+Khorne	fuck off nai
+2018-11-13 19:48:02	+nai	oh you mean in english?
+2018-11-13 19:48:03	+Khorne	FUCK OFF NAI ALRIGHT?
+2018-11-13 19:48:07	+Khorne	YES OF COURSE
+2018-11-13 19:48:09	+nai	wtf
+2018-11-13 19:48:13	+nai	why is there an f there
+2018-11-13 19:48:29	+nai	what the glorious fuck
+2018-11-13 19:48:44	+nai	retarded englishes
+2018-11-13 19:49:59	+nai	> But why the 'f'? Typical stiff upper lip? You realise you've been mis-reading a 'u' for a 'v' and then mispronounce the 'v' as an 'f' and then later still realise it's completely wrong but still stick said mispronunciation into an authoritative dictionary? And then expect everyone else to mispronounce it forever more? People are stupid.﻿
+2018-11-13 19:50:13	+Khorne	I mean
+2018-11-13 19:50:16	+Khorne	Solid argumentation
+2018-11-13 19:50:23	+nai	an enlightened view for a youtube comment xD
+2018-11-13 19:52:48	+Khorne	nai, wanna know something else
+2018-11-13 19:52:52	+nai	yes
+2018-11-13 19:52:54	+Khorne	AE pronounces it as is
+2018-11-13 19:52:59	+Khorne	Liu-tenant
+2018-11-13 19:53:16	+nai	ah yes that's the pronounciation i have heard
+2018-11-13 19:53:17	+Khorne	Because one english isnt retarded enough, we get a 2nd one
+2018-11-13 19:53:25	+nai	I MEAN THAT'S NOT RETARDED
+2018-11-13 19:53:32	+nai	HOW ELSE WOULD YOU PRONOUNCE IT
+2018-11-13 19:53:39	+Khorne	With an f of course
+2018-11-13 19:53:45	+nai	BUT THERE IS NO F
+2018-11-13 19:53:52	+Khorne	Also what torvim said, colonel
+2018-11-13 19:53:54	+Khorne	kernel
+2018-11-13 19:53:57	+nai	THERE ISN'T EVEN A V THAT WOULD JUSTIFY THE F
+2018-11-13 19:54:04	+Khorne	every u is a v
+2018-11-13 19:54:06	+Khorne	actually
+2018-11-13 19:54:18	+nai	> colonel
+2018-11-13 19:54:31	+nai	just englishfags being english fags once again
+2018-11-13 19:54:57	+nai	lmao it's literally pronounced kernel
+2018-11-13 19:55:00	+nai	wtf
+2018-11-13 19:55:13	+nai	whenever i read about english pronounciation
+2018-11-13 19:55:16	+nai	it's just like
+2018-11-13 19:55:18	+nai	they didn't care
+2018-11-13 19:55:28	+nai	like they didn't give a SHIT how their language was going to be pronounced
+2018-11-13 19:55:52	+nai	french has all these complex and subtle rules that result from centuries of history and evolution
+2018-11-13 19:56:07	+nai	english is just like "oh yeah see that u? it's pronounced f for no reason fuck you"
+2018-11-13 19:56:18	+nai	"colonel? yeah fuck that, just say kernel"
+2018-11-13 19:56:53	+nai	i also find it hilarious that english doesn't have a way to pronounce the syllables "colo" in a clear, distinctive way
+2018-11-13 19:57:02	+nai	what a lazy ass language
+2018-11-13 19:57:34	+nai	well, you may say, they know how to say "color"
+2018-11-13 19:57:44	+nai	not the same Os tho
+2018-11-13 19:58:09	-->	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has joined #rice
+2018-11-13 19:58:15	+nai	why am i ranting alone
+2018-11-13 19:58:18	+nai	where is Khorne 
+2018-11-13 19:58:20	+nai	KHORNE
+2018-11-13 19:58:32	bixxx	>french has all these complex and subtle rules that result from centuries of history and evolution
+2018-11-13 19:58:45	bixxx	heh i read that as >french is the austistic language of spergs
+2018-11-13 19:58:54	+nai	ikr
+2018-11-13 19:58:56	bixxx	sounds like the perfect language for you tbh
+2018-11-13 19:59:05	+nai	oof
+2018-11-13 19:59:08	+nai	who even are you
+2018-11-13 19:59:18	bixxx	pls
+2018-11-13 19:59:26	bixxx	i was here years before you 
+2018-11-13 20:00:52	+nai	uh, ok?
+2018-11-13 20:01:35	+nai	do you have another nickname or something
+2018-11-13 20:02:16	bixxx	no
+2018-11-13 20:03:41	bixxx	i just really haven't been active
+2018-11-13 20:03:48	bixxx	in like the past 3 years or so
+2018-11-13 20:03:54	bixxx	basically since plez was banned
+2018-11-13 20:05:06	-->	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has joined #rice
+2018-11-13 20:05:13	<--	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has quit (Ping timeout: 240 seconds)
+2018-11-13 20:05:50	-->	tor (~core@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-13 20:05:53	tor	test
+2018-11-13 20:05:59	@eti	yeet
+2018-11-13 20:06:01	tor	did it work
+2018-11-13 20:06:24	tor	eti: say something
+2018-11-13 20:06:25	tor	pelase
+2018-11-13 20:06:39	+nai	who was plez
+2018-11-13 20:06:49	tor	ok thanks
+2018-11-13 20:06:50	+nai	why was plez banned
+2018-11-13 20:06:50	<--	tor (~core@B8505028.C468F6C0.CCD8B8AD.IP) has quit
+2018-11-13 20:08:28	jenkins	plez more like pleb
+2018-11-13 20:08:45	+nai	fots shired
+2018-11-13 20:09:27	+Khorne	nai, busy
+2018-11-13 20:10:04	+nai	masturbating?
+2018-11-13 20:10:31	+Khorne	clapping noobs
+2018-11-13 20:10:33	+Khorne	so yes.
+2018-11-13 20:10:47	+nai	wew
+2018-11-13 20:14:38	@eti	nai: plez was an og hal clone
+2018-11-13 20:14:47	@eti	a v sympathic guy too
+2018-11-13 20:16:41	+Khorne	CGD tho
+2018-11-13 20:16:43	+Khorne	qt
+2018-11-13 20:17:15	bixxx	.seen plez
+2018-11-13 20:17:15	+cappuccino	I haven't seen any activity from plez yet.
+2018-11-13 20:17:17	bixxx	rip
+2018-11-13 20:18:45	-->	tor (~qwebirc@B8505028.C468F6C0.CCD8B8AD.IP) has joined #rice
+2018-11-13 20:19:13	tor	slackpkg is shite
+2018-11-13 20:19:19	+Khorne	kek
+2018-11-13 20:19:21	+nai	tor.
+2018-11-13 20:19:43	tor	nai.
+2018-11-13 20:19:50	+Khorne	naitor.
+2018-11-13 20:20:10	tor	repo
+2018-11-13 20:20:12	tor	fuck me
+2018-11-13 20:21:11	tor	nai: what was it
+2018-11-13 20:21:12	tor	.dt
+2018-11-13 20:21:12	+cappuccino	(1) rule 1: no anime | (2) rule 2: no tor | (3) https://torvim.github.io/rice [tor]
+2018-11-13 20:22:31	tor	literally git clone, ./autogen.sh, ./configure, make is easier
+2018-11-13 20:26:47	tor	i love manually organising packages
+2018-11-13 20:27:05	tor	fucking hell
+2018-11-13 20:27:14	+Khorne	me too
+2018-11-13 20:27:26	+Khorne	wanna found a club where we manually organise packages together?
+2018-11-13 20:27:27	tor	here is the installation, documentation and usage for slackpkg: https://slackpkg.org/documentation.html
+2018-11-13 20:27:27	+cappuccino	[ slackpkg.org ] slackpkg - utility to help package management in Slackware (text/html)
+2018-11-13 20:27:30	tor	all on one page
+2018-11-13 20:27:34	+Khorne	we could even write some helper script 
+2018-11-13 20:28:17	tor	barbarians
+2018-11-13 20:28:37	tor	i've already written a helper bash script to git clone, ./autogen.sh, ./configure, make and move to /usr/local/bin
+2018-11-13 20:28:44	-->	heibol (~heibol@Rizon-B984BFEF.red-88-29-211.staticip.rima-tde.net) has joined #rice
+2018-11-13 20:28:49	+Khorne	..move?
+2018-11-13 20:29:15	tor	it's usually in /usr/bin
+2018-11-13 20:29:16	+Khorne	--prefix=/usr/local/
+2018-11-13 20:29:23	tor	fuck that
+2018-11-13 20:29:35	+Khorne	..why
+2018-11-13 20:30:55	+nai	tor.
+2018-11-13 20:30:56	tor	idk, more words to learn
+2018-11-13 20:30:58	tor	nai.
+2018-11-13 20:31:01	+nai	just admit it
+2018-11-13 20:31:09	+nai	you're too dumb for linux
+2018-11-13 20:31:12	tor	yes.
+2018-11-13 20:31:14	tor	i admit
+2018-11-13 20:31:21	tor	too dumb for mot things
+2018-11-13 20:31:22	+nai	good
+2018-11-13 20:31:25	+Khorne	wow nai rude af
+2018-11-13 20:31:26	tor	s/mot/most/
+2018-11-13 20:31:26	+cappuccino	tor meant to say: too dumb for most things
+2018-11-13 20:31:32	+Khorne	no bullying you little french shiteater
+2018-11-13 20:31:33	tor	Khorne: admit it motherfucker
+2018-11-13 20:31:46	+nai	wow Khorne rude af
+2018-11-13 20:31:54	+Khorne	its not rude if its the truth
+2018-11-13 20:31:56	+Khorne	remember
+2018-11-13 20:32:02	+nai	o rite
+2018-11-13 20:32:10	+nai	"hey madam you're ugly and fat"
+2018-11-13 20:32:24	+nai	just telling the truth over there
+2018-11-13 20:32:26	+nai	nothing rude
+2018-11-13 20:32:32	+Khorne	i mean if she weights 600 pounds and has the face of a dogs arse
+2018-11-13 20:32:38	tor	nai: go back to sucking my dick, i liked it better that way
+2018-11-13 20:32:46	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-11-13 20:32:51	+nai	never again
+2018-11-13 20:33:02	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-11-13 20:33:02	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-11-13 20:33:02	+nai	what do you think i am gay?
+2018-11-13 20:33:55	+nai	also Khorne it's spelled "weighs"
+2018-11-13 20:34:01	+nai	xD
+2018-11-13 20:34:14	tor	yes
+2018-11-13 20:34:20	tor	i think you are very gay
+2018-11-13 20:34:21	+nai	dumbo 
+2018-11-13 20:34:30	+Khorne	its also spelt "nai" and not "gay"
+2018-11-13 20:34:39	+nai	well yes
+2018-11-13 20:35:08	+nai	Khorne: it's spelled spelled tho
+2018-11-13 20:35:13	+Khorne	nai, actually.
+2018-11-13 20:35:21	+Khorne	spelt
+2018-11-13 20:35:23	+Khorne	(chiefly Britain) simple past tense and past participle of spell 
+2018-11-13 20:35:26	+Khorne	so
+2018-11-13 20:35:27	+Khorne	fuck you royally.
+2018-11-13 20:35:29	+nai	> chiefly Britain
+2018-11-13 20:35:37	+nai	well okay then milord
+2018-11-13 20:35:38	+Khorne	>royally
+2018-11-13 20:36:03	tor	it's spelt i love tor's cock in my mouth
+2018-11-13 20:36:11	+nai	okay tor stop it now
+2018-11-13 20:36:18	+nai	it's getting oppressing
+2018-11-13 20:36:23	tor	i love my own dick in my mouth
+2018-11-13 20:36:27	+Khorne	and nai is getting horny
+2018-11-13 20:36:28	tor	what's wrong with that
+2018-11-13 20:36:32	+nai	now it's getting autistic
+2018-11-13 20:36:44	tor	what's wrong with that
+2018-11-13 20:36:52	+nai	nuffin muffin
+2018-11-13 20:36:58	+nai	s'all good in the hood
+2018-11-13 20:38:02	tor	i know it's all good
+2018-11-13 20:38:09	tor	it's better than good
+2018-11-13 20:38:32	tor	you know it's better than good
+2018-11-13 20:39:35	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-11-13 20:39:35	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-11-13 20:42:58	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-11-13 20:43:55	<--	jenkins (~jenkins@lunix.student) has quit (Quit: rebooting)
+2018-11-13 20:46:01	-->	jenkins (~jenkins@lunix.student) has joined #rice
+2018-11-13 20:47:00	-->	ym (~ym@6CF884D7.7C31196.34C78F8B.IP) has joined #rice
+2018-11-13 20:50:52	<--	im0nde (~binaryple@Rizon-FE7566C2.ipv6dyn.netcologne.de) has quit (Ping timeout: 240 seconds)
+2018-11-13 20:51:34	<--	Pixi (~Pixi@magical.mithra) has quit
+2018-11-13 20:51:54	<--	ine (~ine@choke.me.daddy) has quit (Quit: oh no~)
+2018-11-13 20:53:21	icyphox	hey kids
+2018-11-13 20:53:44	icyphox	it's 1:22am here and i have an endsem exam tmrw
+2018-11-13 20:53:48	icyphox	i am so fucked
+2018-11-13 20:54:58	-->	Pixi (~Pixi@Rizon-827BF723.hsd1.va.comcast.net) has joined #rice
+2018-11-13 20:57:12	+nai	it's alright until 2am
+2018-11-13 20:57:15	+nai	then you're fucked
+2018-11-13 20:58:20	+Khorne	Its actually alright until 3am
+2018-11-13 20:58:25	+Khorne	But after 3am nothing good ever happens
+2018-11-13 20:59:33	-->	Ivion (~ivion@7CF5D625:38B26B56:40608628:IP) has joined #rice
+2018-11-13 21:02:13	tor	icyphox: just so you know, sourcerer.io sent me an email saying you had signed up because i followed you on github
+2018-11-13 21:03:22	tor	easy way to get unfollowed
+2018-11-13 21:04:15	-->	ine (~ine@2A0365BB.C7E75E3A.D217C6FF.IP) has joined #rice
+2018-11-13 21:06:17	-->	im0nde (~binaryple@Rizon-FB2C445C.ipv6dyn.netcologne.de) has joined #rice
+2018-11-13 21:07:40	@eti	icyphox: why did you rice your zsh prompt instead of studying
+2018-11-13 21:07:41	@eti	u dummy
+2018-11-13 21:08:40	tor	eti: send macos rice pls
+2018-11-13 21:09:52	@eti	why
+2018-11-13 21:10:19	tor	i like your rice, that's why
+2018-11-13 21:13:59	icyphox	tor, ya i know they sent it to everyone
+2018-11-13 21:14:53	icyphox	eti, can't help it sometimes
+2018-11-13 21:15:13	<--	ym (~ym@6CF884D7.7C31196.34C78F8B.IP) has quit (Read error: Connection reset by peer)
+2018-11-13 21:16:36	-->	ym (~ym@237EAD6F.3AEC261F.17078704.IP) has joined #rice
+2018-11-13 21:17:20	+Cosumu	no u
+2018-11-13 21:20:21	-->	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has joined #rice
+2018-11-13 21:22:30	tor	loving this package manager life
+2018-11-13 21:22:53	+nai	i'm excited about text-decoration-skip
+2018-11-13 21:23:17	+nai	looks hot https://up.monade.li/3KOBgV.png
+2018-11-13 21:23:31	+nai	sadly firefox doesn't support it yet
+2018-11-13 21:23:52	tor	cann you put it into layman's terms
+2018-11-13 21:24:36	+nai	see how the underline doesn't cross the g?
+2018-11-13 21:25:21	+nai	it's a recent CSS feature, and chrome/ium does this by default
+2018-11-13 21:26:23	<--	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has quit (Ping timeout: 240 seconds)
+2018-11-13 21:26:28	tor	nice
+2018-11-13 21:26:38	tor	what's that thing
+2018-11-13 21:26:42	tor	i forget what it's called
+2018-11-13 21:26:55	tor	it's a package which contains loads of little packages
+2018-11-13 21:27:03	@eti	nai: nice
+2018-11-13 21:27:41	+nai	a bundle
+2018-11-13 21:27:44	+nai	a meta-package
+2018-11-13 21:27:46	+nai	a group
+2018-11-13 21:27:52	+nai	a package which contains loads of little packages
+2018-11-13 21:27:57	tor	no
+2018-11-13 21:28:01	+nai	zack6849's sister
+2018-11-13 21:28:07	tor	lol
+2018-11-13 21:28:09	+nai	s/little packages/cum/
+2018-11-13 21:28:09	+cappuccino	nai meant to say: a package which contains loads of cum
+2018-11-13 21:32:40	+Khorne	uhm
+2018-11-13 21:34:07	tor	not little packages, binaries
+2018-11-13 21:34:27	+nai	somethingutils
+2018-11-13 21:34:39	+nai	somethingtools
+2018-11-13 21:36:31	@eti	how do you select the second find with sed nai 
+2018-11-13 21:36:41	@eti	instead of typing 'little packages'
+2018-11-13 21:36:43	<--	onodera (~onodera@the.culture.of.critique) has quit (Ping timeout: 240 seconds)
+2018-11-13 21:36:50	@eti	like :nth-child(2) in css
+2018-11-13 21:37:39	+nai	example?
+2018-11-13 21:38:01	+Khorne	foo bar foobar, change 2nd foo to bar :')
+2018-11-13 21:38:03	+nai	the bot only replaces the last message that would be modified by your regex
+2018-11-13 21:38:16	@eti	no i meant the second find of a word
+2018-11-13 21:38:22	+nai	oh you can't
+2018-11-13 21:38:28	@eti	shame
+2018-11-13 21:38:30	+nai	you can add context
+2018-11-13 21:38:35	+Khorne	rly?
+2018-11-13 21:38:40	+Khorne	foo bar foo bar
+2018-11-13 21:38:44	+Khorne	s/foo/bar/2
+2018-11-13 21:38:44	+cappuccino	Khorne meant to say: foo bar bar bar
+2018-11-13 21:38:48	+nai	WHAT
+2018-11-13 21:38:52	+Khorne	nibba
+2018-11-13 21:38:52	@eti	that's what i meant
+2018-11-13 21:38:54	@eti	thanks Khorne 
+2018-11-13 21:38:54	+nai	WHAT WHAT WHAT
+2018-11-13 21:38:59	+Khorne	nai, come
+2018-11-13 21:39:01	+Khorne	at
+2018-11-13 21:39:04	+Khorne	me
+2018-11-13 21:39:05	+nai	WHAT
+2018-11-13 21:39:19	@eti	tfw nai is a brainlet and i thought he was good at bash and sed for the longest time
+2018-11-13 21:39:20	 *	nai opens  info sed
+2018-11-13 21:39:24	+Khorne	I love it when his little monkey brain rotates
+2018-11-13 21:39:30	@eti	ikr same
+2018-11-13 21:39:53	+nai	omg where is this shit documented
+2018-11-13 21:40:08	+nai	'NUMBER'
+2018-11-13 21:40:11	+nai	     Only replace the NUMBERth match of the REGEXP.
+2018-11-13 21:40:13	+nai	WHAT
+2018-11-13 21:40:29	+Khorne	:')
+2018-11-13 21:40:33	@eti	https://www.linuxquestions.org/questions/programming-9/replace-2nd-occurrence-of-a-string-in-a-file-sed-or-awk-800171/
+2018-11-13 21:40:34	+cappuccino	[ linuxquestions.org ] [SOLVED] Replace 2nd occurrence of a string in a file - sed or awk? (text/html)
+2018-11-13 21:40:36	@eti	lmao is this a joke
+2018-11-13 21:40:48	+nai	well that is nice to know
+2018-11-13 21:40:51	@eti	why is the answer easy yet noone knows about it
+2018-11-13 21:40:52	@eti	yeah
+2018-11-13 21:40:56	@eti	it's pretty useful
+2018-11-13 21:40:58	+Khorne	I mean
+2018-11-13 21:41:01	+Khorne	Thats what nai would have done
+2018-11-13 21:41:06	+nai	fucking GNU tbh
+2018-11-13 21:41:08	@eti	Khorne: so how do i select the last find of a string then
+2018-11-13 21:41:10	+Khorne	lmao
+2018-11-13 21:41:37	+nai	foo foo foo
+2018-11-13 21:41:40	+nai	s/foo/bar/-1
+2018-11-13 21:41:43	+nai	:(
+2018-11-13 21:41:47	+Khorne	s/foo/bar/$
+2018-11-13 21:41:47	+nai	s/foo/bar/$
+2018-11-13 21:41:49	+nai	rofl
+2018-11-13 21:41:53	@eti	hm
+2018-11-13 21:41:53	+nai	so connected-uh
+2018-11-13 21:42:15	@eti	i hate myself ; i hate yourself
+2018-11-13 21:42:23	@eti	s/hate/love/$
+2018-11-13 21:42:37	@eti	but isn't leli using gnu sed
+2018-11-13 21:42:39	@eti	i'm confused
+2018-11-13 21:42:44	@eti	is it just not enabled?
+2018-11-13 21:42:45	+nai	no that was just a test eti
+2018-11-13 21:42:50	+nai	apparently you can't
+2018-11-13 21:42:51	@eti	oh alright my bad
+2018-11-13 21:43:06	@eti	well replacing the second string wasn't documented
+2018-11-13 21:43:13	@eti	so it maybe isn't either for the last string
+2018-11-13 21:43:15	+nai	it is, in the info page
+2018-11-13 21:43:20	+nai	but i can't see anything about last math
+2018-11-13 21:43:20	@eti	right
+2018-11-13 21:43:23	+nai	match
+2018-11-13 21:43:23	@eti	rip me then
+2018-11-13 21:44:07	+nai	foo foo foo foo
+2018-11-13 21:44:10	+nai	s/foo/bar/2g
+2018-11-13 21:44:10	+cappuccino	nai meant to say: foo bar bar bar
+2018-11-13 21:44:13	+nai	XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDdd
+2018-11-13 21:44:29	+Khorne	eti, ez
+2018-11-13 21:44:36	+Khorne	invert text, search first match
+2018-11-13 21:44:39	+Khorne	:')
+2018-11-13 21:44:42	+Khorne	s/invert/reverse/
+2018-11-13 21:44:42	+cappuccino	Khorne meant to say: reverse text, search first match
+2018-11-13 21:44:49	+nai	s/./X/10
+2018-11-13 21:44:49	+cappuccino	nai thinks Khorne meant to say: invert teXt, search first match
+2018-11-13 21:44:50	+nai	s/./X/10g
+2018-11-13 21:44:50	+cappuccino	nai thinks Khorne meant to say: invert teXXXXXXXXXXXXXXXXXXXXXX
+2018-11-13 21:44:55	@eti	yeah but that's yet another action, no?
+2018-11-13 21:44:58	+Khorne	ye
+2018-11-13 21:45:09	@eti	it's fine, it's not like i'd use it anyway
+2018-11-13 21:45:23	@eti	good to know for /number
+2018-11-13 21:45:49	+nai	maybe we should use perl instead of gnu sed
+2018-11-13 21:45:54	+nai	it has even MORE stupid features
+2018-11-13 21:46:07	+nai	probably has five different ways of matching the last one
+2018-11-13 21:46:11	tor	we should use brainfuck
+2018-11-13 21:46:18	+nai	we should fuck tor's brain
+2018-11-13 21:46:44	tor	yes daddy
+2018-11-13 21:46:59	+nai	s/./x/;s/./D/2g
+2018-11-13 21:46:59	+cappuccino	nai thinks tor meant to say: xDDDDDDDD
+2018-11-13 21:47:05	+nai	mfw
+2018-11-13 21:47:10	+nai	absolutely great
+2018-11-13 21:47:19	tor	what
+2018-11-13 21:47:48	@eti	interesting
+2018-11-13 21:48:00	@eti	we found another way to make nai more of a spammer than he already is
+2018-11-13 21:48:21	@eti	not that it's a bad thing, it makes the channel active i guess
+2018-11-13 21:48:45	+nai	xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD eti xDDDDDDDDDDDDD
+2018-11-13 21:48:52	@eti	don't
+2018-11-13 21:49:00	+nai	*starts twerking*
+2018-11-13 21:51:12	tor	:9
+2018-11-13 21:53:37	-->	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has joined #rice
+2018-11-13 21:53:51	tor	in ur butt
+2018-11-13 21:54:00	tor	**nuzzles you**
+2018-11-13 21:55:26	+Khorne	reeee Error! Bad return status for module build on kernel: 4.20.0-rc2-mainline (x86_64)
+2018-11-13 21:56:15	+nai	noob xD
+2018-11-13 21:57:00	tor	i hate myself
+2018-11-13 21:57:09	tor	why do i put myself through this
+2018-11-13 22:00:19	tor	really tempted to go back to debian
+2018-11-13 22:00:48	+nai	what is wrong tor.
+2018-11-13 22:01:39	tor	slackware is wrong nai 
+2018-11-13 22:01:52	tor	i keep typing apt-get
+2018-11-13 22:02:28	+nai	what
+2018-11-13 22:02:31	+nai	why
+2018-11-13 22:02:32	+nai	stop being a brainlet
+2018-11-13 22:02:38	+nai	have you only ever been on debian?
+2018-11-13 22:02:48	tor	debian and manjaro
+2018-11-13 22:02:54	+nai	just alias apt-get='whatever shit slackware uses'
+2018-11-13 22:03:17	tor	git clone, autogen, configure, make
+2018-11-13 22:04:05	+nai	oh
+2018-11-13 22:04:07	+nai	is it source based?
+2018-11-13 22:04:17	tor	i have no clue
+2018-11-13 22:04:32	+nai	come on tor
+2018-11-13 22:04:43	+nai	do you have to compile packages
+2018-11-13 22:04:49	+nai	or are they binary distributes
+2018-11-13 22:04:52	+nai	d
+2018-11-13 22:05:15	tor	i compile them because dumb and can't be assed to set up package management
+2018-11-13 22:05:26	<--	heibol (~heibol@Rizon-B984BFEF.red-88-29-211.staticip.rima-tde.net) has quit (Quit: Lost terminal)
+2018-11-13 22:05:33	--	Kosomonauto is now known as Cosmonaut
+2018-11-13 22:05:55	tor	am i ready for gentoo yet
+2018-11-13 22:07:19	+nai	wtf
+2018-11-13 22:07:34	+nai	gentoo is easy
+2018-11-13 22:07:56	jenkins	gentoo is for noobs, do lfs
+2018-11-13 22:08:52	tor	so is slackware
+2018-11-13 22:08:57	tor	but look where i am now
+2018-11-13 22:09:48	<--	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has quit (Ping timeout: 240 seconds)
+2018-11-13 22:10:52	-->	dleeram (~dleeram@Rizon-7BCB5D33.dyn.user.ono.com) has joined #rice
+2018-11-13 22:11:22	<--	ym (~ym@237EAD6F.3AEC261F.17078704.IP) has quit (Ping timeout: 240 seconds)
+2018-11-13 22:11:50	-->	ym (~ym@237EAD6F.3AEC261F.17078704.IP) has joined #rice
+2018-11-13 22:21:23	-->	jcv_ (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-11-13 22:23:45	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-11-13 22:23:45	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-11-13 22:24:32	tor	FINALLY
+2018-11-13 22:24:35	+Shinryuu	I'm gay
+2018-11-13 22:24:42	tor	i have a packag emanager
+2018-11-13 22:24:54	jenkins	wow in 2018
+2018-11-13 22:26:17	-->	cheesus (~cheesus@38AA49E5:9613FC31:3EF22254:IP) has joined #rice
+2018-11-13 22:26:36	<--	ine (~ine@2A0365BB.C7E75E3A.D217C6FF.IP) has quit (Remote host closed the connection)
+2018-11-13 22:31:39	jenkins	how do I get rid of those tuxes on the top when I start up gentoo?
+2018-11-13 22:31:52	jenkins	I thought it was the boot logo option in the kernel config...
+2018-11-13 22:31:56	+Khorne	CONFIG_LOGO something
+2018-11-13 22:32:22	tor	https://www.linuxquestions.org/questions/slackware-14/remove-penguin-252479/
+2018-11-13 22:32:25	+cappuccino	[ linuxquestions.org ] remove penguin (text/html)
+2018-11-13 22:32:35	<--	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-11-13 22:33:04	-->	natemon (~natemonst@Rizon-E6592F0F.washdc.fios.verizon.net) has joined #rice
+2018-11-13 22:33:25	jenkins	uhm...
+2018-11-13 22:33:25	+nai	> removing tux
+2018-11-13 22:33:28	+nai	absolutely barbaric
+2018-11-13 22:33:36	+nai	just use a different version, there are several choices
+2018-11-13 22:36:55	-->	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has joined #rice
+2018-11-13 22:41:30	tor	jenkins: why do you not want it
+2018-11-13 22:41:36	-->	ine (~ine@2A0365BB.C7E75E3A.D217C6FF.IP) has joined #rice
+2018-11-13 22:42:43	jenkins	eh I never like it anyway
+2018-11-13 22:42:49	jenkins	*liked
+2018-11-13 22:43:32	jenkins	wtf why isn't the kernel compiling now
+2018-11-13 22:49:09	<--	im0nde (~binaryple@Rizon-FB2C445C.ipv6dyn.netcologne.de) has quit
+2018-11-13 22:54:39	-->	zexa (~zexa@A0EAF84B.5C2421CA.7CFCAB6D.IP) has joined #rice
+2018-11-13 22:55:00	<--	jcv_ (~jcv@Rizon-7184F19E.getinternet.no) has quit (Quit: Leaving)
+2018-11-13 22:55:40	zexa	I have a super shitty thinkpad running linux as my work laptop and a gaming computer running windows @ home
+2018-11-13 22:56:15	<--	absolutejam (~absolutej@59D7C863.377FCF8C.40657BE1.IP) has quit (Quit: WeeChat 1.9.1)
+2018-11-13 22:56:45	zexa	I want to play hearthstone remotely, but vnc sucks and rdp me out of my user @ home, which is something that I would like to avoid
+2018-11-13 22:56:58	zexa	VNC is usable, but slow.
+2018-11-13 22:57:17	zexa	any modern approaches to stream games that y'all are aware of?
+2018-11-13 22:59:26	+Khorne	HS through wine on the notebook is a nogo?
+2018-11-13 22:59:31	+Khorne	worked well for me
+2018-11-13 22:59:43	+Khorne	on not shitty hardware though
+2018-11-13 23:01:47	zexa	Khorne: Exactly, X230 isn't strong enough to make it work
+2018-11-13 23:01:53	+Khorne	hmpf
+2018-11-13 23:02:09	+Khorne	Steam streaming :')
+2018-11-13 23:02:15	+Khorne	Whats nvidias shit called?
+2018-11-13 23:02:27	+Khorne	GameStream
+2018-11-13 23:02:35	zexa	Looking into it rn
+2018-11-13 23:02:42	+Khorne	https://moonlight-stream.com/
+2018-11-13 23:02:43	+cappuccino	[ moonlight-stream.com ] Moonlight Game Streaming (text/html)
+2018-11-13 23:03:03	+Khorne	Naturally requires your main pc to run nvidia
+2018-11-13 23:03:11	jenkins	I fucked up my kernel config :(
+2018-11-13 23:03:24	zexa	That's fine, it is running nvidia
+2018-11-13 23:03:36	zexa	also, my charger just started producing squeeking sounds
+2018-11-13 23:03:38	+Khorne	back when I played around with it it worked decent
+2018-11-13 23:03:39	zexa	W00t
+2018-11-13 23:03:44	+Khorne	no idea about its state now
+2018-11-13 23:04:34	jenkins	ah ok I have a backup
+2018-11-13 23:11:13	jenkins	oh come on... they're still there
+2018-11-13 23:12:01	+dysfigured	why is this 4.7GHz processor only $100 https://pcpartpicker.com/product/pGrG3C/amd-cpu-fd9590fhhkwof
+2018-11-13 23:12:02	+cappuccino	[ pcpartpicker.com ] AMD - FX-9590 4.7 GHz 8-Core OEM/Tray Processor (FD9590FHHKWOF) - PCPartPicker (text/html)
+2018-11-13 23:12:55	+Khorne	because its an amd
+2018-11-13 23:13:07	-->	heibol (~heibol@Rizon-B984BFEF.red-88-29-211.staticip.rima-tde.net) has joined #rice
+2018-11-13 23:13:27	+Khorne	No cooler, no ht/smt, no apu
+2018-11-13 23:14:39	+Khorne	also that seems like a pricing error
+2018-11-13 23:15:41	+Khorne	or someone is selling off stock of a 5 year old cpu
+2018-11-13 23:15:43	+dysfigured	idk, same price here https://www.neweggbusiness.com/Product/Product.aspx?Item=9B-19-113-347&nm_mc=afc-cjb2b&cm_mmc=afc-cjb2b-_-Processors+-+Desktops-_-AMD-_-9B19113347&utm_medium=affiliates&utm_source=afc-cjb2b-PCPartPicker%2C+LLC&cjevent=812c7f59e79111e8814300870a1c0e0f
+2018-11-13 23:15:44	+cappuccino	[ neweggbusiness.com ] NeweggBusiness - AMD FX-9590 Vishera 8-Core 4.7 GHz Socket AM3+ 220W FD9590FHHKWOF Desktop Processor - Black Edition (text/html)
+2018-11-13 23:15:56	+Khorne	it was released in 2013
+2018-11-13 23:16:20	+dysfigured	idk shit about hardware
+2018-11-13 23:16:31	+Khorne	had to look it up too
+2018-11-13 23:16:42	+dysfigured	i just looked for high clock speed and this is like the highest clock speed and one of the cheapest i can see
+2018-11-13 23:16:57	+dysfigured	i had my :thinking_face: on
+2018-11-13 23:30:45	Ergo	i just realized that i can sell my i7 6700k + board + memory for like 500 bucks
+2018-11-13 23:30:54	Ergo	and then get a new ryzen set for 350 
+2018-11-13 23:32:19	Ergo	150 for a new gpu or better case 
+2018-11-13 23:37:27	<--	heibol (~heibol@Rizon-B984BFEF.red-88-29-211.staticip.rima-tde.net) has left #rice
+2018-11-13 23:43:58	<--	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2018-11-13 23:47:28	-->	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has joined #rice
+2018-11-13 23:49:43	+dysfigured	i don't understand all these numbers
+2018-11-13 23:50:22	Ergo	clockspeed doesnt make something good 
+2018-11-13 23:50:27	Ergo	especially if its older architecture 
+2018-11-13 23:50:31	Ergo	what you need to know? 
+2018-11-13 23:50:37	+dysfigured	why does a ryzen 5 2600 cost more than a ryzen 1700
+2018-11-13 23:50:57	+dysfigured	what even do those 2600/1700 numbers mean
+2018-11-13 23:51:01	Ergo	demand maybe? 
+2018-11-13 23:51:03	Ergo	thats just odd 
+2018-11-13 23:51:24	+dysfigured	https://pcpartpicker.com/products/cpu/#k=33&sort=price&h=1
+2018-11-13 23:51:24	Ergo	1x00 is first generation ryzen
+2018-11-13 23:51:25	+cappuccino	[ pcpartpicker.com ] Choose A CPU - PCPartPicker (text/html)
+2018-11-13 23:51:29	Ergo	2x00 is second gen reyzen 
+2018-11-13 23:52:24	<--	dleeram (~dleeram@Rizon-7BCB5D33.dyn.user.ono.com) has quit (Quit: leaving)
+2018-11-13 23:52:42	+dysfigured	ryzen 7 1700 is 3.4G and ryzen 7 2700 is 3.2G
+2018-11-13 23:52:44	+dysfigured	riddle me that
+2018-11-13 23:52:59	Ergo	but they updated the architecture 
+2018-11-13 23:53:06	Ergo	atleast iirc 
+2018-11-13 23:53:17	Ergo	by g you mean ghz right? 
+2018-11-13 23:53:20	zexa	Khorne: Moonlight works like a charm btw
+2018-11-13 23:53:20	+dysfigured	yes
+2018-11-13 23:53:28	+Khorne	Oh sweet
+2018-11-13 23:53:49	+dysfigured	part of me wants to just say fuck it and buy a used custom
+2018-11-13 23:53:57	+Khorne	#notallclockcyclesareequal
+2018-11-13 23:53:58	Ergo	used custom? 
+2018-11-13 23:54:03	Ergo	i almost always buy my pc stuff used lol 
+2018-11-13 23:54:13	zexa	Khorne: There are some issues, like the mouse sensitivity between the guest and host are completely off. But this is minor compared to the fps gain I receive
+2018-11-13 23:54:14	+dysfigured	i mean used custom prebuilt
+2018-11-13 23:54:49	+Khorne	zexa, I mean for stuff like hearthstone I dont think that'd be a huge issue/disadvantage :P
+2018-11-13 23:54:50	+dysfigured	ie joe dirt built himself a nice gaming rig a couple years ago and is upgrading again and selling off his old, and i want to buy it
+2018-11-13 23:57:05	Ergo	why tho
+2018-11-13 23:57:11	Ergo	building a pc isnt that difficult 
+2018-11-13 23:57:20	Ergo	https://a.pste.pw/fcU.png 
+2018-11-13 23:57:27	Ergo	i wonder if i can create a fitting colorscheme for this wallpaper 
+2018-11-13 23:57:46	+dysfigured	it's not actualy the difficulty of building it, it's that i can get used pre-assembled shit for cheaper
+2018-11-13 23:58:06	Ergo	i meann
+2018-11-13 23:58:11	Ergo	if you can just go for it 
+2018-11-13 23:58:19	Ergo	do you have a way of making sure a seller is reliable? 
+2018-11-13 23:58:26	Ergo	i guess yo ucould also just go over there and check 
+2018-11-13 23:58:29	+dysfigured	ebay is reliable right
+2018-11-13 23:58:44	Ergo	if the seller has tons of ratings? 
+2018-11-13 23:58:46	Ergo	i guess 
+2018-11-14 00:03:12	Ergo	fuck, i cant even decide on a background color 
+2018-11-14 00:03:37	zexa	How do I undo a rm -rf
+2018-11-14 00:05:27	Ergo	symlink it again? 
+2018-11-14 00:05:32	Ergo	-rf removes links right 
+2018-11-14 00:05:38	+dysfigured	no
+2018-11-14 00:05:45	+dysfigured	zexa: you can't, you're fucked
+2018-11-14 00:06:11	zexa	dysfigured: figures, lel
+2018-11-14 00:06:23	<--	anon9234` (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has quit (Quit: Coyote finally caught me)
+2018-11-14 00:06:36	-->	anon9234 (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has joined #rice
+2018-11-14 00:06:52	zexa	I guess I should alias rm rf to some sort of "actually back me up for 24h and only then delete me" type of script
+2018-11-14 00:07:26	Ergo	now im curious
+2018-11-14 00:07:31	Ergo	what did you actually delete 
+2018-11-14 00:07:50	+Cosmonaut	dick pics
+2018-11-14 00:07:54	@Leliana	or just make sure to only delete files you know you don't need
+2018-11-14 00:08:15	+dysfigured	zexa: many will recommend against aliasing over rm, because you learn to rely on rm being "safe"
+2018-11-14 00:08:52	+dysfigured	which is fine, until you ssh into a box you don't own and then rm some shit thinking you'll be able to recover it like you normally do
+2018-11-14 00:09:28	zexa	dysfigured: That makes sense. I'll just call the script "rem" instead
+2018-11-14 00:09:35	+Khorne	The safe way of dealing with rm is having a backup :')
+2018-11-14 00:09:49	zexa	Khorne: I'm aware... Yet... Sigh...
+2018-11-14 00:09:49	+dysfigured	"trash" is common, and an existing script that does what you're after
+2018-11-14 00:10:01	zexa	dysfigured: Uuuuuu!
+2018-11-14 00:10:11	+Khorne	zexa, a lesson learned through pain..
+2018-11-14 00:10:38	+dysfigured	we all make many of them on our paths
+2018-11-14 00:11:14	zexa	Ergo: Was doing some light web dev, didn't push to git yet and made another folder to experiment with a framework with a similar title
+2018-11-14 00:11:15	@Leliana	like that time I was cutting chilis when had a wank a couple of hours later
+2018-11-14 00:11:22	@Leliana	s/when/then/
+2018-11-14 00:11:22	+cappuccino	Leliana meant to say: like that time I was cutting chilis then had a wank a couple of hours later
+2018-11-14 00:11:22	Ergo	unluckyyy
+2018-11-14 00:11:24	Ergo	okay boys
+2018-11-14 00:11:28	Ergo	making my own color scheme 
+2018-11-14 00:11:31	+Khorne	Leliana, and then you got jizz in your eyes?
+2018-11-14 00:11:32	Ergo	this is gonna suck os fucking hard 
+2018-11-14 00:11:34	+Khorne	yea  rough one
+2018-11-14 00:11:44	@Leliana	Khorne: no that was the only redeeming part
+2018-11-14 00:11:45	Ergo	also can i use terminal.sexy with less colors reeeee 
+2018-11-14 00:11:48	Ergo	its confusing me 
+2018-11-14 00:12:01	zexa	I'm gonna work on my own gnome theme one of these days... Soon(tm)
+2018-11-14 00:12:06	@Leliana	"I'm confused by an automated colour picker site"
+2018-11-14 00:12:09	@Leliana	>mfw
+2018-11-14 00:12:16	Ergo	i just wanna use like 9 colors
+2018-11-14 00:12:21	Ergo	like https://github.com/dkeg/crayolo
+2018-11-14 00:12:22	+cappuccino	[ github.com ] GitHub - dkeg/crayolo: few colors from the collection (text/html)
+2018-11-14 00:12:31	+Khorne	Ergo, then...just use 9
+2018-11-14 00:12:35	@Leliana	so....only set 9 colours?
+2018-11-14 00:12:41	@Leliana	smh fam
+2018-11-14 00:12:46	+Khorne	Like..you dont *have* to use 16 *different* colors
+2018-11-14 00:12:48	Ergo	but wont they still be visible in my preview 
+2018-11-14 00:12:50	+Khorne	mind = blown
+2018-11-14 00:12:53	+Khorne	nibba
+2018-11-14 00:12:58	+Khorne	just set the same color twice
+2018-11-14 00:13:06	+Khorne	or thrice
+2018-11-14 00:13:10	+Khorne	or...four times.
+2018-11-14 00:13:13	Ergo	well i feel like terminal.sexy should have this option smh 
+2018-11-14 00:13:18	@Leliana	...
+2018-11-14 00:13:23	@Leliana	or you could just use a couple of braincells
+2018-11-14 00:13:24	Ergo	im gonna create a issue 
+2018-11-14 00:13:25	Ergo	kappa 
+2018-11-14 00:13:38	@Leliana	Ergo: $10 says they'll tell you to fuck off
+2018-11-14 00:13:48	zexa	Ergo: You can always push your own patch
+2018-11-14 00:14:00	zexa	Not sure if it's going to get accepted though
+2018-11-14 00:14:06	Ergo	Leliana: i said kappa 
+2018-11-14 00:14:06	Ergo	smh 
+2018-11-14 00:14:14	@Leliana	Ergo: ok?
+2018-11-14 00:14:22	@Leliana	no idea what that is but carry on
+2018-11-14 00:14:27	Ergo	ohhhh sure 
+2018-11-14 00:14:30	Ergo	its a twitch emote 
+2018-11-14 00:14:42	Ergo	implying that a comment was sarcasm 
+2018-11-14 00:14:43	@Leliana	well that'd be why
+2018-11-14 00:14:51	@Leliana	I have exactly 0 interest in twitch or streamers
+2018-11-14 00:14:54	ChibiFate	:')
+2018-11-14 00:15:20	@Leliana	I'd rather just like...play a game instead of watching someone else do it
+2018-11-14 00:15:32	Ergo	ohhh, i only really watch tournaments and stuff 
+2018-11-14 00:15:37	Ergo	some streamers are fun when bored tho 
+2018-11-14 00:15:43	+Khorne	Leliana, you would if you knew about twitch thots
+2018-11-14 00:15:48	Ergo	also ye 
+2018-11-14 00:15:49	@Leliana	Khorne: link
+2018-11-14 00:15:51	Ergo	there are twitch thots 
+2018-11-14 00:15:54	Ergo	some of them are pretty hot 
+2018-11-14 00:15:58	Ergo	but annoying 
+2018-11-14 00:16:00	<--	jcv (~jcv@Rizon-7184F19E.getinternet.no) has quit (Ping timeout: 240 seconds)
+2018-11-14 00:16:05	+Khorne	Leliana, open anything that has IRL as "game" title
+2018-11-14 00:16:09	Ergo	yeee
+2018-11-14 00:16:10	+Khorne	also mute
+2018-11-14 00:16:14	Ergo	i was about to link the section lol 
+2018-11-14 00:16:27	Ergo	Leliana: https://www.twitch.tv/directory/game/Just%20Chatting
+2018-11-14 00:16:28	+cappuccino	[ twitch.tv ] Twitch (text/html)
+2018-11-14 00:16:31	Ergo	enjoy 
+2018-11-14 00:16:51	Ergo	not as many thots now tho 
+2018-11-14 00:18:10	zexa	https://www.youtube.com/watch?v=KBand7jHrqQ
+2018-11-14 00:18:10	+cappuccino	[ youtube.com ] Steins;Gate - Kurisu is a Nicojunkie - YouTube (text/html)
+2018-11-14 00:18:23	+Khorne	cartoons are haram
+2018-11-14 00:18:32	zexa	Every time I hear the word thot this comes to mind
+2018-11-14 00:18:42	+Khorne	is there actually a gate in steins gate
+2018-11-14 00:18:45	@Leliana	Ergo: that first one is average at best
+2018-11-14 00:18:48	+Khorne	and are there actually steins
+2018-11-14 00:19:01	+Khorne	or is this all a serious case of fake news
+2018-11-14 00:19:08	Ergo	none of the hot ones are live now 
+2018-11-14 00:19:09	zexa	Leliana: how dare you talk like that about my fav cartoon!
+2018-11-14 00:19:23	+Khorne	no hes talking about thots
+2018-11-14 00:19:28	+Khorne	t h o t s 
+2018-11-14 00:19:32	+Khorne	a brilliant word
+2018-11-14 00:20:20	+Khorne	There are few words that convey feeling and meaning through sound and intonation alone
+2018-11-14 00:21:41	zexa	Anyways, continuing on the topic of virtualization...
+2018-11-14 00:22:02	+Khorne	When did we start that topic?
+2018-11-14 00:22:09	zexa	Just now.
+2018-11-14 00:22:14	Ergo	zzzzzzzzzzzz
+2018-11-14 00:22:16	+Khorne	Ah
+2018-11-14 00:22:18	Ergo	rather talk about thots
+2018-11-14 00:22:21	Ergo	we can also talk about waifus 
+2018-11-14 00:22:24	Ergo	always a good topic 
+2018-11-14 00:22:26	+Khorne	same thing
+2018-11-14 00:22:36	Ergo	i need you to stop right there sir 
+2018-11-14 00:22:53	zexa	Lets say I have multiple weak laptops at home and want to play some shitty video games through my main computer, how do I even approach this?
+2018-11-14 00:23:27	Ergo	hook one up to your pc 
+2018-11-14 00:23:30	Ergo	get a controller 
+2018-11-14 00:23:38	Ergo	i mean hook one up to your tv
+2018-11-14 00:23:45	Ergo	download parsec on pc and laptop 
+2018-11-14 00:23:47	Ergo	enjoy
+2018-11-14 00:23:48	zexa	Ergo: No, not those kind of games
+2018-11-14 00:23:57	zexa	Ergo: Lets take Hearthstone again as an example.
+2018-11-14 00:24:07	Ergo	cant you play hs with a controller? 
+2018-11-14 00:24:09	Ergo	fuck hs 
+2018-11-14 00:24:12	Ergo	btw 
+2018-11-14 00:24:13	zexa	lol
+2018-11-14 00:25:36	zexa	Anyone knows a more appropriate irc channel for these kind of discussions?
+2018-11-14 00:28:31	<--	The_Loko (~The_Loko@Rizon-ED2AC8FC.red-88-7-50.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2018-11-14 00:29:02	+Khorne	What are you even trying?
+2018-11-14 00:29:05	+Khorne	Multiplayer?
+2018-11-14 00:29:35	zexa	Khorne: Anything really, would be nice if I could let two League instances running at once.
+2018-11-14 00:29:45	<--	Shinryuu (~gdsptuwtd@moe.pantsu) has quit (Ping timeout: 240 seconds)
+2018-11-14 00:29:55	+Khorne	Ah, yea shit out of luck in that regard
+2018-11-14 00:30:11	+Khorne	VMs dont cut it because no graphics
+2018-11-14 00:30:25	+Khorne	Unless you buy a bunch of cards to pass to vms
+2018-11-14 00:30:33	zexa	Khorne: Awfully expensive.
+2018-11-14 00:30:35	+Khorne	Yea
+2018-11-14 00:30:44	zexa	Khorne: there must be some way though... I can feel it~~~~~
+2018-11-14 00:30:44	+Khorne	League really doesnt like multiple clients
+2018-11-14 00:31:17	+Khorne	zexa, doubt it actually
+2018-11-14 00:31:29	+Khorne	Games aren't at all designed to work like that
+2018-11-14 00:32:08	+Khorne	Esp if you wanna feed multiple instances to remote thin clients
+2018-11-14 00:32:52	+nai	mfw browsing /wg/ is one of the rare moments in my life where seeing naked chicks pisses me off
+2018-11-14 00:33:19	+Khorne	zexa, i mean if its not graphics intensive..and your cpu is beefy enough you might get away with software rendering in vms?
+2018-11-14 00:33:22	+Khorne	maybe
+2018-11-14 00:35:45	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-11-14 00:35:45	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-11-14 00:37:51	Ergo	test 
+2018-11-14 00:37:53	Ergo	https://a.pste.pw/cXd.png
+2018-11-14 00:37:56	Ergo	yee i cant do this lol 
+2018-11-14 00:38:42	+nai	do what
+2018-11-14 00:38:45	+nai	also too much bold
+2018-11-14 00:38:49	Ergo	create a color scheme lol 
+2018-11-14 00:38:50	+nai	gotta use it scarsely
+2018-11-14 00:39:52	Ergo	i feel like i need more colors for the example 
+2018-11-14 00:39:58	Ergo	if that makes sense 
+2018-11-14 00:40:05	zexa	Khorne: I wish we could do virtualization without letting the vm hog up the whole gpu.
+2018-11-14 00:40:20	+Khorne	I mean
+2018-11-14 00:40:23	+Khorne	You can..kinda
+2018-11-14 00:40:27	+Khorne	You can also pay THICC money for that
+2018-11-14 00:40:41	+Khorne	See quadro line
+2018-11-14 00:41:01	-->	mobo (~mobo@death.by.reputation) has joined #rice
+2018-11-14 00:41:01	--	Mode #rice [+o mobo] by Onee-chan
+2018-11-14 00:41:04	Ergo	then again 
+2018-11-14 00:41:14	Ergo	 i might bve more proud of a shitty color scheme i made myself
+2018-11-14 00:41:16	+Khorne	https://www.nvidia.com/en-us/design-visualization/solutions/virtualization/
+2018-11-14 00:41:16	+cappuccino	[ nvidia.com ] Virtual GPU & VDI Solutions | NVIDIA (text/html)
+2018-11-14 00:41:16	Ergo	then one i stole 
+2018-11-14 00:42:10	zexa	Khorne: Yeah, I heard about this before. Anyways, it seems this task is a bit too hard for my poor GTX 670.
+2018-11-14 00:42:18	+Khorne	zexa, well yea
+2018-11-14 00:42:27	+Khorne	We offer remote workstations for a few people with that tech
+2018-11-14 00:53:39	@mobo	god damnit
+2018-11-14 00:53:44	@mobo	I hate this stupid spinning disk drive
+2018-11-14 00:53:57	+Khorne	mobo, fear the clickclickclickety
+2018-11-14 00:54:09	@mobo	it's not that, it's all my media losing their quality
+2018-11-14 00:54:17	@mobo	should've used flac
+2018-11-14 00:56:11	@Leliana	lol
+2018-11-14 00:56:31	@Leliana	pretty sure if your HD is fucked enough for audio files to become noticably worse, you have bgger problems than "should have used flac"
+2018-11-14 00:56:57	@mobo	nah, it's just because I use mp3s to store my music
+2018-11-14 00:57:13	@Leliana	mp3 files don't degrade over time on a hard drive
+2018-11-14 00:57:15	@mobo	they're compressed so they lost a bit of quality since I downloaded them
+2018-11-14 00:57:20	bixxx	bitrot is real
+2018-11-14 00:57:24	@mobo	you haven't heard of rotational velocidensity?
+2018-11-14 00:57:34	@Leliana	bixxx: on a hard drive, no it fucking isn't
+2018-11-14 00:57:39	@Leliana	because you know what that's called?
+2018-11-14 00:57:41	+Khorne	what is digital
+2018-11-14 00:57:41	@Leliana	corruption
+2018-11-14 00:58:14	@mobo	it's a known fact that compressed files on spinning disks lose quality over time due to rotational velocidensity
+2018-11-14 00:58:21	@mobo	it would've been fine if I was using flash
+2018-11-14 00:58:26	+nai	<@mobo> you haven't heard of rotational velocidensity? 
+2018-11-14 00:58:28	@Leliana	>mfw
+2018-11-14 00:58:30	+nai	n-no
+2018-11-14 00:58:46	+Khorne	i mean
+2018-11-14 00:58:52	+Khorne	flac is also compressed
+2018-11-14 00:59:00	+nai	> https://www.urbandictionary.com/define.php?term=Rotational%20Velocidensity
+2018-11-14 00:59:01	+cappuccino	[ urbandictionary.com ] Urban Dictionary: Rotational Velocidensity (text/html)
+2018-11-14 00:59:03	@mobo	yeah, but it's lossless
+2018-11-14 00:59:09	+Khorne	yea but its compressed
+2018-11-14 00:59:10	+nai	should i trust urbandictionary as a source
+2018-11-14 00:59:10	@mobo	that's a good description nai
+2018-11-14 00:59:17	@mobo	nah, it's correct
+2018-11-14 00:59:25	@mobo	Khorne: but it's lossless
+2018-11-14 00:59:28	@mobo	I kinda misspoke there
+2018-11-14 00:59:32	+Khorne	yes
+2018-11-14 00:59:37	@Leliana	> SATA HDD: ~12kbps
+2018-11-14 00:59:39	@mobo	it's not the compression that gets you, it's the lossy vs lossless
+2018-11-14 00:59:39	@Leliana	my fucking sides
+2018-11-14 00:59:40	<--	zexa (~zexa@A0EAF84B.5C2421CA.7CFCAB6D.IP) has quit (Quit: WeeChat 2.3)
+2018-11-14 00:59:47	@Leliana	I've had this disk for about 9 years
+2018-11-14 00:59:51	-->	zexa (~zexa@A0EAF84B.5C2421CA.7CFCAB6D.IP) has joined #rice
+2018-11-14 00:59:54	@Leliana	had the same music files on it the whole time
+2018-11-14 00:59:55	+Khorne	mobo, news at 11: lossy compression loses stuff
+2018-11-14 00:59:58	+Khorne	whoda thunk
+2018-11-14 00:59:59	@Leliana	not a single noticable loss of quality
+2018-11-14 01:00:01	+nai	i really don't get the idea
+2018-11-14 01:00:03	+nai	like
+2018-11-14 01:00:06	@mobo	Khorne: it's that it loses quality over time
+2018-11-14 01:00:08	Ivion	there's people who believe this
+2018-11-14 01:00:10	+nai	your data is managed by your filesystem
+2018-11-14 01:00:11	@mobo	Leliana: who made your hard drive?
+2018-11-14 01:00:12	Ivion	my word
+2018-11-14 01:00:15	+nai	it can't just go away
+2018-11-14 01:00:20	@Leliana	mobo: does it matter?
+2018-11-14 01:00:22	+Khorne	mobo, that has nothing to do with lossless compression
+2018-11-14 01:00:24	+nai	let alone the fucking bitrate change
+2018-11-14 01:00:25	@mobo	it's at the hardware level, nai 
+2018-11-14 01:00:25	+Khorne	tee bee h
+2018-11-14 01:00:27	+nai	like wtf
+2018-11-14 01:00:38	+nai	i mean
+2018-11-14 01:00:42	@Leliana	mobo: so you're saying hard drives just randomly corrupt data as part of normal operation?
+2018-11-14 01:00:44	@mobo	Leliana: yeah, some hardware makers protect against rotational velocidensity better than others
+2018-11-14 01:00:49	@Leliana	this only affects audio files? Not any other file?
+2018-11-14 01:00:51	@Leliana	:')
+2018-11-14 01:00:51	+Khorne	Leliana, except when its flac files
+2018-11-14 01:00:52	+nai	if stuff gets broken at the hardware level you get a broken file or a broken filesystem
+2018-11-14 01:00:54	@mobo	they don't corrupt it per se, it's just lossy compressed files
+2018-11-14 01:01:00	@mobo	same with jpg
+2018-11-14 01:01:05	+Khorne	mobo, which has nothing to do with the hard disk
+2018-11-14 01:01:10	@mobo	sure it does
+2018-11-14 01:01:13	Ivion	what makes the bits/electrical charges of lossy files different from lossless files?
+2018-11-14 01:01:15	+Khorne	no it does not
+2018-11-14 01:01:16	@mobo	google rotational velosidensity
+2018-11-14 01:01:25	+Khorne	wat
+2018-11-14 01:01:26	@mobo	Ivion: it's that they're lossy compressed
+2018-11-14 01:01:31	Ivion	if files loose bits, all files loose bits
+2018-11-14 01:01:34	+Khorne	motherfucker
+2018-11-14 01:01:39	@Leliana	>the top result is urban dictionary
+2018-11-14 01:01:40	@Leliana	says it all
+2018-11-14 01:01:42	+Khorne	Leliana, pls ban
+2018-11-14 01:01:53	@mobo	right, but the issue here is that the compressed files are suffering from rotational velocidensity 
+2018-11-14 01:01:57	+nai	neither wikipedia or wiktionary have a match for velocidensity
+2018-11-14 01:02:00	@Leliana	mobo: why them and not any other file?
+2018-11-14 01:02:01	Ivion	nice circular logic
+2018-11-14 01:02:06	+nai	mobo: are you memeing right now
+2018-11-14 01:02:10	Ivion	very hard
+2018-11-14 01:02:12	@mobo	this is like
+2018-11-14 01:02:15	@mobo	the oldest /g/ troll ever
+2018-11-14 01:02:17	bixxx	he has been the whole time
+2018-11-14 01:02:18	@mobo	I'm cracking up
+2018-11-14 01:02:19	@Leliana	ok
+2018-11-14 01:02:24	@mobo	y'all newfriends
+2018-11-14 01:02:27	@Leliana	I was just pretending to be retarded officer!
+2018-11-14 01:02:28	+Khorne	With #rice you never know
+2018-11-14 01:02:37	@mobo	it's called joking, Leliana 
+2018-11-14 01:02:43	Ivion	visiting /g/ is a joke in itself
+2018-11-14 01:02:44	+nai	lmao
+2018-11-14 01:02:45	+Khorne	NO JOKING
+2018-11-14 01:02:45	@Leliana	mobo: I'm gonna have to fuck you up
+2018-11-14 01:02:51	+nai	nicely done mobo
+2018-11-14 01:02:56	@mobo	ty
+2018-11-14 01:02:59	@mobo	it was fun
+2018-11-14 01:02:59	+nai	we all almost thought you were retarded
+2018-11-14 01:03:04	+Khorne	Yea
+2018-11-14 01:03:08	@Leliana	nai: "thought"
+2018-11-14 01:03:08	+Khorne	I still do tbh
+2018-11-14 01:03:12	+Khorne	kek
+2018-11-14 01:03:18	+nai	rofl
+2018-11-14 01:03:20	@mobo	rotational velocidensity is the greatest thing to come out of /g/
+2018-11-14 01:03:42	@Leliana	are there actual people who unironically believe it?
+2018-11-14 01:03:47	@mobo	no, it's a meme
+2018-11-14 01:03:50	+nai	well probably yeah
+2018-11-14 01:03:51	bixxx	yes
+2018-11-14 01:03:55	+nai	i mean, that's the whole purpose
+2018-11-14 01:03:59	@Leliana	that's amazing
+2018-11-14 01:04:04	Ivion	I have no doubt that there are people who believe this
+2018-11-14 01:04:04	bixxx	just browse hyrdrogen audio forums
+2018-11-14 01:04:13	@mobo	there aren't Ivion 
+2018-11-14 01:04:15	@mobo	it's a joke
+2018-11-14 01:04:19	bixxx	you'll get people claiming this stuff and end up getting banned
+2018-11-14 01:04:32	+nai	mobo: it's not a joke if you're too stupid to get it
+2018-11-14 01:04:40	Ivion	there are plenty of jokes that people believe in
+2018-11-14 01:04:44	Ivion	like... chemtrails
+2018-11-14 01:04:48	@mobo	are you saying you were too stupid to get it?
+2018-11-14 01:04:55	+nai	no?
+2018-11-14 01:05:01	+nai	i called you out lmao
+2018-11-14 01:05:04	@mobo	how?
+2018-11-14 01:05:07	+nai	but i'm sure some people believed it
+2018-11-14 01:05:11	+nai	<+nai> mobo: are you memeing right now 
+2018-11-14 01:05:14	@mobo	it's not like I was too stupid to get it?
+2018-11-14 01:05:24	+nai	what
+2018-11-14 01:05:29	+nai	you obviously got the joke
+2018-11-14 01:05:32	@mobo	right
+2018-11-14 01:05:35	bixxx	.station -r 1 https://sr.ht/cvm3.jpg
+2018-11-14 01:05:35	+cappuccino	Replaced https://sr.ht/FqFB.jpg with https://sr.ht/cvm3.jpg
+2018-11-14 01:05:45	+nai	but some people might not get it and end up believing it
+2018-11-14 01:05:55	@mobo	that makes it funnier!
+2018-11-14 01:06:09	+Khorne	dae le planet earth pancake
+2018-11-14 01:06:52	+nai	no
+2018-11-14 01:06:54	+nai	also what
+2018-11-14 01:06:56	+Khorne	mobo, and you really never know with audiophiles
+2018-11-14 01:06:59	+Khorne	they also buy $20k cables
+2018-11-14 01:07:09	+Khorne	real sweet unidirectional copper
+2018-11-14 01:07:22	+nai	lmao https://encyclopediadramatica.rs/FLAC#FLAC_Copypasta
+2018-11-14 01:07:27	+cappuccino	[ encyclopediadramatica.rs ] FLAC - Encyclopedia Dramatica (text/html)
+2018-11-14 01:07:31	+nai	Khorne: ahahahahah what
+2018-11-14 01:07:38	+nai	this is hilarious
+2018-11-14 01:07:46	murf	 bixxx are those tannoys ?
+2018-11-14 01:07:49	@mobo	now you understand what I felt
+2018-11-14 01:08:00	@mobo	knowing the copypastas makes it funnier
+2018-11-14 01:08:01	bixxx	murf: nah
+2018-11-14 01:08:05	+Khorne	nai, wew
+2018-11-14 01:08:07	+nai	imma start memeing about unidirectional cables now
+2018-11-14 01:08:16	bixxx	i know which tannoys you're talking about though
+2018-11-14 01:08:27	murf	what are they? 
+2018-11-14 01:08:31	murf	also nice set up
+2018-11-14 01:08:31	bixxx	zu
+2018-11-14 01:08:40	+Khorne	oh sorry i misspoke nai
+2018-11-14 01:08:46	murf	oh nice, are those the entry level ones
+2018-11-14 01:08:52	+Khorne	its $45k for 2m
+2018-11-14 01:08:53	+Khorne	https://www.thecableco.com/emperor-double-crown-speaker-cable-pair.html
+2018-11-14 01:08:54	+cappuccino	[ thecableco.com ] Siltech Cables's Emperor Double Crown (Pair) (text/html)
+2018-11-14 01:08:57	murf	i read a review about some zus the other day
+2018-11-14 01:09:20	@mobo	floor chairs are kino
+2018-11-14 01:09:35	murf	.station mobo
+2018-11-14 01:09:35	+cappuccino	mobo has no stations.
+2018-11-14 01:09:41	bixxx	murf: yea they are
+2018-11-14 01:09:45	@mobo	my station is a queen sized bed and a macbook
+2018-11-14 01:09:49	+nai	Khorne: i don't see anything saying they're unidirectional
+2018-11-14 01:09:50	murf	hmm
+2018-11-14 01:10:06	+nai	are people just being told that they are
+2018-11-14 01:10:13	+Khorne	nai, do you really want to find me the article from like 2009 about unidirectional audio cables
+2018-11-14 01:10:13	murf	mobo, whats your favorite john fahey album
+2018-11-14 01:10:16	+Khorne	-.-
+2018-11-14 01:10:18	@mobo	hmmm
+2018-11-14 01:10:21	+nai	Khorne: yes Khorne yes
+2018-11-14 01:10:23	@mobo	that's a good question
+2018-11-14 01:10:29	+Khorne	nai, well, tough luck
+2018-11-14 01:10:31	+nai	Khorne: nah jk
+2018-11-14 01:10:38	@mobo	either america, voice of the turtle, or dance of death
+2018-11-14 01:10:44	+Khorne	here
+2018-11-14 01:10:45	@mobo	but the best of is an amazing compilation 
+2018-11-14 01:10:47	@mobo	wbu murf?
+2018-11-14 01:10:49	+Khorne	http://www.progarchives.com/forum/forum_posts.asp?TID=38655
+2018-11-14 01:10:49	+nai	where jk stands for "ja Khorne"
+2018-11-14 01:10:49	+cappuccino	[ progarchives.com ] Directional Audio Cables - myth or reality? - Progressive Rock Music Forum - Page 1 (text/html)
+2018-11-14 01:10:51	+Khorne	go through that shit
+2018-11-14 01:11:00	+Khorne	maybe that links to some shit
+2018-11-14 01:11:08	+Khorne	https://www.stereophile.com/content/who-do-some-cables-have-arrows-showing-direction-1
+2018-11-14 01:11:09	+cappuccino	[ stereophile.com ] Who do Some Cables have arrows on showing direction? | Stereophile.com (text/html)
+2018-11-14 01:11:15	+Khorne	https://arstechnica.com/civis/viewtopic.php?f=6&t=592097
+2018-11-14 01:11:16	+cappuccino	[ arstechnica.com ] Directional Cables - How exactly do cable manufacturers claim they work? - Ars Technica OpenForum (text/html)
+2018-11-14 01:11:33	+nai	tl;dr
+2018-11-14 01:11:38	+nai	lmao
+2018-11-14 01:11:39	+Khorne	Ah
+2018-11-14 01:11:40	+nai	but thanks
+2018-11-14 01:11:42	+Khorne	Here the original one
+2018-11-14 01:11:43	@mobo	think I might troll people at work with rotational velocidensity at work tomorrow
+2018-11-14 01:11:45	+Khorne	https://www.audioquest.com/theory-education/article/83-directionality-its-all-about-noise
+2018-11-14 01:11:45	+cappuccino	[ audioquest.com ] News Article · AudioQuest (text/html)
+2018-11-14 01:11:57	+Khorne	Or well I guess it was one by that company
+2018-11-14 01:11:57	+nai	mobo: how do you remain serious lmao
+2018-11-14 01:11:59	+Khorne	idk
+2018-11-14 01:12:04	@mobo	I was cracking up irl
+2018-11-14 01:12:15	@mobo	acting retarded is so much fun
+2018-11-14 01:12:30	murf	mobo, of rivers and religion or the legend of blind joe death i think sligo river blues is one of my favorite songs of all time though 
+2018-11-14 01:12:30	+Khorne	"Many cable manufacturers end their exploration of directionality there, going only as far as to mark their cables for directionality based on the relationship of shield to ground, but altogether neglecting conductor dir"
+2018-11-14 01:12:32	+nai	Khorne: this definition of directionality might actually make sense
+2018-11-14 01:12:40	+nai	like idk, i don't know electronics enough
+2018-11-14 01:12:47	+Khorne	copper doesnt care
+2018-11-14 01:12:52	+nai	as long as they're not claiming the conductor itself is directional, who knows
+2018-11-14 01:12:52	@mobo	murf: which blind joe death is that? the original or one of the remakes?
+2018-11-14 01:13:09	@mobo	not a huge fan of the versions with the bands, but that version of steamboat gwine round de bend is amazing
+2018-11-14 01:13:35	+Khorne	nai, I mean entertain their thought for a bit
+2018-11-14 01:13:44	+Khorne	In order to fabricate copper or silver into a strand or conductor, it must first be cast and then drawn through a die—a process that inevitably creates a directional, chevron-like pattern in the conductor’s internal grain structure and a non-symmetrical overlay of grains at the conductor’s surface.
+2018-11-14 01:13:52	+Khorne	Thats a whole lot of mumbo jumbo
+2018-11-14 01:14:13	+Khorne	The real question is....how do you connect things then :')
+2018-11-14 01:14:13	@mobo	also, I wanna record my version of sligo river so you can judge me
+2018-11-14 01:14:14	+nai	oh jesus
+2018-11-14 01:14:24	+nai	that's definitely bullshit
+2018-11-14 01:14:41	murf	mobo, the original. "I wish i knew how it would feel to be free" is such a good song but i get what you mean about the bands
+2018-11-14 01:14:42	<--	xtor (~xtor@E78A495C.4C6FAFBF.6564CFE5.IP) has quit (Remote host closed the connection)
+2018-11-14 01:14:55	@mobo	hell yeah, that's the other one I was thinking of
+2018-11-14 01:14:59	@mobo	amazing song
+2018-11-14 01:15:01	-->	xtor (~xtor@E78A495C.4C6FAFBF.6564CFE5.IP) has joined #rice
+2018-11-14 01:15:33	murf	mobo, while were on folk music, you ever listen to F.J. McMahon?
+2018-11-14 01:15:45	+Khorne	nai, hence "audiophiles believe all kind of bullshit"
+2018-11-14 01:15:47	@mobo	nope, never heard of him, wanna link a song?
+2018-11-14 01:15:53	@mobo	also brb, recording real quick
+2018-11-14 01:16:23	murf	mobo, this is a good one to start with https://www.youtube.com/watch?v=ZFBReCG7HSs
+2018-11-14 01:16:23	+cappuccino	[ youtube.com ] F.J. McMahon - Spirit of The Golden Juice (1969) - YouTube (text/html)
+2018-11-14 01:18:57	@mobo	listenin
+2018-11-14 01:19:28	@mobo	murf: https://clyp.it/51gym3km
+2018-11-14 01:19:29	+cappuccino	[ clyp.it ] sligo river blues - Clyp (text/html)
+2018-11-14 01:19:32	@mobo	lemme know what you think
+2018-11-14 01:19:53	@mobo	I like this album so far
+2018-11-14 01:19:58	@mobo	reminds me of someone I can't pinpoint
+2018-11-14 01:20:42	murf	wow i really like this very nice 
+2018-11-14 01:20:56	@mobo	ty :3
+2018-11-14 01:21:02	@mobo	do you listen to jim o'rourke at all?
+2018-11-14 01:21:03	murf	gives a different feel than the original 
+2018-11-14 01:21:21	@mobo	yeah, I play it a little more upbeat, his is way more melancholy 
+2018-11-14 01:21:30	@mobo	I have yet to really develop a serious style
+2018-11-14 01:21:33	murf	i do yes 
+2018-11-14 01:21:51	murf	i love the spacey and kind of moody instrumental tracks fahey has 
+2018-11-14 01:22:00	murf	evokes weird emotions sometimes
+2018-11-14 01:22:07	@mobo	have you heard red cross?
+2018-11-14 01:22:12	@mobo	his later stuff is exactly like that
+2018-11-14 01:22:12	murf	i havent 
+2018-11-14 01:22:15	@mobo	almost painfully so
+2018-11-14 01:22:43	+nai	still laughing at https://www.youtube.com/watch?v=IDaCrTHClEs
+2018-11-14 01:22:43	+cappuccino	[ youtube.com ] Hilarious Irish lads pre drinks speech - YouTube (text/html)
+2018-11-14 01:22:50	@mobo	murf: https://www.youtube.com/watch?v=6qX8M4hfxTE
+2018-11-14 01:22:50	+nai	bloody tor 
+2018-11-14 01:22:50	+cappuccino	[ youtube.com ] Remember - YouTube (text/html)
+2018-11-14 01:22:58	@mobo	his later stuff is so haunting
+2018-11-14 01:23:30	murf	this is exactly what ive been looking for i dont know how i didnt find this thanks
+2018-11-14 01:23:44	@mobo	enjoy, there's a whole album of it
+2018-11-14 01:24:08	@mobo	but yeah, he made this months before he died
+2018-11-14 01:24:24	@mobo	was kinda sad that he was a super poor alcoholic towards the end of his life
+2018-11-14 01:24:35	@mobo	I have his autobiography, highly recommend 
+2018-11-14 01:24:55	murf	oh yeah im definitely going to look into that
+2018-11-14 01:25:06	murf	did you just record that track you sent? or was that old 
+2018-11-14 01:25:10	@mobo	"How Bluegrass Ruined My Life"
+2018-11-14 01:25:12	@mobo	just recorded it
+2018-11-14 01:25:19	murf	impressed 
+2018-11-14 01:25:28	murf	how long have you been playing
+2018-11-14 01:25:48	@mobo	maybe 5 years but I've only been seriously into it for about 2
+2018-11-14 01:25:58	@mobo	took me half a year to learn poor boy long ways from home
+2018-11-14 01:26:05	@mobo	getting the fingerpicking routine down is insanely hard
+2018-11-14 01:26:27	@mobo	but once it clicks, you can play most fahey/blues songs
+2018-11-14 01:26:38	murf	oh yeah but the layering you achieve with it is amazing especially when you loop things 
+2018-11-14 01:26:46	@mobo	true
+2018-11-14 01:26:59	@mobo	my favorite recording I ever did is actually me playing over myself: https://clyp.it/h0ll4czp
+2018-11-14 01:26:59	+cappuccino	[ clyp.it ] Dvorak - Clyp (text/html)
+2018-11-14 01:27:28	murf	did you use a loop pedal or just two recordings
+2018-11-14 01:27:35	@mobo	just two recordings 
+2018-11-14 01:27:39	murf	oh i see the description now
+2018-11-14 01:27:43	@mobo	my amp and pedals are in storage
+2018-11-14 01:27:44	@mobo	yeah
+2018-11-14 01:27:55	@mobo	recorded on garageband on my airpod's microphones, lol
+2018-11-14 01:27:59	murf	i remember you being in uni a few years back is that still the case?
+2018-11-14 01:28:16	@mobo	I'm taking a year off for an internship to make some $$$
+2018-11-14 01:28:28	@mobo	hoping it turns into a full time job, in which case I'll prolly stay here
+2018-11-14 01:28:39	@mobo	wbu, how've you been doing?
+2018-11-14 01:29:11	murf	what were you studying if you dont mind me asking ? Im trying to finish off an electrical engineering degree currently, got about a year left 
+2018-11-14 01:29:22	murf	ready to finish school 
+2018-11-14 01:29:25	@mobo	nw, I was just CS
+2018-11-14 01:29:32	@mobo	EE is great, know a ton of em
+2018-11-14 01:29:52	@mobo	where do you wanna work?
+2018-11-14 01:30:03	@mobo	it's kinda a broad field 
+2018-11-14 01:31:41	murf	no idea yet the money is in nuclear facilities but id like to to something with research and development ive dont some internships so i have some options as far as getting a job goes but im not completely sure yet 
+2018-11-14 01:32:17	@mobo	not bad, you've got time
+2018-11-14 01:32:24	@mobo	esp with an EE degree, you got a lot of options
+2018-11-14 01:32:48	@mobo	I only have about a semester left so I'm hoping to just pick up some online classes
+2018-11-14 01:32:52	+nai	alright Khorne 
+2018-11-14 01:32:58	murf	what kind of internship are you doing? 
+2018-11-14 01:32:59	+nai	you were bullying me about french pronounciation
+2018-11-14 01:33:01	+nai	https://www.youtube.com/watch?v=BI1UaHt1zRU
+2018-11-14 01:33:02	+cappuccino	[ youtube.com ] How To Pronounce Caoimhe - YouTube (text/html)
+2018-11-14 01:33:08	+nai	there's irish for you :')
+2018-11-14 01:33:50	@mobo	working for a company that distributes software for offices
+2018-11-14 01:34:06	@Leliana	https://www.youtube.com/watch?v=Y3CvVuhJI8o
+2018-11-14 01:34:06	+cappuccino	[ youtube.com ] Diablo Immortal: Interview with an Blizzard employee - YouTube (text/html)
+2018-11-14 01:34:07	@Leliana	many keks
+2018-11-14 01:34:12	@mobo	the work itself isn't glamorous, but I love my coworkers and the environment
+2018-11-14 01:34:33	@mobo	I always thought I'd hate working in an office but from my various experiences I'm very happy
+2018-11-14 01:34:58	@mobo	but yeah, I do a lot of internal programming 
+2018-11-14 01:35:07	murf	i have spent most of my college career working blue collar jobs part time so im ready to work in an office to be honest
+2018-11-14 01:35:13	murf	what language ?
+2018-11-14 01:35:30	@mobo	bash and python mostly
+2018-11-14 01:35:41	@mobo	a lot of it is modifications to previously made utilities
+2018-11-14 01:35:52	@mobo	but yeah, offices are not nearly as bad as people make them out to be
+2018-11-14 01:36:00	@mobo	unless you're working at a call centre or something
+2018-11-14 01:36:38	murf	agreed, you ever listen to Jackson Frank?
+2018-11-14 01:36:56	<--	Shinryuu (~gdsptuwtd@moe.pantsu) has quit (Quit: rod)
+2018-11-14 10:18:22	-->	ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-11-14 10:18:22	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-11-14 10:18:22	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 16:32:42
+2018-11-14 10:18:22	--	Channel #rice: 167 nicks (9 ops, 0 halfops, 16 voices, 142 normals)
+2018-11-14 10:18:24	--	Channel created on Sun, 30 Dec 2012 01:07:54
+2018-11-14 10:18:26	ergo	good morning lads 
+2018-11-14 10:23:12	-->	anon9234 (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has joined #rice
+2018-11-14 10:26:17	+Rue	hi
+2018-11-14 10:30:18	+Khorne	Moin nathaniel
+2018-11-14 10:31:13	+Khorne	too funny: https://vid.pr0gramm.com/2018/11/14/c62f3e0e66591834.mp4
+2018-11-14 10:31:16	+Khorne	sfw
+2018-11-14 10:31:30	ergo	how do you know my name hmmm 
+2018-11-14 10:31:33	ergo	was it in a scrot? 
+2018-11-14 10:31:37	ergo	or is that rue's name as well lol 
+2018-11-14 10:32:03	+Khorne	10:17            > │ ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-11-14 10:32:08	+Khorne	hard guess.
+2018-11-14 10:32:10	ergo	oh lol 
+2018-11-14 10:32:14	ergo	guess that works 
+2018-11-14 10:32:19	+Khorne	:')
+2018-11-14 10:32:35	ergo	the fuck is that video lol 
+2018-11-14 10:32:40	+Khorne	lmao
+2018-11-14 10:32:44	+Rue	Khorne: stop linking garbage
+2018-11-14 10:33:50	+Rue	:)
+2018-11-14 10:34:05	+Khorne	https://vid.pr0gramm.com/2018/09/19/99d5273c227a34be.mp4
+2018-11-14 10:34:08	+Khorne	:')
+2018-11-14 10:34:53	+Khorne	https://vid.pr0gramm.com/2018/08/22/10614075294e533c.mp4
+2018-11-14 10:37:55	ergo	reeeeeeeeee
+2018-11-14 10:38:01	ergo	 icant create a fucking colorscheme https://a.pste.pw/FXm.png
+2018-11-14 10:38:02	ergo	someone kill me 

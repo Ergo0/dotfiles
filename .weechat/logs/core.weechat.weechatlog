@@ -6083,3 +6083,6 @@
 2018-11-13 00:37:38		  script.scripts.url = "https://weechat.org/files/plugins.xml.gz"
 2018-11-13 00:37:38		838 options
 2018-11-13 00:55:52		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-13 01:05:14		irc: server unix has been deleted
+2018-11-13 10:03:30		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-11-14 10:16:10		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer

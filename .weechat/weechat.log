@@ -1,22 +1,19 @@
-[2018-11-13 00:55:52] WeeChat 1.9.1 (compiled on Nov  5 2018 23:23:58)
-[2018-11-13 00:55:52] Reading configuration file sec.conf
-[2018-11-13 00:55:52] Reading configuration file weechat.conf
-[2018-11-13 00:55:52] Reading configuration file plugins.conf
-[2018-11-13 00:55:52] Reading configuration file charset.conf
-[2018-11-13 00:55:52] Reading configuration file logger.conf
-[2018-11-13 00:55:52] Reading configuration file exec.conf
-[2018-11-13 00:55:52] Reading configuration file trigger.conf
-[2018-11-13 00:55:52] Reading configuration file alias.conf
-[2018-11-13 00:55:52] Reading configuration file buflist.conf
-[2018-11-13 00:55:52] Reading configuration file fifo.conf
-[2018-11-13 00:55:52] Reading configuration file xfer.conf
-[2018-11-13 00:55:52] Reading configuration file irc.conf
-[2018-11-13 00:55:52] Reading configuration file relay.conf
-[2018-11-13 00:55:52] Reading configuration file script.conf
-[2018-11-13 00:55:54] irc: connecting to server chat.freenode.net/7000 (SSL)...
-[2018-11-13 00:55:54] irc: connecting to server irc.snoonet.org/6667...
-[2018-11-13 00:55:54] irc: connecting to server irc.rizon.net/6697 (SSL)...
-[2018-11-13 00:55:54] irc: connecting to server irc.scratch-network.net/6667...
-[2018-11-13 00:55:54] irc: connecting to server unix.chat/6667 (SSL)...
-[2018-11-13 00:57:04] irc: connecting to server unix.chat/6667 (SSL)...
-[2018-11-13 00:58:23] irc: connecting to server unix.chat/6667 (SSL)...
+[2018-11-14 10:16:09] WeeChat 1.9.1 (compiled on Nov  5 2018 23:23:58)
+[2018-11-14 10:16:09] Reading configuration file sec.conf
+[2018-11-14 10:16:09] Reading configuration file weechat.conf
+[2018-11-14 10:16:09] Reading configuration file plugins.conf
+[2018-11-14 10:16:10] Reading configuration file charset.conf
+[2018-11-14 10:16:10] Reading configuration file logger.conf
+[2018-11-14 10:16:10] Reading configuration file exec.conf
+[2018-11-14 10:16:10] Reading configuration file trigger.conf
+[2018-11-14 10:16:10] Reading configuration file alias.conf
+[2018-11-14 10:16:10] Reading configuration file buflist.conf
+[2018-11-14 10:16:10] Reading configuration file fifo.conf
+[2018-11-14 10:16:10] Reading configuration file xfer.conf
+[2018-11-14 10:16:10] Reading configuration file irc.conf
+[2018-11-14 10:16:10] Reading configuration file relay.conf
+[2018-11-14 10:16:10] Reading configuration file script.conf
+[2018-11-14 10:16:13] irc: connecting to server chat.freenode.net/7000 (SSL)...
+[2018-11-14 10:16:13] irc: connecting to server irc.snoonet.org/6667...
+[2018-11-14 10:16:13] irc: connecting to server irc.rizon.net/6697 (SSL)...
+[2018-11-14 10:16:13] irc: connecting to server irc.scratch-network.net/6667...

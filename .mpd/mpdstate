@@ -1,7 +1,9 @@
-sw_volume: 100
+sw_volume: 93
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 55
+time: 163.445000
 random: 0
 repeat: 0
 single: 0
@@ -12,4 +14,63 @@ mixrampdelay: -1.000000
 playlist_begin
 0:Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac
 1:Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac
+2:Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac
+3:Arctic Monkeys/Humbug (2009)/02-arctic_monkeys-crying_lightning.flac
+4:Arctic Monkeys/Humbug (2009)/03-arctic_monkeys-dangerous_animals.flac
+5:Arctic Monkeys/Humbug (2009)/04-arctic_monkeys-secret_door.flac
+6:Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-potion_approaching.flac
+7:Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac
+8:Arctic Monkeys/Humbug (2009)/07-arctic_monkeys-cornerstone.flac
+9:Arctic Monkeys/Humbug (2009)/08-arctic_monkeys-dance_little_liar.flac
+10:Arctic Monkeys/Humbug (2009)/09-arctic_monkeys-pretty_visitors.flac
+11:Arctic Monkeys/Humbug (2009)/10-arctic_monkeys-the_jewellers_hands.flac
+12:Arctic Monkeys/Humbug (2009)/11-arctic_monkeys-i_havent_got_my_strange.flac
+13:Arctic Monkeys/Humbug (2009)/12-arctic_monkeys-red_right_hand.flac
+14:Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac
+15:Arctic Monkeys/Humbug (2009)/02-arctic_monkeys-crying_lightning.flac
+16:Arctic Monkeys/Humbug (2009)/03-arctic_monkeys-dangerous_animals.flac
+17:Arctic Monkeys/Humbug (2009)/04-arctic_monkeys-secret_door.flac
+18:Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-potion_approaching.flac
+19:Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac
+20:Arctic Monkeys/Humbug (2009)/07-arctic_monkeys-cornerstone.flac
+21:Arctic Monkeys/Humbug (2009)/08-arctic_monkeys-dance_little_liar.flac
+22:Arctic Monkeys/Humbug (2009)/09-arctic_monkeys-pretty_visitors.flac
+23:Arctic Monkeys/Humbug (2009)/10-arctic_monkeys-the_jewellers_hands.flac
+24:Arctic Monkeys/Humbug (2009)/11-arctic_monkeys-i_havent_got_my_strange.flac
+25:Arctic Monkeys/Humbug (2009)/12-arctic_monkeys-red_right_hand.flac
+26:Arctic Monkeys/AM (2013)/01-arctic_monkeys-do_i_wanna_know.flac
+27:Arctic Monkeys/AM (2013)/02-arctic_monkeys-r_u_mine.flac
+28:Arctic Monkeys/AM (2013)/03-arctic_monkeys-one_for_the_road.flac
+29:Arctic Monkeys/AM (2013)/04-arctic_monkeys-arabella.flac
+30:Arctic Monkeys/AM (2013)/05-arctic_monkeys-i_want_it_all.flac
+31:Arctic Monkeys/AM (2013)/06-arctic_monkeys-no.1_party_anthem.flac
+32:Arctic Monkeys/AM (2013)/07-arctic_monkeys-mad_sounds.flac
+33:Arctic Monkeys/AM (2013)/08-arctic_monkeys-fireside.flac
+34:Arctic Monkeys/AM (2013)/09-arctic_monkeys-whyd_you_only_call_me_when_youre_high.flac
+35:Arctic Monkeys/AM (2013)/10-arctic_monkeys-snap_out_of_it.flac
+36:Arctic Monkeys/AM (2013)/11-arctic_monkeys-knee_socks.flac
+37:Arctic Monkeys/AM (2013)/12-arctic_monkeys-i_wanna_be_yours.flac
+38:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/01 – Star Treatment.mp3
+39:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/02 – One Point Perspective.mp3
+40:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/03 – American Sports.mp3
+41:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/04 – Tranquility Base Hotel & Casino.mp3
+42:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/05 – Golden Trunks.mp3
+43:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/06 – Four out of Five.mp3
+44:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/07 – The World’s First Ever Monster Truck Front Flip.mp3
+45:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/08 – Science Fiction.mp3
+46:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/09 – She Looks Like Fun.mp3
+47:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/10 – Batphone.mp3
+48:Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/11 – The Ultracheese.mp3
+49:Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac
+50:Arctic Monkeys/Humbug (2009)/02-arctic_monkeys-crying_lightning.flac
+51:Arctic Monkeys/Humbug (2009)/03-arctic_monkeys-dangerous_animals.flac
+52:Arctic Monkeys/Humbug (2009)/04-arctic_monkeys-secret_door.flac
+53:Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-potion_approaching.flac
+54:Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac
+55:Arctic Monkeys/Humbug (2009)/07-arctic_monkeys-cornerstone.flac
+56:Arctic Monkeys/Humbug (2009)/08-arctic_monkeys-dance_little_liar.flac
+57:Arctic Monkeys/Humbug (2009)/09-arctic_monkeys-pretty_visitors.flac
+58:Arctic Monkeys/Humbug (2009)/10-arctic_monkeys-the_jewellers_hands.flac
+59:Arctic Monkeys/Humbug (2009)/11-arctic_monkeys-i_havent_got_my_strange.flac
+60:Arctic Monkeys/Humbug (2009)/12-arctic_monkeys-red_right_hand.flac
 playlist_end

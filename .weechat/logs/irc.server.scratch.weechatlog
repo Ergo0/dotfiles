@@ -49,3 +49,55 @@
 2018-11-13 00:55:57	--	Current Global Users: 1471  Max: 1620
 2018-11-13 00:55:57	--	red-kb0.4u9.76kgig.IP :is now your displayed host
 2018-11-13 00:55:57	--	User mode [+x] by Ergo
+2018-11-13 10:03:38	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-13 10:03:38	--	irc: connected to irc.scratch-network.net/6667 (79.137.39.214)
+2018-11-13 10:03:38	--	victoria.scratch-network.net: *** Looking up your hostname...
+2018-11-13 10:03:38	--	victoria.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-13 10:03:38	--	victoria.scratch-network.net: Welcome to Scratch-Network!
+2018-11-13 10:03:38	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-13 10:03:38	--	Your host is victoria.scratch-network.net, running version InspIRCd-2.0
+2018-11-13 10:03:38	--	This server was created 00:32:02 Aug 28 2017
+2018-11-13 10:03:38	--	victoria.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-13 10:03:38	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-13 10:03:38	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-13 10:03:38	--	SECURELIST SILENCE=32 SSL=79.137.39.214:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-13 10:03:38	--	590AFDB2P :your unique ID
+2018-11-13 10:03:38	--	victoria.scratch-network.net message of the day
+2018-11-13 10:03:38	--	End of message of the day.
+2018-11-13 10:03:38	--	There are 871 users and 573 invisible on 8 servers
+2018-11-13 10:03:38	--	11 :operator(s) online
+2018-11-13 10:03:38	--	478 :channels formed
+2018-11-13 10:03:38	--	I have 519 clients and 1 servers
+2018-11-13 10:03:38	--	Current Local Users: 519  Max: 722
+2018-11-13 10:03:38	--	Current Global Users: 1444  Max: 1620
+2018-11-13 10:03:38	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-13 10:03:38	--	User mode [+x] by Ergo
+2018-11-13 10:18:47	--	You are now known as ergo7z
+2018-11-13 10:22:59	--	CTCP requested by Gatekeeper: VERSION
+2018-11-13 10:22:59	--	CTCP reply to Gatekeeper: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-14 10:16:13	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-14 10:16:13	--	irc: connected to irc.scratch-network.net/6667 (144.217.164.77)
+2018-11-14 10:16:13	--	kratos.scratch-network.net: *** Looking up your hostname...
+2018-11-14 10:16:15	--	kratos.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-14 10:16:16	--	kratos.scratch-network.net: Welcome to Scratch-Network!
+2018-11-14 10:16:16	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-14 10:16:16	--	Your host is kratos.scratch-network.net, running version InspIRCd-2.0
+2018-11-14 10:16:16	--	This server was created 18:32:23 Aug 27 2017
+2018-11-14 10:16:16	--	kratos.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-14 10:16:16	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-14 10:16:16	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-14 10:16:16	--	SECURELIST SILENCE=32 SSL=144.217.164.77:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-14 10:16:16	--	397AE54IM :your unique ID
+2018-11-14 10:16:16	--	kratos.scratch-network.net message of the day
+2018-11-14 10:16:16	--	End of message of the day.
+2018-11-14 10:16:16	--	There are 874 users and 569 invisible on 8 servers
+2018-11-14 10:16:16	--	11 :operator(s) online
+2018-11-14 10:16:16	--	477 :channels formed
+2018-11-14 10:16:16	--	I have 502 clients and 1 servers
+2018-11-14 10:16:16	--	Current Local Users: 502  Max: 824
+2018-11-14 10:16:16	--	Current Global Users: 1443  Max: 1620
+2018-11-14 10:16:16	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-14 10:16:16	--	User mode [+x] by Ergo
+2018-11-14 10:16:29	--	You are now known as ergo7z
+2018-11-14 10:17:08	--	CTCP requested by Gatekeeper: VERSION
+2018-11-14 10:17:08	--	CTCP reply to Gatekeeper: VERSION WeeChat 1.9.1 (Nov  5 2018)
