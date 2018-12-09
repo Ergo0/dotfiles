@@ -1,0 +1,267 @@
+2018-11-28 11:55:47	-->	ergo0 (~nathaniel@2001:980:5c8e:1:4e8b:e11e:b1ab:f978) has joined #voidlinux
+2018-11-28 11:55:47	--	Topic for #voidlinux is "The Void Linux distribution http://www.voidlinux.org || images: http://alpha.de.repo.voidlinux.org/live/current || Getting started: http://www.voidlinux.org/usage/xbps/ && http://www.voidlinux.org/usage/runit"
+2018-11-28 11:55:47	--	Topic set by maldridge on Tue, 13 Nov 2018 05:13:20
+2018-11-28 11:55:47	--	Channel #voidlinux: 245 nicks (0 ops, 0 voices, 245 normals)
+2018-11-28 11:55:49	--	Channel created on Thu, 23 Jul 2015 09:32:22
+2018-11-28 11:56:05	ergo0	im having trouble with my install, i cant boot neither firefox or chromium 
+2018-11-28 11:56:17	ergo0	firefox segfaults, chromium throws anohter error 
+2018-11-28 11:57:44	ergo0	which for some reason i cant copy paste 
+2018-11-28 11:58:59	-->	dagatil (~digital@p5B1027A9.dip0.t-ipconnect.de) has joined #voidlinux
+2018-11-28 11:59:06	dagatil	hi from void linux!
+2018-11-28 11:59:32	dagatil	I had to add the module "ecb" to the initramfs, now I can decrypt my drive without problems
+2018-11-28 11:59:54	dagatil	thank you for your help and patience!
+2018-11-28 11:59:57	<--	dagatil (~digital@p5B1027A9.dip0.t-ipconnect.de) has left #voidlinux
+2018-11-28 11:59:59	ergo0	oh right talking bout modules, anyone has any experience getting combo jack audio + mic working on their laptops? 
+2018-11-28 12:00:56	-->	thePiGrepper (~nagato@181.67.203.21) has joined #voidlinux
+2018-11-28 12:01:24	<--	sgn (~danh@58.186.6.64) has quit (Ping timeout: 250 seconds)
+2018-11-28 12:02:44	Veyrdite	ergo0: re web browsers: Have you tried a full update, or are you running a mix of old packages and new ones?
+2018-11-28 12:02:55	ergo0	its a fresh install 
+2018-11-28 12:03:01	Veyrdite	ergo0: Jack doesn't need anything special for mics.  It still gets the mic from alsa.  Set alsa up to choose the correct device.
+2018-11-28 12:03:06	ergo0	i just did a full update through xbps-install -Syu 
+2018-11-28 12:03:14	Veyrdite	Tip: when you're in alsamixer, hit tab.
+2018-11-28 12:03:15	ergo0	but firefox and chromium both dont launch 
+2018-11-28 12:03:43	Veyrdite	Can you run them from a terminal?  Error messages would help.
+2018-11-28 12:03:49	ergo0	yupp 
+2018-11-28 12:03:54	ergo0	firefox just segfaults, nothing else 
+2018-11-28 12:04:13	Veyrdite	:(
+2018-11-28 12:04:19	Veyrdite	Chromium's error?
+2018-11-28 12:04:22	ergo0	 https://paste.pound-python.org/show/ATi7NQFK9tqXBAzqOYUx/
+2018-11-28 12:04:31	ergo0	ahh there we go, i was trying to paste it earlier but it didnt work 
+2018-11-28 12:04:38	<--	OnkelGonzo (~gonzo@mail.hagos.de) has quit (Quit: Leaving.)
+2018-11-28 12:05:00	Veyrdite	Wow, that's a fun stackdump
+2018-11-28 12:05:15	Veyrdite	Can you run any other gui programs successfully?  Eg pcmanfm, lxappearance, qtconfig4?
+2018-11-28 12:05:39	Veyrdite	Also: are you on libc or musl and have you changed your mirrors from the defaults?
+2018-11-28 12:05:40	ergo0	i can run lxapperance yes 
+2018-11-28 12:05:54	ergo0	and im on libc and have not changed my mirrors 
+2018-11-28 12:06:10	Veyrdite	Wow.  Okay.
+2018-11-28 12:06:12	ergo0	the fonts in lxappearance and rofi are all jittery tho 
+2018-11-28 12:06:22	Veyrdite	"Jittery" as in changing constantly?
+2018-11-28 12:06:27	ergo0	nope 
+2018-11-28 12:06:36	ergo0	as in there is no text lol, just some odd squares or circles 
+2018-11-28 12:06:50	Veyrdite	Sounds like Xorg is not properly installed
+2018-11-28 12:06:57	Veyrdite	Or at least the fonts for it
+2018-11-28 12:07:10	Veyrdite	Do you have 'xorg-fonts' installed?
+2018-11-28 12:07:13	ergo0	nope 
+2018-11-28 12:07:16	ergo0	im installing those now 
+2018-11-28 12:07:21	Veyrdite	That should definately come with xorg
+2018-11-28 12:07:29	Veyrdite	Also install at least one ttf font, eg Dejavu
+2018-11-28 12:07:32	ergo0	i installed xorg-minimal 
+2018-11-28 12:07:41	Veyrdite	'dejavu-fonts-ttf'
+2018-11-28 12:07:42	ergo0	which normally werks 
+2018-11-28 12:07:47	Veyrdite	I've never tried xorg-minimal, apologies
+2018-11-28 12:08:01	ergo0	welp
+2018-11-28 12:08:06	ergo0	installing fonts uhm
+2018-11-28 12:08:08	Veyrdite	Need to save the space?
+2018-11-28 12:08:09	ergo0	fixed firefox?? 
+2018-11-28 12:08:23	Veyrdite	?
+2018-11-28 12:08:31	ergo0	yee after installing fonts, firefox worked 
+2018-11-28 12:08:51	Veyrdite	Ah, you mean '!!' not '??' then
+2018-11-28 12:08:53	ergo0	chromium as well 
+2018-11-28 12:09:01	ergo0	i meant it as "well that is weird" 
+2018-11-28 12:09:21	Veyrdite	Whilst those apps might not use those fonts directly, they might depend on some xlibs that do need those fonts
+2018-11-28 12:09:44	ergo0	welp, alsa says my laptop doesnt have a capture device
+2018-11-28 12:09:44	Veyrdite	xorg-fonts is generally considered something that's "always installed", so devs don't test their apps without it (or even know xorg-fonts exists)
+2018-11-28 12:09:47	ergo0	its prolly some acer bs 
+2018-11-28 12:09:55	Veyrdite	ergo0: Make sure to press TAB in alsa mixer
+2018-11-28 12:09:59	ergo0	i did 
+2018-11-28 12:10:13	ergo0	tab just takes me to "no input devices found" 
+2018-11-28 12:10:22	Veyrdite	Oh dear.  Might be firmware or modules related, have a read of 'dmesg' and see if it gives any hints
+2018-11-28 12:10:33	Veyrdite	dmesg | grep -i snd,   dmes | grep -i audio,   etc
+2018-11-28 12:11:29	Veyrdite	It's also worth looking up your model of laptop with the word 'linux' on the web, it might be a common problem.
+2018-11-28 12:12:06	ergo0	ye, was about to do that, here is output btw 
+2018-11-28 12:12:06	ergo0	https://paste.pound-python.org/show/Pg5kUSWewPzDQwO0aquT/
+2018-11-28 12:12:48	Veyrdite	No errors there.  Bummer.
+2018-11-28 12:12:58	Veyrdite	All I can suggest is to keep looking, reading and searching.
+2018-11-28 12:13:22	 *	Veyrdite imagines in an alternate dimension there's "acer-mixer"
+2018-11-28 12:13:48	ergo0	lol, wish that was true 
+2018-11-28 12:14:35	Veyrdite	Careful what you wish for.
+2018-11-28 12:15:05	Veyrdite	It launches a copy of wine running a vista-era-appearance big GUI application that drags in two javascript frameworks and advertising.
+2018-11-28 12:15:25	Veyrdite	.... which then gets rendered off-scren and roughtly presented using libcaca as acsii in your terminal
+2018-11-28 12:15:30	ergo0	lollll 
+2018-11-28 12:15:37	ergo0	i thought it just didnt existed
+2018-11-28 12:15:39	ergo0	but oh welll 
+2018-11-28 12:15:50	Veyrdite	It doesn't exist ;P
+2018-11-28 12:16:33	<--	ralpheeee (~ralpheeee@xdsl-89-0-115-54.nc.de) has quit (Quit: WeeChat 2.3)
+2018-11-28 12:18:07	<--	vervein (~vervein@5-49-241-78.hfc.dyn.abo.bbox.fr) has quit (Quit: Lost terminal)
+2018-11-28 12:20:17	ergo0	would i put files that i would normally put in modprobe.d in dracut.conf.d ? 
+2018-11-28 12:20:32	-->	raute (~raute@clevertor.e.ffh.zone) has joined #voidlinux
+2018-11-28 12:20:53	Veyrdite	ergo0: If you need those modules very early in boot then they need to be in dracut.  Otherwise they should be fine in modprobe.d
+2018-11-28 12:21:04	Veyrdite	Are you providing different module options or trying to force-load some modules?
+2018-11-28 12:22:04	ergo0	it was for alsa-base.conf
+2018-11-28 12:22:11	ergo0	damn i lost the page where i got it from 
+2018-11-28 12:22:15	ergo0	well, im gonna try rebooting 
+2018-11-28 12:22:16	ergo0	brb 
+2018-11-28 12:22:22	--	irc: disconnected from server
+2018-11-28 12:26:51	-->	ronin7z (~nathaniel@2001:980:5c8e:1:4e8b:e11e:b1ab:f978) has joined #voidlinux
+2018-11-28 12:26:51	--	Topic for #voidlinux is "The Void Linux distribution http://www.voidlinux.org || images: http://alpha.de.repo.voidlinux.org/live/current || Getting started: http://www.voidlinux.org/usage/xbps/ && http://www.voidlinux.org/usage/runit"
+2018-11-28 12:26:51	--	Topic set by maldridge on Tue, 13 Nov 2018 05:13:20
+2018-11-28 12:26:51	--	Channel #voidlinux: 243 nicks (0 ops, 0 voices, 243 normals)
+2018-11-28 12:26:53	--	Channel created on Thu, 23 Jul 2015 09:32:22
+2018-11-28 12:27:00	ronin7z	Veyrdite: i managed to fix it 
+2018-11-28 12:27:01	ronin7z	finally 
+2018-11-28 12:27:26	Veyrdite	Good to hear.
+2018-11-28 12:27:33	ronin7z	maybe i should post that fix somewhere 
+2018-11-28 12:27:41	Veyrdite	Correction: I can't hear anything anymore.  What did you do to my alsa modules?
+2018-11-28 12:27:49	ronin7z	lolll 
+2018-11-28 12:28:00	ronin7z	would that be something that could be added to the wiki hmmm 
+2018-11-28 12:28:14	ronin7z	its a pretty simple fix but you gotta know 
+2018-11-28 12:28:28	Veyrdite	Wiki's life is limited
+2018-11-28 12:28:36	Veyrdite	Main devs are not a fan of it in its current form
+2018-11-28 12:28:53	Veyrdite	Might be worth putting it on the Arch Linux wiki, or gentoo, or alike.
+2018-11-28 12:29:08	ronin7z	hmmm whyy not? 
+2018-11-28 12:29:17	ronin7z	and yee could do that as well, never did anything like that before tho 
+2018-11-28 12:30:03	Veyrdite	The wiki is not tidy or up to date.  The devs don't like what it has become and are instead moving to centralised documentation.
+2018-11-28 12:30:35	Veyrdite	I used to be a wiki person on other projects, but I'll see how their docs project pans out first.
+2018-11-28 12:30:54	TheAnachron	new docs are here btw: https://github.com/void-linux/void-docs
+2018-11-28 12:30:55	<--	jriese (~jriese@rubicon.pw) has quit (Quit: ZNC - https://znc.in)
+2018-11-28 12:31:39	ronin7z	that does indeedl ook pretty nice 
+2018-11-28 12:32:06	ronin7z	and users can still contribute as well 
+2018-11-28 12:32:21	Veyrdite	Going to sleep.  ronin7z: thankyou, I can finally have a quiet night's sleep :P
+2018-11-28 12:32:43	ronin7z	Veyrdite: lol, goodnight lad 
+2018-11-28 12:32:47	<--	Veyrdite (~valentine@unvanquished/developer/veyrdite) has left #voidlinux ("WeeChat 2.3")
+2018-11-28 12:33:04	-->	jriese (~jriese@192.3.139.4) has joined #voidlinux
+2018-11-28 12:34:07	<--	jriese (~jriese@192.3.139.4) has quit (Client Quit)
+2018-11-28 12:34:22	-->	jriese (~jriese@192.3.139.4) has joined #voidlinux
+2018-11-28 12:35:36	<--	jriese (~jriese@192.3.139.4) has quit (Client Quit)
+2018-11-28 12:36:03	-->	jriese (~jriese@192.3.139.4) has joined #voidlinux
+2018-11-28 12:40:38	<--	raute (~raute@clevertor.e.ffh.zone) has quit (Read error: Connection reset by peer)
+2018-11-28 12:40:44	-->	raute_ (~raute@leintor.e.ffh.zone) has joined #voidlinux
+2018-11-28 12:41:54	-->	OlgaV (~laser@mail.smart-consulting.ru) has joined #voidlinux
+2018-11-28 12:43:15	-->	bluemoon_ (~bluemoon@pD9FB596B.dip0.t-ipconnect.de) has joined #voidlinux
+2018-11-28 12:45:50	<--	Pestdoktor (~jf@ip4d15eda1.dynamic.kabel-deutschland.de) has quit (Quit: Leaving.)
+2018-11-28 12:46:27	<--	OlgaV (~laser@mail.smart-consulting.ru) has quit (Ping timeout: 250 seconds)
+2018-11-28 12:48:16	-->	OlgaV (~laser@l37-192-178-135.novotelecom.ru) has joined #voidlinux
+2018-11-28 12:50:41	-->	Pestdoktor (~jf@77.21.237.161) has joined #voidlinux
+2018-11-28 12:54:10	-->	darknekros_ (~darknekro@2a01:cb19:8263:d800:7db2:1f3d:9671:c7db) has joined #voidlinux
+2018-11-28 12:57:35	<--	darknekros (~darknekro@2a01:cb19:8263:d800:2c52:5fda:cbe2:3c77) has quit (Ping timeout: 252 seconds)
+2018-11-28 12:58:57	-->	raute (~raute@clevertor.e.ffh.zone) has joined #voidlinux
+2018-11-28 13:02:03	<--	raute_ (~raute@leintor.e.ffh.zone) has quit (Ping timeout: 250 seconds)
+2018-11-28 13:06:35	-->	autrimpo (~autrimpo@185.216.35.254) has joined #voidlinux
+2018-11-28 13:18:43	-->	fusion809 (~fusion809@2001:8003:f12a:6f00:fbaf:9cd6:6dca:5b96) has joined #voidlinux
+2018-11-28 13:29:13	<--	Pestdoktor (~jf@77.21.237.161) has quit (Quit: Leaving.)
+2018-11-28 13:31:12	-->	elroncio (~elroncio@host71-159-dynamic.51-79-r.retail.telecomitalia.it) has joined #voidlinux
+2018-11-28 13:32:19	-->	Pestdoktor (~jf@ip4d15eda1.dynamic.kabel-deutschland.de) has joined #voidlinux
+2018-11-28 13:37:04	-->	qqe (~qqq@185.54.21.121) has joined #voidlinux
+2018-11-28 13:38:15	coldpress	thinking about switching to musl ever since i've given up on installing NVIDIA for steam
+2018-11-28 13:38:36	coldpress	what other glorious proprietary software will i be missing out on if I use musl?
+2018-11-28 13:39:01	<--	vdo (~vdo1138@unaffiliated/vdo) has quit (Ping timeout: 244 seconds)
+2018-11-28 13:42:35	maxice8[m]	All of the propietary software basically
+2018-11-28 13:44:09	ninewise	last time I checked the glorious haskell compiler, ghc, didn't work on musl
+2018-11-28 13:44:16	ninewise	last time I checked was a year ago though
+2018-11-28 13:44:23	ninewise	maybe even two
+2018-11-28 13:57:23	<--	lahe (~lahe@93-167-191-90.dyn.estpak.ee) has quit (Remote host closed the connection)
+2018-11-28 13:58:40	maxice8[m]	A year ago I had it on exherbo musl lol
+2018-11-28 14:00:23	ninewise	Cool, then maybe it's time for me to go musl again
+2018-11-28 14:09:42	<--	ronin7z (~nathaniel@2001:980:5c8e:1:4e8b:e11e:b1ab:f978) has quit (Ping timeout: 250 seconds)
+2018-11-28 14:09:42	--	irc: disconnected from server
+2018-11-28 14:09:59	--	#voidlinux: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2018-11-28 17:27:11	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #voidlinux
+2018-11-28 17:27:11	--	Topic for #voidlinux is "The Void Linux distribution http://www.voidlinux.org || images: http://alpha.de.repo.voidlinux.org/live/current || Getting started: http://www.voidlinux.org/usage/xbps/ && http://www.voidlinux.org/usage/runit"
+2018-11-28 17:27:11	--	Topic set by maldridge on Tue, 13 Nov 2018 05:13:20
+2018-11-28 17:27:11	--	Channel #voidlinux: 250 nicks (0 ops, 0 voices, 250 normals)
+2018-11-28 17:27:13	--	Channel created on Thu, 23 Jul 2015 09:32:22
+2018-11-28 17:28:18	maxice8[m]	Sslasher: Yes it failed, otherwise this discussion wouldn't be happening
+2018-11-28 17:28:45	Sslasher	ok. and are you saying that ffmpeg-devel-32bit is probably actually incorrectly linked, too?
+2018-11-28 17:28:46	voidfan	Oh
+2018-11-28 17:28:58	Sslasher	if so i should probably disable that in what i'm compiling, for now
+2018-11-28 17:29:02	Sslasher	(wine staging)
+2018-11-28 17:29:09	<--	stateless (~sin@flux.fz.is) has quit (Quit: gone)
+2018-11-28 17:29:16	voidfan	➜  lib32 file libavcodec.so.58.35.100
+2018-11-28 17:29:16	voidfan	libavcodec.so.58.35.100: ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV), dynamically linked, BuildID[sha1]=c5f49622f177b3accb4a5857bd0fe08545ab26ff, stripped
+2018-11-28 17:29:52	voidfan	Forgot that we use lib32 for 32bit packages and not lib
+2018-11-28 17:29:55	-->	stateless (~sin@2001:8b0:ba6d:cdff:9076:59c5:eafb:5196) has joined #voidlinux
+2018-11-28 17:30:27	ronin7z	Sslasher: i made a write up about getting wine-staging 
+2018-11-28 17:30:35	ronin7z	you can use it with void-packages 
+2018-11-28 17:30:43	Sslasher	oh, i didn't know. where can i see this?
+2018-11-28 17:30:58	ronin7z	its not clean but it werks tm 
+2018-11-28 17:31:10	voidfan	Guys I need your help.
+2018-11-28 17:31:13	ronin7z	oh wait
+2018-11-28 17:31:15	ronin7z	the forum is down 
+2018-11-28 17:31:24	ronin7z	rip my post 
+2018-11-28 17:31:33	voidfan	Should I order pizza?
+2018-11-28 17:31:50	--	irc: disconnected from server
+2018-11-28 17:33:14	-->	ronin7z (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #voidlinux
+2018-11-28 17:33:14	--	Topic for #voidlinux is "The Void Linux distribution http://www.voidlinux.org || images: http://alpha.de.repo.voidlinux.org/live/current || Getting started: http://www.voidlinux.org/usage/xbps/ && http://www.voidlinux.org/usage/runit"
+2018-11-28 17:33:14	--	Topic set by maldridge on Tue, 13 Nov 2018 05:13:20
+2018-11-28 17:33:14	--	Channel #voidlinux: 249 nicks (0 ops, 0 voices, 249 normals)
+2018-11-28 17:33:17	--	Channel created on Thu, 23 Jul 2015 09:32:22
+2018-11-28 17:33:33	ronin7z	Sslasher: welp, the post is down but i can still help u if need be 
+2018-11-28 17:33:47	Sslasher	sorry just realized i wrote to you right after you disconnected
+2018-11-28 17:33:52	ronin7z	yee doesnt matter 
+2018-11-28 17:34:06	ronin7z	i will pastebin it and send it to you 
+2018-11-28 17:34:15	Sslasher	ok, sure, i can take a look
+2018-11-28 17:35:09	ronin7z	Sslasher: this should work - https://bpaste.net/show/184b6d90cc0e 
+2018-11-28 17:35:15	ronin7z	you can prolly skip the first 2 things 
+2018-11-28 17:35:16	nightmared	voidfan: sure thing ;)
+2018-11-28 17:36:20	Sslasher	oh is this a script to patch the source, then get xbps-src to build it for you?
+2018-11-28 17:36:33	ronin7z	Sslasher: yess 
+2018-11-28 17:36:35	voidfan	Also what PDF reader would you recommend?
+2018-11-28 17:36:36	Sslasher	i wasn't using xbps-src at all, just compiling directly
+2018-11-28 17:36:39	<--	jack_rabbit (~jack_rabb@2601:240:8201:74f0:537b:12f7:11c5:c486) has quit (Ping timeout: 264 seconds)
+2018-11-28 17:36:44	Sslasher	i felt that must be simpler, at first
+2018-11-28 17:36:53	Pestdoktor	voidfan: firefox :P
+2018-11-28 17:37:00	ronin7z	i mean might be, this is how i always do it. this is updated with the checksum fix btw - https://bpaste.net/show/9d1150b1b53d
+2018-11-28 17:37:18	ronin7z	its pretty simple actually 
+2018-11-28 17:38:02	-->	_0bitcount (~Big_Byte@90.162.105.206) has joined #voidlinux
+2018-11-28 17:38:16	nightmared	voidfan: evince (because I'm lazy)
+2018-11-28 17:38:30	nightmared	or the mate equivalent if you don't like CSD
+2018-11-28 17:38:34	Sslasher	ok, i saved all that, in case i need it
+2018-11-28 17:39:01	voidfan	nightmared: Thanks. I'll give that one a try
+2018-11-28 17:39:31	Sslasher	i feel like ghostview was good for viewing pdfs, a long time ago? don't know where it stands now
+2018-11-28 17:39:42	nightmared	evinve is "Document viewer", the gnome pdf reader
+2018-11-28 17:39:47	nightmared	evince*
+2018-11-28 17:40:29	voidfan	Well just because it's gnome doesn't mean that it's that bad ;)
+2018-11-28 17:40:32	nightmared	Sslasher: and mupdf was working fairly well on RPi1 too, doesn't mean it's the easiest to use/just works
+2018-11-28 17:41:18	ronin7z	i just use zathura + mupdf to read pdfs
+2018-11-28 17:41:20	ronin7z	 works pretty well 
+2018-11-28 17:41:41	nightmared	that wasn't what I was implying, it's just people dislike CSD (on wayland particularly :p), in which case its MATE alternative is the same software, minus the decoration bar
+2018-11-28 17:42:34	Sslasher	i didn't mean to argue, i haven't viewed a pdf on linux in ~15 years, but i mentioned ghostview in case it suits him
+2018-11-28 17:42:44	shizonic	@devs Any chance to get a nim build_style?
+2018-11-28 17:44:41	<--	Linux-BSD (~Linux-BSD@2605:6000:151d:a051:d1a5:bf4b:8d02:8dfd) has quit (Remote host closed the connection)
+2018-11-28 17:45:26	nightmared	Sslasher: yeah, excuse me if I looked aggressive, that's not what I meant, it was more ironic that anything else
+2018-11-28 17:46:52	nightmared	shizonic: I'm not a void devn but take a look at https://github.com/void-linux/void-packages/tree/master/common/build-style. If you're motivated, try adding your own in the repo, if you have packages requiring it
+2018-11-28 17:47:04	maxice8[m]	shizonic: make an issue
+2018-11-28 17:47:32	-->	jack_rabbit (~jack_rabb@192-241-55-66.ip.ctc.biz) has joined #voidlinux
+2018-11-28 17:48:57	shizonic	nightmared: Thanks!
+2018-11-28 17:49:01	shizonic	maxice8: Ok.
+2018-11-28 17:49:22	-->	kosyx (~kosyx@72.34.116.10) has joined #voidlinux
+2018-11-28 17:49:48	kosyx	someone around that can assist me with devmon and udevil? i get a mkdir failed error on /media
+2018-11-28 17:52:26	Sslasher	nightmared: hehe ok, np at all. sorry i stepped away a few minutes
+2018-11-28 17:52:52	voidfan	I'm desperately trying to squash my commits and I screw up every time.
+2018-11-28 17:53:45	nightmared	voidfan: "the joy of git" ;)
+2018-11-28 17:54:00	voidfan	nightmared: https://github.com/void-linux/void-packages/pull/5168
+2018-11-28 17:54:04	voidfan	@#$@#$@#$
+2018-11-28 17:54:19	nightmared	I really like to git rebase though ;) (except when I fail terribly :-p)
+2018-11-28 17:54:22	voidfan	I wanted less commits and not more ;p
+2018-11-28 17:54:27	Sslasher	speaking of git, i don't have a github account, is there another way to report the wrong dependencies in ffmpeg-devel-32bit?
+2018-11-28 17:54:40	maxice8[m]	voidfan:  git rebase upstream/master
+2018-11-28 17:55:13	maxice8[m]	Sslasher: There is #xbps but really using GItHub is the way
+2018-11-28 17:55:45	voidfan	Yes. I did that.
+2018-11-28 17:55:55	Sslasher	alright
+2018-11-28 17:56:02	Pestdoktor	rebase -i usually works well for me
+2018-11-28 17:59:26	kosyx	anyone here use udevil/devmon?
+2018-11-28 18:00:19	<--	Pestdoktor (~jf@ip4d15eda1.dynamic.kabel-deutschland.de) has quit (Quit: Leaving.)
+2018-11-28 18:00:37	-->	Pestdoktor (~jf@fentker.eu) has joined #voidlinux
+2018-11-28 18:00:41	-->	annadane (~annadane@mtrlpq5302w-lp130-03-70-24-210-92.dsl.bell.ca) has joined #voidlinux
+2018-11-28 18:04:07	-->	knusbaum (~jack_rabb@ec2-23-20-227-213.compute-1.amazonaws.com) has joined #voidlinux
+2018-11-28 18:04:16	kosyx	disregard my previous lol
+2018-11-28 18:05:22	<--	chinarulezz (~chinarule@gateway/tor-sasl/chinarulezzz) has quit (Ping timeout: 256 seconds)
+2018-11-28 18:06:41	<--	jack_rabbit (~jack_rabb@192-241-55-66.ip.ctc.biz) has quit (Ping timeout: 250 seconds)
+2018-11-28 18:10:10	Sslasher	ok, i reported on github. thanks everyone
+2018-11-28 18:10:41	<--	gspe (~gspe@dynamic-adsl-94-34-133-180.clienti.tiscali.it) has quit (Ping timeout: 246 seconds)
+2018-11-28 18:12:40	<--	n4dir (~n4dir@i577BC866.versanet.de) has quit (Quit: relax harder)
+2018-11-28 18:26:01	Sslasher	(i should say btw, i think void linux is great overall)
+2018-11-28 18:40:14	<--	porky11 (~porky11@p200300868A127FC3068D38FFFEA832A5.dip0.t-ipconnect.de) has quit (Ping timeout: 268 seconds)
+2018-11-28 18:41:23	<--	huglovefan (~huglovefa@neet.fi) has left #voidlinux
+2018-11-28 18:48:43	-->	Perkol (~Perkol@nat-minsk-pool-46-53-203-89.telecom.by) has joined #voidlinux
+2018-11-28 18:55:39	<--	kempe (~kempe@155.4.187.224) has quit (Ping timeout: 250 seconds)
+2018-11-28 18:57:41	-->	kempe (~kempe@155.4.187.224) has joined #voidlinux
+2018-11-28 19:01:44	-->	kyby64 (~kyby64@188.75.111.17) has joined #voidlinux
+2018-11-28 19:04:32	-->	Zapple (~zapple@c-73-66-168-93.hsd1.ca.comcast.net) has joined #voidlinux
+2018-11-28 19:07:02	-->	PackRat-2019 (~dd-rat@24-145-38-018-dhcp.aik.sc.atlanticbb.net) has joined #voidlinux
+2018-11-28 19:07:24	<--	PackRat-2019 (~dd-rat@24-145-38-018-dhcp.aik.sc.atlanticbb.net) has quit (Client Quit)
+2018-11-28 19:09:25	Zapple	Woah so many people online. I am considering migrating to void, I have a few concerns I haven't been able to get a concrete answer on, is this a proper place to ask?
+2018-11-28 19:10:02	maxice8[m]	Don't ask to ask, just ask
+2018-11-29 01:55:16	--	irc: disconnected from server
+2018-11-29 01:55:32	--	#voidlinux: Cannot join channel (+r) - you need to be identified with services - see https://freenode.net/kb/answer/registration
+2018-11-29 01:57:26	--	irc: disconnected from server

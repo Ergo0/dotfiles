@@ -101,3 +101,382 @@
 2018-11-14 10:16:29	--	You are now known as ergo7z
 2018-11-14 10:17:08	--	CTCP requested by Gatekeeper: VERSION
 2018-11-14 10:17:08	--	CTCP reply to Gatekeeper: VERSION WeeChat 1.9.1 (Nov  5 2018)
+2018-11-28 11:55:21	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-28 11:55:21	--	irc: connected to irc.scratch-network.net/6667 (137.74.113.50)
+2018-11-28 11:55:21	--	atum.scratch-network.net: *** Looking up your hostname...
+2018-11-28 11:55:21	--	atum.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-28 11:55:22	--	atum.scratch-network.net: Welcome to Scratch-Network!
+2018-11-28 11:55:22	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-28 11:55:22	--	Your host is atum.scratch-network.net, running version InspIRCd-2.0
+2018-11-28 11:55:22	--	This server was created 02:38:10 Feb 28 2017
+2018-11-28 11:55:22	--	atum.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-28 11:55:22	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-28 11:55:22	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-28 11:55:22	--	SECURELIST SILENCE=32 SSL=137.74.113.50:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-28 11:55:22	--	728AAVEJW :your unique ID
+2018-11-28 11:55:22	--	atum.scratch-network.net message of the day
+2018-11-28 11:55:22	--	End of message of the day.
+2018-11-28 11:55:22	--	There are 897 users and 583 invisible on 8 servers
+2018-11-28 11:55:22	--	11 :operator(s) online
+2018-11-28 11:55:22	--	484 :channels formed
+2018-11-28 11:55:22	--	I have 293 clients and 2 servers
+2018-11-28 11:55:22	--	Current Local Users: 293  Max: 318
+2018-11-28 11:55:22	--	Current Global Users: 1480  Max: 1527
+2018-11-28 11:55:22	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-28 11:55:22	--	User mode [+x] by Ergo
+2018-11-28 12:22:22	--	irc: disconnected from server
+2018-11-28 12:26:30	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-28 12:26:30	--	irc: connected to irc.scratch-network.net/6667 (144.217.89.85)
+2018-11-28 12:26:30	--	thoth.scratch-network.net: *** Looking up your hostname...
+2018-11-28 12:26:31	--	thoth.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-28 12:26:31	--	thoth.scratch-network.net: Welcome to Scratch-Network!
+2018-11-28 12:26:31	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-28 12:26:31	--	Your host is thoth.scratch-network.net, running version InspIRCd-2.0
+2018-11-28 12:26:31	--	This server was created 20:38:05 Feb 27 2017
+2018-11-28 12:26:31	--	thoth.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-28 12:26:31	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-28 12:26:31	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-28 12:26:31	--	SECURELIST SILENCE=32 SSL=144.217.89.85:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-28 12:26:31	--	496AAVGAN :your unique ID
+2018-11-28 12:26:31	--	thoth.scratch-network.net message of the day
+2018-11-28 12:26:31	--	End of message of the day.
+2018-11-28 12:26:31	--	There are 897 users and 582 invisible on 8 servers
+2018-11-28 12:26:31	--	11 :operator(s) online
+2018-11-28 12:26:31	--	483 :channels formed
+2018-11-28 12:26:31	--	I have 288 clients and 1 servers
+2018-11-28 12:26:31	--	Current Local Users: 288  Max: 294
+2018-11-28 12:26:31	--	Current Global Users: 1479  Max: 1527
+2018-11-28 12:26:31	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-28 12:26:31	--	User mode [+x] by Ergo
+2018-11-28 17:31:50	--	irc: disconnected from server
+2018-11-28 17:32:27	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-28 17:32:27	--	irc: connected to irc.scratch-network.net/6667 (79.137.39.214)
+2018-11-28 17:32:27	--	victoria.scratch-network.net: *** Looking up your hostname...
+2018-11-28 17:32:28	--	victoria.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-28 17:32:29	--	victoria.scratch-network.net: Welcome to Scratch-Network!
+2018-11-28 17:32:29	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-28 17:32:29	--	Your host is victoria.scratch-network.net, running version InspIRCd-2.0
+2018-11-28 17:32:29	--	This server was created 00:32:02 Aug 28 2017
+2018-11-28 17:32:29	--	victoria.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-28 17:32:29	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-28 17:32:29	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-28 17:32:29	--	SECURELIST SILENCE=32 SSL=79.137.39.214:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-28 17:32:29	--	590AFODSA :your unique ID
+2018-11-28 17:32:29	--	victoria.scratch-network.net message of the day
+2018-11-28 17:32:29	--	End of message of the day.
+2018-11-28 17:32:29	--	There are 903 users and 588 invisible on 8 servers
+2018-11-28 17:32:29	--	11 :operator(s) online
+2018-11-28 17:32:29	--	481 :channels formed
+2018-11-28 17:32:29	--	I have 467 clients and 1 servers
+2018-11-28 17:32:29	--	Current Local Users: 467  Max: 722
+2018-11-28 17:32:29	--	Current Global Users: 1491  Max: 1620
+2018-11-28 17:32:29	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-28 17:32:29	--	User mode [+x] by Ergo
+2018-11-29 01:55:19	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2018-11-29 01:55:19	--	irc: disconnecting from server...
+2018-11-29 01:55:19	--	irc: disconnected from server
+2018-11-29 01:55:19	--	irc: reconnecting to server in 10 seconds
+2018-11-29 01:55:29	--	irc: reconnecting to server...
+2018-11-29 01:55:29	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-11-29 01:55:29	--	irc: connected to irc.scratch-network.net/6667 (144.217.164.77)
+2018-11-29 01:55:29	--	kratos.scratch-network.net: *** Looking up your hostname...
+2018-11-29 01:55:30	--	kratos.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-11-29 01:55:31	--	kratos.scratch-network.net: Welcome to Scratch-Network!
+2018-11-29 01:55:31	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-11-29 01:55:31	--	Your host is kratos.scratch-network.net, running version InspIRCd-2.0
+2018-11-29 01:55:31	--	This server was created 18:32:23 Aug 27 2017
+2018-11-29 01:55:31	--	kratos.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-11-29 01:55:31	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-11-29 01:55:31	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-11-29 01:55:31	--	SECURELIST SILENCE=32 SSL=144.217.164.77:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-11-29 01:55:31	--	397AFGA5O :your unique ID
+2018-11-29 01:55:31	--	kratos.scratch-network.net message of the day
+2018-11-29 01:55:31	--	End of message of the day.
+2018-11-29 01:55:31	--	There are 894 users and 586 invisible on 8 servers
+2018-11-29 01:55:31	--	11 :operator(s) online
+2018-11-29 01:55:31	--	483 :channels formed
+2018-11-29 01:55:31	--	I have 407 clients and 1 servers
+2018-11-29 01:55:31	--	Current Local Users: 407  Max: 824
+2018-11-29 01:55:31	--	Current Global Users: 1480  Max: 1620
+2018-11-29 01:55:31	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-11-29 01:55:31	--	User mode [+x] by Ergo
+2018-11-29 01:57:26	--	irc: disconnected from server
+2018-12-02 23:04:17	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-02 23:04:18	--	irc: connected to irc.scratch-network.net/6667 (137.74.113.50)
+2018-12-02 23:04:18	--	atum.scratch-network.net: *** Looking up your hostname...
+2018-12-02 23:04:18	--	atum.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-02 23:04:19	--	atum.scratch-network.net: Welcome to Scratch-Network!
+2018-12-02 23:04:19	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-02 23:04:19	--	Your host is atum.scratch-network.net, running version InspIRCd-2.0
+2018-12-02 23:04:19	--	This server was created 02:38:10 Feb 28 2017
+2018-12-02 23:04:19	--	atum.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-02 23:04:19	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-02 23:04:19	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-02 23:04:19	--	SECURELIST SILENCE=32 SSL=137.74.113.50:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-02 23:04:19	--	728AAYMR2 :your unique ID
+2018-12-02 23:04:19	--	atum.scratch-network.net message of the day
+2018-12-02 23:04:19	--	End of message of the day.
+2018-12-02 23:04:19	--	There are 927 users and 584 invisible on 8 servers
+2018-12-02 23:04:19	--	11 :operator(s) online
+2018-12-02 23:04:19	--	487 :channels formed
+2018-12-02 23:04:19	--	I have 288 clients and 2 servers
+2018-12-02 23:04:19	--	Current Local Users: 288  Max: 318
+2018-12-02 23:04:19	--	Current Global Users: 1511  Max: 1529
+2018-12-02 23:04:19	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-02 23:04:19	--	User mode [+x] by Ergo
+2018-12-03 03:03:13	--	irc: disconnected from server
+2018-12-03 13:54:50	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 13:54:50	--	irc: connected to irc.scratch-network.net/6667 (144.217.164.77)
+2018-12-03 13:54:50	--	kratos.scratch-network.net: *** Looking up your hostname...
+2018-12-03 13:54:51	--	kratos.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-03 13:54:51	--	kratos.scratch-network.net: Welcome to Scratch-Network!
+2018-12-03 13:54:51	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-03 13:54:51	--	Your host is kratos.scratch-network.net, running version InspIRCd-2.0
+2018-12-03 13:54:51	--	This server was created 18:32:23 Aug 27 2017
+2018-12-03 13:54:51	--	kratos.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-03 13:54:51	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-03 13:54:51	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-03 13:54:51	--	SECURELIST SILENCE=32 SSL=144.217.164.77:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-03 13:54:51	--	397AFJJ59 :your unique ID
+2018-12-03 13:54:51	--	kratos.scratch-network.net message of the day
+2018-12-03 13:54:51	--	End of message of the day.
+2018-12-03 13:54:51	--	There are 910 users and 572 invisible on 8 servers
+2018-12-03 13:54:51	--	11 :operator(s) online
+2018-12-03 13:54:51	--	483 :channels formed
+2018-12-03 13:54:51	--	I have 432 clients and 1 servers
+2018-12-03 13:54:51	--	Current Local Users: 432  Max: 824
+2018-12-03 13:54:51	--	Current Global Users: 1482  Max: 1620
+2018-12-03 13:54:51	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-03 13:54:51	--	User mode [+x] by Ergo
+2018-12-03 13:54:57	--	You are now known as ergo7z
+2018-12-03 14:00:51	--	irc: lag is high, reconnecting to server scratch
+2018-12-03 14:00:51	--	irc: disconnected from server
+2018-12-03 14:00:51	--	irc: reconnecting to server in 10 seconds
+2018-12-03 14:01:01	--	irc: reconnecting to server...
+2018-12-03 14:01:01	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 14:01:41	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-03 14:01:41	=!=	irc: error: Temporary failure in name resolution
+2018-12-03 14:01:41	--	irc: reconnecting to server in 20 seconds
+2018-12-03 14:02:01	--	irc: reconnecting to server...
+2018-12-03 14:02:01	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 14:02:41	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-03 14:02:41	=!=	irc: error: Temporary failure in name resolution
+2018-12-03 14:02:41	--	irc: reconnecting to server in 40 seconds
+2018-12-03 14:03:21	--	irc: reconnecting to server...
+2018-12-03 14:03:21	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 14:04:01	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-03 14:04:01	=!=	irc: error: Temporary failure in name resolution
+2018-12-03 14:04:01	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-03 14:05:21	--	irc: reconnecting to server...
+2018-12-03 14:05:21	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 14:05:31	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-03 14:05:31	=!=	irc: error: Temporary failure in name resolution
+2018-12-03 14:05:31	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-03 14:07:16	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 14:07:16	--	irc: connected to irc.scratch-network.net/6667 (79.137.39.214)
+2018-12-03 14:07:16	--	victoria.scratch-network.net: *** Looking up your hostname...
+2018-12-03 14:07:17	--	victoria.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-03 14:07:17	--	victoria.scratch-network.net: Welcome to Scratch-Network!
+2018-12-03 14:07:17	--	Welcome to the Scratch-Network IRC Network ergo7z!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-03 14:07:17	--	Your host is victoria.scratch-network.net, running version InspIRCd-2.0
+2018-12-03 14:07:17	--	This server was created 00:32:02 Aug 28 2017
+2018-12-03 14:07:17	--	victoria.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-03 14:07:17	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-03 14:07:17	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-03 14:07:17	--	SECURELIST SILENCE=32 SSL=79.137.39.214:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-03 14:07:17	--	590AFR1XT :your unique ID
+2018-12-03 14:07:17	--	victoria.scratch-network.net message of the day
+2018-12-03 14:07:17	--	End of message of the day.
+2018-12-03 14:07:17	--	There are 910 users and 572 invisible on 8 servers
+2018-12-03 14:07:17	--	11 :operator(s) online
+2018-12-03 14:07:17	--	1 :unknown connections
+2018-12-03 14:07:17	--	483 :channels formed
+2018-12-03 14:07:17	--	I have 434 clients and 1 servers
+2018-12-03 14:07:17	--	Current Local Users: 434  Max: 722
+2018-12-03 14:07:17	--	Current Global Users: 1482  Max: 1620
+2018-12-03 14:07:17	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-03 14:07:17	--	User mode [+x] by ergo7z
+2018-12-03 14:07:28	--	CTCP requested by Gatekeeper: VERSION
+2018-12-03 14:07:28	--	CTCP reply to Gatekeeper: VERSION WeeChat 2.3 (Oct 22 2018 08:00:17)
+2018-12-03 14:11:42	--	irc: disconnected from server
+2018-12-03 14:18:42	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 14:18:42	--	irc: connected to irc.scratch-network.net/6667 (137.74.113.50)
+2018-12-03 14:18:42	--	atum.scratch-network.net: *** Looking up your hostname...
+2018-12-03 14:18:42	--	atum.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-03 14:18:42	--	atum.scratch-network.net: Welcome to Scratch-Network!
+2018-12-03 14:18:42	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-03 14:18:42	--	Your host is atum.scratch-network.net, running version InspIRCd-2.0
+2018-12-03 14:18:42	--	This server was created 02:38:10 Feb 28 2017
+2018-12-03 14:18:42	--	atum.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-03 14:18:42	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-03 14:18:42	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-03 14:18:42	--	SECURELIST SILENCE=32 SSL=137.74.113.50:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-03 14:18:42	--	728AAY4PB :your unique ID
+2018-12-03 14:18:42	--	atum.scratch-network.net message of the day
+2018-12-03 14:18:42	--	End of message of the day.
+2018-12-03 14:18:42	--	There are 909 users and 573 invisible on 8 servers
+2018-12-03 14:18:42	--	11 :operator(s) online
+2018-12-03 14:18:42	--	483 :channels formed
+2018-12-03 14:18:42	--	I have 289 clients and 2 servers
+2018-12-03 14:18:42	--	Current Local Users: 289  Max: 318
+2018-12-03 14:18:42	--	Current Global Users: 1482  Max: 1529
+2018-12-03 14:18:42	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-03 14:18:42	--	User mode [+x] by Ergo
+2018-12-03 14:18:46	--	You are now known as ronin7z
+2018-12-03 14:20:01	--	CTCP requested by Gatekeeper: VERSION
+2018-12-03 14:20:01	--	CTCP reply to Gatekeeper: VERSION WeeChat 2.3 (Oct 22 2018 08:00:17)
+2018-12-03 21:00:22	--	irc: disconnected from server
+2018-12-03 21:03:07	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-03 21:03:07	--	irc: connected to irc.scratch-network.net/6667 (137.74.113.50)
+2018-12-03 21:03:07	--	atum.scratch-network.net: *** Looking up your hostname...
+2018-12-03 21:03:08	--	atum.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-03 21:03:08	--	atum.scratch-network.net: Welcome to Scratch-Network!
+2018-12-03 21:03:08	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-03 21:03:08	--	Your host is atum.scratch-network.net, running version InspIRCd-2.0
+2018-12-03 21:03:08	--	This server was created 02:38:10 Feb 28 2017
+2018-12-03 21:03:08	--	atum.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-03 21:03:08	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-03 21:03:08	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-03 21:03:08	--	SECURELIST SILENCE=32 SSL=137.74.113.50:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-03 21:03:08	--	728AAZCO9 :your unique ID
+2018-12-03 21:03:08	--	atum.scratch-network.net message of the day
+2018-12-03 21:03:08	--	End of message of the day.
+2018-12-03 21:03:08	--	There are 935 users and 581 invisible on 8 servers
+2018-12-03 21:03:08	--	11 :operator(s) online
+2018-12-03 21:03:08	--	482 :channels formed
+2018-12-03 21:03:08	--	I have 304 clients and 2 servers
+2018-12-03 21:03:08	--	Current Local Users: 304  Max: 318
+2018-12-03 21:03:08	--	Current Global Users: 1516  Max: 1529
+2018-12-03 21:03:08	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-03 21:03:08	--	User mode [+x] by Ergo
+2018-12-04 11:22:52	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2018-12-04 11:22:52	--	irc: disconnecting from server...
+2018-12-04 11:22:52	--	irc: disconnected from server
+2018-12-04 11:22:52	--	irc: reconnecting to server in 10 seconds
+2018-12-04 11:23:02	--	irc: reconnecting to server...
+2018-12-04 11:23:02	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-04 11:23:02	--	irc: connected to irc.scratch-network.net/6667 (144.217.164.77)
+2018-12-04 11:23:02	--	kratos.scratch-network.net: *** Looking up your hostname...
+2018-12-04 11:23:03	--	kratos.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-04 11:23:04	--	kratos.scratch-network.net: Welcome to Scratch-Network!
+2018-12-04 11:23:04	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-04 11:23:04	--	Your host is kratos.scratch-network.net, running version InspIRCd-2.0
+2018-12-04 11:23:04	--	This server was created 18:32:23 Aug 27 2017
+2018-12-04 11:23:04	--	kratos.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-04 11:23:04	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-04 11:23:04	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-04 11:23:04	--	SECURELIST SILENCE=32 SSL=144.217.164.77:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-04 11:23:04	--	397AFJ8Z3 :your unique ID
+2018-12-04 11:23:04	--	kratos.scratch-network.net message of the day
+2018-12-04 11:23:04	--	End of message of the day.
+2018-12-04 11:23:04	--	There are 909 users and 575 invisible on 8 servers
+2018-12-04 11:23:04	--	11 :operator(s) online
+2018-12-04 11:23:04	--	479 :channels formed
+2018-12-04 11:23:04	--	I have 435 clients and 1 servers
+2018-12-04 11:23:04	--	Current Local Users: 435  Max: 824
+2018-12-04 11:23:04	--	Current Global Users: 1484  Max: 1620
+2018-12-04 11:23:04	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-04 11:23:04	--	User mode [+x] by Ergo
+2018-12-04 11:59:53	--	irc: disconnected from server
+2018-12-06 05:02:36	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 05:02:36	--	irc: connected to irc.scratch-network.net/6667 (79.137.39.214)
+2018-12-06 05:02:36	--	victoria.scratch-network.net: *** Looking up your hostname...
+2018-12-06 05:02:36	--	victoria.scratch-network.net: *** Found your hostname (82-161-43-23.ip.xs4all.nl)
+2018-12-06 05:02:37	--	victoria.scratch-network.net: Welcome to Scratch-Network!
+2018-12-06 05:02:37	--	Welcome to the Scratch-Network IRC Network Ergo!nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-06 05:02:37	--	Your host is victoria.scratch-network.net, running version InspIRCd-2.0
+2018-12-06 05:02:37	--	This server was created 00:32:02 Aug 28 2017
+2018-12-06 05:02:37	--	victoria.scratch-network.net InspIRCd-2.0 BHILRSWcdgikorswx CDFIJLMNOPQRSTXYabcdefhijklmnopqrstuvwz FIJLXYabdefhjkloqvw
+2018-12-06 05:02:37	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXbew,k,FJLdfjl,CDMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,CNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2018-12-06 05:02:37	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=120 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Scratch-Network NICKLEN=31 OPERLOG PREFIX=(Yqaohv)!~&@%+ REMOVE :are supported by this server
+2018-12-06 05:02:37	--	SECURELIST SILENCE=32 SSL=79.137.39.214:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-12-06 05:02:37	--	590AFUHK2 :your unique ID
+2018-12-06 05:02:37	--	victoria.scratch-network.net message of the day
+2018-12-06 05:02:37	--	End of message of the day.
+2018-12-06 05:02:37	--	There are 915 users and 565 invisible on 8 servers
+2018-12-06 05:02:37	--	11 :operator(s) online
+2018-12-06 05:02:37	--	487 :channels formed
+2018-12-06 05:02:37	--	I have 465 clients and 1 servers
+2018-12-06 05:02:37	--	Current Local Users: 465  Max: 722
+2018-12-06 05:02:37	--	Current Global Users: 1480  Max: 1620
+2018-12-06 05:02:37	--	red-kb0.4u9.76kgig.IP :is now your displayed host
+2018-12-06 05:02:37	--	User mode [+x] by Ergo
+2018-12-06 05:59:54	--	irc: lag is high, reconnecting to server scratch
+2018-12-06 05:59:54	--	irc: disconnected from server
+2018-12-06 05:59:54	--	irc: reconnecting to server in 10 seconds
+2018-12-06 06:00:04	--	irc: reconnecting to server...
+2018-12-06 06:00:04	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:00:04	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:00:04	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:00:04	--	irc: reconnecting to server in 20 seconds
+2018-12-06 06:00:24	--	irc: reconnecting to server...
+2018-12-06 06:00:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:00:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:00:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:00:24	--	irc: reconnecting to server in 40 seconds
+2018-12-06 06:01:04	--	irc: reconnecting to server...
+2018-12-06 06:01:04	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:01:04	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:01:04	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:01:04	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-06 06:02:24	--	irc: reconnecting to server...
+2018-12-06 06:02:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:02:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:02:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:02:24	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-06 06:05:04	--	irc: reconnecting to server...
+2018-12-06 06:05:04	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:05:04	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:05:04	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:05:04	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2018-12-06 06:10:24	--	irc: reconnecting to server...
+2018-12-06 06:10:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:10:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:10:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:10:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 06:20:24	--	irc: reconnecting to server...
+2018-12-06 06:20:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:20:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:20:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:20:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 06:30:24	--	irc: reconnecting to server...
+2018-12-06 06:30:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:30:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:30:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:30:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 06:40:24	--	irc: reconnecting to server...
+2018-12-06 06:40:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:40:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:40:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:40:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 06:50:24	--	irc: reconnecting to server...
+2018-12-06 06:50:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 06:50:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 06:50:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 06:50:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 07:00:24	--	irc: reconnecting to server...
+2018-12-06 07:00:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 07:00:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 07:00:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 07:00:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 07:10:24	--	irc: reconnecting to server...
+2018-12-06 07:10:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 07:10:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 07:10:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 07:10:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 07:20:24	--	irc: reconnecting to server...
+2018-12-06 07:20:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 07:20:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 07:20:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 07:20:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 07:30:24	--	irc: reconnecting to server...
+2018-12-06 07:30:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 07:30:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 07:30:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 07:30:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 07:40:24	--	irc: reconnecting to server...
+2018-12-06 07:40:24	--	irc: connecting to server irc.scratch-network.net/6667...
+2018-12-06 07:40:24	=!=	irc: address "irc.scratch-network.net" not found
+2018-12-06 07:40:24	=!=	irc: error: Temporary failure in name resolution
+2018-12-06 07:40:24	--	irc: reconnecting to server in 10 minutes
+2018-12-06 07:50:12	--	irc: disconnected from server

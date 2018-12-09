@@ -20,5 +20,7 @@ Plug 'junegunn/vim-easy-align'
 
 Plug 'suan/vim-instant-markdown'
 
+Plug 'chrisbra/Colorizer'
+
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
 call plug#end()
