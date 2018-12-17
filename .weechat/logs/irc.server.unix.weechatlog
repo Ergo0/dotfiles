@@ -141,3 +141,585 @@
 2018-11-13 01:02:23	--	irc: connecting to server unix.chat/6667 (SSL)...
 2018-11-13 01:03:23	=!=	irc: timeout
 2018-11-13 01:03:23	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-12 01:40:56	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 01:40:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-12 01:40:56	--	gnutls: receiving 2 certificates
+2018-12-12 01:40:56	--	 - certificate[1] info:
+2018-12-12 01:40:56	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-12 01:40:56	--	 - certificate[2] info:
+2018-12-12 01:40:56	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-12 01:40:56	--	gnutls: peer's certificate is trusted
+2018-12-12 01:40:56	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-12 01:40:56	--	unix.chat: *** Looking up your hostname...
+2018-12-12 01:40:56	--	unix.chat: *** Checking ident...
+2018-12-12 01:40:56	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-12 01:40:56	--	unix.chat: *** Found your hostname
+2018-12-12 01:40:56	--	CTCP requested by IRC: VERSION
+2018-12-12 01:40:56	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-12 01:40:56	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-12 01:40:56	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-12 01:40:56	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-12 01:40:56	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-12 01:40:56	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-12 01:40:56	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-12 01:40:56	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-12 01:40:56	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-12 01:40:56	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-12 01:40:56	--	There are 1 users and 83 invisible on 2 servers
+2018-12-12 01:40:56	--	10 :operator(s) online
+2018-12-12 01:40:56	--	10 :channels formed
+2018-12-12 01:40:56	--	I have 76 clients and 1 servers
+2018-12-12 01:40:56	--	76 89 :Current local users 76, max 89
+2018-12-12 01:40:56	--	84 97 :Current global users 84, max 97
+2018-12-12 01:40:56	--	- unix.chat Message of the Day -
+2018-12-12 01:40:56	--	- 1/5/2017 12:48
+2018-12-12 01:40:56	--	- welcome to
+2018-12-12 01:40:56	--	-              _            _           _
+2018-12-12 01:40:56	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-12 01:40:56	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-12 01:40:56	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-12 01:40:56	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-12 01:40:56	--	-
+2018-12-12 01:40:56	--	- this server is SSL only on port 6697
+2018-12-12 01:40:56	--	-
+2018-12-12 01:40:56	--	- rules:
+2018-12-12 01:40:56	--	-
+2018-12-12 01:40:56	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-12 01:40:56	--	-  * no harassment, threats, or impersonation of other users
+2018-12-12 01:40:56	--	-
+2018-12-12 01:40:56	--	- we reserve the right to deny service to
+2018-12-12 01:40:56	--	- anyone at any time for any reason
+2018-12-12 01:40:56	--	End of /MOTD command.
+2018-12-12 01:40:56	--	User mode [+iwxz] by Ergo
+2018-12-12 02:12:30	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 02:12:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-12 02:12:30	--	gnutls: receiving 2 certificates
+2018-12-12 02:12:30	--	 - certificate[1] info:
+2018-12-12 02:12:30	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-12 02:12:30	--	 - certificate[2] info:
+2018-12-12 02:12:30	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-12 02:12:30	--	gnutls: peer's certificate is trusted
+2018-12-12 02:12:30	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-12 02:12:30	--	unix.chat: *** Looking up your hostname...
+2018-12-12 02:12:30	--	unix.chat: *** Checking ident...
+2018-12-12 02:12:30	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-12 02:12:30	--	unix.chat: *** Found your hostname
+2018-12-12 02:12:30	--	CTCP requested by IRC: VERSION
+2018-12-12 02:12:30	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-12 02:12:30	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-12 02:12:30	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-12 02:12:30	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-12 02:12:30	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-12 02:12:30	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-12 02:12:30	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-12 02:12:30	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-12 02:12:30	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-12 02:12:30	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-12 02:12:30	--	There are 1 users and 83 invisible on 2 servers
+2018-12-12 02:12:30	--	10 :operator(s) online
+2018-12-12 02:12:30	--	10 :channels formed
+2018-12-12 02:12:30	--	I have 76 clients and 1 servers
+2018-12-12 02:12:30	--	76 89 :Current local users 76, max 89
+2018-12-12 02:12:30	--	84 97 :Current global users 84, max 97
+2018-12-12 02:12:30	--	- unix.chat Message of the Day -
+2018-12-12 02:12:30	--	- 1/5/2017 12:48
+2018-12-12 02:12:30	--	- welcome to
+2018-12-12 02:12:30	--	-              _            _           _
+2018-12-12 02:12:30	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-12 02:12:30	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-12 02:12:30	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-12 02:12:30	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-12 02:12:30	--	-
+2018-12-12 02:12:30	--	- this server is SSL only on port 6697
+2018-12-12 02:12:30	--	-
+2018-12-12 02:12:30	--	- rules:
+2018-12-12 02:12:30	--	-
+2018-12-12 02:12:30	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-12 02:12:30	--	-  * no harassment, threats, or impersonation of other users
+2018-12-12 02:12:30	--	-
+2018-12-12 02:12:30	--	- we reserve the right to deny service to
+2018-12-12 02:12:30	--	- anyone at any time for any reason
+2018-12-12 02:12:30	--	End of /MOTD command.
+2018-12-12 02:12:30	--	User mode [+iwxz] by Ergo
+2018-12-12 10:20:58	--	irc: lag is high, reconnecting to server unix
+2018-12-12 10:20:58	--	irc: disconnected from server
+2018-12-12 10:20:58	--	irc: reconnecting to server in 10 seconds
+2018-12-12 10:21:08	--	irc: reconnecting to server...
+2018-12-12 10:21:08	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 10:21:48	=!=	irc: address "unix.chat" not found
+2018-12-12 10:21:48	=!=	irc: error: Temporary failure in name resolution
+2018-12-12 10:21:48	--	irc: reconnecting to server in 20 seconds
+2018-12-12 10:22:08	--	irc: reconnecting to server...
+2018-12-12 10:22:08	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 10:22:48	=!=	irc: address "unix.chat" not found
+2018-12-12 10:22:48	=!=	irc: error: Temporary failure in name resolution
+2018-12-12 10:22:48	--	irc: reconnecting to server in 40 seconds
+2018-12-12 10:23:28	--	irc: reconnecting to server...
+2018-12-12 10:23:28	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 10:24:08	=!=	irc: address "unix.chat" not found
+2018-12-12 10:24:08	=!=	irc: error: Temporary failure in name resolution
+2018-12-12 10:24:08	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-12 10:25:28	--	irc: reconnecting to server...
+2018-12-12 10:25:28	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 10:26:08	=!=	irc: address "unix.chat" not found
+2018-12-12 10:26:08	=!=	irc: error: Temporary failure in name resolution
+2018-12-12 10:26:08	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-12 10:28:48	--	irc: reconnecting to server...
+2018-12-12 10:28:48	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 10:28:48	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-12 10:28:48	--	gnutls: receiving 2 certificates
+2018-12-12 10:28:48	--	 - certificate[1] info:
+2018-12-12 10:28:48	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-12 10:28:48	--	 - certificate[2] info:
+2018-12-12 10:28:48	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-12 10:28:48	--	gnutls: peer's certificate is trusted
+2018-12-12 10:28:48	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-12 10:28:48	--	unix.chat: *** Looking up your hostname...
+2018-12-12 10:28:48	--	unix.chat: *** Checking ident...
+2018-12-12 10:28:48	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-12 10:28:48	--	unix.chat: *** Found your hostname
+2018-12-12 10:28:48	--	CTCP requested by IRC: VERSION
+2018-12-12 10:28:48	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-12 10:28:48	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-12 10:28:48	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-12 10:28:48	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-12 10:28:48	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-12 10:28:48	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-12 10:28:48	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-12 10:28:48	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-12 10:28:48	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-12 10:28:48	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-12 10:28:48	--	There are 1 users and 83 invisible on 2 servers
+2018-12-12 10:28:48	--	10 :operator(s) online
+2018-12-12 10:28:48	--	10 :channels formed
+2018-12-12 10:28:48	--	I have 76 clients and 1 servers
+2018-12-12 10:28:48	--	76 89 :Current local users 76, max 89
+2018-12-12 10:28:48	--	84 97 :Current global users 84, max 97
+2018-12-12 10:28:48	--	- unix.chat Message of the Day -
+2018-12-12 10:28:48	--	- 1/5/2017 12:48
+2018-12-12 10:28:48	--	- welcome to
+2018-12-12 10:28:48	--	-              _            _           _
+2018-12-12 10:28:48	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-12 10:28:48	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-12 10:28:48	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-12 10:28:48	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-12 10:28:48	--	-
+2018-12-12 10:28:48	--	- this server is SSL only on port 6697
+2018-12-12 10:28:48	--	-
+2018-12-12 10:28:48	--	- rules:
+2018-12-12 10:28:48	--	-
+2018-12-12 10:28:48	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-12 10:28:48	--	-  * no harassment, threats, or impersonation of other users
+2018-12-12 10:28:48	--	-
+2018-12-12 10:28:48	--	- we reserve the right to deny service to
+2018-12-12 10:28:48	--	- anyone at any time for any reason
+2018-12-12 10:28:48	--	End of /MOTD command.
+2018-12-12 10:28:48	--	User mode [+iwxz] by Ergo
+2018-12-12 15:52:11	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 15:52:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-12 15:52:11	--	gnutls: receiving 2 certificates
+2018-12-12 15:52:11	--	 - certificate[1] info:
+2018-12-12 15:52:11	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-12 15:52:11	--	 - certificate[2] info:
+2018-12-12 15:52:11	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-12 15:52:11	--	gnutls: peer's certificate is trusted
+2018-12-12 15:52:11	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-12 15:52:11	--	unix.chat: *** Looking up your hostname...
+2018-12-12 15:52:11	--	unix.chat: *** Checking ident...
+2018-12-12 15:52:11	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-12 15:52:11	--	unix.chat: *** Found your hostname
+2018-12-12 15:52:11	--	CTCP requested by IRC: VERSION
+2018-12-12 15:52:11	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-12 15:52:11	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-12 15:52:11	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-12 15:52:11	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-12 15:52:11	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-12 15:52:11	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-12 15:52:11	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-12 15:52:11	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-12 15:52:11	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-12 15:52:11	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-12 15:52:11	--	There are 1 users and 82 invisible on 2 servers
+2018-12-12 15:52:11	--	10 :operator(s) online
+2018-12-12 15:52:11	--	10 :channels formed
+2018-12-12 15:52:11	--	I have 75 clients and 1 servers
+2018-12-12 15:52:11	--	75 89 :Current local users 75, max 89
+2018-12-12 15:52:11	--	83 97 :Current global users 83, max 97
+2018-12-12 15:52:11	--	- unix.chat Message of the Day -
+2018-12-12 15:52:11	--	- 1/5/2017 12:48
+2018-12-12 15:52:11	--	- welcome to
+2018-12-12 15:52:11	--	-              _            _           _
+2018-12-12 15:52:11	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-12 15:52:11	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-12 15:52:11	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-12 15:52:11	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-12 15:52:11	--	-
+2018-12-12 15:52:11	--	- this server is SSL only on port 6697
+2018-12-12 15:52:11	--	-
+2018-12-12 15:52:11	--	- rules:
+2018-12-12 15:52:11	--	-
+2018-12-12 15:52:11	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-12 15:52:11	--	-  * no harassment, threats, or impersonation of other users
+2018-12-12 15:52:11	--	-
+2018-12-12 15:52:11	--	- we reserve the right to deny service to
+2018-12-12 15:52:11	--	- anyone at any time for any reason
+2018-12-12 15:52:11	--	End of /MOTD command.
+2018-12-12 15:52:11	--	User mode [+iwxz] by Ergo
+2018-12-12 16:36:12	--	irc: lag is high, reconnecting to server unix
+2018-12-12 16:36:12	--	irc: disconnected from server
+2018-12-12 16:36:12	--	irc: reconnecting to server in 10 seconds
+2018-12-12 16:36:22	--	irc: reconnecting to server...
+2018-12-12 16:36:22	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-12 16:36:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-12 16:36:38	--	gnutls: receiving 2 certificates
+2018-12-12 16:36:38	--	 - certificate[1] info:
+2018-12-12 16:36:38	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-12 16:36:38	--	 - certificate[2] info:
+2018-12-12 16:36:38	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-12 16:36:38	--	gnutls: peer's certificate is trusted
+2018-12-12 16:36:38	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-12 16:36:38	--	unix.chat: *** Looking up your hostname...
+2018-12-12 16:36:38	--	unix.chat: *** Checking ident...
+2018-12-12 16:36:38	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-12 16:36:38	--	unix.chat: *** Found your hostname
+2018-12-12 16:36:38	--	CTCP requested by IRC: VERSION
+2018-12-12 16:36:38	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-12 16:36:38	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-12 16:36:38	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-12 16:36:38	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-12 16:36:38	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-12 16:36:38	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-12 16:36:38	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-12 16:36:38	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-12 16:36:38	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-12 16:36:38	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-12 16:36:38	--	There are 1 users and 83 invisible on 2 servers
+2018-12-12 16:36:38	--	10 :operator(s) online
+2018-12-12 16:36:38	--	10 :channels formed
+2018-12-12 16:36:38	--	I have 76 clients and 1 servers
+2018-12-12 16:36:38	--	76 89 :Current local users 76, max 89
+2018-12-12 16:36:38	--	84 97 :Current global users 84, max 97
+2018-12-12 16:36:38	--	- unix.chat Message of the Day -
+2018-12-12 16:36:38	--	- 1/5/2017 12:48
+2018-12-12 16:36:38	--	- welcome to
+2018-12-12 16:36:38	--	-              _            _           _
+2018-12-12 16:36:38	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-12 16:36:38	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-12 16:36:38	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-12 16:36:38	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-12 16:36:38	--	-
+2018-12-12 16:36:38	--	- this server is SSL only on port 6697
+2018-12-12 16:36:38	--	-
+2018-12-12 16:36:38	--	- rules:
+2018-12-12 16:36:38	--	-
+2018-12-12 16:36:38	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-12 16:36:38	--	-  * no harassment, threats, or impersonation of other users
+2018-12-12 16:36:38	--	-
+2018-12-12 16:36:38	--	- we reserve the right to deny service to
+2018-12-12 16:36:38	--	- anyone at any time for any reason
+2018-12-12 16:36:38	--	End of /MOTD command.
+2018-12-12 16:36:38	--	User mode [+iwxz] by Ergo
+2018-12-13 13:48:05	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-13 13:48:05	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-13 13:48:05	--	gnutls: receiving 2 certificates
+2018-12-13 13:48:05	--	 - certificate[1] info:
+2018-12-13 13:48:05	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-13 13:48:05	--	 - certificate[2] info:
+2018-12-13 13:48:05	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-13 13:48:05	--	gnutls: peer's certificate is trusted
+2018-12-13 13:48:05	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-13 13:48:05	--	unix.chat: *** Looking up your hostname...
+2018-12-13 13:48:05	--	unix.chat: *** Checking ident...
+2018-12-13 13:48:05	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-13 13:48:05	--	unix.chat: *** Found your hostname
+2018-12-13 13:48:05	--	CTCP requested by IRC: VERSION
+2018-12-13 13:48:05	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-13 13:48:05	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-13 13:48:05	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-13 13:48:05	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-13 13:48:05	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-13 13:48:05	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-13 13:48:05	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-13 13:48:05	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-13 13:48:05	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-13 13:48:05	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-13 13:48:05	--	There are 1 users and 81 invisible on 2 servers
+2018-12-13 13:48:05	--	10 :operator(s) online
+2018-12-13 13:48:05	--	10 :channels formed
+2018-12-13 13:48:05	--	I have 74 clients and 1 servers
+2018-12-13 13:48:05	--	74 89 :Current local users 74, max 89
+2018-12-13 13:48:05	--	82 97 :Current global users 82, max 97
+2018-12-13 13:48:05	--	- unix.chat Message of the Day -
+2018-12-13 13:48:05	--	- 1/5/2017 12:48
+2018-12-13 13:48:05	--	- welcome to
+2018-12-13 13:48:05	--	-              _            _           _
+2018-12-13 13:48:05	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-13 13:48:05	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-13 13:48:05	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-13 13:48:05	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-13 13:48:05	--	-
+2018-12-13 13:48:05	--	- this server is SSL only on port 6697
+2018-12-13 13:48:05	--	-
+2018-12-13 13:48:05	--	- rules:
+2018-12-13 13:48:05	--	-
+2018-12-13 13:48:05	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-13 13:48:05	--	-  * no harassment, threats, or impersonation of other users
+2018-12-13 13:48:05	--	-
+2018-12-13 13:48:05	--	- we reserve the right to deny service to
+2018-12-13 13:48:05	--	- anyone at any time for any reason
+2018-12-13 13:48:05	--	End of /MOTD command.
+2018-12-13 13:48:05	--	User mode [+iwxz] by Ergo
+2018-12-13 23:35:04	--	irc: lag is high, reconnecting to server unix
+2018-12-13 23:35:04	--	irc: disconnected from server
+2018-12-13 23:35:04	--	irc: reconnecting to server in 10 seconds
+2018-12-13 23:35:14	--	irc: reconnecting to server...
+2018-12-13 23:35:14	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-13 23:35:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-13 23:35:14	--	gnutls: receiving 2 certificates
+2018-12-13 23:35:14	--	 - certificate[1] info:
+2018-12-13 23:35:14	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-13 23:35:14	--	 - certificate[2] info:
+2018-12-13 23:35:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-13 23:35:14	--	gnutls: peer's certificate is trusted
+2018-12-13 23:35:14	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-13 23:35:14	--	unix.chat: *** Looking up your hostname...
+2018-12-13 23:35:14	--	unix.chat: *** Checking ident...
+2018-12-13 23:35:14	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-13 23:35:14	--	unix.chat: *** Found your hostname
+2018-12-13 23:35:14	--	CTCP requested by IRC: VERSION
+2018-12-13 23:35:14	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-13 23:35:14	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-13 23:35:14	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-13 23:35:14	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-13 23:35:14	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-13 23:35:14	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-13 23:35:14	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-13 23:35:14	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-13 23:35:14	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-13 23:35:14	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-13 23:35:14	--	There are 1 users and 79 invisible on 2 servers
+2018-12-13 23:35:14	--	10 :operator(s) online
+2018-12-13 23:35:14	--	10 :channels formed
+2018-12-13 23:35:14	--	I have 72 clients and 1 servers
+2018-12-13 23:35:14	--	72 89 :Current local users 72, max 89
+2018-12-13 23:35:14	--	80 97 :Current global users 80, max 97
+2018-12-13 23:35:14	--	- unix.chat Message of the Day -
+2018-12-13 23:35:14	--	- 1/5/2017 12:48
+2018-12-13 23:35:14	--	- welcome to
+2018-12-13 23:35:14	--	-              _            _           _
+2018-12-13 23:35:14	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-13 23:35:14	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-13 23:35:14	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-13 23:35:14	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-13 23:35:14	--	-
+2018-12-13 23:35:14	--	- this server is SSL only on port 6697
+2018-12-13 23:35:14	--	-
+2018-12-13 23:35:14	--	- rules:
+2018-12-13 23:35:14	--	-
+2018-12-13 23:35:14	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-13 23:35:14	--	-  * no harassment, threats, or impersonation of other users
+2018-12-13 23:35:14	--	-
+2018-12-13 23:35:14	--	- we reserve the right to deny service to
+2018-12-13 23:35:14	--	- anyone at any time for any reason
+2018-12-13 23:35:14	--	End of /MOTD command.
+2018-12-13 23:35:14	--	User mode [+iwxz] by Ergo
+2018-12-14 02:33:09	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-14 02:33:09	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-14 02:33:09	--	gnutls: receiving 2 certificates
+2018-12-14 02:33:09	--	 - certificate[1] info:
+2018-12-14 02:33:09	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-14 02:33:09	--	 - certificate[2] info:
+2018-12-14 02:33:09	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-14 02:33:09	--	gnutls: peer's certificate is trusted
+2018-12-14 02:33:09	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-14 02:33:09	--	unix.chat: *** Looking up your hostname...
+2018-12-14 02:33:09	--	unix.chat: *** Checking ident...
+2018-12-14 02:33:09	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-14 02:33:09	--	unix.chat: *** Found your hostname
+2018-12-14 02:33:09	--	CTCP requested by IRC: VERSION
+2018-12-14 02:33:09	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-14 02:33:09	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-14 02:33:09	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-14 02:33:09	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-14 02:33:09	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-14 02:33:09	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-14 02:33:09	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-14 02:33:09	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-14 02:33:09	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-14 02:33:09	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-14 02:33:09	--	There are 1 users and 79 invisible on 2 servers
+2018-12-14 02:33:09	--	10 :operator(s) online
+2018-12-14 02:33:09	--	10 :channels formed
+2018-12-14 02:33:09	--	I have 72 clients and 1 servers
+2018-12-14 02:33:09	--	72 89 :Current local users 72, max 89
+2018-12-14 02:33:09	--	80 97 :Current global users 80, max 97
+2018-12-14 02:33:09	--	- unix.chat Message of the Day -
+2018-12-14 02:33:09	--	- 1/5/2017 12:48
+2018-12-14 02:33:09	--	- welcome to
+2018-12-14 02:33:09	--	-              _            _           _
+2018-12-14 02:33:09	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-14 02:33:09	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-14 02:33:09	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-14 02:33:09	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-14 02:33:09	--	-
+2018-12-14 02:33:09	--	- this server is SSL only on port 6697
+2018-12-14 02:33:09	--	-
+2018-12-14 02:33:09	--	- rules:
+2018-12-14 02:33:09	--	-
+2018-12-14 02:33:09	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-14 02:33:09	--	-  * no harassment, threats, or impersonation of other users
+2018-12-14 02:33:09	--	-
+2018-12-14 02:33:09	--	- we reserve the right to deny service to
+2018-12-14 02:33:09	--	- anyone at any time for any reason
+2018-12-14 02:33:09	--	End of /MOTD command.
+2018-12-14 02:33:09	--	User mode [+iwxz] by Ergo
+2018-12-14 18:32:18	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-14 18:32:18	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-14 18:32:18	--	gnutls: receiving 2 certificates
+2018-12-14 18:32:18	--	 - certificate[1] info:
+2018-12-14 18:32:18	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x039edd4bac4559e4f9c818d2c695eb4af001, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-31 17:22:57 UTC', expires `2019-01-29 17:22:57 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-14 18:32:18	--	 - certificate[2] info:
+2018-12-14 18:32:18	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-14 18:32:18	--	gnutls: peer's certificate is trusted
+2018-12-14 18:32:18	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-14 18:32:18	--	unix.chat: *** Looking up your hostname...
+2018-12-14 18:32:18	--	unix.chat: *** Checking ident...
+2018-12-14 18:32:18	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-14 18:32:18	--	unix.chat: *** Found your hostname
+2018-12-14 18:32:18	--	CTCP requested by IRC: VERSION
+2018-12-14 18:32:18	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-14 18:32:18	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-14 18:32:18	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-14 18:32:18	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-14 18:32:18	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-14 18:32:18	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-14 18:32:18	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-14 18:32:18	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-14 18:32:18	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-14 18:32:18	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-14 18:32:18	--	There are 1 users and 79 invisible on 2 servers
+2018-12-14 18:32:18	--	10 :operator(s) online
+2018-12-14 18:32:18	--	10 :channels formed
+2018-12-14 18:32:18	--	I have 72 clients and 1 servers
+2018-12-14 18:32:18	--	72 89 :Current local users 72, max 89
+2018-12-14 18:32:18	--	80 97 :Current global users 80, max 97
+2018-12-14 18:32:18	--	- unix.chat Message of the Day -
+2018-12-14 18:32:18	--	- 1/5/2017 12:48
+2018-12-14 18:32:18	--	- welcome to
+2018-12-14 18:32:18	--	-              _            _           _
+2018-12-14 18:32:18	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-14 18:32:18	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-14 18:32:18	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-14 18:32:18	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-14 18:32:18	--	-
+2018-12-14 18:32:18	--	- this server is SSL only on port 6697
+2018-12-14 18:32:18	--	-
+2018-12-14 18:32:18	--	- rules:
+2018-12-14 18:32:18	--	-
+2018-12-14 18:32:18	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-14 18:32:18	--	-  * no harassment, threats, or impersonation of other users
+2018-12-14 18:32:18	--	-
+2018-12-14 18:32:18	--	- we reserve the right to deny service to
+2018-12-14 18:32:18	--	- anyone at any time for any reason
+2018-12-14 18:32:18	--	End of /MOTD command.
+2018-12-14 18:32:18	--	User mode [+iwxz] by Ergo
+2018-12-16 01:15:06	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-16 01:15:06	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-16 01:15:06	--	gnutls: receiving 2 certificates
+2018-12-16 01:15:06	--	 - certificate[1] info:
+2018-12-16 01:15:06	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x032973e7f559a0e7b7a55caa39b9966abce8, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-12-08 23:10:11 UTC', expires `2019-03-08 23:10:11 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-16 01:15:06	--	 - certificate[2] info:
+2018-12-16 01:15:06	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-16 01:15:06	--	gnutls: peer's certificate is trusted
+2018-12-16 01:15:06	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-16 01:15:06	--	unix.chat: *** Looking up your hostname...
+2018-12-16 01:15:06	--	unix.chat: *** Checking ident...
+2018-12-16 01:15:06	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-16 01:15:06	--	unix.chat: *** Found your hostname
+2018-12-16 01:15:06	--	CTCP requested by IRC: VERSION
+2018-12-16 01:15:06	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-16 01:15:06	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-16 01:15:06	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-16 01:15:06	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-16 01:15:06	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-16 01:15:06	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-16 01:15:06	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-16 01:15:06	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-16 01:15:06	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-16 01:15:06	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-16 01:15:06	--	There are 1 users and 81 invisible on 2 servers
+2018-12-16 01:15:06	--	10 :operator(s) online
+2018-12-16 01:15:06	--	10 :channels formed
+2018-12-16 01:15:06	--	I have 74 clients and 1 servers
+2018-12-16 01:15:06	--	74 89 :Current local users 74, max 89
+2018-12-16 01:15:06	--	82 97 :Current global users 82, max 97
+2018-12-16 01:15:06	--	- unix.chat Message of the Day -
+2018-12-16 01:15:06	--	- 1/5/2017 12:48
+2018-12-16 01:15:06	--	- welcome to
+2018-12-16 01:15:06	--	-              _            _           _
+2018-12-16 01:15:06	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-16 01:15:06	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-16 01:15:06	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-16 01:15:06	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-16 01:15:06	--	-
+2018-12-16 01:15:06	--	- this server is SSL only on port 6697
+2018-12-16 01:15:06	--	-
+2018-12-16 01:15:06	--	- rules:
+2018-12-16 01:15:06	--	-
+2018-12-16 01:15:06	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-16 01:15:06	--	-  * no harassment, threats, or impersonation of other users
+2018-12-16 01:15:06	--	-
+2018-12-16 01:15:06	--	- we reserve the right to deny service to
+2018-12-16 01:15:06	--	- anyone at any time for any reason
+2018-12-16 01:15:06	--	End of /MOTD command.
+2018-12-16 01:15:06	--	User mode [+iwxz] by Ergo
+2018-12-17 12:59:14	--	irc: connecting to server unix.chat/6697 (SSL)...
+2018-12-17 12:59:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 12:59:14	--	gnutls: receiving 2 certificates
+2018-12-17 12:59:14	--	 - certificate[1] info:
+2018-12-17 12:59:14	--	   - subject `CN=unix.chat', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x032973e7f559a0e7b7a55caa39b9966abce8, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-12-08 23:10:11 UTC', expires `2019-03-08 23:10:11 UTC', pin-sha256="hevRSgZOknUE4bx7UFZsVRiBBRidOtSa0e2xOokocHU="
+2018-12-17 12:59:14	--	 - certificate[2] info:
+2018-12-17 12:59:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 12:59:14	--	gnutls: peer's certificate is trusted
+2018-12-17 12:59:14	--	irc: connected to unix.chat/6697 (178.62.240.114)
+2018-12-17 12:59:14	--	unix.chat: *** Looking up your hostname...
+2018-12-17 12:59:14	--	unix.chat: *** Checking ident...
+2018-12-17 12:59:14	--	unix.chat: *** No ident response; username prefixed with ~
+2018-12-17 12:59:14	--	unix.chat: *** Found your hostname
+2018-12-17 12:59:14	--	CTCP requested by IRC: VERSION
+2018-12-17 12:59:14	--	CTCP reply to IRC: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-17 12:59:14	--	Welcome to the unix.chat IRC Network Ergo!~nathaniel@82-161-43-23.ip.xs4all.nl
+2018-12-17 12:59:14	--	Your host is unix.chat, running version UnrealIRCd-4.0.11
+2018-12-17 12:59:14	--	This server was created Wed Feb 22 2017 at 21:53:13 CET
+2018-12-17 12:59:14	--	unix.chat UnrealIRCd-4.0.11 iowrsxzdHtIDRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+2018-12-17 12:59:14	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=9 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-12-17 12:59:14	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=unix.chat CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+2018-12-17 12:59:14	--	STATUSMSG=@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+2018-12-17 12:59:14	--	nix-40DB132F.ip.xs4all.nl :is now your displayed host
+2018-12-17 12:59:14	--	unix.chat: *** You are connected to unix.chat with TLSv1.2-ECDHE-RSA-CHACHA20-POLY1305-256bits
+2018-12-17 12:59:14	--	There are 1 users and 80 invisible on 2 servers
+2018-12-17 12:59:14	--	10 :operator(s) online
+2018-12-17 12:59:14	--	10 :channels formed
+2018-12-17 12:59:14	--	I have 73 clients and 1 servers
+2018-12-17 12:59:14	--	73 89 :Current local users 73, max 89
+2018-12-17 12:59:14	--	81 97 :Current global users 81, max 97
+2018-12-17 12:59:14	--	- unix.chat Message of the Day -
+2018-12-17 12:59:14	--	- 1/5/2017 12:48
+2018-12-17 12:59:14	--	- welcome to
+2018-12-17 12:59:14	--	-              _            _           _
+2018-12-17 12:59:14	--	-  _   _ _ __ (_)_  __  ___| |__   __ _| |_
+2018-12-17 12:59:14	--	- | | | | '_ \| \ \/ / / __| '_ \ / _` | __|
+2018-12-17 12:59:14	--	- | |_| | | | | |>  < | (__| | | | (_| | |_
+2018-12-17 12:59:14	--	-  \__,_|_| |_|_/_/\_(_)___|_| |_|\__,_|\__|
+2018-12-17 12:59:14	--	-
+2018-12-17 12:59:14	--	- this server is SSL only on port 6697
+2018-12-17 12:59:14	--	-
+2018-12-17 12:59:14	--	- rules:
+2018-12-17 12:59:14	--	-
+2018-12-17 12:59:14	--	-  * no abuse (clones, proxies, flooding, spam, or mass advertising)
+2018-12-17 12:59:14	--	-  * no harassment, threats, or impersonation of other users
+2018-12-17 12:59:14	--	-
+2018-12-17 12:59:14	--	- we reserve the right to deny service to
+2018-12-17 12:59:14	--	- anyone at any time for any reason
+2018-12-17 12:59:14	--	End of /MOTD command.
+2018-12-17 12:59:14	--	User mode [+iwxz] by Ergo

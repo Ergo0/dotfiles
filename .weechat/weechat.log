@@ -1,31 +1,43 @@
-[2018-12-06 11:43:26] WeeChat 2.3 (compiled on Oct 22 2018 08:00:17)
-[2018-12-06 11:43:26] Reading configuration file sec.conf
-[2018-12-06 11:43:26] Reading configuration file weechat.conf
-[2018-12-06 11:43:26] Reading configuration file plugins.conf
-[2018-12-06 11:43:26] Reading configuration file charset.conf
-[2018-12-06 11:43:26] Reading configuration file logger.conf
-[2018-12-06 11:43:26] Reading configuration file exec.conf
-[2018-12-06 11:43:26] Reading configuration file trigger.conf
-[2018-12-06 11:43:26] Reading configuration file alias.conf
-[2018-12-06 11:43:26] Reading configuration file buflist.conf
-[2018-12-06 11:43:26] Reading configuration file fifo.conf
-[2018-12-06 11:43:26] Reading configuration file xfer.conf
-[2018-12-06 11:43:26] Reading configuration file irc.conf
-[2018-12-06 11:43:26] Reading configuration file relay.conf
-[2018-12-06 11:43:26] Reading configuration file script.conf
-[2018-12-06 11:43:26] Reading configuration file fset.conf
-[2018-12-06 11:44:12] Writing configuration file plugins.conf
-[2018-12-06 11:44:12] Writing configuration file alias.conf
-[2018-12-06 11:44:12] Writing configuration file buflist.conf
-[2018-12-06 11:44:12] Writing configuration file charset.conf
-[2018-12-06 11:44:12] Writing configuration file exec.conf
-[2018-12-06 11:44:12] Writing configuration file fifo.conf
-[2018-12-06 11:44:12] Writing configuration file fset.conf
-[2018-12-06 11:44:12] Writing configuration file irc.conf
-[2018-12-06 11:44:12] Writing configuration file logger.conf
-[2018-12-06 11:44:12] Writing configuration file relay.conf
-[2018-12-06 11:44:12] Writing configuration file script.conf
-[2018-12-06 11:44:12] Writing configuration file trigger.conf
-[2018-12-06 11:44:12] Writing configuration file xfer.conf
-[2018-12-06 11:44:12] Writing configuration file weechat.conf
-[2018-12-06 11:44:12] Writing configuration file sec.conf
+[2018-12-17 12:59:12] WeeChat 2.3 (compiled on Oct 23 2018 01:39:42)
+[2018-12-17 12:59:12] Reading configuration file sec.conf
+[2018-12-17 12:59:12] Reading configuration file weechat.conf
+[2018-12-17 12:59:12] Reading configuration file plugins.conf
+[2018-12-17 12:59:12] Reading configuration file charset.conf
+[2018-12-17 12:59:12] Reading configuration file logger.conf
+[2018-12-17 12:59:12] Reading configuration file exec.conf
+[2018-12-17 12:59:12] Reading configuration file trigger.conf
+[2018-12-17 12:59:12] Reading configuration file aspell.conf
+[2018-12-17 12:59:12] Reading configuration file alias.conf
+[2018-12-17 12:59:12] Reading configuration file buflist.conf
+[2018-12-17 12:59:12] Reading configuration file fifo.conf
+[2018-12-17 12:59:12] Reading configuration file xfer.conf
+[2018-12-17 12:59:12] Reading configuration file irc.conf
+[2018-12-17 12:59:12] Reading configuration file relay.conf
+[2018-12-17 12:59:12] Reading configuration file perl.conf
+[2018-12-17 12:59:12] Reading configuration file python.conf
+[2018-12-17 12:59:12] Reading configuration file script.conf
+[2018-12-17 12:59:12] Reading configuration file fset.conf
+[2018-12-17 12:59:14] irc: connecting to server chat.freenode.net/7000 (SSL)...
+[2018-12-17 12:59:14] irc: connecting to server irc.snoonet.org/6667...
+[2018-12-17 12:59:14] irc: connecting to server irc.rizon.net/6697 (SSL)...
+[2018-12-17 12:59:14] irc: connecting to server irc.scratch-network.net/6667...
+[2018-12-17 12:59:14] irc: connecting to server unix.chat/6697 (SSL)...
+[2018-12-17 13:29:23] Signal SIGTERM received, exiting WeeChat...
+[2018-12-17 13:29:23] Writing configuration file plugins.conf
+[2018-12-17 13:29:23] Writing configuration file xfer.conf
+[2018-12-17 13:29:23] Writing configuration file trigger.conf
+[2018-12-17 13:29:23] Writing configuration file script.conf
+[2018-12-17 13:29:23] Writing configuration file relay.conf
+[2018-12-17 13:29:23] Writing configuration file python.conf
+[2018-12-17 13:29:23] Writing configuration file perl.conf
+[2018-12-17 13:29:23] Writing configuration file logger.conf
+[2018-12-17 13:29:23] Writing configuration file irc.conf
+[2018-12-17 13:29:23] Writing configuration file fset.conf
+[2018-12-17 13:29:23] Writing configuration file fifo.conf
+[2018-12-17 13:29:23] Writing configuration file exec.conf
+[2018-12-17 13:29:23] Writing configuration file charset.conf
+[2018-12-17 13:29:23] Writing configuration file buflist.conf
+[2018-12-17 13:29:23] Writing configuration file aspell.conf
+[2018-12-17 13:29:23] Writing configuration file alias.conf
+[2018-12-17 13:29:23] Writing configuration file weechat.conf
+[2018-12-17 13:29:23] Writing configuration file sec.conf

@@ -12,10 +12,12 @@ xrdb -load ~/.Xresources
 #xrandr --auto
 
 #PA
+#compton &
 start-pulseaudio-x11 &
 ~/.screenlayout/layout.sh & 
 ~/.fehbg & 
 #wm
-exec 2bwm 
+exec 2bwm
+
  
 

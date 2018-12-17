@@ -11378,3 +11378,3045 @@
 2018-12-03 20:54:58	+nai	^
 2018-12-03 21:00:17	<--	television (~tele@4D506AA0:16B32E9E:6521E076:IP) has quit (Ping timeout: 240 seconds)
 2018-12-03 21:00:22	--	irc: disconnected from server
+2018-12-12 01:38:38	-->	Ergo (~nathaniel@FD2170A2:DA9CABBE:1307ED4C:IP) has joined #rice
+2018-12-12 01:38:38	--	Topic for #rice is "No Rice No Life? | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-12-12 01:38:38	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 15:32:42
+2018-12-12 01:38:38	--	Channel #rice: 167 nicks (10 ops, 0 halfops, 13 voices, 144 normals)
+2018-12-12 01:38:40	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-12 01:38:48	Ergo	apparently 2bwm breaks steam games 
+2018-12-12 01:38:49	Ergo	lol 
+2018-12-12 01:40:46	-->	murf (~murf@vicer.oy) has joined #rice
+2018-12-12 01:42:02	+Cosumu	apparently Ergo doesn't know how to use his brain
+2018-12-12 01:42:15	Ergo	im not even kidding smh 
+2018-12-12 01:42:23	Ergo	like the games work perfectly fine when using openbox
+2018-12-12 01:42:38	Ergo	but when i use 2bwm games just freeze, crash or dont even launch 
+2018-12-12 01:43:05	oepsie	Cosumu, it's a known thing with Steam and all these "native ports"
+2018-12-12 01:43:25	oepsie	THey basically go behind the WM and talk to X directly and they only work on KDE, GNOME, and Unity because they didn't est it on anything else
+2018-12-12 01:43:31	oepsie	and even there they don't work well often.
+2018-12-12 01:43:33	Ergo	well ive never heard of it 
+2018-12-12 01:43:41	Ergo	well it works flawlessly on openbox 
+2018-12-12 01:43:51	oepsie	Ergo, like when the WM tries to resize and operate the window itself they often get really weird.
+2018-12-12 01:43:55	Ergo	but i love 2bm so much :( 
+2018-12-12 01:44:00	oepsie	Ergo, well it depends on how the wm does it; but they don't respect the standards.
+2018-12-12 01:44:09	oepsie	Ergo, a common thing is that if you try to resize with the keyboard it goes wrong.
+2018-12-12 01:44:17	Ergo	i didnt even resize anything 
+2018-12-12 01:44:22	oepsie	Because if you sue the mouse the Steam window itself handels its own position which it shouldn't do
+2018-12-12 01:44:23	Ergo	it just would launch in a weird manner 
+2018-12-12 01:44:31	oepsie	Ergo, well maybe 2bwm did it on its own on startup, some work like that.
+2018-12-12 01:44:39	oepsie	It can also be with how it handes fullscreen
+2018-12-12 01:44:46	Ergo	guess im gonna look for a new wm 
+2018-12-12 01:44:53	oepsie	Ergo, like for like 8 years long steam would actually ignore sigterm; it would isntall a handler but just do nothing
+2018-12-12 01:44:56	oepsie	they finally fixed that
+2018-12-12 01:45:10	Ergo	the only thing that actaully keeps me on 2bwm aside from really liking it is how it handles fullscreen videos 
+2018-12-12 01:45:22	Ergo	it fullscreens them in the size of the window 
+2018-12-12 01:53:08	oepsie	Ergo, not the two borders?
+2018-12-12 01:53:17	oepsie	Which apaprently is the big selling point which I awys thought was weird.
+2018-12-12 01:55:19	Ergo	i like the double borders as well 
+2018-12-12 01:55:28	Ergo	but the video is fantastic
+2018-12-12 01:55:34	Ergo	and also probably the reason it breaks games 
+2018-12-12 01:57:58	oepsie	Ergo, you can also just start a scond X instance for the game though.
+2018-12-12 02:00:25	<--	ym (~ym@C8BB80A4.9A67FBB9.17078704.IP) has quit (Quit: WeeChat 2.3)
+2018-12-12 02:02:03	Ergo	oepsie: how would that work 
+2018-12-12 02:02:10	Ergo	also that seems annoying since i cant just tab in and out 
+2018-12-12 02:02:14	Ergo	or would i be able to? 
+2018-12-12 02:03:41	oepsie	Ergo, well you tab ith ctr+alt+fkey I gues then.
+2018-12-12 02:03:50	oepsie	Ergo, but you can just startx again
+2018-12-12 02:03:58	oepsie	And it picks the next free vt
+2018-12-12 02:04:12	<--	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 02:12:49	-->	Ergo (~nathaniel@FD2170A2:DA9CABBE:1307ED4C:IP) has joined #rice
+2018-12-12 02:12:49	--	Topic for #rice is "No Rice No Life? | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-12-12 02:12:49	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 15:32:42
+2018-12-12 02:12:49	--	Channel #rice: 166 nicks (10 ops, 0 halfops, 13 voices, 143 normals)
+2018-12-12 02:12:51	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-12 02:12:54	Ergo	whoops, had to relog 
+2018-12-12 02:17:21	oepsie	Ergo it is okay my love.
+2018-12-12 02:17:26	oepsie	Nothing can break our love.
+2018-12-12 02:20:48	<--	mobo (~mobo@maritime.engineering.standards) has quit (Quit: Excess flood)
+2018-12-12 02:35:31	+LambdaComplex	hi #rice 
+2018-12-12 02:36:02	+LambdaComplex	6/8 vs 4/4
+2018-12-12 02:36:31	<--	xtor (~xtor@E78A495C.4C6FAFBF.6564CFE5.IP) has quit (Remote host closed the connection)
+2018-12-12 02:36:49	-->	xtor (~xtor@E78A495C.4C6FAFBF.6564CFE5.IP) has joined #rice
+2018-12-12 02:38:26	Ergo	welp 
+2018-12-12 02:38:37	Ergo	really need to figure out a way around ths 
+2018-12-12 02:39:25	-->	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has joined #rice
+2018-12-12 02:41:07	+Cosumu	  oink
+2018-12-12 02:41:23	ChibiFate	howdy
+2018-12-12 02:45:26	-->	neeasade (~neeasade@Rizon-8AA3A027.ks.ks.cox.net) has joined #rice
+2018-12-12 02:45:26	--	Mode #rice [+v neeasade] by Onee-chan
+2018-12-12 02:50:27	<--	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 02:54:24	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Read error: Connection reset by peer)
+2018-12-12 02:54:34	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-12-12 03:05:06	-->	Rue (~rue@4C54C0DE:C00A0933:949A437B:IP) has joined #rice
+2018-12-12 03:05:06	--	Mode #rice [+v Rue] by Onee-chan
+2018-12-12 03:05:49	oepsie	neeasade,my love.
+2018-12-12 03:11:42	+Cosumu	happy festag
+2018-12-12 03:18:07	+Cosumu	neeasade: happy festag
+2018-12-12 03:21:25	-->	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has joined #rice
+2018-12-12 03:26:16	oepsie	Cosumu, what's festag?
+2018-12-12 03:30:46	+Cosumu	> not knowing what festag is
+2018-12-12 03:38:26	oepsie	Cosumu, you're black, right?
+2018-12-12 03:39:34	+neeasade	oepsie, my hair gel.
+2018-12-12 03:39:41	+neeasade	Cosumu: happy
+2018-12-12 03:39:46	oepsie	neeasade, what was that hirgel meme again?
+2018-12-12 03:39:49	oepsie	I forgot, my love.
+2018-12-12 03:39:58	+neeasade	idk if this sent before
+2018-12-12 03:40:00	+neeasade	https://0x0.st/sDUm.png fade that is just a bunch of lemonbars
+2018-12-12 03:40:14	+neeasade	oepsie: literally just that hairgel is my love for you.
+2018-12-12 03:43:57	oepsie	neeasade, that 1 2 3 4 5 6 7 8 can be done as $(seq 1 8)
+2018-12-12 03:44:01	+Cosumu	wgat
+2018-12-12 03:44:04	+Cosumu	the fuck oepsie 
+2018-12-12 03:44:04	oepsie	Or fi you are using bashisms {1..8}
+2018-12-12 03:44:06	+Cosumu	im not black
+2018-12-12 03:44:09	+Cosumu	neeasade: merry festag
+2018-12-12 03:44:19	oepsie	Cosumu, ah, why not?
+2018-12-12 03:44:29	+Cosumu	> why am i not black
+2018-12-12 03:44:33	+Cosumu	what kind of fucking uestion is that
+2018-12-12 03:47:02	oepsie	Cosumu, hmm
+2018-12-12 03:47:15	oepsie	would you please go back to being cute so I can objectify your cuteness and be all "Baww; I wanna cuddle him"
+2018-12-12 03:47:16	oepsie	fOr meee?
+2018-12-12 03:47:28	+Cosumu	what do you mean
+2018-12-12 03:47:31	+Cosumu	yoiu just asked if im black
+2018-12-12 03:47:34	+Cosumu	but you've seen pics of me
+2018-12-12 03:47:36	+Cosumu	and im not black
+2018-12-12 03:47:41	oepsie	THt is true
+2018-12-12 03:47:45	oepsie	I should have thought of that.
+2018-12-12 03:47:48	+neeasade	oepsie: yeah was quick/not thinking at the time
+2018-12-12 03:47:49	+Cosumu	it was just a retarded question
+2018-12-12 03:47:52	+neeasade	thanks
+2018-12-12 03:48:00	+Cosumu	do you have severe brain damage or something
+2018-12-12 03:49:07	oepsie	Cosumu, so aggressive
+2018-12-12 03:49:13	oepsie	are you black or something since you're so aggressive
+2018-12-12 04:09:18	icyphox	morning
+2018-12-12 04:14:56	+Cosumu	happy festag
+2018-12-12 04:15:01	+Cosumu	oepsie: im not aggressive
+2018-12-12 04:19:46	oepsie	Cosumu, so we're still friends?
+2018-12-12 04:20:43	+Cosumu	fucking
+2018-12-12 04:20:45	icyphox	oepsie, were u friends to begin with :thinking:
+2018-12-12 04:20:46	+Cosumu	oepsie: we were never not friends
+2018-12-12 04:20:52	+Cosumu	smh
+2018-12-12 04:20:56	+Cosumu	icyphox: he is just being retarded
+2018-12-12 04:21:10	icyphox	ye
+2018-12-12 04:22:39	 *	Cosumu washes oepsie
+2018-12-12 04:26:23	icyphox	.decide breakfast now or later
+2018-12-12 04:26:23	+cappuccino	icyphox: breakfast now
+2018-12-12 04:42:10	<--	murf (~murf@vicer.oy) has quit (Ping timeout: 240 seconds)
+2018-12-12 04:42:29	-->	murf (~murf@vicer.oy) has joined #rice
+2018-12-12 04:48:48	<--	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 04:58:15	-->	lt (~batelborg@Rizon-775E63C.mem.bellsouth.net) has joined #rice
+2018-12-12 05:10:09	-->	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has joined #rice
+2018-12-12 05:26:18	<--	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 05:27:48	-->	jcv (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-12-12 05:33:34	<--	jcv (~jcv@Rizon-7184F19E.getinternet.no) has quit (Ping timeout: 240 seconds)
+2018-12-12 05:49:14	<--	Ivion (~ivion@22E9A204:8A19C2:40608628:IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 05:59:56	-->	Rue2 (~rue@Rizon-A0BB4252.dynamic-ip6.hinet.net) has joined #rice
+2018-12-12 06:05:25	<--	Rue2 (~rue@Rizon-A0BB4252.dynamic-ip6.hinet.net) has quit
+2018-12-12 06:05:43	-->	Rue2 (~rue@Rizon-A0BB4252.dynamic-ip6.hinet.net) has joined #rice
+2018-12-12 06:12:47	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 06:21:33	-->	faggotcunt (uid336290@Rizon-9B4DA1E8.brockwell.irccloud.com) has joined #rice
+2018-12-12 06:44:52	-->	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has joined #rice
+2018-12-12 06:56:17	+Cosumu	.decide now later or now
+2018-12-12 06:56:17	+cappuccino	Cosumu: now later
+2018-12-12 06:56:22	+Cosumu	oh shi
+2018-12-12 06:56:24	+Cosumu	its now
+2018-12-12 07:30:08	<--	Savitar (~Savitar@4F7B832B:10D15967:83F193BC:IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 07:30:42	-->	Savitar (~Savitar@FA01EB10:F47E7569:83F193BC:IP) has joined #rice
+2018-12-12 07:33:27	<--	SolarAquarion (SolarAquar@10000.years.bark.bark.bark) has quit (Quit: PanicBNC - http://PanicBNC.net)
+2018-12-12 07:33:28	<--	Cosmonaut (~wannagoto@3B2A32:336B7447:EB74F7E4:IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 07:33:48	-->	suits (~qwebirc@Rizon-DBF4FC6A.dip0.t-ipconnect.de) has joined #rice
+2018-12-12 07:34:26	-->	SolarAquarion (~SolarAqua@Rizon-11352F73.ca.us.panicbnc.net) has joined #rice
+2018-12-12 07:34:39	suits	.np
+2018-12-12 07:34:40	+cappuccino	suits (su1ts) is now playing Tee Time by Vulfpeck
+2018-12-12 07:52:10	-->	Cosmonaut (~wannagoto@3B2A32:336B7447:EB74F7E4:IP) has joined #rice
+2018-12-12 07:52:58	icyphox	.np
+2018-12-12 07:52:58	+cappuccino	icyphox is now playing Avalanche by August Burns Red
+2018-12-12 08:06:44	-->	anon9234` (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has joined #rice
+2018-12-12 08:09:04	<--	anon9234 (~anon9234@anon.vh.org) has quit (Ping timeout: 240 seconds)
+2018-12-12 08:41:52	shi	h
+2018-12-12 08:42:05	shi	Cosumu: oh shi
+2018-12-12 08:45:37	oepsie	Wow
+2018-12-12 08:45:48	oepsie	I just accidentallyhit myself in the eye and now I can't see sharp any more.
+2018-12-12 08:46:02	oepsie	I can barely read my own text
+2018-12-12 08:46:10	oepsie	Weird thing is it works better with the eye that Ididn't hit closed
+2018-12-12 08:49:20	-->	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-12 09:10:01	<--	Cosmonaut (~wannagoto@3B2A32:336B7447:EB74F7E4:IP) has quit (Remote host closed the connection)
+2018-12-12 09:13:49	-->	absolutejam (~absolutej@53AC253A.30748B87.577C96D4.IP) has joined #rice
+2018-12-12 09:25:31	@enju	moin
+2018-12-12 09:30:57	suits	moin enju :3
+2018-12-12 09:31:07	suits	moin all
+2018-12-12 09:32:01	@enju	hi suits
+2018-12-12 09:32:04	@enju	long time no see
+2018-12-12 09:33:13	suits	yup how is it going brother
+2018-12-12 09:34:07	suits	.dtop enju
+2018-12-12 09:34:07	+cappuccino	(1) https://enju.pw/rice | (2) https://enju.pw/img/75e4.png | (3) https://enju.pw/img/d86a.png [enju]
+2018-12-12 09:34:18	@enju	going good, hby
+2018-12-12 09:34:20	@enju	u
+2018-12-12 09:35:04	suits	same!
+2018-12-12 09:35:38	suits	i wanna make a new rice, hold on a minute
+2018-12-12 09:37:07	+Khorne	What's up hoebags
+2018-12-12 09:37:36	suits	yo Khorne
+2018-12-12 09:37:41	@eti	and everytime we touch
+2018-12-12 09:37:44	@eti	i get this feeling
+2018-12-12 09:37:47	@eti	gm rice
+2018-12-12 09:38:05	suits	anyone know a good bar or piece of software i can make a custom menu bar like this with https://my.mixtape.moe/nehpje.PNG
+2018-12-12 09:38:35	@eti	conky
+2018-12-12 09:38:47	@eti	mb dzen2
+2018-12-12 09:38:57	@enju	rainmeter
+2018-12-12 09:39:01	suits	the third box is screen brightness and changes on click by 25%
+2018-12-12 09:39:04	@eti	not sure this will work w/ lemonbar
+2018-12-12 09:39:05	workodera	a little chrome window
+2018-12-12 09:39:07	suits	that's important
+2018-12-12 09:39:16	workodera	a wallpaper with autohotkey zones
+2018-12-12 09:39:19	@eti	just do it in electron
+2018-12-12 09:39:19	@enju	but yeah, webkit is the easiest way probably
+2018-12-12 09:39:24	@eti	:^)
+2018-12-12 09:39:27	@enju	GTK
+2018-12-12 09:39:31	@enju	a QT app
+2018-12-12 09:39:35	@eti	qt
+2018-12-12 09:40:09	suits	what's lightest on resources and dependencies
+2018-12-12 09:40:18	suits	i only run X for now
+2018-12-12 09:40:29	@eti	well just use dzen2
+2018-12-12 09:40:40	@eti	it's lightweight and you can do a ton of stuff w/ it
+2018-12-12 09:41:00	suits	can i make boxes like that with it?
+2018-12-12 09:41:08	lt	https://static2.srcdn.com/wordpress/wp-content/uploads/2018/03/13-3.jpg?q=50&fit=crop&w=738
+2018-12-12 09:41:13	suits	and make them run scripts on click?
+2018-12-12 09:42:21	suits	enju: how can i do it with webkit?
+2018-12-12 09:43:31	suits	oh GTK i guess
+2018-12-12 09:43:42	suits	that would actually be the easiest for me by far
+2018-12-12 09:43:51	suits	if i can use css and js
+2018-12-12 09:44:06	@eti	suits: yeah ofc
+2018-12-12 09:44:16	@eti	and you can just use webkit2gtk
+2018-12-12 09:44:23	@eti	and make a small gtk app
+2018-12-12 09:44:32	suits	sweet i'll do that
+2018-12-12 09:44:44	lt	oh shit are you guys Mr. Roboting atm
+2018-12-12 09:44:58	@eti	idk if you'll be able to run scripts on click suits though with webkit2gtk
+2018-12-12 09:45:15	suits	oh i thought you can use javascript
+2018-12-12 09:45:16	@eti	that's why i'm recomending you dzen2 instead
+2018-12-12 09:45:43	@eti	well webkit2gtk is a web browser
+2018-12-12 09:46:06	suits	oh ok yes it uses it
+2018-12-12 09:46:55	@eti	ye ye ofc you can use javascript
+2018-12-12 09:47:08	@eti	but can javascript launch processes from your $PATH?
+2018-12-12 09:47:25	@enju	no but it can send a request to a deamon you run on your pc
+2018-12-12 09:47:38	@eti	sounds insecure
+2018-12-12 09:47:43	@enju	nah
+2018-12-12 09:47:52	@enju	just close the port to outside traffic
+2018-12-12 09:47:55	@enju	done
+2018-12-12 09:48:17	suits	think i'll try dzen instead then first
+2018-12-12 09:48:27	@enju	pure GTK will be easier though imo
+2018-12-12 09:49:26	suits	as long as it really would work with dzen as i want it i would be fine but i'm unsure about that
+2018-12-12 09:49:28	@enju	thre is also this https://github.com/cztomczak/phpdesktop
+2018-12-12 09:49:29	+cappuccino	[ github.com ] GitHub - cztomczak/phpdesktop: Electron for PHP. Desktop GUI framework with HTML5 Chrome/IE engine. (text/html)
+2018-12-12 09:49:29	@eti	ye but you can't code a gkt app in only js can you
+2018-12-12 09:49:30	@enju	:')
+2018-12-12 09:49:56	suits	electron might be the best idea actually
+2018-12-12 09:50:20	@eti	.8ball is electron the best idea actually
+2018-12-12 09:50:21	+cappuccino	eti: My reply is no.
+2018-12-12 09:50:26	@eti	suits: ^
+2018-12-12 09:50:28	suits	you have no idea cappuccino!
+2018-12-12 09:50:30	+cappuccino	and also seeing if the fart consents
+2018-12-12 09:50:35	@enju	.8ball is phpdesktop the best idea
+2018-12-12 09:50:35	+cappuccino	enju: Signs point to yes.
+2018-12-12 09:50:40	suits	lol
+2018-12-12 09:50:42	@enju	see, cappuccino is never wrong
+2018-12-12 09:50:43	+cappuccino	zack6849 oh. I mean and lua
+2018-12-12 09:51:30	@eti	oh shit
+2018-12-12 09:51:31	@enju	and now non memeing, test dzen, and if its not able to achieve what you want I'd do GTK
+2018-12-12 09:51:33	@eti	use lua
+2018-12-12 09:51:45	@eti	dzen is v extensible
+2018-12-12 09:51:46	suits	oh php can run local scripts?
+2018-12-12 09:51:55	@eti	using web technologies for just that sounds dum
+2018-12-12 09:51:59	@enju	ofc its server side
+2018-12-12 09:52:04	suits	yea.
+2018-12-12 09:52:22	@enju	but dont touch that shit, its worse than electron
+2018-12-12 09:52:28	suits	man
+2018-12-12 09:53:03	@enju	do dzen
+2018-12-12 09:53:10	@enju	if all things fail just look at gtk
+2018-12-12 09:53:30	@enju	its pretty easy, just make it in python then
+2018-12-12 09:53:41	suits	yea good idea
+2018-12-12 09:53:42	@eti	lol we should stop giivng him options
+2018-12-12 09:54:27	@enju	https://i.imgur.com/S3pYbXv.jpg comfy URLs
+2018-12-12 09:54:39	 *	eti vomits
+2018-12-12 09:55:27	<--	deviantfero (~deviantfe@88E4A8F0.3202CB36.C173CF88.IP) has quit (Ping timeout: 240 seconds)
+2018-12-12 10:02:48	+Khorne	It's the ri(s|c)e of gruvbox on r/up
+2018-12-12 10:06:05	@eti	shame
+2018-12-12 10:13:47	-->	klaus (~klaus@4B2A9EC3.1967C4E2.861195DE.IP) has joined #rice
+2018-12-12 10:20:37	--	irc: disconnected from server
+2018-12-12 10:28:31	-->	Ergo (~nathaniel@FD2170A2:DA9CABBE:1307ED4C:IP) has joined #rice
+2018-12-12 10:28:31	--	Topic for #rice is "No Rice No Life? | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life"
+2018-12-12 10:28:31	--	Topic set by Leliana (is@revthefox.co.uk) on Tue, 06 Nov 2018 15:32:42
+2018-12-12 10:28:31	--	Channel #rice: 171 nicks (9 ops, 0 halfops, 15 voices, 147 normals)
+2018-12-12 10:28:33	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-12 10:47:46	-->	jcv (~jcv@Rizon-7184F19E.getinternet.no) has joined #rice
+2018-12-12 10:53:34	<--	jcv (~jcv@Rizon-7184F19E.getinternet.no) has quit (Ping timeout: 240 seconds)
+2018-12-12 10:57:34	@enju	.np
+2018-12-12 10:57:35	+cappuccino	enju (nilejo) is now playing Banana Brain by Die Antwoord
+2018-12-12 11:02:38	@eti	.np
+2018-12-12 11:02:38	+cappuccino	eti (eti_f) is now playing 93TEARZ feat. VELVETEARS by 93feetofsmoke
+2018-12-12 11:02:44	@eti	real emotrap hours
+2018-12-12 11:03:58	<--	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2018-12-12 11:06:23	-->	iomonad (~iomonad@functor.and.applicative.rules) has joined #rice
+2018-12-12 11:06:32	-->	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has joined #rice
+2018-12-12 11:10:09	<--	jenkins (~jenkins@lunix.student) has quit (Ping timeout: 240 seconds)
+2018-12-12 11:13:00	-->	jenkins (~jenkins@lunix.student) has joined #rice
+2018-12-12 11:16:20	-->	ym (~ym@C8BB80A4.9A67FBB9.17078704.IP) has joined #rice
+2018-12-12 11:16:26	<--	iomonad (~iomonad@functor.and.applicative.rules) has quit (Quit: [1]    28823 segmentation fault (core dumped)  weechat)
+2018-12-12 11:18:15	@enju	.np
+2018-12-12 11:18:16	+cappuccino	enju (nilejo) is now playing Fucking Your Ghost in Chains of Ice by Leviathan
+2018-12-12 11:18:23	-->	iomonad (~iomonad@functor.and.applicative.rules) has joined #rice
+2018-12-12 11:18:36	@enju	real depressive suicidal black metal hours
+2018-12-12 11:18:42	+Khorne	waddup
+2018-12-12 11:22:23	<--	PikaDrew (~PikaDrew@3FD202DE.FCD55246.A0091D5E.IP) has quit (Quit: Leaving)
+2018-12-12 11:27:47	<--	iomonad (~iomonad@functor.and.applicative.rules) has quit
+2018-12-12 11:27:55	-->	iomonad (~iomonad@functor.and.applicative.rules) has joined #rice
+2018-12-12 11:27:56	-->	The_Loko (~The_Loko@Rizon-4207982F.red-88-14-26.dynamicip.rima-tde.net) has joined #rice
+2018-12-12 11:28:08	+Rue	hey joe
+2018-12-12 11:28:35	+Rue	where're you going with that gun in your hand
+2018-12-12 11:29:06	@enju	gonna kill myself
+2018-12-12 11:29:51	+Khorne	some of you are okay, dont come to #rice tomorrow
+2018-12-12 11:30:28	+Rue	there's gonna be another rice shooting
+2018-12-12 11:30:50	 *	icyphox pulls out his M4
+2018-12-12 11:30:55	icyphox	don't move
+2018-12-12 11:31:07	+Khorne	np: K/DA ? POP/STARS (feat. Jaira Burns & League of Legends)
+2018-12-12 11:39:18	@enju	real banger Khorne 
+2018-12-12 11:39:31	+Khorne	ye
+2018-12-12 11:44:13	<--	lt (~batelborg@Rizon-775E63C.mem.bellsouth.net) has quit (Ping timeout: 240 seconds)
+2018-12-12 11:52:56	@enju	cappuccino suck my nuts
+2018-12-12 11:52:57	+cappuccino	but... in a lot very quickly. I tried learning haskell about a server
+2018-12-12 11:58:49	raph_ael	cappuccino: you're in math BDSM ?
+2018-12-12 11:58:50	+cappuccino	specially in arts, living of your queries, served directly to the opponent's side
+2018-12-12 12:09:05	+Khorne	np: Halestorm ? Freak Like Me
+2018-12-12 12:13:31	+Rue	how's winter treating you boys
+2018-12-12 12:19:23	+Khorne	Like shit
+2018-12-12 12:22:24	-->	Etiv (~androirc@givemeavho.st) has joined #rice
+2018-12-12 12:35:58	<--	ym (~ym@C8BB80A4.9A67FBB9.17078704.IP) has quit (Quit: WeeChat 2.3)
+2018-12-12 12:52:47	<--	Cosumu (~Cosumu@space.is-the-place) has quit (Quit: WeeChat 1.9.1)
+2018-12-12 12:56:38	@enju	its been raining too much and I cant go out on my balcony to smoke
+2018-12-12 12:56:40	@enju	so shit
+2018-12-12 12:57:44	Ergo	just put on a coat smh 
+2018-12-12 12:57:44	--	#rice: You need to login to services to join or speak in that channel.
+2018-12-12 12:58:00	Ergo	just get a coat lol 
+2018-12-12 13:01:57	+Rue	i just finished the last cig of this pack. gonna try to quit again
+2018-12-12 13:02:05	+Rue	or at least take a break from it lol
+2018-12-12 13:02:17	+Rue	i've been saying this for the past 5 packs kek
+2018-12-12 13:03:19	Ergo	i was thinking bout quitting as well 
+2018-12-12 13:03:22	Ergo	gotta get a vape first 
+2018-12-12 13:07:43	<--	suits (~qwebirc@Rizon-DBF4FC6A.dip0.t-ipconnect.de) has quit
+2018-12-12 13:16:54	-->	Jet_ (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-12 13:17:09	@eti	cappuccino: what's your opinion on germans
+2018-12-12 13:17:09	<--	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-12-12 13:17:10	+cappuccino	sure but how about a minute
+2018-12-12 13:17:21	@eti	cappuccino: reply to my question
+2018-12-12 13:17:22	+cappuccino	betamax i was more on the repo.
+2018-12-12 13:17:38	Etiv	They r gay
+2018-12-12 13:17:50	Savitar	they really like organ meat
+2018-12-12 13:25:22	+Rue	really? i didn't know that
+2018-12-12 13:25:52	+Rue	organ meat is nice, we eat them here in asia too, but then again, we eat everything kek
+2018-12-12 13:34:02	Savitar	i mean liver is good
+2018-12-12 13:34:06	Savitar	thats about it for me
+2018-12-12 13:39:04	+Rue	intestines can be good
+2018-12-12 13:39:25	+Rue	pigs liver
+2018-12-12 13:39:29	+Rue	chicken gizzard
+2018-12-12 13:54:07	<--	im0nde (~binaryple@Rizon-3C3FE320.ipv6dyn.netcologne.de) has quit (Ping timeout: 240 seconds)
+2018-12-12 13:54:22	-->	zakame (~zakame@72A9E894.80A83041.98FA0D85.IP) has joined #rice
+2018-12-12 14:06:00	+Khorne	d e d
+2018-12-12 14:07:29	@eti	yeet
+2018-12-12 14:10:21	@enju	y e e t
+2018-12-12 14:11:20	@enju	Savitar mostly liver only here. there are a few regions where bull hearts are a delicassy, or bull testicles
+2018-12-12 14:11:24	@enju	and goose brain
+2018-12-12 14:11:46	@enju	but its about as popular as getting shoved a pineapple up your ass
+2018-12-12 14:11:59	@enju	we do thrive on pork though
+2018-12-12 14:12:06	+Khorne	siiiiiick https://www.reddit.com/r/unixporn/comments/a5740s/plasma_in_1366_by_768_an_update/
+2018-12-12 14:12:07	+cappuccino	[ reddit.com ] [Plasma] in 1366 by 768: an update : unixporn (text/html)
+2018-12-12 14:12:41	@enju	>This is why i love Linux. Imagine showing this to a windows/mac only user. Linux is the future. Btw could you share your pc specs?
+2018-12-12 14:12:43	@enju	kill me
+2018-12-12 14:13:07	+Khorne	are you saying linux isnt the future
+2018-12-12 14:14:16	@enju	im saying what he is showing is about 15 years in the past
+2018-12-12 14:14:43	+Khorne	:>
+2018-12-12 14:15:22	-->	kv (kv@Rizon-1B40D083.dsl.telepac.pt) has joined #rice
+2018-12-12 14:18:06	+Khorne	Ive been really enjoying MTGA btw enju 
+2018-12-12 14:20:09	@enju	nice
+2018-12-12 14:20:17	@enju	I need to get back into it, but smash ultimate
+2018-12-12 14:20:27	@enju	but yeah, it works pretty well
+2018-12-12 14:20:41	@enju	lets see if they add more backlog of cards over time
+2018-12-12 14:25:28	-->	bwlffy (~batelborg@Rizon-10C336D4.mem.bellsouth.net) has joined #rice
+2018-12-12 14:26:13	+Khorne	From all I gathered they wont really?
+2018-12-12 14:26:36	+Khorne	They wanna follow standard p much and rotate cards out even, possibly add a legacy format
+2018-12-12 14:27:02	+Khorne	Which is a bit sad but o well
+2018-12-12 14:28:31	-->	morpho (~morpho@B1E1E116.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-12 14:33:33	@enju	yeah, what ive heard too, just hoped to one day play modern
+2018-12-12 14:33:55	@enju	but I understand that they need time esp for the rule engine
+2018-12-12 14:34:43	morpho	is acetone stronger than turpentine?
+2018-12-12 14:36:17	+Khorne	enju, ye, I hope they just phase them in/add a mode for non-standard
+2018-12-12 14:36:49	+Khorne	At least it'd kinda suck to "lose" unlocked cards from previous rotations
+2018-12-12 14:37:16	@enju	I assume they are going to do it like Hearthstone
+2018-12-12 14:37:26	@enju	phase them out of "ranked" and add a wildcard/legacy mode
+2018-12-12 14:40:05	+Khorne	Ye
+2018-12-12 14:40:10	+Khorne	Would be fine with me
+2018-12-12 14:40:21	+Khorne	Also game runs nicely on wine
+2018-12-12 14:40:37	+Khorne	Even better than on Wangblows lul
+2018-12-12 14:40:43	+Khorne	Cant use emoteshit on Windows
+2018-12-12 14:43:16	<--	klaus (~klaus@4B2A9EC3.1967C4E2.861195DE.IP) has quit (Quit: Lost terminal)
+2018-12-12 14:43:52	-->	klaus (~klaus@4B2A9EC3.1967C4E2.861195DE.IP) has joined #rice
+2018-12-12 14:50:12	raph_ael	nobody tried vfio for gaming ? https://jcs.org/2018/11/12/vfio
+2018-12-12 14:50:14	+cappuccino	[ jcs.org ] OpenBSD in Stereo with Linux VFIO | joshua stein (text/html)
+2018-12-12 14:59:34	-->	Ivion (~ivion@22E9A204:8A19C2:40608628:IP) has joined #rice
+2018-12-12 15:00:07	<--	Etiv (~androirc@givemeavho.st) has quit (Read error: Connection reset by peer)
+2018-12-12 15:03:02	-->	mitologi (~Roben@AD1F06F8.ED2BD170.98B56AAA.IP) has joined #rice
+2018-12-12 15:03:11	<--	mitologi (~Roben@AD1F06F8.ED2BD170.98B56AAA.IP) has quit (Read error: Connection reset by peer)
+2018-12-12 15:03:34	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-12-12 15:05:36	<--	bwlffy (~batelborg@Rizon-10C336D4.mem.bellsouth.net) has quit (Read error: Connection reset by peer)
+2018-12-12 15:05:52	-->	bwlffy (~batelborg@Rizon-10C336D4.mem.bellsouth.net) has joined #rice
+2018-12-12 15:07:25	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Remote host closed the connection)
+2018-12-12 15:08:43	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-12-12 15:18:44	--	bwlffy is now known as lt
+2018-12-12 15:21:22	<--	lt (~batelborg@Rizon-10C336D4.mem.bellsouth.net) has quit (Read error: Connection reset by peer)
+2018-12-12 15:21:39	-->	bwlffy (~batelborg@Rizon-10C336D4.mem.bellsouth.net) has joined #rice
+2018-12-12 15:21:59	--	bwlffy is now known as lt
+2018-12-12 15:29:03	 *	Rue listens to https://www.youtube.com/watch?v=1iDTYnxCNXM
+2018-12-12 15:29:03	+cappuccino	[ youtube.com ] Dave Stewart - Zombie (Cranberries cover) - YouTube (text/html)
+2018-12-12 15:29:46	@enju	.np
+2018-12-12 15:29:47	+cappuccino	enju (nilejo) is now playing Fude Pen ~Ballpoint Pen~ by TomboFry
+2018-12-12 15:47:29	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-12-12 15:47:29	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-12-12 15:51:04	+nai	LambdaComplex: 6/8
+2018-12-14 17:54:35	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-12-14 17:54:35	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life | <@Leliana> my sister is pretty fuckable"
+2018-12-14 17:54:35	--	Topic set by Leliana (is@revthefox.co.uk) on Thu, 13 Dec 2018 16:28:46
+2018-12-14 17:54:35	--	Channel #rice: 167 nicks (9 ops, 0 halfops, 15 voices, 143 normals)
+2018-12-14 17:54:36	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-14 17:54:54	Ergo	i remember someone in here having some sort of app they use to watch anime and check theirl ibrary
+2018-12-14 17:55:03	Ergo	worked for tv shows as well, sadly ive forgotten its name 
+2018-12-14 17:56:35	pong	Ergo: sup
+2018-12-14 17:56:56	pong	u>their library?
+2018-12-14 17:56:59	pong	s/^u//
+2018-12-14 17:56:59	+cappuccino	pong meant to say: >their library?
+2018-12-14 17:57:20	+Khorne	v interesting suits 
+2018-12-14 17:57:23	+Khorne	NOT.
+2018-12-14 17:57:26	Ergo	pong: i meant the own library 
+2018-12-14 17:57:44	Ergo	someone  in here has created app that was great for managing your shows and stuff
+2018-12-14 17:57:52	Ergo	while keeping track of what youve see netc 
+2018-12-14 17:58:08	pong	myanimelist
+2018-12-14 17:58:09	pong	isnt it
+2018-12-14 17:58:13	Ergo	no lol 
+2018-12-14 17:58:20	+Khorne	it was onodera 
+2018-12-14 17:58:22	pong	sounuds like myanimelist
+2018-12-14 17:58:24	Ergo	thats neet 
+2018-12-14 17:58:27	Ergo	i mean something else
+2018-12-14 17:58:35	Ergo	i know what myanimelist is, but thats not what im talking about now 
+2018-12-14 17:58:38	-->	alan (alan@Rizon-C14DD8DD.rizonbnc.us.rizon.net) has joined #rice
+2018-12-14 17:58:50	+Khorne	sonarr
+2018-12-14 17:58:58	Ergo	thats for downloading 
+2018-12-14 17:58:59	+Khorne	plex
+2018-12-14 17:59:01	Ergo	also not what i mean lol 
+2018-12-14 17:59:04	Ergo	no no no 
+2018-12-14 17:59:07	+Khorne	Then fuck off
+2018-12-14 17:59:09	+Khorne	And think
+2018-12-14 17:59:12	Ergo	it was something a regular in this irc created 
+2018-12-14 17:59:19	+Khorne	Yes
+2018-12-14 17:59:20	+Khorne	onodera
+2018-12-14 17:59:24	Ergo	no
+2018-12-14 17:59:25	Ergo	thats neet 
+2018-12-14 17:59:29	Ergo	i think enju pointed me to it 
+2018-12-14 17:59:29	+Khorne	Yes.
+2018-12-14 17:59:35	Ergo	IM NOT TALKING BOUT NEET REEEE 
+2018-12-14 17:59:39	+Khorne	then stfu
+2018-12-14 18:00:06	Ergo	smh 
+2018-12-14 18:02:11	-->	somaulte (~somaulte@E01EA56F.646AA67D.2BDD0F91.IP) has joined #rice
+2018-12-14 18:14:34	+nai	enju: i am here
+2018-12-14 18:14:51	pong	Ergo: myanimuliss
+2018-12-14 18:14:56	pong	maybe try that instead
+2018-12-14 18:15:00	pong	list*
+2018-12-14 18:15:15	pong	as in try snagging that domain and cloning myanimelist
+2018-12-14 18:15:21	pong	looks like a fun project
+2018-12-14 18:15:23	Ergo	i have a myanimelist 
+2018-12-14 18:15:26	Ergo	nai: did you make it? 
+2018-12-14 18:15:35	+nai	did i make what
+2018-12-14 18:15:40	Ergo	nvm lol
+2018-12-14 18:15:45	+nai	...what
+2018-12-14 18:15:58	pong	nai: sup
+2018-12-14 18:16:06	+nai	soup
+2018-12-14 18:16:06	suits	.np
+2018-12-14 18:16:07	+cappuccino	suits (su1ts) is now playing Symphony No. 5 Mov. 1 (Warsaw Philharmonia orchestra, Benjamin Zander) by Ludwig van Beethoven
+2018-12-14 18:16:10	pong	I actually can't wait for winter break to be over
+2018-12-14 18:16:12	@Leliana	or just use IDNs to /look/ like the real hostname
+2018-12-14 18:16:15	@Leliana	phishing 101 kids
+2018-12-14 18:16:17	+nai	> not Symphony no. 7
+2018-12-14 18:16:22	pong	because next semester is time for mathematical logic
+2018-12-14 18:16:23	+nai	these german people have no taste
+2018-12-14 18:16:26	Ergo	well
+2018-12-14 18:16:26	pong	man
+2018-12-14 18:16:30	Ergo	atleast i ordered kebab 
+2018-12-14 18:16:41	+nai	pong: ooh
+2018-12-14 18:16:45	@Leliana	R E M O V E   K E B A B
+2018-12-14 18:16:53	+nai	next sem we do "theoretical computer science"
+2018-12-14 18:16:57	suits	the qlimax of that one is just the sickest
+2018-12-14 18:17:42	pong	nai: which side?
+2018-12-14 18:17:56	+nai	obviously computer science
+2018-12-14 18:18:08	pong	as in
+2018-12-14 18:18:19	pong	computability? algorithms?
+2018-12-14 18:18:24	+nai	ah
+2018-12-14 18:18:27	+nai	idk, some language theory
+2018-12-14 18:18:31	+nai	some computability
+2018-12-14 18:18:35	pong	o automata
+2018-12-14 18:18:39	pong	https://www.comp.nus.edu.sg/~fstephan/mathlogicug.html
+2018-12-14 18:18:41	+cappuccino	[ comp.nus.edu.sg ] Mathematical Logic (text/html)
+2018-12-14 18:18:44	pong	it's this guy teaching
+2018-12-14 18:18:52	+nai	can't wait to do grammars tbh
+2018-12-14 18:19:07	pong	I think he's like one of the few people
+2018-12-14 18:19:14	pong	who actually talks about partial recursive functions
+2018-12-14 18:19:21	pong	in an undergrad theory of comp course
+2018-12-14 18:19:22	+nai	nice
+2018-12-14 18:19:30	+nai	construct a bijection from ZxZ onto Z
+2018-12-14 18:19:36	+nai	pong: do it
+2018-12-14 18:19:59	pong	too easy lemme find a harder one for you
+2018-12-14 18:20:05	pong	try uhmm
+2018-12-14 18:20:17	+nai	:3
+2018-12-14 18:21:00	pong	2^Y and 2^(Y\X) where Y is big and X is countable
+2018-12-14 18:21:24	pong	heck just let Y=R
+2018-12-14 18:21:26	+nai	wtf is 2^Y
+2018-12-14 18:21:32	+nai	i don't know this notation
+2018-12-14 18:21:36	pong	oh
+2018-12-14 18:21:48	pong	set of all functions Y -> 2
+2018-12-14 18:21:50	suits	.np
+2018-12-14 18:21:51	+cappuccino	suits (su1ts) is now playing Contrapunctus IX (G. Gould) by Johann Sebastian Bach
+2018-12-14 18:21:52	+nai	is it the set of functions from R to two values
+2018-12-14 18:21:54	+nai	yeah
+2018-12-14 18:22:04	pong	2 := {0,1}
+2018-12-14 18:22:19	pong	we switch mode to set theory so
+2018-12-14 18:22:23	pong	abstraction is banned
+2018-12-14 18:22:27	+nai	wew
+2018-12-14 18:22:27	+cappuccino	w e w l a d
+2018-12-14 18:22:38	+nai	now what is Y/X
+2018-12-14 18:22:42	+nai	is it a quotient structure
+2018-12-14 18:22:45	pong	setminus
+2018-12-14 18:22:49	+nai	oh
+2018-12-14 18:22:51	pong	it's a backslash
+2018-12-14 18:22:52	+nai	it's a \
+2018-12-14 18:22:54	+nai	mb
+2018-12-14 18:23:10	+nai	well that's just hilbert's hotel isn't it
+2018-12-14 18:23:18	pong	something like that
+2018-12-14 18:23:18	+nai	just move every guest card(X) rooms away
+2018-12-14 18:23:26	+nai	well it's a bit harder
+2018-12-14 18:23:28	+nai	because of the 2^
+2018-12-14 18:23:47	pong	do you already know Schroeder Bernstein theorem?
+2018-12-14 18:23:51	+nai	no
+2018-12-14 18:24:09	pong	if X injects into Y and Y injects into X
+2018-12-14 18:24:13	pong	there exists a bijection
+2018-12-14 18:24:33	+nai	seems pretty intuitive
+2018-12-14 18:24:53	pong	it is
+2018-12-14 18:25:01	pong	but I think the theorem is dated after 1900
+2018-12-14 18:25:07	pong	so it's fairly recent
+2018-12-14 18:26:27	pong	nah turns out its like 1890ish
+2018-12-15 15:44:22	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-12-15 15:44:22	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life | <@Leliana> my sister is pretty fuckable"
+2018-12-15 15:44:22	--	Topic set by Leliana (is@revthefox.co.uk) on Thu, 13 Dec 2018 16:28:47
+2018-12-15 15:44:22	--	Channel #rice: 171 nicks (10 ops, 0 halfops, 16 voices, 145 normals)
+2018-12-15 15:44:24	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-15 15:46:13	onodera	https://youtu.be/VpyYO6DndeY?t=12 my turkish obsession :o
+2018-12-15 15:46:13	+cappuccino	[ youtu.be ] Birsen Tezer - Değirmenler / Nea Efessos Butik Otel / 10.08.2017 - YouTube (text/html)
+2018-12-15 15:46:29	onodera	54 views, beat me :p
+2018-12-15 15:46:48	+Rue	:P
+2018-12-15 15:49:43	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-15 15:50:12	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 15:50:12	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 15:55:12	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-15 15:55:17	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 15:55:17	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 16:00:20	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:00:20	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 16:00:20	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-15 16:08:55	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:08:55	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 16:10:38	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:13:59	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:13:59	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 16:16:48	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:19:03	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:19:03	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 16:22:13	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:22:17	-->	xynxynxyn (~xynxynxyn@94CAC382.1633AC77.5A3EA58D.IP) has joined #rice
+2018-12-15 16:23:41	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-15 16:24:07	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:24:07	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 16:24:30	<--	xynxynxyn (~xynxynxyn@94CAC382.1633AC77.5A3EA58D.IP) has quit
+2018-12-15 16:29:04	-->	xynxynxyn (~xynxynxyn@Rizon-6A2CD3C1.student.utwente.nl) has joined #rice
+2018-12-15 16:29:12	<--	xynxynxyn (~xynxynxyn@Rizon-6A2CD3C1.student.utwente.nl) has quit
+2018-12-15 16:30:16	 *	Rue pokes Khorne what's ya doing
+2018-12-15 16:34:10	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:34:10	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 16:36:28	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:40:13	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:40:13	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 16:42:48	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:48:17	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:48:17	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 16:48:49	@enju	sup party people
+2018-12-15 16:50:33	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:53:19	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 16:53:19	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 16:55:38	-->	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-15 16:56:28	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 16:58:39	+Rue	i killed them enju
+2018-12-15 16:58:41	+Rue	i killed them
+2018-12-15 16:58:52	@enju	nice can u end me too, thx
+2018-12-15 16:58:55	@enju	i mean
+2018-12-15 16:58:56	 *	Rue looks at the crime scene full of blood :(
+2018-12-15 16:58:57	@enju	how you doing
+2018-12-15 16:59:15	+Rue	i'm aiight
+2018-12-15 16:59:25	+Rue	cpt starting soon?
+2018-12-15 16:59:45	@enju	2h I think>
+2018-12-15 16:59:51	+Rue	i watched a tiny bit today of the rerun from last night
+2018-12-15 16:59:57	@enju	LCQ was fun
+2018-12-15 17:00:00	@enju	many fun picks
+2018-12-15 17:00:06	@enju	so many great sims
+2018-12-15 17:00:28	@enju	and a Sakura in top 8 had me hella hyped
+2018-12-15 17:00:34	+Rue	ya i saw a fwe
+2018-12-15 17:00:45	@enju	lost to the two grand finalists only so nice
+2018-12-15 17:00:45	+Rue	oh ya. i saw that sakura. played by a famous player, i dont remember his name now
+2018-12-15 17:01:12	+Rue	i'm guessing sim comeback is to counter menat?
+2018-12-15 17:01:14	+Rue	:D
+2018-12-15 17:01:16	@enju	Flaquito
+2018-12-15 17:01:28	@enju	dunno, socal had always good sims I think
+2018-12-15 17:02:51	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 17:02:51	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 17:02:52	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-15 17:08:04	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 17:08:04	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 17:11:03	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 17:16:35	onodera	Rue: https://twitter.com/evazhengll/status/1073935566436265985
+2018-12-15 17:16:36	+cappuccino	[ twitter.com ] Eva Zheng 郑怡斌 عائشة on Twitter: "World's fastest electric road car 1360HP NIO EP9 on test drive -Founded in 2014 in #China, N... (text/html)
+2018-12-15 17:16:39	onodera	do you know the song?
+2018-12-15 17:18:09	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 17:18:09	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 17:18:20	+Rue	no
+2018-12-15 17:18:23	+Rue	but if you like taht kind of song
+2018-12-15 17:18:31	+Rue	pretty much all chinese songs are like that
+2018-12-15 17:18:34	+Rue	:P
+2018-12-15 17:18:48	+Rue	browse through some music from taiwan
+2018-12-15 17:18:50	+Rue	:)
+2018-12-15 17:21:03	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 17:22:31	@enju	ooof Rue I found something you gonna love I think
+2018-12-15 17:22:53	onodera	ye i know lol
+2018-12-15 17:23:07	@enju	https://www.youtube.com/watch?v=O-28qkBb0H8 Rue 
+2018-12-15 17:23:07	+cappuccino	[ youtube.com ] Japanese City Pop, Soul and Jazz on Vinyl - YouTube (text/html)
+2018-12-15 17:23:13	@enju	onodera probably too
+2018-12-15 17:23:34	onodera	i do
+2018-12-15 17:24:11	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 17:24:11	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 17:24:37	onodera	>i'll never live in the 80s
+2018-12-15 17:25:01	+Rue	onodera: pop music is like all we have kek. well it's a lot more dominant i'd say
+2018-12-15 17:25:16	@enju	such a great set of songs
+2018-12-15 17:25:25	@enju	onodera >ill never live in the late 80s in japan
+2018-12-15 17:25:31	+Rue	enju: weeb dj xD
+2018-12-15 17:25:33	+Rue	:P
+2018-12-15 17:26:20	onodera	https://www.youtube.com/watch?v=312aDDHlrvI
+2018-12-15 17:26:21	+cappuccino	[ youtube.com ] 山口美央子 - 夢飛行 (FULL ALBUM) - YouTube (text/html)
+2018-12-15 17:26:25	onodera	such a good album
+2018-12-15 17:26:38	+Rue	onodera: a lot of old cantonese songs are pretty cool too. i dont understand them, but they sound pretty nice. 
+2018-12-15 17:26:40	onodera	tfw I know the first kanji of the album title
+2018-12-15 17:26:48	@enju	I want to get a mixer and move my amp and turntable to a dedicated space fo r it
+2018-12-15 17:26:49	onodera	"dream", man im such a weeb :3
+2018-12-15 17:26:58	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 17:27:47	@enju	I only know 槐
+2018-12-15 17:27:58	onodera	he's showing the cover
+2018-12-15 17:28:00	onodera	cool
+2018-12-15 17:28:51	@enju	yeah, its neat
+2018-12-15 17:29:15	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 17:29:15	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-15 17:29:51	@enju	oof this is playing, its nice and warm and comfy and I have some tea
+2018-12-15 17:30:01	@enju	do I start smoking indoors to not leave the comfort
+2018-12-15 17:30:26	@mobo	that's a dangerous game
+2018-12-15 17:30:31	+Rue	onodera: https://www.youtube.com/watch?v=5wmfXve11rM
+2018-12-15 17:30:32	+cappuccino	[ youtube.com ] 王菲 - 紅豆 - YouTube (text/html)
+2018-12-15 17:32:00	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-15 17:32:17	+Rue	onodera: https://www.youtube.com/watch?v=TUqKBTQizwA&list=PLBHgMN3r4ZNwObXsF5soCCCh0bvBNpgN2&index=2
+2018-12-15 17:32:18	+cappuccino	[ youtube.com ] 周蕙 Where Chou - 好想好好愛你 (官方版MV) - YouTube (text/html)
+2018-12-15 17:32:20	@enju	smoke indoors is uncomfy so im gonna move my ass outside
+2018-12-15 17:32:28	+Rue	see ? they all have that kind of vibe haha
+2018-12-15 17:34:50	+Rue	https://www.youtube.com/watch?v=Dw-R85AcN_w&list=PLA-9kehfPNSALTRPlPma_6P-21zBKfiBV&index=5
+2018-12-15 17:34:50	+cappuccino	[ youtube.com ] 萬芳 Wan Fang【新不了情 New everlasting love】Official Music Video - YouTube (text/html)
+2018-12-15 17:35:16	+Rue	man these old 90s music videos, mucho aesthetics
+2018-12-15 17:36:30	+Kosomonauto	aestheticos
+2018-12-15 17:36:48	@enju	https://twitter.com/y2k_aesthetic Rue 
+2018-12-15 17:36:48	+cappuccino	[ twitter.com ] Y2K Aesthetic Institute (@y2k_aesthetic) on Twitter (text/html)
+2018-12-15 17:39:48	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-15 17:39:48	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-15 17:42:38	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-15 17:50:32	<--	somaulte (~somaulte@E01EA56F.646AA67D.2BDD0F91.IP) has quit (Remote host closed the connection)
+2018-12-15 17:54:38	-->	cmx (~cmx@Rizon-A5FE29FA.dip0.t-ipconnect.de) has joined #rice
+2018-12-15 18:05:15	+Rue	https://www.youtube.com/watch?v=OtYDcJJejm8
+2018-12-15 18:05:16	+cappuccino	[ youtube.com ] Australia officially recognises West Jerusalem as Israel’s capital - YouTube (text/html)
+2018-12-15 18:40:45	-->	zakame (~zakame@B40FD4C4.29E51C24.98FA0D85.IP) has joined #rice
+2018-12-15 18:41:27	<--	cmx (~cmx@Rizon-A5FE29FA.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2018-12-15 18:46:05	<--	zakame (~zakame@B40FD4C4.29E51C24.98FA0D85.IP) has quit (Read error: Connection reset by peer)
+2018-12-15 18:47:02	@mobo	.fm
+2018-12-15 18:47:05	@mobo	.np
+2018-12-15 18:47:06	+cappuccino	mobo (wallace-aph) is now playing Penguin Penguin by Animal Collective
+2018-12-15 19:01:14	+nai	w e i r d 
+2018-12-15 19:01:19	-->	wentasah (~wentasah@793A48BD.AA6FFAE8.51D47E3A.IP) has joined #rice
+2018-12-15 19:01:19	<--	wentasah (~wentasah@793A48BD.AA6FFAE8.51D47E3A.IP) has quit (Connection closed)
+2018-12-15 19:07:05	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Quit: bye bye)
+2018-12-15 19:11:22	 *	nai is now playing Kétsarkú Mozgalom by Venetian Snares
+2018-12-15 19:11:27	<--	im0nde (~binaryple@Rizon-3A69605A.ipv6dyn.netcologne.de) has quit (Ping timeout: 240 seconds)
+2018-12-15 19:16:35	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Quit: Excess flood)
+2018-12-15 19:16:39	<--	Rue2 (~rue@Rizon-5C4A1318.dynamic-ip6.hinet.net) has quit
+2018-12-15 19:25:40	-->	im0nde (~binaryple@Rizon-5F655E8B.ipv6dyn.netcologne.de) has joined #rice
+2018-12-15 19:29:40	-->	ChibiFate (~chibifate@gnu.linux) has joined #rice
+2018-12-15 19:33:27	+Rue	enju: who this girl caster kek
+2018-12-15 19:33:50	+Rue	capcom unlocked a hidden caster
+2018-12-15 19:35:40	@enju	Rue she casted a bunch of NA Premieres
+2018-12-15 19:35:53	@enju	Dreamhack Montreal fe
+2018-12-15 19:36:28	+Rue	bonchan blondechan xD
+2018-12-15 19:40:38	@enju	fiesta
+2018-12-15 19:41:00	ChibiFate	howdy
+2018-12-15 19:41:10	Ergo	she hot? 
+2018-12-15 19:41:31	+Rue	nah
+2018-12-16 01:15:14	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-12-16 01:15:14	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life | <@Leliana> my sister is pretty fuckable"
+2018-12-16 01:15:14	--	Topic set by Leliana (is@revthefox.co.uk) on Thu, 13 Dec 2018 16:28:47
+2018-12-16 01:15:14	--	Channel #rice: 172 nicks (10 ops, 0 halfops, 16 voices, 146 normals)
+2018-12-16 01:15:15	oepsie	Not a big fan of the policies.
+2018-12-16 01:15:16	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-16 01:15:18	@enju	darkwater sonicfox can go fuckhimself I had to turn off showing likes on twitter because of him
+2018-12-16 01:15:23	@enju	he keeps liking furry porn
+2018-12-16 01:15:39	+darkwater	why dont you just unfollow him
+2018-12-16 01:15:40	Ergo	what do yall use for application launchers in openbox? 
+2018-12-16 01:15:44	+neeasade	my hair was poking out of my hoodie and someone thought that I had a 'wolfy' addon thing over my head
+2018-12-16 01:15:44	+neeasade	gottem
+2018-12-16 01:15:48	Ergo	just the right click menu? 
+2018-12-16 01:15:55	@enju	darkwater because he posts cool DBFZ tech I want to see
+2018-12-16 01:16:00	+neeasade	Ergo: or dmenu/rofi/the usual
+2018-12-16 01:16:06	@enju	Ergo rofi
+2018-12-16 01:16:15	Ergo	yee was just wondering if anyone actually used the right click menu 
+2018-12-16 01:16:26	@enju	when on ob I do a bit
+2018-12-16 01:16:27	+neeasade	I did when I hadn't heard of applicatino launchers
+2018-12-16 01:16:36	@enju	still mostly rofi
+2018-12-16 01:16:48	+mobo-deb	just use dmenu
+2018-12-16 01:16:51	oepsie	enju,my love.
+2018-12-16 01:16:53	+mobo-deb	rofi is bloat
+2018-12-16 01:16:55	+neeasade	I have yet to try rofi
+2018-12-16 01:16:59	+mobo-deb	don't
+2018-12-16 01:17:06	+neeasade	dmenyou
+2018-12-16 01:17:19	+neeasade	I would like to order something from dmenu
+2018-12-16 01:17:30	+mobo-deb	lol
+2018-12-16 01:17:44	@enju	I wanna be tracer. - I am already Tray, Sir
+2018-12-16 01:17:56	+darkwater	i was in a sushi restaurant this week where dmenu was a tablet
+2018-12-16 01:18:04	+neeasade	interesting
+2018-12-16 01:18:06	Ergo	dmenu gae 
+2018-12-16 01:18:10	Ergo	prefer rofi 
+2018-12-16 01:18:11	@enju	disgusting darkwater 
+2018-12-16 01:18:14	+neeasade	what if you have greasy hands darkwater 
+2018-12-16 01:18:15	@enju	public touchscreens
+2018-12-16 01:18:18	+neeasade	^
+2018-12-16 01:18:24	@enju	haram
+2018-12-16 01:18:25	Ergo	i wish 2bwm didnt fuck with native steam games 
+2018-12-16 01:18:33	+darkwater	ever heard of cutlery neeasade 
+2018-12-16 01:18:40	Ergo	so now i have to look for a new wm ====) 
+2018-12-16 01:18:49	+neeasade	darkwater: that works on a tablet??
+2018-12-16 01:18:52	+neeasade	coolio
+2018-12-16 01:18:58	+neeasade	Ergo: bspwm
+2018-12-16 01:19:03	+darkwater	yes so you can just keep eating with your fingers
+2018-12-16 01:19:04	@enju	Ergo I run both ob and 2bwm on my desktop for that reason
+2018-12-16 01:19:17	@enju	darkwater I doubt they clean those tablets too often tho
+2018-12-16 01:19:22	+darkwater	they better
+2018-12-16 01:19:26	+neeasade	what do you guys mean 'fuck with native steam games'
+2018-12-16 01:19:29	+darkwater	iunnno
+2018-12-16 01:19:38	+neeasade	like true fullscreen/takeover display?
+2018-12-16 01:19:39	Ergo	enju: seems like venam would wanna look into fixing it 
+2018-12-16 01:19:45	@enju	neeasade yeah
+2018-12-16 01:19:49	Ergo	but im to dumb to help him 
+2018-12-16 01:19:49	Ergo	lol 
+2018-12-16 01:19:50	oepsie	enju, my love, let's spoon togethr with your nose in my hair
+2018-12-16 01:19:51	+neeasade	enju: gotcha 
+2018-12-16 01:19:59	@enju	oepsie imma pass on that
+2018-12-16 01:20:09	Ergo	like he asked me for the window properties 
+2018-12-16 01:20:14	@Leliana	enju: can we spoon?
+2018-12-16 01:20:16	@Leliana	I'll be gentle
+2018-12-16 01:20:33	oepsie	Leliana, your hair isn't proper for it
+2018-12-16 01:21:08	@enju	Leliana if you are under 6'5 no thanks
+2018-12-16 01:21:14	Ergo	6,5 yikes
+2018-12-16 01:21:26	@Leliana	enju: you can spoon me then
+2018-12-16 01:21:29	@enju	I only date basketball players
+2018-12-16 01:21:40	@Leliana	and black men
+2018-12-16 01:21:45	@enju	female, 6'5, asian
+2018-12-16 01:21:47	+darkwater	.selfie enju 
+2018-12-16 01:21:47	+cappuccino	(1) https://i.imgur.com/oo9dQdU.jpg [enju]
+2018-12-16 01:21:49	@enju	a very specific type
+2018-12-16 01:22:08	+neeasade	enju: want
+2018-12-16 01:22:29	+neeasade	female 6'5 asian to beat me up at night
+2018-12-16 01:22:35	@enju	i want a middle aged, asian sugar momma
+2018-12-16 01:22:40	+Cosumu	wtf
+2018-12-16 01:22:48	@Leliana	enju: that'd be nice tbh
+2018-12-16 01:24:03	@enju	i ran out of weed, fuck
+2018-12-16 01:24:23	@Leliana	it's OK I have some gorilla glue
+2018-12-16 01:24:26	@Leliana	so strong
+2018-12-16 01:24:37	oepsie	enju, is that really you?
+2018-12-16 01:24:37	@Leliana	we can smoke while we spoon
+2018-12-16 01:24:44	Ergo	maybe i will try bspwm in floating mode 
+2018-12-16 01:24:44	oepsie	You have haircut of a fine German scheiße porn produce.
+2018-12-16 01:24:49	Ergo	i know some people do that 
+2018-12-16 01:24:54	+neeasade	sure
+2018-12-16 01:25:03	@enju	oepsie picture is old, am bald now
+2018-12-16 01:25:14	Ergo	how bald 
+2018-12-16 01:25:22	+neeasade	full on bb
+2018-12-16 01:25:27	@enju	shave
+2018-12-16 01:25:29	+darkwater	unban hair
+2018-12-16 01:25:36	oepsie	enju, hmm
+2018-12-16 01:25:39	@enju	actually im at about 1mm rn
+2018-12-16 01:25:43	oepsie	No bald is not the German scheiße porn producer look
+2018-12-16 01:25:45	oepsie	But that haircut is
+2018-12-16 01:26:31	@enju	Ergo i3 works better in floating imo compared to bspwm
+2018-12-16 01:26:56	Ergo	but i like bspwm 
+2018-12-16 01:27:01	Ergo	+ sxhkd is really nice 
+2018-12-16 01:27:16	+neeasade	max comf
+2018-12-16 01:27:25	Ergo	i havent tried bspwm in a while actually 
+2018-12-16 01:27:30	@enju	try windowchef
+2018-12-16 01:27:31	+darkwater	i forgot why i switched back to i3
+2018-12-16 01:27:34	@enju	btw
+2018-12-16 01:27:46	@enju	also uses sxhkd
+2018-12-16 01:27:54	Ergo	honestly 
+2018-12-16 01:27:57	Ergo	i can live without 2bwm 
+2018-12-16 01:28:02	Ergo	but the way it handles fullscreen video 
+2018-12-16 01:28:05	@enju	i dont
+2018-12-16 01:28:06	Ergo	i cant live without that 
+2018-12-16 01:28:28	+neeasade	I don't float bspwm v much
+2018-12-16 01:28:28	@enju	i dont see myself moving away from it
+2018-12-16 01:28:29	+neeasade	https://0x0.st/sDUo.png
+2018-12-16 01:28:41	Ergo	enju: i love 2bwm 
+2018-12-16 01:28:50	Ergo	just the way it interacts with native steam games is a pain in the ass 
+2018-12-16 01:29:15	Ergo	but as i was saying, seems like venam wanted to fix it. i wanted to help him debug but it was late and fell asleep lol 
+2018-12-16 01:29:16	@enju	neeasade the lack of padding is disturbing
+2018-12-16 01:29:30	+neeasade	enju: FUCK
+2018-12-16 01:29:34	+neeasade	yeah it is
+2018-12-16 01:29:45	+neeasade	I was trying something else out and forgot to re-add padding
+2018-12-16 01:29:57	+neeasade	I used double border script as global padding
+2018-12-16 01:30:00	Ergo	fuck
+2018-12-16 01:30:02	Ergo	i wiped my old hard drive
+2018-12-16 01:30:06	+neeasade	so things like browser could also pad
+2018-12-16 01:30:09	+neeasade	and be in comf land
+2018-12-16 01:30:12	Ergo	which was intended, but i lsot all my wallpapers 
+2018-12-16 01:30:23	@enju	neeasade comfy, used to do that with 2bwm a while
+2018-12-16 01:30:32	+neeasade	enju: nice
+2018-12-16 01:30:35	@enju	stopped caring once I stopped caring about firefox themes
+2018-12-16 01:30:43	@enju	cant be arsed to keep it working
+2018-12-16 01:30:51	+neeasade	I'm over here looking QUTE so that's ok
+2018-12-16 01:30:52	Ergo	is 2bwm your main wm enju ? 
+2018-12-16 01:30:57	@enju	yes
+2018-12-16 01:31:14	Ergo	then why are those dots not on your git smh 
+2018-12-16 01:31:15	@enju	my browser is on its own workspace 99% of the time so idc how it looks
+2018-12-16 01:31:22	@enju	fullscreen aswell
+2018-12-16 01:31:41	@enju	.dt
+2018-12-16 01:31:41	+cappuccino	(1) https://enju.pw/rice | (2) https://enju.pw/img/75e4.png | (3) https://enju.pw/img/d86a.png [enju]
+2018-12-16 01:32:25	@enju	I dunno why it took me so long to realise you could pass URLs to feh
+2018-12-16 01:32:28	Ergo	lol 
+2018-12-16 01:32:39	Ergo	well , i guess i will have to find some new wallpapers
+2018-12-16 01:32:40	@Leliana	B L O A T
+2018-12-16 01:32:42	Ergo	off to /w/ we go 
+2018-12-16 01:33:09	@enju	whack
+2018-12-16 01:33:23	@enju	real men browse flickr and 500px for them
+2018-12-16 01:33:30	Ergo	but 
+2018-12-16 01:33:34	Ergo	animu 
+2018-12-16 01:33:35	Ergo	wall
+2018-12-16 01:33:36	Ergo	papers
+2018-12-16 01:33:48	@enju	dropped
+2018-12-16 01:33:57	Ergo	i use solid color or anime wallpapers 
+2018-12-16 01:34:17	+neeasade	unsplash
+2018-12-16 01:34:17	Ergo	i dont use the low tier i3 waifu wallpapers tho 
+2018-12-16 01:34:41	@Leliana	remember how shit photobucket used to be
+2018-12-16 01:34:45	@Leliana	slow as shit, no direct links
+2018-12-16 01:34:57	@Leliana	pages riddled with scripts
+2018-12-16 01:35:07	Ergo	yo fuck people who post wallpapers on /w/ threads that are under 1mb 
+2018-12-16 01:35:27	@Leliana	what
+2018-12-16 01:35:32	+darkwater	http://dark.red/misc/wallpapers/headphone-boy.png
+2018-12-16 01:35:36	+darkwater	anime wallpapers are necessary
+2018-12-16 01:35:36	Ergo	or rather, post bad quality wallpapers 
+2018-12-16 01:37:43	<--	mobo-deb (~wallace@Rizon-D2E2D0A0.host.ussignalcom.net) has quit (Quit: WeeChat 1.6)
+2018-12-16 01:38:30	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Quit: Excess flood)
+2018-12-16 01:40:37	<--	liszt (uid336875@Rizon-A9C6AA50.brockwell.irccloud.com) has quit
+2018-12-16 01:40:50	Ergo	i like pixelart wallpapers 
+2018-12-16 01:43:39	@enju	I like pixelart
+2018-12-16 01:43:51	oepsie	darkwater, maar jij houdt toch wel van mijnen dreadlocks en zo?
+2018-12-16 01:44:02	Ergo	waarom praten we nu godverdomme nederlands 
+2018-12-16 01:44:13	Ergo	enju: you have some nice wallpapers or places to find pixelart? 
+2018-12-16 01:44:50	oepsie	Ergo, ah schat, je sprekt het ook.
+2018-12-16 01:45:12	Ergo	im from the netherlands 
+2018-12-16 01:45:31	@enju	2 many dutch people in here
+2018-12-16 01:45:34	oepsie	Ergo, de korthaar is het vuil der aarde — hij verdient enen gruwelijken dood en een eeuwigheid in der helle vure.
+2018-12-16 01:45:44	Ergo	ur not dutch are you? 
+2018-12-16 01:45:45	oepsie	Ergo, I had no idea.
+2018-12-16 01:45:48	oepsie	Ergo, why not?
+2018-12-16 01:45:57	Ergo	the way you write, its a bit different 
+2018-12-16 01:46:06	oepsie	Ergo, hmm
+2018-12-16 01:46:07	Ergo	even when ur clearly meming 
+2018-12-16 01:46:08	oepsie	In what way?
+2018-12-16 01:46:09	Ergo	or not meming 
+2018-12-16 01:46:16	+darkwater	nah hes serious
+2018-12-16 01:46:24	Ergo	hij verdiend enen gruwelijken dood 
+2018-12-16 01:46:29	oepsie	verdient*
+2018-12-16 01:46:30	Ergo	no one here actually writes like that 
+2018-12-16 01:46:31	oepsie	dt-fout, makker.
+2018-12-16 01:46:34	+darkwater	he's stuck in the past
+2018-12-16 01:46:43	Ergo	so ur either meming or from belgium 
+2018-12-16 01:46:45	@enju	thats just oepsie for you
+2018-12-16 01:46:45	oepsie	Ergo, hmm, what's rong with it?
+2018-12-16 01:46:52	oepsie	Ergo, no, from Weesp.
+2018-12-16 01:47:01	oepsie	Gooisch.
+2018-12-16 01:47:09	oepsie	Echte gooibral.
+2018-12-16 01:47:15	-->	liszt (~liszt@Rizon-2D7AB8B5.ircbox.org) has joined #rice
+2018-12-16 01:47:16	Ergo	is that how people actually talk over there ? 
+2018-12-16 01:47:33	@enju	Dutch in general is just a german who had a stroke
+2018-12-16 01:47:42	+darkwater	no its the other way around
+2018-12-16 01:47:43	oepsie	Ergo, ehh
+2018-12-16 01:47:45	oepsie	I do anyway.
+2018-12-16 01:47:58	Ergo	i mean, i dont care 
+2018-12-16 01:48:04	Ergo	just never saw it before 
+2018-12-16 01:48:06	oepsie	Ergo, hmm
+2018-12-16 01:48:09	oepsie	so how would you say it?
+2018-12-16 01:48:25	Ergo	enen would just be een , mijnen would just be mijn 
+2018-12-16 01:48:26	Ergo	etc 
+2018-12-16 01:48:38	oepsie	Huh
+2018-12-16 01:49:03	oepsie	That makes no sense
+2018-12-16 01:49:04	@enju	darkwater all that cheese must have cooked y'all brains
+2018-12-16 01:49:14	oepsie	that declines "mijnen dreadlocks" as if it's neuter nominative, not dative plural.
+2018-12-16 01:49:14	Ergo	what do you mean that makes no sense 
+2018-12-16 01:49:28	oepsie	Tht sounds really wrong to my ear
+2018-12-16 01:49:33	Ergo	i mean sure, but nobody actually cares about that in speaking language 
+2018-12-16 01:49:34	+darkwater	your ear is wrong
+2018-12-16 01:49:40	oepsie	Ahh
+2018-12-16 01:49:42	oepsie	hmm, weird.
+2018-12-16 01:49:47	+darkwater	language evolves
+2018-12-16 01:49:59	Ergo	like i live in venlo, but go to uni in tilburg 
+2018-12-16 01:50:06	Ergo	also been to the randstad alot, lived in amsterdam
+2018-12-16 01:50:13	oepsie	Hmm
+2018-12-16 01:50:14	Ergo	nowhere where ive been, people talk like that 
+2018-12-16 01:50:23	oepsie	Hmm
+2018-12-16 01:50:28	oepsie	wEll I don't talk to people on the street I guess
+2018-12-16 01:50:46	+darkwater	did you learn dutch through a time machine?
+2018-12-16 01:50:59	oepsie	Well I never really go outside and talk.
+2018-12-16 01:51:05	oepsie	I mostly learnt it from rading the Dutch bible.
+2018-12-16 01:51:07	Ergo	what about family and stuff 
+2018-12-16 01:51:09	oepsie	Like the Statenvertaling.
+2018-12-16 01:51:24	Ergo	are you from the bijbelgordel?
+2018-12-16 01:51:28	Ergo	or riem, i guess 
+2018-12-16 01:51:29	oepsie	NAhh
+2018-12-16 01:51:36	oepsie	I don't believe that.
+2018-12-16 01:51:38	oepsie	I'm from Weesp.
+2018-12-16 01:51:45	oepsie	Though I used to live in Utrecht
+2018-12-16 01:51:47	@enju	taking all that bait for free omegalul
+2018-12-16 01:51:54	Ergo	how should i know reee 
+2018-12-16 01:52:01	Ergo	i dont wanna meme on someone while he is speaking the truth 
+2018-12-16 01:52:13	Ergo	maybe i offend someone smh 
+2018-12-16 01:52:23	oepsie	Well that does sound Venlo to be honest
+2018-12-16 01:52:25	@enju	just always meme
+2018-12-16 01:52:26	oepsie	being afraid of offending peope
+2018-12-16 01:52:30	oepsie	True randstad mentality is not caring.
+2018-12-16 01:52:39	@enju	if someone is offended just say "just a meme bro"
+2018-12-16 01:52:48	@enju	u might just make president in the us
+2018-12-16 01:52:50	Ergo	did i say im from venlo? 
+2018-12-16 01:53:19	Ergo	ah ye i did 
+2018-12-16 01:53:22	Ergo	i thought i just said limburg 
+2018-12-16 01:54:03	oepsie	Ergo,anyway of course I'm joking.
+2018-12-16 01:54:11	oepsie	But yeah I did teach myself to speak the Dtch from the golden age
+2018-12-16 01:54:13	oepsie	For whatever reason
+2018-12-16 01:54:14	oepsie	I like it more
+2018-12-16 01:54:16	Ergo	yeee that makes sense 
+2018-12-16 01:54:21	oepsie	And you can feel superior with it.
+2018-12-16 01:54:27	oepsie	And be like "pfah, my Dutch is better than yours"
+2018-12-16 01:54:27	Ergo	still, ive met some odd people on linux related chats 
+2018-12-16 01:54:30	Ergo	so you can never be too sure 
+2018-12-16 01:54:33	oepsie	I am odd.
+2018-12-16 01:54:37	oepsie	Doing this is pretty odd.
+2018-12-16 01:54:41	@enju	i too met odd people
+2018-12-16 01:54:52	Ergo	I mean, i would say that im a pretty normal person 
+2018-12-16 01:54:52	@enju	those dutch creep me out
+2018-12-16 01:55:11	Ergo	i feel like most people in this chat are too 
+2018-12-16 01:55:17	Ergo	as far as linux related chats go 
+2018-12-16 01:55:19	@enju	Ergo I dont believe you
+2018-12-16 01:55:26	@enju	ive never met a normal dutch person online
+2018-12-16 01:55:36	Ergo	im hella normal 
+2018-12-16 01:56:04	Ergo	normally i would be in the city drinking right now 
+2018-12-16 01:56:21	Ergo	but i got a cold sore rip 
+2018-12-16 01:56:41	@enju	i was already out drinking
+2018-12-16 01:56:44	@enju	and came back
+2018-12-16 01:56:52	@enju	to watch people play video games for money
+2018-12-16 01:56:59	@enju	and kept drinking while doing that
+2018-12-16 01:57:02	Ergo	pog 
+2018-12-16 01:57:06	Ergo	whom are you watching? 
+2018-12-16 01:57:17	@enju	capcom cup
+2018-12-16 01:57:20	@enju	street fighter
+2018-12-16 01:58:21	Ergo	im watching my boi xqc lol 
+2018-12-16 01:58:32	@enju	ew
+2018-12-16 01:58:37	@enju	cant stand the gyu
+2018-12-16 01:58:43	Ergo	i like him 
+2018-12-16 01:58:48	Ergo	altho i cant watch him for toooo long 
+2018-12-16 01:58:59	@enju	washed up OW player
+2018-12-16 01:59:00	Ergo	i love how much he grew after leaving overwatch tho 
+2018-12-16 01:59:15	Ergo	i mean you say that, but since he got banned and went variety his average viewer count doubled 
+2018-12-16 01:59:19	Ergo	OW actually held him back 
+2018-12-16 01:59:46	@enju	i mostly cant stand streams with more than a couple hudnred viewers max
+2018-12-16 02:00:32	Ergo	i mean the chat is obnoxious 
+2018-12-16 02:00:35	@enju	i mostly watch sf players who all have sub 100 viewers lmao
+2018-12-16 02:00:37	Ergo	but xqc can be fun to watch sometimes 
+2018-12-16 02:00:45	Ergo	rip danteh :( 
+2018-12-16 02:00:47	@enju	chat is till, yo uactually can interact with the streamer
+2018-12-16 02:00:53	Ergo	yee thats true 
+2018-12-16 02:01:05	@enju	chill*
+2018-12-16 02:01:17	@enju	mostly I just watch esport tho
+2018-12-16 02:01:37	Ergo	yeee same 
+2018-12-16 02:01:40	@enju	without chat
+2018-12-16 02:01:45	Ergo	then again, xqc's stream has golden moments like thi 
+2018-12-16 02:01:46	Ergo	https://clips.twitch.tv/AnimatedRealTubersKeyboardCat
+2018-12-16 02:01:48	+cappuccino	[ clips.twitch.tv ] Twitch (text/html)
+2018-12-16 02:01:49	<--	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-12-16 02:02:06	Ergo	i actually died watching this 
+2018-12-16 02:02:34	Ergo	this longer version is actually funnier enju  - https://clips.twitch.tv/SpotlessBovineRabbitSoonerLater
+2018-12-16 02:02:35	+cappuccino	[ clips.twitch.tv ] Twitch (text/html)
+2018-12-16 02:02:53	@enju	i ban u if it isnt funny
+2018-12-16 02:03:05	Ergo	brb smoke , watch the second link 
+2018-12-16 02:03:48	@enju	seen dat I think
+2018-12-16 02:03:51	@Leliana	enju: even if it is funny, ban him
+2018-12-16 02:04:07	@enju	its p funny so im not gonna :')
+2018-12-16 02:04:52	@Leliana	no balls
+2018-12-16 02:05:15	@enju	just standing by my word
+2018-12-16 02:05:45	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-16 02:07:32	+Cosumu	oink^850923486304986
+2018-12-16 02:09:03	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-16 02:09:03	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-16 02:10:45	-->	mobo (~mobo@steal.softly.thru.snow) has joined #rice
+2018-12-16 02:10:45	--	Mode #rice [+o mobo] by Onee-chan
+2018-12-16 02:17:26	Ergo	enju a real man of his word 
+2018-12-16 02:18:52	+LambdaComplex	hello #rice 
+2018-12-16 02:19:11	+LambdaComplex	what are the latest memes in the ricing world
+2018-12-16 02:20:59	+LambdaComplex	>Arch is really good to learn Linux, I use manjaro as my daily driver bevause it's painless to install.
+2018-12-16 02:21:08	+LambdaComplex	Leliana someone is being wrong on the internet https://old.reddit.com/r/unixporn/comments/a6fpo4/i3gaps_first_time_im_really_satisfied_with_my/ebvne3h/
+2018-12-16 02:21:09	+cappuccino	[ old.reddit.com ] Cookie2k comments on [i3-gaps] First time I'm really satisfied with my setup (text/html)
+2018-12-16 02:21:14	+LambdaComplex	go call them a retard if you're bored
+2018-12-16 02:21:29	Ergo	lol 
+2018-12-16 02:21:46	Ergo	manjaro actually garbage 
+2018-12-16 02:21:51	Ergo	atleast like use antergos 
+2018-12-16 02:21:59	+LambdaComplex	Leliana the OP is retarded too https://old.reddit.com/r/unixporn/comments/a6fpo4/i3gaps_first_time_im_really_satisfied_with_my/ebuz4v2/
+2018-12-16 02:22:00	+cappuccino	[ old.reddit.com ] adriencarbonaro comments on [i3-gaps] First time I'm really satisfied with my setup (text/html)
+2018-12-16 02:22:03	+LambdaComplex	>I think that I could save some storage with Arch I mean just gnome and other softwares are really taking some space that I don't use!
+2018-12-16 02:22:17	+LambdaComplex	you should tell them about how Arch doesn't ever split packages so Ubuntu (their current distro) will actually save them disk space
+2018-12-16 02:22:45	@enju	year ofthe lord 2018
+2018-12-16 02:22:49	@enju	caring about disk space
+2018-12-16 02:22:51	+sj1k	But Ubuntu has softwares like the gnome and others
+2018-12-16 02:22:53	@enju	my sides
+2018-12-16 02:22:54	@Leliana	LambdaComplex: I don't care if people are wrong on unixporn
+2018-12-16 02:22:59	@enju	ssds are like 3 euro
+2018-12-16 02:23:03	@Leliana	it's shit anyway
+2018-12-16 02:23:04	Ergo	> not having a 500gig ssd 
+2018-12-16 02:23:16	+LambdaComplex	Leliana: true
+2018-12-16 02:23:26	@enju	i bought a 120gb ssd for 18 euro
+2018-12-16 02:23:37	@Leliana	besides, > implying I even browse unixporn
+2018-12-16 02:23:43	@enju	if ram could be cheap now thanks
+2018-12-16 02:23:46	Ergo	yeee
+2018-12-16 02:23:55	@Leliana	enju: your mother is cheap
+2018-12-16 02:23:56	Ergo	memory prices are the only thing pushing up pc prices 
+2018-12-16 02:23:57	@Leliana	and she gets rammed
+2018-12-16 02:24:00	@Leliana	ayy
+2018-12-16 02:24:04	Ergo	worst thing is that their price fixing got exposed
+2018-12-16 02:24:04	ChibiFate	enju: where? :(
+2018-12-16 02:24:05	@enju	oof
+2018-12-16 02:24:10	Ergo	so i wonder if prices will go down now 
+2018-12-16 02:24:10	@enju	ChibiFate amazon
+2018-12-16 02:24:27	@enju	Ergo give it a few months and it will
+2018-12-16 02:24:34	ChibiFate	i hate living in a third world country >.<
+2018-12-16 02:24:36	@enju	until the next upswing for crypto again
+2018-12-16 02:24:37	Ergo	yeee , i just bought a new cpu, mobo and memory tho 
+2018-12-16 02:24:41	@Leliana	I remember start of last year I got 2x4GB for about £50
+2018-12-16 02:24:41	Ergo	sold my 6700k set and got ryzen 2600 
+2018-12-16 02:24:45	@Leliana	what happe- oh, bitcoin
+2018-12-16 02:24:55	Ergo	Leliana: when i build my first pc like 3 years ago i got 16 gigs for 70 
+2018-12-16 02:25:01	@enju	i bought 16gb for 200
+2018-12-16 02:25:09	ChibiFate	ddr4 was cheap af in 2016
+2018-12-16 02:25:14	@enju	for my pc before that i had 64 for that price
+2018-12-16 02:25:18	Ergo	yeee 
+2018-12-16 02:25:19	@enju	ddr4 was a mistake
+2018-12-16 02:25:20	Ergo	its actually insane 
+2018-12-16 02:25:23	ChibiFate	$60-70 for 16gb
+2018-12-16 02:25:25	Ergo	nah, ddr4 was fine 
+2018-12-16 02:25:31	Ergo	price fixing fucked so many people
+2018-12-16 02:25:37	@Leliana	also crypto
+2018-12-16 02:25:40	@enju	and ram mining
+2018-12-16 02:25:41	Ergo	i wonder if they will get any big sanctions 
+2018-12-16 02:25:47	@Leliana	lol
+2018-12-16 02:25:50	@Leliana	not likely
+2018-12-16 02:25:53	Ergo	prolly not ye 
+2018-12-16 02:25:57	@enju	highly unlikely
+2018-12-16 02:26:05	Ergo	i mean intel got a p big fine when they got exposed for their fucking of amd 
+2018-12-16 02:26:07	@enju	not that 16 isnt enough for me
+2018-12-16 02:26:10	@enju	32 would be nice
+2018-12-16 02:26:11	@Leliana	Ergo: have you not learned yet?
+2018-12-16 02:26:16	Ergo	but in the grand scheme of thing it wasnt that big 
+2018-12-16 02:26:19	@Leliana	laws don't matter if you have obscene amounts of money
+2018-12-16 02:26:21	Ergo	compared to how much they earned of it 
+2018-12-16 02:26:44	+LambdaComplex	tfw Leliana says something smart
+2018-12-16 02:27:03	+Cosumu	mfw
+2018-12-16 02:27:06	@Leliana	I...do that often?
+2018-12-16 02:27:06	-->	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has joined #rice
+2018-12-16 02:27:12	+LambdaComplex	( ͡° ͜ʖ ͡°)
+2018-12-16 02:27:20	@enju	Leliana yeah, and the consumer gets fucked in the end. newest example: VW and the Diesel shit
+2018-12-16 02:27:34	@Leliana	see also: deepwater horizon
+2018-12-16 02:27:42	@enju	>VW and all other makes fuck with their testing
+2018-12-16 02:27:42	+LambdaComplex	see also: equifax
+2018-12-16 02:27:44	@Leliana	AKA BP's huge fuckup
+2018-12-16 02:27:49	@enju	>consumer now has to pay more for diesel
+2018-12-16 02:28:00	Ergo	unlucky 
+2018-12-16 02:28:07	Ergo	all govs should go communism 
+2018-12-16 02:28:11	Ergo	all problems solved 
+2018-12-16 02:28:30	+LambdaComplex	i'll probably never get to punch ajit pai in the face
+2018-12-16 02:28:36	+LambdaComplex	would communism solve that problem, Ergo?
+2018-12-16 02:28:42	@Leliana	not with that attitude you won't
+2018-12-16 02:28:52	@enju	LambdaComplex please, just get in your car and drive to washington
+2018-12-16 02:28:57	@enju	wait for him at his home
+2018-12-16 02:29:01	@enju	punch him
+2018-12-16 02:29:03	@enju	done
+2018-12-16 02:29:07	+LambdaComplex	get arrested
+2018-12-16 02:29:09	+LambdaComplex	????
+2018-12-16 02:29:11	+LambdaComplex	profit!(?)
+2018-12-16 02:29:13	@enju	so
+2018-12-16 02:29:17	@enju	you got to punch him
+2018-12-16 02:29:20	@Leliana	nobody ever changed the world by following the rules
+2018-12-16 02:29:24	@enju	no one said there wouldnt be consequences
+2018-12-16 02:29:44	Ergo	i actually had to look up ajit pai 
+2018-12-16 02:29:47	@Leliana	just think LambdaComplex
+2018-12-16 02:29:51	@Leliana	you could be a national hero
+2018-12-16 02:29:53	@Leliana	like batman, or jesus
+2018-12-16 02:30:56	@enju	yall hyped for article 13
+2018-12-16 02:30:59	@enju	i cant wait
+2018-12-16 02:31:28	+LambdaComplex	Ergo: basically his job is to say "fuck you" to like 90% of the american population
+2018-12-16 02:31:30	ChibiFate	what's that
+2018-12-16 02:31:31	+LambdaComplex	no, wait
+2018-12-16 02:31:34	+LambdaComplex	his job is to help the american people
+2018-12-16 02:31:41	+LambdaComplex	but the telecom industry is paying him and i guess we aren't
+2018-12-16 02:31:43	Ergo	i mean, American politics are a joke anyways 
+2018-12-16 02:31:49	+LambdaComplex	that's the problem
+2018-12-16 02:31:57	+LambdaComplex	well
+2018-12-16 02:32:01	Ergo	like im not saying EU or the netherlands is good 
+2018-12-16 02:32:02	+LambdaComplex	i think the main problem is that people are fucking retarded
+2018-12-16 02:32:05	Ergo	but its atleast better then NA 
+2018-12-16 02:32:10	+neeasade	there was a maga hat at the company white elephant gift exchange
+2018-12-16 02:32:19	@enju	https://www.wired.co.uk/article/what-is-article-13-article-11-european-directive-on-copyright-explained-meme-ban ChibiFate 
+2018-12-16 02:32:20	+cappuccino	[ wired.co.uk ] What is Article 13 and Article 11? The EU's "meme ban" copyright plan explained | WIRED UK (text/html)
+2018-12-16 02:32:20	+neeasade	got dropped and everyone made a big show of oh noo
+2018-12-16 02:32:37	+LambdaComplex	when was america great?
+2018-12-16 02:32:47	+LambdaComplex	well, i guess post-ww2 was pretty nice if you were white
+2018-12-16 02:32:51	+neeasade	LambdaComplex: today, in some parts
+2018-12-16 02:32:59	+neeasade	just like in post-ww2, in some parts
+2018-12-16 02:33:02	@enju	LambdaComplex 1775
+2018-12-16 02:33:11	+neeasade	:^)
+2018-12-16 02:33:23	Ergo	damn 
+2018-12-16 02:33:26	Ergo	i need a second monitor 
+2018-12-16 02:33:32	+LambdaComplex	yes you do
+2018-12-16 02:33:33	-->	mobo2 (~mobo@Rizon-C2739D6E.sub-97-46-1.myvzw.com) has joined #rice
+2018-12-16 02:33:35	Ergo	how do people live with 1 
+2018-12-16 02:33:40	+LambdaComplex	like peasants
+2018-12-16 02:33:41	@enju	I need a fourth monitor tbh
+2018-12-16 02:33:42	+neeasade	I went from 3 to one
+2018-12-16 02:33:45	+neeasade	it's great
+2018-12-16 02:33:47	Ergo	i used to have 2 
+2018-12-16 02:34:01	+LambdaComplex	i have a main monitor and a smaller vertical one that mainly just gets used for IRC
+2018-12-16 02:34:03	+LambdaComplex	it's pretty great
+2018-12-16 02:34:13	@enju	neeasade the whole "america is already great" thing is what helped win Trump that election
+2018-12-16 02:34:33	Ergo	i used to have a teelvision
+2018-12-16 02:34:36	+neeasade	enju: yes I'm just annoyed that anyone brought the hat in/to work
+2018-12-16 02:34:38	Ergo	but i repurposed that to watch anime in bed 
+2018-12-16 02:35:11	@enju	neeasade i agree, politics are rarely appropiate at work imo
+2018-12-16 02:35:19	Ergo	im prolly just gonna get 144hz 
+2018-12-16 02:35:19	+neeasade	ye
+2018-12-16 02:35:25	Ergo	like i need two monitor 
+2018-12-16 02:35:27	@enju	ive been enjoying having a TV again
+2018-12-16 02:35:35	Ergo	i mean a tv is great for watching anime in bed 
+2018-12-16 02:35:35	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Ping timeout: 240 seconds)
+2018-12-16 02:35:40	@enju	finally can watch chinese cartoons on 50"
+2018-12-16 02:37:22	-->	mobo (~mobo@steal.softly.thru.snow) has joined #rice
+2018-12-16 02:37:22	--	Mode #rice [+o mobo] by Onee-chan
+2018-12-16 02:37:30	@enju	i have a 144hz, is great for gaymes
+2018-12-16 02:37:39	Ergo	yeee exactly 
+2018-12-16 02:37:43	Ergo	im having some issue with oW tho 
+2018-12-16 02:37:49	Ergo	its locked to 60fps for some reason 
+2018-12-16 02:38:03	@enju	hmm, i run it unlocked at 300
+2018-12-16 02:38:11	Ergo	yeee it used to do that for me 
+2018-12-16 02:38:16	<--	jumi (~qwebirc@riff.filled.land) has quit (Ping timeout: 240 seconds)
+2018-12-16 02:38:28	Ergo	but for some reason its suddenly locked to 60fps
+2018-12-16 02:38:31	Ergo	and i tried like alot 
+2018-12-16 02:38:32	@enju	not that I played it within the last 6 months
+2018-12-16 02:38:50	-->	Izuru_ (~Izuru@4534B8D3.56A56369.FFD57A6A.IP) has joined #rice
+2018-12-16 02:40:05	Ergo	its weird tho 
+2018-12-16 02:40:05	oepsie	Ergo, maar ehh, je zou toch wel "de toorn Des Heren" zeggen en niet "de toorn van De Here"?
+2018-12-16 02:40:12	Ergo	REEEE 
+2018-12-16 02:40:12	<--	mobo2 (~mobo@Rizon-C2739D6E.sub-97-46-1.myvzw.com) has quit (Ping timeout: 240 seconds)
+2018-12-16 02:40:14	Ergo	but yes 
+2018-12-16 02:43:43	oepsie	Ergo, what about "de taken der overhede"?
+2018-12-16 02:43:58	oepsie	Like would you say "de taken van de overheid", "de taken der overheid" or "de taken der overhede"
+2018-12-16 02:48:46	Ergo	reeee 
+2018-12-16 02:48:52	Ergo	leave me alone smh 
+2018-12-16 02:53:57	<--	toxait174115 (~toxait@Rizon-4F830674.clients.your-server.de) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-12-16 02:55:52	-->	Shinryuu (~gdsptuwtd@moe.pantsu) has joined #rice
+2018-12-16 02:55:53	--	Mode #rice [+v Shinryuu] by Onee-chan
+2018-12-16 02:56:09	-->	toxait174115 (~toxait@Rizon-4F830674.clients.your-server.de) has joined #rice
+2018-12-16 03:02:51	 *	LambdaComplex pats Ergo on the head
+2018-12-16 03:03:18	-->	Lirion (~Lirion@8082B366.77BB6BFE.AF2D1ADB.IP) has joined #rice
+2018-12-16 03:03:57	<--	Lirion (~Lirion@8082B366.77BB6BFE.AF2D1ADB.IP) has quit (Connection closed)
+2018-12-16 03:08:08	+Shinryuu	mornings babies
+2018-12-16 03:08:16	+LambdaComplex	hi Shinryuu 
+2018-12-16 03:08:20	Ergo	morning 
+2018-12-16 03:08:21	Ergo	what the 
+2018-12-16 03:08:23	Ergo	where is it morning 
+2018-12-16 03:08:31	+neeasade	Ergo: not where you are
+2018-12-16 03:08:38	Ergo	asia i guess? 
+2018-12-16 03:09:00	Ergo	and ye ,its 3am here i think 
+2018-12-16 03:09:53	+LambdaComplex	y-you think?
+2018-12-16 03:10:01	Ergo	its 3:09 
+2018-12-16 03:10:13	Ergo	i wasnt sure waht the time is, since i dont have a time on my desktop atm 
+2018-12-16 03:10:29	oepsie	Ergo, so why are you still awake darling?
+2018-12-16 03:10:37	Ergo	why are you awake 
+2018-12-16 03:10:45	+LambdaComplex	who
+2018-12-16 03:10:50	+neeasade	sleep is key to the good life™
+2018-12-16 03:10:51	+LambdaComplex	me??
+2018-12-16 03:10:56	+LambdaComplex	it's only 9 pm here!
+2018-12-16 03:14:34	@mobo	drunk
+2018-12-16 03:15:19	+LambdaComplex	mobo: like normal?
+2018-12-16 03:15:26	+Shinryuu	it's 04:15 here
+2018-12-16 03:15:29	@mobo	yep
+2018-12-16 03:15:38	+LambdaComplex	sad :(
+2018-12-16 03:15:44	@mobo	k
+2018-12-16 03:15:54	+LambdaComplex	i still love you, mobo
+2018-12-16 03:15:57	+LambdaComplex	<3
+2018-12-16 03:15:57	oepsie	Ergo, sleep rhythm disorder.
+2018-12-16 03:15:59	oepsie	wHy are you?
+2018-12-16 03:16:16	@mobo	gee thanjs
+2018-12-16 03:16:18	@mobo	thanks
+2018-12-16 03:18:00	<--	mitya (~fullsalvo@sanguines.et.lacrimae) has quit (Ping timeout: 240 seconds)
+2018-12-16 03:18:14	Ergo	oepsie: ahh sure 
+2018-12-16 03:18:17	Ergo	i just dont sleep much 
+2018-12-16 03:18:25	Ergo	gonna watch some anime and then sleep tho 
+2018-12-16 03:19:17	oepsie	>literally usin the word "anime" unironically.
+2018-12-16 03:19:20	<--	Tomoko_A_Best (~tomo@the.red.string.of.fate) has quit (Ping timeout: 240 seconds)
+2018-12-16 03:19:25	+Shinryuu	Ergo: nice, that's the way to go
+2018-12-16 03:20:00	-->	Tomoko_A_Best (~tomo@1E2308F7.731326A0.8F471DAE.IP) has joined #rice
+2018-12-16 03:20:02	--	Mode #rice [+o Tomoko_A_Best] by Onee-chan
+2018-12-16 03:20:30	-->	mitya (~fullsalvo@1E2308F7.731326A0.8F471DAE.IP) has joined #rice
+2018-12-16 03:20:32	--	Mode #rice [+o mitya] by Onee-chan
+2018-12-16 03:21:57	-->	Rue (~rue@Rizon-408301B.dynamic-ip6.hinet.net) has joined #rice
+2018-12-16 03:21:57	--	Mode #rice [+v Rue] by Onee-chan
+2018-12-16 03:29:01	<--	Shinryuu (~gdsptuwtd@moe.pantsu) has quit (Ping timeout: 240 seconds)
+2018-12-16 03:36:23	-->	Rue2 (~rue@Rizon-5C4A1318.dynamic-ip6.hinet.net) has joined #rice
+2018-12-16 03:37:31	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Quit: Bye)
+2018-12-16 03:37:42	-->	mobo (~mobo@steal.softly.thru.snow) has joined #rice
+2018-12-16 03:37:42	--	Mode #rice [+o mobo] by Onee-chan
+2018-12-16 03:38:13	+Rue	morning bae
+2018-12-16 03:38:31	@mobo	morning <3
+2018-12-16 03:41:56	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-12-16 03:48:26	-->	somaulte (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has joined #rice
+2018-12-16 03:50:29	<--	somaulte (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has quit (Remote host closed the connection)
+2018-12-16 03:50:32	-->	somaulte (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has joined #rice
+2018-12-16 03:52:58	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Quit: Excess flood)
+2018-12-16 03:54:00	-->	zakame (~zakame@7371F961.A3DFB80C.69376DA6.IP) has joined #rice
+2018-12-16 03:54:19	+Cosmonaut	gay
+2018-12-16 04:10:03	<--	zakame (~zakame@7371F961.A3DFB80C.69376DA6.IP) has quit (Quit: leaving)
+2018-12-16 04:15:13	-->	somaulte_ (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has joined #rice
+2018-12-16 04:15:16	<--	somaulte_ (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has quit
+2018-12-16 04:21:23	-->	fsckoff (~fsckznc@Rizon-803CD390.bltmmd.fios.verizon.net) has joined #rice
+2018-12-16 04:23:02	fsckoff	kek. i totally failed to notice when i plugged in a new cat6 cable to my router that the one i unplugged to make room for it was from the server i use for my irc bouncer.
+2018-12-16 04:23:37	fsckoff	i'm a fucking genius. i should work for applel
+2018-12-16 04:25:42	+Cosmonaut	you'll exceed Apple quality
+2018-12-16 04:25:48	+Cosmonaut	with that
+2018-12-16 04:48:28	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Ping timeout: 240 seconds)
+2018-12-16 04:51:24	-->	salmiak[m] (~salmiakma@7B946EE0:32AA87A2:A75BB464:IP) has joined #rice
+2018-12-16 04:55:15	+neeasade	help I need a meme comic I can't find -- with the guy sitting at the computer then remebering $past_year and tearing up
+2018-12-16 04:57:09	+neeasade	he's sitting at the computer remembering himself sitting at the computer
+2018-12-16 04:58:09	@cosarara	just draw it
+2018-12-16 05:03:59	-->	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has joined #rice
+2018-12-16 05:05:34	+neeasade	cosarara: with what
+2018-12-16 05:11:15	@cosarara	well either your computer or paper
+2018-12-16 05:11:32	+neeasade	sorry my real question is like
+2018-12-16 05:11:42	+neeasade	with gimp? or do you know a good doodleware?
+2018-12-16 05:11:46	@cosarara	krita
+2018-12-16 05:11:54	+neeasade	thanks
+2018-12-16 05:12:14	@cosarara	or mypaint if you want something simpler
+2018-12-16 05:15:12	+neeasade	cosarara: krita seems fine
+2018-12-16 05:15:37	+Rue	it's more than enough for your stick figures!
+2018-12-16 05:15:39	+Rue	\o/
+2018-12-16 05:15:54	@cosarara	it's overkill really for stick figures :P
+2018-12-16 05:16:15	+neeasade	here at #rice we are all about overkill
+2018-12-16 05:16:19	+Rue	:)
+2018-12-16 05:25:49	+neeasade	are drawing tablets a meme
+2018-12-16 05:26:01	+neeasade	like how could you be good at it while not looking at the tablet
+2018-12-16 05:26:09	+neeasade	is it just a muscle coordination thing that comes with time
+2018-12-16 05:26:12	matuka	it's a skill you learn p. quickly
+2018-12-16 05:26:26	+neeasade	ok
+2018-12-16 05:26:31	matuka	like within the first five or ten minutes
+2018-12-16 05:26:43	+neeasade	mouse drawing just feels awful for more than like a 10 second doodle
+2018-12-16 05:27:00	matuka	yeah I only use mouse when working with vectors
+2018-12-16 05:27:13	matuka	mouse for raster is vomit inducing
+2018-12-16 05:27:25	+neeasade	what does that mean
+2018-12-16 05:27:30	+neeasade	mouse for raster
+2018-12-16 05:27:37	+Rue	digital drawing is for plebs period
+2018-12-16 05:27:39	matuka	photoshop/sai
+2018-12-16 05:27:40	matuka	etc
+2018-12-16 05:27:40	+Rue	let's start there
+2018-12-16 05:27:43	matuka	bitmap
+2018-12-16 05:27:46	+Rue	:P
+2018-12-16 05:27:51	+neeasade	Rue: l el
+2018-12-16 05:28:47	+Rue	in a few months we'll be seeing neeasade on twitch streaming himself drawing hentai 
+2018-12-16 05:28:49	+Rue	xD
+2018-12-16 05:29:10	oepsie	neeasade, so I finished my shower cold this time
+2018-12-16 05:29:22	oepsie	Apparently it's better for your hair to finish with like 20 seconds of cold shower
+2018-12-16 05:29:27	+neeasade	Rue: is that where this path leads???? 
+2018-12-16 05:29:29	oepsie	It's cold though
+2018-12-16 05:29:30	oepsie	holy shit
+2018-12-16 05:29:35	+neeasade	oepsie: it is, to warm up to it
+2018-12-16 05:29:41	+neeasade	the idea is you get more and more used to it
+2018-12-16 05:29:50	+neeasade	most people start all the way cold and stop
+2018-12-16 05:29:53	@cosarara	to warm up to it?
+2018-12-16 05:29:55	+neeasade	because they don't ease into it
+2018-12-16 05:29:59	matuka	cold showers are better for smelling better too 
+2018-12-16 05:30:18	oepsie	Yeah I gsus hot showers make you sweat anyay
+2018-12-16 05:30:23	oepsie	So we'll see if there's a difference
+2018-12-16 05:30:31	+neeasade	I do cold showers when I get alot of anxiety
+2018-12-16 05:30:36	oepsie	My hair does somewhat look less frizzy but I'm not sure if that's power of suggsetion
+2018-12-16 05:30:51	+neeasade	because it forces me to confront the fact I'm fucking freezing rather than whatever is bothering me
+2018-12-16 05:30:57	+neeasade	and I feel better after
+2018-12-16 05:31:18	matuka	my favorite thing to do with a cold shower is to put the pressure low and run the shower head all over my scalp, the dribble is satisfying in a weird way
+2018-12-16 05:38:57	oepsie	neeasade, hmm
+2018-12-16 05:39:02	oepsie	THat does sound kind of gay to be honest.
+2018-12-16 05:39:26	+neeasade	oepsie: ¯\_(ツ)_/¯
+2018-12-16 05:40:47	oepsie	neeasade, anyway: https://i.pinimg.com/564x/42/f9/28/42f9289bb0fad8c067edba56a608b44c.jpg let's dress like this together
+2018-12-16 05:45:10	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-16 05:45:11	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-16 05:47:03	<--	Extr4 (~Extr@5DB6072.8E3DC653.EF995393.IP) has quit (Ping timeout: 240 seconds)
+2018-12-16 05:47:40	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-16 05:54:54	+neeasade	oepsie: sure come over
+2018-12-16 05:56:04	-->	natemon_ (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-16 05:56:04	<--	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-12-16 05:56:08	<--	natemon_ (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit
+2018-12-16 05:59:15	<--	Ivion (~ivion@52BB7EC7:8E9F8F50:40608628:IP) has quit (Ping timeout: 240 seconds)
+2018-12-16 06:11:21	+Cosumu	oink
+2018-12-16 06:15:13	+Cosumu	oink
+2018-12-16 06:29:12	+Cosumu	hrm
+2018-12-16 06:31:46	oepsie	Cosumu, my loe, let's dress like this together: https://www.deviantart.com/parororo/art/leave-me-alone-i-hate-us-10833054
+2018-12-16 06:31:47	+cappuccino	[ deviantart.com ] leave me alone i hate us by Parororo on DeviantArt (text/html)
+2018-12-16 06:31:47	oepsie	The left one
+2018-12-16 06:31:57	+Cosumu	oepsie: tell me soemthing interesting
+2018-12-16 06:32:22	oepsie	Cosumu, such as, my love?
+2018-12-16 06:32:34	+Cosumu	[something mentally stimulating]
+2018-12-16 06:32:34	+cappuccino	[SOMETHING MENTALLY STIMULATING INTENSIFIES]
+2018-12-16 06:35:43	<--	im0nde (~binaryple@Rizon-5F655E8B.ipv6dyn.netcologne.de) has quit (Ping timeout: 240 seconds)
+2018-12-16 06:41:44	-->	Plastic_ (~Plastic@sniffs.farts.profusely) has joined #rice
+2018-12-16 06:43:08	<--	Plastic (~Plastic@sniffs.farts.profusely) has quit (Ping timeout: 240 seconds)
+2018-12-16 06:44:45	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-16 06:44:45	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-16 06:45:40	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-16 06:47:30	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit
+2018-12-16 06:49:32	-->	im0nde (~binaryple@Rizon-E90297E2.ipv6dyn.netcologne.de) has joined #rice
+2018-12-16 06:58:10	oepsie	Cosumu, hmm
+2018-12-16 06:58:31	oepsie	Cosumu, did you know that Cleopatra lived closer to today than to the building of the Great Pyramid of Giza?
+2018-12-16 07:14:41	+Cosumu	yea
+2018-12-16 07:15:00	+Cosumu	neat
+2018-12-16 07:24:08	<--	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has quit (Ping timeout: 240 seconds)
+2018-12-16 07:26:18	-->	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has joined #rice
+2018-12-16 07:30:57	+Cosumu	lyfe
+2018-12-16 07:49:36	fsckoff	speaking of apple, i wonder how mad it'll make macfags at starbucks that my mac only has linux installed on it right now?
+2018-12-16 07:51:13	fsckoff	http://wr3tch.com/pomf/files/ejsnni.png
+2018-12-16 09:09:12	+Cosumu	yep
+2018-12-16 09:11:55	-->	somaulte_ (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has joined #rice
+2018-12-16 09:12:39	<--	somaulte_ (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has quit
+2018-12-16 09:36:50	-->	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-16 09:41:25	<--	fsckoff (~fsckznc@check.your.filesystem) has quit (Read error: Connection reset by peer)
+2018-12-16 09:46:37	<--	somaulte (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-16 09:49:53	-->	somaulte (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has joined #rice
+2018-12-16 09:59:36	<--	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-12-16 10:13:40	-->	pppp_ (~pppp@7ADD3E2.80A1BA52.13517BCC.IP) has joined #rice
+2018-12-16 10:16:44	-->	iomonad (~iomonad@functor.and.applicative.rules) has joined #rice
+2018-12-16 10:31:16	<--	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has quit (Quit: WeeChat 2.3)
+2018-12-16 10:35:49	+Cosumu	OINK
+2018-12-16 10:46:00	+Cosumu	i bet
+2018-12-16 10:46:12	+Cosumu	oh wait he isn't here
+2018-12-16 10:53:20	<--	Izuru_ (~Izuru@4534B8D3.56A56369.FFD57A6A.IP) has quit (Read error: Connection reset by peer)
+2018-12-16 10:54:41	-->	Izuru (~Izuru@hi.im.izuru) has joined #rice
+2018-12-16 10:59:09	+Rue	just made this dish
+2018-12-16 10:59:11	+Rue	https://www.youtube.com/watch?v=L3e0aFZdl0o
+2018-12-16 10:59:11	+cappuccino	[ youtube.com ] 【1mintips】三杯雞這樣做最鮮嫩下飯 - YouTube (text/html)
+2018-12-16 10:59:13	+Rue	\o/
+2018-12-16 10:59:17	+Rue	simmering right now
+2018-12-16 10:59:19	+Rue	oh yez
+2018-12-16 11:03:58	<--	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2018-12-16 11:05:24	-->	Double_Helix (~Double_He@I.dont.want.to.believe.I.want.to.know) has joined #rice
+2018-12-16 11:06:32	-->	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has joined #rice
+2018-12-16 11:45:48	<--	Rue (~rue@Rizon-408301B.dynamic-ip6.hinet.net) has quit
+2018-12-16 11:45:57	-->	Rue (~rue@49929CE:3424232B:8BB325BC:IP) has joined #rice
+2018-12-16 11:45:57	--	Mode #rice [+v Rue] by Onee-chan
+2018-12-16 11:47:46	<--	pppp_ (~pppp@7ADD3E2.80A1BA52.13517BCC.IP) has quit
+2018-12-16 11:51:07	<--	somaulte (~somaulte@364F0447.3D00DA91.AC9628B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-16 11:53:30	oepsie	lxcyp, my love.
+2018-12-16 11:53:36	oepsie	My plants re dying. =(
+2018-12-16 11:53:42	oepsie	Like faggots on a fire.
+2018-12-16 11:57:44	+Rue	that's not very nice
+2018-12-16 11:57:45	<--	iomonad (~iomonad@functor.and.applicative.rules) has quit (Quit: [1]    28823 segmentation fault (core dumped)  weechat)
+2018-12-16 12:03:30	-->	wagle-znc (~wagle-znc@6F684721.93A24608.38AB1C16.IP) has joined #rice
+2018-12-16 12:03:33	<--	wagle-znc (~wagle-znc@6F684721.93A24608.38AB1C16.IP) has quit (Connection closed)
+2018-12-16 12:07:34	-->	onodera (~onodera@the.culture.of.critique) has joined #rice
+2018-12-16 12:12:31	@eti	ricecoin when
+2018-12-16 12:22:56	onodera	https://www.youtube.com/watch?v=TkB7nT_Ns0Y
+2018-12-16 12:22:57	+cappuccino	[ youtube.com ] Yamashita Tatsuro , 山下 達郎 - Paper Doll (live) - YouTube (text/html)
+2018-12-16 12:23:55	-->	netman87 (~netman87@4F8C8184:BB3C1AB:7D208BB4:IP) has joined #rice
+2018-12-16 12:23:55	<--	netman87 (~netman87@4F8C8184:BB3C1AB:7D208BB4:IP) has quit (Connection closed)
+2018-12-16 12:27:56	+Rue	sup sup :D
+2018-12-16 12:29:00	+Rue	onodera: noice
+2018-12-16 12:30:38	onodera	https://www.youtube.com/watch?v=Yi3oVFeuT4o
+2018-12-16 12:30:39	+cappuccino	[ youtube.com ] LIVE:  Protest against migration pact adoption takes place in Brussels - YouTube (text/html)
+2018-12-16 12:30:48	onodera	the Flemish <3
+2018-12-16 12:33:49	+Cosumu	flemish are a mistake
+2018-12-16 12:36:52	+Rue	anyone familiar with vimeo and mpeg-dash?
+2018-12-16 12:40:40	-->	nekron (~nekron@51D44B8E.37FE1B57.2AF079AD.IP) has joined #rice
+2018-12-16 12:42:21	-->	Etiv (~androirc@givemeavho.st) has joined #rice
+2018-12-16 12:42:26	oepsie	onodera, dus, waarom is het "den hemel" maar "de aarde" als lijdend voorwerp?
+2018-12-16 12:43:30	Etiv	English only pls
+2018-12-16 12:44:44	<--	nekron (~nekron@51D44B8E.37FE1B57.2AF079AD.IP) has quit (Ping timeout: 240 seconds)
+2018-12-16 12:48:36	@eti	onodera: what do you aim to achieve by posting this link here
+2018-12-16 12:48:51	onodera	it's interesting
+2018-12-16 12:49:08	onodera	oepsie: masculine and feminine 
+2018-12-16 12:49:18	oepsie	onodera, quite right
+2018-12-16 12:49:23	oepsie	So what's the indirect object form of both.
+2018-12-16 12:49:34	@eti	i don't understand anything that they're saying so i don't see the point
+2018-12-16 12:50:28	onodera	ah ok
+2018-12-16 12:50:33	onodera	oepsie: no idea
+2018-12-16 12:50:44	oepsie	onodera "den hemele" en "der aarde"
+2018-12-16 12:52:08	@eti	i also don't see what the french have to do in this https://x.eti.tf/gRrmO.png
+2018-12-16 12:52:18	@eti	if you would be so kind as to explain this to me
+2018-12-16 12:52:28	@eti	i'm genuinely open rn
+2018-12-16 12:52:54	onodera	eti: the french party of Belgium i mean
+2018-12-16 12:52:59	onodera	part*
+2018-12-16 12:53:14	+nai	qt tn
+2018-12-16 12:53:18	onodera	it's a march against the Marrakesh pact, buu it's pretty much only flemish people participating
+2018-12-16 12:54:25	@eti	different cultures i guess
+2018-12-16 12:54:42	oepsie	Tht's because the Moroccans speak French
+2018-12-16 12:54:46	oepsie	so the French can nderstand them.
+2018-12-16 12:55:03	onodera	yeah
+2018-12-16 12:55:21	onodera	that's why farage said belgium is pretty much a non country
+2018-12-16 12:55:44	@eti	it's an interesting case
+2018-12-16 12:55:50	@eti	how a country can be so divided
+2018-12-16 12:56:32	oepsie	Of course it is
+2018-12-16 12:56:41	oepsie	it is a country where both French people and people who are not French live.
+2018-12-16 12:56:51	onodera	because it's not really a nation state
+2018-12-16 12:56:55	oepsie	And French people make it their quaeste in life to pester as many non-French people as possible.
+2018-12-16 12:57:17	@eti	i don't consider a french belgian to be french
+2018-12-16 12:57:26	@eti	i consider him to be a beglian
+2018-12-16 12:57:59	onodera	do they have a weird accent eti 
+2018-12-16 12:58:01	onodera	the Flemish do
+2018-12-16 12:58:03	oepsie	Bababla, tribalist labels
+2018-12-16 12:58:04	<--	Izuru (~Izuru@hi.im.izuru) has quit (Ping timeout: 240 seconds)
+2018-12-16 12:58:07	oepsie	one of you or one of me
+2018-12-16 12:58:11	oepsie	Who cares they speak that vile language
+2018-12-16 12:58:18	oepsie	and they harass those who don't
+2018-12-16 12:58:34	@eti	yes, the french belgians have a weird accent to us
+2018-12-16 12:58:43	onodera	cool
+2018-12-16 12:59:30	@eti	i'm assuming you're against immigration
+2018-12-16 12:59:35	@eti	if so, why?
+2018-12-16 12:59:35	Etiv	nonante
+2018-12-16 12:59:55	onodera	me eti ?
+2018-12-16 13:00:02	@eti	yes, you onodera 
+2018-12-16 13:01:27	onodera	from a purely pragmatical standpoint, the netherlands already is overpopulated, we are predicted to grow to 20-24 mil in 2050
+2018-12-16 13:01:42	onodera	that 3 or 7 million more than we have currently
+2018-12-16 13:01:54	onodera	there are absolutely zero plans in place to accomedate that many people
+2018-12-16 13:02:24	onodera	the population growth is almost all because of immigration
+2018-12-16 13:03:02	oepsie	I thik people who want chidlren should be tested after conception for reproductive instinct defects and terminated in utero.
+2018-12-16 13:03:08	onodera	from a more idealistic standpoint. I believe there will be more conflict in a multi cultural state. the various groups will fight for (political) power
+2018-12-16 13:03:55	onodera	I believe we are deeply tribal. So in a sense I agree with "systematic racism", and I don't really think you can fight it, because it might even happen subconsioucly
+2018-12-16 13:04:06	@eti	i see
+2018-12-16 13:04:29	@eti	but do you really believe that, once implanted here, the immigrants won't go back to their country of origin?
+2018-12-16 13:04:29	+nai	oepsie: come again
+2018-12-16 13:04:36	onodera	also I believe it's not only bad for the host nation, but also for the nations where the immigrants come from. It's only the smart people that are able to get here
+2018-12-16 13:04:40	@eti	assuming it's been rebuilt and war is over on the their side
+2018-12-16 13:04:41	onodera	so it will iresult in a brain drain
+2018-12-16 13:04:50	@eti	true
+2018-12-16 13:04:55	oepsie	onodera, lol are you kidding me.
+2018-12-16 13:05:04	oepsie	Most of the immigrants are like the low of the low class
+2018-12-16 13:05:17	Etiv	you know i'm skimming this Global Migration Compact
+2018-12-16 13:05:33	Etiv	maybe i missed a detail but it seems fairly neutral
+2018-12-16 13:05:39	Etiv	and it's not legally binding
+2018-12-16 13:05:40	@eti	so it's comfirmed that oepsie never gets out of their basement heh
+2018-12-16 13:05:45	onodera	eti: wait, you believe immigrants will go back?
+2018-12-16 13:06:07	onodera	Etiv: it's legally binding via soft law
+2018-12-16 13:06:26	@eti	onodera: some, obviously not all of them
+2018-12-16 13:07:09	Etiv	yeah but the compact itself says it respects the right of sovereign nations to make their own laws on migration
+2018-12-16 13:07:15	+Rue	hey you webdev, anyone got an example of vimeo streaming video utilizing mpeg-dash protection?
+2018-12-16 13:07:26	onodera	there are rules in it that the media must become "sensitized" to immigration and that media and social media must be punished if they are xenophobic, racist, or discriminatory
+2018-12-16 13:08:03	onodera	what even is discriminatory? If you only want tomato farmers to immigrate it means you discriminate based on the person being a tomate farmer
+2018-12-16 13:08:34	@eti	then stop listening to your tv or radio?
+2018-12-16 13:08:39	Etiv	hm, well imo newspapers shouldn't take an editorial stance at all
+2018-12-16 13:08:43	onodera	Etiv: yeah, but immigrants can use this pact in court
+2018-12-16 13:09:33	Etiv	and at the same time the compact supports evidence based discussion
+2018-12-16 13:09:49	Etiv	it's possible that the rule you are talking about is targeting propaganda outrage pieces
+2018-12-16 13:09:59	Etiv	like stuff you find in the Mail or the Sun
+2018-12-16 13:10:24	onodera	the rule is vague as fuck so I don't know
+2018-12-16 13:10:31	onodera	even if it wasn't I would be against it
+2018-12-16 13:11:08	Etiv	i mean, it says "systematically promote intolerance"
+2018-12-16 13:11:13	Etiv	etc etc
+2018-12-16 13:11:30	Etiv	so it could mean constantly spinning stories against migrants
+2018-12-16 13:12:46	@eti	i feel like there's a big difference between algerian immgrants and syrian immigrants fe
+2018-12-16 13:12:46	onodera	so what
+2018-12-16 13:12:49	onodera	they should be able to
+2018-12-16 13:13:02	@eti	it's a known fact that algerian immigrants have a lot of hatred towards europe
+2018-12-16 13:13:06	Etiv	well they can
+2018-12-16 13:13:09	@eti	but the same thing isn't true for syrians
+2018-12-16 13:13:20	Etiv	it's just sayingthat they shouldn't be supported by the govt.
+2018-12-16 13:13:24	Etiv	like any biased media outlet
+2018-12-16 13:13:47	onodera	"romote independent, objective and quality reporting of media outlets, including internet-
+2018-12-16 13:13:48	Etiv	there is nothing saying you should arrest people who talk badly about migrants
+2018-12-16 13:13:50	onodera	based  information,  including  by  sensitizing  and  educating  media  professionals  on 
+2018-12-16 13:13:53	onodera	migration-related  issues  and  terminology"
+2018-12-16 13:14:12	Etiv	stopping allocation of public funding or material support
+2018-12-16 13:14:20	onodera	what is sensitizing even 
+2018-12-16 13:14:34	Etiv	well, probably just making sure they have all the evidence
+2018-12-16 13:14:57	Etiv	make sensitive or aware
+2018-12-16 13:15:04	Etiv	is sensitising
+2018-12-16 13:15:47	Etiv	also i mean
+2018-12-16 13:15:59	Etiv	news outlets have kind of a responsibility to properly inform the public imo
+2018-12-16 13:16:25	Etiv	i don't think the government should support any outlets who constantly spin their stories
+2018-12-16 13:16:37	@eti	onodera: oh btw i think you don't know about it but i host a syrian refugee at my house
+2018-12-16 13:16:41	@eti	since september
+2018-12-16 13:17:06	Etiv	be they on the left or the right or whatever
+2018-12-16 13:17:17	Etiv	eti; how are they
+2018-12-16 13:17:17	onodera	fact is, news media are assigned a new ideological task: the promotion of mass immigration as a desirable phenomenon
+2018-12-16 13:17:30	Etiv	but they aren't
+2018-12-16 13:17:41	Etiv	lol
+2018-12-16 13:17:54	Etiv	the task is to report objectively on migration
+2018-12-16 13:18:17	@eti	Etiv: he's a great person tbh, he's been through a lot too
+2018-12-16 13:18:23	@eti	way more than i'd have expected
+2018-12-16 13:18:31	Etiv	i see
+2018-12-16 13:18:56	-->	bwlffy (~batelborg@Rizon-A6C5B49F.mem.bellsouth.net) has joined #rice
+2018-12-16 13:19:19	@eti	hopefully he'll get the right to work soon so he can get a job etc; it's what ono said earlier, smart brains living their home country
+2018-12-16 13:19:32	@eti	s/living/leaving/
+2018-12-16 13:19:33	+cappuccino	eti meant to say: hopefully he'll get the right to work soon so he can get a job etc; it's what ono said earlier, smart brains leaving their home country
+2018-12-16 13:19:58	Etiv	and i mean those news outlets that "promote intolerance" can still report their versiom of the news
+2018-12-16 13:20:17	Etiv	and most papers that take an anti migrant stance probably don't receive government funding anyway
+2018-12-16 13:20:36	Etiv	as do most newspapers
+2018-12-16 13:20:40	Etiv	in the UK at least
+2018-12-16 13:20:57	Etiv	half the rightist papers are owned by Rupert Murdoch
+2018-12-16 13:21:02	@eti	fuck the media anyway
+2018-12-16 13:21:07	Etiv	who i don't think needs any help making money
+2018-12-16 13:21:11	onodera	aw yeah
+2018-12-16 13:21:14	onodera	my idol speaking now
+2018-12-16 13:21:42	Etiv	eti; yeah the media is lame regardless
+2018-12-16 13:21:47	-->	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-16 13:21:51	Etiv	too biased on all sides
+2018-12-16 13:21:57	Etiv	when can we ban journalism
+2018-12-16 13:22:28	@eti	soon hopefully
+2018-12-16 13:22:55	Etiv	eti: are you taking part in these yellow jacket protests
+2018-12-16 13:22:55	-->	bwlf (~batelborg@Rizon-FCDB975C.mem.bellsouth.net) has joined #rice
+2018-12-16 13:23:09	@eti	i unsurprisingly found a french antisemitic website on 4chan the other day
+2018-12-16 13:23:11	@eti	pure cancer
+2018-12-16 13:23:17	Etiv	lol
+2018-12-16 13:23:17	@eti	Etiv: heh, no. i'm not poor
+2018-12-16 13:23:32	<--	bwlffy (~batelborg@Rizon-A6C5B49F.mem.bellsouth.net) has quit (Ping timeout: 240 seconds)
+2018-12-16 13:23:36	@eti	i do understand the cause they fight for
+2018-12-16 13:23:42	@eti	but it's only making things worse
+2018-12-16 13:24:42	Etiv	probably
+2018-12-16 13:25:00	@eti	the way they are organised (even if they aren't at all) is really bad
+2018-12-16 13:25:02	Etiv	I don't know much about it tbh lol
+2018-12-16 13:25:10	Etiv	except they wear hi vis jackets
+2018-12-16 13:25:16	@eti	they don't have a leader so everything is just very confusing
+2018-12-16 13:25:20	@eti	yeah that's abt it really
+2018-12-16 13:25:28	Etiv	it sounds kind of like the occupy movement
+2018-12-16 13:25:39	Etiv	a million different voices trying to be hearx
+2018-12-16 13:26:05	@eti	no
+2018-12-16 13:26:09	@eti	they have cooler jackets
+2018-12-16 13:26:14	Etiv	Lol
+2018-12-16 13:26:19	@eti	like man, this yellow is so fucking effay
+2018-12-16 13:26:19	@eti	stg
+2018-12-16 13:26:24	Etiv	yellow will never be cool
+2018-12-16 13:26:32	@eti	you'll never be cool
+2018-12-16 13:26:37	Etiv	:(
+2018-12-16 13:26:51	@eti	honestly it'd be rad in blue (100%) or flashy charli xcx green
+2018-12-16 13:27:01	Etiv	yeah maybe
+2018-12-16 13:27:02	@eti	yellow is kinda lame i agree
+2018-12-16 13:27:06	Etiv	at least they have a uniform
+2018-12-16 13:27:10	@eti	but at least they have a great way to get recognised
+2018-12-16 13:27:11	Etiv	i guess
+2018-12-16 13:27:43	+Rue	Etiv: that's not true, i wear yellow since birth, and i'm cool as fuck
+2018-12-16 13:27:48	Etiv	lol
+2018-12-16 13:28:21	@eti	lmao
+2018-12-16 13:28:31	@eti	hey now, self humor is not recommended here
+2018-12-16 13:28:36	@eti	fucking chink\
+2018-12-16 13:29:53	@eti	https://x.eti.tf/vH356
+2018-12-16 13:32:01	Etiv	bored -_-
+2018-12-16 13:33:13	@eti	same
+2018-12-16 13:33:17	@eti	time to beat my meat
+2018-12-16 13:33:29	Etiv	gay
+2018-12-16 13:33:46	Etiv	have to revise for an econ paper with no mark schemes for past papers
+2018-12-16 13:33:58	Etiv	and no informatiom about how many marks each question is worth
+2018-12-16 13:34:00	Etiv	can't wait
+2018-12-16 13:35:10	<--	bwlf (~batelborg@Rizon-FCDB975C.mem.bellsouth.net) has quit (Read error: Connection reset by peer)
+2018-12-16 13:35:49	-->	bwlffy (~batelborg@Rizon-FCDB975C.mem.bellsouth.net) has joined #rice
+2018-12-16 13:41:02	@eti	sounds terrible
+2018-12-16 13:41:14	@eti	what are you studying?
+2018-12-16 13:43:23	Etiv	CS/Math
+2018-12-16 13:43:30	Etiv	but i picked econ as an elective
+2018-12-16 13:44:08	Etiv	never again
+2018-12-16 13:45:40	+nai	> CS/Math
+2018-12-16 13:45:45	+nai	very good choice.
+2018-12-16 13:46:06	+nai	what's econ tho
+2018-12-16 13:46:50	Etiv	economics
+2018-12-16 13:47:02	+nai	duh.
+2018-12-16 13:47:10	+nai	very bad choice then
+2018-12-16 13:47:26	Etiv	it's a semester long module
+2018-12-16 13:47:31	Etiv	and i was curious about the subjecr
+2018-12-16 13:47:39	Etiv	so i thought i may as well try it out
+2018-12-16 13:47:54	+nai	cute
+2018-12-16 13:49:28	Etiv	lol
+2018-12-16 13:56:45	Etiv	nai: are you still at university?
+2018-12-16 13:57:28	+nai	yes
+2018-12-16 13:57:41	Etiv	what are you studying?
+2018-12-16 14:05:28	raph_ael	studying economics is interesting till you have some distance and a critical mind
+2018-12-16 14:05:42	+nai	Etiv: CS+math
+2018-12-16 14:05:55	Etiv	cool
+2018-12-16 14:06:32	+nai	raph_ael: did you mean "as long as" instead of "till" there
+2018-12-16 14:06:44	raph_ael	nai: exact, thanks
+2018-12-16 14:06:52	Etiv	i mean it's fine
+2018-12-16 14:07:10	+nai	what is
+2018-12-16 14:07:13	Etiv	like any "science" i guess you have to acknowledge the limitations of the theories put forward
+2018-12-16 14:07:15	Etiv	economics
+2018-12-16 14:07:23	+nai	> economics are a science
+2018-12-16 14:07:24	raph_ael	specially in economics
+2018-12-16 14:07:42	Etiv	hence why i put it in quotes
+2018-12-16 14:07:48	+nai	> economics are a "science"
+2018-12-16 14:07:52	raph_ael	it's a social science
+2018-12-16 14:08:11	Etiv	people have conflicting views and ultimately what you call it is besides the point
+2018-12-16 14:08:21	raph_ael	but many teachers will do as if it is 'hard' science
+2018-12-16 14:08:27	<--	raph_ael (~raphael@4A431F1D:ED04C3D0:AD1167D2:IP) has quit (Quit: WeeChat 2.2)
+2018-12-16 14:08:27	Etiv	like any form of academic study
+2018-12-16 14:08:45	Etiv	you acknowledge the limitations of what is put forward
+2018-12-16 14:08:46	Etiv	there
+2018-12-16 14:10:38	 *	cosarara pets nai
+2018-12-16 14:11:13	@cosarara	poor economics
+2018-12-16 14:11:20	-->	raph_ael (~raphael@4A431F1D:ED04C3D0:AD1167D2:IP) has joined #rice
+2018-12-16 14:11:39	Etiv	it would be fine but the course is basically line graphs 101 and there is no real guidance on how the exam works
+2018-12-16 14:11:57	+nai	what are you studying exactly?
+2018-12-16 14:12:13	Etiv	Computer Science and Math
+2018-12-16 14:12:17	+nai	no i mean
+2018-12-16 14:12:21	+nai	in your econ course
+2018-12-16 14:13:13	Etiv	just general aspects of economics; it's a kind of broad but simplistic treatment of both macro and microeconomics for people who needed an elective
+2018-12-16 14:13:41	+nai	what were the other electives
+2018-12-16 14:13:50	Etiv	accounting
+2018-12-16 14:14:01	Etiv	foundation level French
+2018-12-16 14:14:14	Etiv	foundation level German
+2018-12-16 14:14:21	+nai	> not picking French over economics
+2018-12-16 14:14:31	Etiv	i already did french at a level
+2018-12-16 14:14:35	Etiv	and i don't like speaking it
+2018-12-16 14:14:43	+nai	smh
+2018-12-16 14:14:44	+nai	no one does
+2018-12-16 14:18:36	+nai	what else? nothing related to CS or math?
+2018-12-16 14:18:36	Etiv	probably, but i was interested in what economics was like
+2018-12-16 14:20:58	Etiv	nai: are you French?
+2018-12-16 14:22:01	+nai	yes
+2018-12-16 14:23:06	Etiv	cool
+2018-12-16 14:24:01	-->	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has joined #rice
+2018-12-16 14:30:02	@enju	.selfie -r 1 https://i.imgur.com/3uTHQMX.jpg
+2018-12-16 14:30:03	+cappuccino	Replaced https://i.imgur.com/oo9dQdU.jpg with https://i.imgur.com/3uTHQMX.jpg
+2018-12-16 14:31:00	+nai	how even
+2018-12-16 14:31:15	@cosarara	round mirror in the ceiling, looks like
+2018-12-16 14:32:04	-->	Izuru (~Izuru@hi.im.izuru) has joined #rice
+2018-12-16 14:35:18	 *	Cosumu 
+2018-12-16 14:35:38	+nai	or maybe flat mirror and polar lens or something
+2018-12-16 14:36:27	+Cosumu	> not having a great complex icosidodecahedron mirror
+2018-12-16 14:36:32	+nai	Cosumu: everything's not about /you
+2018-12-16 14:36:42	+Cosumu	no u
+2018-12-16 14:36:49	+nai	> not having a klein bottle-shaped mirror
+2018-12-16 14:37:00	+Cosumu	> having a non oritentable mirror
+2018-12-16 14:37:02	+Cosumu	fam are you retarded
+2018-12-16 14:37:29	@eti	light bulb
+2018-12-16 14:37:31	@eti	wide lens
+2018-12-16 14:37:32	@eti	easy
+2018-12-16 14:37:39	+Cosumu	.selfie eti 
+2018-12-16 14:37:39	+cappuccino	(1) https://x.eti.tf/nkbQc.jpg [eti]
+2018-12-16 14:37:40	@eti	nice pic though
+2018-12-16 14:37:53	+nai	guess that's what i meant with polar lens
+2018-12-16 14:38:06	@eti	never heard polar lens but ok
+2018-12-16 14:38:09	+Cosumu	enju looks like a gremlin
+2018-12-16 14:38:14	+Cosumu	or a meth addict
+2018-12-16 14:38:17	@eti	bad Cosumu 
+2018-12-16 14:38:18	+Cosumu	wt2 that look
+2018-12-16 14:38:28	+Cosumu	wait
+2018-12-16 14:38:30	@eti	it's obviously cocaine addict
+2018-12-16 14:38:30	+Cosumu	w2c that look
+2018-12-16 14:38:36	+nai	Cosumu: what
+2018-12-16 14:38:40	@eti	just hang with leli daily
+2018-12-16 14:38:42	@eti	w2c
+2018-12-16 14:38:46	@eti	rice
+2018-12-16 14:38:54	+nai	what
+2018-12-16 14:38:58	@eti	ok time for lunch
+2018-12-16 14:38:59	+nai	world wide consortium ?
+2018-12-16 14:39:01	@eti	shut up nai 
+2018-12-16 14:39:03	+Cosumu	nai: where to cope
+2018-12-16 14:39:05	+Cosumu	aka where to get
+2018-12-16 14:39:07	@eti	nai: where to cop
+2018-12-16 14:39:12	@eti	not cope u dummy
+2018-12-16 14:39:20	+nai	oh
+2018-12-16 14:39:23	heibol	Hi ( ﾟ◡◡ﾟ)☄ 
+2018-12-16 14:39:23	+Cosumu	shh its a silent e
+2018-12-16 14:39:25	@eti	ho
+2018-12-16 14:39:26	+nai	shut up Cosumu 
+2018-12-16 14:39:33	+Cosumu	nai: why did you get so agressive ;-;
+2018-12-16 14:39:33	@eti	heibol: hello haha
+2018-12-16 14:39:43	+Cosumu	its not like im your government or anything
+2018-12-16 14:39:51	@eti	anyone wanna hang out on mumble later
+2018-12-16 14:39:52	+nai	Cosumu: i'm just deflecting the hate eti just gave me to you
+2018-12-16 14:39:54	+nai	eti: BAD PARENTING
+2018-12-16 14:39:58	@eti	i need to practice m  english
+2018-12-16 14:40:01	 *	nai goes out smoking crack
+2018-12-16 14:40:01	@eti	wtf
+2018-12-16 14:40:04	@eti	i love Cosumu 
+2018-12-16 14:40:09	+Cosumu	:3
+2018-12-16 14:40:19	+Cosumu	> french 
+2018-12-16 14:40:21	+Cosumu	> smoking crack
+2018-12-16 14:40:24	@eti	ok cya fr tho
+2018-12-16 14:40:47	+Cosumu	eti: also i like in your selfie how you are a yellow coat
+2018-12-16 14:41:37	+nai	> are
+2018-12-16 14:41:43	+Cosumu	> when you wanan dl a 1 hour movie and it will take over 24 hours
+2018-12-16 14:41:45	+Cosumu	just australia things
+2018-12-16 14:41:45	+nai	did you forget how to verb
+2018-12-16 14:42:07	+Cosumu	nai: no thats correc
+2018-12-16 14:42:09	+Cosumu	t
+2018-12-16 14:42:19	+nai	Cosumu: is eti a yellow coat?
+2018-12-16 14:42:22	+nai	.selfie eti
+2018-12-16 14:42:22	+cappuccino	(1) https://x.eti.tf/nkbQc.jpg [eti]
+2018-12-16 14:42:28	+Cosumu	>:3
+2018-12-16 14:42:35	+nai	i didn't know yellow coats could wear berets
+2018-12-16 14:42:38	+nai	or faces
+2018-12-16 14:42:38	+Cosumu	 yellow jacket, yellow vest
+2018-12-16 14:42:43	Ergo	Cosumu: just move lol 
+2018-12-16 14:42:45	+Cosumu	the thingi in france
+2018-12-16 14:42:53	+Cosumu	Ergo: soon
+2018-12-16 14:43:07	+Cosumu	Ergo: litearlly have to leave the nation though which is a pain
+2018-12-16 14:43:17	Ergo	unlucky 
+2018-12-16 14:43:20	Ergo	where are you moving tho? 
+2018-12-16 14:43:21	+Cosumu	nai: stop being so litearl you aren't german smh
+2018-12-16 14:43:24	+Cosumu	Ergo: nz
+2018-12-16 14:43:30	Ergo	is it any better over there? 
+2018-12-16 14:43:38	+Cosumu	gigabit for about 100 a month
+2018-12-16 14:43:40	+Cosumu	so yes
+2018-12-16 14:43:48	Ergo	dammn
+2018-12-16 14:43:56	Ergo	prices for electronics are still really fucking expensive there
+2018-12-16 14:44:02	+Cosumu	yea they are
+2018-12-16 14:44:06	+nai	why do you have to leave the country
+2018-12-16 14:44:24	+Cosumu	imo problem with aussieland is that even though make good money things are expensive and things i want aren't aviable
+2018-12-16 14:44:26	+Cosumu	so yea
+2018-12-16 14:44:28	+Cosumu	nai: internet is shit
+2018-12-16 14:44:31	+Cosumu	nai: industry is gay
+2018-12-16 14:44:54	+Cosumu	nai: pretty much the entire nation is fixed wireless 
+2018-12-16 14:45:01	+Cosumu	so you can't get better tahn 40mb/s down 
+2018-12-16 14:45:18	+nai	wew
+2018-12-16 14:45:25	+Cosumu	also they can't upgrade to 5g
+2018-12-16 14:46:05	heibol	.selfie heibol
+2018-12-16 14:46:05	+cappuccino	(1) https://i.imgur.com/uyTWAj4.jpg | (2) https://i.imgur.com/uWg0j0n.jpg | (3) https://i.imgur.com/WfcaTFK.jpg [heibol]
+2018-12-16 14:46:23	+Cosumu	lewd
+2018-12-16 14:46:39	+Cosumu	heibol: you look like a cosmonaut 
+2018-12-16 14:46:51	+nai	wew heibol 
+2018-12-16 14:47:01	+Cosumu	oh shi-
+2018-12-16 14:47:06	+Cosumu	so thats what alcohol feels like
+2018-12-16 14:47:34	+nai	.selfie Cosumu 
+2018-12-16 14:47:34	+cappuccino	(1) https://my.mixtape.moe/ojxhvk.jpeg | (2) https://my.mixtape.moe/vmhbrz.jpg | (3) https://my.mixtape.moe/tmfpop.jpg [Cosumu]
+2018-12-16 14:47:41	+Cosumu	O
+2018-12-16 14:47:44	+Cosumu	i needa go for a shower
+2018-12-16 14:47:46	+Cosumu	why am i drinking
+2018-12-16 14:47:48	+Cosumu	and why at midnight
+2018-12-16 14:47:50	+Cosumu	hrm
+2018-12-16 14:47:52	+Cosumu	okbai
+2018-12-16 14:47:54	+nai	Cosumu: it's all 404s you dumfuk
+2018-12-16 14:47:59	+nai	stop using shittape.moe
+2018-12-16 14:59:41	@eti	stfu nai
+2018-12-16 14:59:49	@eti	cartoon lookin ass
+2018-12-16 14:59:56	+nai	wew eti
+2018-12-16 15:00:11	+nai	stop being a hateful little frenchman
+2018-12-16 15:00:13	Etiv	.selfie nai
+2018-12-16 15:00:13	+cappuccino	(1) https://up.monade.li/XnknpI.jpg [nai]
+2018-12-16 15:00:13	@eti	.8ball should i make a gilet jaune fit
+2018-12-16 15:00:13	+cappuccino	eti: As I see it, yes.
+2018-12-16 15:00:22	@eti	that's a yet
+2018-12-16 15:00:24	@eti	yeet
+2018-12-16 15:06:20	+nai	TOO MANY THINGS TO DO AAAAAAAAAAAA
+2018-12-16 15:06:27	Etiv	like what
+2018-12-16 15:06:31	+nai	THINGS
+2018-12-16 15:06:35	+nai	THINGS ALL OVER THE PLACE
+2018-12-16 15:06:38	+nai	MORE THINGS COMING IN
+2018-12-16 15:06:49	Etiv	rip
+2018-12-16 15:13:33	+Cosumu	meowowowo
+2018-12-16 15:16:31	+Cosumu	no mu
+2018-12-16 15:24:07	<--	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has quit (Quit: Lost terminal)
+2018-12-16 15:24:10	+Cosumu	kjhkjhkjlhuhyjgbvfhgbytcdftg
+2018-12-16 15:25:55	+Khorne	no u
+2018-12-16 15:26:39	+Cosumu	no u
+2018-12-16 15:26:45	+Cosumu	smh what does Khorne even get up to these day
+2018-12-16 15:26:54	+Cosumu	ayy lmao
+2018-12-16 15:27:28	+Khorne	what?
+2018-12-16 15:27:41	+Cosumu	hit or miss
+2018-12-16 15:27:48	+nai	just ignore Cosumu at this point tbh
+2018-12-16 15:27:52	Etiv	i guess they never miss
+2018-12-16 15:27:55	+Cosumu	ohai nai 
+2018-12-16 15:28:13	+Cosumu	i forgot what c2h5oh does to the brain
+2018-12-16 15:28:18	+Cosumu	i haven't drank in months 
+2018-12-16 15:28:24	+Cosumu	i litearlly had 2 standards and im spaghetti 
+2018-12-16 15:28:53	+nai	nice ethanol formula
+2018-12-16 15:28:58	+Cosumu	ty
+2018-12-16 15:29:02	+nai	what's a standard
+2018-12-16 15:29:09	+Cosumu	a or the
+2018-12-16 15:29:11	+Cosumu	oh
+2018-12-16 15:29:13	+Cosumu	standard drink
+2018-12-16 15:29:15	+Cosumu	10 ml of ethanol
+2018-12-16 15:29:21	+nai	wew
+2018-12-16 15:30:03	 *	Cosumu oinks
+2018-12-16 15:30:12	+nai	that wasn't necessary
+2018-12-16 15:30:28	+Cosumu	nor was u 
+2018-12-16 15:30:31	@eti	hit or miss
+2018-12-16 15:30:37	+Cosumu	i bet nai doesn't kiss ya
+2018-12-16 15:30:40	+nai	wuw
+2018-12-16 15:30:48	+nai	kiss whom
+2018-12-16 15:30:54	+Cosumu	urself
+2018-12-16 15:30:57	+Cosumu	fam you gotta love yourself
+2018-12-16 15:31:03	+nai	somebody ban Cosumu 
+2018-12-16 15:31:04	+nai	ty
+2018-12-16 15:31:10	@eti	never
+2018-12-16 15:31:20	+Cosumu	fam even oepsie isn't banned
+2018-12-16 15:31:41	+nai	is this a tik tok meme
+2018-12-16 15:31:49	+nai	are you guys hitting me with tik tok memes
+2018-12-16 15:31:58	+Cosumu	fam im telling you to hit on yourself
+2018-12-16 15:32:00	+nai	you degenerates
+2018-12-16 15:32:06	+nai	pieces of
+2018-12-16 15:32:08	+nai	bread
+2018-12-16 15:32:19	+Cosumu	i wish my gf was made of garlic bread
+2018-12-16 15:32:24	+nai	who doesn't
+2018-12-16 15:32:30	+nai	vampires
+2018-12-16 15:32:35	+nai	probably
+2018-12-16 15:32:59	+Cosumu	> when ur from transylvania but love garlic bread
+2018-12-16 15:33:02	+Cosumu	absolut heracy 
+2018-12-16 15:33:18	+nai	tough titties
+2018-12-16 15:33:23	+Cosumu	wait a second
+2018-12-16 15:33:25	+Cosumu	i never considerd
+2018-12-16 15:33:30	+Cosumu	can you mkae garlic bread with a toaster
+2018-12-16 15:33:33	+Cosumu	w e w 
+2018-12-16 15:34:02	+Cosumu	alcohol is one hell of a drug
+2018-12-16 15:35:05	+Cosumu	imma go make garlic bread
+2018-12-16 15:35:53	+Cosumu	> when ur listneing to a song you dont really like but you dont know where you left the tab on all ur workspaces
+2018-12-16 15:37:14	@eti	lol https://x.eti.tf/aZKjT.png
+2018-12-16 15:37:21	@eti	they couldn't align the icons
+2018-12-16 15:37:22	@eti	smh
+2018-12-16 15:37:34	@eti	kde really is shit huh
+2018-12-16 15:39:57	+nai	hot water machine broke
+2018-12-16 15:40:06	+nai	gonna have to grow a pair and take a cold shower
+2018-12-16 15:42:15	Etiv	have fum
+2018-12-16 15:42:17	Etiv	fun*
+2018-12-16 15:42:21	+Cosumu	sad
+2018-12-16 15:42:23	+Cosumu	no
+2018-12-16 15:42:25	+Cosumu	garlic
+2018-12-16 15:43:48	+Cosumu	time to revolt
+2018-12-16 15:45:54	@eti	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2018-12-16 15:46:53	+Cosumu	BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2018-12-16 15:47:35	Etiv	ffff
+2018-12-16 15:48:01	+Cosumu	f
+2018-12-16 15:48:59	+nai	`
+2018-12-16 15:49:09	+nai	`)
+2018-12-16 15:49:15	+Cosumu	 nai have you ever seen a boat
+2018-12-16 15:49:15	+nai	ソ
+2018-12-16 15:49:22	+nai	i am a boat
+2018-12-16 15:49:25	Etiv	nai: how was your shower
+2018-12-16 15:49:32	+nai	didn't take it yet
+2018-12-16 15:49:34	+Cosumu	do you oink like all good boats do
+2018-12-16 15:49:41	+nai	boats don't oink
+2018-12-16 15:49:45	+nai	they honk
+2018-12-16 15:49:47	+Cosumu	[for you]
+2018-12-16 15:49:47	+cappuccino	[FOR YOU INTENSIFIES]
+2018-12-16 15:49:54	+nai	w-what
+2018-12-16 15:50:05	sy	[incentivise]
+2018-12-16 15:50:05	+cappuccino	[INCENTIVISE INTENSIFIES]
+2018-12-16 15:50:09	+nai	w-what
+2018-12-16 15:50:26	+nai	[intensyfies]
+2018-12-16 15:50:26	+cappuccino	[INTENSYFIES INTENSIFIES]
+2018-12-16 15:50:33	sy	no
+2018-12-16 15:50:37	+nai	si.
+2018-12-16 15:50:57	Etiv	Bonjouer
+2018-12-16 15:51:01	+nai	no.
+2018-12-16 15:51:04	+Cosumu	wtf is french
+2018-12-16 15:51:23	+nai	a langüage
+2018-12-16 15:51:24	Etiv	sa va
+2018-12-16 15:51:30	+nai	jfc Etiv 
+2018-12-16 15:51:32	+Cosumu	no its not
+2018-12-16 15:51:37	+Cosumu	its an accent
+2018-12-16 15:51:40	+Cosumu	:^0
+2018-12-16 15:52:17	+Cosumu	erryone knows that french just loaned words from english and latin to make a language that sounds smart so that those langauges could think that they had smart words
+2018-12-16 15:52:54	+nai	erryone knows australia is a backwards place full of retarded clowns who don't know which way is up
+2018-12-16 15:53:10	+nai	erryone also knows Cosumu is from australia
+2018-12-16 15:53:11	+Cosumu	pfft
+2018-12-16 15:53:14	+Cosumu	australia doesn't exist
+2018-12-16 15:53:36	+Cosumu	or rather
+2018-12-16 15:53:38	+Cosumu	it was a mistake at least
+2018-12-16 15:53:51	+nai	erryone probably knows how to combine two basic premises into a logical conclusion according to modus ponens
+2018-12-16 15:54:29	+Cosumu	nai: yes
+2018-12-16 15:54:35	+nai	so surely erryone can make their own conclusions as to the mental state of this here boy Cosumu 
+2018-12-16 15:54:50	+Cosumu	nai: im drunk
+2018-12-16 15:55:06	+nai	o shit i have exams tomorrow
+2018-12-16 15:55:13	Etiv	cool
+2018-12-16 15:55:14	+Cosumu	im litearlly arguing with my mum about not having garlic
+2018-12-16 15:55:17	+nai	i have to learn the RAID setups
+2018-12-16 15:55:21	+Cosumu	mfw etiv is a big boy now
+2018-12-16 15:55:24	+nai	what a joke
+2018-12-16 15:55:37	+nai	Cosumu: wtf is there to even argue about
+2018-12-16 15:55:43	+nai	it's just a fact
+2018-12-16 15:55:48	+Cosumu	she told me to go to bed
+2018-12-16 15:55:49	+nai	"we do not possess garlic"
+2018-12-16 15:55:52	+Cosumu	but i told her i dont have any garlic
+2018-12-16 15:56:26	+Cosumu	see i wanted to make garlic bread but i dont have any garlic so im upset
+2018-12-16 15:56:47	+nai	it's my fault
+2018-12-16 15:56:50	+nai	i said bread
+2018-12-16 15:56:54	+nai	gave you ideas
+2018-12-16 15:57:00	+nai	say sorry to your mom from me
+2018-12-16 15:57:07	+Cosumu	fam radio bread is my fav  band
+2018-12-16 15:57:40	Etiv	radiohead is tame experimental music for hipsters
+2018-12-16 15:57:50	+Cosumu	wtf
+2018-12-16 15:57:53	+Cosumu	who is radiohead
+2018-12-16 15:57:58	Etiv	ur dad
+2018-12-16 15:57:59	+Cosumu	im a crepe, im a werdough
+2018-12-16 15:58:04	+Cosumu	what am i doughing here
+2018-12-16 15:58:06	+Cosumu	i donut belong here
+2018-12-16 15:58:08	+Cosumu	radiobread
+2018-12-16 15:58:14	+Cosumu	eryone knows radiobread
+2018-12-16 15:58:20	Etiv	crêpe isn't bread
+2018-12-16 15:58:32	+Cosumu	i bet Etiv is actually mr brightside
+2018-12-16 15:58:36	+nai	that was nice Cosumu 
+2018-12-16 15:58:38	+nai	i liked it
+2018-12-16 15:58:40	+Cosumu	its bread if you want to to be
+2018-12-16 15:58:57	+nai	i'm a crêpe
+2018-12-16 15:59:02	+Cosumu	nai: i dont use my facebook acocunt but i do follow 'is bread'
+2018-12-16 15:59:03	+nai	i'm a weirdough-ou-ough
+2018-12-16 15:59:10	Etiv	je m'appelle jeff
+2018-12-16 15:59:27	@enju	nai my light bulb is reflecting on the downside
+2018-12-16 15:59:34	+nai	ooh
+2018-12-16 15:59:53	+Cosumu	im not sure what that means enju but it sounds like a song name
+2018-12-16 16:00:09	+nai	mfw when eti said "light bulb" i thought he meant he had an illumination
+2018-12-16 16:00:21	+Cosumu	idk what an illumation is
+2018-12-16 16:00:26	@Leliana	guys I think it's time we MAGA
+2018-12-16 16:00:27	+nai	when he was literally referring to a light bulb
+2018-12-16 16:00:31	@Leliana	that is, make america gay again
+2018-12-16 16:00:35	+Cosumu	make anime gay again
+2018-12-16 16:00:56	+Cosumu	mfw 
+2018-12-16 16:01:02	Etiv	make armenians grow apples
+2018-12-16 16:01:04	+Cosumu	i didn't realise not drinking makes your tolereance disappear
+2018-12-16 16:01:23	+nai	tell that to the japanese
+2018-12-16 16:01:33	+Cosumu	yea it makes me worried that my liver isn't working
+2018-12-16 16:01:41	+Cosumu	bc i seem pretty drunk off of two standards
+2018-12-16 16:01:45	+nai	is it protesting
+2018-12-16 16:01:50	+nai	is your liver a gilet jaune?
+2018-12-16 16:01:54	@eti	i wanna make crepes
+2018-12-16 16:01:57	@eti	uuuuh
+2018-12-16 16:02:02	@eti	i don't have any nutella
+2018-12-16 16:02:03	@eti	fuck
+2018-12-16 16:02:05	+nai	> nutella
+2018-12-16 16:02:07	+Cosumu	FUG
+2018-12-16 16:02:09	Etiv	>crêpes
+2018-12-16 16:02:10	+nai	nice brand placement fam
+2018-12-16 16:02:16	Etiv	>not french toast
+2018-12-16 16:02:17	+nai	do they pay you or someth
+2018-12-16 16:02:19	@eti	https://i.redd.it/xmuo48czel421.jpg :((((((((((((
+2018-12-16 16:02:22	Etiv	p l e b
+2018-12-16 16:02:34	+Cosumu	whats that weird deep fried bread thing which is yummy
+2018-12-16 16:02:41	Etiv	french toastz
+2018-12-16 16:02:42	Etiv	?
+2018-12-16 16:02:45	+Cosumu	starts with a c
+2018-12-16 16:02:49	@eti	french toast
+2018-12-16 16:02:52	@eti	crouton
+2018-12-16 16:02:54	@eti	idk man
+2018-12-16 16:02:54	+nai	crench toast
+2018-12-16 16:03:00	+Cosumu	yea nai has it
+2018-12-16 16:03:03	+Cosumu	:^&0
+2018-12-16 16:03:05	@eti	trench coat
+2018-12-16 16:03:07	+Cosumu	its like an italian thing
+2018-12-16 16:03:19	+nai	ciao
+2018-12-16 16:03:19	@eti	mmmmm
+2018-12-16 16:03:21	Etiv	in carrozza?
+2018-12-16 16:03:24	+Cosumu	idk
+2018-12-16 16:03:25	+Cosumu	no z's
+2018-12-16 16:03:26	+nai	cappuccino
+2018-12-16 16:03:27	+cappuccino	what kind of shit and load it
+2018-12-16 16:03:27	+Cosumu	its yum
+2018-12-16 16:03:29	+Cosumu	chirro
+2018-12-16 16:03:31	+Cosumu	maybe its not itallian
+2018-12-16 16:03:32	+nai	churro
+2018-12-16 16:03:32	@eti	OH BELLA CIAO BELLA BELLA CIAO
+2018-12-16 16:03:35	+nai	that's spanish
+2018-12-16 16:03:38	+nai	or like mexican
+2018-12-16 16:03:40	@eti	chorizo
+2018-12-16 16:03:42	+Cosumu	ok ok
+2018-12-16 16:03:42	@eti	churros
+2018-12-16 16:03:45	+Cosumu	west italian
+2018-12-16 16:03:50	@eti	mmmh fried chorizo
+2018-12-16 16:03:54	jenkins	what italian thing?
+2018-12-16 16:03:54	Etiv	carrozza is literallt deep fried cheese sandwich
+2018-12-16 16:03:59	@eti	bter than dick.jpeg
+2018-12-16 16:04:28	+nai	why am i doing nothing again
+2018-12-16 16:04:30	+nai	help
+2018-12-16 16:04:39	Etiv	.kb nai
+2018-12-16 16:04:42	jenkins	carrozza is like fried cheese covered in Bread crumbs
+2018-12-16 16:04:43	@eti	it's sunday you fag
+2018-12-16 16:04:48	@eti	ofc you're not doing anything
+2018-12-16 16:05:05	+nai	but i have to work for exams :'(
+2018-12-16 16:05:34	+Cosumu	> eating any type of pasta otehr than alfabeto
+2018-12-16 16:05:36	+Cosumu	wew
+2018-12-16 16:05:44	+Cosumu	why is booze legal
+2018-12-16 16:06:26	+Cosumu	rip liverino
+2018-12-16 16:06:26	@eti	rue irl https://www.youtube.com/watch?v=q1pBp9KFFcM
+2018-12-16 16:06:27	+cappuccino	[ youtube.com ] Best Vines - Best of James Cage White Vines - YouTube (text/html)
+2018-12-16 16:06:43	@eti	Cosumu: how's aus wine
+2018-12-16 16:06:51	+Cosumu	it can be pretty good
+2018-12-16 16:07:21	@eti	did you ever taste frnech wine
+2018-12-16 16:07:25	@eti	it's the best
+2018-12-16 16:08:04	Etiv	wine sucks though
+2018-12-16 16:08:30	Ergo	wine is blerh 
+2018-12-16 16:08:37	+nai	^
+2018-12-16 16:08:38	+Cosumu	eti yea it is
+2018-12-16 16:08:40	Ergo	i tried forcing myself to like it for a while 
+2018-12-16 16:08:42	+Cosumu	i like champagne bc im a normie
+2018-12-16 16:08:44	Ergo	but i just couldnt lol
+2018-12-16 16:08:50	Ergo	i will say that red wine isnt too bad tho 
+2018-12-16 16:08:55	Ergo	its mostly the aftertaste that sucks 
+2018-12-16 16:08:58	@eti	wine is great
+2018-12-16 16:09:01	@eti	but man
+2018-12-16 16:09:03	@eti	beer
+2018-12-16 16:09:04	@eti	>*
+2018-12-16 16:09:11	+Cosumu	i mean red is basically the same as white
+2018-12-16 16:09:12	Etiv	>alcohol
+2018-12-16 16:09:14	+nai	wew
+2018-12-16 16:09:15	Ergo	beer trumps all tbh 
+2018-12-16 16:09:16	+Cosumu	but i dont like it warm
+2018-12-16 16:09:16	@eti	wtf Cosumu 
+2018-12-16 16:09:18	+nai	> not whiskey
+2018-12-16 16:09:21	@eti	don't say that shit
+2018-12-16 16:09:24	Ergo	whiskey is gross 
+2018-12-16 16:09:24	@eti	i'll eat mur ass
+2018-12-16 16:09:33	+nai	> not vodka
+2018-12-16 16:09:35	@eti	white != red
+2018-12-16 16:09:41	Ergo	honestly i either drink beer or i get like mix stuff to get drunk 
+2018-12-16 16:09:47	+Cosumu	eti: studies have been done with dying white wine so it looks read and people describe it with the characteristics of red wine
+2018-12-16 16:09:48	Ergo	but beer does the job most of the time 
+2018-12-16 16:09:48	@eti	vodka is great
+2018-12-16 16:09:54	@eti	wisky is 2complex
+2018-12-16 16:10:02	+Cosumu	i like whisk(e)y
+2018-12-16 16:10:04	Ergo	i always mix vodka 
+2018-12-16 16:10:09	Ergo	whiskey as well 
+2018-12-16 16:10:11	+Cosumu	not really something you drink but savoir
+2018-12-16 16:10:15	Ergo	cant stand it otherwise 
+2018-12-16 16:10:20	@eti	Cosumu: stg i can differenciate the two super easily
+2018-12-16 16:10:26	@eti	doesnt taste the same at all for me
+2018-12-16 16:10:33	+Cosumu	eti: is one hot and one cold?
+2018-12-16 16:10:34	@eti	red is way more "ripe" kinda
+2018-12-16 16:10:38	@eti	white is cold
+2018-12-16 16:10:41	@eti	red is room temp
+2018-12-16 16:10:45	+Cosumu	the temp makes a big difference
+2018-12-16 16:10:48	+Cosumu	i dont like red bc its hot here
+2018-12-16 16:10:48	@eti	ofc
+2018-12-16 16:10:52	+Cosumu	if it were cool it would be ok
+2018-12-16 16:10:54	+nai	> white is cold
+2018-12-16 16:10:56	+Cosumu	but 25c makes it trash
+2018-12-16 16:11:02	+Cosumu	if it was below 20 its different
+2018-12-16 16:11:04	@eti	nai: wdym
+2018-12-16 16:11:04	+nai	so if you warm it up it becomes red wine?
+2018-12-16 16:11:10	@eti	no
+2018-12-16 16:11:16	@eti	but tastes similar
+2018-12-16 16:11:26	+Cosumu	yea
+2018-12-16 16:11:28	@eti	it's a diff process so it can't taste the same iirc
+2018-12-16 16:11:30	+Cosumu	also downside of red is stains real bad
+2018-12-16 16:11:40	@eti	though it's wine. so ofc it's similar lol
+2018-12-16 16:11:47	@eti	oooh i have some champaign
+2018-12-16 16:11:51	@eti	is that how you write it
+2018-12-16 16:12:02	+Cosumu	champagne 
+2018-12-16 16:12:10	@eti	oh so just like in french
+2018-12-16 16:12:12	@eti	hm
+2018-12-16 16:12:21	+nai	champâgne
+2018-12-16 16:12:27	+nai	jk
+2018-12-16 16:12:41	+Cosumu	champagne is pretty nice
+2018-12-16 16:12:43	+nai	champaĝne
+2018-12-16 16:12:50	+nai	cĥampagne
+2018-12-16 16:12:54	+nai	ĉhampagnê
+2018-12-16 16:13:22	+nai	Ĉosumû
+2018-12-16 16:13:28	+Cosumu	my locale is ablen't to make those symbols
+2018-12-16 16:13:30	+nai	ŝOĉulû
+2018-12-16 16:13:37	+nai	ablen't
+2018-12-16 16:13:39	+nai	ablenot
+2018-12-16 16:13:40	+Cosumu	oh man thats great
+2018-12-16 16:13:41	+nai	ablton
+2018-12-16 16:13:43	+Cosumu	why say can't
+2018-12-16 16:13:43	+nai	ableton
+2018-12-16 16:13:46	+Cosumu	when you can say uncan
+2018-12-16 16:13:54	+nai	when you can say Pete
+2018-12-16 16:14:03	+Cosumu	wtf why are you roping pete into this
+2018-12-16 16:14:04	Etiv	ableton lol
+2018-12-16 16:14:14	+nai	Cosumu: HE STARTED IT ALL
+2018-12-16 16:14:22	+nai	pete had sex with my wine
+2018-12-16 16:14:25	+Cosumu	unhe started it all
+2018-12-16 16:14:29	+nai	and drank all my best wives
+2018-12-16 16:14:38	+Cosumu	wives
+2018-12-16 16:14:40	+Cosumu	nani
+2018-12-16 16:14:42	+Cosumu	you dont drink women nai 
+2018-12-16 16:14:59	+nai	but you do fuck wine tho
+2018-12-16 16:15:20	+nai	right, offspring?
+2018-12-16 16:15:21	+Cosumu	no
+2018-12-16 16:15:24	+Cosumu	i hardly drink
+2018-12-16 16:15:30	+nai	(is what Igor Stravinsky used to say to his children)
+2018-12-16 16:15:36	+Cosumu	hence why im so drunk after 2 drinks
+2018-12-16 16:15:38	+Cosumu	worried emoji
+2018-12-16 16:15:57	+nai	thinking emoji
+2018-12-16 16:16:03	+nai	emoji thinking
+2018-12-16 16:17:09	@eti	:gnikniht:
+2018-12-16 16:17:22	+nai	gni xD
+2018-12-16 16:17:29	+nai	gni lunix
+2018-12-16 16:17:33	+nai	gni lunixD
+2018-12-16 16:18:03	+nai	collapsing under the weight of my own brain right now
+2018-12-16 16:19:58	@eti	thought you'd be flying instead
+2018-12-16 16:20:25	+nai	i can't
+2018-12-16 16:20:26	+Cosumu	meoink
+2018-12-16 16:20:28	+nai	brain too heavy
+2018-12-16 16:20:44	+Cosumu	o
+2018-12-16 16:20:46	+Cosumu	remove it 
+2018-12-16 16:20:51	+Cosumu	for lighter cognative load
+2018-12-16 16:20:55	+nai	cognative
+2018-12-16 16:21:15	-->	The_Loko (~The_Loko@Rizon-511B2279.red-83-56-173.dynamicip.rima-tde.net) has joined #rice
+2018-12-16 16:22:06	@eti	cagnotevi
+2018-12-16 16:22:24	+nai	ccccccccccccc-"""""(poûtre)""""""
+2018-12-16 16:22:57	+nai	i'm a spaceship
+2018-12-16 16:23:06	+nai	i'm so space-hip
+2018-12-16 16:23:07	+Cosumu	oh no the south germans are speaking again
+2018-12-16 16:23:25	+Cosumu	if you choke on water are you drowning
+2018-12-16 16:24:07	+nai	if you choke on my dick are you frowning
+2018-12-16 16:25:02	+nai	yes you aren't
+2018-12-16 16:27:16	+nai	cappuccino: ｙｉｋｅｓ
+2018-12-16 16:27:17	+cappuccino	fuck that, I haven't seen him a few phone calls to make it a go
+2018-12-16 16:29:30	<--	Izuru (~Izuru@hi.im.izuru) has quit (Read error: Connection reset by peer)
+2018-12-16 16:30:50	Etiv	why did i get a ryzen cpu
+2018-12-16 16:30:55	Etiv	literally no linux distros work
+2018-12-16 16:31:03	+Rue	eti: lol
+2018-12-16 16:31:05	+Rue	:D
+2018-12-16 16:32:20	`-_	Pastebin offers $69 Windscribe VPN: Lifetime Pro Subscription
+2018-12-16 16:32:23	`-_	should i take?
+2018-12-16 16:33:00	+Cosumu	kek
+2018-12-16 16:33:01	@Leliana	no
+2018-12-16 16:33:13	+Cosumu	who the fuck is `-_ 
+2018-12-16 16:33:15	@Leliana	literally just buy a $5 VPS and set up your own
+2018-12-16 16:33:18	+Cosumu	or \x 
+2018-12-16 16:33:22	`-_	soz i'll shut up
+2018-12-16 16:33:51	+Cosumu	`-_: how do i say ur nick
+2018-12-16 16:33:53	+Cosumu	.selfie `-_ 
+2018-12-16 16:33:53	+cappuccino	`-_ has no selfies.
+2018-12-16 16:33:58	`-_	.selfie `\
+2018-12-16 16:33:59	+cappuccino	Invalid arguments: No escaped character.
+2018-12-16 16:34:19	`-_	fuck cappucino i only do taigabot
+2018-12-16 16:34:28	@Leliana	tough shit bitch
+2018-12-16 16:34:40	@Leliana	taigabot can suck my dick
+2018-12-16 16:34:56	+Cosumu	cappuccino: eat ass
+2018-12-16 16:34:57	+cappuccino	vscode vim bindings are shit i'll just stay a cute golden cicada on it
+2018-12-16 16:35:32	+nai	Leliana: that's a good bot then
+2018-12-16 16:37:54	@Leliana	you're a good bot
+2018-12-16 16:38:09	+nai	beep bloop
+2018-12-16 16:38:16	+nai	error error
+2018-12-16 16:38:52	+Rue	you tech peeps have experience hosting shit on vimeo?
+2018-12-16 16:39:13	+nai	beep beep ban Rue 
+2018-12-16 16:39:56	+nai	cappuccino: that was a suggestion
+2018-12-16 16:39:58	+cappuccino	i would have almost 359 million dollars usd if i knew i would've hat at least 25 dollars in my list
+2018-12-16 16:40:16	+nai	that sounds retarded enough to be something Cosumu said
+2018-12-16 16:40:31	@Leliana	.ai --status
+2018-12-16 16:40:32	+cappuccino	Chatbot is currently enabled for #rice. Channel/global line count: 348612/363785 (96%).
+2018-12-16 16:40:34	@Leliana	kek
+2018-12-16 16:41:11	+Cosumu	kek
+2018-12-16 16:41:13	@Leliana	shame I can't load all of those at a time
+2018-12-16 16:41:22	+Cosumu	cappuccino: a small loan of 1 million dollars
+2018-12-16 16:41:23	+cappuccino	I have a blast https://x.eti.tf/NRexC.txt
+2018-12-16 16:41:41	+nai	lmfao
+2018-12-16 16:41:42	+Cosumu	urxvt: "asdasdasdsa": malformed option.
+2018-12-16 16:41:57	+nai	classic eti
+2018-12-16 16:42:00	+nai	classetic
+2018-12-16 16:42:10	+neeasade	naice.
+2018-12-16 16:42:46	+nai	neeai don't really know where i'm going with this but please suck my dicksade
+2018-12-16 16:43:15	+neeasade	haha touch my but and buy me pizza
+2018-12-16 16:43:19	+neeasade	t. basic bitch from 2012
+2018-12-16 16:44:06	+nai	does anybody have a pH test because this bitch is basic
+2018-12-16 16:44:09	+nai	where did i hear this
+2018-12-16 16:44:17	+neeasade	the inter dot net
+2018-12-16 16:44:26	+nai	maybe bojack horseman
+2018-12-16 16:44:51	+nai	maybe not
+2018-12-16 16:44:59	+neeasade	bojack is great
+2018-12-16 16:45:07	+nai	yes
+2018-12-16 16:45:17	+nai	S05 is a bit weird but i'm not done
+2018-12-16 16:45:40	+nai	they should probably stop here though
+2018-12-16 16:46:15	+neeasade	they get meta towards the end
+2018-12-16 16:46:49	+Cosumu	neeasade: 
+2018-12-16 16:46:51	+Cosumu	send help
+2018-12-16 16:46:55	+neeasade	what do you need
+2018-12-16 16:46:58	+nai	help
+2018-12-16 16:46:59	+nai	DUH
+2018-12-16 16:47:03	+neeasade	I will send the nutcracker army
+2018-12-16 16:47:05	+neeasade	to assist
+2018-12-16 16:47:11	+Cosumu	neeasade: i googled weird things and no wim looking at bizzare images
+2018-12-16 16:47:13	+Cosumu	wanna see
+2018-12-16 16:47:17	+neeasade	fuck
+2018-12-16 16:47:18	+nai	he doesn't need assistance, he needs HELP
+2018-12-16 16:47:20	+neeasade	alright
+2018-12-16 16:47:20	+nai	l2read
+2018-12-16 16:47:22	+neeasade	send em over
+2018-12-16 16:47:34	+neeasade	nai: why did you type assistance twice
+2018-12-16 16:47:42	+nai	smh
+2018-12-16 16:47:46	+nai	(sending my help)
+2018-12-16 16:47:55	+neeasade	lol'd
+2018-12-16 16:48:05	+nai	lol'k
+2018-12-16 16:48:15	+nai	lol—ç
+2018-12-16 16:48:19	+nai	lol/ù
+2018-12-16 16:48:29	@eti	s/\/@/
+2018-12-16 16:48:34	@eti	s/\//@/
+2018-12-16 16:48:34	+cappuccino	eti thinks nai meant to say: lol@ù
+2018-12-16 16:48:43	+nai	lol❧似
+2018-12-16 16:49:01	+neeasade	eti:🅱ls no die
+2018-12-16 16:49:08	+Rue	殺
+2018-12-16 16:49:18	@eti	.8ball should i add alcohol to my crepes recipe
+2018-12-16 16:49:18	+cappuccino	eti: It is certain.
+2018-12-16 16:49:26	@eti	.decide vodka or beer
+2018-12-16 16:49:26	+cappuccino	eti: beer
+2018-12-16 16:49:30	@eti	u got it
+2018-12-16 16:49:32	+nai	jfc
+2018-12-16 16:49:38	+nai	is cappuccino breton or something
+2018-12-16 16:49:39	+cappuccino	and they all probably broke with the full experience man
+2018-12-16 16:49:59	+nai	s\/\@\
+2018-12-16 16:50:00	+cappuccino	nai meant to say: lol@ù
+2018-12-16 16:50:07	+nai	:⁾
+2018-12-16 16:50:11	@eti	i just said that
+2018-12-16 16:50:13	+nai	no
+2018-12-16 16:50:20	@eti	u
+2018-12-16 16:50:23	+nai	you said s/\//@/
+2018-12-16 16:50:26	+nai	i said s\/\@\
+2018-12-16 16:50:28	+nai	way sexier
+2018-12-16 16:50:56	@eti	uh
+2018-12-16 16:51:02	@eti	guess you're right
+2018-12-16 16:51:16	+nai	i don't have to guess
+2018-12-16 16:52:05	@eti	well shut the fuck up would ya
+2018-12-16 16:52:12	@eti	just take the compliment
+2018-12-16 16:52:13	+nai	wew
+2018-12-16 16:52:13	+cappuccino	w e w l a d
+2018-12-16 16:52:23	+nai	mod abuse
+2018-12-16 16:52:33	+nai	cappuccino: you must ban eti at once
+2018-12-16 16:52:35	+cappuccino	my avg is probably not called with -escape internally
+2018-12-16 16:52:54	<--	Cosumu (~Cosumu@space.is-the-place) has quit (Ping timeout: 240 seconds)
+2018-12-16 16:52:59	+nai	cappuccino: wew
+2018-12-16 16:53:01	+cappuccino	24 doesn't even have --set
+2018-12-16 16:53:14	+nai	jfc, is cappuccino having his existential introspection
+2018-12-16 16:53:15	+cappuccino	azahi I really want ascended
+2018-12-16 16:53:22	+nai	mfw
+2018-12-16 16:53:39	+nai	cappuccino: how is the consciousness going
+2018-12-16 16:53:40	+cappuccino	arent polish people the new machine for znc. no serious issues. now to start an arguement
+2018-12-16 16:53:59	+nai	i feel like we're hitting peak cappuccino right here
+2018-12-16 16:54:01	+cappuccino	the manner in which case i'll be giving that partition over to CS?
+2018-12-16 16:54:15	+nai	yeah, that was peak. now we're falling down
+2018-12-16 16:54:27	@eti	cappuccino: now tell us more about the jews
+2018-12-16 16:54:28	+cappuccino	in a fight lol
+2018-12-16 16:54:32	+nai	rofl jesus christ
+2018-12-16 16:54:38	+nai	stop fighting cappuccino 
+2018-12-16 16:54:39	@eti	>lol
+2018-12-16 16:54:39	+cappuccino	the world is a FP langauge
+2018-12-16 16:54:43	@eti	ye
+2018-12-16 16:54:44	+nai	AHAHAHAHA
+2018-12-16 16:54:44	@eti	peak
+2018-12-16 16:54:46	+nai	i'm dying
+2018-12-16 16:54:46	<--	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has quit (Remote host closed the connection)
+2018-12-16 16:54:46	@eti	right there
+2018-12-16 16:54:48	+neeasade	omg
+2018-12-16 16:54:49	+nai	OH NO
+2018-12-16 16:54:50	+nai	IT DIED
+2018-12-16 16:54:53	@eti	lmao
+2018-12-16 16:54:54	@eti	rip cap
+2018-12-16 16:54:57	+nai	I TOLD IT TO STOP FIGHTING
+2018-12-16 16:55:00	@eti	we'll miss u
+2018-12-16 16:55:33	@enju	oof finally have my desktop on ethernet
+2018-12-16 16:55:44	@Leliana	it's great right?
+2018-12-16 16:55:45	+nai	but do you have your .desktop on the internet
+2018-12-16 16:55:55	@eti	enju: run a speedtest
+2018-12-16 16:56:02	-->	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has joined #rice
+2018-12-16 16:56:03	--	Mode #rice [+v cappuccino] by Onee-chan
+2018-12-16 16:56:11	+nai	cappuccino: is the world a Lisp
+2018-12-16 16:56:11	@enju	https://i.imgur.com/utc4533.png eti
+2018-12-16 16:56:13	@eti	cappuccino: ass
+2018-12-16 16:56:13	+cappuccino	I work on saturdays, and it broke just as I hear it
+2018-12-16 16:56:15	+cappuccino	i feel like listening to vibes by windows 96
+2018-12-16 16:56:22	@enju	got that ping down good
+2018-12-16 16:56:28	@eti	enju: p nice
+2018-12-16 16:56:30	@enju	and my wifi card just craps out every half hour
+2018-12-16 16:56:34	@enju	the upload just died
+2018-12-16 16:56:45	@eti	oh
+2018-12-16 16:57:21	-->	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has joined #rice
+2018-12-16 16:57:24	Ergo	why use a wifi card
+2018-12-16 16:57:28	Ergo	jut use a usb dongle lol 
+2018-12-16 16:57:48	@enju	cause the card i got from work was way better t han the dongle I used to have
+2018-12-16 16:57:55	Ergo	ahh thats unlucky
+2018-12-16 16:58:08	@eti	:^( https://x.eti.tf/ChPbq.png
+2018-12-16 16:58:15	@enju	oof
+2018-12-16 16:58:19	Ergo	i just spend like half an hour debugging with venam
+2018-12-16 16:58:22	Ergo	but couldnt figure it out 
+2018-12-16 16:58:25	Ergo	unlucky 
+2018-12-16 16:58:26	@eti	debugging what
+2018-12-16 16:58:41	@eti	venam is a great guy
+2018-12-16 16:58:44	Ergo	native linux game windows being fucked up in 2bwm 
+2018-12-16 16:58:51	Ergo	yeee he seems nice 
+2018-12-16 16:59:16	@eti	oh ye, enju experienced issues too
+2018-12-16 17:00:04	Ergo	yup, he is gonna download stardew valley now 
+2018-12-16 17:00:08	Ergo	to see if he can figure it out lol 
+2018-12-16 17:00:55	Ergo	like what i can do is open all the games in openbox first, set them to windowed default and then i can open them in 2bwm 
+2018-12-16 17:00:57	Ergo	but thats just annoying 
+2018-12-16 17:00:59	<--	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has quit
+2018-12-16 17:04:10	-->	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has joined #rice
+2018-12-16 17:05:27	+LambdaComplex	what do i want for christmas
+2018-12-16 17:05:49	@enju	2019 to be the year of the linux desktop ofc
+2018-12-16 17:06:15	-->	Cosumu (~Cosumu@space.is-the-place) has joined #rice
+2018-12-16 17:06:15	--	Mode #rice [+v Cosumu] by Onee-chan
+2018-12-16 17:07:16	Ergo	enju: its gonna happen pog 
+2018-12-16 17:07:26	Ergo	im not saying it grow incredibly 
+2018-12-16 17:07:32	Ergo	but this might be a important yar 
+2018-12-16 17:09:05	@cosarara	why
+2018-12-16 17:09:29	Ergo	cause steam play is pretty big 
+2018-12-16 17:09:47	Ergo	also adobe has responded to people wanting it on linux, but that is veeeeeeeeeeeeeeeeeeeryyyyyyyyy unlikely to do anything 
+2018-12-16 17:09:56	-->	mobo (~mobo@steal.softly.thru.snow) has joined #rice
+2018-12-16 17:09:56	--	Mode #rice [+o mobo] by Onee-chan
+2018-12-16 17:10:08	Ergo	they did go out of their way to make a post about looking into it again tho 
+2018-12-16 17:11:22	-->	Ivion (~ivion@F3E85539:23066E38:40608628:IP) has joined #rice
+2018-12-16 17:11:29	<--	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has quit (Ping timeout: 240 seconds)
+2018-12-16 17:17:28	@cosarara	steam play is pretty big, but the gaymers are not going to switch to linux just because
+2018-12-16 17:18:29	@cosarara	I mean, sure it's getting easier and easier to play games on linux, but people still need an actual reason to go and switch
+2018-12-16 17:18:55	@cosarara	a reason that outweights the fact that there will always be shit that runs only on windows
+2018-12-16 17:24:03	 *	nai pets cosarara on the being catalan
+2018-12-16 17:24:58	 *	nai cajole cosarara sur la catalance
+2018-12-16 17:26:05	-->	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has joined #rice
+2018-12-16 17:27:00	-->	crabmeat (~pluto@9FB29375:7966B1E2:87A227E1:IP) has joined #rice
+2018-12-16 17:28:39	crabmeat	nice
+2018-12-16 17:29:13	Etiv	.selfie crabmeat
+2018-12-16 17:29:25	<--	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has quit (Ping timeout: 240 seconds)
+2018-12-16 17:29:29	-->	cappuccino (~cappy@Rizon-234FD03E.revthefox.co.uk) has joined #rice
+2018-12-16 17:29:30	+Rue	.selfie cosarara 
+2018-12-16 17:29:31	--	Mode #rice [+v cappuccino] by Onee-chan
+2018-12-16 17:29:32	+cappuccino	(1) https://ptpb.pw/MHPl.jpg [cosarara]
+2018-12-16 17:30:00	<--	pong (chiya@naa.mate) has quit (Ping timeout: 240 seconds)
+2018-12-16 17:30:18	+Rue	glorious gigner jesus
+2018-12-16 17:30:20	+Rue	:D
+2018-12-16 17:30:30	+neeasade	no kidding 
+2018-12-16 17:31:07	<--	crabmeat (~pluto@9FB29375:7966B1E2:87A227E1:IP) has quit
+2018-12-16 17:31:14	+nai	Rue: don't make fun of my homey cosarara 
+2018-12-16 17:31:16	@enju	Rue, did yuo watch all the favourites getting eliminated
+2018-12-16 17:31:25	+nai	.selfie Rue
+2018-12-16 17:31:25	+cappuccino	(1) https://files.catbox.moe/b1sdwp.jpg [Rue]
+2018-12-16 17:31:31	+Rue	enju: no, i only caught 1-2 matches 
+2018-12-16 17:31:41	+nai	[you can't afford it]
+2018-12-16 17:31:41	+cappuccino	[YOU CAN'T AFFORD IT INTENSIFIES]
+2018-12-16 17:31:42	-->	Cosmonaut (~gagarin@8AD827C9:FE74DB85:EB74F7E4:IP) has joined #rice
+2018-12-16 17:31:42	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-16 17:31:55	@mobo	.selfie
+2018-12-16 17:31:55	+cappuccino	(1) https://0x0.st/sYNu.jpg [mobo]
+2018-12-16 17:32:03	+Rue	enju: when is it starting?
+2018-12-16 17:32:08	+Rue	i might be able to watch a few before zZ
+2018-12-16 17:32:11	@enju	i think late today
+2018-12-16 17:32:16	@enju	2pm pacific I think
+2018-12-16 17:32:21	+Rue	:(
+2018-12-16 17:32:23	@enju	so in the morning for you right
+2018-12-16 17:32:28	-->	pong (chiya@naa.mate) has joined #rice
+2018-12-16 17:32:29	@enju	you can just catch them after getting up no
+2018-12-16 17:32:48	+Rue	ya they do reruns
+2018-12-16 17:32:50	@enju	justin wong is in winners top8
+2018-12-16 17:33:02	@enju	best SFV play from him in a decade
+2018-12-16 17:33:09	+Rue	haha nice
+2018-12-16 17:33:19	 *	Rue listens to https://www.youtube.com/watch?v=jpF0qKQ4WeE
+2018-12-16 17:33:20	+cappuccino	[ youtube.com ] Brad Mehldau  - 'And I Love Her' 2016 - YouTube (text/html)
+2018-12-16 17:43:21	Etiv	big surprise
+2018-12-16 17:43:28	Etiv	void linux doesn't work either
+2018-12-16 17:50:52	+LambdaComplex	reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+2018-12-16 17:51:17	-->	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has joined #rice
+2018-12-16 17:53:58	-->	morpho (~morpho@B1E1E116.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-16 17:54:12	+neeasade	REEEE
+2018-12-16 17:56:23	+nai	LambdaComplex: reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+2018-12-16 17:56:31	+nai	alright time for that cold shower.
+2018-12-16 17:56:42	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Read error: Connection reset by peer)
+2018-12-16 17:56:52	+nai	if i'm not back later, i want you all to know that i loved you
+2018-12-16 17:56:55	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-16 17:56:55	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-16 17:57:02	+nai	except for like
+2018-12-16 17:57:04	+nai	Khorne
+2018-12-16 17:59:12	@Leliana	>tfw not me
+2018-12-16 17:59:50	ChibiFate	Leliana: i tried to config/build gentoo-sources
+2018-12-16 18:00:04	ChibiFate	but every time i try it, it keeps configuring/building previous kernel i used
+2018-12-16 18:00:09	ChibiFate	debian-sources
+2018-12-16 18:01:03	Etiv	why is ryzen support for Linux so bad
+2018-12-16 18:01:23	ChibiFate	why do you say  that?
+2018-12-16 18:01:24	Ergo	im suing ryzen 
+2018-12-16 18:01:25	Etiv	virtually everything i try has some kind of soft lockup error when i try to boot
+2018-12-16 18:01:27	Ergo	i have no problems at all 
+2018-12-16 18:01:39	Etiv	and doesn't work at all
+2018-12-16 18:01:44	Etiv	every distribution*
+2018-12-16 18:04:47	Etiv	gentoo, ubuntu, openSUSE tumbleweed, fedora, manjaro, etc.
+2018-12-16 18:04:59	`-_	.selfie
+2018-12-16 18:04:59	+cappuccino	(1) https://my.mixtape.moe/etwrad.png [`-_]
+2018-12-16 18:05:09	@Leliana	ChibiFate: you need to run make defconfig, or it'll use your currently running config
+2018-12-16 18:10:11	@cosarara	.dtop `-_ 
+2018-12-16 18:10:12	+cappuccino	`-_ has no dtops.
+2018-12-16 18:10:34	Etiv	.dtop cosarara
+2018-12-16 18:10:34	+cappuccino	(1) https://www.cosarara.me/dtops/ [cosarara]
+2018-12-16 18:19:29	+nai	there there Leliana, i hated you too
+2018-12-16 18:19:57	+nai	wait i'm back, this doesn't work
+2018-12-16 18:21:20	+LambdaComplex	nai: how do you reee in french?
+2018-12-16 18:21:30	+nai	w-we don't
+2018-12-16 18:21:48	Etiv	le ree
+2018-12-16 18:21:54	+nai	lee
+2018-12-16 18:22:03	+nai	liana
+2018-12-16 18:22:33	-->	Icedman (~Icedman@nein.not.funny) has joined #rice
+2018-12-16 18:22:45	-->	jumi (~qwebirc@riff.filled.land) has joined #rice
+2018-12-16 18:23:16	<--	jumi (~qwebirc@riff.filled.land) has left #rice
+2018-12-16 18:23:38	-->	jumi (~qwebirc@riff.filled.land) has joined #rice
+2018-12-16 18:25:52	<--	Etiv (~androirc@givemeavho.st) has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+2018-12-16 18:30:29	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Quit: Excess flood)
+2018-12-16 18:31:35	+LambdaComplex	honhonhon
+2018-12-16 18:33:19	<--	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has quit (Remote host closed the connection)
+2018-12-16 18:40:18	<--	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has quit (Ping timeout: 240 seconds)
+2018-12-16 18:53:10	--	bwlffy is now known as lt
+2018-12-16 19:16:09	+nai	oepsie, my beloved, did you know about this https://en.wikipedia.org/wiki/Frequentative
+2018-12-16 19:16:09	+cappuccino	[ en.wikipedia.org ] Frequentative - Wikipedia (text/html)
+2018-12-16 19:19:30	onodera	https://punpun.moe/h-cS.png
+2018-12-16 19:19:34	onodera	comfy Christmas rice
+2018-12-16 19:19:41	+neeasade	comf
+2018-12-16 19:22:56	<--	Rue (~rue@49929CE:3424232B:8BB325BC:IP) has quit
+2018-12-16 19:23:19	<--	Rue2 (~rue@Rizon-5C4A1318.dynamic-ip6.hinet.net) has quit
+2018-12-16 19:23:59	@eti	comfy wallpaper
+2018-12-16 19:25:02	@eti	how did you get nick highlighting in irssi onodera 
+2018-12-16 19:25:54	onodera	eti: nickcolor_expando and colorize_nicks
+2018-12-16 19:26:03	@eti	thanks!
+2018-12-16 19:35:38	-->	mobo (~mobo@steal.softly.thru.snow) has joined #rice
+2018-12-16 19:35:38	--	Mode #rice [+o mobo] by Onee-chan
+2018-12-16 19:37:46	onodera	 /quit
+2018-12-16 19:37:48	<--	onodera (~onodera@the.culture.of.critique) has quit (Quit: tfw)
+2018-12-16 19:38:09	-->	onodera (~onodera@the.culture.of.critique) has joined #rice
+2018-12-16 19:38:13	@mobo	great, he's back
+2018-12-16 19:38:41	onodera	hey
+2018-12-16 19:38:51	onodera	updated some of my irssi plgusin
+2018-12-16 19:39:21	@eti	mobo: saw you join as mobo-debian yesterday
+2018-12-16 19:39:26	@eti	did you decide to rice again
+2018-12-16 19:39:32	@mobo	kinda, hold on
+2018-12-16 19:39:38	Ergo	eti still done with ricing? 
+2018-12-16 19:39:40	Ergo	.dt eti 
+2018-12-16 19:39:40	+cappuccino	(1) https://x.eti.tf/u8PBQ.png [eti]
+2018-12-16 19:39:51	-->	wallace (~wallace@Rizon-D2E2D0A0.host.ussignalcom.net) has joined #rice
+2018-12-16 19:39:54	Ergo	that looks new 
+2018-12-16 19:40:18	--	wallace is now known as mobo-deb
+2018-12-16 19:40:24	--	Mode #rice [+v mobo-deb] by mobo
+2018-12-16 19:40:26	+mobo-deb	https://file0.s3kr.it/0cea969bd797.png
+2018-12-16 19:40:34	@mobo	that's my rice
+2018-12-16 19:40:38	+nai	rofl
+2018-12-16 19:40:46	+nai	you're ready to make your first post on r/up now :^)
+2018-12-16 19:40:56	@mobo	just works
+2018-12-16 19:41:11	Ergo	mobo: change the black for a waifu wallpaper
+2018-12-16 19:41:15	Ergo	and u will get 15 upvotes mimimum 
+2018-12-16 19:41:39	@eti	nah
+2018-12-16 19:41:43	@eti	150 instead
+2018-12-16 19:41:56	@eti	Ergo: yes, still done w/ ricing
+2018-12-16 19:42:06	@mobo	I've had my time on up
+2018-12-16 19:42:37	@mobo	maybe I will rice again though
+2018-12-16 19:42:40	@mobo	gimme some inspo
+2018-12-16 19:42:48	+nai	old newspapers
+2018-12-16 19:42:59	@mobo	already done that
+2018-12-16 19:43:05	+nai	3D shapes
+2018-12-16 19:43:17	@mobo	hmm
+2018-12-16 19:43:23	@mobo	I think ben did that
+2018-12-16 19:43:51	+nai	"oh yeah that guy back in 2014 no one here knows anymore did that"
+2018-12-16 19:43:57	@mobo	I gotta be new
+2018-12-16 19:43:58	@mobo	original
+2018-12-16 19:44:08	+nai	dadaist rice
+2018-12-16 19:44:40	@mobo	http://wallchan.cf/desktops/thumbnails.html
+2018-12-16 19:44:45	@mobo	all my rices thus far
+2018-12-16 19:45:15	+nai	i can't look at this for too long because i get too many orgasms at once
+2018-12-16 19:45:24	@mobo	<3
+2018-12-16 19:45:24	onodera	https://camo.githubusercontent.com/406a5ee3894c74fb2cdb0d4aba8ab040ec358cdb/68747470733a2f2f70756e70756e2e6d6f652f394e39332e706e67
+2018-12-16 19:45:30	onodera	"her" rice
+2018-12-16 19:45:44	+nai	but really, has "every window is a parallelepiped" already been done?
+2018-12-16 19:45:52	@mobo	wym?
+2018-12-16 19:46:00	+neeasade	nai: elaborate
+2018-12-16 19:46:07	+nai	https://en.wikipedia.org/wiki/Parallelepiped
+2018-12-16 19:46:08	+cappuccino	[ en.wikipedia.org ] Parallelepiped - Wikipedia (text/html)
+2018-12-16 19:46:13	+nai	like just add a top and right border
+2018-12-16 19:46:19	+nai	that makes the window look like it has depth
+2018-12-16 19:46:40	@mobo	oh, weird shapes
+2018-12-16 19:46:42	@mobo	too much work
+2018-12-16 19:46:49	@mobo	maybe could be done in xfce
+2018-12-16 19:46:55	+neeasade	don't think so -- I've donet bevels but not like that 
+2018-12-16 19:46:56	+neeasade	http://notes.neeasade.net/assets/img/desktops/thumb/2017-02-04.png
+2018-12-16 19:47:05	+neeasade	er - http://notes.neeasade.net/assets/img/desktops/full/2017-02-04.png
+2018-12-16 19:47:34	@mobo	neeasade weren't you the first one to do floating bars?
+2018-12-16 19:47:49	@eti	nai: dadaist rice sounds good
+2018-12-16 19:47:57	+neeasade	I feel like there were some others, but it certainly was not popular
+2018-12-16 19:48:07	@mobo	I resent you for making it popular
+2018-12-16 19:48:14	+neeasade	; )
+2018-12-16 19:49:49	@eti	mobo: my inspo folder https://cloud.eti.tf/index.php/s/i5JHvLZspg3YfcV
+2018-12-16 19:49:51	+cappuccino	[ cloud.eti.tf ] ownCloud (text/html)
+2018-12-16 19:49:56	onodera	https://dribbble.com/shots/4788422-ApplePay-Redesigned
+2018-12-16 19:49:57	+cappuccino	[ dribbble.com ] ApplePay  Redesigned by Michal Sambora | Dribbble | Dribbble (text/html)
+2018-12-16 19:49:58	@eti	most of it you probably saw before but w/e
+2018-12-16 19:50:02	onodera	do this, which is popular in web design
+2018-12-16 19:50:05	onodera	these big colored shadows
+2018-12-16 19:50:09	-->	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-16 19:50:20	@eti	onodera: boring
+2018-12-16 19:50:24	onodera	only thing is you need create a compositor that somehows blurs a window a makes a drop shadow out of the blur
+2018-12-16 19:50:24	@eti	what's your dribbble
+2018-12-16 19:50:29	onodera	i dont have one
+2018-12-16 19:50:33	onodera	that site fucking sucks
+2018-12-16 19:50:49	onodera	a sign all about design and you can't even upload ful res scrots
+2018-12-16 19:50:58	onodera	s/gn/te/
+2018-12-16 19:50:58	+cappuccino	onodera meant to say: a site all about design and you can't even upload ful res scrots
+2018-12-16 19:51:03	@eti	oh yeah that sucks
+2018-12-16 19:51:12	@eti	still think it's a good place for inspo though
+2018-12-16 19:51:25	onodera	yeah thats true
+2018-12-16 19:52:33	+nai	mobo: i meant something like this https://up.monade.li/Mm87a5.png
+2018-12-16 19:52:45	@eti	ok so colorize_nicks doesn't work i think
+2018-12-16 19:52:48	@eti	huh i guess fuck it
+2018-12-16 19:52:49	-->	noise (noise@e.c.h.o) has joined #rice
+2018-12-16 19:53:02	@eti	nai: nice shadows
+2018-12-16 19:53:07	@mobo	ooh, that looks pretty cool
+2018-12-16 19:53:14	noise	.desktop nai
+2018-12-16 19:53:14	+cappuccino	(1) https://up.monade.li/2c3GUP.png | (2) [NSFW] https://up.monade.li/YFQMa8.png [nai]
+2018-12-16 19:53:34	@cosarara	.dtop noise
+2018-12-16 19:53:35	+cappuccino	noise has no dtops.
+2018-12-16 19:53:35	onodera	I did this using fvwm nai 
+2018-12-16 19:53:42	noise	hi onodera 
+2018-12-16 19:53:54	+nai	nice
+2018-12-16 19:53:54	onodera	fvwm has a build in pager, I made this page fullscreen with a slight offset
+2018-12-16 19:54:05	onodera	that made every window have hard shadows like that
+2018-12-16 19:54:22	noise	cosarara i have a homescreen i think
+2018-12-16 19:54:25	noise	.homescreen
+2018-12-16 19:54:25	+cappuccino	(1) https://kelp.ml/yjxta.png [noise]
+2018-12-16 19:54:31	noise	:D
+2018-12-16 19:54:44	@cosarara	I don't understand your homescreen
+2018-12-16 19:54:59	noise	it is a list
+2018-12-16 19:55:14	+nai	more like this actually https://up.monade.li/YO3JzJ.png
+2018-12-16 19:55:15	@cosarara	with weird green lines
+2018-12-16 19:55:31	noise	yes
+2018-12-16 19:55:35	onodera	lhi noise 
+2018-12-16 19:55:54	+nai	and the up and right sides could have info or buttons
+2018-12-16 19:55:56	@eti	ha wtf kitty doesn't use bright colors anymore
+2018-12-16 19:56:03	@eti	fuck did i break
+2018-12-16 19:56:12	+nai	a leg
+2018-12-16 19:56:39	@eti	aa https://x.eti.tf/psO5H.png
+2018-12-16 19:56:43	noise	cosarara the green is a bit too yellow to be nice because my phone screen has different calibration
+2018-12-16 19:56:45	+neeasade	did you try to use a bitmap font that's what you git
+2018-12-16 19:57:30	noise	onodera how are you doing
+2018-12-16 19:59:02	noise	eti how is your mac rice journey going?
+2018-12-16 19:59:07	<--	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-12-16 19:59:19	onodera	.homescreen
+2018-12-16 19:59:20	+cappuccino	onodera has no homescreens.
+2018-12-16 19:59:22	@eti	it's over lol noise 
+2018-12-16 19:59:24	onodera	.homescreen https://punpun.moe/8BWF.jpg
+2018-12-16 19:59:25	+cappuccino	Did you mean to use --add (-a) or --set (-s) there?
+2018-12-16 19:59:28	noise	rip
+2018-12-16 19:59:28	@eti	literally nothing else to do
+2018-12-16 19:59:32	onodera	.homescreen -a https://punpun.moe/8BWF.jpg
+2018-12-16 19:59:32	+cappuccino	homescreens updated.
+2018-12-16 19:59:41	+nai	> mac rice
+2018-12-16 19:59:43	+nai	> journey
+2018-12-16 19:59:44	@eti	ok doxing ono rn
+2018-12-16 19:59:50	+nai	more like a bus stop amirite
+2018-12-16 20:00:37	noise	lets see how do add homescreen again
+2018-12-16 20:00:42	noise	.homescreen +a https://v.arxius.io/07a24030
+2018-12-16 20:00:42	+cappuccino	Invalid ID.
+2018-12-16 20:00:51	noise	.homescreen noise +a https://v.arxius.io/07a24030
+2018-12-16 20:00:52	+cappuccino	Invalid arguments.
+2018-12-16 20:00:53	+neeasade	.homescreen
+2018-12-16 20:00:53	+cappuccino	(1) https://u.teknik.io/AwnrPO.png | (2) https://u.teknik.io/HKMb8.png [neeasade]
+2018-12-16 20:01:00	+neeasade	wew 2015
+2018-12-16 20:01:01	@eti	it's - not +
+2018-12-16 20:01:12	noise	doesnt - remove it
+2018-12-16 20:01:17	@eti	no
+2018-12-16 20:01:21	noise	.homescreen -a https://v.arxius.io/07a24030
+2018-12-16 20:01:22	+cappuccino	homescreens updated.
+2018-12-16 20:01:24	noise	nice
+2018-12-16 20:01:29	@eti	-d removes it
+2018-12-16 20:01:32	noise	oic
+2018-12-16 20:01:33	+neeasade	.dtop noise
+2018-12-16 20:01:33	+cappuccino	noise has no dtops.
+2018-12-16 20:01:36	@eti	-r replaces it 
+2018-12-16 20:01:39	@eti	yadda yadda
+2018-12-16 20:01:43	noise	nicenciencie
+2018-12-16 20:01:48	@mobo	.desktop
+2018-12-16 20:01:48	+cappuccino	(1) https://file0.s3kr.it/2ca05cdcfc88.png | (2) https://i.imgur.com/mMRdYoW.png | (3) https://i.imgur.com/uhVjgy7.png | (4) http://wallchan.cf/desktops/thumbnails.html [mobo]
+2018-12-16 20:01:49	noise	i wil try to remember
+2018-12-16 20:01:51	@eti	ok fuck kitty wtf
+2018-12-16 20:01:59	@eti	can't use 16 colors
+2018-12-16 20:02:00	+neeasade	eti: lmao what this time
+2018-12-16 20:02:04	@eti	and my terminfo is correct
+2018-12-16 20:02:04	+neeasade	????
+2018-12-16 20:02:14	@eti	i'm limited to 8 colors
+2018-12-16 20:02:16	@eti	for some reason
+2018-12-16 20:02:19	+neeasade	how about alacritty bb
+2018-12-16 20:02:27	+neeasade	or not an option on mac
+2018-12-16 20:02:29	@eti	and that, either if i'm sshing or just in a local shell
+2018-12-16 20:02:36	noise	.homescreen mobo
+2018-12-16 20:02:36	+cappuccino	(1) https://my.mixtape.moe/bejteg.png [mobo]
+2018-12-16 20:02:45	noise	mobo!
+2018-12-16 20:02:46	@eti	ye but i just switched from iterm2 last week lol
+2018-12-16 20:02:47	noise	it expired
+2018-12-16 20:02:48	@mobo	I don't really do homescreen rice
+2018-12-16 20:02:49	@eti	can't be bothered
+2018-12-16 20:02:50	 *	nai is now playing We Are by Karnivool
+2018-12-16 20:02:57	noise	but it looks v nice
+2018-12-16 20:02:59	@mobo	maybe taigabot has an up to date one
+2018-12-16 20:03:13	noise	i jsut checked
+2018-12-16 20:03:17	noise	its the same link
+2018-12-16 20:03:20	@mobo	rip
+2018-12-16 20:03:34	@eti	ok i'll check alacritty huh
+2018-12-16 20:04:13	+mobo-deb	did something change with compton recently? can't get it to draw shadows
+2018-12-16 20:04:32	onodera	mobo-deb: https://github.com/yshui/compton
+2018-12-16 20:04:33	+cappuccino	[ github.com ] GitHub - yshui/compton: A compositor for X11 (text/html)
+2018-12-16 20:04:36	onodera	a maintained fork
+2018-12-16 20:04:41	+mobo-deb	ty
+2018-12-16 20:04:54	onodera	merged pull requests and did lots of maintenance 
+2018-12-16 20:05:08	onodera	switched to meson build system, is in the progress of replacing xlib with sxb
+2018-12-16 20:05:13	onodera	xcb
+2018-12-16 20:05:14	@cosarara	guys rice question. I have a padding rule in .config/gtk-3.0/gtk.css for my terminals
+2018-12-16 20:05:24	+neeasade	and document fun stuff
+2018-12-16 20:05:25	+neeasade	https://github.com/yshui/compton/wiki/Xorg-LOL
+2018-12-16 20:05:25	+cappuccino	[ github.com ] Xorg LOL · yshui/compton Wiki · GitHub (text/html)
+2018-12-16 20:05:31	@cosarara	does anyone know if it's possible to make it so that there is no padding when fullscreen?
+2018-12-16 20:07:11	+nai	what does gtk have to do with your terminals
+2018-12-16 20:07:18	+nai	are you using gnome-terminal or some shit
+2018-12-16 20:08:47	onodera	many terminals are build on vte
+2018-12-16 20:08:53	+neeasade	^
+2018-12-16 20:09:00	@cosarara	yes nai I use a vte-based terminal
+2018-12-16 20:09:11	+nai	and what does gtk have to do with vte
+2018-12-16 20:09:30	@cosarara	vte terminals can be styled with gtk css
+2018-12-16 20:09:34	@cosarara	it's not that hard to understand
+2018-12-16 20:09:48	@cosarara	VteTerminal, vte-terminal { padding: 10px; }
+2018-12-16 20:10:05	@cosarara	vte is a gtk library
+2018-12-16 20:10:12	+nai	what
+2018-12-16 20:10:12	onodera	nai: vte is gnome
+2018-12-16 20:10:15	+nai	WHAT
+2018-12-16 20:10:25	onodera	so they probably intertwined it with systemd and gtk and whatever
+2018-12-16 20:10:27	+nai	i thought it was a standard from the 80s.
+2018-12-16 20:10:39	onodera	the vte lib is a gnome project I thought 
+2018-12-16 20:11:04	onodera	might be they appropriated the name of some standard tho
+2018-12-16 20:11:34	+neeasade	https://github.com/gnome/vte
+2018-12-16 20:11:34	noise	mobo https://archive-media-1.nyafuu.org/wg/image/1523/91/1523916649538.png
+2018-12-16 20:11:34	+cappuccino	[ github.com ] GitHub - GNOME/vte: vte terminal widget (text/html)
+2018-12-16 20:11:44	@mobo	yup, lol
+2018-12-16 20:11:47	@mobo	that's it
+2018-12-16 20:11:47	noise	i wrote ascendancy
+2018-12-16 20:11:52	noise	instead of ascendency
+2018-12-16 20:11:56	@mobo	ah
+2018-12-16 20:11:59	noise	made it so hard to rfind 
+2018-12-16 20:12:00	noise	lol
+2018-12-16 20:12:00	@mobo	yeah it's misspelled 
+2018-12-16 20:12:05	noise	i love this
+2018-12-16 20:12:17	noise	peak homescreen
+2018-12-16 20:12:37	@mobo	yup
+2018-12-16 20:13:07	@eti	oooo alacritty can keep rounded corners while disabling titlebars
+2018-12-16 20:13:10	@eti	that's neat
+2018-12-16 20:20:39	-->	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-16 20:21:58	<--	mobo-deb (~wallace@Rizon-D2E2D0A0.host.ussignalcom.net) has quit (Quit: WeeChat 1.6)
+2018-12-16 20:25:40	@mobo	got cde installed on this thing, but that's overdone
+2018-12-16 20:32:08	@eti	mobo: install this https://gitlab.com/chino-chan/pwm-xft
+2018-12-16 20:32:09	+cappuccino	[ gitlab.com ] Chino / pwm-xft · GitLab (text/html)
+2018-12-16 20:33:20	@mobo	what's pwm?
+2018-12-16 20:33:31	@eti	obscure 00's wm
+2018-12-16 20:33:42	@eti	i'd install it if i could be bothered
+2018-12-16 20:34:30	@mobo	interesting 
+2018-12-16 20:34:56	@eti	some guy on /g/'s desktop thread ported it to support utf8
+2018-12-16 20:35:05	@eti	it has tabs support
+2018-12-16 20:35:11	@eti	reminds me of haiku
+2018-12-16 20:38:55	onodera	scrot pelase?
+2018-12-16 20:39:13	@eti	give me a min
+2018-12-16 20:40:58	@eti	https://i.4cdn.org/g/1544777441290.webm
+2018-12-16 20:41:11	@mobo	looks neat
+2018-12-16 20:41:14	ChibiFate	huh, it does look like haiku
+2018-12-16 20:41:41	+nai	that terminal is having a stroke
+2018-12-16 20:41:48	ChibiFate	^
+2018-12-16 20:41:50	ChibiFate	btw Leliana 
+2018-12-16 20:41:52	ChibiFate	still here?
+2018-12-16 20:41:54	@eti	shitty webm
+2018-12-16 20:42:01	@eti	would look better if it was just a screenshot
+2018-12-16 20:48:09	@cosarara	hmm my emacs has padding too but I don't know where I set it
+2018-12-16 20:48:19	@cosarara	running it as a different user it still has padding
+2018-12-16 20:48:22	@cosarara	:thinking:
+2018-12-16 20:58:19	noise	v cute eti
+2018-12-16 20:58:54	-->	natemon_ (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-16 20:58:59	<--	natemon_ (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit
+2018-12-16 20:59:38	<--	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-12-16 21:00:18	@mobo	https://file0.s3kr.it/751187463e6c.png
+2018-12-16 21:01:05	noise	v cute mobo
+2018-12-16 21:01:06	@mobo	ty
+2018-12-16 21:01:40	+nai	> /sshfs/Straight
+2018-12-16 21:01:50	jumi	mobo: are you fucking mod cuck
+2018-12-16 21:01:51	+nai	i wanna ask questions
+2018-12-16 21:01:58	jumi	s/you/you a/
+2018-12-16 21:01:58	+cappuccino	jumi meant to say: mobo: are you a fucking mod cuck
+2018-12-16 21:02:06	@mobo	am I a huh
+2018-12-16 21:02:21	@mobo	there's /sshfs/straight and /sshfs/gay
+2018-12-16 21:04:51	+nai	cute
+2018-12-16 21:05:03	@eti	so are your macos scrots in gay
+2018-12-16 21:05:04	@eti	xDDDDD
+2018-12-16 21:05:09	+nai	does that translate to /girls and /boys
+2018-12-16 21:05:18	@eti	no
+2018-12-16 21:05:18	+nai	or is it more subtle
+2018-12-16 21:05:37	+nai	eti: xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2018-12-16 21:06:04	@mobo	screenshots are in screenshots, and yes nai
+2018-12-16 21:08:14	raph_ael	why people love so much mangas ?
+2018-12-16 21:08:58	<--	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2018-12-16 21:09:04	+nai	^
+2018-12-16 21:09:19	+darkwater	why do people like stories
+2018-12-16 21:09:58	@eti	because comics have always been popular
+2018-12-16 21:10:33	@eti	so with japanese trend that is becoming increasingly popular over the years it only seems logical that more people read manga
+2018-12-16 21:11:20	raph_ael	darkwater: there are many styles of comics
+2018-12-16 21:11:39	+darkwater	and many people like other styles of comics
+2018-12-16 21:11:53	raph_ael	eti: strangely all wp in screenshots look the same, though there are many styles in manga
+2018-12-16 21:12:15	+darkwater	manga is one well-known style/format that also has a lot of diversity
+2018-12-16 21:12:25	-->	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-16 21:12:41	raph_ael	darkwater: which is true for other countries comics too
+2018-12-16 21:12:43	raph_ael	but well
+2018-12-16 21:12:48	@Leliana	anime was a mistake
+2018-12-16 21:12:56	@Leliana	.np
+2018-12-16 21:12:56	+cappuccino	Leliana (TheReverend403) is now playing Blank Space by Taylor Swift
+2018-12-16 21:14:13	+nai	Taylor Swift was a mistake
+2018-12-16 21:14:44	@eti	raph_ael: i don't know where you get your screenshots from but it's definitely not a place i want to go if the only pictures displayed are from anime/manga
+2018-12-16 21:14:47	@Leliana	nai was a mistake
+2018-12-16 21:14:53	@eti	so were you
+2018-12-16 21:15:17	@Leliana	actually, out of myself and my 2 siblings, I was the only planned one
+2018-12-16 21:15:17	+nai	so was eti
+2018-12-16 21:15:18	@Leliana	so
+2018-12-16 21:15:20	@Leliana	eat my ass
+2018-12-16 21:15:38	+nai	so was eating your ass
+2018-12-16 21:16:03	-->	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has joined #rice
+2018-12-16 21:16:14	@Leliana	nai: eating my ass is a privilege, you ungrateful fuck
+2018-12-16 21:19:03	<--	lt (~batelborg@Rizon-FCDB975C.mem.bellsouth.net) has quit (Ping timeout: 240 seconds)
+2018-12-16 21:20:15	@eti	i actually was an accident
+2018-12-16 21:20:28	@eti	and completely ashamed of it
+2018-12-16 21:23:40	onodera	that pwm thing
+2018-12-16 21:23:42	onodera	is it tiling?
+2018-12-16 21:39:12	@eti	onodera: looks floating to me
+2018-12-16 21:44:37	-->	jungly (~jungly@77CFABF5.3F6C5320.32711C7B.IP) has joined #rice
+2018-12-16 21:44:38	<--	jungly (~jungly@77CFABF5.3F6C5320.32711C7B.IP) has quit (Connection closed)
+2018-12-16 21:54:02	oepsie	onodera: https://www.deviantart.com/parororo/art/leave-me-alone-i-hate-us-10833054 let's dress lke this together
+2018-12-16 21:54:03	+cappuccino	[ deviantart.com ] leave me alone i hate us by Parororo on DeviantArt (text/html)
+2018-12-16 21:55:43	+nai	s/dress/un&/
+2018-12-16 21:55:43	+cappuccino	nai thinks oepsie meant to say: onodera: https://www.deviantart.com/parororo/art/leave-me-alone-i-hate-us-10833054 let's undress lke this together
+2018-12-16 21:55:51	+nai	lewd
+2018-12-16 21:56:00	-->	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-16 21:56:00	--	Mode #rice [+v Kosomonauto] by Onee-chan
+2018-12-16 21:56:12	-->	lt (~batelborg@Rizon-FCDB975C.mem.bellsouth.net) has joined #rice
+2018-12-16 21:56:35	onodera	oepsie: i expected someting exactly like this
+2018-12-16 21:58:23	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-16 22:03:43	-->	syme (~syme@2ABA8CA9.DAE294FB.282272FA.IP) has joined #rice
+2018-12-16 22:03:46	<--	syme (~syme@2ABA8CA9.DAE294FB.282272FA.IP) has quit (Connection closed)
+2018-12-16 22:10:13	--	lt is now known as safenick38
+2018-12-16 22:10:28	--	safenick38 is now known as lt
+2018-12-16 22:21:30	<--	Icedman (~Icedman@nein.not.funny) has quit (Quit: WeeChat 2.3)
+2018-12-16 22:23:18	@eti	onodera: were you a gothboy
+2018-12-16 22:23:45	@Leliana	>tfw no goth catgirl gf
+2018-12-16 22:23:51	@Leliana	just kill me now tbh
+2018-12-16 22:23:53	+nai	^
+2018-12-16 22:24:07	+nai	tfw no cat gothgirl gf
+2018-12-16 22:24:18	@Leliana	too far
+2018-12-16 22:24:25	+nai	tfw no cat girlgirl gothfriend
+2018-12-16 22:24:40	@cosarara	tfw no gf
+2018-12-16 22:24:50	+nai	tfw
+2018-12-16 22:24:51	@Leliana	nai come and play meinkraft with me, we can fuck virtually
+2018-12-16 22:25:09	+nai	> meinkraft
+2018-12-16 22:25:13	+nai	what are you 13
+2018-12-16 22:25:17	@Leliana	yes
+2018-12-16 22:25:30	@cosarara	13yos play fortnite, not meikraft
+2018-12-16 22:25:42	+nai	what are you 13 and also it's 2012
+2018-12-16 22:25:52	@cosarara	yes
+2018-12-16 22:25:58	+nai	Leliana: ask me again sometime
+2018-12-16 22:26:11	@Leliana	hmmm
+2018-12-16 22:26:15	oepsie	tfw surrended by label - and exclusivity fags
+2018-12-16 22:26:23	@Leliana	what
+2018-12-16 22:26:29	@cosarara	what
+2018-12-16 22:26:31	+nai	what
+2018-12-16 22:26:34	+neeasade	what
+2018-12-16 22:26:37	@Leliana	same
+2018-12-16 22:26:51	+nai	C-C-C-COMBO x4
+2018-12-16 22:26:55	@Leliana	wew
+2018-12-16 22:27:01	@cosarara	oepsie: please explain your sentence
+2018-12-16 22:27:03	+nai	*bling bling bling bling*
+2018-12-16 22:27:08	@cosarara	wtf is label -
+2018-12-16 22:27:14	@Leliana	...
+2018-12-16 22:27:16	@Leliana	my sides
+2018-12-16 22:27:26	@Leliana	cosarara pls
+2018-12-16 22:27:35	@cosarara	me pls
+2018-12-16 22:27:43	+nai	i'll have the cosarara pls
+2018-12-16 22:27:50	@cosarara	me too thanks
+2018-12-16 22:27:53	@Leliana	same
+2018-12-16 22:27:54	+nai	gross
+2018-12-16 22:27:58	oepsie	cosarara, it's about "tfw when no goth catgirl gf"
+2018-12-16 22:28:01	@Leliana	give me some raw cosarara
+2018-12-16 22:28:06	@cosarara	nai: what is?
+2018-12-16 22:28:12	+nai	you having yourself
+2018-12-16 22:28:21	@cosarara	it would be so fucking hot
+2018-12-16 22:28:28	+nai	wew
+2018-12-16 22:28:36	+nai	s/$/ld it tho/
+2018-12-16 22:28:36	+cappuccino	nai meant to say: wewld it tho
+2018-12-16 22:30:23	+nai	oepsie: so why did that - slip into your sentence
+2018-12-16 22:30:44	+nai	did you mean like "label- and exclusivity-fags"
+2018-12-16 22:30:55	+nai	or "label minus"
+2018-12-16 22:31:02	+nai	or label -- and exclusivity fags"
+2018-12-16 22:31:17	oepsie	No, not minus.
+2018-12-16 22:31:24	+nai	also did you mean surrounded instead of surrended
+2018-12-16 22:31:28	oepsie	Like the dash indicates "label fags and exclusivity fags"
+2018-12-16 22:31:34	+nai	ok so the first one
+2018-12-16 22:31:38	oepsie	Wel yeah I did mean surrounded
+2018-12-16 22:31:55	+nai	you should have written either "label and exclusivity fags"
+2018-12-16 22:32:00	+nai	or "label- and exclusivity-fags"
+2018-12-16 22:32:09	+nai	not some strange ass combination of both
+2018-12-16 22:32:16	+nai	smh
+2018-12-16 22:32:39	+nai	also where did you read anything about exclusivity
+2018-12-16 22:32:55	+nai	> tfw the set of my girlfriends does not include a cute goth catgirl one
+2018-12-16 22:33:06	+nai	was implied
+2018-12-16 22:33:31	@cosarara	I'd like to have one gf, any kind of gf
+2018-12-16 22:33:48	+nai	stop complaining and go get one
+2018-12-16 22:34:38	+nai	inb4 > package one: unrecognized import path "one" (import path does not begin with hostname)
+2018-12-16 22:35:46	@cosarara	it's sunday nai
+2018-12-16 22:35:50	@cosarara	sunday night
+2018-12-16 22:35:57	@cosarara	gf shops are closed
+2018-12-16 22:36:14	+nai	just find a diy recipe
+2018-12-16 22:45:41	oepsie	nai, I write the dash fixed when the next word is fixed to it.
+2018-12-16 22:45:45	oepsie	So where- and whenever
+2018-12-16 22:45:50	oepsie	But "big - and small dicks"
+2018-12-16 22:46:43	+nai	that's totally arbitrary and you cannot expect anyone to guess.
+2018-12-16 22:47:22	+nai	well, i get that you make the dash stand for the common word/suffix
+2018-12-16 22:47:52	@cosarara	but it's not how people actually write
+2018-12-16 22:47:54	@cosarara	so it's confusing
+2018-12-16 22:48:16	@cosarara	big dash and small dicks
+2018-12-16 22:48:18	@Leliana	oepsie just has to be different
+2018-12-16 22:50:31	@eti	-- best
+2018-12-16 22:51:57	+nai	— better
+2018-12-16 22:58:06	@mobo	rice protip: use xephyr
+2018-12-16 23:01:07	oepsie	It's not?
+2018-12-16 23:01:12	oepsie	THt's how I was taught at school
+2018-12-16 23:09:04	<--	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has quit (Quit: WeeChat 2.3)
+2018-12-16 23:09:14	<--	onodera (~onodera@the.culture.of.critique) has quit (Ping timeout: 240 seconds)
+2018-12-16 23:13:40	@cosarara	oh fucking hell found why my emacs had padding
+2018-12-16 23:13:46	@cosarara	*internalBorder: 0
+2018-12-16 23:13:50	@cosarara	well 15, it was
+2018-12-16 23:13:56	@cosarara	on .Xresources
+2018-12-16 23:16:19	--	alan is now known as AlanAI
+2018-12-16 23:16:26	--	AlanAI is now known as alan
+2018-12-16 23:23:04	<--	The_Loko (~The_Loko@Rizon-511B2279.red-83-56-173.dynamicip.rima-tde.net) has quit (Remote host closed the connection)
+2018-12-16 23:38:34	-->	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has joined #rice
+2018-12-16 23:38:34	--	Mode #rice [+v Cosmonaut] by Onee-chan
+2018-12-16 23:39:38	<--	Kosomonauto (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)
+2018-12-16 23:43:02	-->	Etiv (~mon@givemeavho.st) has joined #rice
+2018-12-17 00:01:07	+neeasade	cosarara:  you can also set it after the fact with the frame param 'internal-border-width
+2018-12-17 00:01:50	@cosarara	ty
+2018-12-17 00:05:48	<--	anon9234 (~anon9234@anon.vh.org) has quit (Quit: Coyote finally caught me)
+2018-12-17 00:06:00	-->	anon9234 (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has joined #rice
+2018-12-17 00:20:54	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Quit: bye bye)
+2018-12-17 00:38:55	<--	lt (~batelborg@Rizon-FCDB975C.mem.bellsouth.net) has left #rice (Leaving)
+2018-12-17 01:03:40	-->	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 01:05:54	<--	morpho (~morpho@B1E1E116.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 01:08:31	<--	Etiv (~mon@givemeavho.st) has quit (Quit: WeeChat 1.6)
+2018-12-17 01:16:24	-->	PikaDrew (~PikaDrew@3FD202DE.FCD55246.A0091D5E.IP) has joined #rice
+2018-12-17 01:27:59	oepsie	neeasade, didn't I once get my prompt from you?
+2018-12-17 01:34:19	+neeasade	oepsie: you did, and I got it from dcat
+2018-12-17 01:34:38	oepsie	Ahh, dcat, my love.
+2018-12-17 01:34:42	oepsie	Where is dcat.
+2018-12-17 01:34:49	+neeasade	nixers, or dead
+2018-12-17 01:34:54	+neeasade	he's on telegram tho
+2018-12-17 01:35:04	+neeasade	this prompt, right? http://notes.neeasade.net/assets/img/desktops/full/2015-03-25.png
+2018-12-17 01:36:35	oepsie	neeasade, yeah but mine has a space in it.
+2018-12-17 01:38:07	oepsie	neeasade: https://i.imgur.com/rZEUp68.jpg
+2018-12-17 01:38:30	oepsie	neeasade, ho does your prompt indicate error codes anyway?
+2018-12-17 01:39:57	+neeasade	oepsie: inverted color 
+2018-12-17 01:40:17	oepsie	neeasade, so it just expresses error/nonerror?
+2018-12-17 01:40:18	+neeasade	https://github.com/neeasade/dotfiles/blob/master/shell/.sh.d/style#L25
+2018-12-17 01:40:18	+cappuccino	[ github.com ] dotfiles/style at master · neeasade/dotfiles · GitHub (text/html)
+2018-12-17 01:40:49	+neeasade	oepsie: and running jobs 
+2018-12-17 01:40:56	+neeasade	now it is only one character
+2018-12-17 01:41:01	+neeasade	2 if jobs
+2018-12-17 01:41:05	+neeasade	inverted if error
+2018-12-17 02:06:49	<--	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Remote host closed the connection)
+2018-12-17 02:09:13	<--	mobo (~mobo@steal.softly.thru.snow) has quit (Quit: Excess flood)
+2018-12-17 02:16:10	+LambdaComplex	neeasade: 
+2018-12-17 02:16:12	+LambdaComplex	hi
+2018-12-17 02:25:26	<--	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-12-17 02:29:10	+oda	You have 10 seconds to explain why this isn't part of your rice: http://caca.zoy.org/wiki/hot-babe
+2018-12-17 02:29:12	+cappuccino	[ caca.zoy.org ] hot-babe – Caca Labs (text/html)
+2018-12-17 02:36:47	-->	xx4h (~xx4h@797627CA.BF617281.D50A7613.IP) has joined #rice
+2018-12-17 02:36:48	<--	xx4h (~xx4h@797627CA.BF617281.D50A7613.IP) has quit (Connection closed)
+2018-12-17 02:56:44	-->	MicroHex (~MicroHex@Rizon-A98192C5.cpe.teksavvy.com) has joined #rice
+2018-12-17 02:56:44	<--	MicroHex (~MicroHex@Rizon-A98192C5.cpe.teksavvy.com) has quit (Connection closed)
+2018-12-17 03:08:46	-->	Wobni (~Wobni@C3B582CA.48A4ED6E.B7473DD3.IP) has joined #rice
+2018-12-17 03:08:46	<--	Wobni (~Wobni@C3B582CA.48A4ED6E.B7473DD3.IP) has quit (Connection closed)
+2018-12-17 03:15:13	-->	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has joined #rice
+2018-12-17 03:19:06	<--	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has quit
+2018-12-17 03:25:13	-->	squid (~squid@Rizon-99763490.austin.res.rr.com) has joined #rice
+2018-12-17 03:26:47	-->	Rue (~rue@Rizon-408301B.dynamic-ip6.hinet.net) has joined #rice
+2018-12-17 03:26:47	--	Mode #rice [+v Rue] by Onee-chan
+2018-12-17 03:35:37	<--	squid (~squid@Rizon-99763490.austin.res.rr.com) has quit (Remote host closed the connection)
+2018-12-17 03:35:50	-->	squid (~squid@Rizon-99763490.austin.res.rr.com) has joined #rice
+2018-12-17 03:37:06	<--	squid (~squid@Rizon-99763490.austin.res.rr.com) has quit (Read error: Connection reset by peer)
+2018-12-17 03:38:26	<--	jumi (~qwebirc@riff.filled.land) has quit (Ping timeout: 240 seconds)
+2018-12-17 03:57:34	+neeasade	LambdaComplex: hi
+2018-12-17 03:57:56	+neeasade	oda: I am a hot babe so i don't need a hot babe
+2018-12-17 03:58:32	+neeasade	oh that link is not what i thought it would be
+2018-12-17 04:01:46	-->	emeschay (~qwebirc@582FB17D.E078B1F3.C1181EBA.IP) has joined #rice
+2018-12-17 04:02:06	<--	emeschay (~qwebirc@582FB17D.E078B1F3.C1181EBA.IP) has quit
+2018-12-17 04:36:33	-->	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-17 04:40:51	-->	CarbineMorpho (~CarbineMo@52F821E9.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 04:41:50	<--	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit
+2018-12-17 05:01:13	-->	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-17 05:05:46	-->	Izuru (~Izuru@hi.im.izuru) has joined #rice
+2018-12-17 05:08:48	-->	Rue2 (~rue@Rizon-CEB0F831.dynamic-ip.hinet.net) has joined #rice
+2018-12-17 05:12:37	+neeasade	.dtop LambdaComplex 
+2018-12-17 05:12:37	+cappuccino	(1) https://u.teknik.io/QlNBiH.webm | (2) http://i.imgur.com/d6EJOUe.jpg [LambdaComplex]
+2018-12-17 05:15:50	Roserin	those are some neat backgrounds
+2018-12-17 05:26:45	Roserin	found it http://caca.zoy.org/static/stitch.png
+2018-12-17 05:53:20	<--	Ivion (~ivion@F3E85539:23066E38:40608628:IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 06:15:46	-->	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has joined #rice
+2018-12-17 06:23:54	<--	Disrupt (~Disrupt@i.r.c) has quit (Ping timeout: 240 seconds)
+2018-12-17 06:26:17	-->	Disrupt (~Disrupt@i.r.c) has joined #rice
+2018-12-17 06:35:49	deviantfero	hey guys
+2018-12-17 06:35:54	deviantfero	is anyone here atm?
+2018-12-17 06:36:58	Roserin	sorta?
+2018-12-17 06:37:03	Roserin	gone soon
+2018-12-17 06:38:58	Roserin	but passing through
+2018-12-17 06:39:06	Roserin	like an ephemeral spirit
+2018-12-17 06:39:39	deviantfero	hmm
+2018-12-17 06:39:45	deviantfero	I'm thinking of doing a small video series
+2018-12-17 06:39:48	deviantfero	1 or 2 videos
+2018-12-17 06:40:15	deviantfero	covering two alternatives of programs
+2018-12-17 06:40:19	deviantfero	for example
+2018-12-17 06:40:36	deviantfero	bspwm vs. i3, what I wanted to achieve, and how I approached that goal in both of them
+2018-12-17 06:40:50	deviantfero	and at the end, why I chose what I chose, given the goal at hand
+2018-12-17 07:04:35	Roserin	that would be neat
+2018-12-17 07:04:37	Roserin	also
+2018-12-17 07:04:43	Roserin	team bspwm over here
+2018-12-17 08:14:47	<--	Rue2 (~rue@Rizon-CEB0F831.dynamic-ip.hinet.net) has quit (Ping timeout: 240 seconds)
+2018-12-17 08:16:16	-->	mysall (~mysall@D63A5D94:DF706147:B5229534:IP) has joined #rice
+2018-12-17 08:16:50	<--	Rue (~rue@Rizon-408301B.dynamic-ip6.hinet.net) has quit (Ping timeout: 240 seconds)
+2018-12-17 08:17:03	-->	Rue2 (~rue@Rizon-FE5B5DB7.dynamic-ip6.hinet.net) has joined #rice
+2018-12-17 08:18:07	<--	mysall (~mysall@D63A5D94:DF706147:B5229534:IP) has quit
+2018-12-17 08:19:01	-->	Rue (~rue@5C2342D3:12C3210B:B0519378:IP) has joined #rice
+2018-12-17 08:19:01	--	Mode #rice [+v Rue] by Onee-chan
+2018-12-17 08:39:19	+Cosumu	im real fuckin spooked
+2018-12-17 08:39:52	<--	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has quit (Ping timeout: 240 seconds)
+2018-12-17 08:41:28	-->	marshmello (~raw@B3FF581C.1A07AFC9.BC4561D2.IP) has joined #rice
+2018-12-17 08:48:14	-->	jimble (~jimble@Rizon-1FF3A895.hsd1.mn.comcast.net) has joined #rice
+2018-12-17 08:48:59	<--	jimble (~jimble@Rizon-1FF3A895.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2018-12-17 09:03:19	<--	Naomasa (~msyu@anti.dekoration) has quit
+2018-12-17 09:06:18	<--	mitya (~fullsalvo@sanguines.et.lacrimae) has quit (Ping timeout: 240 seconds)
+2018-12-17 09:07:13	<--	Tomoko_A_Best (~tomo@the.red.string.of.fate) has quit (Ping timeout: 240 seconds)
+2018-12-17 09:07:52	-->	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has joined #rice
+2018-12-17 09:08:36	-->	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-17 09:18:56	-->	Tomoko_A_Best (~tomo@1E2308F7.731326A0.8F471DAE.IP) has joined #rice
+2018-12-17 09:18:58	--	Mode #rice [+o Tomoko_A_Best] by Onee-chan
+2018-12-17 09:19:27	-->	mitya (~fullsalvo@1E2308F7.731326A0.8F471DAE.IP) has joined #rice
+2018-12-17 09:19:29	--	Mode #rice [+o mitya] by Onee-chan
+2018-12-17 09:26:03	<--	CarbineMorpho (~CarbineMo@52F821E9.40AE2FEC.618C73B3.IP) has quit (Read error: Connection reset by peer)
+2018-12-17 09:32:26	--	Tomoko_A_Best is now known as Tomokers
+2018-12-17 09:32:50	<--	Tomokers (~tomo@the.red.string.of.fate) has left #rice (WeeChat 2.3)
+2018-12-17 09:33:45	-->	Tomokers (~tomo@the.red.string.of.fate) has joined #rice
+2018-12-17 09:56:51	-->	pictwe (~pictwe@Rizon-EEA218CD.vn.shawcable.net) has joined #rice
+2018-12-17 09:57:53	@enju	Rue https://i.redd.it/zievrhaedr421.jpg
+2018-12-17 10:03:35	+Rue	oh ya i saw ono introducing this character at the end
+2018-12-17 10:03:41	+Rue	looks like a nice character
+2018-12-17 10:03:49	+Khorne	sup
+2018-12-17 10:04:20	+Rue	hi Khorne 
+2018-12-17 10:05:55	+Rue	https://www.youtube.com/watch?v=amj9leqNKVM
+2018-12-17 10:05:56	+cappuccino	[ youtube.com ] SFV: Character Introduction Series - Kage - YouTube (text/html)
+2018-12-17 10:05:58	+Rue	read first comment
+2018-12-17 10:06:00	+Rue	what's FADC?
+2018-12-17 10:07:49	~lxcyp	😎😎😎😎
+2018-12-17 10:09:00	-->	iomonad (~iomonad@functor.and.applicative.rules) has joined #rice
+2018-12-17 10:13:46	+Cosumu	ahrahrahra
+2018-12-17 10:14:54	@enju	Rue something SFV doesnt really have, focus attack dash canceling. you can dash cancel out of specific moves and do anything afterwards
+2018-12-17 10:15:17	+Rue	oh ya that was in sf 4 ultra i think
+2018-12-17 10:15:22	@enju	I want to go home and play
+2018-12-17 10:15:25	+Rue	i remember people talking about how sf5 didn't have it 
+2018-12-17 10:15:30	@enju	they buffed my homegirl, I need to lab some shit
+2018-12-17 10:15:47	@enju	buffed her a lot actually
+2018-12-17 10:15:52	+Rue	nice :P
+2018-12-17 10:16:14	+Rue	itabashi zangeiv and that other japanese grappler guy are so good
+2018-12-17 10:16:28	+Rue	i always love seeing high level grappler players
+2018-12-17 10:16:31	+Rue	so intense
+2018-12-17 10:16:34	+Rue	when they fight
+2018-12-17 10:16:41	+Rue	getting close, inch by inch, 
+2018-12-17 10:17:06	+Cosumu	oink
+2018-12-17 10:17:29	+Cosumu	oink
+2018-12-17 10:20:04	@enju	Rue Itazan in the finals https://i.imgur.com/GsoJi0d.gifv
+2018-12-17 10:20:05	+cappuccino	[ i.imgur.com ] Imgur (text/html)
+2018-12-17 10:23:09	<--	Cosumu (~Cosumu@space.is-the-place) has quit (Quit: WeeChat 1.9.1)
+2018-12-17 10:24:04	<--	toxait174115 (~toxait@Rizon-4F830674.clients.your-server.de) has quit (Ping timeout: 240 seconds)
+2018-12-17 10:29:35	+Rue	lmao
+2018-12-17 10:30:09	+Rue	man i would love to see daigo stream kage
+2018-12-17 10:30:12	+Rue	on twitch
+2018-12-17 10:30:57	+Rue	4k+ watching sfv streams right now
+2018-12-17 10:31:29	+Rue	poongko streaming kage :P
+2018-12-17 10:31:43	+Rue	and vesperarcade going over patch notes 
+2018-12-17 10:41:17	@enju	Rue he prolly traveling today, check his twitch tomorrow
+2018-12-17 10:41:29	@enju	he said on twitter that he is deffo looking into the the guy
+2018-12-17 10:41:37	@enju	ryu also got buffs
+2018-12-17 11:03:58	<--	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2018-12-17 11:08:32	-->	ashirase (~ashirase@Rizon-BD18AC20.mc.videotron.ca) has joined #rice
+2018-12-17 11:10:59	<--	PikaDrew (~PikaDrew@3FD202DE.FCD55246.A0091D5E.IP) has quit (Quit: Leaving)
+2018-12-17 11:12:53	-->	Etiv (~androirc@givemeavho.st) has joined #rice
+2018-12-17 11:24:04	workodera	https://www.youtube.com/watch?v=8iIj8LoUSKM
+2018-12-17 11:24:04	+cappuccino	[ youtube.com ] Pokemon USA theme - Tokyo Brass Style - YouTube (text/html)
+2018-12-17 11:24:05	workodera	comfy
+2018-12-17 11:35:53	<--	Rue (~rue@5C2342D3:12C3210B:B0519378:IP) has quit
+2018-12-17 11:36:03	-->	Rue (~rue@5C2342D3:12C3210B:B0519378:IP) has joined #rice
+2018-12-17 11:36:03	--	Mode #rice [+v Rue] by Onee-chan
+2018-12-17 12:59:37	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-12-17 12:59:37	--	Topic for #rice is "No Rice No Life™ | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life | <@Leliana> my sister is pretty fuckable"
+2018-12-17 12:59:37	--	Topic set by Leliana (is@revthefox.co.uk) on Thu, 13 Dec 2018 16:28:47
+2018-12-17 12:59:37	--	Channel #rice: 178 nicks (8 ops, 0 halfops, 14 voices, 156 normals)
+2018-12-17 12:59:39	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-17 12:59:43	Ergo	moin 
+2018-12-17 13:00:23	+Rue	a fag is cigarette
+2018-12-17 13:00:34	+Rue	Ergo: hey fag
+2018-12-17 13:01:08	oepsie	They burn like faggots on a fire.
+2018-12-17 13:01:22	+Rue	~~~~~~ LIT
+2018-12-17 13:02:36	~lxcyp	Pls
+2018-12-17 13:02:37	+Rue	calling people a cigarette is a term of endearment. analogous to saying someone is lit
+2018-12-17 13:02:51	@enju	analogous to calling people cancer
+2018-12-17 13:03:24	+Rue	cancer we all love so much
+2018-12-17 13:03:38	+Khorne	Yea, like nai
+2018-12-17 13:05:11	@enju	Khorne did you see BBQs lineup
+2018-12-17 13:05:17	+Khorne	no
+2018-12-17 13:05:30	@enju	LS is coach and they have a swedish jungler
+2018-12-17 13:05:38	@enju	import that western shit
+2018-12-17 13:06:29	<--	Etiv (~androirc@givemeavho.st) has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+2018-12-17 13:07:11	@cosarara	there are no jungles in sweeden smh
+2018-12-17 13:07:56	@enju	A jungle is land covered with dense vegetation dominated by trees
+2018-12-17 13:08:01	@enju	so yeah, they do
+2018-12-17 13:08:49	@cosarara	no they have normal forests
+2018-12-17 13:08:56	-->	Etiv (~mon@givemeavho.st) has joined #rice
+2018-12-17 13:09:03	@enju	jungle does not mean rainforest
+2018-12-17 13:09:11	@enju	but yes
+2018-12-17 13:09:16	@cosarara	jungle - an area of land overgrown with dense forest and tangled vegetation, typically in the tropics.
+2018-12-17 13:09:29	@enju	the country is still 54% forest
+2018-12-17 13:10:22	@cosarara	must be nice
+2018-12-17 13:10:57	@enju	sadly from the 44 million hectar only 84000ha primary forests
+2018-12-17 13:12:30	Ergo	Rue: cmonbruh 
+2018-12-17 13:12:55	+Rue	https://www.twitch.tv/unclebugsy
+2018-12-17 13:12:55	+cappuccino	[ twitch.tv ] Twitch (text/html)
+2018-12-17 13:13:02	+Rue	this guy is using a pretty comfy programming font :P
+2018-12-17 13:13:13	+Rue	input mono
+2018-12-17 13:17:55	~lxcyp	It's not source code Pro or liberation mono so I'm not interested 
+2018-12-17 13:18:09	oepsie	lxcyp: https://i.imgur.com/U8YAOhg.png let's dress like this together also kown as JESUS CHRIST IT'S IMPOISSLBE OT GET LINES STRAIGHT ON A TBLET
+2018-12-17 13:18:15	oepsie	Looks Like Ed, Edd, and Eddy
+2018-12-17 13:18:18	oepsie	With those wigly lies
+2018-12-17 13:18:21	oepsie	lines
+2018-12-17 13:18:48	~lxcyp	I wish I had a coat that long
+2018-12-17 13:18:52	~lxcyp	Mine is knee length 
+2018-12-17 13:19:28	oepsie	lxcyp, yeah mine too is onlyknee length
+2018-12-17 13:19:29	oepsie	hard to find
+2018-12-17 13:19:52	oepsie	lxcyp, I'm going to go with the four fingrs two of which being opposable thumbs though
+2018-12-17 13:20:00	oepsie	Seems like a better configuration than the five vingers with one opposable thumb
+2018-12-17 13:22:42	~lxcyp	Sorry you've lost me
+2018-12-17 13:22:52	~lxcyp	You can't just redefine anatomy 
+2018-12-17 13:23:28	oepsie	lxcyp, well it's hardly a human being there.
+2018-12-17 13:23:35	oepsie	It has ponty ears and four digits per hand, clerly
+2018-12-17 13:28:10	<--	bitthia040 (~bitthia04@BD20A16C:39D6E2F4:6F5DFB28:IP) has quit (Remote host closed the connection)
+2018-12-17 13:28:46	 *	Rue listens to https://www.youtube.com/watch?v=UNoouLa7uxA
+2018-12-17 13:28:47	+cappuccino	[ youtube.com ] Jewel - Foolish Games (Official Video) - YouTube (text/html)

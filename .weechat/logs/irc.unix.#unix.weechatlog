@@ -1,0 +1,525 @@
+2018-12-12 01:40:59	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-12 01:40:59	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-12 01:40:59	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-12 01:40:59	--	Channel #unix: 65 nicks (4 ops, 1 halfop, 5 voices, 55 normals)
+2018-12-12 01:41:01	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-12 01:41:12	Ergo	does anyone know a fix for 2bwm breaking games? 
+2018-12-12 01:41:50	Ergo	for some reason launching games while using 2bwm causes issues where games dont launch or get really odd windows while also locking me out of my system unless i close x, this issue doesnt exist when using for example openbox 
+2018-12-12 02:04:21	acg	Ergo: only issue i've had like that was with Java windows but there's a fix for that on the README.md
+2018-12-12 02:04:33	acg	without trace I couldn't tell what's happening either
+2018-12-12 02:06:01	Ergo	acg: i have a feeling it has to do with the way 2bwm handles fullscreen windows 
+2018-12-12 02:06:21	Ergo	which does give it its lovely feature of having containers for fullscreen windows 
+2018-12-12 02:11:08	Ergo	brb
+2018-12-12 02:12:34	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-12 02:12:34	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-12 02:12:34	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-12 02:12:34	--	Channel #unix: 65 nicks (4 ops, 1 halfop, 5 voices, 55 normals)
+2018-12-12 02:12:36	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-12 02:12:36	Ergo	back 
+2018-12-12 02:26:44	<--	chc4 (~chc4@nix-F284E028.hsd1.ma.comcast.net) has quit (Ping timeout: 180 seconds)
+2018-12-12 02:50:14	-->	chc4 (~chc4@nix-F284E028.hsd1.ma.comcast.net) has joined #unix
+2018-12-12 03:05:12	<--	chc4 (~chc4@nix-F284E028.hsd1.ma.comcast.net) has quit (Read error)
+2018-12-12 05:16:17	@venam	morning
+2018-12-12 05:17:15	Dworin	morning Venam
+2018-12-12 05:17:20	@venam	Dworin: o/
+2018-12-12 05:17:25	Dworin	\o
+2018-12-12 05:17:35	@venam	Ergo: not sure what this is about, maybe we could debug that
+2018-12-12 05:18:14	@venam	though the handling of rendering while in fullscreen is done by X11 and not by the window manager
+2018-12-12 05:19:03	@venam	Ergo: I don't exactly remember if there's handling for the ewmh of fullscreen
+2018-12-12 05:19:09	@venam	we could add it though if it's not there
+2018-12-12 05:33:47	@venam	Ergo: if I remember well, there's an optimization that X11 does when you are using a compositor in full screen
+2018-12-12 07:35:18	-->	Mossepo_ (~Mossepo@nix-47CF6961.csc.fi) has joined #unix
+2018-12-12 08:22:16	-->	chc4 (~chc4@nix-F284E028.hsd1.ma.comcast.net) has joined #unix
+2018-12-12 09:22:37	@z3bra	oi dudes
+2018-12-12 09:25:53	@venam	z3bra: o/
+2018-12-12 09:30:25	@z3bra	sup?
+2018-12-12 09:30:53	@venam	z3bra: reading a paper for the newsletter of this week
+2018-12-12 09:30:55	@venam	you?
+2018-12-12 09:33:35	@z3bra	fine thanks :)
+2018-12-12 09:33:45	@z3bra	just arrived at work
+2018-12-12 09:33:53	@z3bra	started reading about let's encrypt
+2018-12-12 09:34:04	@z3bra	to see how it's better than self-signed
+2018-12-12 09:35:45	@venam	z3bra: for one it's now part of most OSs and browsers' trust stores
+2018-12-12 09:35:54	@venam	and it's simple to deploy and maintain
+2018-12-12 09:36:19	@z3bra	well, the part where it's "there by default" doesn't work for me
+2018-12-12 09:36:58	@z3bra	I don't like the idea of centralized companies that decide wether or not your website is "secure"
+2018-12-12 09:37:27	@z3bra	I'd rather go with a CA that we build ourselves @nixers for example
+2018-12-12 09:37:42	@venam	z3bra: sure, but that's not the point
+2018-12-12 09:37:52	@z3bra	well, it kinda is
+2018-12-12 09:37:52	@venam	you're still in control of your cert and its algorithm
+2018-12-12 09:38:10	@venam	which is the actual point of having a cert in the first place
+2018-12-12 09:38:34	@z3bra	https://www.tedunangst.com/flak/
+2018-12-12 09:38:42	@z3bra	he went with his own CA
+2018-12-12 09:39:09	@venam	yeah, I know that guy, I just don't agree with the concept
+2018-12-12 09:39:12	@z3bra	that I imported
+2018-12-12 09:39:24	@z3bra	I kinda like it
+2018-12-12 09:39:27	@z3bra	anyway
+2018-12-12 09:39:44	@venam	we have our own CA at work and the private key has to be stored offline on a hardware security module, and once a week we do "ceremonies"
+2018-12-12 09:39:51	@venam	to sign certs and all
+2018-12-12 09:39:57	@z3bra	The fact let's encrypt is trusted by browser won't convince me
+2018-12-12 09:40:05	@z3bra	that's what I mean
+2018-12-12 09:40:23	@z3bra	'cause my hosting provider can give me certs too
+2018-12-12 09:40:46	@z3bra	so in this regard, let's encrypt is not better
+2018-12-12 09:40:51	@venam	z3bra: the point I'm making is that the CA is not that important but the algorithm of the certificate itself is way more
+2018-12-12 09:41:12	@z3bra	yes
+2018-12-12 09:41:34	@venam	the whole point of the PKI is to ensure we're all using good and secure crypto
+2018-12-12 09:41:50	@z3bra	you can use good crypto with self-signed
+2018-12-12 09:41:53	@venam	and that domains are owned by who says they own it
+2018-12-12 09:42:18	@venam	^ and you can't do that part unless you have skin/money in the game
+2018-12-12 09:42:31	@z3bra	and that is what bother me
+2018-12-12 09:42:43	@venam	z3bra: you certainly can, and you can use even better crypto even
+2018-12-12 09:42:50	@z3bra	you should trust CA you actually trust
+2018-12-12 09:43:13	@venam	but you have no authority on domain names and the right to say "hey I own this and I've proven I'm up for this usage"
+2018-12-12 09:43:23	@venam	'cause it's not only about domain but about usages extensions too
+2018-12-12 09:43:45	@venam	there are stuffs you have to pay like $10K per domain to be able to use them for the specific usage
+2018-12-12 09:44:01	@z3bra	yeah I know
+2018-12-12 09:45:33	@venam	letsencrypt in all this only comes in to prove you own the domain, you can have any cert you want, though you can sign another cert with a cert signed by letsencrypt
+2018-12-12 09:45:42	@venam	*can't
+2018-12-12 09:46:19	@z3bra	how do you prove you own the domain?
+2018-12-12 09:46:20	@venam	basically they put a file in your web root that is signed and validates it, something of that sort
+2018-12-12 09:46:26	@z3bra	ok
+2018-12-12 09:46:55	@z3bra	so they don't do anything special, besides doing it for free
+2018-12-12 09:47:04	@z3bra	(and forcing expiry to 90 days)
+2018-12-12 09:47:29	@venam	they add some particular extensions and the usual revocation stuffs
+2018-12-12 09:48:20	@z3bra	so they're just like any CA
+2018-12-12 09:48:23	@z3bra	but for free?
+2018-12-12 09:49:40	@venam	yeah, they aren't the root CA though, they're an intermediary CA
+2018-12-12 09:49:56	@venam	but the revocation list is on their node, so it's the same
+2018-12-12 09:50:22	@z3bra	who's the root?
+2018-12-12 09:51:02	@venam	CN = ISRG Root X1
+2018-12-12 09:51:03	@venam	O = Internet Security Research Group
+2018-12-12 09:51:03	@venam	C = US
+2018-12-12 09:51:23	@z3bra	ah, yeah ok
+2018-12-12 09:51:28	@venam	https://letsencrypt.org/certificates/
+2018-12-12 09:51:39	@z3bra	I though it was another CA like comodo or symantec
+2018-12-12 09:52:11	@venam	nah, symantec are too much of money grabers to do that for free stuff
+2018-12-12 09:52:13	@venam	hahahahaha
+2018-12-12 09:52:36	@venam	z3bra: from that page it seems like the plan of letsencrypt is to use cross sign until their own root is trusted enough
+2018-12-12 09:53:43	@venam	z3bra: we do this https://en.wikipedia.org/wiki/Key_ceremony at work... it's extensive 
+2018-12-12 09:53:57	@venam	> The actual root key-pair generation is normally conducted in a secure vault that has no communication or contact with the outside world other than a single telephone line or intercom. Once the vault is secured, all personnel present must prove their identity using at least two legally recognized forms of identification. Every person present, every transaction and every event is logged by the lawyer in a 
+2018-12-12 09:54:03	@venam	root key ceremony log book and each page is notarized by the notary. From the moment the vault door is closed until it is re-opened, everything is also video recorded. The lawyer and the organization's two signatories must sign the recording and it too is then notarized.
+2018-12-12 09:54:07	@venam	Finally, as part of the above process, the root key is broken into as many as twenty-one parts and each individual part is secured in its own safe for which there is a key and a numerical lock. The keys are distributed to as many as twenty-one people and the numerical code is distributed to another twenty-one people. 
+2018-12-12 09:54:26	@z3bra	yeah these ceremony are insane...
+2018-12-12 09:54:38	@venam	z3bra: you do them too?
+2018-12-12 09:55:43	@z3bra	hopefully not
+2018-12-12 09:56:00	@z3bra	we don't have our own CA because it's too extensive of a process
+2018-12-12 10:20:58	--	irc: disconnected from server
+2018-12-12 10:28:50	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-12 10:28:50	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-12 10:28:50	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-12 10:28:50	--	Channel #unix: 65 nicks (4 ops, 1 halfop, 5 voices, 55 normals)
+2018-12-12 10:28:52	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-12 10:29:20	@z3bra	Dworin, these warnings are bad
+2018-12-12 10:29:37	@z3bra	they should be more explicit
+2018-12-12 10:29:49	@z3bra	eg, you get a warning for self-signed
+2018-12-12 10:29:59	@z3bra	but you don't get one for no SSL
+2018-12-12 10:30:21	@z3bra	(and that's why I still don't have SSL enabled, btw)
+2018-12-12 10:51:57	@venam	z3bra: I agree, the errors are not explicit enough and human enough, it should probably write "This person has built their own security instead of relying on the standard infrastructure, do you trust them enough", or "this certificate has expired and is not trusted anymore", or "this certificate is using old crypto that is not secure", or or.. you know
+2018-12-12 11:31:41	@z3bra	yup
+2018-12-12 12:21:24	Ergo	venam: hii, i went to bed so i missed the older messages 
+2018-12-12 12:21:31	Ergo	or i saw them but only just now 
+2018-12-12 12:21:53	Ergo	any info you think might be useful? i know that the problem doesnt happen while using openbox for example 
+2018-12-12 12:23:16	Ergo	i am not using a compositor if that maters 
+2018-12-12 12:25:35	acg	good morning
+2018-12-12 12:25:47	@z3bra	o/
+2018-12-12 12:27:03	acg	how's it going?
+2018-12-12 12:34:33	@venam	Ergo: probably it's an ewmh thing, I'll have to check when I get home
+2018-12-12 12:34:51	@venam	Ergo: can you give me a hint on what's the game, or what kind of games do that so that maybe I can test it alone
+2018-12-12 12:35:10	Ergo	its mostly native linux games, examples being celeste and Stardew valley 
+2018-12-12 12:35:18	Ergo	Hollow knight doesnt have any problems launching 
+2018-12-12 12:36:35	@venam	Ergo: this https://www.ubuntufree.com/download-stardew-valley-game/ ?
+2018-12-12 12:37:01	@z3bra	venam, wait 'till you finish the game though
+2018-12-12 12:37:11	@z3bra	to make 100% extra sure there's no bug :P
+2018-12-12 12:37:23	@venam	z3bra: hahahaha, yeah
+2018-12-12 12:39:00	@venam	if it's not too big I'll download it
+2018-12-12 12:39:21	Ergo	venam: yeee thats the game, but i have it on steam
+2018-12-12 12:39:28	Ergo	im not sure if that affects anything 
+2018-12-12 12:39:37	@z3bra	so your issue is with steam
+2018-12-12 12:39:46	@z3bra	not that game especially
+2018-12-12 12:39:49	Ergo	i feel like the issue would be solved if the games could be launched in borderless window or something 
+2018-12-12 12:40:06	Ergo	z3bra: well all of my games have odd behaviour on 2bwm, atleast native games 
+2018-12-12 12:40:21	Ergo	while not having the same issues on for example openbox 
+2018-12-12 12:40:25	@z3bra	2bwm draws pixmaps around all windows
+2018-12-12 12:41:37	@z3bra	it would be helpful to run "xprop" on the affected window
+2018-12-12 12:42:38	Ergo	any clue on how i would do that? 
+2018-12-12 12:43:04	@z3bra	run "xprop -id <WID>"
+2018-12-12 12:43:13	@z3bra	WID being the window ID of your game
+2018-12-12 12:43:28	Ergo	that would be hard tho since the games basically lock me out of my wm 
+2018-12-12 12:43:36	Ergo	where would i find the WID? 
+2018-12-12 12:43:39	@z3bra	switch to another TTY
+2018-12-12 12:43:48	@z3bra	DISPLAY=:0 xprop -id WID
+2018-12-12 12:43:57	@z3bra	 (or whatever your display number is)
+2018-12-12 12:44:16	Ergo	can i see the window id in htop for example? 
+2018-12-12 13:04:22	@venam	Ergo: if that's the case then maybe adding Steam to the list of ignored windows might solve it
+2018-12-12 13:04:53	@venam	use xprop to get the right window name
+2018-12-12 13:05:03	@venam	Ergo: no, you probably cannot see it from htop
+2018-12-12 13:05:25	@venam	xprop check the window properties, sort of attributes stored in X11 objects
+2018-12-12 13:49:44	Ergo	venam: wouldnt it concern the windows that spawn from steam 
+2018-12-12 13:49:49	Ergo	the instances of the games i guess 
+2018-12-12 13:53:43	@venam	Ergo: sure
+2018-12-12 13:59:55	@z3bra	yes and no
+2018-12-12 14:00:11	@z3bra	sometimes steam just starts another program
+2018-12-12 14:00:22	@z3bra	and doesn't reparent its windows
+2018-12-12 14:00:25	@z3bra	ah wait
+2018-12-12 14:00:30	@z3bra	probably actually
+2018-12-12 14:00:39	@z3bra	as you have the steam overlay in all games
+2018-12-12 14:01:17	@venam	so maybe try doing the xprop on steam then
+2018-12-12 14:02:36	@z3bra	Ergo, what I used to do back in the days, was to launch steam in picture mode
+2018-12-12 14:02:41	@z3bra	in a separate X server
+2018-12-12 14:03:01	@z3bra	it worked great
+2018-12-12 14:03:48	@venam	Ergo: somewhere it says to start steam with -sw https://github.com/ValveSoftware/steam-for-linux/issues/2431
+2018-12-12 14:04:00	@venam	starts steam in window mode instead of fullscreen
+2018-12-12 14:05:22	@venam	there's also  -noborder
+2018-12-12 14:06:43	@venam	otherwise you can try what z3bra proposed, start it in bigpicture mode in a separate session
+2018-12-12 14:06:52	@venam	we can also try debugging the issue too
+2018-12-12 14:13:39	@z3bra	without steam's code it's gonna be tough
+2018-12-12 14:29:23	Ergo	z3bra: i guess i could try launching it in a different session 
+2018-12-12 14:29:49	Ergo	i like the ability to just have it on a workspace tho 
+2018-12-12 14:29:54	Ergo	with a game and then just swap between workspaces 
+2018-12-12 14:31:11	Ergo	the fixes on that page apparentlyu only apply to source engine games venam 
+2018-12-12 14:35:45	@z3bra	that would be the same
+2018-12-12 14:35:56	@z3bra	CM-F1 for your desktop
+2018-12-12 14:36:01	@z3bra	CM-F2 for steam
+2018-12-12 14:37:04	@z3bra	as easy as workspaces :)
+2018-12-12 14:37:18	@z3bra	(though I do agree that it doesn't fix the issue)
+2018-12-12 14:37:28	@z3bra	that's why EWMH is broken
+2018-12-12 14:37:40	@z3bra	to many standards is the same as no standards
+2018-12-12 14:37:56	@z3bra	no WM is 100% EWMH compliant
+2018-12-12 14:38:26	@z3bra	so you can't expect the same behavior on all EWMH compliant WM
+2018-12-12 14:40:02	Ergo	z3bra: hmmmmm i guess i can try that for now 
+2018-12-12 14:40:17	Ergo	if only steam had a flag to just launch everything in a windowed mode that would be fantastic 
+2018-12-12 14:40:39	Ergo	i could just switch to another wm but i really enjoy using 2bwm alot 
+2018-12-12 14:41:59	Ergo	i also cant seem to start multiple xsessions on my gpu 
+2018-12-12 14:42:03	Ergo	or im doing something wrong 
+2018-12-12 15:06:59	@z3bra	http://3.bp.blogspot.com/_D_Z-D2tzi14/S8TTPQCPA6I/AAAAAAAACwA/ZHZH-Bi8OmI/s1600/ALOT2.png
+2018-12-12 15:09:04	+jolia	good moin
+2018-12-12 15:38:12	<--	Mossepo_ (~Mossepo@nix-47CF6961.csc.fi) has quit (WeeChat 2.2)
+2018-12-12 15:52:22	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-12 15:52:22	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-12 15:52:22	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-12 15:52:22	--	Channel #unix: 64 nicks (4 ops, 1 halfop, 5 voices, 54 normals)
+2018-12-12 15:52:24	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-12 16:22:20	@xero	o/
+2018-12-12 16:36:12	--	irc: disconnected from server
+2018-12-12 16:36:40	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-12 16:36:40	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-12 16:36:40	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-12 16:36:40	--	Channel #unix: 64 nicks (4 ops, 1 halfop, 5 voices, 54 normals)
+2018-12-12 16:36:42	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-12 17:12:12	+jolia	sup xero?
+2018-12-12 17:16:52	@xero	nm
+2018-12-12 17:16:58	 *	xero slurps his coffee
+2018-12-12 17:17:30	Ergo	coffee is good 
+2018-12-12 17:33:01	@xero	usually. but the office coffee tastes a lil burnt this morning
+2018-12-12 17:36:07	+jolia	yay noice
+2018-12-12 17:36:11	+jolia	why so xero?
+2018-12-12 17:36:18	+jolia	fire near your office/
+2018-12-12 18:29:29	dcat	where'd fyr/wildefyr go?
+2018-12-12 19:07:54	%mort	"mount: /media/m.2: wrong fs type, bad option, bad superblock on /dev/sda1, missing codepage or helper program, or other error." strikes me as a very useful error message
+2018-12-12 19:08:28	dcat	is that sarcasm?
+2018-12-12 19:08:32	%mort	yes
+2018-12-12 19:09:13	dcat	how so?
+2018-12-12 19:09:21	dcat	it just tells you that it doesn't know how to mount it
+2018-12-12 19:09:31	dcat	cause it doesn't recognize the filesystem
+2018-12-12 19:10:03	dcat	which fs is it?
+2018-12-12 19:10:13	%mort	ext4
+2018-12-12 19:10:22	dcat	fsck
+2018-12-12 19:10:45	%mort	turned out it was due to the nobootwait option, which people on a random reddit thread claimed existed and was useful but apparently doesn't work for ext4
+2018-12-12 19:11:55	dcat	lel
+2018-12-12 19:14:23	dcat	reading about it, it seems weird that it shouldn't work though
+2018-12-12 19:14:36	dcat	if it doesn't work, it should just be ignored
+2018-12-12 19:52:03	-->	slaqer (~slaqer@F158CECE.81368168.595B7AC.IP) has joined #unix
+2018-12-12 19:57:01	<--	eyenx (~eyenx@nix-D7915404.westeurope.cloudapp.azure.com) has quit (bye)
+2018-12-12 20:03:15	-->	eyenx (~eyenx@nix-D7915404.westeurope.cloudapp.azure.com) has joined #unix
+2018-12-12 20:22:00	<--	slaqer (~slaqer@F158CECE.81368168.595B7AC.IP) has quit (Ping timeout: 180 seconds)
+2018-12-12 20:25:18	-->	slaqer (~slaqer@nix-B4ED88FC.lv.lv.cox.net) has joined #unix
+2018-12-12 20:48:15	pyrtbrd	o/
+2018-12-12 20:49:48	biniar	\o
+2018-12-12 21:00:17	pyrtbrd	hey biniar 
+2018-12-12 21:01:16	<--	slaqer (~slaqer@nix-B4ED88FC.lv.lv.cox.net) has quit (Ping timeout: 180 seconds)
+2018-12-12 21:01:33	biniar	hi pyrtbrd 
+2018-12-12 21:02:51	pyrtbrd	how are things?
+2018-12-12 21:03:02	biniar	things are $things :)
+2018-12-12 21:35:01	<--	eu (~eu@nix-BF826D6A.members.linode.com) has quit (WeeChat 1.6)
+2018-12-12 21:35:04	<--	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has quit (WeeChat 2.3)
+2018-12-12 21:37:51	acg	some things aren't
+2018-12-12 21:47:17	biniar	sometimes some things turn into dumb things
+2018-12-12 21:48:01	pyrtbrd	just updated firefox and it keeps crashing opening inspector (－‸ლ)
+2018-12-12 21:48:23	pyrtbrd	not helpful when you're trying to web dev
+2018-12-12 21:48:24	biniar	backup your profile and try a new one
+2018-12-12 21:49:13	acg	oh, most webdevs i've met doesn't really like firefox for that matter
+2018-12-12 21:49:42	biniar	i have to have chrome using light theme and firefox using dark theme to remind myself
+2018-12-12 21:50:22	pyrtbrd	i don't use google
+2018-12-12 21:50:49	biniar	i don't care what you use :P
+2018-12-12 21:51:06	biniar	as long as it works
+2018-12-12 21:59:18	kirch	this is a thing that happened: https://git.io/fpSj3
+2018-12-12 21:59:38	kirch	check out what that expands to
+2018-12-12 21:59:52	kirch	story around it: https://linuxwit.ch/blog/2018/12/e98e/
+2018-12-12 22:02:33	dcat	gg github
+2018-12-12 22:02:43	dcat	has a service that's used by hackers
+2018-12-12 22:02:57	dcat	gets suprised when hackers manage to break shit
+2018-12-12 22:03:23	dcat	it's kinda like that story of the chick with the pet chimpanzee
+2018-12-12 22:03:47	dcat	sure yeah, it's sad that your pet ripped the face off of your friend, but what did you expect to happen?
+2018-12-12 22:03:48	acg	i remember that repo removed like two days ago when i tried to access
+2018-12-12 22:03:54	biniar	the .gitignore comment was funny
+2018-12-12 22:04:03	biniar	a-z except e lol
+2018-12-12 22:04:45	dcat	lel
+2018-12-12 22:06:39	dcat	biniar: you're the french dude from 2f30, right?
+2018-12-12 22:14:07	biniar	sure
+2018-12-12 23:14:17	@xero	oh eeeeeeeeeeeeeeeeeeee is back?
+2018-12-12 23:14:36	@xero	broke the trending repos page xD
+2018-12-12 23:16:21	@xero	turns our they {were,} truncat{ing,ed} the readme on word count, not character count
+2018-12-12 23:16:49	@xero	so the entire readme was displaying and trashing their css/layouts
+2018-12-12 23:17:13	@xero	i heard it happened in gh news letter as well
+2018-12-12 23:17:26	@xero	that's what prompted the lock
+2018-12-13 01:17:18	biniar	:]
+2018-12-13 01:22:10	biniar	I think it's both really interesting and annoying personally
+2018-12-13 05:40:11	<--	heikai (~heikai@nix-1FF104B3.blinkenshell.org) has quit (Ping timeout: 180 seconds)
+2018-12-13 05:47:05	acg	is git.nixers.net still active?
+2018-12-13 06:02:34	-->	heikai (heikai@nix-1FF104B3.blinkenshell.org) has joined #unix
+2018-12-13 09:46:32	-->	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has joined #unix
+2018-12-13 09:57:35	@z3bra	acg, for now yes
+2018-12-13 09:57:43	@z3bra	but I'll drop it sooner or later
+2018-12-13 09:58:08	@z3bra	see https://nixers.net/showthread.php?tid=2139&page=9
+2018-12-13 09:58:24	@z3bra	especially https://nixers.net/showthread.php?tid=2139&pid=19704#pid19704 actually
+2018-12-13 10:53:43	-->	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has joined #unix
+2018-12-13 10:57:37	<--	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has quit (Ping timeout: 180 seconds)
+2018-12-13 11:13:47	-->	Mossepo (~Mossepo@nix-AD098A76.csc.fi) has joined #unix
+2018-12-13 11:19:10	<--	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has quit (leaving)
+2018-12-13 11:19:17	-->	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has joined #unix
+2018-12-13 11:19:18	<--	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has quit (vxid)
+2018-12-13 11:19:28	-->	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has joined #unix
+2018-12-13 11:19:53	<--	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has quit (leaving)
+2018-12-13 11:19:59	-->	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has joined #unix
+2018-12-13 12:32:17	acg	good morning
+2018-12-13 12:34:12	acg	thought i didn't see much activity on that git back when it started so i was wondering if it was any more active now
+2018-12-13 12:34:36	acg	and check if there were any repos besides those on the github organization
+2018-12-14 16:29:46	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-14 16:29:46	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-14 16:29:46	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-14 16:29:46	--	Channel #unix: 63 nicks (4 ops, 1 halfop, 4 voices, 54 normals)
+2018-12-14 16:29:48	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-14 16:30:18	Ergo	venam: i have been busy for a couple days, was there anything you would need to look into the steam issues i was describing earlier if you remember 
+2018-12-14 16:42:19	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (leaving)
+2018-12-14 16:42:25	-->	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has joined #unix
+2018-12-14 16:44:54	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (leaving)
+2018-12-14 16:45:01	-->	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has joined #unix
+2018-12-14 16:48:26	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (leaving)
+2018-12-14 16:48:36	-->	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has joined #unix
+2018-12-14 16:49:14	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (leaving)
+2018-12-14 16:49:21	-->	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has joined #unix
+2018-12-14 17:11:23	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (leaving)
+2018-12-14 17:16:21	-->	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has joined #unix
+2018-12-14 17:46:54	<--	Dworin (~henk@BB823E38.B5FF57B6.FD71ADCD.IP) has quit (Ping timeout: 180 seconds)
+2018-12-14 17:47:26	-->	Dworin (~henk@BB823E38.B5FF57B6.FD71ADCD.IP) has joined #unix
+2018-12-14 17:48:14	dcat	mort: why would why would your video drivers do that?
+2018-12-14 17:48:25	dcat	does your driver run in userland?
+2018-12-14 17:48:26	@z3bra	because he wrote them
+2018-12-14 17:48:52	dcat	you can write drivers in javascript?
+2018-12-14 17:53:35	@z3bra	dat troll
+2018-12-14 17:53:44	acg	lool
+2018-12-14 18:02:38	%mort	dcat: I have no idea, but I have experienced unkillable zombies both on my laptop with amdgpu and on a snapdragon soc while doing stuff with video4linux
+2018-12-14 18:03:26	%mort	(Also, I should inform you that I work as a C++ developer mainly, though I have written a ton of JS)
+2018-12-14 18:03:53	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (leaving)
+2018-12-14 18:05:10	dcat	I mean
+2018-12-14 18:05:14	dcat	you're running linux
+2018-12-14 18:06:27	%mort	Well yeah
+2018-12-14 18:06:44	dcat	`ps aux | awk '$8 ~ /Z/ { print }' | wc -l`
+2018-12-14 18:06:55	dcat	how many?
+2018-12-14 18:09:37	%mort	Currently 0
+2018-12-14 18:11:09	%mort	Just 1 whenever I'm having issues with an unkillable process
+2018-12-16 01:16:32	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-16 01:16:32	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-16 01:16:32	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-16 01:16:32	--	Channel #unix: 63 nicks (4 ops, 1 halfop, 4 voices, 54 normals)
+2018-12-16 01:16:34	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-16 01:18:51	--	bluejay_ is now known as Roserin
+2018-12-16 03:11:03	-->	deurzen_ (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has joined #unix
+2018-12-16 03:11:55	<--	deurzen_ (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (Lost terminal)
+2018-12-16 08:04:51	<--	deurzen (~deurzen@99CF36D1.1EE88DD7.5F1A430E.IP) has quit (Lost terminal)
+2018-12-16 13:48:34	@venam	what's up people, how's this beautiful December going?
+2018-12-16 13:54:50	josuah	hi venam!  Going fine for me.  Resting a lot. :)
+2018-12-16 13:55:22	@venam	josuah: resting from something specific or just chilling out
+2018-12-16 13:55:27	josuah	I'm playing with s6 init / service supervisor.
+2018-12-16 13:55:47	josuah	venam: resting from the week as usual
+2018-12-16 13:56:10	josuah	https://skarnet.org/software/s6/
+2018-12-16 13:56:16	josuah	venam: how are you going?
+2018-12-16 13:56:28	@venam	josuah: oh nice, I've read a lot about it but never actually used it
+2018-12-16 13:56:39	@venam	how is it?
+2018-12-16 13:57:43	@venam	josuah: doing fine, usual Sunday, cooking for the week and rest of the day chilling out
+2018-12-16 14:00:49	 *	josuah imagine the kitchen full of fog and venam with a white apron
+2018-12-16 14:01:37	@venam	close enough
+2018-12-16 14:02:37	josuah	venam: it feels nice, there was the first old daemontools (http://cr.yp.to/daemontools.html) and then multiple others popped out including runit and s6.
+2018-12-16 14:02:47	@venam	josuah: also doing bi-weekly backup
+2018-12-16 14:03:00	josuah	\o/ backups!
+2018-12-16 14:03:14	 *	josuah look down its foot and say "I don't have backups"
+2018-12-16 14:03:25	@venam	josuah: just get an HDD, it's the season
+2018-12-16 14:03:31	@venam	they're getting cheaper
+2018-12-16 14:04:01	josuah	runit is popular for void-linux, s6 has some coverage of docker and obarun linux uses it
+2018-12-16 14:04:37	@venam	josuah: does it run over the wire
+2018-12-16 14:05:08	@venam	like if you have a daemon running inside a vm or docker, can you like manage them remotely too?
+2018-12-16 14:05:58	josuah	venam: well there's not built-in protocol to manage them, but with ssh you can of course
+2018-12-16 14:07:43	josuah	it would need a simple wrapper like « s6-tcpserver 0.0.0.0 1234 sh -c 'read service-name state && s6-svc -"$state" "/run/s6/$service-name"' »
+2018-12-16 14:08:27	<--	raph_ael (~raphael@4812F52E.34CFABB7.A00C42B6.IP) has quit (WeeChat 2.2)
+2018-12-16 14:08:49	josuah	then you can do « echo "sshd u" | nc 123.4.56.78 1234 » to bring ssh daemon up
+2018-12-16 14:09:55	@venam	...and backup is done
+2018-12-16 14:11:20	-->	raph_ael (~raphael@4812F52E.34CFABB7.A00C42B6.IP) has joined #unix
+2018-12-16 14:18:41	<--	sin (~sin@nix-502D8A6D.fz.is) has quit (gone)
+2018-12-16 14:18:50	-->	sin (~sin@nix-502D8A6D.fz.is) has joined #unix
+2018-12-16 16:05:31	@venam	this is very fun: https://hubicka.blogspot.com/2018/12/firefox-64-built-with-gcc-and-clang.html
+2018-12-16 16:13:24	premysl	Strange sense of humor.
+2018-12-16 16:15:55	Ergo	venam: hii, since its sunday and im not doing anything today. i thought i could maybe look into my problem again. what was the info that you needed again? 
+2018-12-16 16:16:08	Ergo	could also send you a pm if thats prefered 
+2018-12-16 16:16:35	Ergo	im the dude who had problems with native steam games in 2bwm btw 
+2018-12-16 16:16:49	@venam	Ergo: yes, it's been on my TODO list to check this out
+2018-12-16 16:17:06	@venam	maybe you could try running the game with the flag so that it opens in window mode first
+2018-12-16 16:17:22	Ergo	i mean there is no rush, but like if you need me to get you some info i can 
+2018-12-16 16:17:39	Ergo	venam: i tried that, but it sadly didnt work 
+2018-12-16 16:17:45	Ergo	flag i used was --windowed 
+2018-12-16 16:17:53	Ergo	and -windowed 
+2018-12-16 16:18:24	@venam	I never used steam so I'm not sure if this is how you do it
+2018-12-16 16:18:44	@venam	https://support.steampowered.com/kb_article.php?ref=1040-JWMT-2947 here it says you can right click the game and set the launch options
+2018-12-16 16:19:20	Ergo	yeee , but you have to pause launch options as -option iirc 
+2018-12-16 16:19:32	@venam	no idea
+2018-12-16 16:19:57	@venam	Ergo: have you tried starting the game, going to a different TTY, setting DISPLAY and then doing xprop stuffs
+2018-12-16 16:20:08	Ergo	i havent, cause i didnt know how lol 
+2018-12-16 16:20:22	@venam	alright
+2018-12-16 16:20:25	Ergo	i guess display would be 0 right 
+2018-12-16 16:20:26	Ergo	or 1 
+2018-12-16 16:20:35	@venam	yeah :0 or :1
+2018-12-16 16:20:53	Ergo	problem i had wasthat i couldnt figure out how to get the window of the game 
+2018-12-16 16:21:05	@venam	if you could only keep one window opened on that X session
+2018-12-16 16:21:18	@venam	then maybe used one of those wmutils tool to list the ID of all windows
+2018-12-16 16:21:28	Ergo	never used wmutils before 
+2018-12-16 16:21:30	Ergo	lemme check that out 
+2018-12-16 16:21:38	@venam	and then xprop -id <ID>
+2018-12-16 16:22:37	@venam	Ergo: https://github.com/wmutils/core
+2018-12-16 16:22:37	Ergo	kay, im in tty 2 right now 
+2018-12-16 16:22:40	Ergo	game is running in tty1 
+2018-12-16 16:23:07	@venam	I think it's the lsw util
+2018-12-16 16:23:37	@venam	it lists currently opened windows
+2018-12-16 16:24:26	Ergo	would you run that like 
+2018-12-16 16:24:30	Ergo	lsw display:1 ? 
+2018-12-16 16:25:09	@venam	export DISPLAY=:0
+2018-12-16 16:25:13	@venam	then run the command
+2018-12-16 16:25:36	Ergo	doesnt return anything 
+2018-12-16 16:25:37	Ergo	hmmm
+2018-12-16 16:26:03	Ergo	lemme try stardew valley 
+2018-12-16 16:26:37	@venam	maybe you can echo $DISPLAY before switchin to the TTY
+2018-12-16 16:28:30	Ergo	hmm its odd 
+2018-12-16 16:28:38	Ergo	lsw doesnt seem to be able to find the game windows 
+2018-12-16 16:29:06	@venam	Ergo: is 2bwm still running?
+2018-12-16 16:29:12	Ergo	yes 
+2018-12-16 16:29:25	@venam	and lsw doesn't nag about the X session not being started?
+2018-12-16 16:29:40	Ergo	nope it doesnt 
+2018-12-16 16:30:22	@venam	alright, maybe you can start the game while running under openbox, and do an xprop over it
+2018-12-16 16:30:28	@venam	to at least get which properties it has
+2018-12-16 16:30:40	Ergo	ayee , lemme try that 
+2018-12-16 16:31:24	Ergo	any tip on how to kill the x server on tty1 from tty2? 
+2018-12-16 16:31:28	Ergo	since its frozen on tty1 
+2018-12-16 16:32:09	@venam	Ergo: you can probably do that from top/htop
+2018-12-16 16:32:39	@venam	Ergo: normally I start my session over a terminal, like that if something gets stuck I can kill 2bwm, get to that terminal and debug
+2018-12-16 16:34:37	Ergo	kay im in openbox right now 
+2018-12-16 16:34:56	Ergo	and the game is running, can also see its id 
+2018-12-16 16:36:45	@venam	Ergo: ok, so you can do xprop on the game window now
+2018-12-16 16:37:01	Ergo	it wont work with the id 
+2018-12-16 16:37:16	Ergo	i can put the game in windowed mode but that wouldnt really help would it? 
+2018-12-16 16:37:26	@venam	yes it would also
+2018-12-16 16:37:35	@venam	but why doesn't it work with the id?
+2018-12-16 16:38:11	Ergo	i might have the wrong id 
+2018-12-16 16:38:25	Ergo	like if i enter xprop -id id , it doesnt give any output 
+2018-12-16 16:38:39	@venam	you can type xprop in  a terminal and click on the window
+2018-12-16 16:39:10	Ergo	yup, i did. but that didnt work cause the game was in fullscreen 
+2018-12-16 16:39:17	Ergo	this is the output of celete in windowed mode - https://paste.pound-python.org/show/SqzNoXoG2vVs1i9jnlSd/
+2018-12-16 16:40:26	@venam	Ergo: ok, can you try adding to the list of ignored windows in 2bwm "Celeste"
+2018-12-16 16:40:38	@venam	static const char *ignore_names[] = {"bar", "xclock"};
+2018-12-16 16:41:16	Ergo	sure thing 
+2018-12-16 16:41:23	Ergo	venam: this is the output of stardew valley btw - https://paste.pound-python.org/show/0LV8EqTelzIRCpE07IAo/
+2018-12-16 16:42:33	@venam	You can also add to the list of ignore_names "Stardew Valley"
+2018-12-16 16:42:48	@venam	I don't see anything specific other than those OB_ openbox attributes
+2018-12-16 16:43:05	Ergo	hmmm yee 
+2018-12-16 16:43:21	Ergo	you dont see anything in the window properties that seems to show why it messes with 2bwm? 
+2018-12-16 16:43:47	@venam	not really
+2018-12-16 16:44:22	@venam	maybe it's the _NET_WM_ACTION_FULLSCREEN
+2018-12-16 16:46:31	@venam	Ergo: so even the window mode doesn't work, right?
+2018-12-16 16:46:44	Ergo	venam: window mode does work 
+2018-12-16 16:46:52	Ergo	but if i switch from windowed to fullscreen, the window freezes again 
+2018-12-16 16:49:04	@venam	Ergo: have you tried running a compositor at the same time
+2018-12-16 16:49:15	@venam	Ergo: the screen stays black or something?
+2018-12-16 16:50:19	Ergo	nah the game launches but the game freezes
+2018-12-16 16:50:29	Ergo	venam: i have not tried running a compositor actually
+2018-12-16 16:50:31	Ergo	i wil ltry compton 
+2018-12-16 16:52:07	Ergo	compton still gives me the same issues 
+2018-12-16 16:52:30	@venam	 _NET_WM_STATE_FULLSCREEN indicates that the window should fill the entire screen and have no window decorations. Additionally the Window Manager is responsible for restoring the original geometry after a switch from fullscreen back to normal window. For example, a presentation program would use this hint. 
+2018-12-16 16:52:41	@venam	I don't see how that affect rendering even if it's not respected
+2018-12-16 16:53:05	@venam	Ergo: did you also try adding the WM_NAME that you got to the list of programs that are ignored
+2018-12-16 16:53:36	Ergo	yeee 
+2018-12-16 16:53:46	Ergo	i added "Stardew Valley" and "Celeste" both to the ignore names list 
+2018-12-16 16:54:18	@venam	so even in window mode now they shouldn't have borders
+2018-12-16 16:54:28	Ergo	yee they dont have borders in windowed mode 
+2018-12-16 16:54:33	Ergo	but they still crash for some reason 
+2018-12-16 16:54:48	@venam	maybe it's an opengl thing, or something to do with the window manager not being a reparenting window manager
+2018-12-16 16:54:49	Ergo	or crash, shhow unexpected behaviour 
+2018-12-16 16:55:11	@venam	are there like options within steam to play with rendering stuffs
+2018-12-16 16:55:31	@venam	I remember in the past having issues with mplayer because of rendering
+2018-12-16 16:55:39	Ergo	hmmm not that i can remember 
+2018-12-16 16:55:41	Ergo	or know of atleast 
+2018-12-16 16:55:44	@venam	so I used -vo gl in the end
+2018-12-16 16:55:58	Ergo	what does that do? 
+2018-12-16 16:56:08	@venam	use opengl for graphic
+2018-12-16 16:56:40	Ergo	soo, you dont think you will know how to fix it in 2bwm btw? 
+2018-12-16 16:56:53	@venam	so far no idea, I'm going to download the game
+2018-12-16 16:57:02	Ergo	ayee sure 
+2018-12-16 16:57:07	Ergo	thanks for looking into it with me 
+2018-12-16 16:57:16	Ergo	if you need anything else lemme know 
+2018-12-16 16:57:37	@venam	sure
+2018-12-16 19:23:53	-->	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has joined #unix
+2018-12-16 21:42:07	<--	josuah (~josuah@7094358E.2C266332.65CC2814.IP) has quit (Ping timeout: 180 seconds)
+2018-12-16 22:54:20	<--	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has quit (WeeChat 2.3)
+2018-12-17 05:39:03	@venam	morning fellow humans
+2018-12-17 08:38:25	skrzyp	ohai
+2018-12-17 08:39:06	skrzyp	today I'm expecting two parcels, one via GLS and another one via national postage
+2018-12-17 08:39:06	<--	biniar (~biniar@nix-80B5D07D.org) has quit (Lost terminal)
+2018-12-17 08:39:23	skrzyp	what do you think, which one will come first?
+2018-12-17 09:05:49	-->	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has joined #unix
+2018-12-17 09:15:39	@z3bra	hello
+2018-12-17 09:29:32	@venam	z3bra: o/
+2018-12-17 09:32:36	skrzyp	hmpf
+2018-12-17 09:32:51	skrzyp	anyone still uses GNU Stow / xstow in 2018 as a real thing?
+2018-12-17 09:33:20	skrzyp	I found it nice and handy, but somewhat overenginnered, handy dotfiles management is like byproduct of this, not the primary tool's goal
+2018-12-17 09:42:02	@z3bra	it's pointless really
+2018-12-17 09:46:37	@z3bra	hey venam, did you see the website of that new nixers?
+2018-12-17 09:46:40	@z3bra	Thuban
+2018-12-17 09:50:03	@z3bra	He's french, and his blog is a goldmine!
+2018-12-17 09:53:36	@venam	z3bra: oh not yet, checking them at the moment
+2018-12-17 09:53:39	@venam	cool stuffs
+2018-12-17 09:58:04	skrzyp	z3bra: why?
+2018-12-17 09:58:59	skrzyp	I know there's a better way, like changing XDG_CONFIG_DIR env vars as well as aliasing most commands with "-c"/"--config" parameters pointing to custom paths, but not everything could be managed this way
+2018-12-17 09:59:13	@z3bra	skrzyp, I dont' see the point of having so many symlinks
+2018-12-17 10:31:52	@z3bra	if I had to do it again (managing dotfiles), I'd use a package manager
+2018-12-17 10:32:07	skrzyp	pac–WHAT
+2018-12-17 10:32:15	skrzyp	ah yeah, you have your own package manager
+2018-12-17 10:33:31	@z3bra	yup
+2018-12-17 10:33:42	@z3bra	that can install to an arbitrary $ROOT
+2018-12-17 10:34:09	skrzyp	that might sound exceptionally good as I'm trying to maintain FHS *inside* the $HOME
+2018-12-17 10:34:24	skrzyp	like $HOME/bin, $HOME/usr, $HOME/etc, $HOME/var, $HOME/mnt, and so on
+2018-12-17 10:36:07	@z3bra	You make a tarball like so
+2018-12-17 10:36:10	@z3bra	https://p.iotek.org/yc8.txt
+2018-12-17 10:36:19	@z3bra	https://p.iotek.org/yc8
+2018-12-17 10:36:20	@z3bra	shiet
+2018-12-17 10:36:44	@z3bra	then you install it over $HOME
+2018-12-17 10:36:52	@z3bra	and you dotfiles are deployed
+2018-12-17 10:37:10	@z3bra	when you modify it, you recreate the tarball
+2018-12-17 10:38:08	@z3bra	You barely need a package manager here bt
+2018-12-17 10:38:10	@z3bra	You barely need a package manager here btw
+2018-12-17 10:38:29	@z3bra	it will only help with "updates"
+2018-12-17 10:38:57	@z3bra	for example, if you remove .tmux.conf from the tarball, it will delete it from your $HOME
+2018-12-17 11:10:45	skrzyp	https://assemblergames.com/threads/my-complete-sgi-ultra64-dev-set-manual-scans-dev-software.45165/
+2018-12-17 11:28:36	@z3bra	nice
+2018-12-17 12:59:20	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-17 12:59:20	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-17 12:59:20	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-17 12:59:20	--	Channel #unix: 61 nicks (4 ops, 1 halfop, 4 voices, 52 normals)
+2018-12-17 12:59:22	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-17 13:21:29	<--	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has quit (WeeChat 2.2)
+2018-12-17 13:21:43	-->	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has joined #unix

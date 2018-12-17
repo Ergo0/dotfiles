@@ -6109,3 +6109,14 @@
 2018-12-06 11:44:10	=!=	Too few arguments for command "/query" (help on command: /help query)
 2018-12-06 11:44:11	=!=	Error: WeeChat main buffer can't be closed
 2018-12-06 11:44:12		fifo: pipe closed
+2018-12-12 01:38:19		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-12 01:39:59		irc: server unix added
+2018-12-12 01:40:40		Option changed: irc.server.unix.addresses = "unix.chat/6697"  (default if null: "")
+2018-12-12 01:40:52		Option changed: irc.server.unix.ssl = on  (default if null: off)
+2018-12-12 02:12:28		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-12 15:52:09		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-13 13:48:03		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-14 02:33:05		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-14 18:32:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-16 01:15:04		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 12:59:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer

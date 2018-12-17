@@ -1,0 +1,865 @@
+2018-12-12 17:30:34	-->	ergo0 (~nathaniel@2001:980:5c8e:1:29f1:6033:7fcc:23f0) has joined #sonarr
+2018-12-12 17:30:34	--	Topic for #sonarr is "Please be patient, someone may not be able to answer your question immediately || Use pastebin for log files || https://sonarr.tv || https://forums.sonarr.tv || Please, no TV spoilers."
+2018-12-12 17:30:34	--	Topic set by markus101 (sid14590@gateway/web/irccloud.com/x-kippaweamesbtsvu) on Tue, 10 Apr 2018 19:16:26
+2018-12-12 17:30:34	--	Channel #sonarr: 264 nicks (3 ops, 35 voices, 226 normals)
+2018-12-12 17:30:36	--	Channel created on Mon, 20 Oct 2014 21:40:22
+2018-12-12 17:30:46	ergo0	hii could anyone help me solving my permission errors? 
+2018-12-12 17:31:03	ergo0	im using a second btrfs drive which i have chowned with 777 but sonarr still cant access the drive 
+2018-12-12 17:31:59	-->	Lenovoi5_ (~quassel@unaffiliated/lenovoi5) has joined #sonarr
+2018-12-12 17:35:03	<--	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has quit (Ping timeout: 252 seconds)
+2018-12-12 17:38:29	+xelra	ergo0: I will help you.
+2018-12-12 17:38:52	fryfrog	ergo0: Avoid 777, it means you don't know what is going on :(
+2018-12-12 17:39:05	fryfrog	ergo0: what user/group does sonarr run as?
+2018-12-12 17:39:16	+xelra	Hey, that's my supportee. ;P
+2018-12-12 17:39:24	fryfrog	Too slow :p
+2018-12-12 17:39:34	ergo0	lol 
+2018-12-12 17:39:42	ergo0	sonarr runs under uid 974 
+2018-12-12 17:39:51	ergo0	my userid is 1000 
+2018-12-12 17:40:00	fryfrog	Does each daemon have its own user?
+2018-12-12 17:40:01	ergo0	https://forum.manjaro.org/t/how-to-correctly-install-sonarr-without-file-permission-issues/54451/4 was about to follow this 
+2018-12-12 17:40:13	ergo0	uhmmm i just started them by systemctl start sonarr 
+2018-12-12 17:40:22	+xelra	A good idea is always to su to the user that sonarr runs at. Then try chmod and see what happens.
+2018-12-12 17:40:33	ergo0	the drive in question is just a folder for games and media 
+2018-12-12 17:40:40	ergo0	so like i wouldnt mind opening it up to everything 
+2018-12-12 17:40:46	+xelra	You might need to change the shell entry in /etc/passwd for that.
+2018-12-12 17:40:50	fryfrog	ergo0: You can `systemctl cat sonarr` to see what user it runs as
+2018-12-12 17:41:00	fryfrog	And group.
+2018-12-12 17:41:27	fryfrog	But TL;DR is that you want a user per daemon and a shared group, using a umask of 002 which is 775 for folders and 664 for files.
+2018-12-12 17:41:36	ergo0	this is hte output https://paste.pound-python.org/show/HyDUGCUyigBf5vpH1ZRk/
+2018-12-12 17:41:41	+xelra	Once it works as the user in question, I suggest creating a group called `media` and then running plex, sonarr, radarr, all with that group.
+2018-12-12 17:42:07	+xelra	Then you just need 660 for files and 770 for directories.
+2018-12-12 17:42:17	ergo0	damn , i know my way around linux somewhat 
+2018-12-12 17:42:22	ergo0	but im so bad with perms lol 
+2018-12-12 17:42:31	ergo0	setting up a gpu passthrough vm is much easier lol 
+2018-12-12 17:42:36	fryfrog	Do you know where the numbers come from? I think knowing that helps a lot.
+2018-12-12 17:42:46	+xelra	Well, take your time. We're not going anywhere.
+2018-12-12 17:43:19	ergo0	cant i just add sonarr to my user groups? 
+2018-12-12 17:43:23	+xelra	If you have permissions with 3 octets, the first is user, the second is group and the third is everyone.
+2018-12-12 17:43:30	+xelra	6 means read+write.
+2018-12-12 17:43:30	fryfrog	ergo0: that works too
+2018-12-12 17:43:37	+xelra	7 means read+write+execute.
+2018-12-12 17:43:45	ergo0	that would be like usermod -a -G sonarr ronin 
+2018-12-12 17:43:47	ergo0	right? 
+2018-12-12 17:43:48	fryfrog	ergo0: but your sonarr is running as sonarr:sonarr, so you'd just need to flip it.
+2018-12-12 17:44:03	fryfrog	ergo0: but if you're going to do this work, you may as well add a new group
+2018-12-12 17:44:08	fryfrog	and just add your user to that group.
+2018-12-12 17:44:14	+xelra	Yes, it's not advisable.
+2018-12-12 17:44:20	+xelra	It's more work than the other way around.
+2018-12-12 17:45:11	<--	Lenovoi5_ (~quassel@unaffiliated/lenovoi5) has quit (Quit: No Ping reply in 180 seconds.)
+2018-12-12 17:45:39	ergo0	i solved it 
+2018-12-12 17:45:41	ergo0	i just went into su 
+2018-12-12 17:45:47	ergo0	did usermod -a -G sonarr ronin 
+2018-12-12 17:45:50	ergo0	and now it works 
+2018-12-12 17:46:40	-->	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has joined #sonarr
+2018-12-12 17:46:47	ergo0	that prolly wasnt the most secure way of fixing it i guess 
+2018-12-12 17:47:00	+xelra	Yeah, that just means that where you have your library is only accessible by the group ronin.
+2018-12-12 17:47:24	fryfrog	Also, your files are still 777 probably :)
+2018-12-12 17:47:31	+xelra	The better way would me to make a media group and then add ronin, plex, radarr and sonarr to it.
+2018-12-12 17:47:35	ergo0	i mean if it works it works, right :) 
+2018-12-12 17:47:39	fryfrog	My guess is that some file or folder in the path was *not* 777
+2018-12-12 17:47:54	ergo0	i used chown 777 on the whole drive 
+2018-12-12 17:48:03	ergo0	i could try adding a media grooup later 
+2018-12-12 17:48:06	+xelra	*cringe*.
+2018-12-12 17:48:18	fryfrog	ergo0: depends on your goal, chances are good that since you're setting up poorly now, you'll run into issues later.
+2018-12-12 17:48:18	+xelra	Well, if it's nothing important on there.
+2018-12-12 17:48:28	ergo0	yee its just games and media 
+2018-12-12 17:48:37	fryfrog	But you can always just figure it out then :)
+2018-12-12 17:49:17	fryfrog	https://old.reddit.com/r/usenet/wiki/docker <- ignore the parts about docker, but there is a short section about permissions that might help you understand
+2018-12-12 17:49:35	ergo0	fryfrog: yeee, thanks for pointing me in the right direction 
+2018-12-12 17:49:44	ergo0	xelra: as well
+2018-12-12 17:49:49	ergo0	i will fix this sometime 
+2018-12-12 17:49:51	ergo0	promise 
+2018-12-12 17:49:58	fryfrog	:)
+2018-12-12 17:50:23	+xelra	If you need to chang permissions of your library later, you can do it with find.
+2018-12-12 17:50:31	ergo0	now im getting unregistered torrent erros 
+2018-12-12 17:50:37	ergo0	oh well, guess i will add more indexers 
+2018-12-12 17:51:05	+xelra	find . -type f -exec chmod 660 {} \;
+2018-12-12 17:51:23	+xelra	find . -type d -exec chmod 770 {} \;
+2018-12-12 17:51:36	+xelra	One finds files, the other finds directories.
+2018-12-12 17:51:38	fryfrog	xelra: `chmod -R a=,a+rX,u+w,g+w /some/path/here`
+2018-12-12 17:51:44	+xelra	OMG!
+2018-12-12 17:51:45	fryfrog	^ memorize that, it is way better than the find.
+2018-12-12 17:52:05	fryfrog	Though you'd need to tune it for your umask 007, that is umask 002
+2018-12-12 17:52:51	+xelra	Alright. Need to watch Wintergatan Wednesday now. :)
+2018-12-12 17:53:52	+xelra	I like doing things in absolutes. :)
+2018-12-12 17:54:14	fryfrog	Your way is ineffecient and what do you think you mean by "absolutes"?
+2018-12-12 17:54:57	+xelra	Setting the mode in an absolute way I mean.
+2018-12-12 17:55:05	fryfrog	What do you think that chmod is doing?
+2018-12-12 17:55:14	fryfrog	Granted, it is a little harder to read.
+2018-12-12 17:55:21	fryfrog	But it *is* setting it absolutely.
+2018-12-12 17:55:59	+xelra	Also to increase efficiency you can use `find . -type d -exec chmod 770 {} +`
+2018-12-12 17:56:01	fryfrog	the first a= clears it, a+rX adds read and read + execute on folders for *all*, the u and g add write to user and group.
+2018-12-12 17:56:17	fryfrog	To do your 007, i think it'd be...
+2018-12-12 17:56:39	+xelra	What if g doesn't have r to begin with?
+2018-12-12 17:56:44	fryfrog	a=,u+rwX,g+rwX
+2018-12-12 17:56:51	fryfrog	The a= sets everything to 000
+2018-12-12 17:57:11	fryfrog	It literally does exactly what your pair of finds do, but w/o spawning a chmod for *every* file and folder found.
+2018-12-12 17:57:23	+xelra	Hmm, and g+w impplies +r?
+2018-12-12 17:57:28	fryfrog	No
+2018-12-12 17:57:41	fryfrog	The second a=rX sets read for files and folders
+2018-12-12 17:57:42	+xelra	Ah, I see it now.
+2018-12-12 17:57:51	fryfrog	for *everyone*
+2018-12-12 17:57:52	+xelra	Yes, you're right.
+2018-12-12 17:57:53	fryfrog	I mean
+2018-12-12 17:57:57	fryfrog	for each of the 3
+2018-12-12 17:58:13	fryfrog	Someone showed me this recently, I was like omg.
+2018-12-12 17:58:30	+xelra	Does it also take care of the 4th octet, if it isn't 0?
+2018-12-12 17:58:33	fryfrog	The whole CAP X being +x on folders was crazy.
+2018-12-12 17:58:46	fryfrog	Probably not, but neither does yours?
+2018-12-12 17:58:58	fryfrog	I'm sure you can add it, since it is just chmod.
+2018-12-12 17:59:01	+xelra	Mine is short for 0660.
+2018-12-12 17:59:08	+xelra	I think it does.
+2018-12-12 17:59:21	fryfrog	Easy enough to test :)
+2018-12-12 17:59:27	+xelra	Yes.
+2018-12-12 17:59:42	+xelra	If you use {} + it doesn't spawn chmod for every file too though.
+2018-12-12 17:59:51	+xelra	It's a batch operation.
+2018-12-12 18:00:02	fryfrog	I don't think that is correct
+2018-12-12 18:00:21	fryfrog	try `-exec echo '{}' ';'` and see what it does?
+2018-12-12 18:00:35	-->	Ruflexo (Ruflexo@gateway/vpn/privateinternetaccess/ruflexo) has joined #sonarr
+2018-12-12 18:00:39	+xelra	It doesn't work like that.
+2018-12-12 18:00:50	+xelra	It really has to be {} + at the end.
+2018-12-12 18:01:10	+xelra	They made this in find, so people wouldn't use xargs.
+2018-12-12 18:01:25	fryfrog	https://ptpb.pw/bOLY/shell <- doesn't look like it fixes +s
+2018-12-12 18:01:36	fryfrog	OHHH, you literally meant `{} +`
+2018-12-12 18:01:46	fryfrog	Interesting!
+2018-12-12 18:01:54	ergo0	i wish i had my old internet back 
+2018-12-12 18:02:02	ergo0	usenet at 4.5 mbs is slow
+2018-12-12 18:05:07	fryfrog	MB/sec or Mbps?
+2018-12-12 18:05:13	ergo0	mb/sec 
+2018-12-12 18:05:22	fryfrog	:(
+2018-12-12 18:05:28	Cheez	ouch
+2018-12-12 18:06:56	ergo0	im on powerline 
+2018-12-12 18:07:16	fryfrog	If you have coax for cable/ota, MoCa often performs *far* better.
+2018-12-12 18:08:56	+xelra	Have you guys heard of Wintergatan?
+2018-12-12 18:09:18	+xelra	He's got a series on YouTube airing every Wednesday.
+2018-12-12 18:10:02	+xelra	That guy is so amazing. Starting out with zero knowledge, you can watch him go step by step fighting for his dream.
+2018-12-12 18:11:09	+xelra	It's this playlist. And probably the best watch on YouTube at all: https://www.youtube.com/watch?v=C8qyVURtSZc&list=PLLLYkE3G1HED6rW-bkliHbMroHYFf4ukv
+2018-12-12 18:12:08	+xelra	And this series is the build process of the first marble machine, which was a failure: https://www.youtube.com/watch?v=qkAwf3hlHSE&list=PLLLYkE3G1HEA_68q46Xk1MvK-zGqjLBmA
+2018-12-12 18:12:19	+xelra	Every normal person would have given up after that.
+2018-12-12 18:18:47	+xelra	If you start with the first machine and then watch the whole thing, the development is just mindboggling.
+2018-12-12 18:25:12	-->	KrissO- (~krisso@128.77.9.39) has joined #sonarr
+2018-12-12 18:25:12	<--	KrissO (~krisso@128.77.15.217) has quit (Disconnected by services)
+2018-12-12 18:27:15	-->	hoodoo (~blah@h-119-240.A240.priv.bahnhof.se) has joined #sonarr
+2018-12-12 18:29:01	<--	UMpersEgaR (~UMpersEga@unaffiliated/umpersegar) has quit (Quit: See ya)
+2018-12-12 18:29:06	<--	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has quit (Ping timeout: 260 seconds)
+2018-12-12 18:30:35	-->	UMpersEgaR (~UMpersEga@unaffiliated/umpersegar) has joined #sonarr
+2018-12-12 18:34:11	<--	UMpersEgaR (~UMpersEga@unaffiliated/umpersegar) has quit (Client Quit)
+2018-12-12 18:35:34	-->	UMpersEgaR (~UMpersEga@unaffiliated/umpersegar) has joined #sonarr
+2018-12-12 18:50:09	<--	Floflobel (~Floflobel@cosium-152-18.fib.nerim.net) has quit (Remote host closed the connection)
+2018-12-12 18:52:27	<--	el_bobbo (el_bobbo@c-174-63-113-0.hsd1.ma.comcast.net) has quit (Ping timeout: 240 seconds)
+2018-12-12 19:10:10	-->	Gore|woerk (~Gore@port-80321.pppoe.wtnet.de) has joined #sonarr
+2018-12-12 19:37:34	<--	ShaRose (~ShaRose@i.am.sharo.se) has quit (Quit: I seem to have left.)
+2018-12-12 19:47:16	-->	ShaRose (~ShaRose@i.am.sharo.se) has joined #sonarr
+2018-12-12 19:47:47	<--	resonanttoe (~resonantt@81.6.39.56) has quit (Quit: resonanttoe)
+2018-12-12 19:47:52	-->	mastyman (~connectsy@unaffiliated/mastyman) has joined #sonarr
+2018-12-12 19:52:01	<--	ShaRose (~ShaRose@i.am.sharo.se) has quit (Client Quit)
+2018-12-12 19:57:33	<--	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has quit (Remote host closed the connection)
+2018-12-12 19:58:13	-->	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has joined #sonarr
+2018-12-12 20:09:45	-->	resonanttoe (~resonantt@81.6.39.56) has joined #sonarr
+2018-12-12 20:10:11	-->	ShaRose (~ShaRose@i.am.sharo.se) has joined #sonarr
+2018-12-12 20:21:53	<--	KrissO- (~krisso@128.77.9.39) has quit (Read error: Connection reset by peer)
+2018-12-12 20:54:33	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-12 21:05:24	-->	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has joined #sonarr
+2018-12-12 21:06:10	--	Catatronic is now known as i7heaven
+2018-12-12 21:06:30	--	i7heaven is now known as Catatronic
+2018-12-12 21:08:38	<--	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has quit (Client Quit)
+2018-12-12 21:10:04	-->	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has joined #sonarr
+2018-12-12 21:11:14	@Taloth	fryfrog: re: mediastudent, I'd say no if I wasn't a fan of open discussions. But any question he asks is completely useless. You can't just drop a post about usage and draw any statistically relevant conclusion from it. And that's his thesis subject, then he's in deep trouble :)
+2018-12-12 21:11:37	@Taloth	And if*
+2018-12-12 21:31:01	Makere	sometimes it would be awesome if I could just search for the episode by manually typing in the search term
+2018-12-12 21:35:27	<--	Dimtree (~dimtree@unaffiliated/dimtree) has quit (Quit: Peace)
+2018-12-12 21:50:50	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 246 seconds)
+2018-12-12 21:57:52	_Trullo	The Onedin Line (1970) BBC One Ended , kinda impressive it's there :)
+2018-12-12 22:06:27	<--	rusty12815 (~rusty1281@93-137-202-139.adsl.net.t-com.hr) has quit (Read error: Connection reset by peer)
+2018-12-12 22:07:07	-->	Dimtree (~dimtree@unaffiliated/dimtree) has joined #sonarr
+2018-12-12 22:07:11	-->	rusty12815 (~rusty1281@93-137-111-226.adsl.net.t-com.hr) has joined #sonarr
+2018-12-12 22:21:49	fryfrog	Taloth: turns out he's doing ui work? I'm confused now :p
+2018-12-12 22:23:55	@Taloth	right.... Contextual Inquiry "Please allow me to watch you use Sonarr to download stuff and then watch it via Plex/Emby because I want to improve the UX."
+2018-12-12 22:24:15	fryfrog	I dunno how he's gonna get anyone to do that :p
+2018-12-12 22:24:22	@Taloth	.... yup
+2018-12-12 22:24:47	@Taloth	but nevertheless, if he managed to write something that gets streaming services to offer a better UI then kudoes.
+2018-12-12 22:24:57	fryfrog	For serious. :)
+2018-12-12 22:25:04	fryfrog	God knows Plex could use it :/
+2018-12-12 22:25:13	@Taloth	but I don't know how to respond further.
+2018-12-12 22:25:34	@Taloth	hm maybe
+2018-12-12 22:25:35	fryfrog	I still don't really object
+2018-12-12 22:25:43	@markus101	fryfrog: roku user? :P
+2018-12-12 22:26:00	fryfrog	Ha, mostly a shield actually
+2018-12-12 22:26:08	fryfrog	its gotten better at least
+2018-12-12 22:26:28	fryfrog	On my kids iPad, you can't tell what fucking server they're connected to.
+2018-12-12 22:26:29	@Taloth	markus101: moderator mail on reddit
+2018-12-12 22:26:50	fryfrog	Taloth: I think /r/sonarr redditors will sort his post out ;)
+2018-12-12 22:30:08	@Taloth	it'll surely have a huge positive effect on its user experience.
+2018-12-12 22:30:08	 *	markus101 puts on my tinfoil hat
+2018-12-12 22:30:08	-->	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has joined #sonarr
+2018-12-12 22:30:08	@Taloth	but if you mean with sorting out "ignore him completely", then yeah
+2018-12-12 22:30:11	@markus101	fryfrog: solution, 1 server :D
+2018-12-12 22:30:35	fryfrog	Clearly :p
+2018-12-12 22:30:46	@markus101	for 1 server it's not really an issue, but I see what you mean
+2018-12-12 22:30:48	fryfrog	At least they're getting rid of the cloud server offering, so that'll drop it from 3->2 :p
+2018-12-12 22:30:50	@markus101	at least on `Home`
+2018-12-12 22:30:59	fryfrog	It used to say like Movies (apollo)
+2018-12-12 22:31:10	fryfrog	Now its just Movies, Movies, Movies, TV, TV, TV :p
+2018-12-12 22:33:21	@markus101	I see `Library Name (Server)` in some cases, but as you go deeper you lose that
+2018-12-12 22:35:46	fryfrog	Ah, that might explain what I've seen.
+2018-12-12 22:36:07	fryfrog	I rarely use the mobile client, mostly when the kids get onto the emergency server ;)
+2018-12-12 22:36:25	@markus101	:D
+2018-12-12 22:37:20	@markus101	I mostly use the desktop mode in PMP on my desktop + roku
+2018-12-12 22:37:24	fryfrog	For Jackett apikey url, is it like url_end_here.htm&apikey=
+2018-12-12 22:37:25	fryfrog	?
+2018-12-12 22:38:06	<--	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has quit (Ping timeout: 252 seconds)
+2018-12-12 22:40:14	-->	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has joined #sonarr
+2018-12-12 22:47:52	@markus101	not sure, but I'd assume `.htm` wouldn't be part of the API
+2018-12-12 22:48:10	fryfrog	Sure, sorry I just couldn't remember the right ? or & to use or the apikey name
+2018-12-12 22:48:15	fryfrog	It was ?apikey=
+2018-12-12 23:05:23	<--	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has quit (Read error: Connection reset by peer)
+2018-12-12 23:18:09	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-12 23:22:04	-->	JackDand- (~JackDandy@unaffiliated/jackdandy) has joined #sonarr
+2018-12-12 23:23:07	-->	zone117x_ (sid117212@gateway/web/irccloud.com/x-ipxyjpbnskohxoem) has joined #sonarr
+2018-12-12 23:23:07	--	Mode #sonarr [+v zone117x_] by ChanServ
+2018-12-12 23:23:11	-->	Malve_ (sid96415@gateway/web/irccloud.com/x-dtezbpzjizphaedy) has joined #sonarr
+2018-12-12 23:23:11	--	Mode #sonarr [+v Malve_] by ChanServ
+2018-12-12 23:23:23	-->	keith_ (keith@kodi/staff/keith) has joined #sonarr
+2018-12-12 23:23:28	-->	romanar_ (sid295339@gateway/web/irccloud.com/x-ltsughiwoirtonso) has joined #sonarr
+2018-12-12 23:23:28	--	Mode #sonarr [+v romanar_] by ChanServ
+2018-12-12 23:24:54	-->	Volkor (~AWindowsK@2001:19f0:6001:53d9:5400:1ff:fe98:8741) has joined #sonarr
+2018-12-12 23:27:05	<--	Ruflexo (Ruflexo@gateway/vpn/privateinternetaccess/ruflexo) has quit (Ping timeout: 246 seconds)
+2018-12-12 23:28:58	-->	Lazuruz_ (~nitusa@104.140.22.167) has joined #sonarr
+2018-12-12 23:29:20	-->	lowerechelon (~uppereche@unaffiliated/upperechelon) has joined #sonarr
+2018-12-12 23:29:26	<--	Malve (sid96415@gateway/web/irccloud.com/x-pkaogftaqnzpruhx) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:26	<--	romanar (sid295339@gateway/web/irccloud.com/x-jvcbwqyxsemkkrds) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:26	<--	JackDandy (~JackDandy@unaffiliated/jackdandy) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:26	<--	zone117x (sid117212@gateway/web/irccloud.com/x-giylwcdljgdcqffw) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:26	<--	upperechelon (~uppereche@unaffiliated/upperechelon) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:26	--	Malve_ is now known as Malve
+2018-12-12 23:29:28	<--	Lazuruz (~nitusa@104.140.22.167) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:33	<--	casimir[m] (casimirmat@gateway/shell/matrix.org/x-vzmwuqgeoxnbgdun) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:33	<--	keith (keith@kodi/staff/keith) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:33	<--	AWindowsKrill (~AWindowsK@2001:19f0:6001:53d9:5400:1ff:fe98:8741) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:34	<--	barnseenio (~bb@221.ip-213-32-18.eu) has quit (Ping timeout: 250 seconds)
+2018-12-12 23:29:35	--	lowerechelon is now known as upperechelon
+2018-12-12 23:29:35	--	JackDand- is now known as JackDandy
+2018-12-12 23:29:35	--	romanar_ is now known as romanar
+2018-12-12 23:29:35	--	zone117x_ is now known as zone117x
+2018-12-12 23:29:35	--	keith_ is now known as keith
+2018-12-12 23:30:10	-->	casimir[m] (casimirmat@gateway/shell/matrix.org/x-texjrxobfugjwyej) has joined #sonarr
+2018-12-12 23:33:06	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 272 seconds)
+2018-12-12 23:33:34	-->	barnseenio (~bb@221.ip-213-32-18.eu) has joined #sonarr
+2018-12-12 23:49:02	XemBot	'One Dollar' Cancelled At CBS All Access :: http://www.ismyshowcancelled.com/article/2018-12-12/one-dollar-cancelled-at-cbs-all-access/
+2018-12-12 23:54:38	<--	BabyJesus666_ (~BabyJesus@24.215.83.36) has quit (Quit: BabyJesus666_)
+2018-12-12 23:55:06	-->	BabyJesus666_ (~BabyJesus@blk-215-83-36.eastlink.ca) has joined #sonarr
+2018-12-12 23:55:51	<--	BabyJesus666_ (~BabyJesus@blk-215-83-36.eastlink.ca) has quit (Remote host closed the connection)
+2018-12-13 00:12:26	<--	MACscr (~MACscr@c-98-215-100-46.hsd1.il.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2018-12-13 00:15:36	+xelra	What is this discussion about? mediastudent? Usage watching? UX improvement? Cloud servers? Did I miss something?
+2018-12-13 00:34:30	<--	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has quit (Ping timeout: 250 seconds)
+2018-12-13 00:35:02	-->	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has joined #sonarr
+2018-12-13 00:38:17	fryfrog	xelra: some guy on reddit wants to survey /r/sonarr users
+2018-12-13 00:39:17	+xelra	Oh yeah? I guess people will be lining up to install vnc on their computers and let him watch them. ;P
+2018-12-13 00:40:20	fryfrog	Your prediction seems super accurate!
+2018-12-13 00:40:36	fryfrog	But maybe he just wants to install software that records everything you do so he can watch it later!?
+2018-12-13 00:40:55	+xelra	It's a new form of voyeurism. :)
+2018-12-13 00:42:01	+xelra	He's gonna record all that footage and make millions on his site www.sonarrpron.com. ;P
+2018-12-13 00:43:26	+xelra	Categories will include "browsing the calendar" as well as "watching debug logs".
+2018-12-13 00:44:09	fryfrog	"looking at Activity to see why *another* stupid anime isn't parsing" :p
+2018-12-13 00:45:48	<--	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has quit (Ping timeout: 252 seconds)
+2018-12-13 00:48:36	<--	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-13 00:57:51	-->	donught (donughtmat@gateway/shell/matrix.org/x-zvovyavnevutialq) has joined #sonarr
+2018-12-13 00:58:54	Disconsented	ugh emby going closed source
+2018-12-13 00:59:27	keith	its not actually 'going closed source'
+2018-12-13 00:59:32	keith	its been closed source
+2018-12-13 00:59:36	keith	majority of the clients == closed
+2018-12-13 00:59:43	keith	they are adding features in the main server == closed
+2018-12-13 00:59:47	keith	thats what is changing
+2018-12-13 00:59:50	keith	core will still be open
+2018-12-13 01:00:21	keith	its typical reddit FUD
+2018-12-13 01:02:10	SeepingN	just like "tumblr is shutting down Dec 17!"
+2018-12-13 01:05:09	Disconsented	keith> You're aware that the last commit to the repo was sep 20 on any public branch right?
+2018-12-13 01:05:35	Disconsented	Hardly FUD when its been closed for a while
+2018-12-13 01:05:38	keith	no but i'm not surprised
+2018-12-13 01:05:45	keith	if it was 'closed' it wouldnt be on github at all.
+2018-12-13 01:08:19	Disconsented	There is no point removing it over 600 forks
+2018-12-13 01:09:55	keith	https://github.com/MediaBrowser/emby-theater-electron
+2018-12-13 01:09:57	keith	updated a day ago
+2018-12-13 01:10:06	keith	https://github.com/MediaBrowser/plugin.video.emby
+2018-12-13 01:10:08	keith	two days ago
+2018-12-13 01:10:15	keith	https://github.com/MediaBrowser/emby-webcomponents
+2018-12-13 01:10:16	keith	4 days ago
+2018-12-13 01:10:24	Disconsented	https://github.com/MediaBrowser/Emby
+2018-12-13 01:10:26	Disconsented	sep 20
+2018-12-13 01:10:40	keith	yes, but other components arent
+2018-12-13 01:10:45	keith	just like its been for awhile, as i said
+2018-12-13 01:10:47	keith	its *nothing new*
+2018-12-13 01:11:03	keith	you havent been able to build emby from source for a long time
+2018-12-13 01:11:13	keith	which is why its FUD
+2018-12-13 01:11:45	keith	looks at the last months of commits
+2018-12-13 01:11:53	keith	you think these are legit commits that add functionality?
+2018-12-13 01:12:30	keith	maybe July was the last time shit was committed to that branch for real
+2018-12-13 01:12:50	keith	i bet they cant fully close the core because they dont have CLA's from all contributors
+2018-12-13 01:12:55	Disconsented	Problem is core is _not_ open and thats the part I care about here
+2018-12-13 01:13:05	Disconsented	As you've said so yourself
+2018-12-13 01:13:14	keith	core is open
+2018-12-13 01:13:17	keith	cores been open
+2018-12-13 01:13:27	keith	i can download and see the code right now
+2018-12-13 01:13:33	keith	what do you think is in github? fake code?
+2018-12-13 01:13:34	Disconsented	What repo is it in?
+2018-12-13 01:13:43	keith	https://github.com/MediaBrowser/Emby
+2018-12-13 01:13:47	Disconsented	sep 20
+2018-12-13 01:13:49	Disconsented	so not open
+2018-12-13 01:13:54	keith	...
+2018-12-13 01:14:03	keith	if it wasnt open, there wouldnt be code in there, at all.
+2018-12-13 01:14:19	keith	oh, you want *latest* core changes?  why? you couldnt build  it anyways
+2018-12-13 01:14:27	keith	you havent been able to build emby yourself for years.
+2018-12-13 01:14:38	Disconsented	You've confused visble with open
+2018-12-13 01:14:43	keith	nope.
+2018-12-13 01:14:45	Disconsented	Yes.
+2018-12-13 01:14:56	keith	what purpose does the core being open serve you, if its unbuildable?
+2018-12-13 01:14:58	Disconsented	If it was open there would be new commits there
+2018-12-13 01:15:20	keith	no, if it was open, we would see code there, which we do.
+2018-12-13 01:15:32	keith	its useless code, and has been, since you cant build it.
+2018-12-13 01:15:34	Disconsented	Thats visable not open
+2018-12-13 01:15:54	keith	the definition of open is allowing access
+2018-12-13 01:15:58	keith	i can access it, download it, view it
+2018-12-13 01:16:01	keith	therefore, its open
+2018-12-13 01:16:14	keith	you have a strange definition of what open means, if code i can download freely is not it
+2018-12-13 01:16:17	<--	mangavalk (~mangavalk@dhcp-077-249-163-050.chello.nl) has quit (Ping timeout: 246 seconds)
+2018-12-13 01:16:19	Disconsented	too bad open source also requires commits to be open as well
+2018-12-13 01:16:29	SeepingN	^
+2018-12-13 01:16:36	keith	do you know what 'dual licensed' means?
+2018-12-13 01:16:41	keith	open source does not *require* anything
+2018-12-13 01:16:53	Disconsented	What
+2018-12-13 01:16:55	keith	open source means, if you choose, as the owner of the code, youre graciously allow others access to it.
+2018-12-13 01:17:13	keith	we have access to it
+2018-12-13 01:17:25	keith	but to me, this isnt open source anyways, since its unbuildable
+2018-12-13 01:17:35	keith	what is the point of having open code you cant build?
+2018-12-13 01:18:20	keith	(btw, we call this the tivoization, and its part of the reason why GPL3 was written)
+2018-12-13 01:19:12	keith	but emby hasnt been usable as an OSS project since at least August 2017
+2018-12-13 01:19:18	keith	so go back in time and whine then
+2018-12-13 01:20:07	-->	buu (~buu@99-74-60-251.lightspeed.hstntx.sbcglobal.net) has joined #sonarr
+2018-12-13 01:20:34	buu	How do I debug why sonarr search can't find an ep but jackett manual search can?
+2018-12-13 01:21:24	keith	Turn up logging and you should see some evaluation happening in the debug log
+2018-12-13 01:21:27	<--	AnonLife (~AnonLife@94.204.18.38) has quit (Ping timeout: 240 seconds)
+2018-12-13 01:21:43	keith	I'm the sonarr side
+2018-12-13 01:21:55	keith	In
+2018-12-13 01:22:12	-->	AnonLife (~AnonLife@94.204.18.38) has joined #sonarr
+2018-12-13 01:22:35	-->	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has joined #sonarr
+2018-12-13 01:22:47	buu	I see the searches in sonarr.txt but not in sonarr.debug.txt
+2018-12-13 01:24:35	buu	18-12-12 18:08:25.8|Info|NzbSearchService|Searching 1 indexers for [Marvel's The Defenders : 01]
+2018-12-13 01:24:38	buu	18-12-12 18:08:25.8|Debug|NzbSearchService|Total of 0 reports were found for [Marvel's The Defenders : 01] from 1 indexers
+2018-12-13 01:24:52	-->	theaetetus (~quassel@209-169-215-26-dynamic.midco.net) has joined #sonarr
+2018-12-13 01:24:52	<--	theaetetus (~quassel@209-169-215-26-dynamic.midco.net) has quit (Changing host)
+2018-12-13 01:24:52	-->	theaetetus (~quassel@unaffiliated/theaetetus) has joined #sonarr
+2018-12-13 01:26:10	-->	mangavalk (~mangavalk@dhcp-077-249-163-050.chello.nl) has joined #sonarr
+2018-12-13 01:27:08	<--	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has quit (Ping timeout: 246 seconds)
+2018-12-13 01:27:14	keith	Maybe trace has more info
+2018-12-13 01:27:19	buu	That's all that shows up =/
+2018-12-13 01:27:24	keith	Otherwise not sure
+2018-12-13 01:27:40	buu	Nope, grepped all the logs
+2018-12-13 01:28:31	keith	You turned debug logging level to trace and restarted and redid the query?
+2018-12-13 01:28:46	buu	oh wtf
+2018-12-13 01:29:09	-->	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has joined #sonarr
+2018-12-13 01:29:58	buu	Yeah I always have tracing enabled
+2018-12-13 01:30:34	+xelra	No, open means that you're able to build it.
+2018-12-13 01:30:48	buu	was that to me?
+2018-12-13 01:30:53	+xelra	That's a very important thing, because it means that you don't need to trust a third party.
+2018-12-13 01:31:03	keith	No buu
+2018-12-13 01:31:06	buu	oh good.
+2018-12-13 01:31:32	+xelra	Dang, I need to learn to read the whole backlog before writing.
+2018-12-13 01:31:50	buu	"12-12 18:19:13 Info Manual search for "Marvel's The Defenders" on 1337x, anidex, animetosho, bt-scene, eztv, idope, iptorrents, kickasstorrent, magnetdl, myanonamouse, nyaasi, rarbg, shazbat, torrent
+2018-12-13 01:31:54	buu	downloads, yts, zooqle with 138 results."
+2018-12-13 01:32:29	<--	ShaRose (~ShaRose@i.am.sharo.se) has quit (Quit: I appear to have left for some reason.)
+2018-12-13 01:32:57	-->	ShaRose (ShaRose@i.am.sharo.se) has joined #sonarr
+2018-12-13 01:32:57	-->	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has joined #sonarr
+2018-12-13 01:35:51	<--	xybol (~quassel@66.161.232.152) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-13 01:39:40	-->	EternalChild (6bbce9a4@gateway/web/freenode/ip.107.188.233.164) has joined #sonarr
+2018-12-13 01:39:40	--	Mode #sonarr [+v EternalChild] by ChanServ
+2018-12-13 01:40:23	<--	EternalChild (6bbce9a4@gateway/web/freenode/ip.107.188.233.164) has left #sonarr
+2018-12-13 01:41:40	<--	mangavalk (~mangavalk@dhcp-077-249-163-050.chello.nl) has quit (Ping timeout: 250 seconds)
+2018-12-13 01:44:44	buu	[Trace] HttpClient: Res: [GET] http://192.168.1.17:9117/api/v2.0/indexers/all/results/torznab/api?t=caps&apikey=ap33ivqasdasdasdft5o1q0p: 200.OK (9 ms)
+2018-12-13 01:44:47	buu	[Debug] NzbSearchService: Total of 0 reports were found for [Marvel's The Defenders : 01] from 1 indexers
+2018-12-13 01:44:50	buu	So confused
+2018-12-13 01:57:05	buu	Is there a way to clear this thing's search cache?
+2018-12-13 01:57:09	buu	I think it cached bad results
+2018-12-13 01:57:18	buu	when I click 'search for ep' it doesn't even hit jackett
+2018-12-13 01:57:22	mastyman	did you set that show type as Anime ?
+2018-12-13 01:57:28	mastyman	"01"
+2018-12-13 01:57:29	buu	I don't think so
+2018-12-13 01:57:32	mastyman	check
+2018-12-13 01:57:59	buu	how?
+2018-12-13 01:58:35	buu	oh
+2018-12-13 01:58:49	buu	nice call
+2018-12-13 02:01:51	buu	I award you the gold star
+2018-12-13 02:02:16	mastyman	no need for the star will PM you the invoice tho
+2018-12-13 02:13:45	ergo0	well seems like sonarr is having some issues with moving files and renaming 
+2018-12-13 02:14:19	ergo0	im not getting any logs tho 
+2018-12-13 02:15:24	mastyman	are your sonarr logs set to 'debug'
+2018-12-13 02:18:19	+xelra	ergo0: Why don't you have any logs?
+2018-12-13 02:22:32	ergo0	xelra: rather there arent any error messages popping up 
+2018-12-13 02:22:40	ergo0	also i have not mastyman , lemme try that 
+2018-12-13 02:22:46	+xelra	Can you describe the issue then?
+2018-12-13 02:23:00	ergo0	ah here we go 
+2018-12-13 02:23:44	ergo0	https://a.pste.pw/TDp.png
+2018-12-13 02:24:32	+xelra	Looks like permission issues? :)
+2018-12-13 02:24:55	ergo0	yes reee
+2018-12-13 02:25:23	ergo0	i tried doing chown -R ronin: /media/ 
+2018-12-13 02:25:25	ergo0	but no dice 
+2018-12-13 02:25:43	+xelra	Let me copy&paste something from earlier today....
+2018-12-13 02:25:50	+xelra	<fryfrog> ergo0: depends on your goal, chances are good that since you're setting up poorly now, you'll run into issues later.
+2018-12-13 02:25:53	+xelra	^^ :D
+2018-12-13 02:25:58	ergo0	yes 
+2018-12-13 02:26:08	ergo0	i was aware that this was gonna get brought up 
+2018-12-13 02:26:37	+xelra	Are you using a cli interface?
+2018-12-13 02:26:47	ergo0	for sonarr you mean? 
+2018-12-13 02:26:52	+xelra	In general.
+2018-12-13 02:26:52	ergo0	im just using the web gui 
+2018-12-13 02:26:57	mastyman	lol
+2018-12-13 02:26:57	ergo0	i use terminals ye 
+2018-12-13 02:27:04	+xelra	Good.
+2018-12-13 02:27:08	ergo0	if thats what ur asking 
+2018-12-13 02:27:42	+xelra	So how do you have your library set up? From my understanding, it's the root directory of a mount, right?
+2018-12-13 02:27:54	ergo0	yeee 
+2018-12-13 02:27:59	ergo0	i have a 2 tb btrfs drive 
+2018-12-13 02:28:11	ergo0	which has a folder /media/downloads and /media/anime 
+2018-12-13 02:28:46	+xelra	So your library is in /mnt/media/ ?
+2018-12-13 02:28:59	ergo0	i made a new dir on root 
+2018-12-13 02:29:01	ergo0	called /media/ 
+2018-12-13 02:29:06	ergo0	which i use to mount everything 
+2018-12-13 02:29:11	ergo0	you thinking that might be the problem? 
+2018-12-13 02:29:29	+xelra	No, that's fine. I just wanna get an idea of how you set stuff up.
+2018-12-13 02:30:03	XemBot	'Match Game' Returning For Season 4 :: http://www.ismyshowcancelled.com/article/2018-12-12/match-game-returning-for-season-4/
+2018-12-13 02:30:16	+xelra	So Sonarr manages /media/anime and /media/tv. And Radarr manages /media/movies. Right?
+2018-12-13 02:30:32	+xelra	Which download client are you using?
+2018-12-13 02:30:39	ergo0	radarr? 
+2018-12-13 02:30:44	ergo0	im not using radarr currently
+2018-12-13 02:30:48	ergo0	im using sabnzbd for downloads
+2018-12-13 02:30:53	ergo0	and transmission for torrents 
+2018-12-13 02:31:01	+xelra	ok.
+2018-12-13 02:31:13	ergo0	sabnzbd is also having problems now lol 
+2018-12-13 02:31:31	+xelra	So first you should make a group called media.
+2018-12-13 02:32:05	ergo0	ayee thats done 
+2018-12-13 02:32:55	+xelra	Then everyone who needs to access the library needs to get added to that group.
+2018-12-13 02:33:04	+xelra	sonarr, sabnzbd, transmission.
+2018-12-13 02:33:07	ergo0	thats just usermod -a -G blabla right? 
+2018-12-13 02:33:34	+xelra	Yes, check afterwards with groups user
+2018-12-13 02:34:57	ergo0	hmmm 
+2018-12-13 02:35:03	ergo0	groups media gives me groups : unknown user media 
+2018-12-13 02:35:12	ergo0	nvm im dumb 
+2018-12-13 02:35:19	ergo0	ayee thats set up correctly now 
+2018-12-13 02:35:52	+xelra	You should also add your user account to media.
+2018-12-13 02:36:04	+xelra	Otherwise you won't be able to access it later.
+2018-12-13 02:36:22	ergo0	yeee
+2018-12-13 02:36:28	ergo0	just did that as well 
+2018-12-13 02:36:54	+xelra	Now you fix ownership of the respective directories.
+2018-12-13 02:36:59	+xelra	You do that with
+2018-12-13 02:37:02	SeepingN	yar. having 1 user in a group is kind of moot
+2018-12-13 02:37:18	ergo0	chown -R media:media /media/downloads etc? 
+2018-12-13 02:37:23	+xelra	chown -R user:group directory
+2018-12-13 02:37:44	+xelra	For the Sonarr directories like /media/anime that would be sonarr:media
+2018-12-13 02:38:06	ergo0	also /media/downloads i would assume right? 
+2018-12-13 02:38:13	+xelra	If you have /media/movies and Radarr, you would have that as radarr:media
+2018-12-13 02:38:14	ergo0	since it has to move files from the downloads folder to the anime folder 
+2018-12-13 02:38:32	ergo0	cant i just give the entire media group access to a folder? 
+2018-12-13 02:38:59	+xelra	There's no user media.
+2018-12-13 02:39:07	+xelra	That's what you're doing right now.
+2018-12-13 02:39:49	ergo0	by chowning i change ownership right 
+2018-12-13 02:40:11	ergo0	so if i do chown-r sonarr:media /directory and sabnzbd:media after
+2018-12-13 02:40:15	+xelra	Yes. When you do sonarr:media, the user will be sonarr and the group will be media.
+2018-12-13 02:40:15	ergo0	dont i overwrite the owner? 
+2018-12-13 02:40:55	+xelra	You do sonarr:media for /media/anime and sabnzbd:media for whatever download directory sabnzbd uses.
+2018-12-13 02:41:14	ergo0	but can sonarr then move files from the download dir 
+2018-12-13 02:41:17	ergo0	to the media dir? 
+2018-12-13 02:41:49	ergo0	also what if i have plex and sonarr and sabnzbd all interact with the same folder 
+2018-12-13 02:41:51	+xelra	When we have 660 for example. The first 6 means rw for user. And the second 6 means rw for group.
+2018-12-13 02:42:13	ergo0	ahh okay that makes sense 
+2018-12-13 02:42:16	+xelra	They all interact via the media group, which is the second number in the permission octet.
+2018-12-13 02:42:29	ergo0	so the user will have ownership but other group members can still interact 
+2018-12-13 02:43:14	+xelra	Yes. It's important that the user is correct, because only the user can change permissions and ownership. We get to that in the next step though.
+2018-12-13 02:43:25	ergo0	ayee cool 
+2018-12-13 02:44:29	ergo0	the renaming bit works for now atleast :) 
+2018-12-13 02:44:47	+xelra	Yes, we're almost there.
+2018-12-13 02:45:51	+xelra	In the Sonarr settings you can find something like this: https://pasteboard.co/HRt9K6C.png
+2018-12-13 02:46:09	ergo0	ahhh yee 
+2018-12-13 02:46:13	+xelra	You will need that. So that Sonarr can set the permissions after renaming and Plex can access it.
+2018-12-13 02:46:20	ergo0	thats neattt 
+2018-12-13 02:46:21	ergo0	thanks alot 
+2018-12-13 02:46:34	ergo0	i also learned some stuff about permissions on linux now :) 
+2018-12-13 02:47:01	+xelra	The chown user field is empty, because only root can change user. That's a security thing in Linux.
+2018-12-13 02:47:21	+xelra	That's why the user was important before.
+2018-12-13 02:47:50	+xelra	And now lets clean up permissions of what you already have. This is a one-time job.
+2018-12-13 02:48:38	+xelra	find . -type f -exec chmod 660 {} \;
+2018-12-13 02:48:38	+xelra	find . -type d -exec chmod 770 {} \;
+2018-12-13 02:48:50	ergo0	ayeee 
+2018-12-13 02:48:56	+xelra	These two commands will search for files or for directories.
+2018-12-13 02:48:57	ergo0	it makes sensoe now 
+2018-12-13 02:48:59	+xelra	But wait.
+2018-12-13 02:49:07	ergo0	but wont that do all drives? 
+2018-12-13 02:49:07	+xelra	The . means "this directory".
+2018-12-13 02:49:42	+xelra	So you cd to the directory you want to run this. And then find . will search this directory and subdirs.
+2018-12-13 02:49:47	ergo0	so i do that after cd'ing into the media drive 
+2018-12-13 02:50:00	+xelra	. always means "this directory" and .. means "the directory above".
+2018-12-13 02:50:09	ergo0	yee i am ware of that 
+2018-12-13 02:50:15	ergo0	just havent used it in this context before 
+2018-12-13 02:50:16	+xelra	I don't know what you have in downloads.
+2018-12-13 02:50:31	+xelra	So better run it one level down and then fix the top level manually.
+2018-12-13 02:50:36	ergo0	well i will do that and then watch some anime from bed after plex is done :) 
+2018-12-13 02:50:47	ergo0	thanks for the help lad 
+2018-12-13 02:51:21	+xelra	No problem. Just come back if something still doesn't work.
+2018-12-13 02:51:28	ergo0	i will do that 
+2018-12-13 02:51:38	ergo0	good evening 
+2018-12-13 02:52:03	+xelra	o/
+2018-12-13 02:52:57	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-13 02:55:35	<--	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has quit (Ping timeout: 268 seconds)
+2018-12-13 02:58:38	+Nelluk	58" 4k Android TV $380 at costco.. geeze i wasnt in the market for a new tv but that seems like a deal
+2018-12-13 02:59:01	+xelra	It is.
+2018-12-13 02:59:21	<--	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has quit (Ping timeout: 252 seconds)
+2018-12-13 02:59:29	+Nelluk	even tho the brand is one ive never heard of.. 'Hisense'
+2018-12-13 02:59:58	+xelra	I know that brand.
+2018-12-13 03:00:16	+xelra	They made an entry with very cheap, but good TN panels for computers.
+2018-12-13 03:00:24	+xelra	Maybe 10 years ago.
+2018-12-13 03:00:28	-->	xybol (~quassel@66.161.232.152) has joined #sonarr
+2018-12-13 03:00:38	<--	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-13 03:00:41	+xelra	But then they kinda couldn't keep up with IPS and LED stuff.
+2018-12-13 03:01:53	+Nelluk	hm old TV is vesa 200x200, this one is 200x300.. which i believe means i'd need a new mount and new wall holes
+2018-12-13 03:03:27	+Nelluk	oh no.. my mount can adjust
+2018-12-13 03:04:20	-->	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has joined #sonarr
+2018-12-13 03:12:15	-->	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has joined #sonarr
+2018-12-13 03:20:22	<--	BradTN (~quassel@d24-57-201-84.home.cgocable.net) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-13 03:22:59	-->	BradTN (~quassel@d24-57-201-84.home.cgocable.net) has joined #sonarr
+2018-12-13 03:42:42	-->	pisto__ (~pisto_@bed13-1-88-127-246-39.fbx.proxad.net) has joined #sonarr
+2018-12-13 03:42:42	<--	pisto_ (~pisto_@bed13-1-88-127-246-39.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2018-12-13 03:43:45	-->	mangavalk (~mangavalk@dhcp-077-249-163-050.chello.nl) has joined #sonarr
+2018-12-13 04:14:27	<--	dabtech (~dabtech@chat.dab.to) has quit (Ping timeout: 240 seconds)
+2018-12-13 04:23:00	-->	dabtech (~dabtech@chat.dab.to) has joined #sonarr
+2018-12-13 04:41:02	<--	soxhlet (~soxhlet@mue-88-130-69-002.dsl.tropolys.de) has quit (Ping timeout: 246 seconds)
+2018-12-13 04:41:27	-->	soxhlet (~soxhlet@i59F72E8C.versanet.de) has joined #sonarr
+2018-12-13 04:47:00	-->	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has joined #sonarr
+2018-12-13 04:47:38	-->	Ether_Man_ (~Ether_Man@unaffiliated/ether-man/x-1546665) has joined #sonarr
+2018-12-13 04:50:54	<--	Ether_Man (~Ether_Man@unaffiliated/ether-man/x-1546665) has quit (Ping timeout: 268 seconds)
+2018-12-13 05:04:45	<--	Lenovoi5 (~quassel@unaffiliated/lenovoi5) has quit (Ping timeout: 252 seconds)
+2018-12-13 05:29:08	-->	G0re (~Gore@134.101.223.178) has joined #sonarr
+2018-12-13 05:30:09	<--	Gore|woerk (~Gore@port-80321.pppoe.wtnet.de) has quit (Ping timeout: 246 seconds)
+2018-12-13 05:50:32	-->	MACscr (~MACscr@c-98-215-100-46.hsd1.il.comcast.net) has joined #sonarr
+2018-12-13 06:05:09	<--	BrightCrucible (~BrightCru@unaffiliated/brightcrucible) has quit (Quit: leaving)
+2018-12-13 06:21:02	<--	MACscr (~MACscr@c-98-215-100-46.hsd1.il.comcast.net) has quit (Remote host closed the connection)
+2018-12-13 06:22:36	-->	MACscr (~MACscr@c-98-215-100-46.hsd1.il.comcast.net) has joined #sonarr
+2018-12-13 07:21:23	-->	^zoggy^ (~blah@unaffiliated/-zoggy-/x-6147521) has joined #sonarr
+2018-12-13 07:21:38	<--	_zoggy_ (~blah@unaffiliated/-zoggy-/x-6147521) has quit (Ping timeout: 244 seconds)
+2018-12-13 07:24:13	-->	BrightCrucible (~BrightCru@unaffiliated/brightcrucible) has joined #sonarr
+2018-12-13 07:55:50	<--	^zoggy^ (~blah@unaffiliated/-zoggy-/x-6147521) has quit (Read error: Connection reset by peer)
+2018-12-13 07:59:16	-->	_zoggy_ (~blah@unaffiliated/-zoggy-/x-6147521) has joined #sonarr
+2018-12-13 08:12:03	<--	_zoggy_ (~blah@unaffiliated/-zoggy-/x-6147521) has quit (Read error: Connection reset by peer)
+2018-12-13 08:14:25	-->	_zoggy_ (~blah@unaffiliated/-zoggy-/x-6147521) has joined #sonarr
+2018-12-13 08:14:41	<--	Sleepy63 (~Sleepy63@47.185.207.134) has quit (Excess Flood)
+2018-12-13 08:15:26	-->	Sleepy63 (~Sleepy63@47.185.207.134) has joined #sonarr
+2018-12-13 08:18:47	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2018-12-13 08:23:50	<--	pisto__ (~pisto_@bed13-1-88-127-246-39.fbx.proxad.net) has quit (Ping timeout: 272 seconds)
+2018-12-13 09:00:45	<--	Logicwrath (~admin@d149-67-41-40.nap.wideopenwest.com) has quit (Quit: Logicwrath)
+2018-12-13 09:00:57	<--	BradTN (~quassel@d24-57-201-84.home.cgocable.net) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-13 09:10:06	-->	Logicwrath (~admin@d149-67-41-40.nap.wideopenwest.com) has joined #sonarr
+2018-12-13 09:23:13	-->	BradTN (~quassel@d24-57-201-84.home.cgocable.net) has joined #sonarr
+2018-12-13 09:39:38	<--	catalase (~catalase@unaffiliated/catalase) has quit (Ping timeout: 250 seconds)
+2018-12-13 09:42:04	-->	catalase (~catalase@unaffiliated/catalase) has joined #sonarr
+2018-12-13 09:42:10	<--	catalase (~catalase@unaffiliated/catalase) has quit (Excess Flood)
+2018-12-13 09:43:00	Makere	Nelluk: I think there's also vesa adapters
+2018-12-13 09:43:29	-->	catalase (~catalase@unaffiliated/catalase) has joined #sonarr
+2018-12-13 09:50:36	<--	Nemaster (~Nemaster@S0106b4fbe42ae9f2.mh.shawcable.net) has quit (Ping timeout: 272 seconds)
+2018-12-13 09:51:55	-->	Nemaster (~Nemaster@S0106b4fbe42ae9f2.mh.shawcable.net) has joined #sonarr
+2018-12-13 09:57:54	ewhal4	vesa mounts are great
+2018-12-13 09:57:58	ewhal4	I highly recommend getting one
+2018-12-13 10:08:18	<--	northcode (~northcode@vps-29.35.101.185.stwvps.net) has quit (Quit: ZNC 1.6.6+deb1ubuntu0.1 - http://znc.in)
+2018-12-13 10:09:07	-->	northcode (~northcode@vps-29.35.101.185.stwvps.net) has joined #sonarr
+2018-12-13 10:16:21	-->	Floflobel (~Floflobel@cosium-152-18.fib.nerim.net) has joined #sonarr
+2018-12-13 10:30:19	<--	EnorMOZ (~EnorMOZ@unaffiliated/dink) has quit (Quit: The Lounge - https://thelounge.chat)
+2018-12-13 10:57:19	-->	EnorMOZ (~EnorMOZ@unaffiliated/dink) has joined #sonarr
+2018-12-13 11:00:11	p30n	i got one that is fully adjustable
+2018-12-13 11:00:16	p30n	like 100x100 to 400x400
+2018-12-13 11:00:22	p30n	and anything in between
+2018-12-13 11:00:43	p30n	also on an arm mounted to the wall so i can tilt and swivel it all directions
+2018-12-13 11:03:23	Ether_Man_	400x400 is no longer a vesa mount. Vesa mounts at the largest, are 200*X where X is 200 and up. But the 200 in the first there is fixed.
+2018-12-13 11:03:54	Ether_Man_	Also, a 200x200 is rated to carry over 100kg... You don't need more :)
+2018-12-13 11:04:48	Ether_Man_	Or I should say, a 200x200 FM8 is rated for that. There's an FM6 as well which is only for 50kg but :)
+2018-12-13 11:18:27	-->	enkristoffer (~enkristof@unaffiliated/itskristoffer) has joined #sonarr
+2018-12-13 12:20:18	<--	resonanttoe (~resonantt@81.6.39.56) has quit (Quit: resonanttoe)
+2018-12-13 12:36:03	<--	Zohnuqu3pah5iejo (~aqu4Ohz0Z@30.251.196.35.bc.googleusercontent.com) has quit (Ping timeout: 264 seconds)
+2018-12-13 12:36:18	<--	Humtek (~Humtek@118.150.197.104.bc.googleusercontent.com) has quit (Ping timeout: 252 seconds)
+2018-12-13 12:37:01	-->	Zohnuqu3pah5iejo (~aqu4Ohz0Z@30.251.196.35.bc.googleusercontent.com) has joined #sonarr
+2018-12-13 12:37:41	-->	Humtek (~Humtek@118.150.197.104.bc.googleusercontent.com) has joined #sonarr
+2018-12-13 12:44:05	ergo0	seeems like sonarr is still having problems importing episodes
+2018-12-13 12:44:13	ergo0	still getting access to the path is denied 
+2018-12-13 13:21:50	ergo0	if i chown -R sonarr:media sonarr can import the files
+2018-12-13 13:21:59	ergo0	but sabnzbd cant write files to the dir 
+2018-12-13 13:22:19	ergo0	if i do chown -R sabnzbd:media  sabnzbd can download files but sonarr cant move em 
+2018-12-13 13:23:28	Lartza	So make sure both users are in media group and set correct group permissions
+2018-12-13 13:23:44	ergo0	ye both are in the media groups 
+2018-12-13 13:24:25	Lartza	Then the directory permissions are wrong
+2018-12-13 13:25:00	Lartza	I mean actually
+2018-12-13 13:25:18	Lartza	Why are you even using a media group and not just adding sonarr to the sabnzbd group
+2018-12-13 13:25:29	ergo0	someone in here recommended me that yesterday 
+2018-12-13 13:25:41	Lartza	Aren't you on arch? read the archwiki :P
+2018-12-13 13:25:42	ergo0	to make a group for plex, sonarr, sabnzbd,transmission 
+2018-12-13 13:26:09	Lartza	But uhh
+2018-12-13 13:26:17	Lartza	did you make sure all those daemons then run as the media group
+2018-12-13 13:26:50	ergo0	i havent actually 
+2018-12-13 13:26:56	ergo0	i just did systemctl enable service 
+2018-12-13 13:27:02	ergo0	and start ofcourse 
+2018-12-13 13:27:05	Lartza	Because surely sabnzb makes sabnzbd:sabnzbd files
+2018-12-13 13:27:07	ergo0	wasnt aware that i had too 
+2018-12-13 13:27:13	Lartza	Even if the main folder permission is correct
+2018-12-13 13:27:19	Lartza	And it's not bsd
+2018-12-13 13:27:28	Lartza	*Since it's not
+2018-12-13 13:28:39	ergo0	now i wonder if itsb est to change it in the systemd service files 
+2018-12-13 13:28:59	Lartza	Maybe? It's not hard at least
+2018-12-13 13:29:51	Lartza	https://gist.github.com/Lartza/8a33ad6368c554494633ec678eb0ee08
+2018-12-13 13:30:02	ergo0	yee i guess i will do that 
+2018-12-13 13:30:23	Lartza	And of course systemctl edit <unit>
+2018-12-13 13:33:57	<--	mastyman (~connectsy@unaffiliated/mastyman) has quit
+2018-12-13 13:48:21	-->	ergo0 (~nathaniel@2001:980:5c8e:1:29f1:6033:7fcc:23f0) has joined #sonarr
+2018-12-13 13:48:21	--	Topic for #sonarr is "Please be patient, someone may not be able to answer your question immediately || Use pastebin for log files || https://sonarr.tv || https://forums.sonarr.tv || Please, no TV spoilers."
+2018-12-13 13:48:21	--	Topic set by markus101 (sid14590@gateway/web/irccloud.com/x-kippaweamesbtsvu) on Tue, 10 Apr 2018 19:16:26
+2018-12-13 13:48:21	--	Channel #sonarr: 265 nicks (3 ops, 34 voices, 228 normals)
+2018-12-13 13:48:23	--	Channel created on Mon, 20 Oct 2014 21:40:22
+2018-12-13 13:48:31	ergo0	changing the groups to media didnt solve it either 
+2018-12-13 13:48:55	ergo0	i tried running chown -R sonarr:media on the drive but that still locks out sabnzbd from writing 
+2018-12-13 13:49:07	ergo0	both services should belong to media 
+2018-12-13 14:09:23	Lartza	What are the directory permissions?
+2018-12-13 14:56:03	<--	antonispgs (~antonispg@static.12.40.46.78.clients.your-server.de) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-12-13 14:58:46	<--	EnorMOZ (~EnorMOZ@unaffiliated/dink) has quit (Quit: The Lounge - https://thelounge.chat)
+2018-12-13 14:59:42	-->	antonispgs (~antonispg@static.12.40.46.78.clients.your-server.de) has joined #sonarr
+2018-12-13 15:03:51	-->	EnorMOZ (~EnorMOZ@unaffiliated/dink) has joined #sonarr
+2018-12-13 15:32:28	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-13 15:34:45	-->	el_bobbo (el_bobbo@c-174-63-113-0.hsd1.ma.comcast.net) has joined #sonarr
+2018-12-13 15:44:14	<--	adprom2 (~adprom@124-148-162-210.dyn.iinet.net.au) has quit (Quit: ZNC 1.8.x-nightly-20180605-8edcdf32 - https://znc.in)
+2018-12-13 15:46:14	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 250 seconds)
+2018-12-13 15:49:25	-->	adprom (~adprom@124-148-162-210.dyn.iinet.net.au) has joined #sonarr
+2018-12-13 15:51:39	-->	hooood (~blah@h-119-240.A240.priv.bahnhof.se) has joined #sonarr
+2018-12-13 15:51:57	<--	NMe84 (~quassel@tyrion.devven.nl) has quit (Remote host closed the connection)
+2018-12-13 15:52:32	<--	hoodoo (~blah@h-119-240.A240.priv.bahnhof.se) has quit (Ping timeout: 245 seconds)
+2018-12-13 15:52:44	<--	AnonLife (~AnonLife@94.204.18.38) has quit (Ping timeout: 250 seconds)
+2018-12-13 15:56:40	-->	NMe84 (~quassel@tyrion.devven.nl) has joined #sonarr
+2018-12-13 15:56:40	--	Mode #sonarr [+v NMe84] by ChanServ
+2018-12-13 16:05:05	-->	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has joined #sonarr
+2018-12-13 16:09:39	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-13 16:15:10	-->	AnonLife (~AnonLife@94.204.18.38) has joined #sonarr
+2018-12-13 16:38:55	keith	is thetvdb down again?
+2018-12-13 16:38:55	keith	not being able to add shows in sonarr
+2018-12-13 16:38:55	keith	oh wow nm
+2018-12-13 16:38:55	keith	hadm.net appears to be blocked  by united wifi :(
+2018-12-13 16:41:22	keith	haters, theyre blocking my damn server ip
+2018-12-13 16:52:59	Ether_Man_	Congrats :)
+2018-12-13 16:53:57	-->	ilikemonkeys (883d7d72@gateway/web/freenode/ip.136.61.125.114) has joined #sonarr
+2018-12-13 16:53:57	--	Mode #sonarr [+v ilikemonkeys] by ChanServ
+2018-12-13 16:54:57	+ilikemonkeys	is 2 0 0 5252 the most up to date stable windows version of SOnarr?
+2018-12-13 17:14:47	<--	Floflobel (~Floflobel@cosium-152-18.fib.nerim.net) has quit (Read error: Connection reset by peer)
+2018-12-13 17:14:50	<--	ShaRose (ShaRose@i.am.sharo.se) has quit (Quit: I appear to have left for some reason.)
+2018-12-13 17:15:37	-->	Floflobel (~Floflobel@cosium-152-18.fib.nerim.net) has joined #sonarr
+2018-12-13 17:18:15	-->	ShaRose (~ShaRose@i.am.sharo.se) has joined #sonarr
+2018-12-13 17:23:45	<--	ilikemonkeys (883d7d72@gateway/web/freenode/ip.136.61.125.114) has quit (Quit: Page closed)
+2018-12-13 17:34:41	<--	madwoota (~mad@unaffiliated/madwoota) has quit (Ping timeout: 264 seconds)
+2018-12-13 17:40:20	-->	madwoota (~mad@121.219.6.212) has joined #sonarr
+2018-12-13 17:40:23	<--	madwoota (~mad@121.219.6.212) has quit (Changing host)
+2018-12-13 17:40:23	-->	madwoota (~mad@unaffiliated/madwoota) has joined #sonarr
+2018-12-13 17:41:42	fryfrog	dory: latest
+2018-12-13 17:41:42	+dory	The latest release for develop is 2.0.0.5287 (2018-11-26 18:47 UTC)
+2018-12-13 17:41:43	+dory	The latest release for phantom is 3.0.0.334 (2018-11-30 18:20 UTC)
+2018-12-13 17:41:47	+dory	The latest release for master is 2.0.0.5252 (2018-10-07 23:20 UTC)
+2018-12-13 17:42:08	fryfrog	Looks like it, System -> Updates will tell you and you could also have looked at their github releases page
+2018-12-13 17:52:45	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 250 seconds)
+2018-12-13 18:25:41	<--	dman (dman@gateway/shell/yourbnc/x-xdfxrjpeawrkqens) has quit (Quit: ZNC - http://znc.in)
+2018-12-13 18:26:31	-->	dman (dman@gateway/shell/yourbnc/x-talldqjvzcvdahrm) has joined #sonarr
+2018-12-13 18:35:00	<--	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has quit (Quit: The system is going down for reboot NOW!)
+2018-12-13 18:58:52	-->	resonanttoe (~resonantt@81.6.39.56) has joined #sonarr
+2018-12-13 19:13:01	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-13 19:18:32	<--	Floflobel (~Floflobel@cosium-152-18.fib.nerim.net) has quit (Remote host closed the connection)
+2018-12-13 19:42:29	-->	el_b0bb0 (el_bobbo@c-174-63-113-0.hsd1.ma.comcast.net) has joined #sonarr
+2018-12-13 19:44:10	<--	el_bobbo (el_bobbo@c-174-63-113-0.hsd1.ma.comcast.net) has quit (Ping timeout: 250 seconds)
+2018-12-13 19:50:02	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2018-12-13 20:05:46	_zoggy_	dory: changes
+2018-12-13 20:05:47	+dory	Release develop 2.0.0.5287 (2018-11-26 18:47 UTC) is a maintenance release.
+2018-12-13 20:16:01	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-13 20:41:47	<--	el_b0bb0 (el_bobbo@c-174-63-113-0.hsd1.ma.comcast.net) has quit (Ping timeout: 246 seconds)
+2018-12-13 20:45:48	<--	jjaomni (~ident@2605:a601:828:c100:b082:e9d2:fbb4:c28d) has quit (Ping timeout: 252 seconds)
+2018-12-13 20:50:22	-->	jjaomni (~ident@2605:a601:828:c100:4039:b900:9b37:2bc4) has joined #sonarr
+2018-12-13 21:40:36	-->	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has joined #sonarr
+2018-12-13 22:07:53	<--	rusty12815 (~rusty1281@93-137-111-226.adsl.net.t-com.hr) has quit (Read error: Connection reset by peer)
+2018-12-13 22:07:59	-->	rusty12815 (~rusty1281@78-2-100-42.adsl.net.t-com.hr) has joined #sonarr
+2018-12-13 22:21:26	<--	jjaomni (~ident@2605:a601:828:c100:4039:b900:9b37:2bc4) has quit (Ping timeout: 250 seconds)
+2018-12-13 22:35:59	-->	jjaomni (~ident@2605:a601:828:c100:4039:b900:9b37:2bc4) has joined #sonarr
+2018-12-13 22:57:49	<--	untoreh (~untoreh@rdns59.contacttype.com) has quit (Ping timeout: 250 seconds)
+2018-12-13 23:04:48	<--	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has quit (Ping timeout: 250 seconds)
+2018-12-13 23:06:46	-->	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has joined #sonarr
+2018-12-13 23:10:06	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2018-12-13 23:35:00	--	irc: disconnected from server
+2018-12-13 23:35:25	-->	ergo0 (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #sonarr
+2018-12-13 23:35:25	--	Topic for #sonarr is "Please be patient, someone may not be able to answer your question immediately || Use pastebin for log files || https://sonarr.tv || https://forums.sonarr.tv || Please, no TV spoilers."
+2018-12-13 23:35:25	--	Topic set by markus101 (sid14590@gateway/web/irccloud.com/x-kippaweamesbtsvu) on Tue, 10 Apr 2018 19:16:26
+2018-12-13 23:35:25	--	Channel #sonarr: 265 nicks (3 ops, 34 voices, 228 normals)
+2018-12-13 23:35:25	--	Channel created on Mon, 20 Oct 2014 21:40:22
+2018-12-13 23:40:55	-->	k2gremlin (~k2gre@c-73-212-180-123.hsd1.md.comcast.net) has joined #sonarr
+2018-12-13 23:49:24	<--	xybol (~quassel@66.161.232.152) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-13 23:52:40	raidghost	Why when changing from 720P to 1080P on a tvserie. WHY does it not scan and find 1080P releases
+2018-12-13 23:52:43	raidghost	It driving me NUTS
+2018-12-13 23:54:23	SeepingN	tell it to rescan
+2018-12-13 23:54:56	SeepingN	if it's done and checked all existing off as complete, then you need to tell it to do it again
+2018-12-13 23:59:22	fryfrog	raidghost: I swear you know how Sonarr works by now, right?
+2018-12-13 23:59:38	fryfrog	raidghost: https://github.com/Sonarr/Sonarr/wiki/FAQ#how-does-sonarr-find-episodes
+2018-12-14 00:00:04	fryfrog	You're not going to get new downloads unless you trigger a search. Any *new* episodes could be 1080p though.
+2018-12-14 00:04:37	Ether_Man_	Think he means he changed the files to 1080p files but Sonarr still says they're 720p.
+2018-12-14 00:04:43	fryfrog	OH
+2018-12-14 00:04:57	fryfrog	Yeah, you need a manual refresh or to wait for the ?dailyish? refresh to happen.
+2018-12-14 00:05:07	fryfrog	But that isn't how I read what raidghost said :)
+2018-12-14 00:05:48	Ether_Man_	The daily refresh only checks new metadata. It doesn't scan files
+2018-12-14 00:05:59	fryfrog	You sure?
+2018-12-14 00:10:53	-->	Stanzilla__ (~Stanzilla@WoWUIDev/WowAce/Stanzilla) has joined #sonarr
+2018-12-14 00:11:48	Ether_Man_	Relatively at least. I've had shows I've manually filled but forgot to scan that was still unscanned months later
+2018-12-14 00:11:49	<--	Stanzilla_ (~Stanzilla@WoWUIDev/WowAce/Stanzilla) has quit (Quit: ZNC - http://znc.in)
+2018-12-14 00:11:50	--	Stanzilla__ is now known as Stanzilla_
+2018-12-14 00:15:21	<--	Ackis (~Ackis@WoWUIDev/WoWAce/ARL/Troll/Ackis) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2018-12-14 00:16:37	SeepingN	BUG
+2018-12-14 00:22:33	-->	xybol (~quassel@66.161.232.152) has joined #sonarr
+2018-12-14 00:31:44	<--	R4man (~riverman@dsl-197-245-111-162.voxdsl.co.za) has quit (Read error: Connection reset by peer)
+2018-12-14 00:32:10	-->	R4man (~riverman@197.245.111.162) has joined #sonarr
+2018-12-14 00:35:22	raidghost	Ether_Man_: Its more like i downloaded 720P for months ago. And figured out that i wanted to grab the 1080 instead. So changed from  720P to 1080P in profile for the tvprogram
+2018-12-14 00:35:56	Ether_Man_	Ah so what fryfrog read it as. Then yea, you'd not get new eps unless you specifically request it.
+2018-12-14 00:35:58	raidghost	and push the search for monitored episodes in the series button
+2018-12-14 00:36:19	raidghost	have i not requested when using the search for monitored episodes ?
+2018-12-14 00:36:32	Ether_Man_	That depends on your profile settings.
+2018-12-14 00:36:46	raidghost	Changed it from 720P to 1080P
+2018-12-14 00:37:29	<--	xybol (~quassel@66.161.232.152) has quit (Read error: Connection reset by peer)
+2018-12-14 00:37:45	-->	xybol (~quassel@66.161.232.152) has joined #sonarr
+2018-12-14 00:39:25	Ether_Man_	And we don't know what you've actually set in your "720P" or "1080P" profile. Those are not standard profile names.
+2018-12-14 00:40:34	fryfrog	Your profile would have to both have 1080p, be in the right order and have the cutoff set properly.
+2018-12-14 00:40:48	fryfrog	Then, click the search button for the episodes, seasons or shows.
+2018-12-14 00:41:07	raidghost	Just what i tried
+2018-12-14 00:41:28	fryfrog	Then it should have worked and you'll have to dig in a little to see why.
+2018-12-14 00:41:50	fryfrog	Are the episodes monitored? Do they have the gray-ish color quality to indicate cutoff not met?
+2018-12-14 00:42:13	raidghost	they are monitored YES
+2018-12-14 00:46:08	-->	Ackis (~Ackis@WoWUIDev/WoWAce/ARL/Troll/Ackis) has joined #sonarr
+2018-12-14 00:46:54	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-14 00:58:04	toastd	anyone having trouble downloading the series "dogs(2018)" from btn using manual search? sonarr doesnt seeem to be able to locate it and i  know its on BTN
+2018-12-14 01:03:30	+xelra	That is one of the reasons why we discussed the library health page some times ago.
+2018-12-14 01:04:05	+xelra	It's one of the few features I think Sonarr is still missing.
+2018-12-14 01:04:29	+xelra	Crawling through the library and checking that everything is as it should be.
+2018-12-14 01:07:26	<--	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-14 01:09:52	LaserAllan_	xelra: I have finally started to unmonitor series that are either done or have reached quality. WIth about 76,000 episodes in my instance it gets filled up quite heavily
+2018-12-14 01:10:32	-->	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has joined #sonarr
+2018-12-14 01:11:04	toastd	can anyone on BTN add dogs 2018 ( from netflix) and see if they can locate the season for me quickly?
+2018-12-14 01:12:38	<--	SeepingN (~CPngN@unaffiliated/cpngn/x-6985199) has quit (Quit: The system is going down for reboot NOW!)
+2018-12-14 01:13:58	+xelra	toastd: I can find the season pack just fine.
+2018-12-14 01:14:04	+xelra	But I'm on v3 already.
+2018-12-14 01:14:17	toastd	i just updated i guess im not on v3
+2018-12-14 01:14:29	+xelra	Yes, it's experimental.
+2018-12-14 01:14:34	toastd	Version
+2018-12-14 01:14:34	toastd	2.0.0.5252
+2018-12-14 01:14:34	toastd	Mono Version
+2018-12-14 01:14:34	toastd	5.16.0.220
+2018-12-14 01:14:57	+xelra	You can just add the season to you download client and give the Sonarr's category.
+2018-12-14 01:19:00	toastd	yeah thats the long way
+2018-12-14 01:19:21	toastd	sonarr and transmission are running on containers
+2018-12-14 01:29:08	<--	xybol (~quassel@66.161.232.152) has quit (Ping timeout: 246 seconds)
+2018-12-14 01:32:23	-->	xybol (~quassel@66.161.232.152) has joined #sonarr
+2018-12-14 01:33:02	<--	R4man (~riverman@197.245.111.162) has quit (Remote host closed the connection)
+2018-12-14 01:37:41	-->	R4man (~riverman@197.245.111.162) has joined #sonarr
+2018-12-14 01:53:53	<--	R4man (~riverman@197.245.111.162) has quit (Remote host closed the connection)
+2018-12-14 01:56:37	-->	R4man (~riverman@dsl-197-245-111-162.voxdsl.co.za) has joined #sonarr
+2018-12-14 02:00:47	ergo0	Lartza: sorry for the late reply was out all day 
+2018-12-14 02:00:47	--	#sonarr: Cannot send to nick/channel
+2018-12-14 02:01:28	ergo0	Lartza: sorry for the late reply was out all day 
+2018-12-14 02:01:47	ergo0	transmission also seems to be having some issues 
+2018-12-14 02:04:45	<--	xybol (~quassel@66.161.232.152) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-14 02:11:44	-->	xybol (~quassel@66.161.232.152) has joined #sonarr
+2018-12-14 02:13:00	<--	Ether_Man_ (~Ether_Man@unaffiliated/ether-man/x-1546665) has quit (Read error: Connection reset by peer)
+2018-12-14 02:23:59	ergo0	i can either write a file with sabnzbd or move it with sonarr 
+2018-12-14 02:24:12	ergo0	to do one or the other i have to chown the map to either of the users and switch it back 
+2018-12-14 02:33:32	-->	ergo0 (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #sonarr
+2018-12-14 02:33:32	--	Topic for #sonarr is "Please be patient, someone may not be able to answer your question immediately || Use pastebin for log files || https://sonarr.tv || https://forums.sonarr.tv || Please, no TV spoilers."
+2018-12-14 02:33:32	--	Topic set by markus101 (sid14590@gateway/web/irccloud.com/x-kippaweamesbtsvu) on Tue, 10 Apr 2018 19:16:26
+2018-12-14 02:33:32	--	Channel #sonarr: 265 nicks (3 ops, 34 voices, 228 normals)
+2018-12-14 02:33:34	--	Channel created on Mon, 20 Oct 2014 21:40:22
+2018-12-14 02:55:51	-->	Ether_Man (~Ether_Man@unaffiliated/ether-man/x-1546665) has joined #sonarr
+2018-12-14 02:59:08	<--	EnorMOZ (~EnorMOZ@unaffiliated/dink) has quit (Quit: The Lounge - https://thelounge.chat)
+2018-12-14 02:59:31	-->	EnorMOZ (~EnorMOZ@unaffiliated/dink) has joined #sonarr
+2018-12-14 03:00:40	<--	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-14 03:03:45	-->	bonk1990 (~quassel@host-31-6-144-155.dynamic.mm.pl) has joined #sonarr
+2018-12-14 03:26:01	<--	xybol (~quassel@66.161.232.152) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-14 03:47:23	-->	xybol (~quassel@66.161.232.152) has joined #sonarr
+2018-12-14 03:56:50	-->	smantha (~smantha@2600-6c5e-4300-1b8d-63fa-f0fa-0a49-ee3c.dhcp6.chtrptr.net) has joined #sonarr
+2018-12-14 03:59:48	<--	smantha (~smantha@2600-6c5e-4300-1b8d-63fa-f0fa-0a49-ee3c.dhcp6.chtrptr.net) has quit (Client Quit)
+2018-12-14 04:17:19	-->	smantha (~smantha@2600-6c5e-4300-1b8d-63fa-f0fa-0a49-ee3c.dhcp6.chtrptr.net) has joined #sonarr
+2018-12-14 04:23:57	<--	smantha (~smantha@2600-6c5e-4300-1b8d-63fa-f0fa-0a49-ee3c.dhcp6.chtrptr.net) has quit (Ping timeout: 252 seconds)
+2018-12-14 04:34:10	<--	enkristoffer (~enkristof@unaffiliated/itskristoffer) has quit (Quit: ❤️)
+2018-12-14 04:36:42	<--	soxhlet (~soxhlet@i59F72E8C.versanet.de) has quit (Ping timeout: 250 seconds)
+2018-12-14 04:37:31	-->	soxhlet (~soxhlet@i59F4F768.versanet.de) has joined #sonarr
+2018-12-14 04:43:44	-->	enkristoffer (~enkristof@unaffiliated/itskristoffer) has joined #sonarr
+2018-12-14 04:46:14	<--	Rhvs_ (Rhys@help.lux.melted.me) has quit (Ping timeout: 250 seconds)
+2018-12-14 04:53:51	-->	Rhvs (Rhys@help.lux.melted.me) has joined #sonarr
+2018-12-14 05:27:40	-->	Gore|woerk (~Gore@port-56355.pppoe.wtnet.de) has joined #sonarr
+2018-12-14 05:29:46	<--	G0re (~Gore@134.101.223.178) has quit (Ping timeout: 240 seconds)
+2018-12-14 06:05:41	<--	Sleepy63 (~Sleepy63@47.185.207.134) has quit (Quit: http://i.imgur.com/TmZRD3r.jpg)
+2018-12-14 06:05:59	-->	Sleepy63 (~Sleepy63@47.185.207.134) has joined #sonarr
+2018-12-14 08:30:59	<--	catalase (~catalase@unaffiliated/catalase) has quit (Remote host closed the connection)
+2018-12-14 08:32:08	-->	BobboLaptop (BobboLapto@c-174-63-113-0.hsd1.ma.comcast.net) has joined #sonarr
+2018-12-14 08:32:16	<--	BobboNumber2 (BobboLapto@c-174-63-113-0.hsd1.ma.comcast.net) has quit (Ping timeout: 272 seconds)
+2018-12-14 08:39:22	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 250 seconds)
+2018-12-14 08:48:12	<--	Sleepy63 (~Sleepy63@47.185.207.134) has quit (Quit: http://i.imgur.com/TmZRD3r.jpg)
+2018-12-14 08:55:02	XemBot	'Jersey Shore Family Vacation' Renewed For Season 3 :: http://www.ismyshowcancelled.com/article/2018-12-13/jersey-shore-family-vacation-renewed-for-season-3/
+2018-12-14 09:00:31	<--	BradTN (~quassel@d24-57-201-84.home.cgocable.net) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2018-12-14 09:00:40	<--	Logicwrath (~admin@d149-67-41-40.nap.wideopenwest.com) has quit (Quit: Logicwrath)
+2018-12-14 09:02:40	<--	Riffz (~Riffz@S0106408d5c51f4c2.cg.shawcable.net) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-12-14 09:10:09	-->	Logicwrath (~admin@d149-67-41-40.nap.wideopenwest.com) has joined #sonarr
+2018-12-14 09:12:38	-->	Riffz (~Riffz@S0106408d5c51f4c2.cg.shawcable.net) has joined #sonarr
+2018-12-14 09:21:24	-->	BradTN (~quassel@d24-57-201-84.home.cgocable.net) has joined #sonarr
+2018-12-14 09:30:24	<--	xelra (~xelra@unaffiliated/xelra) has quit (Quit: ZNC - http://znc.in)
+2018-12-14 09:33:54	-->	xelra (~xelra@unaffiliated/xelra) has joined #sonarr
+2018-12-14 09:33:54	--	Mode #sonarr [+v xelra] by ChanServ
+2018-12-14 10:10:53	-->	Floflobel (~Floflobel@cosium-152-18.fib.nerim.net) has joined #sonarr
+2018-12-14 10:22:51	-->	kram_ (kram@amd.co.at) has joined #sonarr
+2018-12-14 10:23:32	kram_	hey, Travelers (2016) does not seem to update info from thetvdb.com
+2018-12-14 10:30:16	<--	EnorMOZ (~EnorMOZ@unaffiliated/dink) has quit (Quit: The Lounge - https://thelounge.chat)
+2018-12-14 10:53:53	+xelra	kram_: Can you look into the logs whether there is something that stands out?
+2018-12-14 10:55:25	-->	EnorMOZ (~EnorMOZ@unaffiliated/dink) has joined #sonarr
+2018-12-14 10:58:47	kram_	nothing in logs, s03 still shows only 1 episode with the name TBA
+2018-12-14 10:58:53	kram_	while thetvdb hast 10 with proper names
+2018-12-14 10:59:07	kram_	downlaod is held hostage till that gets orted out
+2018-12-14 10:59:10	kram_	refresh does nothing
+2018-12-14 11:05:22	+xelra	I have it properly. With 10 episodes.
+2018-12-14 11:05:37	+xelra	Are you on a special network?
+2018-12-14 11:05:57	+xelra	I mean could it be that something is blocked?
+2018-12-14 11:06:11	+xelra	Do other shows update properly?
+2018-12-14 11:06:20	+xelra	Can you restart Sonarr?
+2018-12-14 11:08:04	<--	Red_M (~potato@unaffiliated/red-m/x-93568202) has quit (Quit: |)
+2018-12-14 11:08:40	-->	Red_M (~potato@aperturescience.red-m.net) has joined #sonarr
+2018-12-14 11:08:40	<--	Red_M (~potato@aperturescience.red-m.net) has quit (Changing host)
+2018-12-14 11:08:40	-->	Red_M (~potato@unaffiliated/red-m/x-93568202) has joined #sonarr
+2018-12-14 11:18:10	kram_	now it updated
+2018-12-14 11:18:15	kram_	seems it was cached somewhere
+2018-12-14 11:18:36	kram_	season pack is postprocessing now
+2018-12-14 11:20:15	+xelra	It's always the same. As soon as you go somewhere and ask, it magically starts working. :)
+2018-12-14 11:20:28	+xelra	Been there, done that.
+2018-12-14 11:21:28	kram_	i should have asked earlier :)
+2018-12-14 11:53:39	<--	mastyman (~connectsy@unaffiliated/mastyman) has quit
+2018-12-14 12:40:04	-->	BobboNumber2 (BobboLapto@c-174-63-113-0.hsd1.ma.comcast.net) has joined #sonarr
+2018-12-14 12:41:39	<--	BobboLaptop (BobboLapto@c-174-63-113-0.hsd1.ma.comcast.net) has quit (Ping timeout: 250 seconds)
+2018-12-14 13:21:02	<--	Dorbian (~Dorbian@e78238.upc-e.chello.nl) has quit (Ping timeout: 250 seconds)
+2018-12-14 13:24:19	-->	Dorbian (~Dorbian@e78238.upc-e.chello.nl) has joined #sonarr
+2018-12-14 13:30:59	<--	Dorbian (~Dorbian@e78238.upc-e.chello.nl) has quit (Ping timeout: 250 seconds)
+2018-12-14 13:31:50	-->	Dorbian (~Dorbian@e78238.upc-e.chello.nl) has joined #sonarr
+2018-12-14 13:45:28	<--	northcode (~northcode@vps-29.35.101.185.stwvps.net) has quit (Quit: ZNC 1.6.6+deb1ubuntu0.1 - http://znc.in)
+2018-12-14 13:46:16	-->	northcode (~northcode@vps-29.35.101.185.stwvps.net) has joined #sonarr
+2018-12-14 14:02:07	<--	wrisk (~wrisk@ns545809.ip-192-99-33.net) has quit (Ping timeout: 245 seconds)
+2018-12-14 14:17:10	-->	Ice_9 (~icenine@pool-108-53-156-233.nwrknj.fios.verizon.net) has joined #sonarr
+2018-12-14 14:17:58	<--	Ice_Nine (~icenine@pool-108-53-156-233.nwrknj.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2018-12-14 14:37:26	<--	MACscr (~MACscr@c-98-215-100-46.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2018-12-14 14:52:42	<--	tehgooch (tehgooch@unaffiliated/tehgooch) has quit (Remote host closed the connection)
+2018-12-14 14:53:40	bzztploink	kram_, it's not just you though ,  same here, had only 1 ep, until i clicked refresh manually
+2018-12-14 14:55:49	kram_	pressed refresh manually like a gazillion times
+2018-12-14 14:56:00	kram_	pretty sure it was cached somewhere and ignored mu refresh
+2018-12-14 14:56:25	kram_	which kinda makes sense to avoid sonarrs hammering thetvdb
+2018-12-14 14:56:38	kram_	but is annoying when it does not do what the button says
+2018-12-14 14:57:15	bzztploink	you're alone in that heh, button one click all good :)
+2018-12-14 14:57:39	kram_	prolly time dependend
+2018-12-14 14:58:27	<--	buu (~buu@99-74-60-251.lightspeed.hstntx.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2018-12-14 14:59:04	Ether_Man	All requests to tvdb goes through a service called Skyhook, which does cache stuff yes.
+2018-12-14 14:59:06	-->	buu (~buu@99-74-60-251.lightspeed.hstntx.sbcglobal.net) has joined #sonarr
+2018-12-14 15:42:28	+xelra	It caches the same for everyone though. So we would have all been affected.
+2018-12-14 16:09:14	-->	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has joined #sonarr
+2018-12-14 16:34:53	-->	el_bobbo (~el_bobbo@c-174-63-113-0.hsd1.ma.comcast.net) has joined #sonarr
+2018-12-14 17:48:26	<--	ca_cabotage (~ca_cabota@162-237-147-199.lightspeed.miamfl.sbcglobal.net) has quit (Ping timeout: 240 seconds)

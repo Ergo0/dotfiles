@@ -1,0 +1,6 @@
+game:
+  appid: '504230'
+steam:
+  lsi_steam: true
+system:
+  disable_runtime: true

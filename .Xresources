@@ -22,7 +22,7 @@ twobwm.focus_color: wht
 twobwm.unfocus_color: blu
 twobwm.fixed_color: bred
 twobwm.unkill_color: ylw
-twobwm.outer_border_color: bred
+twobwm.outer_border_color: mag
 twobwm.fixed_unkill_color: mag
 twobwm.inverted_colors: false
 twobwm.enable_compton: false
