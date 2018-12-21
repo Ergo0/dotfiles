@@ -1,0 +1,82 @@
+2018-12-20 19:52:50	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #xfce
+2018-12-20 19:52:50	--	Topic for #xfce is "Xfce | Get Xfce 4.12: http://www.xfce.org/download | Help translating: http://translations.xfce.org/ | Fix easy, small bugs: https://wiki.xfce.org/contribute/easybugs | Looking for user support? Ask your question and then BE PATIENT AND IDLE FOR A WHILE"
+2018-12-20 19:52:50	--	Topic set by sidi on Thu, 04 Aug 2016 12:08:55
+2018-12-20 19:52:50	--	Channel #xfce: 216 nicks (1 ops, 1 voices, 214 normals)
+2018-12-20 19:52:50	--	URL for #xfce: http://www.xfce.org
+2018-12-20 19:52:52	--	Channel created on Sun, 26 Nov 2006 06:42:46
+2018-12-20 19:53:01	<--	Strife89 (~quassel@adsl-98-67-61-197.mcn.bellsouth.net) has quit (Quit: No Ping reply in 180 seconds.)
+2018-12-20 20:53:03	ergo0	could anyone here help me create a package for crux? 
+2018-12-20 20:53:19	ergo0	its mainly about libxfce4util and exo not being able to find it 
+2018-12-20 19:54:28	-->	Strife89 (~quassel@adsl-98-67-61-197.mcn.bellsouth.net) has joined #xfce
+2018-12-20 19:55:06	<--	HarveyPwca (~HarveyPwc@ip-64-134-173-5.public.wayport.net) has quit (Ping timeout: 246 seconds)
+2018-12-20 19:57:40	<--	cryptodan (~cryptodan@unaffiliated/cryptodan) has quit (Remote host closed the connection)
+2018-12-20 20:09:44	-->	Naima (~N41m4@185.210.217.133) has joined #xfce
+2018-12-20 20:12:19	<--	xoan (~xoan@unaffiliated/xoan) has quit (Quit: xoan)
+2018-12-20 20:12:38	-->	xoan (~xoan@unaffiliated/xoan) has joined #xfce
+2018-12-20 20:12:49	<--	xoan (~xoan@unaffiliated/xoan) has quit (Remote host closed the connection)
+2018-12-20 20:13:08	-->	xoan (~xoan@unaffiliated/xoan) has joined #xfce
+2018-12-20 20:18:04	-->	fernando-basso (~Penelope_@2804:14d:3e80:1749:9f23:5fe9:2e12:4ff7) has joined #xfce
+2018-12-20 20:19:09	-->	zleap (~zleap@2a00:23c4:2ed2:5500:21c:c0ff:febf:66ed) has joined #xfce
+2018-12-20 20:19:09	<--	zleap (~zleap@2a00:23c4:2ed2:5500:21c:c0ff:febf:66ed) has quit (Changing host)
+2018-12-20 20:19:09	-->	zleap (~zleap@unaffiliated/zleap) has joined #xfce
+2018-12-20 20:28:14	<--	paul424 (~tom@37.248.157.188) has quit (Quit: Leaving)
+2018-12-20 20:44:58	-->	ced117 (~ced117@opensuse/member/ced117) has joined #xfce
+2018-12-20 20:48:54	-->	_thelion_ (~matthias@193-154-115-56.hdsl.highway.telekom.at) has joined #xfce
+2018-12-20 20:51:01	EdePopede	someone else having the experience with hanging keys? switching desktops or alt-tab, no difference. browser scrolls endless, volume changed in the player until the final value, such stuff.
+2018-12-20 20:58:47	-->	enki (~enki@dynamic-78-30-165-161.adsl.eunet.rs) has joined #xfce
+2018-12-20 20:59:10	--	enki is now known as Guest44372
+2018-12-20 21:05:17	diogenes_	EdePopede, what is hanging keys?
+2018-12-20 21:17:19	EdePopede	diogenes_: when of 2 keys pressed (<mod>+<action>) one is seen as pressed after releasing it
+2018-12-20 21:18:00	EdePopede	i defined some extra hotkeys to swith desktops and such (the list in the config box is nearly full) and i use them extensively
+2018-12-20 21:18:13	<--	Murray_B (~Murray_B@55d4e059.access.ecotel.net) has quit (Quit: WeeChat 2.3)
+2018-12-20 21:19:12	EdePopede	like win+cursor = switch to neighbour desktop. and then the window in the foreground on the new desktop sees a cursor key constantly being pressed. no matter what program this is.
+2018-12-20 21:19:41	diogenes_	EdePopede, has it always been like this/
+2018-12-20 21:20:10	EdePopede	like when it is <left>, xterm starts to blink insanely, with <up> mplayer sets volume to max (just had main at 160%)
+2018-12-20 21:21:10	EdePopede	diogenes_, good question. since it doesn't happen always. maybe it depends on whatever, maybe it is the order how i release the keys. or how fast the program receiving it gets the focus. no clue.
+2018-12-20 21:21:16	<--	_thelion_ (~matthias@193-154-115-56.hdsl.highway.telekom.at) has quit (Quit: WeeChat 2.3)
+2018-12-20 21:22:03	EdePopede	it goes on for a while now, maybe it started with the switch to stretch.
+2018-12-20 21:23:13	diogenes_	EdePopede, did you preserve all the configs from the previous install? maybe it would make sense to create a new user and see if the issue persists with the new user
+2018-12-20 21:23:36	EdePopede	diogenes_: all. and if i say all, i mean all ;)
+2018-12-20 21:24:01	EdePopede	actually i saved everything to play it back one by one in a controlled manner
+2018-12-20 21:24:31	EdePopede	i would have to log out :o
+2018-12-20 21:24:43	EdePopede	ok, there's "switch user"
+2018-12-20 21:30:16	<--	alpha_Aquilae (~ircII@44.22.130.77.rev.sfr.net) has quit (Quit: client irssi quit)
+2018-12-20 21:40:30	-->	stayasinic (~stayasini@188.227.9.209) has joined #xfce
+2018-12-20 21:42:03	<--	KombuchaKip (~KombuchaK@69.172.175.207) has quit (Quit: Yarrr!!!)
+2018-12-20 21:46:19	-->	KombuchaKip1 (~KombuchaK@69.172.175.207) has joined #xfce
+2018-12-20 21:46:46	<--	Kumool (~Khwerz@adsl-64-237-237-56.prtc.net) has quit (Ping timeout: 250 seconds)
+2018-12-20 21:48:17	<--	KombuchaKip1 (~KombuchaK@69.172.175.207) has quit (Client Quit)
+2018-12-20 21:48:44	<--	cwickert (~cwickert@fedora/cwickert) has quit (Quit: Leaving.)
+2018-12-20 21:50:00	<--	xoan (~xoan@unaffiliated/xoan) has quit (Quit: xoan)
+2018-12-20 21:50:09	<--	diogenes_ (~diogenes_@host-static-188-214-62-228.moldtelecom.md) has quit (Quit: vergissmeinnicht)
+2018-12-20 21:51:33	-->	KombuchaKip (~KombuchaK@69.172.175.207) has joined #xfce
+2018-12-20 22:41:46	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #xfce
+2018-12-20 22:41:46	--	Topic for #xfce is "Xfce | Get Xfce 4.12: http://www.xfce.org/download | Help translating: http://translations.xfce.org/ | Fix easy, small bugs: https://wiki.xfce.org/contribute/easybugs | Looking for user support? Ask your question and then BE PATIENT AND IDLE FOR A WHILE"
+2018-12-20 22:41:46	--	Topic set by sidi on Thu, 04 Aug 2016 12:08:55
+2018-12-20 22:41:46	--	Channel #xfce: 208 nicks (1 ops, 0 voices, 207 normals)
+2018-12-20 22:07:50	EdePopede	uh, the logout dialog really needs a redesign. turned off the other pc, thought it was because of adwaita dark. switch to the normal version, still wasn't able to see which element is active.
+2018-12-20 22:08:22	EdePopede	had to nearly press my nose against the monitor to see that maybe 2px wide dotted border in gray on gray...
+2018-12-20 22:09:09	EdePopede	i think i'll check out the other themes when i find the time
+2018-12-20 22:41:52	--	Channel created on Sun, 26 Nov 2006 06:42:46
+2018-12-20 23:00:43	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #xfce
+2018-12-20 23:00:43	--	Topic for #xfce is "Xfce | Get Xfce 4.12: http://www.xfce.org/download | Help translating: http://translations.xfce.org/ | Fix easy, small bugs: https://wiki.xfce.org/contribute/easybugs | Looking for user support? Ask your question and then BE PATIENT AND IDLE FOR A WHILE"
+2018-12-20 23:00:43	--	Topic set by sidi on Thu, 04 Aug 2016 12:08:55
+2018-12-20 23:00:43	--	Channel #xfce: 209 nicks (1 ops, 0 voices, 208 normals)
+2018-12-20 23:00:49	--	Channel created on Sun, 26 Nov 2006 06:42:46
+2018-12-20 23:14:51	<--	fart00s (~nck123@89-139-121-77.bb.netvision.net.il) has quit (Quit: Leaving)
+2018-12-20 23:20:31	-->	Kumool (~Khwerz@adsl-64-237-237-56.prtc.net) has joined #xfce
+2018-12-20 23:26:36	-->	s8321414 (~s8321414@2001-b011-e604-1fa3-19d1-a5ae-c713-d25e.dynamic-ip6.hinet.net) has joined #xfce
+2018-12-20 23:28:57	<--	RickSanchezII (~RickSanch@cpe-98-144-87-116.wi.res.rr.com) has quit (Ping timeout: 246 seconds)
+2018-12-20 23:32:51	<--	fernando-basso (~Penelope_@2804:14d:3e80:1749:9f23:5fe9:2e12:4ff7) has quit (Quit: I quit.)
+2018-12-20 23:38:36	-->	chowbok (~chowbok@207.181.255.76) has joined #xfce
+2018-12-20 23:39:03	<--	s8321414 (~s8321414@2001-b011-e604-1fa3-19d1-a5ae-c713-d25e.dynamic-ip6.hinet.net) has quit (Ping timeout: 250 seconds)
+2018-12-20 23:39:04	-->	s8321414_ (~s8321414@220-143-88-134.dynamic-ip.hinet.net) has joined #xfce
+2018-12-20 23:39:24	--	s8321414_ is now known as s8321414
+2018-12-20 23:47:14	<--	Andy-D (~Andy-D@94.197.23.139.threembb.co.uk) has quit (Ping timeout: 250 seconds)
+2018-12-20 23:47:51	-->	Andy-D (~Andy-D@92.41.83.195.threembb.co.uk) has joined #xfce
+2018-12-20 23:55:03	-->	Bashing-om (~sysop@ubuntu/member/bashing-om) has joined #xfce
+2018-12-21 00:01:04	<--	Spass (~malysps@2a01:115f:504:ca00:304a:6b69:5192:b414) has quit (Quit: ...)
+2018-12-21 00:05:40	<--	Dagger (~dagger@sawako.haruhi.eu) has quit (Excess Flood)
+2018-12-21 00:08:13	-->	Dagger (~dagger@sawako.haruhi.eu) has joined #xfce
+2018-12-21 00:24:03	<--	chomwitt (~chomwitt@ppp-94-69-11-44.home.otenet.gr) has quit (Quit: WeeChat 1.6)
+2018-12-21 00:35:22	<--	ranzp (~anon@unaffiliated/ranzpirat) has quit (Ping timeout: 268 seconds)

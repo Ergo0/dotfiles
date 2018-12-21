@@ -1,0 +1,9 @@
+game:
+  exe: /home/ronin/Games/gog/drive_c/Program Files (x86)/GOG Galaxy/GalaxyClient.exe
+  prefix: ~/Games/gog
+system:
+  disable_runtime: true
+  prefer_system_libs: false
+wine:
+  dxvk: true
+  dxvk_version: '0.94'

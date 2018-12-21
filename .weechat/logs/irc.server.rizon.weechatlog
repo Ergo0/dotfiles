@@ -3843,3 +3843,313 @@
 2018-12-17 12:59:32	--	MSG(NickServ): identify **********
 2018-12-17 12:59:33	--	User mode [+r] by Ergo
 2018-12-17 12:59:33	--	NickServ (service@rizon.net): Password accepted - you are now recognized.
+2018-12-17 18:15:20	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:15:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:15:20	--	gnutls: receiving 2 certificates
+2018-12-17 18:15:20	--	 - certificate[1] info:
+2018-12-17 18:15:20	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x031e7c5efeb5a6279db179331331e6db0b7f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-23 20:07:36 UTC', expires `2019-01-21 20:07:36 UTC', pin-sha256="9cpaUffpAU+faXFX/67XEgqrRLOtTDPA8cCNw5axmkM="
+2018-12-17 18:15:20	--	 - certificate[2] info:
+2018-12-17 18:15:20	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:15:20	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:15:20	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:15:20	=!=	irc: TLS handshake failed
+2018-12-17 18:15:20	=!=	irc: error: Error in the certificate.
+2018-12-17 18:15:20	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:15:30	--	irc: reconnecting to server...
+2018-12-17 18:15:30	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:15:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:15:30	--	gnutls: receiving 2 certificates
+2018-12-17 18:15:30	--	 - certificate[1] info:
+2018-12-17 18:15:30	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 18:15:30	--	 - certificate[2] info:
+2018-12-17 18:15:30	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:15:30	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:15:30	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:15:30	=!=	irc: TLS handshake failed
+2018-12-17 18:15:30	=!=	irc: error: Error in the certificate.
+2018-12-17 18:15:30	--	irc: reconnecting to server in 20 seconds
+2018-12-17 18:15:50	--	irc: reconnecting to server...
+2018-12-17 18:15:50	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:15:50	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:15:50	--	gnutls: receiving 2 certificates
+2018-12-17 18:15:50	--	 - certificate[1] info:
+2018-12-17 18:15:50	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 18:15:50	--	 - certificate[2] info:
+2018-12-17 18:15:50	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:15:50	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:15:50	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:15:50	=!=	irc: TLS handshake failed
+2018-12-17 18:15:50	=!=	irc: error: Error in the certificate.
+2018-12-17 18:15:50	--	irc: reconnecting to server in 40 seconds
+2018-12-17 18:16:12	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:16:12	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:16:12	--	gnutls: receiving 2 certificates
+2018-12-17 18:16:12	--	 - certificate[1] info:
+2018-12-17 18:16:12	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 18:16:12	--	 - certificate[2] info:
+2018-12-17 18:16:12	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:16:12	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:16:12	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:16:12	=!=	irc: TLS handshake failed
+2018-12-17 18:16:12	=!=	irc: error: Error in the certificate.
+2018-12-17 18:16:12	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:16:22	--	irc: reconnecting to server...
+2018-12-17 18:16:22	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:16:22	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:16:22	--	gnutls: receiving 2 certificates
+2018-12-17 18:16:22	--	 - certificate[1] info:
+2018-12-17 18:16:22	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 18:16:22	--	 - certificate[2] info:
+2018-12-17 18:16:22	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:16:22	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:16:22	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:16:22	=!=	irc: TLS handshake failed
+2018-12-17 18:16:22	=!=	irc: error: Error in the certificate.
+2018-12-17 18:16:22	--	irc: reconnecting to server in 20 seconds
+2018-12-17 18:16:42	--	irc: reconnecting to server...
+2018-12-17 18:16:42	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:16:42	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:16:42	--	gnutls: receiving 2 certificates
+2018-12-17 18:16:42	--	 - certificate[1] info:
+2018-12-17 18:16:42	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x031e7c5efeb5a6279db179331331e6db0b7f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-23 20:07:36 UTC', expires `2019-01-21 20:07:36 UTC', pin-sha256="9cpaUffpAU+faXFX/67XEgqrRLOtTDPA8cCNw5axmkM="
+2018-12-17 18:16:42	--	 - certificate[2] info:
+2018-12-17 18:16:42	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:16:42	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:16:42	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:16:42	=!=	irc: TLS handshake failed
+2018-12-17 18:16:42	=!=	irc: error: Error in the certificate.
+2018-12-17 18:16:42	--	irc: reconnecting to server in 40 seconds
+2018-12-17 18:17:22	--	irc: reconnecting to server...
+2018-12-17 18:17:22	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:17:22	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:17:22	--	gnutls: receiving 2 certificates
+2018-12-17 18:17:22	--	 - certificate[1] info:
+2018-12-17 18:17:22	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x031e7c5efeb5a6279db179331331e6db0b7f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-23 20:07:36 UTC', expires `2019-01-21 20:07:36 UTC', pin-sha256="9cpaUffpAU+faXFX/67XEgqrRLOtTDPA8cCNw5axmkM="
+2018-12-17 18:17:22	--	 - certificate[2] info:
+2018-12-17 18:17:22	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:17:22	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:17:22	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:17:22	=!=	irc: TLS handshake failed
+2018-12-17 18:17:22	=!=	irc: error: Error in the certificate.
+2018-12-17 18:17:22	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-17 18:19:02	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:19:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:19:02	--	gnutls: receiving 2 certificates
+2018-12-17 18:19:02	--	 - certificate[1] info:
+2018-12-17 18:19:02	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 18:19:02	--	 - certificate[2] info:
+2018-12-17 18:19:02	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:19:02	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:19:02	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:19:02	=!=	irc: TLS handshake failed
+2018-12-17 18:19:02	=!=	irc: error: Error in the certificate.
+2018-12-17 18:19:02	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:19:12	--	irc: reconnecting to server...
+2018-12-17 18:19:12	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 18:19:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:19:13	--	gnutls: receiving 2 certificates
+2018-12-17 18:19:13	--	 - certificate[1] info:
+2018-12-17 18:19:13	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 18:19:13	--	 - certificate[2] info:
+2018-12-17 18:19:13	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:19:13	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:19:13	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:19:13	=!=	irc: TLS handshake failed
+2018-12-17 18:19:13	=!=	irc: error: Error in the certificate.
+2018-12-17 18:19:13	--	irc: reconnecting to server in 20 seconds
+2018-12-17 19:23:06	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 19:23:07	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:23:07	--	gnutls: receiving 2 certificates
+2018-12-17 19:23:07	--	 - certificate[1] info:
+2018-12-17 19:23:07	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 19:23:07	--	 - certificate[2] info:
+2018-12-17 19:23:07	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:23:07	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:23:07	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:23:07	=!=	irc: TLS handshake failed
+2018-12-17 19:23:07	=!=	irc: error: Error in the certificate.
+2018-12-17 19:23:07	--	irc: reconnecting to server in 10 seconds
+2018-12-17 19:23:17	--	irc: reconnecting to server...
+2018-12-17 19:23:17	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 19:23:17	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:23:17	--	gnutls: receiving 2 certificates
+2018-12-17 19:23:17	--	 - certificate[1] info:
+2018-12-17 19:23:17	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x031e7c5efeb5a6279db179331331e6db0b7f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-23 20:07:36 UTC', expires `2019-01-21 20:07:36 UTC', pin-sha256="9cpaUffpAU+faXFX/67XEgqrRLOtTDPA8cCNw5axmkM="
+2018-12-17 19:23:17	--	 - certificate[2] info:
+2018-12-17 19:23:17	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:23:17	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:23:17	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:23:17	=!=	irc: TLS handshake failed
+2018-12-17 19:23:17	=!=	irc: error: Error in the certificate.
+2018-12-17 19:23:17	--	irc: reconnecting to server in 20 seconds
+2018-12-17 19:25:33	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 19:25:33	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:25:33	--	gnutls: receiving 2 certificates
+2018-12-17 19:25:33	--	 - certificate[1] info:
+2018-12-17 19:25:33	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 19:25:33	--	 - certificate[2] info:
+2018-12-17 19:25:33	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:25:33	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:25:33	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:25:33	=!=	irc: TLS handshake failed
+2018-12-17 19:25:33	=!=	irc: error: Error in the certificate.
+2018-12-17 19:25:33	--	irc: reconnecting to server in 10 seconds
+2018-12-17 19:25:43	--	irc: reconnecting to server...
+2018-12-17 19:25:43	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 19:25:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:25:43	--	gnutls: receiving 2 certificates
+2018-12-17 19:25:43	--	 - certificate[1] info:
+2018-12-17 19:25:43	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 19:25:43	--	 - certificate[2] info:
+2018-12-17 19:25:43	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:25:43	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:25:43	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:25:43	=!=	irc: TLS handshake failed
+2018-12-17 19:25:43	=!=	irc: error: Error in the certificate.
+2018-12-17 19:25:43	--	irc: reconnecting to server in 20 seconds
+2018-12-17 19:26:03	--	irc: reconnecting to server...
+2018-12-17 19:26:03	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 19:26:03	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:26:03	--	gnutls: receiving 2 certificates
+2018-12-17 19:26:03	--	 - certificate[1] info:
+2018-12-17 19:26:03	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033735974f681e2265e9fc27ce7a25519b07, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 20:04:34 UTC', expires `2019-01-20 20:04:34 UTC', pin-sha256="Vwus7OgMvpw9fAOi92xtWjjzQwMukgVcPigHEhk5KUA="
+2018-12-17 19:26:03	--	 - certificate[2] info:
+2018-12-17 19:26:03	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:26:03	--	gnutls: peer's certificate is trusted
+2018-12-17 19:26:03	--	irc: connected to irc.rizon.net/6697 (35.187.100.28)
+2018-12-17 19:26:03	--	irc.x2x.cc: *** Looking up your hostname...
+2018-12-17 19:26:03	--	irc.x2x.cc: *** Found your hostname
+2018-12-17 19:26:03	--	irc.x2x.cc: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2018-12-17 19:26:03	--	irc.x2x.cc: *** Your host is masked (Rizon-655F8092.ip.xs4all.nl)
+2018-12-17 19:26:03	--	Welcome to the Rizon Internet Relay Chat Network Ergo
+2018-12-17 19:26:03	--	Your host is irc.x2x.cc, running version plexus-4(hybrid-8.1.20)
+2018-12-17 19:26:03	--	This server was created Dec  5 2018 at 16:16:55
+2018-12-17 19:26:03	--	irc.x2x.cc plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+2018-12-17 19:26:03	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+2018-12-17 19:26:03	--	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz NAMESX UHNAMES ELIST=CMNTU SAFELIST AWAYLEN=180 WATCH=60 KNOCK :are supported by this server
+2018-12-17 19:26:03	--	There are 25 users and 14282 invisible on 20 servers
+2018-12-17 19:26:03	--	66 :IRC Operators online
+2018-12-17 19:26:03	--	5 :unknown connection(s)
+2018-12-17 19:26:03	--	10950 :channels formed
+2018-12-17 19:26:03	--	I have 14307 clients and 20 servers
+2018-12-17 19:26:03	--	Current local users: 14307  Max: 19437
+2018-12-17 19:26:03	--	Current global users: 14307  Max: 19437
+2018-12-17 19:26:03	--	- irc.x2x.cc Message of the Day -
+2018-12-17 19:26:03	--	-          oo                            
+2018-12-17 19:26:03	--	-
+2018-12-17 19:26:03	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2018-12-17 19:26:03	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2018-12-17 19:26:03	--	- 88       88  .Y8P    88.  .88 88    88 
+2018-12-17 19:26:03	--	- dP       dP d888888P `88888P' dP    dP
+2018-12-17 19:26:03	--	-
+2018-12-17 19:26:03	--	- Rizon Chat Network -- http://rizon.net
+2018-12-17 19:26:03	--	-
+2018-12-17 19:26:03	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2018-12-17 19:26:03	--	-
+2018-12-17 19:26:03	--	- Rules:
+2018-12-17 19:26:03	--	- o No spamming or flooding
+2018-12-17 19:26:03	--	- o No clones or malicious bots
+2018-12-17 19:26:03	--	- o No takeovers
+2018-12-17 19:26:03	--	- o No distribution of child pornography
+2018-12-17 19:26:03	--	- o Clients must respond to VERSION requests
+2018-12-17 19:26:03	--	- o Rizon staff may disconnect clients for any or no reason
+2018-12-17 19:26:03	--	-
+2018-12-17 19:26:03	--	- First steps:
+2018-12-17 19:26:03	--	- o To register your nick: /msg NickServ HELP
+2018-12-17 19:26:03	--	- o To register your channel: /msg ChanServ HELP
+2018-12-17 19:26:03	--	- o To get a vHost: /msg HostServ HELP REQUEST
+2018-12-17 19:26:03	--	- o For other help with Rizon: /join #help
+2018-12-17 19:26:03	--	-
+2018-12-17 19:26:03	--	- Usage of this network is a privilege, not a right. Rizon is a
+2018-12-17 19:26:03	--	- transit provider, therefore no person or entity involved with
+2018-12-17 19:26:03	--	- *.rizon.net or irc.x2x.cc takes any responsibility for
+2018-12-17 19:26:03	--	- users' actions. Absolutely no warranty is expressed or implied.
+2018-12-17 19:26:03	--	End of /MOTD command.
+2018-12-17 19:26:03	--	User mode [+Six] by Ergo
+2018-12-17 19:26:03	--	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2018-12-17 19:26:03	--	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2018-12-17 19:26:03	--	Global (service@rizon.net): [Random News - Nov 29 2013] Want to make your vhost shiny by adding colors to it? Try your luck in #VIzon
+2018-12-17 19:26:03	--	NickServ (service@rizon.net): This nickname is registered and protected. If it is your
+2018-12-17 19:26:03	--	NickServ (service@rizon.net): nick, type /msg NickServ IDENTIFY password. Otherwise,
+2018-12-17 19:26:03	--	NickServ (service@rizon.net): please choose a different nick.
+2018-12-17 19:26:03	--	CTCP requested by py-ctcp: VERSION
+2018-12-17 19:26:03	--	CTCP reply to py-ctcp: VERSION WeeChat 2.3 (Dec 17 2018 19:25:16)
+2018-12-17 19:27:33	--	MSG(NickServ): identify **********
+2018-12-17 19:27:33	--	User mode [+r] by Ergo
+2018-12-17 19:27:33	--	NickServ (service@rizon.net): Password accepted - you are now recognized.
+2018-12-17 20:53:38	--	irc: connecting to server irc.rizon.net/6697 (SSL)...
+2018-12-17 20:53:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 20:53:38	--	gnutls: receiving 2 certificates
+2018-12-17 20:53:38	--	 - certificate[1] info:
+2018-12-17 20:53:38	--	   - subject `CN=irc.rizon.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x031e7c5efeb5a6279db179331331e6db0b7f, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-23 20:07:36 UTC', expires `2019-01-21 20:07:36 UTC', pin-sha256="9cpaUffpAU+faXFX/67XEgqrRLOtTDPA8cCNw5axmkM="
+2018-12-17 20:53:38	--	 - certificate[2] info:
+2018-12-17 20:53:38	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 20:53:38	--	gnutls: peer's certificate is trusted
+2018-12-17 20:53:38	--	irc: connected to irc.rizon.net/6697 (212.8.242.29)
+2018-12-17 20:53:38	--	irc.infernet.org: *** Looking up your hostname...
+2018-12-17 20:53:38	--	irc.infernet.org: *** Checking Ident
+2018-12-17 20:53:38	--	irc.infernet.org: *** Found your hostname
+2018-12-17 20:53:38	--	irc.infernet.org: *** No Ident response
+2018-12-17 20:53:38	--	irc.infernet.org: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2018-12-17 20:53:38	--	irc.infernet.org: *** Your host is masked (Rizon-655F8092.ip.xs4all.nl)
+2018-12-17 20:53:38	--	Welcome to the Rizon Internet Relay Chat Network Ergo
+2018-12-17 20:53:38	--	Your host is irc.infernet.org, running version plexus-4(hybrid-8.1.20)
+2018-12-17 20:53:38	--	This server was created Feb 24 2018 at 23:26:05
+2018-12-17 20:53:38	--	irc.infernet.org plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+2018-12-17 20:53:38	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+2018-12-17 20:53:38	--	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz ELIST=CMNTU SAFELIST AWAYLEN=180 KNOCK NAMESX UHNAMES WATCH=60 :are supported by this server
+2018-12-17 20:53:38	--	There are 24 users and 14408 invisible on 20 servers
+2018-12-17 20:53:38	--	66 :IRC Operators online
+2018-12-17 20:53:38	--	1 :unknown connection(s)
+2018-12-17 20:53:38	--	10931 :channels formed
+2018-12-17 20:53:38	--	I have 14432 clients and 20 servers
+2018-12-17 20:53:38	--	Current local users: 14432  Max: 15564
+2018-12-17 20:53:38	--	Current global users: 14432  Max: 15564
+2018-12-17 20:53:38	--	- irc.infernet.org Message of the Day -
+2018-12-17 20:53:38	--	-          oo                            
+2018-12-17 20:53:38	--	-
+2018-12-17 20:53:38	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2018-12-17 20:53:38	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2018-12-17 20:53:38	--	- 88       88  .Y8P    88.  .88 88    88 
+2018-12-17 20:53:38	--	- dP       dP d888888P `88888P' dP    dP
+2018-12-17 20:53:38	--	-
+2018-12-17 20:53:38	--	- Rizon Chat Network -- http://rizon.net
+2018-12-17 20:53:38	--	-
+2018-12-17 20:53:38	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2018-12-17 20:53:38	--	-
+2018-12-17 20:53:38	--	- Rules:
+2018-12-17 20:53:38	--	- o No spamming or flooding
+2018-12-17 20:53:38	--	- o No clones or malicious bots
+2018-12-17 20:53:38	--	- o No takeovers
+2018-12-17 20:53:38	--	- o No distribution of child pornography
+2018-12-17 20:53:38	--	- o Clients must respond to VERSION requests
+2018-12-17 20:53:38	--	- o Rizon staff may disconnect clients for any or no reason
+2018-12-17 20:53:38	--	-
+2018-12-17 20:53:38	--	- First steps:
+2018-12-17 20:53:38	--	- o To register your nick: /msg NickServ HELP
+2018-12-17 20:53:38	--	- o To register your channel: /msg ChanServ HELP
+2018-12-17 20:53:38	--	- o To get a vHost: /msg HostServ HELP REQUEST
+2018-12-17 20:53:38	--	- o For other help with Rizon: /join #help
+2018-12-17 20:53:38	--	-
+2018-12-17 20:53:38	--	- Usage of this network is a privilege, not a right. Rizon is a
+2018-12-17 20:53:38	--	- transit provider, therefore no person or entity involved with
+2018-12-17 20:53:38	--	- *.rizon.net or irc.infernet.org takes any responsibility for
+2018-12-17 20:53:38	--	- users' actions. Absolutely no warranty is expressed or implied.
+2018-12-17 20:53:38	--	End of /MOTD command.
+2018-12-17 20:53:38	--	User mode [+Six] by Ergo
+2018-12-17 20:53:39	--	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2018-12-17 20:53:39	--	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2018-12-17 20:53:39	--	Global (service@rizon.net): [Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+2018-12-17 20:53:39	--	NickServ (service@rizon.net): This nickname is registered and protected. If it is your
+2018-12-17 20:53:39	--	NickServ (service@rizon.net): nick, type /msg NickServ IDENTIFY password. Otherwise,
+2018-12-17 20:53:39	--	NickServ (service@rizon.net): please choose a different nick.
+2018-12-17 20:53:39	--	CTCP requested by py-ctcp: VERSION
+2018-12-17 20:53:39	--	CTCP reply to py-ctcp: VERSION WeeChat 2.3 (Dec 17 2018 19:25:16)
+2018-12-17 22:50:27	--	MSG(NickServ): identify **********
+2018-12-17 22:50:27	--	User mode [+r] by Ergo
+2018-12-17 22:50:27	--	NickServ (service@rizon.net): Password accepted - you are now recognized.
+2018-12-18 00:34:02	--	User mode [-r] by Ergo
+2018-12-18 00:34:02	--	You are now known as gangganggang
+2018-12-18 00:35:11	--	ergo: Nickname is already in use.
+2018-12-18 00:35:16	--	You are now known as ergo7z
+2018-12-18 00:46:44	--	irc: disconnected from server

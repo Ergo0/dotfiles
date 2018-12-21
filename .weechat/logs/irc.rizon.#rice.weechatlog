@@ -14420,3 +14420,427 @@
 2018-12-17 13:28:10	<--	bitthia040 (~bitthia04@BD20A16C:39D6E2F4:6F5DFB28:IP) has quit (Remote host closed the connection)
 2018-12-17 13:28:46	 *	Rue listens to https://www.youtube.com/watch?v=UNoouLa7uxA
 2018-12-17 13:28:47	+cappuccino	[ youtube.com ] Jewel - Foolish Games (Official Video) - YouTube (text/html)
+2018-12-17 19:27:35	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-12-17 19:27:35	--	Topic for #rice is "No Rice No Life? | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life | <@Leliana> my sister is pretty fuckable"
+2018-12-17 19:27:35	--	Topic set by Leliana (is@revthefox.co.uk) on Thu, 13 Dec 2018 16:28:46
+2018-12-17 19:27:35	--	Channel #rice: 176 nicks (8 ops, 0 halfops, 14 voices, 154 normals)
+2018-12-17 19:27:37	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-17 19:29:34	suits	i use XD
+2018-12-17 19:30:00	+nai	epic
+2018-12-17 19:30:21	@eti	same
+2018-12-17 19:30:27	@eti	i have to try figma someday though
+2018-12-17 19:32:34	suits	sketch for apple was always the shit
+2018-12-17 19:32:47	suits	but since adobe got XD out i'm all good
+2018-12-17 19:33:00	@eti	suits: i updated the css
+2018-12-17 19:33:04	@eti	does it work any better now
+2018-12-17 19:33:53	<--	Rue2 (~rue@Rizon-FE5B5DB7.dynamic-ip6.hinet.net) has quit
+2018-12-17 19:34:07	suits	still looks same
+2018-12-17 19:34:07	suits	there are so many things to nitpick anyways
+2018-12-17 19:34:13	+nai	stop laughing at adobe guys
+2018-12-17 19:34:18	+nai	it's not very nice XDDDDDDD
+2018-12-17 19:34:37	<--	Rue (~rue@5C2342D3:12C3210B:B0519378:IP) has quit
+2018-12-17 19:35:59	@eti	suits: but what browser are you trying it with? edge? it only seems logical that it breaks if you look at it with a browser that doesn't support the css things i've used
+2018-12-17 19:36:22	suits	in edge yea
+2018-12-17 19:36:32	suits	works as it's supposed i guess in chrome
+2018-12-17 19:37:11	@eti	aight 
+2018-12-17 19:37:13	@eti	well fuck edge
+2018-12-17 19:37:16	suits	like you said, don't have to care about edge
+2018-12-17 19:37:29	@eti	this website isn't for normies anyway smh
+2018-12-17 19:37:33	suits	my point was just that you can achieve the same design with css that works in all browsers
+2018-12-17 19:37:34	@eti	ye ik, i'm just kidding
+2018-12-17 19:37:39	@eti	it's not a professional site
+2018-12-17 19:37:45	@eti	sure
+2018-12-17 19:37:51	suits	yea it's almost like it's hidden for normies
+2018-12-17 19:37:57	@eti	but as i said, i needed to learn flexbox and this helped me
+2018-12-17 19:38:28	suits	makes sense
+2018-12-17 19:38:57	suits	in a few years everyone might use the same browsers anyways
+2018-12-17 19:39:17	suits	and all those IE nightmares are finally over
+2018-12-17 19:39:55	suits	edge is actually not that bad, surprising your website works differently there
+2018-12-17 19:41:12	@eti	the thing is that i used flexbox, and only that. i don't see why edge would behave differently
+2018-12-17 19:41:17	@eti	it's regularly getting updates, no?
+2018-12-17 19:41:27	suits	yea
+2018-12-17 19:42:47	suits	it's the newest version
+2018-12-17 19:43:01	<--	neeasade (~neeasade@Rizon-8AA3A027.ks.ks.cox.net) has quit (Ping timeout: 240 seconds)
+2018-12-17 19:43:54	@eti	shame
+2018-12-17 19:44:07	BlackBeard	in a few years everyone will be using World Government Issued Web Browser
+2018-12-17 19:44:14	suits	prolly missing some position: relative on a parent element
+2018-12-17 19:44:23	suits	so that one list breaking out of it
+2018-12-17 19:44:35	suits	if that's of absolute position
+2018-12-17 19:44:47	<--	jenkins (~jenkins@lunix.student) has quit (Quit: WeeChat 2.3)
+2018-12-17 19:44:59	suits	you gotta declare the position relative for the parent (even that's default on an element)
+2018-12-17 19:46:06	suits	just a guess, i'm too lazy looking at it
+2018-12-17 19:46:53	suits	yea BlackBeard, chrome and safari
+2018-12-17 19:49:03	-->	somaulte (~somaulte@E01EA56F.646AA67D.2BDD0F91.IP) has joined #rice
+2018-12-17 19:49:49	suits	eti: ok yes that's it
+2018-12-17 19:50:24	suits	tho you wouldn't need position absolute to begin with with top etc (which triggers nasty paint in browsers) and use transform: translate instead
+2018-12-17 19:50:52	suits	but now that's extreme nitpicking
+2018-12-17 19:51:14	+LambdaComplex	if firefox dies then the web is over
+2018-12-17 19:51:17	+LambdaComplex	rip
+2018-12-17 19:51:19	+LambdaComplex	f
+2018-12-17 19:51:21	+LambdaComplex	;-;
+2018-12-17 19:51:36	suits	so yea just add "position: absolute;" on that card element
+2018-12-17 19:51:48	suits	s/absolute/relative
+2018-12-17 19:51:50	suits	s/absolute/relative/
+2018-12-17 19:51:50	+cappuccino	suits meant to say: so yea just add "position: relative;" on that card element
+2018-12-17 19:52:00	-->	jenkins (~jenkins@lunix.student) has joined #rice
+2018-12-17 19:54:50	suits	LambdaComplex: could be just a matter of time until the free internet as we know it gets killed
+2018-12-17 19:56:21	suits	and no one can afford to host content expect big companies
+2018-12-17 19:56:43	suits	idk
+2018-12-17 19:56:49	suits	some shit could go down
+2018-12-17 19:59:18	<--	Pixi (~Pixi@magical.mithra) has quit
+2018-12-17 20:03:02	@Leliana	>implying the internet can be killed
+2018-12-17 20:03:07	@Leliana	you can't close pandora's box
+2018-12-17 20:03:35	@Leliana	what are they gonna do, wipe any memory of the fact that communication between computers is possible?
+2018-12-17 20:04:17	@Leliana	it's just too decentralised
+2018-12-17 20:05:29	+nai	?????  ???  ???  ??????  ?????
+2018-12-17 20:05:31	-->	Pixi (~Pixi@Rizon-827BF723.hsd1.va.comcast.net) has joined #rice
+2018-12-17 20:05:47	+nai	sorry -- i just felt like saying that
+2018-12-17 20:05:58	@Leliana	kys
+2018-12-17 20:06:32	+nai	no
+2018-12-17 20:07:02	+nai	I...
+2018-12-17 20:07:12	+nai	...wish Leliana wasn't such a cuck
+2018-12-17 20:07:43	suits	how is everyone using the same one or two ISPs to use the internet decentralized?
+2018-12-17 20:07:51	@Leliana	>same one or two
+2018-12-17 20:07:53	@Leliana	lmao
+2018-12-17 20:08:03	@Leliana	do you have any fucking idea how many ISPs there are worldwide?
+2018-12-17 20:08:14	<--	matuka (~ramune@happily.melancholy) has quit (Ping timeout: 240 seconds)
+2018-12-17 20:08:16	@Leliana	even the actual backbone undersea cables aren't owned by one entity
+2018-12-17 20:08:24	suits	yes but hello monopolization and telekom is here on the top by far
+2018-12-17 20:08:42	@Leliana	but the entire world isn't america
+2018-12-17 20:08:49	suits	that's germany
+2018-12-17 20:09:03	@Leliana	Khorne, enju: weigh in please
+2018-12-17 20:09:34	suits	we have a bunch of providers too but first they get less and less used and also most if not even all are bought by telekom already
+2018-12-17 20:10:28	-->	heibol (~heibol@Rizon-497BCC67.ip.prioritytelecom.net) has joined #rice
+2018-12-17 20:13:40	suits	ok there still might be a few independent ones
+2018-12-17 20:14:54	suits	United Internet AG and Telekom are the big ones
+2018-12-17 20:15:38	suits	oh and Vodafone
+2018-12-17 20:17:15	+Khorne	bout what
+2018-12-17 20:17:37	suits	Leliana says that the internet is decentralized
+2018-12-17 20:17:44	+Khorne	because it is?
+2018-12-17 20:17:52	+Khorne	Because thats the whole idea
+2018-12-17 20:18:15	suits	but he says it's TOO decentralized to have that idea threatened at all even
+2018-12-17 20:20:23	suits	but i say we all use the same ISPs who could control it
+2018-12-17 20:20:27	suits	so how is that decentralized
+2018-12-17 20:21:11	suits	Khorne probably uses Telekom too
+2018-12-17 20:22:18	<--	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has quit (Ping timeout: 240 seconds)
+2018-12-17 20:24:47	@Leliana	yeah but ISPs don't mean shit
+2018-12-17 20:24:57	@Leliana	they don't control Tier 2 or Tier 1 providers
+2018-12-17 20:25:15	@Leliana	if the ISPs start being cunts trying to bring the internet down, someone else would just peer with them
+2018-12-17 20:25:23	-->	deviantfero (~deviantfe@Rizon-8FF199C5.intercom.com.sv) has joined #rice
+2018-12-17 20:25:31	-->	Jet_ (~Jet@Rizon-EE74D80F.bredband.comhem.se) has joined #rice
+2018-12-17 20:26:25	<--	Jet (~Jet@Rizon-EE74D80F.bredband.comhem.se) has quit (Ping timeout: 240 seconds)
+2018-12-17 20:26:36	suits	oh that someone just emerges from nowhere being able to lay lines to your location
+2018-12-17 20:27:05	@Leliana	that's...not what peering is
+2018-12-17 20:27:29	suits	well how could you connect to any internet if not for your internet provider?
+2018-12-17 20:28:10	suits	they will block you peering around then
+2018-12-17 20:29:28	suits	hmm idk could ISPs block a vpn
+2018-12-17 20:30:10	@Leliana	that's still not how peering works
+2018-12-17 20:31:01	@Leliana	you do realise there's levels way above your common ISPs, right?
+2018-12-17 20:31:05	@Leliana	like, yno, the tier 1 providers
+2018-12-17 20:31:09	@Leliana	like L3 and Cogent
+2018-12-17 20:31:17	@Leliana	the ISPs peer with them
+2018-12-17 20:31:18	suits	no i didn't know that
+2018-12-17 20:31:27	@Leliana	so of course you can go around the ISPs
+2018-12-17 20:31:46	suits	that makes it seem even worse
+2018-12-17 20:31:49	@Leliana	well, technically ISPs peer with tier 2s, who peer with tier 1
+2018-12-17 20:31:56	suits	so those companies like Cogent could seriously fuck around
+2018-12-17 20:32:02	@Leliana	lmao
+2018-12-17 20:32:04	@Leliana	yeah
+2018-12-17 20:32:07	@Leliana	sure they'd get away with that
+2018-12-17 20:32:08	@Leliana	/s
+2018-12-17 20:33:31	suits	"In February 2017, Cogent blocked many piracy and streaming sites including The Pirate Bay."
+2018-12-17 20:33:37	suits	they already fucked around a bunch apparently
+2018-12-17 20:34:45	suits	"This was unintentional due to a poorly crafted Spanish court order."
+2018-12-17 20:34:46	suits	well
+2018-12-17 20:35:01	@Leliana	it affected more than just TPB too
+2018-12-17 20:35:02	+Khorne	suits, nope
+2018-12-17 20:35:07	@Leliana	but that doesn't make good headlines
+2018-12-17 20:35:12	+Khorne	Also ISP is more than just whoever lays lines to your home
+2018-12-17 20:35:24	+Khorne	Cable, Fiber, Mobile carriers
+2018-12-17 20:36:56	suits	hmm yea i guess for now it might be impossible to centralize the internet completely
+2018-12-17 20:38:31	@Leliana	trust me, the internet's not going down any time soon
+2018-12-17 20:39:56	suits	idk looks grim tho if they succeed someday with those EU laws
+2018-12-17 20:40:07	@Leliana	no, not really
+2018-12-17 20:41:06	suits	if there's anything Leliana is positive about it's his dear internet!
+2018-12-17 20:41:14	suits	well you know a lot about networks and such
+2018-12-17 20:49:32	suits	what are you guys doing tonight
+2018-12-17 20:49:32	suits	i'll sleep soon
+2018-12-17 22:50:29	-->	Ergo (~nathaniel@Rizon-655F8092.ip.xs4all.nl) has joined #rice
+2018-12-17 22:50:29	--	Topic for #rice is "No Rice No Life? | Channel guidelines: https://rizonrice.github.io/guidelines | Ricing help: https://rizonrice.github.io/resources | <+cappuccino> why do people use void linux, its such a lonely life | <@Leliana> my sister is pretty fuckable"
+2018-12-17 22:50:29	--	Topic set by Leliana (is@revthefox.co.uk) on Thu, 13 Dec 2018 16:28:47
+2018-12-17 22:50:29	--	Channel #rice: 177 nicks (9 ops, 0 halfops, 13 voices, 155 normals)
+2018-12-17 22:50:31	--	Channel created on Sun, 30 Dec 2012 00:07:54
+2018-12-17 22:50:40	Ergo	.git workodera 
+2018-12-17 22:50:41	+cappuccino	(1) https://github.com/onodera-punpun [workodera]
+2018-12-17 22:50:51	Ergo	sorry, needed your crux ports lol
+2018-12-17 22:50:57	@Leliana	Ergo: you need a bouncer fam
+2018-12-17 22:51:05	Ergo	a what now 
+2018-12-17 22:51:07	@Leliana	nobody goes offline in 2018
+2018-12-17 22:51:21	Ergo	ofcourse i go offline when i restart my pc 
+2018-12-17 22:51:33	@Leliana	I don't :)
+2018-12-17 22:51:44	<--	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 22:51:45	Ergo	you have a server or something? 
+2018-12-17 22:51:51	@Leliana	https://en.wikipedia.org/wiki/BNC_(software)
+2018-12-17 22:51:51	+cappuccino	[ en.wikipedia.org ] BNC (software) - Wikipedia (text/html)
+2018-12-17 22:51:53	Ergo	im gonna build a nas next motnh prolly
+2018-12-17 22:51:58	@Leliana	pretty much everyone who's here 24/7 is on a bouncer lmao
+2018-12-17 22:52:11	@Leliana	or a weechat relay
+2018-12-17 22:52:26	Ergo	hmmm, never heard of that before
+2018-12-17 22:52:29	Ergo	that does seem very useful 
+2018-12-17 22:52:44	Ergo	especially for all the times i lost connection while in a red interview queue or in a conversation 
+2018-12-17 22:52:49	Ergo	or had to restart or w.e 
+2018-12-17 22:53:21	@Leliana	I'll put you on mine if you want, or rizon has free, but limited bouncers
+2018-12-17 22:53:25	@Leliana	or you could ask just about anyone here
+2018-12-17 22:53:29	Ergo	do i need webspace for that? 
+2018-12-17 22:53:33	Ergo	or a server i guess 
+2018-12-17 22:53:36	@Leliana	to self-host?
+2018-12-17 22:53:38	@Leliana	yes
+2018-12-17 22:53:48	Ergo	i should be able to do it then when i build my nas no? 
+2018-12-17 22:54:27	@Leliana	could do, kinda defeats the point of "stay connected even if your internet is out"
+2018-12-17 22:54:43	Ergo	hmmm ye thats true 
+2018-12-17 22:55:01	Ergo	im reading up on weechat relay now 
+2018-12-17 22:57:28	@Leliana	like I said, rizon has free bouncers if you only plan to connect to rizon, but there's a few people in here who'll likely hook you up since you've been active here a while
+2018-12-17 22:58:06	@Leliana	just don't ask Khorne, he'll likely call you a cunt then log all your PMs
+2018-12-17 22:58:36	+nai	well, fuck
+2018-12-17 22:58:42	+nai	i just did multipart/form-data parsing in bash.
+2018-12-17 22:58:48	@Leliana	...why
+2018-12-17 22:58:53	+nai	and csplit(1) from coreutils
+2018-12-17 22:58:56	+nai	kill me
+2018-12-17 22:59:11	+nai	Leliana: it's a drug and it's eating me from the inside
+2018-12-17 22:59:34	@Leliana	I mean, sounds like python would be better suited
+2018-12-17 22:59:59	-->	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:00:05	<--	Sycophant (~Sycophant@toll.the.hounds) has quit (Quit: Quit)
+2018-12-17 23:00:21	Ergo	> Implying i get pm's 
+2018-12-17 23:00:31	Ergo	well Leliana if its not too much effort i would like the bouncer 
+2018-12-17 23:01:54	@Leliana	give me a bit, gotta smoke
+2018-12-17 23:02:14	<--	louis__ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:02:31	Ergo	suree thing 
+2018-12-17 23:02:54	+nai	Leliana: look at this shit https://up.monade.li/3GFMxz.cgi
+2018-12-17 23:02:54	+cappuccino	[ up.monade.li ] #!/bin/bash exec 2>&1 boundary_pattern='boundary=([^":[:space:]]*)|boundary="([^"]*)"' name_pattern='name=([^":[:space:]]*)|n... (text/plain) (791.0B)
+2018-12-17 23:03:18	+nai	just does the printing for now
+2018-12-17 23:04:11	@Leliana	ude..
+2018-12-17 23:04:14	@Leliana	just use python
+2018-12-17 23:04:16	@Leliana	srs
+2018-12-17 23:04:23	+nai	i mean
+2018-12-17 23:04:39	+nai	i don't think it would be more adapted unless i actually used a lib
+2018-12-17 23:04:49	@eti	what it do
+2018-12-17 23:05:04	+nai	parse multipart/form-data content from a http POST request
+2018-12-17 23:05:05	+sj1k	Then use python and use a lib
+2018-12-17 23:05:07	+sj1k	:P
+2018-12-17 23:05:18	+nai	basically it's a CGI script, you can upload a file to it and it can read it and store it in the server
+2018-12-17 23:05:24	@Leliana	> from a http POST request
+2018-12-17 23:05:25	@Leliana	oh no
+2018-12-17 23:05:29	@Leliana	Khorne: he's doing it again
+2018-12-17 23:05:31	@eti	what's the env line for
+2018-12-17 23:05:37	+nai	eti: debugging
+2018-12-17 23:05:38	@eti	i see
+2018-12-17 23:05:51	+nai	for now it doesn't do anything, just prints the parsed data and sends it back to the response
+2018-12-17 23:06:02	+nai	Leliana: with basicauth of course
+2018-12-17 23:06:29	@eti	i should really stop forgetting about printf's %s huh
+2018-12-17 23:06:31	+nai	did you think i would compromise my system's safety with weird bash experiments? pfft
+2018-12-17 23:06:59	@eti	aren't you the guy who exposed his home directory on his website
+2018-12-17 23:07:18	@Leliana	yep
+2018-12-17 23:07:19	@Leliana	webserver
+2018-12-17 23:07:21	@Leliana	written
+2018-12-17 23:07:23	@Leliana	in
+2018-12-17 23:07:25	@Leliana	bash
+2018-12-17 23:07:26	+nai	wait for it
+2018-12-17 23:07:28	Ergo	eti loll 
+2018-12-17 23:07:29	+nai	awww you ruined it.
+2018-12-17 23:07:57	Ergo	worst thing i did was put my upste code on github for like 1 second 
+2018-12-17 23:08:21	@eti	i exposed my the ftp password and rizon password on my dotfiles a while ago
+2018-12-17 23:08:33	@Leliana	>upste
+2018-12-17 23:08:36	@Leliana	Ergo: er, what
+2018-12-17 23:08:38	@eti	some guy had to send me an email for me to realize that i it was still in it lmao
+2018-12-17 23:08:38	+nai	rofl
+2018-12-17 23:08:48	+nai	eti: tell me you cleaned the commit history
+2018-12-17 23:08:54	+nai	or started a new repo
+2018-12-17 23:08:55	@eti	oh ye i def did lmao
+2018-12-17 23:08:57	+nai	rofl
+2018-12-17 23:09:01	@eti	no i just deleted the commit
+2018-12-17 23:09:09	@eti	p sure that you can somehow find it
+2018-12-17 23:09:12	 *	Leliana headdesks
+2018-12-17 23:09:12	+nai	that's not enough
+2018-12-17 23:09:15	@eti	and i don't think i've ever changed it
+2018-12-17 23:09:16	+nai	lmfao
+2018-12-17 23:09:21	+nai	fucking ded
+2018-12-17 23:09:23	@eti	oh yeah it's clearly not enough
+2018-12-17 23:09:30	Ergo	Leliana: it was only for a second smh 
+2018-12-17 23:09:32	@eti	but who is gonna go through tons of commits
+2018-12-17 23:09:34	@eti	honestly
+2018-12-17 23:09:39	 *	nai grabs Leliana back by the shoulders and gives him a glass of water
+2018-12-17 23:09:39	@eti	how can they find it otherwise
+2018-12-17 23:09:45	<--	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:09:52	+nai	> tons of commits
+2018-12-17 23:09:52	@Leliana	Ergo: except, it's still in your git history
+2018-12-17 23:09:58	@Leliana	git tracks deletions too yno?
+2018-12-17 23:10:02	+nai	it's time for you to read about git's inner workings
+2018-12-17 23:10:06	@eti	ooooh no not that
+2018-12-17 23:10:07	Ergo	ahhhh, i will remove the commit right now 
+2018-12-17 23:10:13	@eti	no no i deleted the commit itself
+2018-12-17 23:10:15	@Leliana	you...can't just remove a commit
+2018-12-17 23:10:17	@eti	i reverted the repo to its state
+2018-12-17 23:10:18	@Leliana	that's not how git works
+2018-12-17 23:10:23	@eti	yes you can?
+2018-12-17 23:10:28	@eti	or mb i did remove the repo
+2018-12-17 23:10:28	+nai	https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+2018-12-17 23:10:29	+cappuccino	[ git-scm.com ] Git - Git Basics (text/html)
+2018-12-17 23:10:33	+nai	git doesn't remove anything
+2018-12-17 23:10:40	@eti	i think i started a fresh repo from before that happenned
+2018-12-17 23:10:46	@eti	ye i def started a new repo
+2018-12-17 23:10:50	@Leliana	seriously guys, once something has been checked into git, assume it will be there forever
+2018-12-17 23:10:54	+nai	^
+2018-12-17 23:10:56	Ergo	soo uhm 
+2018-12-17 23:10:57	@Leliana	because chances are, it will be
+2018-12-17 23:10:58	Ergo	what do lol 
+2018-12-17 23:10:58	@eti	ye ye ik
+2018-12-17 23:11:07	@eti	but who gives a shit about my rizon pswd amirite
+2018-12-17 23:11:09	@Leliana	Ergo: change your key
+2018-12-17 23:11:16	+nai	unless you actually go out of your way and force aggressive extra ++ prune the whole thing with bleach and burning alcohol
+2018-12-17 23:11:36	+nai	or delete the repo
+2018-12-17 23:11:45	@Leliana	doesn't matter if your key is in git if it's no longer valid
+2018-12-17 23:12:00	-->	morpho (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:12:04	Ergo	can i change my key myself? 
+2018-12-17 23:12:12	@Leliana	next time kids, use env variables or config that isn't checked into git
+2018-12-17 23:12:19	+nai	kek
+2018-12-17 23:12:21	+nai	or encrypt
+2018-12-17 23:12:23	@Leliana	Ergo: yes
+2018-12-17 23:12:30	@eti	so is https://rtyley.github.io/bfg-repo-cleaner/ snake oil?
+2018-12-17 23:12:30	+cappuccino	[ rtyley.github.io ] BFG Repo-Cleaner by rtyley (text/html)
+2018-12-17 23:12:36	@Leliana	same window you got your key from in the first place
+2018-12-17 23:12:43	@Leliana	homepage > toggle api info
+2018-12-17 23:13:14	+nai	idk, probably not
+2018-12-17 23:13:21	Ergo	i got my key from resources 
+2018-12-17 23:13:27	Ergo	on the pste.pw page 
+2018-12-17 23:13:45	@Leliana	well do what I said anyway then just put the new key in the script
+2018-12-17 23:14:01	@eti	yeet haw
+2018-12-17 23:14:22	@Leliana	although this is something to note for the rewrite
+2018-12-17 23:14:34	@Leliana	api key resets should be more discoverable, not hidden in a fade-in
+2018-12-17 23:14:38	+nai	mfw my bash thing is the most unsafe thing ever and i'm 2lazy2 look up the RFCs and do the regexs right
+2018-12-17 23:15:20	Ergo	i will just make a gitignore file and ignore the upste config file 
+2018-12-17 23:15:24	+nai	did i mention how much i hate basically all web standards
+2018-12-17 23:15:25	Ergo	for the next time i upload 
+2018-12-17 23:15:35	@eti	.8ball is kik really just cancer like i always thought
+2018-12-17 23:15:35	+cappuccino	eti: My reply is no.
+2018-12-17 23:15:40	@eti	hm
+2018-12-17 23:15:41	@eti	fair
+2018-12-17 23:15:42	@Leliana	Ergo: should still reset it
+2018-12-17 23:16:00	Ergo	i know, im looking for the button lol 
+2018-12-17 23:16:16	Ergo	ahh found it 
+2018-12-17 23:16:51	@eti	good night rice
+2018-12-17 23:16:53	@eti	sleep tight
+2018-12-17 23:16:57	Ergo	goodnightt 
+2018-12-17 23:17:02	@eti	and remember, don't put your info online
+2018-12-17 23:17:14	@Leliana	yeah nai
+2018-12-17 23:17:21	@eti	or someone who's bored might usurpate you for god knows whatever reason
+2018-12-17 23:17:30	Ergo	despite my fuckup, is the bouncer offer still open :)) 
+2018-12-17 23:17:32	+nai	wew eti
+2018-12-17 23:17:40	@Leliana	yeah, still gotta get that smoke tho
+2018-12-17 23:17:41	+nai	stop doxxing me
+2018-12-17 23:17:43	Ergo	loll 
+2018-12-17 23:17:46	Ergo	what you smoking 
+2018-12-17 23:17:57	+nai	why is caddy so shit at some things
+2018-12-17 23:18:11	+nai	like, i want to basicauth-protect /upload but not /upload.cgi
+2018-12-17 23:18:23	+nai	but it matches a prefix and there's no way to change that
+2018-12-17 23:18:29	+nai	it's just... so lazy
+2018-12-17 23:22:27	+nai	i'm about to write  [[ $(dig +short myip.opendns.com @resolver1.opendns.com) == "$(dig +short up.monade.li)" ]]  in my upload script and none of you can stop me
+2018-12-17 23:23:45	+nai	well actually i can stop myself. might as well use a --local flag
+2018-12-17 23:25:18	<--	oakridge (~oakridge@Rizon-1CA4CADD.bc.googleusercontent.com) has quit (Remote host closed the connection)
+2018-12-17 23:28:30	-->	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:30:45	<--	morpho (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:34:01	-->	louis__ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:36:14	<--	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:38:44	<--	louis__ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:41:09	-->	morpho (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:44:31	-->	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:45:10	+Khorne	Leliana, who is doing what
+2018-12-17 23:45:22	@Leliana	nai's making network stuff in bash again
+2018-12-17 23:45:42	+darkwater	so did tumblr properly self-destruct?
+2018-12-17 23:46:05	+Khorne	Leliana, oh I have him on ignore
+2018-12-17 23:46:12	+Khorne	he does too many dumb things
+2018-12-17 23:46:16	+darkwater	almost every tumblr i see is moving away
+2018-12-17 23:46:17	@Leliana	good choice
+2018-12-17 23:46:20	+Khorne	I dont want to catch that
+2018-12-17 23:46:22	+nai	Khorne: my ass you do
+2018-12-17 23:46:43	-->	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has joined #rice
+2018-12-17 23:46:45	<--	morpho (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:47:04	suits	Leliana: damn but only attackers with at least a contributor role can do it
+2018-12-17 23:47:06	+nai	not responding, that's clever
+2018-12-17 23:47:13	+nai	Khorne: let's see who breaks first tbh
+2018-12-17 23:47:37	@Leliana	Khorne: nai said you're a cock tease
+2018-12-17 23:47:49	+Khorne	tell nai he can suck it
+2018-12-17 23:47:59	@Leliana	I think that's his goal
+2018-12-17 23:48:00	+Khorne	nai, also me prolly tomorrow because I forget about this shit
+2018-12-17 23:48:26	+nai	well, you right now
+2018-12-17 23:48:28	+nai	tbh
+2018-12-17 23:48:31	+nai	i win
+2018-12-17 23:48:39	+Khorne	win what.
+2018-12-17 23:48:43	+nai	your <3
+2018-12-17 23:48:52	+Khorne	Uh..sure
+2018-12-17 23:48:56	+nai	s/<3/3=====D/
+2018-12-17 23:48:56	+cappuccino	nai meant to say: your 3=====D
+2018-12-17 23:49:19	+nai	this is a penis           ^
+2018-12-17 23:49:54	@cosarara	if you say so
+2018-12-17 23:50:11	@Leliana	typical small french dick
+2018-12-17 23:50:18	+nai	(not to scale)
+2018-12-17 23:51:02	@Leliana	yeah, it's really smaller but no monitor has the DPI to show fonts at that scale
+2018-12-17 23:51:36	 *	nai is now playing L'enfant Sauvage by Gojira
+2018-12-17 23:51:46	+nai	also fuck you
+2018-12-17 23:52:00	@Leliana	admit it, that was a good roast
+2018-12-17 23:52:34	+nai	Leliana: your sister is pretty fuckable
+2018-12-17 23:52:49	+nai	ahah, gottem.
+2018-12-17 23:53:05	suits	is she wife material tho
+2018-12-17 23:54:40	+nai	nah, way too much of a slut
+2018-12-17 23:54:46	+nai	right Leliana 
+2018-12-17 23:54:51	@Leliana	yeah
+2018-12-17 23:54:56	+nai	oh boi
+2018-12-17 23:55:01	-->	louis__ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-17 23:55:03	suits	bummer
+2018-12-17 23:55:21	@Leliana	It's probably because I used to let my friends have a go when we were kids
+2018-12-17 23:55:53	+nai	oh my
+2018-12-17 23:56:29	suits	and he complains about the downfall of the west
+2018-12-17 23:56:54	@Leliana	no I don't
+2018-12-17 23:57:14	<--	louis_ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Ping timeout: 240 seconds)
+2018-12-17 23:57:15	suits	you embrace it
+2018-12-17 23:58:11	+nai	if the west is falling down and the east is rising up... is the earth just rotating sideways? :thinking:
+2018-12-17 23:58:18	+nai	:thinking like really hard:
+2018-12-18 00:01:44	<--	natemon (~natemonst@Rizon-73E05F9C.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2018-12-18 00:03:43	<--	louis__ (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Read error: Connection reset by peer)
+2018-12-18 00:03:49	-->	morpho (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has joined #rice
+2018-12-18 00:03:53	suits	quiz: which planet rotates as only one clockwise in our solar system
+2018-12-18 00:04:00	<--	morpho (~morpho@BE825B86.40AE2FEC.618C73B3.IP) has quit (Remote host closed the connection)
+2018-12-18 00:04:21	+nai	with respect to what
+2018-12-18 00:04:31	suits	venus, man
+2018-12-18 00:04:36	suits	it's venus
+2018-12-18 00:04:56	suits	all the others including earth rotate counter-clockwise?
+2018-12-18 00:05:02	+nai	so does that mean its axis of rotation is on the other side of the orbital plane as other planets?
+2018-12-18 00:05:13	suits	idk why, you tell me
+2018-12-18 00:05:24	+nai	no, i'm trying to understand the question you asked
+2018-12-18 00:05:27	+nai	it's unclear as fuck lmao
+2018-12-18 00:05:43	+nai	a rotation isn't clockwise or counterclockwise unless you specify where you're looking at it from
+2018-12-18 00:05:49	<--	anon9234 (~anon9234@anon.vh.org) has quit (Quit: Coyote finally caught me)
+2018-12-18 00:06:00	-->	anon9234 (~anon9234@Rizon-66EFDD7E.dynamic.reverse-mundo-r.com) has joined #rice
+2018-12-18 00:06:04	suits	"Earth's rotation is the rotation of Planet Earth around its own axis. Earth rotates eastward, in prograde motion. As viewed from the north pole star Polaris, Earth turns counter clockwise."
+2018-12-18 00:06:40	suits	as do all our planets, except crazy venus
+2018-12-18 00:06:59	suits	from what i've heard in a quizshow
+2018-12-18 00:08:24	@cosarara	"as viewed from the north pole star Polaris" is the important bit
+2018-12-18 00:08:29	+nai	ye
+2018-12-18 00:08:41	+nai	actually what's important is it rotates in the opposite direction as its orbit
+2018-12-18 00:08:48	+nai	which is apparently called retrograde
+2018-12-18 00:08:53	+nai	as opposed to prograde for other planets
+2018-12-18 00:11:00	suits	that explains it a bit
+2018-12-18 00:15:05	+nai	oh god, calculus exam tomorrow
+2018-12-18 00:15:12	+nai	send help
+2018-12-18 00:15:19	suits	shouldn't you be studying then
+2018-12-18 00:16:03	+nai	i should mostly be sleeping
+2018-12-18 00:16:04	suits	why are students so lazy
+2018-12-18 00:16:10	suits	is money really the best motivation one can get
+2018-12-18 00:16:19	suits	go sleep then
+2018-12-18 00:16:32	+nai	i do know my lessons tho, just not perfectly
+2018-12-18 00:17:03	suits	if you don't score well i'll be disappointed
+2018-12-18 00:18:02	+nai	i'll be first
+2018-12-18 00:19:16	+nai	in being disappointed i mean
+2018-12-18 00:19:27	suits	i figured
+2018-12-18 00:22:11	-->	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has joined #rice
+2018-12-18 00:22:12	<--	anonsmith (~anonsmith@Rizon-7700DC96.cpe.net.cable.rogers.com) has quit
+2018-12-18 00:25:56	<--	Cosmonaut (~gagarin@S.P.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.C.E) has quit (Ping timeout: 240 seconds)

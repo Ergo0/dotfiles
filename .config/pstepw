@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DO NOT SHARE YOUR KEY
-key=RVdPq4sc19BlFZCYpxxyMkHPa7Mg5ihL1oVHGxV16dtyUGg6YkkidKrNu8eG2Drt
+key=Ah60cLKhbFqwEakJGZpgLGeJjiGJ55cODLmdlLbe34HbaDDC70kEugUd74sOwv30
 # Log URLs
 log=false
 # Log file location (if relevant)
@@ -12,4 +12,3 @@ clipboard=true
 notify=true
 # Open URL in browser
 browser=true
-

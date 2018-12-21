@@ -1,0 +1,10 @@
+game:
+  exe: /home/ronin/Games/overwatch/drive_c/Program Files (x86)/Overwatch/Overwatch.exe
+  prefix: ~/Games/overwatch
+system:
+  env:
+    ? ''
+    : ''
+    DXVK_HUD: '1'
+wine:
+  dxvk: true

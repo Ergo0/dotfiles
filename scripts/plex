@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo docker run \
+--name=plex \
+--net=host \
+-e VERSION=latest \
+-e PUID=1000 -e PGID=1000 \
+-e TZ=Europe/London \
+-v /home/j0nnymoe/appdata/plex:/config \
+linuxserver/plex

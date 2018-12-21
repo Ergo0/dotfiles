@@ -1,0 +1,306 @@
+2018-12-18 11:45:58	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 11:45:58	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 11:45:58	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 11:45:58	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 11:45:58	--	PvNotice(ChanServ): Welcome to #LinuxServer.io - Please enjoy your stay. chat / idle [ Website: linuxserver.io | Twitter: #linuxserverio ]
+2018-12-18 11:45:58	--	URL for #linuxserver.io: http://linuxserver.io
+2018-12-18 11:45:59	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 12:46:11	ergo0	would there be any use in asking a question here i asked in the discord? 
+2018-12-18 11:49:10	j0nnymoe	probably not
+2018-12-18 11:49:27	j0nnymoe	as more of the team are active on discord
+2018-12-18 12:49:47	ergo0	yee i just got a response, but it took a while. just wanted to check here if this was more active 
+2018-12-18 12:50:10	ergo0	i actually got a response by you j0nnymoe , im ergo lol 
+2018-12-18 12:50:12	ergo0	i mean ronin
+2018-12-18 12:26:54	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 12:26:54	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 12:26:54	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 12:26:54	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 12:26:55	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 12:33:44	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 12:33:44	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 12:33:44	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 12:33:44	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 12:33:46	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 12:35:31	<--	Aerya (~Aerya@aerya.upandclear.org) has quit (Remote host closed the connection)
+2018-12-18 12:39:49	-->	Aerya (~Aerya@aerya.upandclear.org) has joined #linuxserver.io
+2018-12-18 12:43:25	PCatinean	j0nnymoe, so I activated the reverse proxy by changing the name
+2018-12-18 12:43:38	PCatinean	and inside the server name I placed the full dns and I still get the "Welcome" message from nginx
+2018-12-18 12:45:58	j0nnymoe	I personally haven't used a duckdns address with the reverse proxy configs, I've only used full domains
+2018-12-18 12:46:31	j0nnymoe	check your nginx logs to see what's happening when it's being accessed
+2018-12-18 12:47:35	PCatinean	it just shows me the regular screen from the fresh install
+2018-12-18 12:48:32	j0nnymoe	I mean in /config/nginx/logs/
+2018-12-18 13:56:01	--	irc: disconnected from server
+2018-12-18 12:57:11	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 12:57:11	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 12:57:11	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 12:57:11	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 12:53:11	PCatinean	ah it worked, thanks!
+2018-12-18 12:57:17	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 12:58:30	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 12:58:30	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 12:58:30	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 12:58:30	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 12:58:32	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 12:59:56	Nebukadneza	i wondered why a project that focuses on FOSS like linuxserver.io uses such a terminally closed and ostracizing mean of communication [discord] as main-chat anyways ? ?
+2018-12-18 13:02:09	j0nnymoe	Nebukadneza, easier for support
+2018-12-18 13:02:28	j0nnymoe	irc is -ok- but no history/image/markdown support
+2018-12-18 13:03:23	j0nnymoe	plus we use it for internal comms
+2018-12-18 13:03:26	Nebukadneza	there are free, federated and modern protocols that feature such
+2018-12-18 13:03:34	Nebukadneza	for example matrix
+2018-12-18 13:03:39	j0nnymoe	it's more ease of access for the user
+2018-12-18 13:03:50	Nebukadneza	also xmpp if you maintain the server well, but i see there?s a problem with xmpp
+2018-12-18 13:04:03	Nebukadneza	the common matrix clients otoh are very end-user friendly
+2018-12-18 13:04:29	j0nnymoe	maybe it's something we will review at some point
+2018-12-18 13:04:32	j0nnymoe	but discord works well for us
+2018-12-18 13:06:36	Nebukadneza	mh yes, but their privacy practices and usage contract/eula does in fact stop users from being able to enter it
+2018-12-18 13:07:36	Nebukadneza	i feel that as a open community producing and using free software, this is a point not to be neglected
+2018-12-18 13:07:49	Nebukadneza	still, i don?t want to only whine around ? just something to maybe think about one day ^_^
+2018-12-18 13:07:59	j0nnymoe	well that's why we keep the irc open ;)
+2018-12-18 13:08:29	j0nnymoe	Just I monitor it less here
+2018-12-18 13:08:38	j0nnymoe	due to no decent mobile android apps
+2018-12-18 13:10:23	Nebukadneza	*cough* matrix has a broad bridging ecosystem ? irc among others
+2018-12-18 15:36:03	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 15:36:03	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 15:36:03	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 15:36:03	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 15:36:05	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 15:58:46	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 15:58:46	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 15:58:46	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 15:58:46	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 15:58:49	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 17:22:06	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 17:22:06	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 17:22:06	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 17:22:06	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 17:22:09	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 17:36:52	-->	PCatinean (~PCatinean@2.233.95.221) has joined #linuxserver.io
+2018-12-18 20:05:59	ergo0	 i installed both the sonarr and sabnzbd dockers but
+2018-12-18 20:05:59	ergo0	             sonarr cant find sabnzbd. both programs work well otherwise
+2018-12-18 19:32:27	<--	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has quit (Ping timeout: 240 seconds)
+2018-12-18 19:34:52	-->	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has joined #linuxserver.io
+2018-12-18 19:40:12	<--	PCatinean (~PCatinean@2.233.95.221) has quit (Remote host closed the connection)
+2018-12-18 20:00:49	Kocane	Anyone using nzbToMedia together with sabnzbd?
+2018-12-18 20:07:27	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 20:07:27	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 20:07:27	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 20:07:27	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 20:07:29	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 20:22:50	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 20:22:50	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 20:22:50	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 20:22:50	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 20:22:52	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 20:28:31	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 20:28:31	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 20:28:31	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 20:28:31	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 20:28:33	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 20:37:33	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 20:37:33	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 20:37:33	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 20:37:33	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 20:37:35	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 22:21:07	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 22:21:07	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 22:21:07	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 22:21:07	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-18 22:21:09	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-18 22:29:48	<--	Nebukadneza (~nebukadne@ghostdub.de) has quit (Remote host closed the connection)
+2018-12-18 22:31:08	<--	phendryx (~phendryx@d28-23-85-105.dim.wideopenwest.com) has quit (Ping timeout: 272 seconds)
+2018-12-18 22:38:12	-->	phendryx (~phendryx@d28-23-85-105.dim.wideopenwest.com) has joined #linuxserver.io
+2018-12-19 00:38:22	--	irc: disconnected from server
+2018-12-18 23:38:33	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-18 23:38:33	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-18 23:38:33	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-18 23:38:33	--	Channel #linuxserver.io: 104 nicks (1 ops, 0 voices, 103 normals)
+2018-12-18 23:38:41	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-19 00:19:42	<--	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has quit (Remote host closed the connection)
+2018-12-19 00:47:15	-->	tryfan (~quassel@unaffiliated/tryfan) has joined #linuxserver.io
+2018-12-19 00:54:04	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 00:54:59	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 01:02:02	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Ping timeout: 244 seconds)
+2018-12-19 12:13:03	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-19 12:13:03	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-19 12:13:03	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-19 12:13:03	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-19 12:13:06	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-19 13:47:21	-->	kornflex (51fe547f@gateway/web/freenode/ip.81.254.84.127) has joined #linuxserver.io
+2018-12-19 13:47:26	kornflex	hi all !
+2018-12-19 13:48:38	kornflex	I need your help about jackett and docker :/ I use it more than a year, but I can't start it again :/ someone can help me please ?
+2018-12-19 13:51:49	j0nnymoe	kornflex, just rebuild the container
+2018-12-19 13:52:00	Rawh	I think you'll have more luck trying it on the forum or discord
+2018-12-19 13:52:05	j0nnymoe	delete your current container/delete the images
+2018-12-19 13:52:06	Rawh	(for linuxserver.io)
+2018-12-19 13:52:07	j0nnymoe	and rebuild
+2018-12-19 13:52:13	Rawh	Oh j0nnymoe is actually active here :D
+2018-12-19 13:52:17	 *	Rawh shrugs helplessly
+2018-12-19 13:52:27	j0nnymoe	yea I don't monitor this much
+2018-12-19 13:52:33	j0nnymoe	but when I do...
+2018-12-19 13:52:34	j0nnymoe	lol
+2018-12-19 13:53:08	Rawh	hehe
+2018-12-19 13:53:20	kornflex	thank you, I try to delete and recreate but still this :  Error response from daemon: oci runtime error: container_linux.go:247: starting container process caused "exec: \"/init\": stat /init: no such file or directory"
+2018-12-19 13:53:25	Rawh	I usually have irssi attached, and if the channel hilights, I'm there
+2018-12-19 13:53:37	j0nnymoe	you're using the wrong image for the wrong platform it seems then
+2018-12-19 13:53:44	j0nnymoe	linuxserver = x86
+2018-12-19 13:53:46	Rawh	i was about to say...
+2018-12-19 13:53:49	kornflex	I will try on the forum
+2018-12-19 13:53:54	j0nnymoe	what?
+2018-12-19 13:53:54	j0nnymoe	no
+2018-12-19 13:53:57	j0nnymoe	I'm telling you the issue now
+2018-12-19 13:53:58	j0nnymoe	lol
+2018-12-19 13:54:12	kornflex	:)
+2018-12-19 13:54:29	Rawh	hehe
+2018-12-19 13:54:34	j0nnymoe	you need to use the container from one of the following repo's
+2018-12-19 13:54:39	j0nnymoe	linuxserver = x64
+2018-12-19 13:54:45	j0nnymoe	lsioarmhf = arm devices
+2018-12-19 13:54:52	j0nnymoe	lsioaarch64 = arm64
+2018-12-19 13:55:30	kornflex	I use other image from linuxserver : sonarr, radarr, emby, all x86
+2018-12-19 13:55:45	Rawh	really? x86? is that still a thing? 
+2018-12-19 13:56:21	j0nnymoe	ok
+2018-12-19 13:56:25	j0nnymoe	so use linuxserver/jackett
+2018-12-19 13:56:32	kornflex	my problem is if I download agin the same image, it's in cache. i try to delete it with docker image prune but still in cahce
+2018-12-19 13:56:48	j0nnymoe	we don't have an emby image
+2018-12-19 13:57:13	j0nnymoe	Rawh, well it's x86_64 ;)
+2018-12-19 13:57:27	kornflex	you re right, not emby :) but radarr and sonarr :)
+2018-12-19 13:57:39	Rawh	>.>
+2018-12-19 13:57:46	j0nnymoe	put your docker run command for jackett on a pastebin
+2018-12-19 13:57:56	j0nnymoe	or how ever you're trying to run it
+2018-12-19 14:00:06	kornflex	https://pastebin.com/YX3UsMwv
+2018-12-19 14:01:05	kornflex	thank you
+2018-12-19 14:02:24	j0nnymoe	run uname -a for me
+2018-12-19 14:02:25	j0nnymoe	on the host
+2018-12-19 14:02:52	kornflex	Linux jarvis 3.10.105 #23739 SMP Tue Jul 3 19:47:13 CST 2018 x86_64 GNU/Linux synology_bromolow_3615xs
+2018-12-19 14:03:01	kornflex	xpenology on a i5 8600k
+2018-12-19 14:03:09	j0nnymoe	ah
+2018-12-19 14:03:13	j0nnymoe	hmm
+2018-12-19 14:03:41	kornflex	yes: / but all containers run :
+2018-12-19 14:03:41	kornflex	b0754b4a2979        linuxserver/jackett:latest   "/init"             21 minutes ago      Created                                                                                                               Jackett bccda2c3383c        linuxserver/radarr:latest    "/init"             4 days ago          Up 6 hours          0.0.0.0:7878->7878/tcp                                                                            Radarr
+2018-12-19 14:04:29	j0nnymoe	let me try here
+2018-12-19 14:04:36	kornflex	ok
+2018-12-19 14:05:35	Rawh	Wasn't jacket updated yesterday
+2018-12-19 14:05:45	Rawh	I remember getting a push notify about it from pushover
+2018-12-19 14:05:50	j0nnymoe	gets updated as and when the dev's push a release
+2018-12-19 14:05:56	Rawh	(i haven't updated yet) 
+2018-12-19 14:07:36	j0nnymoe	kornflex, https://pastebin.com/FXPa4FN9
+2018-12-19 14:07:37	j0nnymoe	worked here
+2018-12-19 14:09:07	kornflex	ok.... so it's me, i will find :)
+2018-12-19 14:09:52	kornflex	is it possible to delete and clear cache a the image ?
+2018-12-19 14:10:11	kornflex	i try to delete it, but still there, so I can download all the image
+2018-12-19 14:10:27	kornflex	I had a CRC problem like 
+2018-12-19 14:10:30	Rawh	run 'docker images'
+2018-12-19 14:10:38	Rawh	and then 'docker rmi -f <image-id>'
+2018-12-19 14:11:12	Rawh	that should take care of the image if there was an ERR in downloadit it
+2018-12-19 14:11:15	Rawh	downloading* 
+2018-12-19 14:11:49	kornflex	OK I will try these commands
+2018-12-19 14:12:08	kornflex	frist delete container, then iamge
+2018-12-19 14:12:38	Rawh	if you still have the container, yes
+2018-12-19 14:12:42	Rawh	but it will tell you ;)
+2018-12-19 14:13:35	kornflex	container not yet deleted... very slow...
+2018-12-19 14:15:24	Rawh	Are your images installed / running on the syno array, or on a dedicated ssd ?
+2018-12-19 14:15:48	kornflex	on syno array
+2018-12-19 14:16:11	kornflex	if the container can start, it's quick
+2018-12-19 14:16:34	kornflex	but this one is slow....
+2018-12-19 14:17:47	kornflex	docker rmi -f will delete the image and the cache ?
+2018-12-19 14:18:21	kornflex	great it's done !
+2018-12-19 14:18:30	kornflex	let's start again, and again 
+2018-12-19 14:19:15	-->	headcase (~headcase@unaffiliated/headcase) has joined #linuxserver.io
+2018-12-19 14:19:16	kornflex	doker pull : image already exists...
+2018-12-19 14:19:49	j0nnymoe	doesn't synology have some sort of docker gui you can use to remove images?
+2018-12-19 14:19:50	Rawh	All images or just partilly ?
+2018-12-19 14:20:12	kornflex	yes, syno has a webUI for docker
+2018-12-19 14:20:33	kornflex	but it wasn't ok, so I use bash to have errors
+2018-12-19 14:20:59	Rawh	maybe use portainer instead? (it's a docker image to manage docker with gui) 
+2018-12-19 14:21:15	Rawh	Though in all honesty, there is no real way to remove cache
+2018-12-19 14:21:47	Rawh	you can delete the '/var/lib/docker' directory, but you'll lose everything >.<
+2018-12-19 14:22:06	Rawh	That it however as close you can get to cache deletion
+2018-12-19 14:25:49	kornflex	it's not possible to create a container wtih a tar file ?
+2018-12-19 14:26:04	kornflex	unstead of the repository ? 
+2018-12-19 14:27:16	kornflex	or try with an other repo for x86 arch
+2018-12-19 14:31:12	Rawh	kornflex: https://stackoverflow.com/questions/40582300/how-to-load-docker-image-from-tar-file
+2018-12-19 14:38:40	kornflex	I use this repo : https://hub.docker.com/r/orbnedron/jackett/
+2018-12-19 14:38:45	kornflex	it works...
+2018-12-19 14:39:19	kornflex	thank you for your help
+2018-12-19 14:39:23	kornflex	and time
+2018-12-19 14:40:14	kornflex	I think, I had a problem when downloading the new image automaticaly with watchtower ... 
+2018-12-19 14:46:04	j0nnymoe	we as a group don't recommend watchtower
+2018-12-19 14:46:16	j0nnymoe	use docker-compose or create a bash script
+2018-12-19 15:05:45	kornflex	ok i will see it
+2018-12-19 15:22:52	-->	sentriz (~sentriz@unaffiliated/sentriz) has joined #linuxserver.io
+2018-12-19 15:51:27	kornflex	see U
+2018-12-19 15:51:30	<--	kornflex (51fe547f@gateway/web/freenode/ip.81.254.84.127) has quit (Quit: Page closed)
+2018-12-19 17:24:37	--	BadFontKeming is now known as Sousapro
+2018-12-19 19:01:43	<--	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has quit (Quit: Out)
+2018-12-19 19:01:53	-->	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has joined #linuxserver.io
+2018-12-19 19:04:50	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 19:06:03	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 19:17:05	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 19:17:28	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 19:45:19	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 19:46:24	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 19:48:05	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 19:48:28	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 22:25:04	<--	PCatinean (~PCatinean@2.233.95.221) has quit (Remote host closed the connection)
+2018-12-19 22:37:23	<--	purist (~purist@gateway/tor-sasl/purist) has quit (Remote host closed the connection)
+2018-12-19 22:37:42	-->	purist (~purist@gateway/tor-sasl/purist) has joined #linuxserver.io
+2018-12-19 23:23:56	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 23:25:21	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 23:51:43	<--	phendryx (~phendryx@d28-23-85-105.dim.wideopenwest.com) has quit (Ping timeout: 244 seconds)
+2018-12-19 23:52:55	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-19 23:53:35	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-19 23:56:42	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Read error: No route to host)
+2018-12-19 23:57:28	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 00:34:14	<--	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has quit (Remote host closed the connection)
+2018-12-20 01:01:47	-->	phendryx (~phendryx@d28-23-85-105.dim.wideopenwest.com) has joined #linuxserver.io
+2018-12-20 01:34:52	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-20 01:36:50	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 02:54:01	<--	ixnyne (~ixnyne@cpe-74-130-99-14.kya.res.rr.com) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-12-20 02:54:54	-->	ixnyne (~ixnyne@cpe-74-130-99-14.kya.res.rr.com) has joined #linuxserver.io
+2018-12-20 02:58:46	-->	axx2 (~axx_@lns-bzn-54-82-251-109-9.adsl.proxad.net) has joined #linuxserver.io
+2018-12-20 02:58:48	<--	axx_ (~axx_@lns-bzn-54-82-251-109-9.adsl.proxad.net) has quit (Ping timeout: 245 seconds)
+2018-12-20 04:27:33	<--	headcase (~headcase@unaffiliated/headcase) has quit (Ping timeout: 245 seconds)
+2018-12-20 04:49:07	-->	headcase (~headcase@unaffiliated/headcase) has joined #linuxserver.io
+2018-12-20 05:15:57	<--	Fusl (~fusl@opennic/fusl) has quit (Remote host closed the connection)
+2018-12-20 05:17:12	-->	Fusl (~fusl@opennic/fusl) has joined #linuxserver.io
+2018-12-20 08:43:04	-->	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has joined #linuxserver.io
+2018-12-20 08:52:00	-->	eigenvalue (~eigenvalu@unaffiliated/eigenvalue) has joined #linuxserver.io
+2018-12-20 08:56:39	<--	rubdos (~rubdos@ptr-1uzevqefjgxdm5wv65h.18120a2.ip6.access.telenet.be) has quit (Ping timeout: 252 seconds)
+2018-12-20 10:57:20	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-20 10:57:45	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 12:34:42	<--	headcase (~headcase@unaffiliated/headcase) has quit (Ping timeout: 250 seconds)
+2018-12-20 12:45:10	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-20 12:46:44	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 13:09:30	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-20 13:10:03	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 14:34:55	<--	purist (~purist@gateway/tor-sasl/purist) has quit (Remote host closed the connection)
+2018-12-20 14:36:37	-->	purist (~purist@gateway/tor-sasl/purist) has joined #linuxserver.io
+2018-12-20 15:00:00	-->	headcase (~headcase@unaffiliated/headcase) has joined #linuxserver.io
+2018-12-20 18:08:09	<--	headcase (~headcase@unaffiliated/headcase) has quit (Read error: Connection reset by peer)
+2018-12-20 18:08:22	-->	headcase (~headcase@unaffiliated/headcase) has joined #linuxserver.io
+2018-12-20 19:48:43	--	irc: disconnected from server
+2018-12-20 18:48:52	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-20 18:48:52	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-20 18:48:52	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-20 18:48:52	--	Channel #linuxserver.io: 107 nicks (1 ops, 0 voices, 106 normals)
+2018-12-20 18:49:00	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-20 18:52:53	-->	jedahan (~jedahan@subtle/user/jedahan) has joined #linuxserver.io
+2018-12-20 19:05:39	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-20 19:06:46	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 19:22:34	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Remote host closed the connection)
+2018-12-20 19:23:13	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io
+2018-12-20 20:07:18	-->	dafritz007 (54c51a5b@gateway/web/freenode/ip.84.197.26.91) has joined #linuxserver.io
+2018-12-20 20:07:43	dafritz007	Hello, are there any plans to support unifi v5.9.29?
+2018-12-20 20:17:03	<--	dafritz007 (54c51a5b@gateway/web/freenode/ip.84.197.26.91) has quit (Ping timeout: 256 seconds)
+2018-12-20 21:29:08	<--	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has quit (Ping timeout: 268 seconds)
+2018-12-20 22:41:46	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-20 22:41:46	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-20 22:41:46	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-20 22:41:46	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-20 22:41:48	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-20 23:00:43	-->	ergo0 (ergo@2607:5300:60:34b:d::36) has joined #linuxserver.io
+2018-12-20 23:00:43	--	Topic for #linuxserver.io is "=[ Welcome to #LinuxServer.io ][ Please No Piracy Talk ][ Website: linuxserver.io | Twitter: linuxserverio ][ News: https://www.linuxserver.io/2017/09/15/linuxserver-io-discord-server/ ]="
+2018-12-20 23:00:43	--	Topic set by j0nnymoe on Fri, 15 Sep 2017 10:24:46
+2018-12-20 23:00:43	--	Channel #linuxserver.io: 106 nicks (1 ops, 0 voices, 105 normals)
+2018-12-20 23:00:45	--	Channel created on Tue, 24 Feb 2015 08:16:39
+2018-12-20 23:21:34	<--	Raichvent (~Raichvent@sb-217-129-112-168.netvisao.pt) has quit (Read error: Connection reset by peer)
+2018-12-21 00:28:44	-->	H-K (~h_k@bl5-128-147.dsl.telepac.pt) has joined #linuxserver.io

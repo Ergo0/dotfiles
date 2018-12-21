@@ -1,0 +1,10 @@
+game:
+  exe: /home/ronin/Games/overwatch/drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+  prefix: ~/Games/overwatch
+system:
+  disable_runtime: true
+  prefer_system_libs: false
+wine:
+  dxvk: true
+  dxvk_version: '0.94'
+  x360ce-dinput: false

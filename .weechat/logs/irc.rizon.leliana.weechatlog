@@ -6,3 +6,43 @@
 2018-11-07 01:39:20	Leliana	got it
 2018-11-07 01:39:22	Leliana	accepted
 2018-11-07 01:41:19	Ergo	thankss alot :) 
+2018-12-17 23:36:53	Leliana	right
+2018-12-17 23:36:59	Leliana	do you have a domain name?
+2018-12-17 23:39:07	Ergo	nope 
+2018-12-17 23:39:21	Ergo	do i need one? 
+2018-12-17 23:39:26	Leliana	no
+2018-12-17 23:40:52	Leliana	weechat?
+2018-12-17 23:42:08	Ergo	yee 
+2018-12-17 23:42:10	Ergo	im using weechat 
+2018-12-17 23:43:35	Leliana	https://a.pste.pw/h1s.txt
+2018-12-17 23:43:36	Leliana	do that
+2018-12-17 23:48:02	Ergo	ayyee thanks 
+2018-12-17 23:48:05	Ergo	i will get on that now 
+2018-12-17 23:48:10	Ergo	is that only for rizon then?
+2018-12-17 23:48:28	Leliana	it's set for rizon now, but you can add new networks in the control panel
+2018-12-17 23:49:06	Leliana	just follow https://wiki.znc.in/Weechat#Connecting for new networks
+2018-12-17 23:50:26	Ergo	ayee thankss 
+2018-12-18 00:28:18	Ergo	i cant seem to log in 
+2018-12-18 00:28:21	Ergo	on the znc site 
+2018-12-18 00:29:03	Leliana	did you use the password I gave you in that text file?
+2018-12-18 00:29:18	Ergo	yupp 
+2018-12-18 00:29:25	Ergo	but i cant figure out the username 
+2018-12-18 00:29:31	Ergo	tried ergo and ergo/rizon 
+2018-12-18 00:29:39	Leliana	it's case sensitive.
+2018-12-18 00:30:06	Ergo	so its just Ergo? 
+2018-12-18 00:30:09	Leliana	yes
+2018-12-18 00:30:45	Ergo	for the #PASSWORD bit i just type the password right 
+2018-12-18 00:30:51	Leliana	._.
+2018-12-18 00:30:53	Ergo	or would you write a env variable called PASSWORD? 
+2018-12-18 00:30:53	Leliana	yes
+2018-12-18 00:31:03	Ergo	ohhh, i was aware you use it like that 
+2018-12-18 00:31:08	Ergo	just was wondering if you used something like that 
+2018-12-18 00:35:06	gangganggang	ayee seems to be working 
+2018-12-18 00:35:23	ergo7z	any way for me to add more servers
+2018-12-18 00:35:26	ergo7z	seems like im locked to 1 for now 
+2018-12-18 00:36:02	Leliana	I just told you, add it from the web interface
+2018-12-18 00:36:13	Leliana	er, one sec
+2018-12-18 00:36:28	Leliana	sorted
+2018-12-18 00:39:05	ergo7z	i did try adding it from the webinterface smh 
+2018-12-18 00:39:06	ergo7z	but thanks :) 
+2018-12-18 00:46:44	--	irc: disconnected from server

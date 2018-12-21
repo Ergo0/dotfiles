@@ -6120,3 +6120,73 @@
 2018-12-14 18:32:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
 2018-12-16 01:15:04		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
 2018-12-17 12:59:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/buflist.conf, line 13: unknown option for section "look": add_newline = on
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/xfer.conf, line 33: unknown option for section "network": send_ack = on
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 60: unknown option for section "look": smart_filter_chghost = on
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 76: unknown option for section "color": message_chghost = brown
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 144: unknown option for section "server_default": split_msg_max_length = 512
+2018-12-17 18:15:18	=!=	irc: error creating server option "freenode.split_msg_max_length"
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 195: invalid value for option: freenode.split_msg_max_length
+2018-12-17 18:15:18	=!=	irc: error creating server option "snoonet.split_msg_max_length"
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 236: invalid value for option: snoonet.split_msg_max_length
+2018-12-17 18:15:18	=!=	irc: error creating server option "rizon.split_msg_max_length"
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 277: invalid value for option: rizon.split_msg_max_length
+2018-12-17 18:15:18	=!=	irc: error creating server option "scratch.split_msg_max_length"
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 318: invalid value for option: scratch.split_msg_max_length
+2018-12-17 18:15:18	=!=	irc: error creating server option "unix.split_msg_max_length"
+2018-12-17 18:15:18	=!=	Warning: /home/ronin/.weechat/irc.conf, line 359: invalid value for option: unix.split_msg_max_length
+2018-12-17 18:15:18		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 18:15:25	=!=	irc: command "join" must be executed on connected irc server
+2018-12-17 18:15:33	=!=	irc: command "join" must be executed on connected irc server
+2018-12-17 18:15:49	=!=	irc: command "msg" must be executed on connected irc server
+2018-12-17 18:15:53	=!=	irc: command "msg" must be executed on connected irc server
+2018-12-17 18:16:09		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 18:17:09	=!=	irc: command "join" must be executed on connected irc server
+2018-12-17 18:17:16	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-12-17 18:17:31	=!=	irc: command "msg" must be executed on connected irc server
+2018-12-17 18:17:53		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 18:18:57		Option changed: weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2018-12-17 18:19:29		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 18:19:40		Option changed: irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2018-12-17 18:20:00		Option changed: irc.server.freenode.ssl = on  (default if null: off)
+2018-12-17 19:23:00		Plugins loaded: alias, buflist, charset, exec, fifo, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 19:23:03		Option changed: weechat.network.gnutls_ca_file = ""/etc/ssl/cert.pem"  (default: "/etc/ssl/certs/ca-certificates.crt")
+2018-12-17 19:23:22	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-12-17 19:25:31		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-17 19:25:53		Option changed: weechat.network.gnutls_ca_file = "/etc/ssl/cert.pem"
+2018-12-17 19:27:09	=!=	irc: unable to add temporary server "#unix" because the addition of temporary servers with command /connect is currently disabled
+2018-12-17 19:27:09	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-12-17 20:53:37		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 00:26:55		irc: server foxbnc_rizon added
+2018-12-18 00:27:08		Option changed: irc.server_default.capabilities = "account-notify,away-notify,cap-notify,multi-prefix,server-time,znc.in/server-time-iso,znc.in"  (default: "")
+2018-12-18 00:27:14	=!=	Error: unknown command "/self-message" (type /help for help)
+2018-12-18 00:27:20		Alias "znc" => "/quote znc" created
+2018-12-18 00:32:02		Option changed: irc.server.foxbnc_rizon.password = "B00mbap10!"  (default if null: "")
+2018-12-18 00:32:43	=!=	irc: unable to add temporary server "#rice" because the addition of temporary servers with command /connect is currently disabled
+2018-12-18 00:32:43	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-12-18 00:43:20		irc: server foxbnc_freenode added
+2018-12-18 00:44:33		Alias "znc" => "/quote znc" created
+2018-12-18 00:44:51		Option changed: irc.server.foxbnc_freenode.password = "B00mbap10!"  (default if null: "")
+2018-12-18 00:46:22	=!=	Error with command "/server remove freenode" (help on command: /help server)
+2018-12-18 00:46:29	=!=	Error with command "/server delete freenode" (help on command: /help server)
+2018-12-18 00:46:33		irc: server freenode has been deleted
+2018-12-18 00:46:38	=!=	irc: you can not delete server "rizon" because you are connected to. Try "/disconnect rizon" before.
+2018-12-18 00:46:47		irc: server rizon has been deleted
+2018-12-18 03:07:35		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 12:24:19		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 12:45:14		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 13:26:54		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 13:33:43		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 13:58:30		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 16:35:35		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 16:36:03		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 16:58:46		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 18:22:06		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 21:07:27		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 21:22:50		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 21:28:31		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 21:37:33		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-18 23:21:07		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-19 13:13:04		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-20 23:41:46		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer
+2018-12-21 00:00:43		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, script, trigger, xfer

@@ -4957,3 +4957,460 @@
 2018-12-17 12:59:16	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the ongoing spam, all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
 2018-12-17 12:59:16	--	CTCP requested by freenode-connect: VERSION
 2018-12-17 12:59:16	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Oct 23 2018 01:39:42)
+2018-12-17 18:15:20	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:15:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:15:20	--	gnutls: receiving 2 certificates
+2018-12-17 18:15:20	--	 - certificate[1] info:
+2018-12-17 18:15:20	--	   - subject `CN=asimov.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03211eae27f5299aa3a98eea98753b525040, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:09:24 UTC', expires `2019-02-17 05:09:24 UTC', pin-sha256="GRROcqJsTfed3k+Km0rKz+JHZlGXy6waYexTwwaAwpM="
+2018-12-17 18:15:20	--	 - certificate[2] info:
+2018-12-17 18:15:20	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:15:20	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:15:20	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:15:20	=!=	irc: TLS handshake failed
+2018-12-17 18:15:20	=!=	irc: error: Error in the certificate.
+2018-12-17 18:15:20	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:15:30	--	irc: reconnecting to server...
+2018-12-17 18:15:30	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:15:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:15:30	--	gnutls: receiving 2 certificates
+2018-12-17 18:15:30	--	 - certificate[1] info:
+2018-12-17 18:15:30	--	   - subject `CN=orwell.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03d27355b1e801c8885f6ed7fe11e2bff106, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-12-17 05:05:36 UTC', expires `2019-03-17 05:05:36 UTC', pin-sha256="cS0p93N/8xISMq5B6ujzOx6NrEYoG16JE7vUJwyBwZo="
+2018-12-17 18:15:30	--	 - certificate[2] info:
+2018-12-17 18:15:30	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:15:30	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:15:30	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:15:30	=!=	irc: TLS handshake failed
+2018-12-17 18:15:30	=!=	irc: error: Error in the certificate.
+2018-12-17 18:15:30	--	irc: reconnecting to server in 20 seconds
+2018-12-17 18:15:50	--	irc: reconnecting to server...
+2018-12-17 18:15:50	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:15:50	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:15:50	--	gnutls: receiving 2 certificates
+2018-12-17 18:15:50	--	 - certificate[1] info:
+2018-12-17 18:15:50	--	   - subject `CN=cherryh.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03923aa067478acaef49363da583c6859ca2, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:12:03 UTC', expires `2019-02-17 05:12:03 UTC', pin-sha256="L/oAJaKLkR6Xc+xTQ7hGlDy1bSKrBxhAe1XX5nEKhd8="
+2018-12-17 18:15:50	--	 - certificate[2] info:
+2018-12-17 18:15:50	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:15:50	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:15:50	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:15:50	=!=	irc: TLS handshake failed
+2018-12-17 18:15:50	=!=	irc: error: Error in the certificate.
+2018-12-17 18:15:50	--	irc: reconnecting to server in 40 seconds
+2018-12-17 18:16:12	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:16:12	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:16:12	--	gnutls: receiving 2 certificates
+2018-12-17 18:16:12	--	 - certificate[1] info:
+2018-12-17 18:16:12	--	   - subject `CN=livingstone.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03d6390e536806f8609ac2faeb8747f97244, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 05:05:19 UTC', expires `2019-01-20 05:05:19 UTC', pin-sha256="3u+P2OSBbnY/GZnRawWLt9D+ucf+o70ls/IVd8FyVsI="
+2018-12-17 18:16:12	--	 - certificate[2] info:
+2018-12-17 18:16:12	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:16:12	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:16:12	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:16:12	=!=	irc: TLS handshake failed
+2018-12-17 18:16:12	=!=	irc: error: Error in the certificate.
+2018-12-17 18:16:12	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:16:22	--	irc: reconnecting to server...
+2018-12-17 18:16:22	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:16:23	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:16:23	--	gnutls: receiving 2 certificates
+2018-12-17 18:16:23	--	 - certificate[1] info:
+2018-12-17 18:16:23	--	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0378cfae7131ea66c4a0fecbba88ccd254e8, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 05:04:06 UTC', expires `2019-01-20 05:04:06 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2018-12-17 18:16:23	--	 - certificate[2] info:
+2018-12-17 18:16:23	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:16:23	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:16:23	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:16:23	=!=	irc: TLS handshake failed
+2018-12-17 18:16:23	=!=	irc: error: Error in the certificate.
+2018-12-17 18:16:23	--	irc: reconnecting to server in 20 seconds
+2018-12-17 18:16:43	--	irc: reconnecting to server...
+2018-12-17 18:16:43	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:16:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:16:43	--	gnutls: receiving 2 certificates
+2018-12-17 18:16:43	--	 - certificate[1] info:
+2018-12-17 18:16:43	--	   - subject `CN=barjavel.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03da7e0cc72c6e714dd5c6e47af28d134018, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-12-17 05:01:30 UTC', expires `2019-03-17 05:01:30 UTC', pin-sha256="bFnj58vIMRePUHKVVm66438zdgYX5r9/Y4qVLKLiLbI="
+2018-12-17 18:16:43	--	 - certificate[2] info:
+2018-12-17 18:16:43	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:16:43	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:16:43	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:16:43	=!=	irc: TLS handshake failed
+2018-12-17 18:16:43	=!=	irc: error: Error in the certificate.
+2018-12-17 18:16:43	--	irc: reconnecting to server in 40 seconds
+2018-12-17 18:17:23	--	irc: reconnecting to server...
+2018-12-17 18:17:23	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:17:24	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:17:24	--	gnutls: receiving 2 certificates
+2018-12-17 18:17:24	--	 - certificate[1] info:
+2018-12-17 18:17:24	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 18:17:24	--	 - certificate[2] info:
+2018-12-17 18:17:24	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:17:24	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:17:24	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:17:24	=!=	irc: TLS handshake failed
+2018-12-17 18:17:24	=!=	irc: error: Error in the certificate.
+2018-12-17 18:17:24	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-17 18:19:02	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:19:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:19:02	--	gnutls: receiving 2 certificates
+2018-12-17 18:19:02	--	 - certificate[1] info:
+2018-12-17 18:19:02	--	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0378cfae7131ea66c4a0fecbba88ccd254e8, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 05:04:06 UTC', expires `2019-01-20 05:04:06 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2018-12-17 18:19:02	--	 - certificate[2] info:
+2018-12-17 18:19:02	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:19:02	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:19:02	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:19:02	=!=	irc: TLS handshake failed
+2018-12-17 18:19:02	=!=	irc: error: Error in the certificate.
+2018-12-17 18:19:02	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:19:12	--	irc: reconnecting to server...
+2018-12-17 18:19:12	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:19:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:19:13	--	gnutls: receiving 2 certificates
+2018-12-17 18:19:13	--	 - certificate[1] info:
+2018-12-17 18:19:13	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 18:19:13	--	 - certificate[2] info:
+2018-12-17 18:19:13	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:19:13	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:19:13	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:19:13	=!=	irc: TLS handshake failed
+2018-12-17 18:19:13	=!=	irc: error: Error in the certificate.
+2018-12-17 18:19:13	--	irc: reconnecting to server in 20 seconds
+2018-12-17 18:20:04	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:20:04	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:20:04	--	gnutls: receiving 2 certificates
+2018-12-17 18:20:04	--	 - certificate[1] info:
+2018-12-17 18:20:04	--	   - subject `CN=barjavel.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03da7e0cc72c6e714dd5c6e47af28d134018, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-12-17 05:01:30 UTC', expires `2019-03-17 05:01:30 UTC', pin-sha256="bFnj58vIMRePUHKVVm66438zdgYX5r9/Y4qVLKLiLbI="
+2018-12-17 18:20:04	--	 - certificate[2] info:
+2018-12-17 18:20:04	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:20:04	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:20:04	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:20:04	=!=	irc: TLS handshake failed
+2018-12-17 18:20:04	=!=	irc: error: Error in the certificate.
+2018-12-17 18:20:04	--	irc: reconnecting to server in 10 seconds
+2018-12-17 18:20:14	--	irc: reconnecting to server...
+2018-12-17 18:20:14	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:20:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:20:14	--	gnutls: receiving 2 certificates
+2018-12-17 18:20:14	--	 - certificate[1] info:
+2018-12-17 18:20:14	--	   - subject `CN=livingstone.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03d6390e536806f8609ac2faeb8747f97244, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 05:05:19 UTC', expires `2019-01-20 05:05:19 UTC', pin-sha256="3u+P2OSBbnY/GZnRawWLt9D+ucf+o70ls/IVd8FyVsI="
+2018-12-17 18:20:14	--	 - certificate[2] info:
+2018-12-17 18:20:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:20:14	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:20:14	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:20:14	=!=	irc: TLS handshake failed
+2018-12-17 18:20:14	=!=	irc: error: Error in the certificate.
+2018-12-17 18:20:14	--	irc: reconnecting to server in 20 seconds
+2018-12-17 18:20:34	--	irc: reconnecting to server...
+2018-12-17 18:20:34	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:20:34	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:20:34	--	gnutls: receiving 2 certificates
+2018-12-17 18:20:34	--	 - certificate[1] info:
+2018-12-17 18:20:34	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 18:20:34	--	 - certificate[2] info:
+2018-12-17 18:20:34	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:20:34	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:20:34	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:20:34	=!=	irc: TLS handshake failed
+2018-12-17 18:20:34	=!=	irc: error: Error in the certificate.
+2018-12-17 18:20:34	--	irc: reconnecting to server in 40 seconds
+2018-12-17 18:21:14	--	irc: reconnecting to server...
+2018-12-17 18:21:14	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:21:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:21:14	--	gnutls: receiving 2 certificates
+2018-12-17 18:21:14	--	 - certificate[1] info:
+2018-12-17 18:21:14	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 18:21:14	--	 - certificate[2] info:
+2018-12-17 18:21:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:21:14	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:21:14	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:21:14	=!=	irc: TLS handshake failed
+2018-12-17 18:21:14	=!=	irc: error: Error in the certificate.
+2018-12-17 18:21:14	--	irc: reconnecting to server in 1 minute, 20 seconds
+2018-12-17 18:22:34	--	irc: reconnecting to server...
+2018-12-17 18:22:34	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:22:34	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:22:34	--	gnutls: receiving 2 certificates
+2018-12-17 18:22:34	--	 - certificate[1] info:
+2018-12-17 18:22:34	--	   - subject `CN=livingstone.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03d6390e536806f8609ac2faeb8747f97244, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 05:05:19 UTC', expires `2019-01-20 05:05:19 UTC', pin-sha256="3u+P2OSBbnY/GZnRawWLt9D+ucf+o70ls/IVd8FyVsI="
+2018-12-17 18:22:34	--	 - certificate[2] info:
+2018-12-17 18:22:34	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:22:34	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:22:34	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:22:34	=!=	irc: TLS handshake failed
+2018-12-17 18:22:34	=!=	irc: error: Error in the certificate.
+2018-12-17 18:22:34	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2018-12-17 18:25:14	--	irc: reconnecting to server...
+2018-12-17 18:25:14	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 18:25:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 18:25:14	--	gnutls: receiving 2 certificates
+2018-12-17 18:25:14	--	 - certificate[1] info:
+2018-12-17 18:25:14	--	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0378cfae7131ea66c4a0fecbba88ccd254e8, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-10-22 05:04:06 UTC', expires `2019-01-20 05:04:06 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2018-12-17 18:25:14	--	 - certificate[2] info:
+2018-12-17 18:25:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 18:25:14	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 18:25:14	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 18:25:14	=!=	irc: TLS handshake failed
+2018-12-17 18:25:14	=!=	irc: error: Error in the certificate.
+2018-12-17 18:25:14	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2018-12-17 19:23:06	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 19:23:06	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:23:06	--	gnutls: receiving 2 certificates
+2018-12-17 19:23:06	--	 - certificate[1] info:
+2018-12-17 19:23:06	--	   - subject `CN=asimov.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03211eae27f5299aa3a98eea98753b525040, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:09:24 UTC', expires `2019-02-17 05:09:24 UTC', pin-sha256="GRROcqJsTfed3k+Km0rKz+JHZlGXy6waYexTwwaAwpM="
+2018-12-17 19:23:06	--	 - certificate[2] info:
+2018-12-17 19:23:06	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:23:06	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:23:06	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:23:06	=!=	irc: TLS handshake failed
+2018-12-17 19:23:06	=!=	irc: error: Error in the certificate.
+2018-12-17 19:23:06	--	irc: reconnecting to server in 10 seconds
+2018-12-17 19:23:16	--	irc: reconnecting to server...
+2018-12-17 19:23:16	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 19:23:16	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:23:16	--	gnutls: receiving 2 certificates
+2018-12-17 19:23:16	--	 - certificate[1] info:
+2018-12-17 19:23:16	--	   - subject `CN=asimov.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03211eae27f5299aa3a98eea98753b525040, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:09:24 UTC', expires `2019-02-17 05:09:24 UTC', pin-sha256="GRROcqJsTfed3k+Km0rKz+JHZlGXy6waYexTwwaAwpM="
+2018-12-17 19:23:16	--	 - certificate[2] info:
+2018-12-17 19:23:16	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:23:16	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:23:16	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:23:16	=!=	irc: TLS handshake failed
+2018-12-17 19:23:16	=!=	irc: error: Error in the certificate.
+2018-12-17 19:23:16	--	irc: reconnecting to server in 20 seconds
+2018-12-17 19:25:33	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 19:25:33	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:25:33	--	gnutls: receiving 2 certificates
+2018-12-17 19:25:33	--	 - certificate[1] info:
+2018-12-17 19:25:33	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 19:25:33	--	 - certificate[2] info:
+2018-12-17 19:25:33	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:25:33	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:25:33	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:25:33	=!=	irc: TLS handshake failed
+2018-12-17 19:25:33	=!=	irc: error: Error in the certificate.
+2018-12-17 19:25:33	--	irc: reconnecting to server in 10 seconds
+2018-12-17 19:25:43	--	irc: reconnecting to server...
+2018-12-17 19:25:43	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 19:25:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:25:43	--	gnutls: receiving 2 certificates
+2018-12-17 19:25:43	--	 - certificate[1] info:
+2018-12-17 19:25:43	--	   - subject `CN=orwell.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03d27355b1e801c8885f6ed7fe11e2bff106, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-12-17 05:05:36 UTC', expires `2019-03-17 05:05:36 UTC', pin-sha256="cS0p93N/8xISMq5B6ujzOx6NrEYoG16JE7vUJwyBwZo="
+2018-12-17 19:25:43	--	 - certificate[2] info:
+2018-12-17 19:25:43	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:25:43	=!=	gnutls: peer's certificate is NOT trusted
+2018-12-17 19:25:43	=!=	gnutls: peer's certificate issuer is unknown
+2018-12-17 19:25:43	=!=	irc: TLS handshake failed
+2018-12-17 19:25:43	=!=	irc: error: Error in the certificate.
+2018-12-17 19:25:43	--	irc: reconnecting to server in 20 seconds
+2018-12-17 19:26:03	--	irc: reconnecting to server...
+2018-12-17 19:26:03	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 19:26:03	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 19:26:03	--	gnutls: receiving 2 certificates
+2018-12-17 19:26:03	--	 - certificate[1] info:
+2018-12-17 19:26:03	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 19:26:03	--	 - certificate[2] info:
+2018-12-17 19:26:03	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 19:26:03	--	gnutls: peer's certificate is trusted
+2018-12-17 19:26:03	--	irc: connected to chat.freenode.net/7000 (38.229.70.22)
+2018-12-17 19:26:03	--	card.freenode.net: *** Looking up your hostname...
+2018-12-17 19:26:03	--	card.freenode.net: *** Checking Ident
+2018-12-17 19:26:03	--	card.freenode.net: *** Found your hostname
+2018-12-17 19:26:03	--	card.freenode.net: *** No Ident response
+2018-12-17 19:26:04	--	Welcome to the freenode Internet Relay Chat Network Ergo
+2018-12-17 19:26:04	--	Your host is card.freenode.net[38.229.70.22/7000], running version ircd-seven-1.1.7
+2018-12-17 19:26:04	--	This server was created Thu Aug 23 2018 at 19:18:42 UTC
+2018-12-17 19:26:04	--	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-12-17 19:26:04	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-12-17 19:26:04	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2018-12-17 19:26:04	--	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2018-12-17 19:26:04	--	There are 107 users and 88951 invisible on 33 servers
+2018-12-17 19:26:04	--	29 :IRC Operators online
+2018-12-17 19:26:04	--	20 :unknown connection(s)
+2018-12-17 19:26:04	--	49973 :channels formed
+2018-12-17 19:26:04	--	I have 4486 clients and 1 servers
+2018-12-17 19:26:04	--	4486 6374 :Current local users 4486, max 6374
+2018-12-17 19:26:04	--	89058 94264 :Current global users 89058, max 94264
+2018-12-17 19:26:04	--	Highest connection count: 6375 (6374 clients) (1197386 connections received)
+2018-12-17 19:26:04	--	- card.freenode.net Message of the Day -
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2018-12-17 19:26:04	--	- Team Cymru (http://www.team-cymru.org).
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2018-12-17 19:26:04	--	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2018-12-17 19:26:04	--	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2018-12-17 19:26:04	--	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2018-12-17 19:26:04	--	- cultural background. The first author to win the Hugo and Nebula novel awards
+2018-12-17 19:26:04	--	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- Welcome to freenode - supporting the free and open source
+2018-12-17 19:26:04	--	- software communities since 1998.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- By connecting to freenode you indicate that you have read and
+2018-12-17 19:26:04	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- In the event that you observe behaviour that contravenes our policies,
+2018-12-17 19:26:04	--	- please notify a volunteer staff member via private message, or send us an
+2018-12-17 19:26:04	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-12-17 19:26:04	--	- situation within a reasonable period of time, and we may request further
+2018-12-17 19:26:04	--	- information or, as appropriate, involve other parties such as channel operators
+2018-12-17 19:26:04	--	- Group Contacts representing an on-topic group.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- freenode runs an open proxy scanner.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- If you are looking for assistance, you may be able to find a list of
+2018-12-17 19:26:04	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2018-12-17 19:26:04	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2018-12-17 19:26:04	--	- any of us at any time. Please note that freenode predominantly provides
+2018-12-17 19:26:04	--	- assistance via private message, and while we have a network channel the
+2018-12-17 19:26:04	--	- primary venue for support requests is via private message to a member
+2018-12-17 19:26:04	--	- of the volunteer staff team.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- If you are looking for assistance, you will be able to find a list of
+2018-12-17 19:26:04	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-12-17 19:26:04	--	- message any of us at any time. Please note that freenode predominantly
+2018-12-17 19:26:04	--	- provides assistance via private message, and while we have a network
+2018-12-17 19:26:04	--	- channel the primary venue for support requests is via private message to
+2018-12-17 19:26:04	--	- a member of the volunteer staff team.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-12-17 19:26:04	--	- the project, or the communities that we host. The majority of such notices
+2018-12-17 19:26:04	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-12-17 19:26:04	--	- do not miss them. Important messages relating to the freenode project, including
+2018-12-17 19:26:04	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-12-17 19:26:04	--	- global notices.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- Representing an on-topic project? Don't forget to register, more information
+2018-12-17 19:26:04	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- freenode organises an annual conference, and we would like to extend our
+2018-12-17 19:26:04	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-12-17 19:26:04	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-12-17 19:26:04	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-12-17 19:26:04	--	- network going for close to two decades.
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2018-12-17 19:26:04	--	- and everyone else who made this year's freenode #live conference amazing.
+2018-12-17 19:26:04	--	- https://freenode.net/news/live-2018
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	- Thank you for using freenode!
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	-
+2018-12-17 19:26:04	--	End of /MOTD command.
+2018-12-17 19:26:04	--	User mode [+Zi] by Ergo
+2018-12-17 19:26:04	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-17 19:26:04	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the ongoing spam, all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-12-17 19:26:04	--	CTCP requested by freenode-connect: VERSION
+2018-12-17 19:26:04	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Dec 17 2018 19:25:16)
+2018-12-17 19:26:36	--	You are now known as ergg0
+2018-12-17 19:26:41	--	MSG(NickServ): identify **********
+2018-12-17 19:26:41	--	NickServ (NickServ@services.): ergg0 is not a registered nickname.
+2018-12-17 19:26:48	--	You are now known as ergo0
+2018-12-17 19:26:48	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-17 19:26:53	--	MSG(NickServ): identify **********
+2018-12-17 19:26:53	--	NickServ (NickServ@services.): You are now identified for Ergo0.
+2018-12-17 20:53:38	--	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2018-12-17 20:53:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2018-12-17 20:53:38	--	gnutls: receiving 2 certificates
+2018-12-17 20:53:38	--	 - certificate[1] info:
+2018-12-17 20:53:38	--	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x035d6eb0739020a6b90fa0efdcc06c3e5eb0, RSA key 4096 bits, signed using RSA-SHA256, activated `2018-11-19 05:02:58 UTC', expires `2019-02-17 05:02:58 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2018-12-17 20:53:38	--	 - certificate[2] info:
+2018-12-17 20:53:38	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2018-12-17 20:53:38	--	gnutls: peer's certificate is trusted
+2018-12-17 20:53:39	--	irc: connected to chat.freenode.net/7000 (38.229.70.22)
+2018-12-17 20:53:39	--	card.freenode.net: *** Looking up your hostname...
+2018-12-17 20:53:39	--	card.freenode.net: *** Checking Ident
+2018-12-17 20:53:39	--	card.freenode.net: *** No Ident response
+2018-12-17 20:53:39	--	card.freenode.net: *** Found your hostname
+2018-12-17 20:53:39	--	Welcome to the freenode Internet Relay Chat Network Ergo
+2018-12-17 20:53:39	--	Your host is card.freenode.net[38.229.70.22/7000], running version ircd-seven-1.1.7
+2018-12-17 20:53:39	--	This server was created Thu Aug 23 2018 at 19:18:42 UTC
+2018-12-17 20:53:39	--	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-12-17 20:53:39	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-12-17 20:53:39	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2018-12-17 20:53:39	--	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2018-12-17 20:53:39	--	There are 109 users and 89111 invisible on 33 servers
+2018-12-17 20:53:39	--	29 :IRC Operators online
+2018-12-17 20:53:39	--	22 :unknown connection(s)
+2018-12-17 20:53:39	--	49968 :channels formed
+2018-12-17 20:53:39	--	I have 4475 clients and 1 servers
+2018-12-17 20:53:39	--	4475 6374 :Current local users 4475, max 6374
+2018-12-17 20:53:39	--	89220 94264 :Current global users 89220, max 94264
+2018-12-17 20:53:39	--	Highest connection count: 6375 (6374 clients) (1198226 connections received)
+2018-12-17 20:53:39	--	- card.freenode.net Message of the Day -
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2018-12-17 20:53:39	--	- Team Cymru (http://www.team-cymru.org).
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2018-12-17 20:53:39	--	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2018-12-17 20:53:39	--	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2018-12-17 20:53:39	--	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2018-12-17 20:53:39	--	- cultural background. The first author to win the Hugo and Nebula novel awards
+2018-12-17 20:53:39	--	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- Welcome to freenode - supporting the free and open source
+2018-12-17 20:53:39	--	- software communities since 1998.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- By connecting to freenode you indicate that you have read and
+2018-12-17 20:53:39	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- In the event that you observe behaviour that contravenes our policies,
+2018-12-17 20:53:39	--	- please notify a volunteer staff member via private message, or send us an
+2018-12-17 20:53:39	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-12-17 20:53:39	--	- situation within a reasonable period of time, and we may request further
+2018-12-17 20:53:39	--	- information or, as appropriate, involve other parties such as channel operators
+2018-12-17 20:53:39	--	- Group Contacts representing an on-topic group.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- freenode runs an open proxy scanner.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- If you are looking for assistance, you may be able to find a list of
+2018-12-17 20:53:39	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining
+2018-12-17 20:53:39	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2018-12-17 20:53:39	--	- any of us at any time. Please note that freenode predominantly provides
+2018-12-17 20:53:39	--	- assistance via private message, and while we have a network channel the
+2018-12-17 20:53:39	--	- primary venue for support requests is via private message to a member
+2018-12-17 20:53:39	--	- of the volunteer staff team.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- If you are looking for assistance, you will be able to find a list of
+2018-12-17 20:53:39	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-12-17 20:53:39	--	- message any of us at any time. Please note that freenode predominantly
+2018-12-17 20:53:39	--	- provides assistance via private message, and while we have a network
+2018-12-17 20:53:39	--	- channel the primary venue for support requests is via private message to
+2018-12-17 20:53:39	--	- a member of the volunteer staff team.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-12-17 20:53:39	--	- the project, or the communities that we host. The majority of such notices
+2018-12-17 20:53:39	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-12-17 20:53:39	--	- do not miss them. Important messages relating to the freenode project, including
+2018-12-17 20:53:39	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-12-17 20:53:39	--	- global notices.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- Representing an on-topic project? Don't forget to register, more information
+2018-12-17 20:53:39	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- freenode organises an annual conference, and we would like to extend our
+2018-12-17 20:53:39	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-12-17 20:53:39	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-12-17 20:53:39	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-12-17 20:53:39	--	- network going for close to two decades.
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2018-12-17 20:53:39	--	- and everyone else who made this year's freenode #live conference amazing.
+2018-12-17 20:53:39	--	- https://freenode.net/news/live-2018
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	- Thank you for using freenode!
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	-
+2018-12-17 20:53:39	--	End of /MOTD command.
+2018-12-17 20:53:39	--	User mode [+Zi] by Ergo
+2018-12-17 20:53:39	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-17 20:53:39	--	freenode-connect (frigg@freenode/utility-bot/frigg): Due to the ongoing spam, all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2018-12-17 20:53:39	--	CTCP requested by freenode-connect: VERSION
+2018-12-17 20:53:39	--	CTCP reply to freenode-connect: VERSION WeeChat 2.3 (Dec 17 2018 19:25:16)
+2018-12-17 20:53:57	--	You are now known as ergo0
+2018-12-17 20:53:57	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-12-17 20:54:02	--	MSG(NickServ): identify **********
+2018-12-17 20:54:02	--	NickServ (NickServ@services.): You are now identified for Ergo0.

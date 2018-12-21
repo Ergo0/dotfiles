@@ -18,6 +18,5 @@ start-pulseaudio-x11 &
 ~/.fehbg & 
 #wm
 exec 2bwm
-
  
 

@@ -1387,3 +1387,140 @@
 2018-11-14 10:18:25	-->	SiFuh (~SiFuh@64.64.121.195) has joined #crux
 2018-11-14 10:36:37	<--	SiFuh (~SiFuh@64.64.121.195) has quit (Ping timeout: 246 seconds)
 2018-11-14 10:37:06	<--	jue (~jue@pdpc/supporter/active/jue) has quit (Read error: No route to host)
+2018-12-17 19:26:45	-->	ergg0 (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-12-17 19:26:45	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-12-17 19:26:45	--	Topic set by frinnst on Sat, 12 May 2018 19:46:38
+2018-12-17 19:26:45	--	Channel #crux: 55 nicks (4 ops, 0 voices, 51 normals)
+2018-12-17 19:26:45	--	URL for #crux: http://crux.nu
+2018-12-17 19:26:46	--	Channel created on Sun, 26 Nov 2006 06:42:43
+2018-12-17 19:26:48	--	You are now known as ergo0
+2018-12-17 19:27:00	ergo0	yee, that works 
+2018-12-17 19:27:01	ergo0	nice 
+2018-12-17 19:28:04	<--	guido_rokepo (~Thunderbi@83-103-31-21.ip.fastwebnet.it) has quit (Quit: guido_rokepo)
+2018-12-17 19:30:23	joacim	=)
+2018-12-17 19:30:49	ergo0	oh right, are freetype fonts on crux stored in a different location then on arch? 
+2018-12-17 19:31:12	ergo0	im trying to make a port for https://lutris.net/ but most installers need freetype fotns which it cant find while i definitly have them installed 
+2018-12-17 19:32:12	joacim	should be /usr/share/fonts/X11/TTF
+2018-12-17 19:32:43	joacim	most fonts come with a post-install script. did you run those?
+2018-12-17 19:32:58	joacim	xorg-font-dejavu-ttf does at least
+2018-12-17 19:33:58	ergo0	i thought that wasnt needed for opt packages
+2018-12-17 19:34:56	ergo0	i will try the freetype ubuntu package 
+2018-12-17 19:35:14	joacim	should be needed for most packages i think
+2018-12-17 19:35:22	joacim	since they might setup users and other things
+2018-12-17 19:35:41	ergo0	yee im checking the freetype folder but no post install script
+2018-12-17 19:36:08	joacim	they tend to come with the font packages themselves
+2018-12-17 19:36:19	ergo0	https://bpaste.net/show/174fe1ab3b32
+2018-12-17 19:36:25	ergo0	this is the log of it 
+2018-12-17 19:44:53	-->	deus_ex (~pedja@93-86-150-166.dynamic.isp.telekom.rs) has joined #crux
+2018-12-17 19:46:27	<--	pedja (~pedja@93.86.12.101) has quit (Ping timeout: 240 seconds)
+2018-12-17 20:10:35	--	deus_ex is now known as pedja
+2018-12-17 20:11:18	pedja	ergo0, that means it can't find freetype-32 library, if I am reading it correctly
+2018-12-17 20:11:29	ergo0	pedja: yee it does, i have that installed tho 
+2018-12-17 20:12:16	pedja	check prt-get depends wine
+2018-12-17 20:12:31	ergo0	ohh its to do with lutris 
+2018-12-17 20:12:38	ergo0	it works fine with normal wine 
+2018-12-17 20:12:59	ergo0	oh right anyone here using battlenet? i seem to be missing some dep 
+2018-12-17 20:13:15	pedja	isn't lutris just a GUI around wine?
+2018-12-17 20:13:19	ergo0	basically 
+2018-12-17 20:13:23	ergo0	it does some other nice things tho 
+2018-12-17 20:13:27	ergo0	also has installers 
+2018-12-17 20:13:31	ergo0	which are super convenient 
+2018-12-17 20:14:06	pedja	I purged all the 32-bit stuff from my potatoputer a while back
+2018-12-17 20:14:20	pedja	well, I left glibc-32 alone
+2018-12-17 20:14:31	ergo0	yee i need it for games :( 
+2018-12-17 20:16:54	pedja	gpu-passthrough seems like a much cleaner solution for that. more complicated to set up, thou, afaik
+2018-12-17 20:17:10	ergo0	ive used gpu passthrough before
+2018-12-17 20:17:18	joacim	seems more stable on intel that stuff
+2018-12-17 20:17:18	ergo0	and it doesnt really perform thaaat much better
+2018-12-17 20:17:23	ergo0	because wine has come a realllly long way 
+2018-12-17 20:17:43	ergo0	like in alot of games , they just run perfectly 
+2018-12-17 20:17:52	pedja	with dxvk?
+2018-12-17 20:17:55	ergo0	only thing you notice is that it builds shaders for like 5 seconds if you enter a new area 
+2018-12-17 20:18:02	joacim	also i think some anticheat can kick you out of they detect something funny like passthrough
+2018-12-17 20:18:05	ergo0	yee with dxvk 
+2018-12-17 20:18:21	ergo0	thats true joacim but alot of those anticheats dont work on wine because the yrequire kernel access lol 
+2018-12-17 20:18:41	joacim	yeah =)
+2018-12-17 20:19:04	joacim	why im keeping my custom steam+windows console for now
+2018-12-17 20:19:31	ergo0	im in luck that i dont wanna play any game that messes with that stuff tho 
+2018-12-17 20:19:58	ergo0	so all my games work perfectly on wine and proton (steamplay) 
+2018-12-17 20:20:39	joacim	some games like gta5 is known to ban you for running overlays
+2018-12-17 20:20:52	joacim	innocent ones too which a lot of people use for chat clients or recording
+2018-12-17 20:21:33	joacim	are there any properly native AAA multiplayer games on linux anymore?
+2018-12-17 20:21:43	ergo0	im not suree 
+2018-12-17 20:21:50	ergo0	i know Overwatch works perfectly fine on wine 
+2018-12-17 20:22:12	joacim	tried that, but only really had fun with some characters
+2018-12-17 20:22:25	ergo0	i mean, same 
+2018-12-17 20:22:28	ergo0	but thats good enough for me 
+2018-12-17 20:22:35	ergo0	i play like 5/6 characters 
+2018-12-17 20:22:59	joacim	i just end up with pharah or d.va. because rockets and boosters are fun
+2018-12-17 20:29:29	ergo0	i mean there are plenty of ppl who onetrick 
+2018-12-17 20:29:41	ergo0	and pharah and dva are not the worst heroes to onetrick, especially dva 
+2018-12-17 20:32:23	joacim	feels like im not playing the game as it should
+2018-12-17 20:32:27	joacim	doing that
+2018-12-17 20:32:42	ergo0	nahh thats not a problem at all 
+2018-12-17 20:32:42	joacim	ratherj ust have an entire game where a single gimmick is the focus
+2018-12-17 20:32:48	joacim	like tribes or quake
+2018-12-17 20:32:55	ergo0	like i play tracer, zarya, dva mainly 
+2018-12-17 20:33:00	joacim	unreal tournaments dodge gimmick is a bit strange tho
+2018-12-17 20:33:07	ergo0	but too each their own
+2018-12-17 20:33:13	ergo0	also wasnt their a lib32 ldap port before 
+2018-12-17 20:33:18	ergo0	it seems to have vanished 
+2018-12-17 20:34:57	cruxbot	[contrib.git/3.4]: redis: 5.0.1 -> 5.0.3
+2018-12-17 20:35:03	ergo0	i fixed my bnet issue on a different crux install before, but i forgot how lol 
+2018-12-17 20:35:11	ergo0	i do remember installing 32-ldap tho 
+2018-12-17 20:36:40	joacim	i dont see an ldap in contrib logs
+2018-12-17 20:36:48	joacim	not since february at least
+2018-12-17 20:37:08	ergo0	wouldnt it be in compat-32? 
+2018-12-17 20:40:30	ergo0	yee im definitly sure it used to be there 
+2018-12-17 20:41:11	ergo0	or it might have been openal
+2018-12-17 20:41:45	 *	pedja binge-watched half of Travelers S3
+2018-12-17 20:42:04	pedja	will power? I have none
+2018-12-17 20:54:05	-->	ergo0 (~nathaniel@82-161-43-23.ip.xs4all.nl) has joined #crux
+2018-12-17 20:54:05	--	Topic for #crux is "CRUX 3.4 | Homepage http://crux.nu/ | Ports http://crux.nu/portdb/ | Logs http://irclogs.shortcircuit.net.au/%23crux/"
+2018-12-17 20:54:05	--	Topic set by frinnst on Sat, 12 May 2018 19:46:38
+2018-12-17 20:54:05	--	Channel #crux: 54 nicks (4 ops, 0 voices, 50 normals)
+2018-12-17 20:54:05	--	URL for #crux: http://crux.nu
+2018-12-17 20:54:07	--	Channel created on Sun, 26 Nov 2006 06:42:43
+2018-12-17 20:54:39	ergo0	is there a way to search through the irc logs but not by date? 
+2018-12-17 20:56:27	cruxbot	[opt.git/3.4]: gimp: 2.10.6 -> 2.10.8
+2018-12-17 20:56:28	cruxbot	[opt.git/3.4]: gegl: 0.4.8 -> 0.4.12
+2018-12-17 20:58:50	@frinnst	google site:?
+2018-12-17 21:28:39	@tilman	i stopped cleaning up ~ a decade ago
+2018-12-17 21:28:47	ergo0	anyone know how to solve this? https://paste.pound-python.org/show/0GwPYeWgJgZPbEs9Ddnv/
+2018-12-17 21:28:56	ergo0	meson is installed 
+2018-12-17 21:28:58	@tilman	so for some reason i still have a patch against opt/xulrunner lying in ~/.tmp/downloads ._.
+2018-12-17 21:29:12	ergo0	the internet tells me that mesontest is deprecated 
+2018-12-17 21:31:35	@tilman	pedja: s2 has been available on netflix here since maybe 2 weeks... ._.
+2018-12-17 21:35:19	pedja	tilman, have you watched it yet?
+2018-12-17 21:37:55	pedja	idk how is netflix deciding when will show be available in a certain country
+2018-12-17 21:41:24	pedja	tilman, s3 is available on netflix serbia
+2018-12-17 21:41:41	pedja	(yeah, we have it too)
+2018-12-17 22:04:23	@tilman	pedja: i'm sorry, i got it wrong. it's s3 that's been available since a couple of weeks
+2018-12-17 22:05:16	pedja	tilman, :)
+2018-12-17 22:05:54	@tilman	i have watched up to s2, but didn't start s3 yet ;D
+2018-12-17 22:11:58	@jaeger	ergo0: ask prologic to add a search feature next time he's in here
+2018-12-17 22:20:56	<--	onodera (~onodera@2001:980:e682:1:c327:64c4:38c6:3428) has quit (Ping timeout: 250 seconds)
+2018-12-17 22:21:39	@frinnst	tilman: :D
+2018-12-17 22:26:39	pedja	I am up to s3e6, and I think they are setting it up for yet another cliffhanger ending (no spoilers)
+2018-12-17 22:27:31	pedja	or massive series finale :)
+2018-12-17 22:42:43	ergo0	jaeger: i went through it manually, didnt find what i needed
+2018-12-17 22:42:54	ergo0	but then i just installed possible wine devs and steam and eventually it was fixed lol 
+2018-12-17 22:48:03	ergo0	anyone here using sabnzbd plex and sonarr here 
+2018-12-17 22:48:21	ergo0	with a private ports repo of it, or will i have to write those myself? 
+2018-12-17 22:50:53	john_cephalopoda	Never heard of those programs.
+2018-12-17 22:51:19	@jaeger	I use docker containers for nzbget/sonarr
+2018-12-17 22:51:32	@jaeger	Not worth maintaining your own ports for them, in my opinion
+2018-12-17 22:52:47	@jaeger	https://hub.docker.com/r/linuxserver/sonarr for example
+2018-12-17 22:54:02	ergo0	jaeger: does that work well? 
+2018-12-17 22:54:31	ergo0	on arch i was fighting with user permissions for sonarr, sabnzbd and plex all the time, specially when sonarr and sabnzbd both needed a folder 
+2018-12-17 22:56:52	@jaeger	works perfectly. I run them as the same user id (my user) and have the media from my NAS mounted to a location they can reach
+2018-12-17 22:57:21	@jaeger	Very rarely need to mess with anything
+2018-12-17 22:58:05	ergo0	hmmm that does seem very convinving 
+2018-12-17 22:58:24	ergo0	also are there chances that i need to rebuild wine if i installed vulkan-loaders after installing wine? 
+2018-12-17 23:03:40	@jaeger	don't know the answer to that, I guess test it and see
+2018-12-17 23:06:42	ergo0	yeee i didnt have wine with vulkan drivers so im rebuilding now 
+2018-12-18 00:26:35	ergo0	so i wanna enable esync which requires me to follow this https://github.com/lutris/lutris/wiki/How-to:-Esync 
+2018-12-18 00:26:42	ergo0	but i cant find the /etc/security/limits.conf file 
+2018-12-18 00:27:27	cruxbot	[contrib.git/3.4]: rtorrent: 0.9.6 -> 0.9.7
+2018-12-18 00:27:28	cruxbot	[contrib.git/3.4]: libtorrent: 0.13.6 -> 0.13.7
+2018-12-18 00:43:27	--	irc: disconnected from server
