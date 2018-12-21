@@ -1,23 +1,27 @@
-2018/12/08-19:25:14.006 6837 Reusing MANIFEST /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2018/12/08-19:25:14.007 6837 Recovering log #10
-2018/12/08-19:25:14.007 6837 Reusing old log /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000010.log 
-2018/12/08-19:32:17.054 7845 Level-0 table #14: started
-2018/12/08-19:32:17.111 7845 Level-0 table #14: 2624544 bytes OK
-2018/12/08-19:32:17.117 7845 Delete type=0 #10
-2018/12/08-19:44:23.974 7845 Level-0 table #16: started
-2018/12/08-19:44:24.006 7845 Level-0 table #16: 1868245 bytes OK
-2018/12/08-19:44:24.014 7845 Delete type=0 #13
-2018/12/08-19:44:24.015 7845 Compacting 4@0 + 1@1 files
-2018/12/08-19:44:24.060 7845 Generated table #17@0: 9 keys, 2221266 bytes
-2018/12/08-19:44:24.097 7845 Generated table #18@0: 8 keys, 2106765 bytes
-2018/12/08-19:44:24.107 7845 Generated table #19@0: 10 keys, 474536 bytes
-2018/12/08-19:44:24.107 7845 Compacted 4@0 + 1@1 files => 4802567 bytes
-2018/12/08-19:44:24.114 7845 compacted to: files[ 0 3 1 0 0 0 0 ]
-2018/12/08-19:44:24.114 7845 Delete type=2 #7
-2018/12/08-19:44:24.115 7845 Delete type=2 #9
-2018/12/08-19:44:24.115 7845 Delete type=2 #11
-2018/12/08-19:44:24.115 7845 Delete type=2 #14
-2018/12/08-19:44:24.115 7845 Delete type=2 #16
-2018/12/08-20:09:14.021 7845 Level-0 table #21: started
-2018/12/08-20:09:14.112 7845 Level-0 table #21: 2545887 bytes OK
-2018/12/08-20:09:14.119 7845 Delete type=0 #15
+2018/12/15-20:02:35.490 27070 Reusing MANIFEST /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2018/12/15-20:02:35.490 27070 Recovering log #28
+2018/12/15-20:02:35.490 27070 Reusing old log /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000028.log 
+2018/12/16-03:30:35.551 27422 Level-0 table #35: started
+2018/12/16-03:30:35.593 27422 Level-0 table #35: 2563883 bytes OK
+2018/12/16-03:30:35.602 27422 Delete type=0 #28
+2018/12/18-22:44:43.965 27422 Level-0 table #37: started
+2018/12/18-22:44:44.024 27422 Level-0 table #37: 2631769 bytes OK
+2018/12/18-22:44:44.029 27422 Delete type=0 #34
+2018/12/18-23:11:40.715 27422 Level-0 table #39: started
+2018/12/18-23:11:40.775 27422 Level-0 table #39: 3612859 bytes OK
+2018/12/18-23:11:40.782 27422 Delete type=0 #36
+2018/12/19-13:51:40.838 27422 Compacting 3@0 + 3@1 files
+2018/12/19-13:51:40.881 27422 Generated table #40@0: 9 keys, 2231340 bytes
+2018/12/19-13:51:40.922 27422 Generated table #41@0: 8 keys, 2117587 bytes
+2018/12/19-13:51:40.985 27422 Generated table #42@0: 10 keys, 2963157 bytes
+2018/12/19-13:51:40.985 27422 Compacted 3@0 + 3@1 files => 7312084 bytes
+2018/12/19-13:51:40.993 27422 compacted to: files[ 0 3 1 0 0 0 0 ]
+2018/12/19-13:51:40.994 27422 Delete type=2 #30
+2018/12/19-13:51:40.994 27422 Delete type=2 #31
+2018/12/19-13:51:40.994 27422 Delete type=2 #32
+2018/12/19-13:51:40.994 27422 Delete type=2 #35
+2018/12/19-13:51:40.995 27422 Delete type=2 #37
+2018/12/19-13:51:40.995 27422 Delete type=2 #39
+2018/12/20-19:12:00.895 27422 Level-0 table #44: started
+2018/12/20-19:12:00.951 27422 Level-0 table #44: 2517268 bytes OK
+2018/12/20-19:12:00.960 27422 Delete type=0 #38

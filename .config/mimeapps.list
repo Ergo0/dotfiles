@@ -23,3 +23,5 @@ application/x-extension-shtml=userapp-Firefox-E42ASZ.desktop;userapp-Firefox-ORD
 application/xhtml+xml=userapp-Firefox-E42ASZ.desktop;userapp-Firefox-ORDVSZ.desktop;
 application/x-extension-xhtml=userapp-Firefox-E42ASZ.desktop;userapp-Firefox-ORDVSZ.desktop;
 application/x-extension-xht=userapp-Firefox-E42ASZ.desktop;userapp-Firefox-ORDVSZ.desktop;
+image/jpeg=feh.desktop;
+image/png=feh.desktop;

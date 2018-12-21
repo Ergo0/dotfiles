@@ -1,3 +1,22 @@
-2018/12/05-05:08:56.611 17385 Reusing MANIFEST /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2018/12/05-05:08:56.611 17385 Recovering log #10
-2018/12/05-05:08:56.611 17385 Reusing old log /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000010.log 
+2018/12/14-18:58:40.658 2221 Reusing MANIFEST /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2018/12/14-18:58:40.658 2221 Recovering log #23
+2018/12/14-18:58:40.659 2221 Reusing old log /home/ronin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000023.log 
+2018/12/14-19:05:43.024 3777 Level-0 table #27: started
+2018/12/14-19:05:43.098 3777 Level-0 table #27: 2630590 bytes OK
+2018/12/14-19:05:43.103 3777 Delete type=0 #23
+2018/12/14-19:42:40.663 3777 Level-0 table #29: started
+2018/12/14-19:42:40.724 3777 Level-0 table #29: 3593553 bytes OK
+2018/12/14-19:42:40.733 3777 Delete type=0 #26
+2018/12/14-19:42:40.734 3777 Compacting 4@0 + 3@1 files
+2018/12/14-19:42:40.778 3777 Generated table #30@0: 9 keys, 2227693 bytes
+2018/12/14-19:42:40.814 3777 Generated table #31@0: 8 keys, 2112839 bytes
+2018/12/14-19:42:40.881 3777 Generated table #32@0: 10 keys, 2956703 bytes
+2018/12/14-19:42:40.882 3777 Compacted 4@0 + 3@1 files => 7297235 bytes
+2018/12/14-19:42:40.887 3777 compacted to: files[ 0 3 1 0 0 0 0 ]
+2018/12/14-19:42:40.887 3777 Delete type=2 #17
+2018/12/14-19:42:40.888 3777 Delete type=2 #18
+2018/12/14-19:42:40.888 3777 Delete type=2 #19
+2018/12/14-19:42:40.888 3777 Delete type=2 #21
+2018/12/14-19:42:40.888 3777 Delete type=2 #24
+2018/12/14-19:42:40.889 3777 Delete type=2 #27
+2018/12/14-19:42:40.889 3777 Delete type=2 #29
