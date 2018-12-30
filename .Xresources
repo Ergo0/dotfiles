@@ -1,4 +1,4 @@
-#include </home/ronin/.theme/slate>  
+#include </home/ronin/.theme/sadgirl>  
   
 !.... other xresource code goes here  
 
@@ -18,8 +18,8 @@ URxvt.matcher.button: 1
 
 twobwm.border_width: 7
 twobwm.outer_border: 3
-twobwm.focus_color: wht
-twobwm.unfocus_color: blu
+twobwm.focus_color: #98a0a1
+twobwm.unfocus_color: #98a0a1 
 twobwm.fixed_color: bred
 twobwm.unkill_color: ylw
 twobwm.outer_border_color: mag
@@ -29,21 +29,28 @@ twobwm.enable_compton: false
 
 *internalBorder: 20
 ! Colors  
-*background:   bg  
-*foreground:   fg  
-*color0:      blk  
-*color8:      bblk  
-*color1:      red  
-*color9:      bred  
-*color2:      grn  
-*color10:     bgrn  
-*color3:      ylw  
-*color11:     bylw  
-*color4:      blu  
-*color12:     bblu  
-*color5:      mag  
-*color13:     bmag  
-*color6:      cyn  
-*color14:     bcyn  
-*color7:      wht  
-*color15:     bwht
+!*background:   bg  
+!*foreground:   fg  
+!*color0:      blk  
+!*color8:      bblk  
+!*color1:      red  
+!*color9:      bred  
+!*color2:      grn  
+!*color10:     bgrn  
+!*color3:      ylw  
+!*color11:     bylw  
+!*color4:      blu  
+!*color12:     bblu  
+!*color5:      mag  
+!*color13:     bmag  
+!*color6:      cyn  
+!*color14:     bcyn  
+!*color7:      wht  
+!*color15:     bwht
+!
+
+!colorscheme 
+!
+! special
+
+

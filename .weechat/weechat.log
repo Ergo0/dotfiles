@@ -1,38 +1,18 @@
-[2018-12-21 00:00:43] WeeChat 2.3 (compiled on Dec 17 2018 19:25:16)
-[2018-12-21 00:00:43] Reading configuration file sec.conf
-[2018-12-21 00:00:43] Reading configuration file weechat.conf
-[2018-12-21 00:00:43] Reading configuration file plugins.conf
-[2018-12-21 00:00:43] Reading configuration file charset.conf
-[2018-12-21 00:00:43] Reading configuration file logger.conf
-[2018-12-21 00:00:43] Reading configuration file exec.conf
-[2018-12-21 00:00:43] Reading configuration file trigger.conf
-[2018-12-21 00:00:43] Reading configuration file alias.conf
-[2018-12-21 00:00:43] Reading configuration file buflist.conf
-[2018-12-21 00:00:43] Reading configuration file fifo.conf
-[2018-12-21 00:00:43] Reading configuration file xfer.conf
-[2018-12-21 00:00:43] Reading configuration file irc.conf
-[2018-12-21 00:00:43] Reading configuration file relay.conf
-[2018-12-21 00:00:43] Reading configuration file perl.conf
-[2018-12-21 00:00:43] Reading configuration file python.conf
-[2018-12-21 00:00:43] Reading configuration file script.conf
-[2018-12-21 00:00:43] Reading configuration file fset.conf
-[2018-12-21 00:00:43] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
-[2018-12-21 00:00:43] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
-[2018-12-21 01:36:27] Terminal lost, exiting WeeChat...
-[2018-12-21 01:36:27] Writing configuration file plugins.conf
-[2018-12-21 01:36:27] Writing configuration file xfer.conf
-[2018-12-21 01:36:27] Writing configuration file trigger.conf
-[2018-12-21 01:36:27] Writing configuration file python.conf
-[2018-12-21 01:36:27] Writing configuration file perl.conf
-[2018-12-21 01:36:27] Writing configuration file script.conf
-[2018-12-21 01:36:27] Writing configuration file relay.conf
-[2018-12-21 01:36:27] Writing configuration file logger.conf
-[2018-12-21 01:36:27] Writing configuration file irc.conf
-[2018-12-21 01:36:27] Writing configuration file fset.conf
-[2018-12-21 01:36:27] Writing configuration file fifo.conf
-[2018-12-21 01:36:27] Writing configuration file exec.conf
-[2018-12-21 01:36:27] Writing configuration file charset.conf
-[2018-12-21 01:36:27] Writing configuration file buflist.conf
-[2018-12-21 01:36:27] Writing configuration file alias.conf
-[2018-12-21 01:36:27] Writing configuration file weechat.conf
-[2018-12-21 01:36:27] Writing configuration file sec.conf
+[2018-12-31 00:55:53] WeeChat 2.3 (compiled on Oct 22 2018 08:00:17)
+[2018-12-31 00:55:53] Reading configuration file sec.conf
+[2018-12-31 00:55:53] Reading configuration file weechat.conf
+[2018-12-31 00:55:53] Reading configuration file plugins.conf
+[2018-12-31 00:55:53] Reading configuration file charset.conf
+[2018-12-31 00:55:53] Reading configuration file logger.conf
+[2018-12-31 00:55:53] Reading configuration file exec.conf
+[2018-12-31 00:55:53] Reading configuration file trigger.conf
+[2018-12-31 00:55:53] Reading configuration file alias.conf
+[2018-12-31 00:55:53] Reading configuration file buflist.conf
+[2018-12-31 00:55:53] Reading configuration file fifo.conf
+[2018-12-31 00:55:53] Reading configuration file xfer.conf
+[2018-12-31 00:55:53] Reading configuration file irc.conf
+[2018-12-31 00:55:53] Reading configuration file relay.conf
+[2018-12-31 00:55:53] Reading configuration file script.conf
+[2018-12-31 00:55:53] Reading configuration file fset.conf
+[2018-12-31 00:55:53] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
+[2018-12-31 00:55:53] irc: connecting to server foxbnc.co.uk/9001 (SSL)...

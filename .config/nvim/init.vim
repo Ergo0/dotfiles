@@ -22,5 +22,7 @@ Plug 'suan/vim-instant-markdown'
 
 Plug 'chrisbra/Colorizer'
 
+Plug 'https://github.com/gko/vim-coloresque' 
+
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
 call plug#end()
