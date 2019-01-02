@@ -1,5 +1,5 @@
 ! special
-*.foreground:   #e2c6b0
+*.foreground:   #FEFEFE
 *.background:   #3a4b5b
 *.cursorColor:  #e2c6b0
 
