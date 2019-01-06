@@ -414,3 +414,66 @@ Nov 13 11:11 : player: played "Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-po
 Nov 13 11:15 : player: played "Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac"
 Nov 13 11:17 : client: [47] opened from 127.0.0.1:49592
 Nov 13 11:19 : client: [47] closed
+Jan 04 03:11 : avahi: Failed to create client: Daemon not running
+Jan 04 03:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 03:11 : exception: Failed to access /mnt/music: No such file or directory
+Jan 04 03:11 : config: option 'device' on line 13 was not recognized
+Jan 04 03:12 : client: [0] opened from 127.0.0.1:52138
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to access /mnt/music: No such file or directory
+Jan 04 03:12 : exception: Failed to access /mnt/music: No such file or directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:13 : client: [0] closed
+Jan 04 03:13 : avahi: Failed to create client: Daemon not running
+Jan 04 03:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 03:13 : config: option 'device' on line 13 was not recognized
+Jan 04 03:15 : client: [0] opened from 127.0.0.1:52176
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
+Jan 04 03:15 : client: [0] closed

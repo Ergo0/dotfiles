@@ -1,18 +1,18 @@
-[2019-01-01 22:29:52] WeeChat 2.3 (compiled on Oct 22 2018 08:00:17)
-[2019-01-01 22:29:52] Reading configuration file sec.conf
-[2019-01-01 22:29:52] Reading configuration file weechat.conf
-[2019-01-01 22:29:52] Reading configuration file plugins.conf
-[2019-01-01 22:29:52] Reading configuration file charset.conf
-[2019-01-01 22:29:52] Reading configuration file logger.conf
-[2019-01-01 22:29:52] Reading configuration file exec.conf
-[2019-01-01 22:29:52] Reading configuration file trigger.conf
-[2019-01-01 22:29:52] Reading configuration file alias.conf
-[2019-01-01 22:29:52] Reading configuration file buflist.conf
-[2019-01-01 22:29:52] Reading configuration file fifo.conf
-[2019-01-01 22:29:52] Reading configuration file xfer.conf
-[2019-01-01 22:29:52] Reading configuration file irc.conf
-[2019-01-01 22:29:52] Reading configuration file relay.conf
-[2019-01-01 22:29:52] Reading configuration file script.conf
-[2019-01-01 22:29:52] Reading configuration file fset.conf
-[2019-01-01 22:29:52] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
-[2019-01-01 22:29:52] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
+[2019-01-05 19:16:29] WeeChat 2.3 (compiled on Oct 22 2018 08:00:17)
+[2019-01-05 19:16:29] Reading configuration file sec.conf
+[2019-01-05 19:16:29] Reading configuration file weechat.conf
+[2019-01-05 19:16:29] Reading configuration file plugins.conf
+[2019-01-05 19:16:29] Reading configuration file charset.conf
+[2019-01-05 19:16:29] Reading configuration file logger.conf
+[2019-01-05 19:16:29] Reading configuration file exec.conf
+[2019-01-05 19:16:29] Reading configuration file trigger.conf
+[2019-01-05 19:16:29] Reading configuration file alias.conf
+[2019-01-05 19:16:29] Reading configuration file buflist.conf
+[2019-01-05 19:16:29] Reading configuration file fifo.conf
+[2019-01-05 19:16:29] Reading configuration file xfer.conf
+[2019-01-05 19:16:29] Reading configuration file irc.conf
+[2019-01-05 19:16:29] Reading configuration file relay.conf
+[2019-01-05 19:16:29] Reading configuration file script.conf
+[2019-01-05 19:16:29] Reading configuration file fset.conf
+[2019-01-05 19:16:29] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
+[2019-01-05 19:16:29] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
