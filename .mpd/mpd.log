@@ -1,479 +1,465 @@
-Nov 08 23:56 : exception: Failed to open /home/nathaniel/.mpd/mpdstate: No such file or directory
-Nov 08 23:56 : config: option 'device' on line 13 was not recognized
-Nov 08 23:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/01-arctic_monkeys-do_i_wanna_know.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/02-arctic_monkeys-r_u_mine.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/03-arctic_monkeys-one_for_the_road.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/04-arctic_monkeys-arabella.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/05-arctic_monkeys-i_want_it_all.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/06-arctic_monkeys-no.1_party_anthem.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/07-arctic_monkeys-mad_sounds.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/08-arctic_monkeys-fireside.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/09-arctic_monkeys-whyd_you_only_call_me_when_youre_high.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/10-arctic_monkeys-snap_out_of_it.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/11-arctic_monkeys-knee_socks.flac
-Nov 08 23:56 : update: added Arctic Monkeys/AM (2013)/12-arctic_monkeys-i_wanna_be_yours.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/02-arctic_monkeys-crying_lightning.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/03-arctic_monkeys-dangerous_animals.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/04-arctic_monkeys-secret_door.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-potion_approaching.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/07-arctic_monkeys-cornerstone.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/08-arctic_monkeys-dance_little_liar.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/09-arctic_monkeys-pretty_visitors.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/10-arctic_monkeys-the_jewellers_hands.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/11-arctic_monkeys-i_havent_got_my_strange.flac
-Nov 08 23:56 : update: added Arctic Monkeys/Humbug (2009)/12-arctic_monkeys-red_right_hand.flac
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/01 – Star Treatment.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/02 – One Point Perspective.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/03 – American Sports.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/04 – Tranquility Base Hotel & Casino.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/05 – Golden Trunks.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/06 – Four out of Five.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/07 – The World’s First Ever Monster Truck Front Flip.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/08 – Science Fiction.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/09 – She Looks Like Fun.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/10 – Batphone.mp3
-Nov 08 23:56 : update: added Arctic Monkeys - Tranquility Base Hotel & Casino (2018) Mp3 (320 kbps) [Hunter]/Arctic Monkeys - Tranquility Base Hotel & Casino (2018)/11 – The Ultracheese.mp3
-Nov 08 23:56 : update: added Daughter/Not to Disappear (2016)/06-daughter-alone-with_you.flac
-Nov 08 23:56 : update: added Daughter/Not to Disappear (2016)/07-daughter-no_care.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/01-daughter-new_ways.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/02-daughter-numbers.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/03-daughter-doing_the_right_thing.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/04-daughter-how.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/05-daughter-mothers.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/06-daughter-alone-with_you.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/08-daughter-to_belong.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/09-daughter-fossa.flac
-Nov 08 23:56 : update: added Daughter Not To Disappear CD FLAC 2016 FORSAKEN/10-daughter-made_of_stone.flac
-Nov 08 23:56 : update: added Selah Sue/Selah Sue (2011)/01 - This World.flac
-Nov 08 23:56 : update: added Selah Sue/Selah Sue (2011)/04 - Crazy Vibes.flac
-Nov 08 23:56 : update: added Selah Sue/Selah Sue (2011)/08 - Please (feat. Cee-Lo Green).flac
-Nov 08 23:56 : update: added Selah Sue/Selah Sue (2011)/12 - Just Because I Do.flac
-Nov 08 23:56 : update: added Typhoon/Lobi Da Basi (2014)/04-typhoon-ijswater.flac
-Nov 08 23:56 : update: added Typhoon/Lobi Da Basi (2014)/06-typhoon-zandloper_met_rico_en_andre_manuel.flac
-Nov 08 23:56 : update: added Typhoon/Lobi Da Basi (2014)/07-typhoon-sta_me_toe.flac
-Nov 09 00:02 : client: [0] opened from 127.0.0.1:60100
-Nov 09 00:02 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
-Nov 09 00:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Nov 09 00:03 : client: [1] opened from 127.0.0.1:60102
-Nov 09 00:03 : client: [1] closed
-Nov 09 00:03 : client: [2] opened from 127.0.0.1:60104
-Nov 09 00:03 : client: [2] closed
-Nov 09 00:03 : client: [3] opened from 127.0.0.1:60106
-Nov 09 00:03 : client: [3] closed
-Nov 09 00:03 : client: [4] opened from 127.0.0.1:60108
-Nov 09 00:03 : client: [4] closed
-Nov 09 00:03 : client: [5] opened from 127.0.0.1:60110
-Nov 09 00:03 : client: [5] closed
-Nov 09 00:03 : client: [6] opened from 127.0.0.1:60112
-Nov 09 00:03 : client: [6] closed
-Nov 09 00:03 : client: [7] opened from 127.0.0.1:60114
-Nov 09 00:03 : client: [7] closed
-Nov 09 00:03 : client: [8] opened from 127.0.0.1:60116
-Nov 09 00:03 : client: [8] closed
-Nov 09 00:03 : client: [9] opened from 127.0.0.1:60118
-Nov 09 00:03 : client: [9] closed
-Nov 09 00:03 : client: [10] opened from 127.0.0.1:60120
-Nov 09 00:03 : client: [10] closed
-Nov 09 00:03 : client: [11] opened from 127.0.0.1:60122
-Nov 09 00:03 : client: [11] closed
-Nov 09 00:03 : client: [12] opened from 127.0.0.1:60124
-Nov 09 00:03 : client: [12] closed
-Nov 09 00:03 : client: [13] opened from 127.0.0.1:60126
-Nov 09 00:03 : client: [13] closed
-Nov 09 00:03 : client: [14] opened from 127.0.0.1:60128
-Nov 09 00:03 : client: [14] closed
-Nov 09 00:03 : client: [15] opened from 127.0.0.1:60130
-Nov 09 00:03 : client: [15] closed
-Nov 09 00:03 : client: [16] opened from 127.0.0.1:60132
-Nov 09 00:03 : client: [16] closed
-Nov 09 00:03 : client: [17] opened from 127.0.0.1:60134
-Nov 09 00:03 : client: [17] closed
-Nov 09 00:03 : client: [18] opened from 127.0.0.1:60136
-Nov 09 00:03 : client: [18] closed
-Nov 09 00:03 : client: [19] opened from 127.0.0.1:60138
-Nov 09 00:03 : client: [19] closed
-Nov 09 00:03 : client: [20] opened from 127.0.0.1:60140
-Nov 09 00:03 : client: [20] closed
-Nov 09 00:06 : player: played "Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac"
-Nov 09 00:09 : client: [21] opened from 127.0.0.1:60236
-Nov 09 00:09 : client: [21] closed
-Nov 09 00:09 : client: [22] opened from 127.0.0.1:60238
-Nov 09 00:09 : client: [22] closed
-Nov 09 00:09 : client: [23] opened from 127.0.0.1:60240
-Nov 09 00:09 : client: [23] closed
-Nov 09 00:09 : client: [24] opened from 127.0.0.1:60242
-Nov 09 00:09 : client: [24] closed
-Nov 09 00:09 : client: [25] opened from 127.0.0.1:60244
-Nov 09 00:09 : client: [25] closed
-Nov 09 00:13 : client: [0] closed
-Nov 09 00:13 : client: [26] opened from 127.0.0.1:60278
-Nov 09 00:13 : client: [26] closed
-Nov 09 00:13 : client: [27] opened from 127.0.0.1:60280
-Nov 09 00:13 : client: [27] closed
-Nov 09 00:13 : client: [28] opened from 127.0.0.1:60282
-Nov 09 00:13 : client: [28] closed
-Nov 09 00:13 : client: [29] opened from 127.0.0.1:60284
-Nov 09 00:13 : client: [29] closed
-Nov 09 00:13 : client: [30] opened from 127.0.0.1:60286
-Nov 09 00:13 : client: [31] opened from 127.0.0.1:60288
-Nov 09 00:13 : client: [31] closed
-Nov 09 00:13 : client: [32] opened from 127.0.0.1:60290
-Nov 09 00:13 : client: [32] closed
-Nov 09 00:13 : client: [33] opened from 127.0.0.1:60292
-Nov 09 00:13 : client: [33] closed
-Nov 09 00:13 : client: [34] opened from 127.0.0.1:60294
-Nov 09 00:13 : client: [34] closed
-Nov 09 00:13 : client: [35] opened from 127.0.0.1:60296
-Nov 09 00:13 : client: [35] closed
-Nov 09 00:13 : client: [36] opened from 127.0.0.1:60298
-Nov 09 00:13 : client: [36] closed
-Nov 09 00:13 : client: [37] opened from 127.0.0.1:60300
-Nov 09 00:13 : client: [37] closed
-Nov 09 00:13 : client: [38] opened from 127.0.0.1:60302
-Nov 09 00:13 : client: [38] closed
-Nov 09 00:14 : client: [39] opened from 127.0.0.1:60304
-Nov 09 00:14 : client: [39] closed
-Nov 09 00:14 : client: [40] opened from 127.0.0.1:60306
-Nov 09 00:14 : client: [40] closed
-Nov 09 00:14 : client: [41] opened from 127.0.0.1:60308
-Nov 09 00:14 : client: [41] closed
-Nov 09 00:14 : client: [42] opened from 127.0.0.1:60310
-Nov 09 00:14 : client: [42] closed
-Nov 09 00:14 : client: [43] opened from 127.0.0.1:60312
-Nov 09 00:14 : client: [44] opened from 127.0.0.1:60314
-Nov 09 00:14 : client: [44] closed
-Nov 09 00:14 : client: [45] opened from 127.0.0.1:60316
-Nov 09 00:14 : client: [45] closed
-Nov 09 00:14 : client: [43] closed
-Nov 09 00:14 : client: [46] opened from 127.0.0.1:60318
-Nov 09 00:14 : client: [46] closed
-Nov 09 00:14 : client: [47] opened from 127.0.0.1:60320
-Nov 09 00:14 : client: [47] closed
-Nov 09 00:14 : client: [48] opened from 127.0.0.1:60322
-Nov 09 00:14 : client: [48] closed
-Nov 09 00:14 : client: [49] opened from 127.0.0.1:60324
-Nov 09 00:14 : client: [49] closed
-Nov 09 00:14 : client: [50] opened from 127.0.0.1:60326
-Nov 09 00:14 : client: [50] closed
-Nov 09 00:14 : client: [51] opened from 127.0.0.1:60328
-Nov 09 00:14 : client: [51] closed
-Nov 09 00:14 : client: [52] opened from 127.0.0.1:60330
-Nov 09 00:14 : client: [52] closed
-Nov 09 00:14 : client: [53] opened from 127.0.0.1:60332
-Nov 09 00:14 : client: [53] closed
-Nov 09 00:14 : client: [54] opened from 127.0.0.1:60334
-Nov 09 00:14 : client: [54] closed
-Nov 09 00:14 : client: [55] opened from 127.0.0.1:60336
-Nov 09 00:14 : client: [55] closed
-Nov 09 00:14 : client: [56] opened from 127.0.0.1:60338
-Nov 09 00:14 : client: [56] closed
-Nov 09 00:14 : client: [57] opened from 127.0.0.1:60340
-Nov 09 00:14 : client: [57] closed
-Nov 09 00:17 : client: [30] closed
-Nov 09 00:17 : exception: "pulse audio" [pulse] failed to play: disconnected
-Nov 09 00:17 : player: played "Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac"
-Nov 09 00:17 : client: [58] opened from 127.0.0.1:60486
-Nov 09 00:17 : client: [59] opened from 127.0.0.1:60488
-Nov 09 00:17 : client: [59] closed
-Nov 09 00:17 : client: [60] opened from 127.0.0.1:60490
-Nov 09 00:17 : client: [60] closed
-Nov 09 00:17 : client: [61] opened from 127.0.0.1:60492
-Nov 09 00:17 : client: [61] closed
-Nov 09 00:17 : client: [62] opened from 127.0.0.1:60494
-Nov 09 00:17 : client: [62] closed
-Nov 09 00:17 : client: [63] opened from 127.0.0.1:60496
-Nov 09 00:17 : client: [63] closed
-Nov 09 00:17 : client: [64] opened from 127.0.0.1:60498
-Nov 09 00:17 : client: [64] closed
-Nov 09 00:17 : client: [65] opened from 127.0.0.1:60500
-Nov 09 00:17 : client: [65] closed
-Nov 09 00:17 : client: [66] opened from 127.0.0.1:60502
-Nov 09 00:17 : client: [66] closed
-Nov 09 00:17 : client: [67] opened from 127.0.0.1:60504
-Nov 09 00:17 : client: [68] opened from 127.0.0.1:60506
-Nov 09 00:17 : client: [68] closed
-Nov 09 00:17 : client: [69] opened from 127.0.0.1:60508
-Nov 09 00:17 : client: [69] closed
-Nov 09 00:17 : client: [67] closed
-Nov 09 00:19 : client: [70] opened from 127.0.0.1:60510
-Nov 09 00:19 : client: [70] closed
-Nov 09 00:19 : client: [71] opened from 127.0.0.1:60512
-Nov 09 00:19 : client: [71] closed
-Nov 09 00:19 : client: [72] opened from 127.0.0.1:60514
-Nov 09 00:19 : client: [72] closed
-Nov 09 00:19 : client: [73] opened from 127.0.0.1:60516
-Nov 09 00:19 : client: [73] closed
-Nov 09 00:19 : client: [74] opened from 127.0.0.1:60518
-Nov 09 00:19 : client: [74] closed
-Nov 09 00:19 : client: [75] opened from 127.0.0.1:60520
-Nov 09 00:19 : client: [75] closed
-Nov 09 00:19 : client: [76] opened from 127.0.0.1:60522
-Nov 09 00:19 : client: [76] closed
-Nov 09 00:19 : client: [77] opened from 127.0.0.1:60524
-Nov 09 00:19 : client: [77] closed
-Nov 09 00:19 : client: [78] opened from 127.0.0.1:60526
-Nov 09 00:19 : client: [78] closed
-Nov 09 00:19 : client: [79] opened from 127.0.0.1:60528
-Nov 09 00:19 : client: [79] closed
-Nov 09 00:20 : client: [80] opened from 127.0.0.1:60530
-Nov 09 00:20 : client: [80] closed
-Nov 09 00:20 : client: [81] opened from 127.0.0.1:60532
-Nov 09 00:20 : client: [81] closed
-Nov 09 00:20 : client: [82] opened from 127.0.0.1:60534
-Nov 09 00:20 : client: [82] closed
-Nov 09 00:20 : client: [83] opened from 127.0.0.1:60536
-Nov 09 00:20 : client: [83] closed
-Nov 09 00:20 : client: [84] opened from 127.0.0.1:60538
-Nov 09 00:20 : client: [84] closed
-Nov 09 00:20 : client: [85] opened from 127.0.0.1:60540
-Nov 09 00:20 : client: [85] closed
-Nov 09 00:20 : player: played "Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac"
-Nov 09 00:20 : client: [86] opened from 127.0.0.1:60542
-Nov 09 00:20 : client: [86] closed
-Nov 09 00:21 : client: [87] opened from 127.0.0.1:60544
-Nov 09 00:21 : client: [87] closed
-Nov 09 00:21 : client: [88] opened from 127.0.0.1:60546
-Nov 09 00:21 : client: [88] closed
-Nov 09 00:21 : client: [89] opened from 127.0.0.1:60548
-Nov 09 00:21 : client: [89] closed
-Nov 09 00:21 : client: [90] opened from 127.0.0.1:60550
-Nov 09 00:21 : client: [90] closed
-Nov 09 00:21 : client: [91] opened from 127.0.0.1:60552
-Nov 09 00:21 : client: [91] closed
-Nov 09 00:21 : client: [92] opened from 127.0.0.1:60554
-Nov 09 00:21 : client: [92] closed
-Nov 09 00:22 : client: [93] opened from 127.0.0.1:60556
-Nov 09 00:22 : client: [93] closed
-Nov 09 00:22 : client: [94] opened from 127.0.0.1:60558
-Nov 09 00:22 : client: [94] closed
-Nov 09 00:23 : client: [95] opened from 127.0.0.1:60560
-Nov 09 00:23 : client: [95] closed
-Nov 09 00:23 : client: [96] opened from 127.0.0.1:60562
-Nov 09 00:23 : client: [96] closed
-Nov 09 00:23 : client: [97] opened from 127.0.0.1:60564
-Nov 09 00:23 : client: [97] closed
-Nov 09 00:27 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
-Nov 09 00:30 : player: played "Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac"
-Nov 09 00:36 : client: [58] closed
-Nov 13 02:50 : config: option 'device' on line 13 was not recognized
-Nov 13 02:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Nov 13 02:50 : client: [0] opened from 127.0.0.1:35310
-Nov 13 02:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Nov 13 02:51 : client: [1] opened from 127.0.0.1:35324
-Nov 13 02:51 : client: [1] closed
-Nov 13 02:51 : client: [2] opened from 127.0.0.1:35326
-Nov 13 02:51 : client: [2] closed
-Nov 13 02:51 : client: [3] opened from 127.0.0.1:35328
-Nov 13 02:51 : client: [3] closed
-Nov 13 02:51 : client: [4] opened from 127.0.0.1:35330
-Nov 13 02:51 : client: [4] closed
-Nov 13 02:53 : client: [5] opened from 127.0.0.1:35432
-Nov 13 02:53 : client: [5] closed
-Nov 13 02:53 : client: [6] opened from 127.0.0.1:35434
-Nov 13 02:53 : client: [6] closed
-Nov 13 02:53 : client: [7] opened from 127.0.0.1:35436
-Nov 13 02:53 : client: [7] closed
-Nov 13 02:53 : client: [8] opened from 127.0.0.1:35438
-Nov 13 02:53 : client: [8] closed
-Nov 13 02:53 : client: [9] opened from 127.0.0.1:35440
-Nov 13 02:53 : client: [9] closed
-Nov 13 02:53 : client: [10] opened from 127.0.0.1:35442
-Nov 13 02:53 : client: [10] closed
-Nov 13 02:53 : client: [11] opened from 127.0.0.1:35444
-Nov 13 02:53 : client: [11] closed
-Nov 13 02:53 : client: [12] opened from 127.0.0.1:35446
-Nov 13 02:53 : client: [12] closed
-Nov 13 02:53 : client: [13] opened from 127.0.0.1:35448
-Nov 13 02:53 : client: [13] closed
-Nov 13 02:53 : client: [14] opened from 127.0.0.1:35450
-Nov 13 02:53 : client: [14] closed
-Nov 13 02:53 : client: [15] opened from 127.0.0.1:35452
-Nov 13 02:53 : client: [15] closed
-Nov 13 02:53 : player: played "Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac"
-Nov 13 02:54 : client: [16] opened from 127.0.0.1:35454
-Nov 13 02:54 : client: [16] closed
-Nov 13 02:54 : client: [17] opened from 127.0.0.1:35456
-Nov 13 02:54 : client: [17] closed
-Nov 13 02:54 : client: [18] opened from 127.0.0.1:35458
-Nov 13 02:54 : client: [18] closed
-Nov 13 02:55 : client: [19] opened from 127.0.0.1:35460
-Nov 13 02:55 : client: [19] closed
-Nov 13 02:55 : client: [20] opened from 127.0.0.1:35462
-Nov 13 02:55 : client: [20] closed
-Nov 13 02:55 : client: [21] opened from 127.0.0.1:35464
-Nov 13 02:55 : client: [21] closed
-Nov 13 03:17 : client: [0] closed
-Nov 13 10:49 : config: option 'device' on line 13 was not recognized
-Nov 13 10:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Nov 13 10:49 : client: [0] opened from 127.0.0.1:48800
-Nov 13 10:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Nov 13 10:49 : client: [1] opened from 127.0.0.1:48802
-Nov 13 10:49 : client: [1] closed
-Nov 13 10:49 : client: [2] opened from 127.0.0.1:48804
-Nov 13 10:49 : client: [2] closed
-Nov 13 10:49 : client: [3] opened from 127.0.0.1:48806
-Nov 13 10:50 : client: [3] closed
-Nov 13 10:50 : client: [4] opened from 127.0.0.1:48808
-Nov 13 10:50 : client: [4] closed
-Nov 13 10:50 : client: [5] opened from 127.0.0.1:48810
-Nov 13 10:50 : client: [5] closed
-Nov 13 10:50 : client: [6] opened from 127.0.0.1:48812
-Nov 13 10:50 : client: [6] closed
-Nov 13 10:50 : client: [7] opened from 127.0.0.1:48814
-Nov 13 10:50 : client: [7] closed
-Nov 13 10:50 : client: [8] opened from 127.0.0.1:48816
-Nov 13 10:50 : client: [8] closed
-Nov 13 10:50 : client: [9] opened from 127.0.0.1:48818
-Nov 13 10:50 : client: [9] closed
-Nov 13 10:52 : player: played "Daughter Not To Disappear CD FLAC 2016 FORSAKEN/07-daughter-no_care.flac"
-Nov 13 10:52 : client: [10] opened from 127.0.0.1:48906
-Nov 13 10:52 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
-Nov 13 10:53 : client: [0] closed
-Nov 13 10:53 : client: [10] closed
-Nov 13 10:54 : client: [11] opened from 127.0.0.1:48920
-Nov 13 10:54 : client: [11] closed
-Nov 13 10:54 : client: [12] opened from 127.0.0.1:48922
-Nov 13 10:54 : client: [12] closed
-Nov 13 10:54 : client: [13] opened from 127.0.0.1:48924
-Nov 13 10:55 : client: [13] closed
-Nov 13 10:56 : player: played "Arctic Monkeys/Humbug (2009)/01-arctic_monkeys-my_propeller.flac"
-Nov 13 11:00 : player: played "Arctic Monkeys/Humbug (2009)/02-arctic_monkeys-crying_lightning.flac"
-Nov 13 11:01 : client: [14] opened from 127.0.0.1:48944
-Nov 13 11:01 : client: [14] closed
-Nov 13 11:01 : client: [15] opened from 127.0.0.1:48946
-Nov 13 11:01 : client: [15] closed
-Nov 13 11:01 : client: [16] opened from 127.0.0.1:48948
-Nov 13 11:01 : client: [16] closed
-Nov 13 11:02 : client: [17] opened from 127.0.0.1:48952
-Nov 13 11:02 : client: [17] closed
-Nov 13 11:02 : client: [18] opened from 127.0.0.1:48954
-Nov 13 11:02 : client: [18] closed
-Nov 13 11:02 : client: [19] opened from 127.0.0.1:48956
-Nov 13 11:02 : client: [19] closed
-Nov 13 11:03 : client: [20] opened from 127.0.0.1:49068
-Nov 13 11:03 : client: [20] closed
-Nov 13 11:03 : client: [21] opened from 127.0.0.1:49070
-Nov 13 11:03 : client: [21] closed
-Nov 13 11:03 : client: [22] opened from 127.0.0.1:49072
-Nov 13 11:03 : client: [22] closed
-Nov 13 11:03 : client: [23] opened from 127.0.0.1:49078
-Nov 13 11:03 : client: [23] closed
-Nov 13 11:03 : client: [24] opened from 127.0.0.1:49080
-Nov 13 11:03 : client: [24] closed
-Nov 13 11:03 : client: [25] opened from 127.0.0.1:49082
-Nov 13 11:03 : client: [25] closed
-Nov 13 11:03 : player: played "Arctic Monkeys/Humbug (2009)/03-arctic_monkeys-dangerous_animals.flac"
-Nov 13 11:04 : client: [26] opened from 127.0.0.1:49086
-Nov 13 11:04 : client: [26] closed
-Nov 13 11:04 : client: [27] opened from 127.0.0.1:49088
-Nov 13 11:04 : client: [27] closed
-Nov 13 11:04 : client: [28] opened from 127.0.0.1:49090
-Nov 13 11:04 : client: [28] closed
-Nov 13 11:05 : client: [29] opened from 127.0.0.1:49094
-Nov 13 11:05 : client: [29] closed
-Nov 13 11:05 : client: [30] opened from 127.0.0.1:49096
-Nov 13 11:05 : client: [30] closed
-Nov 13 11:05 : client: [31] opened from 127.0.0.1:49098
-Nov 13 11:05 : client: [31] closed
-Nov 13 11:06 : client: [32] opened from 127.0.0.1:49100
-Nov 13 11:06 : client: [32] closed
-Nov 13 11:06 : client: [33] opened from 127.0.0.1:49102
-Nov 13 11:06 : client: [33] closed
-Nov 13 11:06 : client: [34] opened from 127.0.0.1:49104
-Nov 13 11:06 : client: [34] closed
-Nov 13 11:06 : client: [35] opened from 127.0.0.1:49108
-Nov 13 11:06 : client: [35] closed
-Nov 13 11:06 : client: [36] opened from 127.0.0.1:49110
-Nov 13 11:06 : client: [36] closed
-Nov 13 11:06 : client: [37] opened from 127.0.0.1:49112
-Nov 13 11:06 : client: [37] closed
-Nov 13 11:07 : client: [38] opened from 127.0.0.1:49116
-Nov 13 11:07 : client: [38] closed
-Nov 13 11:07 : client: [39] opened from 127.0.0.1:49118
-Nov 13 11:07 : client: [39] closed
-Nov 13 11:07 : client: [40] opened from 127.0.0.1:49120
-Nov 13 11:07 : player: played "Arctic Monkeys/Humbug (2009)/04-arctic_monkeys-secret_door.flac"
-Nov 13 11:07 : client: [40] closed
-Nov 13 11:07 : client: [41] opened from 127.0.0.1:49122
-Nov 13 11:07 : client: [41] closed
-Nov 13 11:07 : client: [42] opened from 127.0.0.1:49124
-Nov 13 11:07 : client: [42] closed
-Nov 13 11:07 : client: [43] opened from 127.0.0.1:49126
-Nov 13 11:07 : client: [43] closed
-Nov 13 11:08 : client: [44] opened from 127.0.0.1:49128
-Nov 13 11:08 : client: [44] closed
-Nov 13 11:08 : client: [45] opened from 127.0.0.1:49130
-Nov 13 11:08 : client: [45] closed
-Nov 13 11:08 : client: [46] opened from 127.0.0.1:49132
-Nov 13 11:08 : client: [46] closed
-Nov 13 11:11 : player: played "Arctic Monkeys/Humbug (2009)/05-arctic_monkeys-potion_approaching.flac"
-Nov 13 11:15 : player: played "Arctic Monkeys/Humbug (2009)/06-arctic_monkeys-fire_and_the_thud.flac"
-Nov 13 11:17 : client: [47] opened from 127.0.0.1:49592
-Nov 13 11:19 : client: [47] closed
-Jan 04 03:11 : avahi: Failed to create client: Daemon not running
-Jan 04 03:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Jan 04 03:11 : exception: Failed to access /mnt/music: No such file or directory
-Jan 04 03:11 : config: option 'device' on line 13 was not recognized
-Jan 04 03:12 : client: [0] opened from 127.0.0.1:52138
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to access /mnt/music: No such file or directory
-Jan 04 03:12 : exception: Failed to access /mnt/music: No such file or directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:12 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:13 : client: [0] closed
-Jan 04 03:13 : avahi: Failed to create client: Daemon not running
-Jan 04 03:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
-Jan 04 03:13 : config: option 'device' on line 13 was not recognized
-Jan 04 03:15 : client: [0] opened from 127.0.0.1:52176
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : exception: Failed to open /home/ronin/.mpd/playlists: Not a directory
-Jan 04 03:15 : client: [0] closed
+Jan 04 03:21 : avahi: Failed to create client: Daemon not running
+Jan 04 03:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 03:21 : exception: Failed to open '/home/ronin/.mpd/mpdstate': No such file or directory
+Jan 04 03:21 : config: option 'device' on line 13 was not recognized
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/01-frank_ocean-start.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/02-frank_ocean-thinkin_bout_you.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/03-frank_ocean-fertilizer.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/04-frank_ocean-sierra_leone.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/05-frank_ocean-sweet_life.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/06-frank_ocean-not_just_money.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/07-frank_ocean-super_rich_kids_(feat._earl_sweatshirt).flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/08-frank_ocean-pilot_jones.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/09-frank_ocean-crack_rock.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/10-frank_ocean-pyramids.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/11-frank_ocean-lost.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/12-frank_ocean-white_(feat._john_mayer).flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/13-frank_ocean-monks.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/14-frank_ocean-bad_religion.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/15-frank_ocean-pink_matter_(feat._andre_3000).flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/16-frank_ocean-forrest_gump.flac
+Jan 04 03:21 : update: added Frank Ocean/Channel Orange (2012)/17-frank_ocean-end_golden_girl_(feat._tyler_the_creator).flac
+Jan 04 03:21 : avahi: Failed to create client: Daemon not running
+Jan 04 03:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 03:21 : exception: Failed to open '/home/ronin/.mpd/mpdstate': No such file or directory
+Jan 04 03:21 : config: option 'device' on line 13 was not recognized
+Jan 04 03:21 : client: [0] opened from 127.0.0.1:52398
+Jan 04 03:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 03:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 03:22 : client: [1] opened from 127.0.0.1:52412
+Jan 04 03:22 : client: [1] closed
+Jan 04 03:22 : client: [2] opened from 127.0.0.1:52416
+Jan 04 03:22 : client: [3] opened from 127.0.0.1:52418
+Jan 04 03:22 : client: [3] closed
+Jan 04 03:22 : client: [4] opened from 127.0.0.1:52420
+Jan 04 03:22 : client: [4] closed
+Jan 04 03:22 : client: [5] opened from 127.0.0.1:52422
+Jan 04 03:22 : client: [5] closed
+Jan 04 03:22 : client: [6] opened from 127.0.0.1:52424
+Jan 04 03:22 : client: [6] closed
+Jan 04 03:22 : client: [7] opened from 127.0.0.1:52426
+Jan 04 03:22 : client: [7] closed
+Jan 04 03:22 : client: [8] opened from 127.0.0.1:52428
+Jan 04 03:22 : client: [8] closed
+Jan 04 03:22 : client: [9] opened from 127.0.0.1:52430
+Jan 04 03:22 : client: [9] closed
+Jan 04 03:22 : client: [10] opened from 127.0.0.1:52432
+Jan 04 03:22 : client: [10] closed
+Jan 04 03:22 : client: [11] opened from 127.0.0.1:52434
+Jan 04 03:22 : client: [11] closed
+Jan 04 03:22 : client: [12] opened from 127.0.0.1:52436
+Jan 04 03:22 : client: [12] closed
+Jan 04 03:22 : client: [13] opened from 127.0.0.1:52438
+Jan 04 03:22 : client: [13] closed
+Jan 04 03:22 : client: [14] opened from 127.0.0.1:52440
+Jan 04 03:22 : client: [14] closed
+Jan 04 03:22 : client: [15] opened from 127.0.0.1:52442
+Jan 04 03:22 : client: [15] closed
+Jan 04 03:22 : client: [16] opened from 127.0.0.1:52444
+Jan 04 03:22 : client: [16] closed
+Jan 04 03:22 : client: [17] opened from 127.0.0.1:52446
+Jan 04 03:22 : client: [17] closed
+Jan 04 03:22 : client: [18] opened from 127.0.0.1:52448
+Jan 04 03:22 : client: [18] closed
+Jan 04 03:22 : client: [19] opened from 127.0.0.1:52450
+Jan 04 03:22 : client: [19] closed
+Jan 04 03:22 : client: [20] opened from 127.0.0.1:52452
+Jan 04 03:22 : client: [20] closed
+Jan 04 03:22 : client: [21] opened from 127.0.0.1:52454
+Jan 04 03:22 : player: played "Frank Ocean/Channel Orange (2012)/01-frank_ocean-start.flac"
+Jan 04 03:22 : client: [21] closed
+Jan 04 03:22 : client: [22] opened from 127.0.0.1:52456
+Jan 04 03:22 : client: [22] closed
+Jan 04 03:22 : client: [23] opened from 127.0.0.1:52458
+Jan 04 03:22 : client: [23] closed
+Jan 04 03:23 : client: [2] closed
+Jan 04 03:25 : client: [0] closed
+Jan 04 03:26 : player: played "Frank Ocean/Channel Orange (2012)/02-frank_ocean-thinkin_bout_you.flac"
+Jan 04 03:26 : player: played "Frank Ocean/Channel Orange (2012)/03-frank_ocean-fertilizer.flac"
+Jan 04 03:27 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 04 03:29 : player: played "Frank Ocean/Channel Orange (2012)/04-frank_ocean-sierra_leone.flac"
+xcb_connection_has_error() returned true
+Jan 04 03:29 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 04 03:31 : client: [24] opened from 127.0.0.1:52954
+Jan 04 03:31 : client: [25] opened from 127.0.0.1:52964
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/04 February 3rd.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/05 On Your Own.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/06 The One.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/07 Wandering Romance.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac
+Jan 04 03:33 : update: added Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac
+Jan 04 03:34 : client: [24] closed
+Jan 04 03:34 : client: [26] opened from 127.0.0.1:53180
+Jan 04 03:34 : client: [26] closed
+Jan 04 03:37 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Jan 01 02:40 : client: [25] closed
+Jan 01 02:40 : client: [27] opened from 127.0.0.1:53300
+Jan 01 02:41 : client: [28] opened from 127.0.0.1:53338
+Jan 01 02:48 : client: [28] closed
+Jan 01 02:49 : player: played "Frank Ocean/Channel Orange (2012)/02-frank_ocean-thinkin_bout_you.flac"
+Jan 01 12:12 : avahi: Failed to create client: Daemon not running
+Jan 01 12:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 12:12 : config: option 'device' on line 13 was not recognized
+Jan 01 12:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 12:12 : client: [0] opened from 127.0.0.1:41144
+Jan 01 12:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 12:13 : client: [0] closed
+Jan 01 12:19 : player: played "Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac"
+Jan 04 12:23 : player: played "Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac"
+Jan 04 12:26 : client: [1] opened from 127.0.0.1:41758
+Jan 04 12:26 : client: [1] closed
+Jan 04 12:26 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Jan 04 12:30 : player: played "Jorja Smith/Lost & Found (2018)/04 February 3rd.flac"
+Jan 04 12:32 : client: [2] opened from 127.0.0.1:42398
+Jan 04 12:32 : client: [2] closed
+Jan 05 19:10 : avahi: Failed to create client: Daemon not running
+Jan 05 19:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 19:10 : config: option 'device' on line 13 was not recognized
+Jan 05 19:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 19:10 : client: [0] opened from 127.0.0.1:42808
+Jan 05 19:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 19:13 : player: played "Frank Ocean/Channel Orange (2012)/02-frank_ocean-thinkin_bout_you.flac"
+Jan 05 19:14 : player: played "Frank Ocean/Channel Orange (2012)/03-frank_ocean-fertilizer.flac"
+Jan 05 19:16 : player: played "Frank Ocean/Channel Orange (2012)/04-frank_ocean-sierra_leone.flac"
+Jan 05 19:21 : player: played "Frank Ocean/Channel Orange (2012)/05-frank_ocean-sweet_life.flac"
+Jan 05 19:22 : player: played "Frank Ocean/Channel Orange (2012)/06-frank_ocean-not_just_money.flac"
+Jan 05 19:27 : player: played "Frank Ocean/Channel Orange (2012)/07-frank_ocean-super_rich_kids_(feat._earl_sweatshirt).flac"
+Jan 05 19:30 : player: played "Frank Ocean/Channel Orange (2012)/08-frank_ocean-pilot_jones.flac"
+Jan 05 19:34 : player: played "Frank Ocean/Channel Orange (2012)/09-frank_ocean-crack_rock.flac"
+Jan 05 19:44 : player: played "Frank Ocean/Channel Orange (2012)/10-frank_ocean-pyramids.flac"
+Jan 05 19:47 : player: played "Frank Ocean/Channel Orange (2012)/11-frank_ocean-lost.flac"
+Jan 05 19:49 : player: played "Frank Ocean/Channel Orange (2012)/12-frank_ocean-white_(feat._john_mayer).flac"
+Jan 05 19:52 : player: played "Frank Ocean/Channel Orange (2012)/13-frank_ocean-monks.flac"
+Jan 05 19:55 : player: played "Frank Ocean/Channel Orange (2012)/14-frank_ocean-bad_religion.flac"
+Jan 05 20:00 : player: played "Frank Ocean/Channel Orange (2012)/15-frank_ocean-pink_matter_(feat._andre_3000).flac"
+Jan 05 20:03 : player: played "Frank Ocean/Channel Orange (2012)/16-frank_ocean-forrest_gump.flac"
+Jan 05 20:11 : player: played "Frank Ocean/Channel Orange (2012)/17-frank_ocean-end_golden_girl_(feat._tyler_the_creator).flac"
+Jan 05 20:17 : player: played "Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac"
+Jan 05 20:21 : player: played "Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac"
+Jan 05 20:24 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Jan 05 20:29 : player: played "Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac"
+Jan 05 20:33 : player: played "Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac"
+Jan 05 20:36 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Jan 05 20:40 : player: played "Jorja Smith/Lost & Found (2018)/04 February 3rd.flac"
+Jan 05 20:44 : player: played "Jorja Smith/Lost & Found (2018)/05 On Your Own.flac"
+Jan 05 20:47 : player: played "Jorja Smith/Lost & Found (2018)/06 The One.flac"
+Jan 05 20:52 : player: played "Jorja Smith/Lost & Found (2018)/07 Wandering Romance.flac"
+Jan 05 20:56 : player: played "Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac"
+Jan 05 20:59 : player: played "Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac"
+Jan 05 21:03 : player: played "Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac"
+Jan 05 21:07 : player: played "Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac"
+Jan 05 21:10 : player: played "Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac"
+Jan 07 16:09 : client: [0] closed
+Jan 13 13:51 : client: [1] opened from 127.0.0.1:32796
+Jan 13 13:51 : client: [1] closed
+Jan 13 13:51 : client: [2] opened from 127.0.0.1:32800
+Jan 13 13:51 : client: [2] closed
+Jan 13 13:51 : client: [3] opened from 127.0.0.1:32804
+Jan 13 13:51 : client: [3] closed
+Jan 13 13:51 : client: [4] opened from 127.0.0.1:32816
+Jan 13 13:51 : client: [4] closed
+Jan 13 13:51 : client: [5] opened from 127.0.0.1:32820
+Jan 13 13:51 : client: [5] closed
+Jan 13 13:51 : client: [6] opened from 127.0.0.1:32824
+Jan 13 13:51 : client: [6] closed
+Jan 13 13:51 : client: [7] opened from 127.0.0.1:32830
+Jan 13 13:51 : client: [7] closed
+Jan 13 13:51 : client: [8] opened from 127.0.0.1:32834
+Jan 13 13:51 : client: [8] closed
+Jan 13 13:52 : client: [9] opened from 127.0.0.1:32854
+Jan 13 13:52 : client: [9] closed
+Jan 13 13:52 : client: [10] opened from 127.0.0.1:32858
+Jan 13 13:52 : client: [10] closed
+Jan 13 13:52 : client: [11] opened from 127.0.0.1:32870
+Jan 13 13:52 : client: [11] closed
+Jan 13 13:52 : client: [12] opened from 127.0.0.1:32874
+Jan 13 13:52 : client: [12] closed
+Jan 13 13:52 : client: [13] opened from 127.0.0.1:32878
+Jan 13 13:52 : client: [13] closed
+Jan 13 13:52 : client: [14] opened from 127.0.0.1:32882
+Jan 13 13:52 : client: [14] closed
+Jan 13 13:52 : client: [15] opened from 127.0.0.1:32886
+Jan 13 13:52 : client: [16] opened from 127.0.0.1:32890
+Jan 13 13:52 : client: [16] closed
+Jan 13 13:52 : client: [17] opened from 127.0.0.1:32894
+Jan 13 13:52 : client: [17] closed
+Jan 13 13:52 : client: [18] opened from 127.0.0.1:32898
+Jan 13 13:52 : client: [18] closed
+Jan 13 13:52 : client: [19] opened from 127.0.0.1:32902
+Jan 13 13:52 : client: [19] closed
+Jan 13 13:52 : client: [20] opened from 127.0.0.1:32906
+Jan 13 13:52 : client: [20] closed
+Jan 13 13:52 : client: [21] opened from 127.0.0.1:32910
+Jan 13 13:52 : client: [21] closed
+Jan 13 13:52 : client: [22] opened from 127.0.0.1:32914
+Jan 13 13:52 : client: [22] closed
+Jan 13 13:52 : client: [23] opened from 127.0.0.1:32918
+Jan 13 13:52 : client: [23] closed
+Jan 13 13:52 : client: [24] opened from 127.0.0.1:32922
+Jan 13 13:52 : client: [24] closed
+Jan 13 13:58 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Jan 13 14:02 : player: played "Jorja Smith/Lost & Found (2018)/04 February 3rd.flac"
+Jan 13 14:03 : client: [25] opened from 127.0.0.1:33260
+Jan 13 14:03 : client: [25] closed
+Jan 13 14:06 : player: played "Jorja Smith/Lost & Found (2018)/05 On Your Own.flac"
+Jan 13 14:07 : client: [15] closed
+Jan 13 14:07 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 14:08 : client: [26] opened from 127.0.0.1:33486
+Jan 13 14:08 : client: [26] closed
+Jan 13 14:12 : player: played "Jorja Smith/Lost & Found (2018)/05 On Your Own.flac"
+Jan 13 14:15 : client: [27] opened from 127.0.0.1:33724
+Jan 13 14:15 : client: [28] opened from 127.0.0.1:33726
+Jan 13 14:15 : client: [28] closed
+Jan 13 14:16 : client: [27] closed
+Jan 13 14:16 : client: [29] opened from 127.0.0.1:33736
+Jan 13 14:18 : client: [29] closed
+Jan 13 14:18 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 14:18 : client: [30] opened from 127.0.0.1:33806
+Jan 13 14:19 : client: [31] opened from 127.0.0.1:33810
+Jan 13 14:23 : player: played "Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac"
+Jan 13 14:26 : player: played "Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac"
+Jan 13 14:29 : player: played "Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac"
+Jan 13 14:32 : client: [31] closed
+Jan 13 14:32 : client: [30] closed
+Jan 13 14:32 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 14:32 : client: [32] opened from 127.0.0.1:34148
+Jan 13 14:32 : client: [32] closed
+Jan 13 14:32 : client: [33] opened from 127.0.0.1:34150
+Jan 13 14:33 : player: played "Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac"
+Jan 13 14:36 : player: played "Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac"
+Jan 13 16:18 : client: [34] opened from 127.0.0.1:36768
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/01-the_black_keys-weight_of_love.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/02-the_black_keys-in_time.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/03-the_black_keys-turn_blue.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/04-the_black_keys-fever.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/05-the_black_keys-year_in_review.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/06-the_black_keys-bullet_in_the_brain.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/07-the_black_keys-its_up_to_you_now.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/08-the_black_keys-waiting_on_words.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/09-the_black_keys-10_lovers.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/10-the_black_keys-in_our_prime.flac
+Jan 13 16:18 : update: added The Black Keys/Turn Blue (2014)/11-the_black_keys-gotta_get_away.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/01-the_black_keys-lonely_boy.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/02-the_black_keys-dead_and_gone.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/03-the_black_keys-gold_on_the_ceiling.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/04-the_black_keys-little_black_submarines.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/05-the_black_keys-money_maker.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/06-the_black_keys-run_right_back.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/07-the_black_keys-sister.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/08-the_black_keys-hell_of_a_season.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/09-the_black_keys-stop_stop.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/10-the_black_keys-nova_baby.flac
+Jan 13 16:18 : update: added The Black Keys/El Camino (2011)/11-the_black_keys-mind_eraser.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/01-arctic_monkeys-do_i_wanna_know.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/02-arctic_monkeys-r_u_mine.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/03-arctic_monkeys-one_for_the_road.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/04-arctic_monkeys-arabella.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/05-arctic_monkeys-i_want_it_all.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/06-arctic_monkeys-no.1_party_anthem.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/07-arctic_monkeys-mad_sounds.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/08-arctic_monkeys-fireside.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/09-arctic_monkeys-whyd_you_only_call_me_when_youre_high.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/10-arctic_monkeys-snap_out_of_it.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/11-arctic_monkeys-knee_socks.flac
+Jan 13 16:18 : update: added Arctic Monkeys/AM (2013)/12-arctic_monkeys-i_wanna_be_yours.flac
+Jan 13 16:21 : client: [33] closed
+Jan 13 16:21 : client: [34] closed
+Jan 13 16:21 : client: [35] opened from 127.0.0.1:36854
+Jan 13 16:22 : client: [36] opened from 127.0.0.1:36858
+Jan 13 16:26 : client: [36] closed
+Jan 13 16:26 : client: [37] opened from 127.0.0.1:36972
+Jan 13 16:26 : client: [37] closed
+Jan 13 16:26 : client: [38] opened from 127.0.0.1:36976
+Jan 13 16:27 : client: [38] closed
+Jan 13 16:27 : client: [39] opened from 127.0.0.1:36996
+Jan 13 16:27 : client: [39] closed
+Jan 13 16:27 : client: [40] opened from 127.0.0.1:37000
+Jan 13 16:31 : player: played "The Black Keys/Turn Blue (2014)/02-the_black_keys-in_time.flac"
+Jan 13 16:33 : client: [40] closed
+Jan 13 16:33 : client: [41] opened from 127.0.0.1:37200
+Jan 13 16:33 : client: [35] closed
+Jan 13 16:33 : client: [41] closed
+Jan 13 16:33 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 16:33 : client: [42] opened from 127.0.0.1:37204
+Jan 13 16:33 : client: [43] opened from 127.0.0.1:37208
+Jan 13 16:33 : client: [43] closed
+Jan 13 16:35 : player: played "The Black Keys/Turn Blue (2014)/03-the_black_keys-turn_blue.flac"
+Jan 13 16:35 : client: [44] opened from 127.0.0.1:37296
+Jan 13 16:35 : client: [44] closed
+Jan 13 16:45 : client: [45] opened from 127.0.0.1:37502
+Jan 13 16:46 : client: [45] closed
+Jan 13 16:48 : client: [46] opened from 127.0.0.1:37562
+Jan 13 16:49 : player: played "The Black Keys/Turn Blue (2014)/05-the_black_keys-year_in_review.flac"
+Jan 13 16:50 : client: [47] opened from 127.0.0.1:37608
+Jan 13 16:50 : client: [46] closed
+Jan 13 16:52 : client: [48] opened from 127.0.0.1:37648
+Jan 13 16:52 : client: [48] closed
+Jan 13 16:52 : client: [49] opened from 127.0.0.1:37660
+Jan 13 16:52 : client: [49] closed
+Jan 13 16:52 : client: [50] opened from 127.0.0.1:37664
+Jan 13 16:53 : client: [51] opened from 127.0.0.1:37676
+Jan 13 16:54 : player: played "The Black Keys/Turn Blue (2014)/06-the_black_keys-bullet_in_the_brain.flac"
+Jan 13 16:54 : client: [50] closed
+Jan 13 16:54 : client: [52] opened from 127.0.0.1:37710
+Jan 13 16:55 : client: [52] closed
+Jan 13 16:55 : client: [53] opened from 127.0.0.1:37740
+Jan 13 16:55 : client: [42] closed
+Jan 13 16:55 : client: [51] closed
+Jan 13 16:55 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 16:55 : client: [47] closed
+Jan 13 16:55 : client: [53] closed
+Jan 13 16:55 : client: [54] opened from 127.0.0.1:37742
+Jan 13 16:55 : client: [55] opened from 127.0.0.1:37746
+Jan 13 16:55 : client: [55] closed
+Jan 13 16:56 : client: [56] opened from 127.0.0.1:37750
+Jan 13 16:57 : client: [56] closed
+Jan 13 16:57 : client: [54] closed
+Jan 13 16:57 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 16:57 : client: [57] opened from 127.0.0.1:37782
+Jan 13 16:57 : client: [57] closed
+Jan 13 16:57 : client: [58] opened from 127.0.0.1:37784
+Jan 13 16:58 : client: [59] opened from 127.0.0.1:37810
+Jan 13 16:59 : client: [59] closed
+Jan 13 16:59 : client: [60] opened from 127.0.0.1:37896
+Jan 13 16:59 : client: [60] closed
+Jan 13 17:00 : client: [58] closed
+Jan 13 17:00 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 17:00 : client: [61] opened from 127.0.0.1:37906
+Jan 13 17:01 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Jan 13 17:02 : client: [62] opened from 127.0.0.1:37956
+Jan 13 17:03 : client: [62] closed
+Jan 13 17:03 : client: [63] opened from 127.0.0.1:37980
+Jan 13 17:03 : client: [63] closed
+Jan 13 17:03 : client: [64] opened from 127.0.0.1:37986
+Jan 13 17:04 : client: [64] closed
+Jan 13 17:04 : client: [65] opened from 127.0.0.1:37998
+Jan 13 17:05 : client: [65] closed
+Jan 13 17:05 : client: [66] opened from 127.0.0.1:38018
+Jan 13 17:05 : client: [66] closed
+Jan 13 17:05 : player: played "Jorja Smith/Lost & Found (2018)/04 February 3rd.flac"
+Jan 13 17:06 : client: [67] opened from 127.0.0.1:38040
+Jan 13 17:07 : client: [67] closed
+Jan 13 17:07 : client: [68] opened from 127.0.0.1:38044
+Jan 13 17:07 : client: [68] closed
+Jan 13 17:07 : client: [69] opened from 127.0.0.1:38064
+Jan 13 17:08 : client: [70] opened from 127.0.0.1:38116
+Jan 13 17:09 : client: [70] closed
+Jan 13 17:09 : client: [71] opened from 127.0.0.1:38128
+Jan 13 17:09 : client: [71] closed
+Jan 13 17:09 : client: [72] opened from 127.0.0.1:38140
+Jan 13 17:09 : client: [72] closed
+Jan 13 17:09 : player: played "Jorja Smith/Lost & Found (2018)/05 On Your Own.flac"
+Jan 13 17:10 : client: [73] opened from 127.0.0.1:38170
+Jan 13 17:12 : client: [73] closed
+Jan 13 17:12 : client: [74] opened from 127.0.0.1:38190
+Jan 13 17:13 : client: [74] closed
+Jan 13 17:13 : client: [75] opened from 127.0.0.1:38202
+Jan 13 17:13 : client: [75] closed
+Jan 13 17:14 : client: [76] opened from 127.0.0.1:38224
+Jan 13 17:15 : client: [76] closed
+Jan 13 17:15 : client: [77] opened from 127.0.0.1:38236
+Jan 13 17:15 : client: [77] closed
+Jan 13 17:15 : client: [78] opened from 127.0.0.1:38240
+Jan 13 17:15 : client: [78] closed
+Jan 13 17:15 : client: [79] opened from 127.0.0.1:38244
+Jan 13 17:16 : player: played "Arctic Monkeys/AM (2013)/04-arctic_monkeys-arabella.flac"
+Jan 13 17:20 : player: played "Arctic Monkeys/AM (2013)/02-arctic_monkeys-r_u_mine.flac"
+Jan 13 17:24 : player: played "Arctic Monkeys/AM (2013)/03-arctic_monkeys-one_for_the_road.flac"
+Jan 13 17:24 : client: [61] closed
+Jan 13 17:24 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 17:24 : client: [69] closed
+Jan 13 17:24 : client: [79] closed
+Jan 13 17:24 : client: [80] opened from 127.0.0.1:38456
+Jan 13 17:25 : client: [81] opened from 127.0.0.1:38488
+Jan 13 17:25 : client: [81] closed
+Jan 13 17:25 : client: [82] opened from 127.0.0.1:38490
+Jan 13 17:25 : client: [82] closed
+Jan 13 17:26 : client: [83] opened from 127.0.0.1:38768
+Jan 13 17:26 : client: [83] closed
+Jan 13 19:54 : client: [84] opened from 127.0.0.1:45388
+Jan 13 19:54 : client: [84] closed
+Jan 13 19:55 : player: played "Arctic Monkeys/AM (2013)/04-arctic_monkeys-arabella.flac"
+Jan 13 19:58 : player: played "Arctic Monkeys/AM (2013)/05-arctic_monkeys-i_want_it_all.flac"
+Jan 13 19:59 : client: [80] closed
+Jan 13 19:59 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 19:59 : client: [85] opened from 127.0.0.1:45570
+Jan 13 19:59 : player: played "Arctic Monkeys/AM (2013)/06-arctic_monkeys-no.1_party_anthem.flac"
+Jan 13 20:05 : avahi: Failed to create client: Daemon not running
+Jan 13 20:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 13 20:05 : config: option 'device' on line 13 was not recognized
+Jan 13 20:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 13 20:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 13 20:06 : client: [0] opened from 127.0.0.1:51756
+Jan 13 20:06 : client: [0] closed
+Jan 13 20:06 : client: [1] opened from 127.0.0.1:51758
+Jan 13 20:06 : client: [2] opened from 127.0.0.1:51762
+Jan 13 20:10 : player: played "The Black Keys/El Camino (2011)/03-the_black_keys-gold_on_the_ceiling.flac"
+Jan 13 20:18 : client: [2] closed
+Jan 13 20:18 : client: [1] closed
+Jan 13 20:18 : client: [3] opened from 127.0.0.1:51932
+Jan 13 20:28 : client: [3] closed
+Jan 13 20:28 : client: [4] opened from 127.0.0.1:52072
+Jan 13 20:29 : client: [4] closed
+Jan 13 20:29 : client: [5] opened from 127.0.0.1:52074
+Jan 13 20:34 : client: [5] closed
+Jan 13 20:34 : client: [6] opened from 127.0.0.1:52210
+Jan 13 20:35 : client: [6] closed
+Jan 13 20:35 : client: [7] opened from 127.0.0.1:52212
+Jan 13 20:36 : client: [7] closed
+Jan 13 20:36 : client: [8] opened from 127.0.0.1:52214
+Jan 13 20:37 : client: [8] closed
+Jan 13 20:37 : client: [9] opened from 127.0.0.1:52220
+Jan 13 20:38 : client: [9] closed
+Jan 13 20:38 : client: [10] opened from 127.0.0.1:52222
+Jan 13 20:38 : client: [10] closed
+Jan 13 20:38 : client: [11] opened from 127.0.0.1:52224
+Jan 13 20:39 : client: [11] closed
+Jan 13 20:39 : client: [12] opened from 127.0.0.1:52226
+Jan 13 20:41 : client: [12] closed
+Jan 13 20:41 : client: [13] opened from 127.0.0.1:52228
+Jan 13 20:41 : client: [13] closed
+Jan 13 20:42 : client: [14] opened from 127.0.0.1:52230
+Jan 13 20:44 : client: [14] closed
+Jan 13 20:44 : client: [15] opened from 127.0.0.1:52262
+Jan 13 20:49 : client: [16] opened from 127.0.0.1:52290
+Jan 13 20:53 : player: played "The Black Keys/El Camino (2011)/03-the_black_keys-gold_on_the_ceiling.flac"
+Jan 13 21:04 : client: [15] closed
+Jan 13 21:04 : client: [16] closed
+Jan 13 21:04 : client: [17] opened from 127.0.0.1:52356
+Jan 13 21:09 : client: [17] closed
+Jan 13 21:09 : client: [18] opened from 127.0.0.1:52412
+Jan 13 21:12 : client: [18] closed
+Jan 13 21:12 : client: [19] opened from 127.0.0.1:52468
+Jan 13 21:17 : client: [20] opened from 127.0.0.1:52496
+Jan 13 21:21 : player: played "The Black Keys/El Camino (2011)/03-the_black_keys-gold_on_the_ceiling.flac"
+Jan 13 21:31 : player: played "The Black Keys/El Camino (2011)/03-the_black_keys-gold_on_the_ceiling.flac"
+Jan 13 21:48 : client: [20] closed
+Jan 13 21:48 : client: [19] closed
+Jan 13 21:48 : client: [21] opened from 127.0.0.1:52770
+Jan 13 21:57 : client: [21] closed
+Jan 13 21:57 : client: [22] opened from 127.0.0.1:52840
+Jan 13 22:17 : client: [22] closed
+Jan 13 22:17 : client: [23] opened from 127.0.0.1:53014
+Jan 13 22:34 : client: [23] closed
+Jan 13 22:35 : client: [24] opened from 127.0.0.1:53114
+Jan 13 22:43 : client: [24] closed
+Jan 13 22:43 : client: [25] opened from 127.0.0.1:53170
+Jan 13 22:43 : client: [26] opened from 127.0.0.1:53178
+Jan 13 22:47 : client: [26] closed
+Jan 13 22:48 : player: played "Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac"
+Jan 13 22:49 : client: [25] closed
+Jan 13 22:49 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Jan 13 22:49 : client: [27] opened from 127.0.0.1:53226
+Jan 13 22:49 : client: [28] opened from 127.0.0.1:53230
+Jan 14 00:21 : client: [28] closed
+Jan 14 00:21 : client: [27] closed
+Jan 14 00:21 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Jan 14 00:21 : client: [29] opened from 127.0.0.1:54948
+Jan 14 00:28 : client: [30] opened from 127.0.0.1:55174
+Jan 14 00:30 : player: played "Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac"
