@@ -2,7 +2,8 @@
 xsetroot -solid "#636f7d"
 
 #fonts
-xset +fp /home/nathaniel/.fonts
+xset +fp /home/ronin/.fonts
+xset +fp /usr/share/fonts/bitmap/
 xset fp rehash
 
 #merge Xresources
@@ -14,6 +15,8 @@ xrdb -load ~/.Xresources
 #PA
 
 start-pulseaudio-x11 &
+dunst &
+polybar base &
 ~/.screenlayout/layout.sh & 
 ~/.fehbg & 
 #wm

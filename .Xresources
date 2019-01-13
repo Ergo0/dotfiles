@@ -7,8 +7,20 @@ URxvt.intensityStyles: false
 URxvt.scrollBar: false 
 
 !URxvt*depth: 32
-Urxvt.font:xft:creep:size=11
+!URxvt.font:xft:roboto:size=11
+URxvt.font:xft:tewi:size=11
+!Urxvt.fonts: -*-lemon-*
 URxvt.boldFont:
+URxvt.letterSpace : 0
+
+
+! XFT
+Xft.lcdfilter : lcddefault
+Xft.hintstyle : hintslight
+Xft.hinting   : true
+Xft.antialias : true
+Xft.rgba      : rgb
+
 
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
@@ -17,16 +29,16 @@ URxvt.matcher.button: 1
 
 !2bwm settings 
 
-twobwm.border_width: 5
-twobwm.outer_border: 3
+twobwm.border_width: 6
+twobwm.outer_border: 4
 twobwm.focus_color: #fefefe
-twobwm.unfocus_color: #c3b9bf 
+twobwm.unfocus_color: #e2c6b0
 twobwm.fixed_color: #466a7a
 twobwm.unkill_color: #f5887d
-twobwm.outer_border_color: #f4afa8
+twobwm.outer_border_color: #3a4b5b
 twobwm.fixed_unkill_color: #f0c674
-twobwm.inverted_colors: true
-twobwm.enable_compton: false
+twobwm.inverted_colors: false
+twobwm.enable_compton: true
 
 *internalBorder: 25
 
