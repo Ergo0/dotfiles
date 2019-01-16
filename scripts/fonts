@@ -2,7 +2,7 @@
 
 
 # vars
-set fontdir "/usr/share/fonts"
+set fontdir "~/.local/share/fonts"
 
 
 # exec
