@@ -16,3 +16,19 @@
 [2019-01-19 13:44:06] Reading configuration file fset.conf
 [2019-01-19 13:44:06] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
 [2019-01-19 13:44:06] irc: connecting to server foxbnc.co.uk/9001 (SSL)...
+[2019-01-19 13:59:57] Signal SIGHUP received, exiting WeeChat...
+[2019-01-19 13:59:57] Writing configuration file plugins.conf
+[2019-01-19 13:59:57] Writing configuration file alias.conf
+[2019-01-19 13:59:57] Writing configuration file buflist.conf
+[2019-01-19 13:59:57] Writing configuration file charset.conf
+[2019-01-19 13:59:57] Writing configuration file exec.conf
+[2019-01-19 13:59:57] Writing configuration file fifo.conf
+[2019-01-19 13:59:57] Writing configuration file fset.conf
+[2019-01-19 13:59:57] Writing configuration file irc.conf
+[2019-01-19 13:59:57] Writing configuration file logger.conf
+[2019-01-19 13:59:57] Writing configuration file relay.conf
+[2019-01-19 13:59:57] Writing configuration file script.conf
+[2019-01-19 13:59:57] Writing configuration file trigger.conf
+[2019-01-19 13:59:57] Writing configuration file xfer.conf
+[2019-01-19 13:59:57] Writing configuration file weechat.conf
+[2019-01-19 13:59:57] Writing configuration file sec.conf

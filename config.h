@@ -13,7 +13,7 @@ static const float    resize_keep_aspect_ratio= 1.03;
 ///---Offsets---///
 /*0)offsetx          1)offsety
  *2)maxwidth         3)maxheight */
-static const uint8_t offsets[] = {0,0,0,0};
+static const uint8_t offsets[] = {0,0,0,25};
 ///---Colors---///
 /*0)focuscol         1)unfocuscol
  *2)fixedcol         3)unkilcol
@@ -41,9 +41,11 @@ static const uint8_t borders[] = {5,7,4,3};
 #define LOOK_INTO "WM_NAME"
 static const char *ignore_names[] = {"bar", "xclock"};
 ///--Menus and Programs---///
-static const char *menucmd[]   = { "rofi","-show","run" };
+static const char *menucmd[]   = { "rofia", NULL };
 static const char *gmrun[]     = { "/usr/bin/gmrun",NULL};
-static const char *terminal[]  = { "urxvt", NULL };
+static const char *terminal[]  = { "st", NULL };
+static const char *scrot[]   = { "upste", "-s", NULL};
+static const char *prntscrn[] = { "upste" , NULL };
 static const char *click1[]    = { "xdotool","click", "1", NULL };
 static const char *click2[]    = { "xdotool","click", "2", NULL };
 static const char *click3[]    = { "xdotool","click", "3", NULL };
@@ -176,6 +178,8 @@ static key keys[] = {
     {  MOD ,              XK_Return,     start,             {.com = terminal}},
     {  MOD ,              XK_d,          start,             {.com = menucmd}},
     {  MOD |SHIFT,        XK_w,          start,             {.com = gmrun}},
+    {  MOD ,        	  XK_s,         start,             {.com = scrot}},
+     {  MOD |SHIFT,        XK_s,          start,             {.com = prntscrn}}, 
     // Exit or restart 2bwm
     {  MOD |CONTROL,      XK_q,          twobwm_exit,       {.i=0}},
     {  MOD |CONTROL,      XK_r,          twobwm_restart,    {.i=0}},
