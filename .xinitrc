@@ -1,8 +1,11 @@
+#!/bin/bash
+
+
 #set a nice backgroundm'gv``.
 xsetroot -solid "#636f7d"
 
 #fonts
-xset +fp /home/ronin/.fonts
+xset +fp ~/.fonts
 xset +fp /usr/share/fonts/bitmap/
 xset fp rehash
 
@@ -15,12 +18,12 @@ xrdb -load ~/.Xresources
 #PA
 
 start-pulseaudio-x11 &
-dunst &
+#dunst &
 polybar base &
-~/.screenlayout/layout.sh & 
+#~/.screenlayout/layout.sh & 
 ~/.fehbg & 
 #wm
-exec 2bwm
+exec 2bwm 
 
  
 

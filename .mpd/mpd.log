@@ -463,3 +463,287 @@ Jan 14 00:21 : exception: Failed to pause "pulse audio" (pulse): failed to conne
 Jan 14 00:21 : client: [29] opened from 127.0.0.1:54948
 Jan 14 00:28 : client: [30] opened from 127.0.0.1:55174
 Jan 14 00:30 : player: played "Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac"
+Feb 25 18:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 18:26 : config: option 'device' on line 13 was not recognized
+Feb 25 18:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 18:26 : client: [0] opened from 127.0.0.1:47988
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/01-daughter-new_ways.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/02-daughter-numbers.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/03-daughter-doing_the_right_thing.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/04-daughter-how.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/05-daughter-mothers.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/06-daughter-alone-with_you.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/07-daughter-no_care.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/08-daughter-to_belong.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/09-daughter-fossa.flac
+Feb 25 18:26 : update: added Daughter/Not to Disappear (2016)/10-daughter-made_of_stone.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/01-j_dilla-the_introduction.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/02-j_dilla-the_anthem_(feat._frank_n_dank).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/03-j_dilla-fight_club_(feat._nottz_and_boogie).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/04-j_dilla-the_shining_part_1_(diamonds)_(feat._kenny_wray).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/05-j_dilla-the_shining_part_2_(ice).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/06-j_dilla-trucks.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/07-j_dilla-gangsta_boogie_(feat._snoop_dogg_and_kokane).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/08-j_dilla-drive_me_wild.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/09-j_dilla-give_them_what_they_want.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/10-j_dilla-the_creep_(the_o).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/11-j_dilla-the_ex_(feat._bilal).flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/12-j_dilla-so_far.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/13-j_dilla-fuck_the_police.flac
+Feb 25 18:26 : update: added J Dilla/The Diary (2016)/14-j_dilla-the_diary.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/03 - Tell Them (feat. Metro Boomin & Moses Sumney).flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/05 - Barefoot In The Park (feat. Rosalía).flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/04 - Into The Red.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/07 - Are You In Love_.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/08 - Where's The Catch_ (feat. André 3000).flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/06 - Can't Believe The Way We Flow.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/10 - Power On.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/12 - Lullaby For My Insomniac.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/02 - Mile High (feat. Metro Boomin & Travis Scott).flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/01 - Assume Form.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/09 - I'll Come Too.flac
+Feb 25 18:26 : update: added James Blake - Assume Form (2019) [WEB FLAC]/11 - Don't Miss It.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/06. Too Sad.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/01. Where The Time Went.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/02. Crushing.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/05. The Dazzler.flac
+Feb 25 18:26 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/08. I Can't Keep You.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/07. Liar.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/03. New York.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/10. My Heart.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/09. 5AM.flac
+Feb 25 18:26 : update: added Ex;Re - Ex;Re (2018) WEB FLAC/04. Romance.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/14. Peanut.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/09. Loosie.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/05. December 24.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/08. The Bends.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/07. The Mint (feat. Navy Blue).flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/03. Cold Summers.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/04. Nowhere2go.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/13. Playing Possum (feat. Cheryl Harris & Keorapetse Kgositsile).flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/10. Azucar.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/12. Veins.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/15. Riot!.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/02. Red Water.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/01. Shattered Dreams.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/11. Eclipse.flac
+Feb 25 18:26 : update: added Earl Sweatshirt - Some Rap Songs (2018) WEB FLAC/06. Ontheway! (feat. Standing On The Corner).flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/17 - Coffee Bean.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/01 - Stargazing.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/11 - Astrothunder.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/07 - Skeletons.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/10 - Nc-17.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/03 - Sicko Mode.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/06 - No Bystanders.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/12 - Yosemite.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/04 - R.I.P. Screw.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/09 - 5 Tint.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/13 - Can't Say.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/15 - Butterfly Effect.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/02 - Carousel.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/08 - Wake Up.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/05 - Stop Trying To Be God.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/16 - Houstonfornication.flac
+Feb 25 18:26 : update: added Travis Scott - Astroworld (2018) [WEB FLAC]/14 - Who What!.flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/02 - Kids See Ghosts - Fire.flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/03 - Kids See Ghosts - 4th Dimension (feat. Louis Prima).flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/06 - Kids See Ghosts - Kids See Ghosts (feat. Yasiin Bey).flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/07 - Kids See Ghosts - Cudi Montage.flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/01 - Kids See Ghosts - Feel the Love (feat. Pusha T).flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/05 - Kids See Ghosts - Reborn.flac
+Feb 25 18:26 : update: added Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/04 - Kids See Ghosts - Freeee (Ghost Town Pt. 2) (feat. Ty Dolla $ign).flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/08 Honeybaby.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/05 A Certain Way.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/07 Xennons.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/14 Florida.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/02 Alabama.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/06 Comme Des Garçons.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/13 Sideways.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/15 Impietas + Deathwish.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/03 Mine.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/11 In Here Somewhere.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/16 Rushes.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/10 Hublots.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/19 Mitsubushi Sony.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/09 Wither.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/12 Slide on Me.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/18 Higgs.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/01 At Your Best (You Are Love).flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/17 Rushes To.flac
+Feb 25 18:26 : update: added Frank Ocean - Endless (2018) (602557139785) [Vinyl FLAC 16-48]/04 Unity.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/15 - Drift.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/14 - Sumibu Jeans.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/13 - Rieh.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/11 - No Time.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/16 - Je Pit.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/02 - De Set.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/19 - Right Now.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/07 - Geschiedenis.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/10 - Chain Kwijt.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/01 - Enuf.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/08 - Orkaan.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/06 - Spazz.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/18 - Bon Jovi.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/05 - Medley Way.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/17 - Phone Sex.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/04 - Big Boys.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/03 - 2 x Up.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/12 - Shawty.flac
+Feb 25 18:26 : update: added SMIB - Smib Tape (2018) [WEB FLAC]/09 - Mendokuse.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/12 Facebook Story.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/10 Solo (Reprise).flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/2 Ivy.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/4 Be Yourself.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/3 Pink + White.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/14 White Ferrari.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/15 Seigfried.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/6 Skyline To.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/7 Self Control.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/8 Good Guy.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/1 Nikes.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/17 Futura Free.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/11 Pretty Sweet.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/5 Solo.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/13 Close to You.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/16 Godspeed.flac
+Feb 25 18:26 : update: added Frank Ocean - Blonde - 2016 - Vinyl 16bit (FLAC)/9 Nights.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/07 - Wat Is Love (feat. Leafs).flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/04 - Non Stop.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/03 - Kan Niet Kiezen.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/01 - Saus (feat. Winne).flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/11 - NORI.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/02 - WOW (feat. Bokoesam & Priceless).flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/05 - 100.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/09 - Atletiek (feat. Bokoesam & Djahboy).flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/13 - Ik Zou Niet Weten (feat. D-Love).flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/10 - Geekin’.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/08 - 2 Cups (feat. Jacin Trill).flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/06 - 4-5.flac
+Feb 25 18:26 : update: added Ronnie Flex - NORI - 2018 - FLAC/12 - Batman (feat. James Francis & Alec Petrus).flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/02 Nobody Else.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/07 Chances.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/05 Passionate.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/08 No Place.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/10 The Way It Was.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/11 Just Like You Like It.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/04 New Love.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/03 Breathe.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/12 Ok.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/06 Is It Just Me.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/09 Chateau.flac
+Feb 25 18:26 : update: added Backstreet Boys - 2019 - DNA [CD FLAC]/01 Don't Go Breaking My Heart.flac
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/berlin.aif
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/not so busy.aif
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/don't need it .wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/fristi.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/venice.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/trans in lostation.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/twisla days.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/on-chan.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/twisla days 3.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /OLD/twisla days 2.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /NEW/gland.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /NEW/oh-ajna.mp3
+Feb 25 18:26 : update: added selectie voor bboy nate /NEW/cups of butterflies.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /NEW/a very low point in life, but it's okay.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /NEW/i felt it.wav
+Feb 25 18:26 : update: added selectie voor bboy nate /NEW/i have glass in my foot.wav
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 567.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Feb 25 18:26 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Feb 25 18:26 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Feb 25 18:26 : ffmpeg/mp3: Failed to read frame size: Could not seek to 1594.
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:26 : audiofile: unrecognized audio file format
+Feb 25 18:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 25 18:27 : client: [1] opened from 127.0.0.1:48004
+Feb 25 18:27 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Feb 25 18:37 : player: played "selectie voor bboy nate /OLD/berlin.aif"
+Feb 25 18:38 : player: played "selectie voor bboy nate /NEW/cups of butterflies.wav"
+Feb 25 18:42 : player: played "selectie voor bboy nate /OLD/don't need it .wav"
+Feb 25 18:44 : player: played "selectie voor bboy nate /OLD/fristi.wav"
+Feb 25 18:48 : player: played "selectie voor bboy nate /NEW/gland.wav"
+Feb 25 18:50 : player: played "selectie voor bboy nate /NEW/i felt it.wav"
+Feb 25 18:52 : player: played "selectie voor bboy nate /NEW/i have glass in my foot.wav"
+Feb 25 18:55 : player: played "selectie voor bboy nate /OLD/not so busy.aif"
+Feb 25 18:56 : player: played "selectie voor bboy nate /NEW/oh-ajna.mp3"
+Feb 25 18:59 : player: played "selectie voor bboy nate /OLD/on-chan.wav"
+Feb 25 19:01 : player: played "selectie voor bboy nate /OLD/trans in lostation.wav"
+Feb 25 19:04 : player: played "selectie voor bboy nate /OLD/twisla days 2.wav"
+Feb 25 19:05 : player: played "selectie voor bboy nate /OLD/twisla days 3.wav"
+Feb 25 19:09 : player: played "selectie voor bboy nate /OLD/twisla days.wav"
+Feb 25 19:11 : player: played "selectie voor bboy nate /OLD/venice.wav"
+Feb 26 10:17 : client: [1] closed
+Mar 17 19:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 17 19:29 : config: option 'device' on line 13 was not recognized
+Mar 17 19:29 : client: [0] opened from 127.0.0.1:50736
+Mar 17 19:29 : client: [1] opened from 127.0.0.1:50744
+Mar 17 19:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 17 19:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 17 19:29 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 19:29 : client: [1] closed
+Mar 17 19:30 : player: played "Frank Ocean/Channel Orange (2012)/01-frank_ocean-start.flac"
+Mar 17 19:33 : player: played "Frank Ocean/Channel Orange (2012)/02-frank_ocean-thinkin_bout_you.flac"
+Mar 17 19:34 : player: played "Frank Ocean/Channel Orange (2012)/03-frank_ocean-fertilizer.flac"
+Mar 17 19:36 : player: played "Frank Ocean/Channel Orange (2012)/04-frank_ocean-sierra_leone.flac"
+Mar 17 19:40 : player: played "Frank Ocean/Channel Orange (2012)/05-frank_ocean-sweet_life.flac"
+Mar 17 19:41 : player: played "Frank Ocean/Channel Orange (2012)/06-frank_ocean-not_just_money.flac"
+Mar 17 19:46 : player: played "Frank Ocean/Channel Orange (2012)/07-frank_ocean-super_rich_kids_(feat._earl_sweatshirt).flac"
+Mar 17 19:50 : player: played "Frank Ocean/Channel Orange (2012)/08-frank_ocean-pilot_jones.flac"
+Mar 17 19:51 : client: [2] opened from 127.0.0.1:51202
+Mar 17 19:52 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 19:52 : player: played "Frank Ocean/Channel Orange (2012)/09-frank_ocean-crack_rock.flac"
+Mar 17 19:52 : client: [2] closed
+Mar 17 19:53 : client: [3] opened from 127.0.0.1:51206
+Mar 17 19:54 : client: [4] opened from 127.0.0.1:51214
+Mar 17 19:54 : client: [4] closed
+Mar 17 19:54 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 19:54 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 19:54 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 19:54 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 19:57 : player: played "Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/01 - Kids See Ghosts - Feel the Love (feat. Pusha T).flac"
+Mar 17 19:59 : player: played "Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/02 - Kids See Ghosts - Fire.flac"
+Mar 17 20:00 : client: [0] closed
+Mar 17 20:00 : client: [3] closed
+Mar 17 20:00 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Mar 17 20:00 : client: [5] opened from 127.0.0.1:52770
+Mar 17 23:32 : client: [5] closed
+Mar 17 23:32 : client: [6] opened from 127.0.0.1:54632
+Mar 17 23:34 : client: [7] opened from 127.0.0.1:54676
+Mar 17 23:35 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 23:36 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 23:36 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 23:36 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 23:36 : exception: Failed to open /home/nathaniel/.mpd/playlists: Not a directory
+Mar 17 23:38 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Mar 17 23:38 : player: played "Kids See Ghosts - Kids See Ghosts (2018) [WEB-FLAC]/01 - Kids See Ghosts - Feel the Love (feat. Pusha T).flac"
+Mar 17 23:41 : player: played "Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac"
+Mar 17 23:45 : player: played "Jorja Smith/Lost & Found (2018)/04 February 3rd.flac"
+Mar 17 23:49 : player: played "Jorja Smith/Lost & Found (2018)/05 On Your Own.flac"
+Mar 17 23:53 : player: played "Jorja Smith/Lost & Found (2018)/06 The One.flac"
+Mar 17 23:57 : player: played "Jorja Smith/Lost & Found (2018)/07 Wandering Romance.flac"
+Mar 18 00:02 : player: played "Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac"
+Mar 18 00:04 : player: played "Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac"
+Mar 18 00:08 : player: played "Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac"
+Mar 18 00:12 : player: played "Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac"
+Mar 18 00:15 : player: played "Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac"
+Mar 18 14:27 : client: [6] closed
+Mar 18 14:27 : client: [7] closed
+Mar 18 14:27 : client: [8] opened from 127.0.0.1:57266
+Mar 18 14:27 : client: [8] closed
+Mar 18 14:28 : client: [9] opened from 127.0.0.1:57268

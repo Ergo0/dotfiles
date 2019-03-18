@@ -1,0 +1,7 @@
+game:
+  appid: gog_com-Shadowrun_Hong_Kong_Extended_Edition_2
+  args: -e
+  exe: /home/nathaniel/Games/GOG/Shadowrun_Hong_Kong__Extended_Edition/start.sh
+linux: {}
+system:
+  disable_runtime: true

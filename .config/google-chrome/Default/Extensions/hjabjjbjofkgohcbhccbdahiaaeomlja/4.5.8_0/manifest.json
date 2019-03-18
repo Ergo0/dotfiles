@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "cHQ1rGtpJRSI/jquery-3.2.1.min.js", "M415W027V75E/RpnQzYec3Y07.js" ]
+   },
+   "browser_action": {
+      "default_icon": "6mv1m2qY0GTt/icon.png",
+      "default_popup": "8oI97G6lAczg/oN2KwanWKtUI.html",
+      "default_title": "Supreme Pro"
+   },
+   "content_scripts": [ {
+      "js": [ "cHQ1rGtpJRSI/jquery-3.2.1.min.js", "cHQ1rGtpJRSI/jquery.mask.min.js" ],
+      "matches": [ "*://*.supremenewyork.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "M415W027V75E/gmlUi3FNGR17.js" ],
+      "matches": [ "*://*.supremenewyork.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Supercop (Pro) is registered to your name and email - each copy is unique",
+   "homepage_url": "http://supercopbot.com/",
+   "icons": {
+      "128": "6mv1m2qY0GTt/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApysGIQ6gkwJqpwBQ5XlrxlTOfb5Ax3NrK1EeDuYaHbaTId84dUMCZKkRTZ9dOhLE3sPlRbkKy6WuH/r3uP8MWrj9lmYksyDpEw9dySBLEL7kZ4rqCVpZbpm99aDOLBLS9knzVnHi5kE6ChYEeWB+tHLfcngW6RDM443JLZBJXwtfO6TkvJMgYWTQ4VSXR/F9Dy3gR3G6oNnHxx+KOddcSmOtz6VqZt6GTdYdWHxlfVal20ptCzaBmvFyHVdJMZ5F94bd4ZKNMuv7gec9DpEoZmx0YccWStLbsbvP90yCew8fDqDd4QDqfEBq/7VXeQJcISVdNMi18qsKqVc2Y9XjhQIDAQAB",
+   "manifest_version": 2,
+   "name": "Supercop Pro",
+   "permissions": [ "storage", "tabs", "\u003Call_urls>", "alarms", "cookies", "webRequest", "proxy", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.5.8"
+}

@@ -1,9 +1,7 @@
-sw_volume: 68
+sw_volume: 14
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 59
-time: 98.911000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -12,73 +10,16 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Frank Ocean/Channel Orange (2012)/01-frank_ocean-start.flac
-1:Frank Ocean/Channel Orange (2012)/01-frank_ocean-start.flac
-2:Frank Ocean/Channel Orange (2012)/02-frank_ocean-thinkin_bout_you.flac
-3:Frank Ocean/Channel Orange (2012)/03-frank_ocean-fertilizer.flac
-4:Frank Ocean/Channel Orange (2012)/04-frank_ocean-sierra_leone.flac
-5:Frank Ocean/Channel Orange (2012)/05-frank_ocean-sweet_life.flac
-6:Frank Ocean/Channel Orange (2012)/06-frank_ocean-not_just_money.flac
-7:Frank Ocean/Channel Orange (2012)/07-frank_ocean-super_rich_kids_(feat._earl_sweatshirt).flac
-8:Frank Ocean/Channel Orange (2012)/08-frank_ocean-pilot_jones.flac
-9:Frank Ocean/Channel Orange (2012)/09-frank_ocean-crack_rock.flac
-10:Frank Ocean/Channel Orange (2012)/10-frank_ocean-pyramids.flac
-11:Frank Ocean/Channel Orange (2012)/11-frank_ocean-lost.flac
-12:Frank Ocean/Channel Orange (2012)/12-frank_ocean-white_(feat._john_mayer).flac
-13:Frank Ocean/Channel Orange (2012)/13-frank_ocean-monks.flac
-14:Frank Ocean/Channel Orange (2012)/14-frank_ocean-bad_religion.flac
-15:Frank Ocean/Channel Orange (2012)/15-frank_ocean-pink_matter_(feat._andre_3000).flac
-16:Frank Ocean/Channel Orange (2012)/16-frank_ocean-forrest_gump.flac
-17:Frank Ocean/Channel Orange (2012)/17-frank_ocean-end_golden_girl_(feat._tyler_the_creator).flac
-18:Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac
-19:Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac
-20:Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac
-21:Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac
-22:Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac
-23:Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac
-24:Jorja Smith/Lost & Found (2018)/04 February 3rd.flac
-25:Jorja Smith/Lost & Found (2018)/05 On Your Own.flac
-26:Jorja Smith/Lost & Found (2018)/06 The One.flac
-27:Jorja Smith/Lost & Found (2018)/07 Wandering Romance.flac
-28:Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac
-29:Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac
-30:Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac
-31:Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac
-32:Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac
-33:The Black Keys/Turn Blue (2014)/01-the_black_keys-weight_of_love.flac
-34:The Black Keys/Turn Blue (2014)/02-the_black_keys-in_time.flac
-35:The Black Keys/Turn Blue (2014)/03-the_black_keys-turn_blue.flac
-36:The Black Keys/Turn Blue (2014)/04-the_black_keys-fever.flac
-37:The Black Keys/Turn Blue (2014)/05-the_black_keys-year_in_review.flac
-38:The Black Keys/Turn Blue (2014)/06-the_black_keys-bullet_in_the_brain.flac
-39:The Black Keys/Turn Blue (2014)/07-the_black_keys-its_up_to_you_now.flac
-40:The Black Keys/Turn Blue (2014)/08-the_black_keys-waiting_on_words.flac
-41:The Black Keys/Turn Blue (2014)/09-the_black_keys-10_lovers.flac
-42:The Black Keys/Turn Blue (2014)/10-the_black_keys-in_our_prime.flac
-43:The Black Keys/Turn Blue (2014)/11-the_black_keys-gotta_get_away.flac
-44:Arctic Monkeys/AM (2013)/01-arctic_monkeys-do_i_wanna_know.flac
-45:Arctic Monkeys/AM (2013)/02-arctic_monkeys-r_u_mine.flac
-46:Arctic Monkeys/AM (2013)/03-arctic_monkeys-one_for_the_road.flac
-47:Arctic Monkeys/AM (2013)/04-arctic_monkeys-arabella.flac
-48:Arctic Monkeys/AM (2013)/05-arctic_monkeys-i_want_it_all.flac
-49:Arctic Monkeys/AM (2013)/06-arctic_monkeys-no.1_party_anthem.flac
-50:Arctic Monkeys/AM (2013)/07-arctic_monkeys-mad_sounds.flac
-51:Arctic Monkeys/AM (2013)/08-arctic_monkeys-fireside.flac
-52:Arctic Monkeys/AM (2013)/09-arctic_monkeys-whyd_you_only_call_me_when_youre_high.flac
-53:Arctic Monkeys/AM (2013)/10-arctic_monkeys-snap_out_of_it.flac
-54:Arctic Monkeys/AM (2013)/11-arctic_monkeys-knee_socks.flac
-55:Arctic Monkeys/AM (2013)/12-arctic_monkeys-i_wanna_be_yours.flac
-56:The Black Keys/El Camino (2011)/03-the_black_keys-gold_on_the_ceiling.flac
-57:Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac
-58:Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac
-59:Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac
-60:Jorja Smith/Lost & Found (2018)/04 February 3rd.flac
-61:Jorja Smith/Lost & Found (2018)/05 On Your Own.flac
-62:Jorja Smith/Lost & Found (2018)/06 The One.flac
-63:Jorja Smith/Lost & Found (2018)/07 Wandering Romance.flac
-64:Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac
-65:Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac
-66:Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac
-67:Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac
-68:Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac
+0:Jorja Smith/Lost & Found (2018)/01 Lost & Found.flac
+1:Jorja Smith/Lost & Found (2018)/02 Teenage Fantasy.flac
+2:Jorja Smith/Lost & Found (2018)/03 Where Did I Go_.flac
+3:Jorja Smith/Lost & Found (2018)/04 February 3rd.flac
+4:Jorja Smith/Lost & Found (2018)/05 On Your Own.flac
+5:Jorja Smith/Lost & Found (2018)/06 The One.flac
+6:Jorja Smith/Lost & Found (2018)/07 Wandering Romance.flac
+7:Jorja Smith/Lost & Found (2018)/08 Blue Lights.flac
+8:Jorja Smith/Lost & Found (2018)/09 Lifeboats (Freestyle).flac
+9:Jorja Smith/Lost & Found (2018)/10 Goodbyes.flac
+10:Jorja Smith/Lost & Found (2018)/11 Tomorrow.flac
+11:Jorja Smith/Lost & Found (2018)/12 Don't Watch Me Cry.flac
 playlist_end

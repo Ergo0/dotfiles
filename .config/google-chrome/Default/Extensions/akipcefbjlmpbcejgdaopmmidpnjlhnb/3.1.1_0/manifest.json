@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "lib/app.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "data/off-16.png",
+         "32": "data/off-32.png",
+         "64": "data/off-32.png"
+      },
+      "default_title": "Media Hint: OFF"
+   },
+   "description": "Use the Media Hint service to access the content you need on the internet.",
+   "externally_connectable": {
+      "matches": [ "https://mediahint.com/*" ]
+   },
+   "icons": {
+      "128": "data/icon.png",
+      "48": "data/icon-48.png",
+      "96": "data/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhZTtI3y4Roh40vaRQ94zAssM3lGZL2gVIfFhI+gYEJq/P/kZ6ALwzVxEgxEWl9t76cheXwamBpVZQkRMAD6dA/QbT2uDbeKyKw23APxXADYXhLHwFvYbuE/Fu/FIxHaz5GuMLEvPZticzcb3UFkniYGfw8xaNnJGO7S65I1QTKKX86IztHFi2vc7Gc9lhjNaWL4Jvy8pT2HhVA5D49oKDrLwMqUwffm7E0f79LdBxyiQTtA+vuze1MqIQ1NspZJ/PjwITUzvTCHbR6DowGrbuaEaku45esL69o6sllx4u5H4YS3mprIsy3ITHGQf0FnjuYMzUeJRtTKwD5eCcXcehwIDAQAB",
+   "manifest_version": 2,
+   "name": "Media Hint",
+   "permissions": [ "proxy", "https://mediahint.com/*", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.1"
+}
