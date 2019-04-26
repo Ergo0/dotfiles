@@ -1,0 +1,13 @@
+#include </home/nathaniel/.theme/coolgirl> 
+
+! general urxvt stuff
+URxvt.scrollBar: false
+URxvt.internalBorder: 25
+! urxvt clickable links
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+! Urxvt font stuff
+URxvt.font: xft:dina:size=11
+URxvt.boldFont:
