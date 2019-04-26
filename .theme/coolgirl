@@ -1,0 +1,35 @@
+ockground:   #002637
+*.cursorColor:  #eeeeee
+
+! black
+*.color0:       #3e969a
+*.color8:       #51c3ad
+
+! red
+*.color1:       #a9a29c
+*.color9:       #dbd1ca
+
+! green
+*.color2:       #c6a7b6
+*.color10:      #f8d1e3
+
+! yellow
+*.color3:       #aec6bd
+*.color11:      #d9f8ec
+
+! blue
+*.color4:       #c2c1c3
+*.color12:      #f3f2f5
+
+! magenta
+*.color5:       #c6a7b6
+*.color13:      #f8d1e3
+
+! cyan
+*.color6:       #f3e0e2
+*.color14:      #4fa99d
+
+! white
+*.color7:       #cecece
+*.color15:      #c5c8c6
+ash: special: epdracht niet gevonden

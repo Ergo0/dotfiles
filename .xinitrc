@@ -19,7 +19,6 @@ xrdb -load ~/.Xresources
 
 start-pulseaudio-x11 &
 #dunst &
-polybar base &
 #~/.screenlayout/layout.sh & 
 ~/.fehbg & 
 #wm
