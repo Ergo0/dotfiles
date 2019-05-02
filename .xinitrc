@@ -18,11 +18,12 @@ xrdb -load ~/.Xresources
 #PA
 
 start-pulseaudio-x11 &
-#dunst &
+dunst &
+admiral.sh &
 #~/.screenlayout/layout.sh & 
 ~/.fehbg & 
 #wm
-exec 2bwm 
+exec 2bwm
 
  
 
