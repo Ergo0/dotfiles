@@ -1,0 +1,14 @@
+game:
+  arch: win64
+  args: /runWithoutUpdating /deelevated
+  exe: drive_c/Program Files (x86)/GOG Galaxy/GalaxyClient.exe
+  prefix: /home/nathaniel/Games/gwent-the-witcher-card-game
+system:
+  env:
+    DXVK_HUD: '0'
+wine:
+  Desktop: true
+  MouseWarpOverride: force
+  WineDesktop: 1600x900
+  dxvk: true
+  version: tkg-4.0-x86_64
