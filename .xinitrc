@@ -5,9 +5,9 @@
 xsetroot -solid "#636f7d"
 
 #fonts
-#xset +fp ~/.fonts
-#xset +fp /usr/share/fonts/bitmap/
-#xset fp rehash
+xset +fp ~/.fonts
+xset +fp /usr/share/fonts/bitmap/
+xset fp rehash
 
 #merge Xresources
 xrdb -load ~/.Xresources

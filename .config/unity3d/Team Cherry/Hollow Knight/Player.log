@@ -1,5 +1,5 @@
 Desktop is 1920 x 1080 @ 60 Hz
-New context 0x323c050 created with attributes:
+New context 0x44bf7a0 created with attributes:
 Initialize engine version: 2017.4.10f1 (f2cce2a5991f)
 GfxDevice: creating device client; threaded=1
 Renderer: Radeon RX Vega (VEGA10, DRM 3.30.0, 5.1.15, LLVM 8.0.0)
@@ -12,10 +12,10 @@ L_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL
 re_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float 
 GL_ATI_texture_mirror_once GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangle
 s GL_IBM_multimode_draw_arrays GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 52674640
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 72087456
 AudioManager: Using PulseAudio: Default Output Device
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.307 seconds
+- Completed reload, in  0.265 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -28,12 +28,12 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
  
 (Filename:  Line: 375)
 
-New context 0x3b9daf0 created with attributes:
+New context 0x4e22490 created with attributes:
 Default vsync count 1
-requesting resize 1920 x 1050
-resizing window to 1920 x 1050
+requesting resize 1904 x 1014
+resizing window to 1904 x 1014
 Desktop is 1920 x 1080 @ 60 Hz
-UnloadTime: 13.465000 ms
+UnloadTime: 11.505000 ms
 Graphics tier changed to High
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -101,7 +101,7 @@ Restored language code 'EN'
 
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3556.
-Total: 1.324000 ms (FindLiveObjects: 0.280000 ms CreateObjectMapping: 0.051000 ms MarkObjects: 0.963000 ms  DeleteObjects: 0.030000 ms)
+Total: 1.258000 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.047000 ms MarkObjects: 0.933000 ms  DeleteObjects: 0.032000 ms)
 
 Steam stats received.
  
@@ -113,7 +113,7 @@ Didn't need to wait for PlayerPrefs load.
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 4.099000 ms
+UnloadTime: 4.381000 ms
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 485)
@@ -143,7 +143,7 @@ resizing window to 1904 x 1014
 Desktop is 1920 x 1080 @ 60 Hz
 
 Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 44937.
-Total: 120.494000 ms (FindLiveObjects: 3.088000 ms CreateObjectMapping: 1.233000 ms MarkObjects: 115.952000 ms  DeleteObjects: 0.220000 ms)
+Total: 117.477000 ms (FindLiveObjects: 3.116000 ms CreateObjectMapping: 1.177000 ms MarkObjects: 112.943000 ms  DeleteObjects: 0.240000 ms)
 
 Game controller set to Generic Controller.
  
@@ -201,325 +201,6 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Mines Exit Lift : Lift Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: RestBench : Bench Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zote Final : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Elderbug : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Gravedigger NPC : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Inspect Region : inspect_region
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Jiji Door : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Elderbug Grimm : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 179 unused Assets to reduce memory usage. Loaded Objects now: 49021.
-Total: 147.909000 ms (FindLiveObjects: 2.731000 ms CreateObjectMapping: 0.948000 ms MarkObjects: 143.500000 ms  DeleteObjects: 0.730000 ms)
-
-FSM not Preprocessed: Station Bell : Stag Bell
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Stag Lift : Lift Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Stag : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Stag : Stag Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Could not find FSM: Enough Geo
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LoadLevel: Cinematic_Stag_travel
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.864000 ms
-Performing automatic level start.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-
-Unloading 1071 unused Assets to reduce memory usage. Loaded Objects now: 52161.
-Total: 176.798000 ms (FindLiveObjects: 4.128000 ms CreateObjectMapping: 1.645000 ms MarkObjects: 159.291000 ms  DeleteObjects: 11.734000 ms)
-
-Started cinematic 'StagTunnelRun'
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Started cinematic 'StagTunnelRun'
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Stopped cinematic 'StagTunnelRun'
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Tiso Bench NPC : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: RestBench : Bench Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Stag : npc_control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Stag : Stag Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Station Bell : Stag Bell
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Buzzer : chaser
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Break Wall 2 : FSM
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Spitter : flyer_receive_direction_msg
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Spitter : spitter
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Buzzer : chaser
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Spitter (1) : flyer_receive_direction_msg
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Spitter (1) : spitter
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Plat Rocks prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Toll Gate Machine : Toll Machine
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Toll Gate Machine (1) : Toll Machine
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Fireball Top(Clone) : Fireball Cast
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Fireball(Clone) : Fireball Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-PlayerData: Could not find field named , check variable name exists and FSM variable string is correct.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 FSM not Preprocessed: RestBench : Bench Control
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -536,7 +217,20 @@ Deferring level start (marked as manual).
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Object Pool attached to GlobalPool could not find a copy of Relic Get Msg, Instantiating a new one.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 384 unused Assets to reduce memory usage. Loaded Objects now: 47202.
+Total: 131.432000 ms (FindLiveObjects: 2.660000 ms CreateObjectMapping: 0.912000 ms MarkObjects: 126.793000 ms  DeleteObjects: 1.065000 ms)
+
+Bump Height: 1.192093E-07
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bump Height: 1.192093E-07
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -568,371 +262,11 @@ Deferring level start (marked as manual).
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Plat Dust prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Plat Dust prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Plat Stream Dust prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Fireball(Clone) : Fireball Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (2) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (3) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Knight Spike Death(Clone) : Knight Death Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Breakable Wall : breakable_wall_v2
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Plat Dust prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Object Pool attached to GlobalPool has run out of Plat Stream Dust prefabs, Instantiating an additional one.
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (2) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (3) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (2) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (3) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: RestBench : Bench Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shiny Item : Shiny Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Inspect Region : inspect
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer (2) : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer (3) : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer (1) : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Fireball(Clone) : Fireball Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (2) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (3) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Breakable Wall : breakable_wall_v2
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shot PickAxe(Clone) : collide_with_wall
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shiny Item (1) : Shiny Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer (2) : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer (1) : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (1) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 (9) : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Flyer (3) : Crystal Flyer
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Mines Crawler : Mines Crawler
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Zombie Miner 1 : Zombie Miner
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Inspect Region : inspect
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Deferring level start (marked as manual).
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Shiny Item(Clone) : Shiny Control
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Inspect Region : inspect
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Crystal Shot(Clone) : Crystal Form
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
  
 (Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

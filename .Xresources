@@ -9,7 +9,8 @@ URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
 ! Urxvt font stuff
-
+URxvt.font:xft:dina
+URxvt.boldfont: 
 
 !2bwm stuff
 twobwm.border_width: 6
