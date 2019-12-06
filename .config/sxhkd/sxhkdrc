@@ -1,4 +1,4 @@
-#
+
 # wm independent hotkeys
 #
 
@@ -41,7 +41,7 @@ super + shift + {0-9}
 super + m
     berryc window_monocle
 
-super + f
+super + x
     berryc fullscreen
 
 super +  p

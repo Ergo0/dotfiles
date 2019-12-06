@@ -19,9 +19,11 @@ xrdb -load ~/.Xresources
 
 start-pulseaudio-x11 &
 #~/.screenlayout/layout.sh & 
-sxhkd &
+#sxhkd &
 #wm
-exec berry
+~/.fehbg & 
+exec 2bwm
+
 
  
 
